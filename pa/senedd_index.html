@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta name="robots" content="noindex">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Senedd PRS Written Questions Monitor</title>
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+ 
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+  font-size: 14px;
+  color: #0F2636;
+  background: #F6F7F8;
+  min-height: 100vh;
+}
+ 
+/* ── Header ── */
+.header {
+  background: #113B54;
+  color: #FCFCFC;
+  padding: 18px 28px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.header h1 { font-size: 18px; font-weight: 600; letter-spacing: -0.2px; }
+.header-meta { font-size: 12px; color: rgba(252,252,252,0.55); margin-top: 2px; }
+.header-right { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+.badge-senedd {
+  background: #E96C19;
+  color: #FCFCFC;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 12px;
+  letter-spacing: 0.02em;
+}
+ 
+/* ── Controls ── */
+.controls {
+  background: #FCFCFC;
+  border-bottom: 1px solid #e2e8f0;
+  padding: 12px 28px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.controls input[type=text] {
+  flex: 1;
+  min-width: 200px;
+  max-width: 360px;
+  padding: 7px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 13px;
+}
+.controls input[type=text]:focus { outline: 2px solid #113B54; border-color: transparent; }
+ 
+.btn {
+  padding: 7px 16px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  background: #FCFCFC;
+  font-size: 13px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.1s;
+  color: #0F2636;
+}
+.btn:hover { background: #F6F7F8; }
+.btn-primary { background: #E96C19; color: #FCFCFC; border-color: #E96C19; }
+.btn-primary:hover { background: #c55c14; }
+ 
+/* ── Stats ── */
+.stats {
+  display: flex;
+  gap: 12px;
+  padding: 16px 28px;
+  background: #FCFCFC;
+  border-bottom: 1px solid #e2e8f0;
+  flex-wrap: wrap;
+}
+.stat { background: #F6F7F8; border-radius: 8px; padding: 10px 18px; }
+.stat-label { font-size: 11px; color: #6b7280; margin-bottom: 2px; text-transform: uppercase; letter-spacing: 0.04em; }
+.stat-value { font-size: 22px; font-weight: 600; color: #113B54; }
+ 
+/* ── Main card ── */
+.main { padding: 20px 28px; }
+.card {
+  background: #FCFCFC;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  overflow: hidden;
+}
+ 
+/* ── Week tabs ── */
+.week-tabs-wrap {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e2e8f0;
+  overflow-x: auto;
+  padding: 0 4px 6px;
+  scrollbar-width: thin;
+  scrollbar-color: #cbd5e1 transparent;
+}
+.week-tabs-wrap::-webkit-scrollbar { height: 4px; }
+.week-tabs-wrap::-webkit-scrollbar-track { background: transparent; }
+.week-tabs-wrap::-webkit-scrollbar-thumb { background: #E96C19; border-radius: 4px; }
+.week-tabs-wrap::-webkit-scrollbar-thumb:hover { background: #c55c14; }
+ 
+.week-tab {
+  padding: 12px 16px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 13px;
+  color: #64748b;
+  white-space: nowrap;
+  border-bottom: 2px solid transparent;
+  transition: color 0.15s;
+  flex-shrink: 0;
+}
+.week-tab:hover { color: #1e293b; }
+.week-tab.active {
+  color: #113B54;
+  font-weight: 600;
+  border-bottom-color: #E96C19;
+}
+.week-badge {
+  display: inline-block;
+  padding: 1px 6px;
+  border-radius: 10px;
+  font-size: 11px;
+  font-weight: 500;
+  margin-left: 5px;
+  background: #f1f5f9;
+  color: #64748b;
+  transition: all 0.15s;
+}
+.week-tab.active .week-badge {
+  background: #E96C19;
+  color: #FCFCFC;
+}
+ 
+/* ── Column headers ── */
+.col-headers {
+  display: grid;
+  grid-template-columns: 190px 58px 1fr 110px 110px;
+  gap: 12px;
+  padding: 8px 16px;
+  background: #f8fafc;
+  border-bottom: 1px solid #e2e8f0;
+  font-size: 10.5px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: #94a3b8;
+}
+ 
+/* ── Question rows ── */
+.q-row {
+  display: grid;
+  grid-template-columns: 190px 58px 1fr 110px 110px;
+  gap: 12px;
+  padding: 10px 16px;
+  border-bottom: 1px solid #f1f5f9;
+  cursor: pointer;
+  transition: background 0.1s;
+  align-items: start;
+}
+.q-row:last-child { border-bottom: none; }
+.q-row:hover { background: #f8fafc; }
+.q-row.group-start { border-top: 2px solid #fde8d8; }
+.q-row.group-start:first-child { border-top: none; }
+ 
+.q-member { font-size: 13px; font-weight: 600; color: #1e293b; line-height: 1.4; }
+.q-member-area { font-size: 11px; color: #94a3b8; margin-top: 1px; }
+.q-member-blank { color: transparent; user-select: none; font-size: 11px; }
+ 
+.q-text {
+  font-size: 12px;
+  color: #374151;
+  line-height: 1.6;
+}
+.q-text-inner {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  transition: all 0.2s;
+}
+.q-text-inner.expanded {
+  display: block;
+  -webkit-line-clamp: unset;
+}
+.q-link {
+  display: inline-block;
+  margin-top: 6px;
+  font-size: 11px;
+  color: #113B54;
+  text-decoration: none;
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.q-row:hover .q-link,
+.q-text-inner.expanded ~ .q-link { opacity: 1; }
+.q-link:hover { text-decoration: underline; }
+ 
+.q-date, .q-due {
+  font-size: 12px;
+  color: #64748b;
+  padding-top: 1px;
+}
+.ans-answered { font-size: 11px; font-weight: 600; color: #16a34a; }
+.ans-pending  { font-size: 11px; font-weight: 600; color: #E96C19; }
+ 
+/* ── Party badges ── */
+.party {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.p-Lab   { background: #fee2e2; color: #991b1b; }
+.p-Con   { background: #dbeafe; color: #1e40af; }
+.p-LD    { background: #fef3c7; color: #92400e; }
+.p-PC    { background: #99f6e4; color: #134e4a; }
+.p-Ref   { background: #cffafe; color: #0891b2; }
+.p-Green { background: #bbf7d0; color: #14532d; }
+.p-Ind   { background: #f1f5f9; color: #475569; }
+.p-other { background: #f1f5f9; color: #475569; }
+ 
+/* ── States ── */
+.state-msg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 48px 28px;
+  color: #94a3b8;
+  font-size: 14px;
+}
+.loading { padding: 60px 28px; text-align: center; color: #6b7280; }
+</style>
+</head>
+<body>
+ 
+<div class="header">
+  <div>
+    <h1>Senedd PRS Written Questions Monitor</h1>
+    <div class="header-meta" id="header-meta">Loading…</div>
+  </div>
+  <div class="header-right">
+    <span class="badge-senedd">7th Senedd</span>
+    <button class="btn btn-primary" onclick="downloadExcel()">⬇ Download Excel</button>
+  </div>
+</div>
+ 
+<div class="controls">
+  <input type="text" id="search" placeholder="Filter by member, constituency or keyword…" oninput="renderCard()">
+</div>
+ 
+<div class="stats" id="stats-wrap" style="display:none">
+  <div class="stat"><div class="stat-label">Total questions</div><div class="stat-value" id="stat-total">—</div></div>
+  <div class="stat"><div class="stat-label">Weeks covered</div><div class="stat-value" id="stat-weeks">—</div></div>
+  <div class="stat"><div class="stat-label">Members</div><div class="stat-value" id="stat-members">—</div></div>
+  <div style="margin-left:auto; display:flex; align-items:center;">
+    <img src="data:image/png;base64,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"
+         alt="Welsh flag" width="180" height="108"
+         style="border-radius:8px; box-shadow:0 1px 4px rgba(0,0,0,0.08); border:1px solid #e2e8f0; object-fit:cover;">
+  </div>
+</div>
+ 
+<div class="main">
+  <div class="card" id="main-card">
+    <div class="loading">Loading questions…</div>
+  </div>
+</div>
+ 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<script>
+let allData  = null;
+let weeks    = [];
+let activeWk = null;
+ 
+const PARTY_MAP = {
+  "Labour": "Lab", "Welsh Labour": "Lab",
+  "Welsh Conservatives": "Con", "Welsh Conservative Party": "Con", "Conservative": "Con",
+  "Plaid Cymru": "PC", "Plaid Cymru Group": "PC",
+  "Liberal Democrats": "LD", "Liberal Democrat": "LD", "Welsh Liberal Democrats": "LD",
+  "Reform UK": "Ref", "Reform UK Group": "Ref",
+  "Wales Green Party": "Green", "Green Party": "Green",
+  "Independent": "Ind", "Non-affiliated": "Ind",
+};
+ 
+function partyAbbrev(p) {
+  if (PARTY_MAP[p]) return PARTY_MAP[p];
+  var key = Object.keys(PARTY_MAP).find(function(k) { return p.startsWith(k) || k.startsWith(p); });
+  return key ? PARTY_MAP[key] : p;
+}
+ 
+function partyClass(p) {
+  var abbr = partyAbbrev(p);
+  var known = ['Lab','Con','LD','PC','Ref','Green','Ind'];
+  return known.includes(abbr) ? 'p-' + abbr : 'p-other';
+}
+ 
+function weekLabel(iso) {
+  var d   = new Date(iso + 'T00:00:00Z');
+  var day = d.getUTCDate();
+  var mon = d.toLocaleString('en-GB', { month: 'long', timeZone: 'UTC' });
+  var s   = ['th','st','nd','rd'];
+  var v   = day % 100;
+  return 'WC ' + day + (s[(v-20)%10] || s[v] || s[0]) + ' ' + mon;
+}
+ 
+function weekCommencing(dmy) {
+  // Returns the Monday (YYYY-MM-DD) of the week containing a DD/MM/YYYY date.
+  // All arithmetic is done in UTC: building the date in local time and then
+  // calling toISOString() shifts Monday 00:00 BST back to Sunday 23:00 UTC.
+  if (!dmy) return '';
+  var p = dmy.split('/').map(Number);
+  var dt = new Date(Date.UTC(p[2], p[1]-1, p[0]));
+  var dow = dt.getUTCDay();
+  dt.setUTCDate(dt.getUTCDate() - (dow === 0 ? 6 : dow - 1));
+  return dt.toISOString().split('T')[0];
+}
+ 
+function esc(s) {
+  return String(s == null ? '' : s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+ 
+function buildWeeks() {
+  var query = (document.getElementById('search').value || '').toLowerCase().trim();
+  var qs = allData.questions || [];
+  var map = {};
+  for (var i = 0; i < qs.length; i++) {
+    var q = qs[i];
+    var wc = weekCommencing(q.tabled_str);
+    if (!wc) continue;
+    if (query) {
+      var hay = [q.snippet, q.full_question, q.member_name, q.member_area, q.wq_ref, q.party]
+        .map(function(x) { return (x||'').toLowerCase(); }).join(' ');
+      if (hay.indexOf(query) === -1) continue;
+    }
+    if (!map[wc]) map[wc] = { key: wc, label: weekLabel(wc), qs: [] };
+    map[wc].qs.push(q);
+  }
+  weeks = Object.values(map).sort(function(a,b) { return b.key.localeCompare(a.key); });
+}
+ 
+function weekFiltered() {
+  var w = weeks.find(function(w) { return w.key === activeWk; });
+  return w ? w.qs : [];
+}
+ 
+async function load() {
+  try {
+    var r = await fetch('senedd_data.json');
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    allData = await r.json();
+ 
+    var lu = allData.generated ? new Date(allData.generated) : null;
+    document.getElementById('header-meta').innerHTML = lu
+      ? '<strong>Last updated</strong> ' + lu.toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric'}) + ' at ' + lu.toLocaleTimeString('en-GB',{hour:'2-digit',minute:'2-digit'}) + '<br>Refreshes automatically every weekday morning'
+      : 'Last updated: unknown';
+ 
+    var qs = allData.questions || [];
+    document.getElementById('stat-total').textContent = qs.length;
+    var wkSet = {};
+    qs.forEach(function(q) { var wc = weekCommencing(q.tabled_str); if (wc) wkSet[wc] = true; });
+    document.getElementById('stat-weeks').textContent = Object.keys(wkSet).length;
+    var memSet = {};
+    qs.forEach(function(q) { if (q.member_name) memSet[q.member_name] = true; });
+    document.getElementById('stat-members').textContent = Object.keys(memSet).length;
+    document.getElementById('stats-wrap').style.display = 'flex';
+ 
+    buildWeeks();
+    activeWk = weeks.length ? weeks[0].key : null;
+    renderCard();
+  } catch(e) {
+    document.getElementById('main-card').innerHTML =
+      '<div class="state-msg">Could not load senedd_data.json<br><small>' + e.message + '</small></div>';
+  }
+}
+ 
+function renderCard() {
+  buildWeeks();
+  var card = document.getElementById('main-card');
+ 
+  if (!weeks.length) {
+    card.innerHTML = '<div class="state-msg">' +
+      '<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">' +
+      '<circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>' +
+      '</svg>No questions found for this filter.</div>';
+    return;
+  }
+ 
+  if (!weeks.find(function(w) { return w.key === activeWk; })) activeWk = weeks[0].key;
+ 
+  var tabsHtml = '<div class="week-tabs-wrap" id="week-tabs">';
+  for (var t = 0; t < weeks.length; t++) {
+    var w = weeks[t];
+    tabsHtml += '<button class="week-tab ' + (w.key === activeWk ? 'active' : '') + '" data-key="' + esc(w.key) + '">'
+      + esc(w.label) + '<span class="week-badge">' + w.qs.length + '</span></button>';
+  }
+  tabsHtml += '</div>';
+ 
+  var qs = weekFiltered();
+  var questionsHtml = '';
+ 
+  if (!qs.length) {
+    questionsHtml = '<div class="state-msg">No questions for this week.</div>';
+  } else {
+    questionsHtml = '<div class="col-headers">' +
+      '<div>Member</div><div>Party</div><div>Question</div>' +
+      '<div>Date tabled</div><div>Answered?</div></div>';
+ 
+    var lastMember = null;
+    for (var i = 0; i < qs.length; i++) {
+      var q = qs[i];
+      var isNew  = q.member_name !== lastMember;
+      var pAbbr  = partyAbbrev(q.party || '');
+      var pCls   = partyClass(q.party || '');
+      var rowCls = 'q-row' + (isNew && lastMember !== null ? ' group-start' : '');
+      var txt    = q.full_question || q.snippet || '';
+      var qUrl   = 'https://record.senedd.wales' + (q.url_path || '');
+      var isAns  = !!q.answered_on;
+ 
+      questionsHtml += '<div class="' + rowCls + '" onclick="toggleRow(this)">'
+        + '<div class="' + (isNew ? 'q-member' : 'q-member-blank') + '">'
+        + (isNew ? esc(q.member_name) : '&mdash;')
+        + (isNew && q.member_area ? '<div class="q-member-area">' + esc(q.member_area) + '</div>' : '')
+        + '</div>'
+        + '<div>' + (isNew && q.party ? '<span class="party ' + pCls + '">' + esc(pAbbr) + '</span>' : '') + '</div>'
+        + '<div class="q-text">'
+        + '<div class="q-text-inner">' + esc(txt) + '</div>'
+        + '<a class="q-link" href="' + esc(qUrl) + '" target="_blank" rel="noopener" onclick="event.stopPropagation()">View on Senedd website &rarr;</a>'
+        + '</div>'
+        + '<div class="q-date">' + esc(q.tabled_str || '') + '</div>'
+        + '<div class="q-due">'
+        + (isAns
+            ? '<span class="ans-answered">&check; Answered</span>'
+            : '<span class="ans-pending">' + (q.answer_str ? esc(q.answer_str) : 'Pending') + '</span>')
+        + (isAns && q.answered_by ? '<div style="font-size:10px;color:#94a3b8;margin-top:3px">' + esc(q.answered_by) + '</div>' : '')
+        + '</div></div>';
+ 
+      lastMember = q.member_name;
+    }
+  }
+ 
+  card.innerHTML = tabsHtml + questionsHtml;
+ 
+  card.querySelectorAll('.week-tab').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      activeWk = btn.dataset.key;
+      renderCard();
+    });
+  });
+}
+ 
+function toggleRow(row) {
+  row.querySelector('.q-text-inner').classList.toggle('expanded');
+}
+ 
+function downloadExcel() {
+  if (!allData) return;
+  var wb = XLSX.utils.book_new();
+ 
+  var sumRows = [
+    ['Senedd PRS Written Questions Monitor'],
+    ['Generated: ' + new Date(allData.generated).toLocaleString('en-GB')],
+    ['Total questions: ' + (allData.questions||[]).length],
+    [],
+    ['Week', 'Questions'],
+  ];
+  var wkMap = {};
+  (allData.questions||[]).forEach(function(q) {
+    var wc = weekCommencing(q.tabled_str);
+    if (wc) { if (!wkMap[wc]) wkMap[wc] = []; wkMap[wc].push(q); }
+  });
+  Object.keys(wkMap).sort().forEach(function(w) { sumRows.push([weekLabel(w), wkMap[w].length]); });
+  var sumSheet = XLSX.utils.aoa_to_sheet(sumRows);
+  sumSheet['!cols'] = [{wch:30},{wch:12}];
+  XLSX.utils.book_append_sheet(wb, sumSheet, 'Summary');
+ 
+  Object.keys(wkMap).sort().forEach(function(w) {
+    var qs = wkMap[w];
+    var rows = [['Member','Party','Constituency/Region','Question','Tabled','Answered?','Answered by','Link']];
+    qs.forEach(function(q) { rows.push([
+      q.member_name||'', q.party||'', q.member_area||'',
+      q.full_question||q.snippet||'', q.tabled_str||'',
+      q.answered_on ? 'Yes' : 'Pending', q.answered_by||'',
+      'https://record.senedd.wales'+(q.url_path||''),
+    ]); });
+    var ws = XLSX.utils.aoa_to_sheet(rows);
+    ws['!cols'] = [20,8,22,65,12,10,35,40].map(function(w) { return {wch:w}; });
+    XLSX.utils.book_append_sheet(wb, ws, weekLabel(w).slice(0,31));
+  });
+ 
+  var today = new Date().toISOString().split('T')[0];
+  XLSX.writeFile(wb, 'senedd_wq_' + today + '.xlsx');
+}
+ 
+load();
+</script>
+</body>
+</html>
+ 
+ 
