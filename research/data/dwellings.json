@@ -1,0 +1,151 @@
+{
+  "category": "Dwellings",
+  "description": "New dwelling completions and starts by tenure, from MHCLG (England) and Stats Wales (Wales).",
+  "last_fetched": "2026-09-24T12:22:22Z",
+  "datasets": [
+    {
+      "id": "mhclg_completions_private",
+      "name": "Permanent Dwellings Completed — Private Enterprise (England)",
+      "description": "New permanent dwellings completed by private enterprise in England",
+      "source": "MHCLG Live Tables",
+      "ref": "Table 213",
+      "source_url": "https://www.gov.uk/government/statistical-data-sets/live-tables-on-house-building",
+      "frequency": "Quarterly + Annual",
+      "nation": "England",
+      "region": "None",
+      "unit": "dwellings",
+      "status": "active",
+      "latest": {
+        "value": "29700",
+        "period": "2025 Q4",
+        "fetched_at": "2026-06-12T08:50:35Z",
+        "prev": {
+          "value": "23120",
+          "period": "2025 Q3"
+        },
+        "trend": "up"
+      },
+      "notes": "Annual data from 1969; quarterly from 2000 Q1."
+    },
+    {
+      "id": "mhclg_completions_ha",
+      "name": "Permanent Dwellings Completed — Housing Associations (England)",
+      "description": "New permanent dwellings completed by housing associations in England",
+      "source": "MHCLG Live Tables",
+      "ref": "Table 213",
+      "source_url": "https://www.gov.uk/government/statistical-data-sets/live-tables-on-house-building",
+      "frequency": "Quarterly + Annual",
+      "nation": "England",
+      "region": "None",
+      "unit": "dwellings",
+      "status": "active",
+      "latest": {
+        "value": "11160",
+        "period": "2025 Q4",
+        "fetched_at": "2026-06-12T08:50:35Z",
+        "prev": {
+          "value": "7360",
+          "period": "2025 Q3"
+        },
+        "trend": "up"
+      },
+      "notes": ""
+    },
+    {
+      "id": "mhclg_completions_la",
+      "name": "Permanent Dwellings Completed — Local Authority (England)",
+      "description": "New permanent dwellings completed by local authorities in England",
+      "source": "MHCLG Live Tables",
+      "ref": "Table 213",
+      "source_url": "https://www.gov.uk/government/statistical-data-sets/live-tables-on-house-building",
+      "frequency": "Quarterly + Annual",
+      "nation": "England",
+      "region": "None",
+      "unit": "dwellings",
+      "status": "active",
+      "latest": {
+        "value": "720",
+        "period": "2025 Q4",
+        "fetched_at": "2026-06-12T08:50:35Z",
+        "prev": {
+          "value": "440",
+          "period": "2025 Q3"
+        },
+        "trend": "up"
+      },
+      "notes": ""
+    },
+    {
+      "id": "mhclg_completions_total",
+      "name": "Permanent Dwellings Completed — Total (England)",
+      "description": "Total new permanent dwellings completed in England (all tenures)",
+      "source": "MHCLG Live Tables",
+      "ref": "Table 213",
+      "source_url": "https://www.gov.uk/government/statistical-data-sets/live-tables-on-house-building",
+      "frequency": "Quarterly + Annual",
+      "nation": "England",
+      "region": "None",
+      "unit": "dwellings",
+      "status": "active",
+      "latest": {
+        "value": "41570",
+        "period": "2025 Q4",
+        "fetched_at": "2026-06-12T08:50:35Z",
+        "prev": {
+          "value": "30920",
+          "period": "2025 Q3"
+        },
+        "trend": "up"
+      },
+      "notes": ""
+    },
+    {
+      "id": "stats_wales_completions_total",
+      "name": "New Dwellings Completed — Total (Wales)",
+      "description": "New dwellings completed in Wales, all tenures",
+      "source": "Stats Wales",
+      "ref": "Data Cube",
+      "source_url": "https://statswales.gov.wales/Catalogue/Housing/New-House-Building",
+      "frequency": "Quarterly (financial year) + Annual",
+      "nation": "Wales",
+      "region": "Local authority breakdown available",
+      "unit": "dwellings",
+      "status": "active",
+      "latest": {
+        "value": "1190",
+        "period": "Q1 2026-27",
+        "fetched_at": "2026-09-24T12:22:22Z",
+        "prev": {
+          "value": "1074",
+          "period": "Q4 2025-26"
+        },
+        "trend": "up"
+      },
+      "notes": "Annual data from 2000; quarterly from 2010."
+    },
+    {
+      "id": "stats_wales_completions_private",
+      "name": "New Dwellings Completed — Private (Wales)",
+      "description": "New dwellings completed by private enterprise in Wales",
+      "source": "Stats Wales",
+      "ref": "Data Cube",
+      "source_url": "https://statswales.gov.wales/Catalogue/Housing/New-House-Building",
+      "frequency": "Quarterly + Annual",
+      "nation": "Wales",
+      "region": "Local authority breakdown available",
+      "unit": "dwellings",
+      "status": "active",
+      "latest": {
+        "value": "951",
+        "period": "Q1 2026-27",
+        "fetched_at": "2026-09-24T12:22:22Z",
+        "prev": {
+          "value": "730",
+          "period": "Q4 2025-26"
+        },
+        "trend": "up"
+      },
+      "notes": ""
+    }
+  ]
+}

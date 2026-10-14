@@ -1,0 +1,175 @@
+{
+  "category": "Claims & Bailiffs",
+  "description": "Landlord possession court action statistics from HM Courts & Tribunals Service (MoJ), updated quarterly.",
+  "last_fetched": "2026-08-15T07:20:53Z",
+  "datasets": [
+    {
+      "id": "mlp_claims_issued",
+      "name": "Landlord Possession Claims Issued",
+      "description": "Total number of landlord possession claims issued in the county courts",
+      "source": "MoJ / HMCTS",
+      "ref": "Table 4",
+      "source_url": "https://www.gov.uk/government/collections/mortgage-and-landlord-possession-statistics",
+      "frequency": "Quarterly + Annual",
+      "nation": "England & Wales (combined)",
+      "region": "None",
+      "unit": "claims",
+      "status": "active",
+      "latest": {
+        "value": "23635",
+        "period": "2026 Q2",
+        "fetched_at": "2026-08-15T07:20:53Z",
+        "prev": {
+          "value": "22720",
+          "period": "2026 Q1"
+        },
+        "trend": "up"
+      },
+      "notes": "Data from 2009 Q1."
+    },
+    {
+      "id": "mlp_repossessions_bailiffs",
+      "name": "Landlord Repossessions by Bailiffs",
+      "description": "Number of properties repossessed by county court bailiffs following a landlord possession order",
+      "source": "MoJ / HMCTS",
+      "ref": "Table 4",
+      "source_url": "https://www.gov.uk/government/collections/mortgage-and-landlord-possession-statistics",
+      "frequency": "Quarterly + Annual",
+      "nation": "England & Wales (combined)",
+      "region": "None",
+      "unit": "repossessions",
+      "status": "active",
+      "latest": {
+        "value": "6560",
+        "period": "2026 Q2",
+        "fetched_at": "2026-08-15T07:20:53Z",
+        "prev": {
+          "value": "6925",
+          "period": "2026 Q1"
+        },
+        "trend": "down"
+      },
+      "notes": ""
+    },
+    {
+      "id": "mlp_claims_prs",
+      "name": "Private Landlord Possession Claims Issued",
+      "description": "Landlord possession claims issued specifically by private sector landlords (accelerated and standard)",
+      "source": "MoJ / HMCTS",
+      "ref": "Table 7",
+      "source_url": "https://www.gov.uk/government/collections/mortgage-and-landlord-possession-statistics",
+      "frequency": "Quarterly + Annual",
+      "nation": "England & Wales (combined)",
+      "region": "None",
+      "unit": "claims",
+      "status": "active",
+      "latest": {
+        "value": "16186",
+        "period": "2026 Q2",
+        "fetched_at": "2026-08-15T07:20:53Z",
+        "prev": {
+          "value": "14216",
+          "period": "2026 Q1"
+        },
+        "trend": "up"
+      },
+      "notes": "Breakdown includes accelerated procedure, private landlords, and social landlords."
+    },
+    {
+      "id": "mlp_claims_accelerated",
+      "name": "Accelerated Possession Claims Issued",
+      "description": "Landlord possession claims using the accelerated possession procedure",
+      "source": "MoJ / HMCTS",
+      "ref": "Table 7",
+      "source_url": "https://www.gov.uk/government/collections/mortgage-and-landlord-possession-statistics",
+      "frequency": "Quarterly + Annual",
+      "nation": "England & Wales (combined)",
+      "region": "None",
+      "unit": "claims",
+      "status": "active",
+      "latest": {
+        "value": "8569",
+        "period": "2026 Q2",
+        "fetched_at": "2026-08-15T07:20:53Z",
+        "prev": {
+          "value": "6597",
+          "period": "2026 Q1"
+        },
+        "trend": "up"
+      },
+      "notes": ""
+    },
+    {
+      "id": "mlp_mean_time_all",
+      "name": "Mean Time for Landlord Possession — Claim to Repossession",
+      "description": "Mean number of weeks from claim issue to repossession by bailiff, all landlords",
+      "source": "MoJ / HMCTS",
+      "ref": "Table 6a",
+      "source_url": "https://www.gov.uk/government/collections/mortgage-and-landlord-possession-statistics",
+      "frequency": "Quarterly + Annual",
+      "nation": "England & Wales (combined)",
+      "region": "None",
+      "unit": "weeks",
+      "status": "active",
+      "latest": {
+        "value": "11.5",
+        "period": "2026 Q2",
+        "fetched_at": "2026-08-15T07:20:53Z",
+        "prev": {
+          "value": "12.5",
+          "period": "2026 Q1"
+        },
+        "trend": "down"
+      },
+      "notes": "Mean weeks from landlord possession claim to order, all landlord types. Source: MoJ Tables ODS, Table 6."
+    },
+    {
+      "id": "mlp_mean_time_prs",
+      "name": "Mean Time for PRS Landlord Possession",
+      "description": "Mean number of weeks from claim to repossession specifically for private rented sector landlords",
+      "source": "MoJ / HMCTS",
+      "ref": "Table 6a (supplementary)",
+      "source_url": "https://www.gov.uk/government/collections/mortgage-and-landlord-possession-statistics",
+      "frequency": "Quarterly + Annual",
+      "nation": "England & Wales (combined)",
+      "region": "None",
+      "unit": "weeks",
+      "status": "active",
+      "latest": {
+        "value": "11.1",
+        "period": "2026 Q2",
+        "fetched_at": "2026-08-15T07:20:53Z",
+        "prev": {
+          "value": "12.8",
+          "period": "2026 Q1"
+        },
+        "trend": "down"
+      },
+      "notes": "Private landlord claims only. Source: MoJ Tables ODS, Data_6 breakdown."
+    },
+    {
+      "id": "mlp_median_time_all",
+      "name": "Median Time for Landlord Possession — Claim to Repossession",
+      "description": "Median number of weeks from claim to repossession, all landlords",
+      "source": "MoJ / HMCTS",
+      "ref": "Table 6a",
+      "source_url": "https://www.gov.uk/government/collections/mortgage-and-landlord-possession-statistics",
+      "frequency": "Quarterly + Annual",
+      "nation": "England & Wales (combined)",
+      "region": "None",
+      "unit": "weeks",
+      "status": "active",
+      "latest": {
+        "value": "7.6",
+        "period": "2026 Q2",
+        "fetched_at": "2026-08-15T07:20:53Z",
+        "prev": {
+          "value": "8",
+          "period": "2026 Q1"
+        },
+        "trend": "down"
+      },
+      "notes": "Median weeks from landlord possession claim to order. Source: MoJ Tables ODS, Table 6."
+    }
+  ]
+}
