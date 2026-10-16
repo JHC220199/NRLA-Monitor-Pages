@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-15T12:57:38.531093Z",
+  "generated": "2026-10-16T12:49:27.125286Z",
   "senedd_start": "2026-05-12",
   "keywords_hash": "b9e6ebbdedf2",
-  "total": 115,
+  "total": 116,
   "questions": [
     {
       "wq_ref": "WQ98823",
@@ -47,6 +47,21 @@
       "answered_by": "Cabinet Minister for Local Government, Housing and Planning",
       "answered_on": "04/09/2026",
       "party": "Welsh Labour",
+      "emailed": true
+    },
+    {
+      "wq_ref": "WQ100797",
+      "url_path": "/WrittenQuestion/100797",
+      "tabled_str": "02/10/2026",
+      "answer_str": "09/10/2026",
+      "snippet": "How are health, education, social services and youth services working together to support children with complex needs?",
+      "member_name": "Sam Rowlands",
+      "member_area": "Fflint Wrecsam",
+      "member_uid": "8734",
+      "full_question": "How are health, education, social services and youth services working together to support children with complex needs?",
+      "answered_by": "Deputy First Minister and Cabinet Minister for Social Justice and Equality",
+      "answered_on": "09/10/2026",
+      "party": "Welsh Conservative Party",
       "emailed": true
     },
     {
@@ -3390,6 +3405,21 @@
       }
     ],
     "2026-09-28": [
+      {
+        "wq_ref": "WQ100797",
+        "url_path": "/WrittenQuestion/100797",
+        "tabled_str": "02/10/2026",
+        "answer_str": "09/10/2026",
+        "snippet": "How are health, education, social services and youth services working together to support children with complex needs?",
+        "member_name": "Sam Rowlands",
+        "member_area": "Fflint Wrecsam",
+        "member_uid": "8734",
+        "full_question": "How are health, education, social services and youth services working together to support children with complex needs?",
+        "answered_by": "Deputy First Minister and Cabinet Minister for Social Justice and Equality",
+        "answered_on": "09/10/2026",
+        "party": "Welsh Conservative Party",
+        "emailed": true
+      },
       {
         "wq_ref": "WQ100705",
         "url_path": "/WrittenQuestion/100705",
