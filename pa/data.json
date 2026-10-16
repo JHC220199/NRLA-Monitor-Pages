@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-10-15T14:37:42.280170",
+  "lastUpdated": "2026-10-16T13:26:05.122330",
   "questions": [
+    {
+      "id": 1949593,
+      "uin": "35238",
+      "memberName": "Max Wilkinson",
+      "party": "LD",
+      "house": "Commons",
+      "question": "To ask the Chancellor of the Exchequer, what assessment he has made of the potential impact of the four year limit for reclaiming rental income taxon minors who will inherit discretionary trusts.",
+      "dateTabled": "15th October",
+      "dateTabledRaw": "2026-10-15",
+      "dateForAnswer": "Due 19th October",
+      "dateForAnswerRaw": "2026-10-19",
+      "weekCommencing": "2026-10-12",
+      "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-10-15/35238",
+      "answered": false,
+      "isHolding": false,
+      "dateAnswered": null,
+      "answeringMember": "",
+      "answeringParty": "",
+      "answerSummary": null,
+      "summaryVersion": 2,
+      "emailed": true
+    },
     {
       "id": 1949011,
       "uin": "34798",
