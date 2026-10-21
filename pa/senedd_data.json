@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-20T13:08:12.119669Z",
+  "generated": "2026-10-21T12:58:52.731444Z",
   "senedd_start": "2026-05-12",
   "keywords_hash": "b9e6ebbdedf2",
-  "total": 116,
+  "total": 117,
   "questions": [
     {
       "wq_ref": "WQ98823",
@@ -106,7 +106,7 @@
       "full_question": "Will the Government explore using the planning system to support care leavers, including whether the community infrastructure levy or S106 can be used to secure housing, work experience or employment opportunities for care-experienced young people?",
       "answered_by": "Deputy Minister for Social Care, Mental Health and Women\u2019s Health",
       "answered_on": "12/06/2026",
-      "party": "Reform UK",
+      "party": "Plaid Cymru",
       "emailed": true
     },
     {
@@ -257,6 +257,21 @@
       "answered_by": "Cabinet Minister for Enterprise, Connectivity and Energy",
       "answered_on": "13/08/2026",
       "party": "Reform UK",
+      "emailed": true
+    },
+    {
+      "wq_ref": "WQ100805",
+      "url_path": "/WrittenQuestion/100805",
+      "tabled_str": "05/10/2026",
+      "answer_str": "12/10/2026",
+      "snippet": "How is the Cabinet Minister working with the Betsi Cadwaladr University Health Board to ensure that patients ...",
+      "member_name": "Janet Finch-Saunders",
+      "member_area": "Bangor Conwy M\u00f4n",
+      "member_uid": "212",
+      "full_question": "How is the Cabinet Minister working with the Betsi Cadwaladr University Health Board to ensure that patients with diabetes and similar medical conditions have access to food and drink while waiting for their consultation?",
+      "answered_by": "Cabinet Minister for Health and Care",
+      "answered_on": "16/10/2026",
+      "party": "Welsh Conservative Party",
       "emailed": true
     },
     {
@@ -524,8 +539,8 @@
       "member_area": "G\u0175yr Abertawe",
       "member_uid": "5083",
       "full_question": "What is the Welsh Government's policy on giving tenants living in social housing a legal right to request a pet?",
-      "answered_by": "",
-      "answered_on": "",
+      "answered_by": "Cabinet Minister for Local Government, Housing and Planning",
+      "answered_on": "19/10/2026",
       "party": "Plaid Cymru",
       "emailed": true
     },
@@ -539,8 +554,8 @@
       "member_area": "Casnewydd Islwyn",
       "member_uid": "5038",
       "full_question": "What is the Welsh Government's definition of a social house that will count towards the Government's 2030 target?",
-      "answered_by": "",
-      "answered_on": "",
+      "answered_by": "Cabinet Minister for Local Government, Housing and Planning",
+      "answered_on": "19/10/2026",
       "party": "Welsh Labour",
       "emailed": true
     },
@@ -554,8 +569,8 @@
       "member_area": "Afan Ogwr Rhondda",
       "member_uid": "330",
       "full_question": "Does the Welsh Government have any plans to review fees for retrospective planning applications?",
-      "answered_by": "",
-      "answered_on": "",
+      "answered_by": "Cabinet Minister for Local Government, Housing and Planning",
+      "answered_on": "19/10/2026",
       "party": "Plaid Cymru",
       "emailed": true
     },
@@ -1724,8 +1739,8 @@
       "member_area": "G\u0175yr Abertawe",
       "member_uid": "12191",
       "full_question": "What measures has the Welsh Government made available to protect residents from the impact of unapproved, high-occupancy short-term lets while retrospective planning applications and any subsequent appeals are being considered?",
-      "answered_by": "",
-      "answered_on": "",
+      "answered_by": "Cabinet Minister for Local Government, Housing and Planning",
+      "answered_on": "13/10/2026",
       "party": "Reform UK",
       "emailed": true
     },
@@ -1990,7 +2005,7 @@
         "full_question": "Will the Government explore using the planning system to support care leavers, including whether the community infrastructure levy or S106 can be used to secure housing, work experience or employment opportunities for care-experienced young people?",
         "answered_by": "Deputy Minister for Social Care, Mental Health and Women\u2019s Health",
         "answered_on": "12/06/2026",
-        "party": "Reform UK",
+        "party": "Plaid Cymru",
         "emailed": true
       },
       {
@@ -3445,8 +3460,8 @@
         "member_area": "G\u0175yr Abertawe",
         "member_uid": "12191",
         "full_question": "What measures has the Welsh Government made available to protect residents from the impact of unapproved, high-occupancy short-term lets while retrospective planning applications and any subsequent appeals are being considered?",
-        "answered_by": "",
-        "answered_on": "",
+        "answered_by": "Cabinet Minister for Local Government, Housing and Planning",
+        "answered_on": "13/10/2026",
         "party": "Reform UK",
         "emailed": true
       },
@@ -3463,6 +3478,23 @@
         "answered_by": "Cabinet Minister for Local Government, Housing and Planning",
         "answered_on": "05/10/2026",
         "party": "Welsh Liberal Democrats",
+        "emailed": true
+      }
+    ],
+    "2026-10-05": [
+      {
+        "wq_ref": "WQ100805",
+        "url_path": "/WrittenQuestion/100805",
+        "tabled_str": "05/10/2026",
+        "answer_str": "12/10/2026",
+        "snippet": "How is the Cabinet Minister working with the Betsi Cadwaladr University Health Board to ensure that patients ...",
+        "member_name": "Janet Finch-Saunders",
+        "member_area": "Bangor Conwy M\u00f4n",
+        "member_uid": "212",
+        "full_question": "How is the Cabinet Minister working with the Betsi Cadwaladr University Health Board to ensure that patients with diabetes and similar medical conditions have access to food and drink while waiting for their consultation?",
+        "answered_by": "Cabinet Minister for Health and Care",
+        "answered_on": "16/10/2026",
+        "party": "Welsh Conservative Party",
         "emailed": true
       }
     ],
@@ -3492,8 +3524,8 @@
         "member_area": "G\u0175yr Abertawe",
         "member_uid": "5083",
         "full_question": "What is the Welsh Government's policy on giving tenants living in social housing a legal right to request a pet?",
-        "answered_by": "",
-        "answered_on": "",
+        "answered_by": "Cabinet Minister for Local Government, Housing and Planning",
+        "answered_on": "19/10/2026",
         "party": "Plaid Cymru",
         "emailed": true
       },
@@ -3507,8 +3539,8 @@
         "member_area": "Casnewydd Islwyn",
         "member_uid": "5038",
         "full_question": "What is the Welsh Government's definition of a social house that will count towards the Government's 2030 target?",
-        "answered_by": "",
-        "answered_on": "",
+        "answered_by": "Cabinet Minister for Local Government, Housing and Planning",
+        "answered_on": "19/10/2026",
         "party": "Welsh Labour",
         "emailed": true
       },
@@ -3522,8 +3554,8 @@
         "member_area": "Afan Ogwr Rhondda",
         "member_uid": "330",
         "full_question": "Does the Welsh Government have any plans to review fees for retrospective planning applications?",
-        "answered_by": "",
-        "answered_on": "",
+        "answered_by": "Cabinet Minister for Local Government, Housing and Planning",
+        "answered_on": "19/10/2026",
         "party": "Plaid Cymru",
         "emailed": true
       }
