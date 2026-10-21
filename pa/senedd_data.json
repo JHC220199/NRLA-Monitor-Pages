@@ -1,24 +1,9 @@
 {
-  "generated": "2026-10-21T13:24:03.190902Z",
+  "generated": "2026-10-21T14:23:38.293101Z",
   "senedd_start": "2026-05-12",
   "keywords_hash": "c2381451bcd0",
-  "total": 116,
+  "total": 99,
   "questions": [
-    {
-      "wq_ref": "WQ98823",
-      "url_path": "/WrittenQuestion/98823",
-      "tabled_str": "01/06/2026",
-      "answer_str": "08/06/2026",
-      "snippet": "What action does the Welsh Government intend to take to promote hydro power and geothermal power opportunities ...",
-      "member_name": "Darren Millar",
-      "member_area": "Clwyd",
-      "member_uid": "171",
-      "full_question": "What action does the Welsh Government intend to take to promote hydro power and geothermal power opportunities in Wales?",
-      "answered_by": "Cabinet Minister for Enterprise, Connectivity and Energy",
-      "answered_on": "10/06/2026",
-      "party": "Welsh Conservative Party",
-      "emailed": true
-    },
     {
       "wq_ref": "WQ100402",
       "url_path": "/WrittenQuestion/100402",
@@ -47,36 +32,6 @@
       "answered_by": "Cabinet Minister for Local Government, Housing and Planning",
       "answered_on": "04/09/2026",
       "party": "Welsh Labour",
-      "emailed": true
-    },
-    {
-      "wq_ref": "WQ100797",
-      "url_path": "/WrittenQuestion/100797",
-      "tabled_str": "02/10/2026",
-      "answer_str": "09/10/2026",
-      "snippet": "How are health, education, social services and youth services working together to support children with complex needs?",
-      "member_name": "Sam Rowlands",
-      "member_area": "Fflint Wrecsam",
-      "member_uid": "8734",
-      "full_question": "How are health, education, social services and youth services working together to support children with complex needs?",
-      "answered_by": "Deputy First Minister and Cabinet Minister for Social Justice and Equality",
-      "answered_on": "09/10/2026",
-      "party": "Welsh Conservative Party",
-      "emailed": true
-    },
-    {
-      "wq_ref": "WQ98868",
-      "url_path": "/WrittenQuestion/98868",
-      "tabled_str": "03/06/2026",
-      "answer_str": "10/06/2026",
-      "snippet": "Will the Cabinet Minister provide an update on the Welsh Government's plans to change permitted development rights ...",
-      "member_name": "Darren Millar",
-      "member_area": "Clwyd",
-      "member_uid": "171",
-      "full_question": "Will the Cabinet Minister provide an update on the Welsh Government's plans to change permitted development rights to restrict pop-up campsites?",
-      "answered_by": "Cabinet Minister for Local Government, Housing and Planning",
-      "answered_on": "11/06/2026",
-      "party": "Welsh Conservative Party",
       "emailed": true
     },
     {
@@ -425,21 +380,6 @@
       "emailed": true
     },
     {
-      "wq_ref": "WQ99622",
-      "url_path": "/WrittenQuestion/99622",
-      "tabled_str": "10/07/2026",
-      "answer_str": "17/07/2026",
-      "snippet": "Will the Cabinet Minister set out a) the cost of student finance for those receiving benefits, b) ...",
-      "member_name": "Dan Thomas",
-      "member_area": "Casnewydd Islwyn",
-      "member_uid": "12147",
-      "full_question": "Will the Cabinet Minister set out a) the cost of student finance for those receiving benefits, b) how many people after completing the course come off benefits and c) how much of this goes to people on long term sickness benefits who fail to return to work?",
-      "answered_by": "Deputy Minister for Skills and Tertiary Education",
-      "answered_on": "22/07/2026",
-      "party": "Reform UK",
-      "emailed": true
-    },
-    {
       "wq_ref": "WQ99631",
       "url_path": "/WrittenQuestion/99631",
       "tabled_str": "10/07/2026",
@@ -451,21 +391,6 @@
       "full_question": "What discussions has the Welsh Government had with the UK Government, Ofgem and TrustMark regarding householders in Wales who have been left with defective ECO4 installations following an accredited installer going into administration?",
       "answered_by": "Cabinet Minister for Local Government, Housing and Planning",
       "answered_on": "21/07/2026",
-      "party": "Reform UK",
-      "emailed": true
-    },
-    {
-      "wq_ref": "WQ99002",
-      "url_path": "/WrittenQuestion/99002",
-      "tabled_str": "11/06/2026",
-      "answer_str": "18/06/2026",
-      "snippet": "What consideration has the Welsh Government given to assessing the feasibility of bringing Penrhos Nature Reserve, Ynys ...",
-      "member_name": "Helen Jenner",
-      "member_area": "Bangor Conwy M\u00f4n",
-      "member_uid": "12153",
-      "full_question": "What consideration has the Welsh Government given to assessing the feasibility of bringing Penrhos Nature Reserve, Ynys Mon, into public ownership in recognition of its environmental, biodiversity, heritage, recreational and wellbeing value, given that it's currently being marketed for sale by administrators?",
-      "answered_by": "Cabinet Minister for Rural Resilience and Sustainability",
-      "answered_on": "19/06/2026",
       "party": "Reform UK",
       "emailed": true
     },
@@ -482,21 +407,6 @@
       "answered_by": "Cabinet Minister for Finance",
       "answered_on": "24/08/2026",
       "party": "Welsh Labour",
-      "emailed": true
-    },
-    {
-      "wq_ref": "WQ100047",
-      "url_path": "/WrittenQuestion/100047",
-      "tabled_str": "12/08/2026",
-      "answer_str": "19/08/2026",
-      "snippet": "...to all children and young people under 18 years of age in all types of visitor accommodation?",
-      "member_name": "Tom Montgomery",
-      "member_area": "Clwyd",
-      "member_uid": "12183",
-      "full_question": "Why will the Cabinet Minister not extend the Visitor Levy exclusion to all children and young people under 18 years of age in all types of visitor accommodation?",
-      "answered_by": "Cabinet Minister for Finance",
-      "answered_on": "18/08/2026",
-      "party": "Reform UK",
       "emailed": true
     },
     {
@@ -586,21 +496,6 @@
       "full_question": "What action is the Welsh Government taking to ensure veterans are prioritised for social housing?",
       "answered_by": "Cabinet Minister for Local Government, Housing and Planning",
       "answered_on": "21/07/2026",
-      "party": "Reform UK",
-      "emailed": true
-    },
-    {
-      "wq_ref": "WQ100507",
-      "url_path": "/WrittenQuestion/100507",
-      "tabled_str": "14/09/2026",
-      "answer_str": "21/09/2026",
-      "snippet": "...towards local services when they already contribute to funding public services through existing UK and Welsh taxation?",
-      "member_name": "Iain McIntosh",
-      "member_area": "Brycheiniog Tawe Nedd",
-      "member_uid": "12170",
-      "full_question": "Will the Cabinet Minister explain why the Welsh Government believes UK tourists, visitors and workers staying overnight in Wales should pay an additional visitor levy towards local services when they already contribute to funding public services through existing UK and Welsh taxation?",
-      "answered_by": "Cabinet Minister for Finance",
-      "answered_on": "16/09/2026",
       "party": "Reform UK",
       "emailed": true
     },
@@ -1100,21 +995,6 @@
       "emailed": true
     },
     {
-      "wq_ref": "WQ98614",
-      "url_path": "/WrittenQuestion/98614",
-      "tabled_str": "21/05/2026",
-      "answer_str": "29/05/2026",
-      "snippet": "What consideration has the Cabinet Minister given to the estimate by the Taxpayers' Alliance that the Visitor ...",
-      "member_name": "Darren Millar",
-      "member_area": "Clwyd",
-      "member_uid": "171",
-      "full_question": "What consideration has the Cabinet Minister given to the estimate by the Taxpayers' Alliance that the Visitor Levy may inflict a \u00a3359 million hit to the Welsh economy when it is implemented?",
-      "answered_by": "Cabinet Minister for Finance",
-      "answered_on": "03/06/2026",
-      "party": "Welsh Conservative Party",
-      "emailed": true
-    },
-    {
       "wq_ref": "WQ100631",
       "url_path": "/WrittenQuestion/100631",
       "tabled_str": "21/09/2026",
@@ -1127,21 +1007,6 @@
       "answered_by": "Cabinet Minister for Finance",
       "answered_on": "22/09/2026",
       "party": "Reform UK",
-      "emailed": true
-    },
-    {
-      "wq_ref": "WQ100638",
-      "url_path": "/WrittenQuestion/100638",
-      "tabled_str": "21/09/2026",
-      "answer_str": "28/09/2026",
-      "snippet": "What public sector decarbonisation programmes and projects will be funded by the \u00a338.7 million the Cabinet Minister ...",
-      "member_name": "Darren Millar",
-      "member_area": "Clwyd",
-      "member_uid": "171",
-      "full_question": "What public sector decarbonisation programmes and projects will be funded by the \u00a338.7 million the Cabinet Minister agreed for 2026 and 2027, as set out in the Decision Report on 29 June 2026?",
-      "answered_by": "Cabinet Minister for Rural Resilience and Sustainability",
-      "answered_on": "01/10/2026",
-      "party": "Welsh Conservative Party",
       "emailed": true
     },
     {
@@ -1295,21 +1160,6 @@
       "emailed": true
     },
     {
-      "wq_ref": "WQ99286",
-      "url_path": "/WrittenQuestion/99286",
-      "tabled_str": "24/06/2026",
-      "answer_str": "01/07/2026",
-      "snippet": "Will the Cabinet Minister confirm whether the Visitor Accommodation (Register and Levy) (Wales) Act 2025 requires the ...",
-      "member_name": "Iain McIntosh",
-      "member_area": "Brycheiniog Tawe Nedd",
-      "member_uid": "12170",
-      "full_question": "Will the Cabinet Minister confirm whether the Visitor Accommodation (Register and Levy) (Wales) Act 2025 requires the visitor levy to be charged for babies and infants staying in visitor accommodation, and what assessment has been made of the possible impact this will have on family tourism in Wales?",
-      "answered_by": "Cabinet Minister for Finance",
-      "answered_on": "06/07/2026",
-      "party": "Reform UK",
-      "emailed": true
-    },
-    {
       "wq_ref": "WQ99320",
       "url_path": "/WrittenQuestion/99320",
       "tabled_str": "25/06/2026",
@@ -1355,21 +1205,6 @@
       "emailed": true
     },
     {
-      "wq_ref": "WQ100279",
-      "url_path": "/WrittenQuestion/100279",
-      "tabled_str": "26/08/2026",
-      "answer_str": "03/09/2026",
-      "snippet": "...the ability of pubs and other small businesses to benefit from permitted development rights for temporary campsites?",
-      "member_name": "Paul Davies",
-      "member_area": "Ceredigion Penfro",
-      "member_uid": "145",
-      "full_question": "What assessment has the Welsh Government made of the effect that the 100-metre buffer zone around protected buildings will have on the ability of pubs and other small businesses to benefit from permitted development rights for temporary campsites?",
-      "answered_by": "Cabinet Minister for Enterprise, Connectivity and Energy",
-      "answered_on": "10/09/2026",
-      "party": "Welsh Conservative Party",
-      "emailed": true
-    },
-    {
       "wq_ref": "WQ100249",
       "url_path": "/WrittenQuestion/100249",
       "tabled_str": "26/08/2026",
@@ -1382,21 +1217,6 @@
       "answered_by": "Cabinet Minister for Local Government, Housing and Planning",
       "answered_on": "04/09/2026",
       "party": "Plaid Cymru",
-      "emailed": true
-    },
-    {
-      "wq_ref": "WQ100345",
-      "url_path": "/WrittenQuestion/100345",
-      "tabled_str": "26/08/2026",
-      "answer_str": "03/09/2026",
-      "snippet": "What is the Welsh Government's policy on providing illegal immigrants treatment under the NHS?",
-      "member_name": "Joe Martin",
-      "member_area": "Caerdydd Penarth",
-      "member_uid": "12146",
-      "full_question": "What is the Welsh Government's policy on providing illegal immigrants treatment under the NHS?",
-      "answered_by": "Cabinet Minister for Health and Care",
-      "answered_on": "08/09/2026",
-      "party": "Reform UK",
       "emailed": true
     },
     {
@@ -1430,21 +1250,6 @@
       "emailed": true
     },
     {
-      "wq_ref": "WQ98704",
-      "url_path": "/WrittenQuestion/98704",
-      "tabled_str": "27/05/2026",
-      "answer_str": "03/06/2026",
-      "snippet": "...in providing pre-application advice in response to enquiries relating to permitted development rights or a planning application?",
-      "member_name": "Andrew R.T. Davies",
-      "member_area": "Pen-y-bont Bro Morgannwg",
-      "member_uid": "143",
-      "full_question": "What discussions will the Cabinet Minister have with local authorities to ensure they meet the 21 working days deadline in providing pre-application advice in response to enquiries relating to permitted development rights or a planning application?",
-      "answered_by": "Cabinet Minister for Local Government, Housing and Planning",
-      "answered_on": "08/06/2026",
-      "party": "Welsh Conservative Party",
-      "emailed": true
-    },
-    {
       "wq_ref": "WQ98693",
       "url_path": "/WrittenQuestion/98693",
       "tabled_str": "27/05/2026",
@@ -1455,21 +1260,6 @@
       "member_uid": "11971",
       "full_question": "What plans does the Welsh Government have to increase the supply of affordable housing without increasing council tax burdens on residents?",
       "answered_by": "Cabinet Minister for Local Government, Housing and Planning",
-      "answered_on": "03/06/2026",
-      "party": "Reform UK",
-      "emailed": true
-    },
-    {
-      "wq_ref": "WQ98735",
-      "url_path": "/WrittenQuestion/98735",
-      "tabled_str": "27/05/2026",
-      "answer_str": "03/06/2026",
-      "snippet": "Will the Cabinet Minister confirm how many pensioners are currently eligible for means tested financial support towards ...",
-      "member_name": "Iain McIntosh",
-      "member_area": "Brycheiniog Tawe Nedd",
-      "member_uid": "12170",
-      "full_question": "Will the Cabinet Minister confirm how many pensioners are currently eligible for means tested financial support towards energy costs?",
-      "answered_by": "Deputy First Minister and Cabinet Minister for Social Justice and Equality",
       "answered_on": "03/06/2026",
       "party": "Reform UK",
       "emailed": true
@@ -1535,21 +1325,6 @@
       "emailed": true
     },
     {
-      "wq_ref": "WQ99363",
-      "url_path": "/WrittenQuestion/99363",
-      "tabled_str": "29/06/2026",
-      "answer_str": "06/07/2026",
-      "snippet": "What support is the Welsh Government providing to community-led organisations seeking to regenerate town centres by bringing ...",
-      "member_name": "Nigel Williams",
-      "member_area": "Fflint Wrecsam",
-      "member_uid": "5113",
-      "full_question": "What support is the Welsh Government providing to community-led organisations seeking to regenerate town centres by bringing vacant or underused properties back into productive use?",
-      "answered_by": "Cabinet Minister for Local Government, Housing and Planning",
-      "answered_on": "06/07/2026",
-      "party": "Reform UK",
-      "emailed": true
-    },
-    {
       "wq_ref": "WQ99897",
       "url_path": "/WrittenQuestion/99897",
       "tabled_str": "29/07/2026",
@@ -1576,36 +1351,6 @@
       "full_question": "Will the Cabinet Minister provide an update on how the Welsh Government will accelerate remedial work on leaseholders\u2019 homes affected by the cladding scandal, with particular reference to provisions laid out in Sections 116-124 of the Building Safety (Wales) Act?",
       "answered_by": "Cabinet Minister for Local Government, Housing and Planning",
       "answered_on": "05/08/2026",
-      "party": "Reform UK",
-      "emailed": true
-    },
-    {
-      "wq_ref": "WQ99896",
-      "url_path": "/WrittenQuestion/99896",
-      "tabled_str": "29/07/2026",
-      "answer_str": "05/08/2026",
-      "snippet": "What engagement has the Welsh Government had with the camping and tourism sector regarding the proposed changes ...",
-      "member_name": "Francesca O'Brien",
-      "member_area": "G\u0175yr Abertawe",
-      "member_uid": "12190",
-      "full_question": "What engagement has the Welsh Government had with the camping and tourism sector regarding the proposed changes to permitted development rights, since the consultation on changes to permitted development rights closed on 1 July 2025?",
-      "answered_by": "Cabinet Minister for Local Government, Housing and Planning",
-      "answered_on": "07/08/2026",
-      "party": "Reform UK",
-      "emailed": true
-    },
-    {
-      "wq_ref": "WQ99916",
-      "url_path": "/WrittenQuestion/99916",
-      "tabled_str": "29/07/2026",
-      "answer_str": "05/08/2026",
-      "snippet": "Will the Cabinet Minister expand permitted development rights for installing electrical vehicle charging points so that listed ...",
-      "member_name": "Tom Montgomery",
-      "member_area": "Clwyd",
-      "member_uid": "12183",
-      "full_question": "Will the Cabinet Minister expand permitted development rights for installing electrical vehicle charging points so that listed buildings no longer have to apply for Listed Building Consent?",
-      "answered_by": "Cabinet Minister for Local Government, Housing and Planning",
-      "answered_on": "03/08/2026",
       "party": "Reform UK",
       "emailed": true
     },
@@ -1808,21 +1553,6 @@
         "answered_on": "10/06/2026",
         "party": "Plaid Cymru",
         "emailed": true
-      },
-      {
-        "wq_ref": "WQ98614",
-        "url_path": "/WrittenQuestion/98614",
-        "tabled_str": "21/05/2026",
-        "answer_str": "29/05/2026",
-        "snippet": "What consideration has the Cabinet Minister given to the estimate by the Taxpayers' Alliance that the Visitor ...",
-        "member_name": "Darren Millar",
-        "member_area": "Clwyd",
-        "member_uid": "171",
-        "full_question": "What consideration has the Cabinet Minister given to the estimate by the Taxpayers' Alliance that the Visitor Levy may inflict a \u00a3359 million hit to the Welsh economy when it is implemented?",
-        "answered_by": "Cabinet Minister for Finance",
-        "answered_on": "03/06/2026",
-        "party": "Welsh Conservative Party",
-        "emailed": true
       }
     ],
     "2026-05-25": [
@@ -1872,21 +1602,6 @@
         "emailed": true
       },
       {
-        "wq_ref": "WQ98704",
-        "url_path": "/WrittenQuestion/98704",
-        "tabled_str": "27/05/2026",
-        "answer_str": "03/06/2026",
-        "snippet": "...in providing pre-application advice in response to enquiries relating to permitted development rights or a planning application?",
-        "member_name": "Andrew R.T. Davies",
-        "member_area": "Pen-y-bont Bro Morgannwg",
-        "member_uid": "143",
-        "full_question": "What discussions will the Cabinet Minister have with local authorities to ensure they meet the 21 working days deadline in providing pre-application advice in response to enquiries relating to permitted development rights or a planning application?",
-        "answered_by": "Cabinet Minister for Local Government, Housing and Planning",
-        "answered_on": "08/06/2026",
-        "party": "Welsh Conservative Party",
-        "emailed": true
-      },
-      {
         "wq_ref": "WQ98693",
         "url_path": "/WrittenQuestion/98693",
         "tabled_str": "27/05/2026",
@@ -1897,21 +1612,6 @@
         "member_uid": "11971",
         "full_question": "What plans does the Welsh Government have to increase the supply of affordable housing without increasing council tax burdens on residents?",
         "answered_by": "Cabinet Minister for Local Government, Housing and Planning",
-        "answered_on": "03/06/2026",
-        "party": "Reform UK",
-        "emailed": true
-      },
-      {
-        "wq_ref": "WQ98735",
-        "url_path": "/WrittenQuestion/98735",
-        "tabled_str": "27/05/2026",
-        "answer_str": "03/06/2026",
-        "snippet": "Will the Cabinet Minister confirm how many pensioners are currently eligible for means tested financial support towards ...",
-        "member_name": "Iain McIntosh",
-        "member_area": "Brycheiniog Tawe Nedd",
-        "member_uid": "12170",
-        "full_question": "Will the Cabinet Minister confirm how many pensioners are currently eligible for means tested financial support towards energy costs?",
-        "answered_by": "Deputy First Minister and Cabinet Minister for Social Justice and Equality",
         "answered_on": "03/06/2026",
         "party": "Reform UK",
         "emailed": true
@@ -1933,36 +1633,6 @@
       }
     ],
     "2026-06-01": [
-      {
-        "wq_ref": "WQ98823",
-        "url_path": "/WrittenQuestion/98823",
-        "tabled_str": "01/06/2026",
-        "answer_str": "08/06/2026",
-        "snippet": "What action does the Welsh Government intend to take to promote hydro power and geothermal power opportunities ...",
-        "member_name": "Darren Millar",
-        "member_area": "Clwyd",
-        "member_uid": "171",
-        "full_question": "What action does the Welsh Government intend to take to promote hydro power and geothermal power opportunities in Wales?",
-        "answered_by": "Cabinet Minister for Enterprise, Connectivity and Energy",
-        "answered_on": "10/06/2026",
-        "party": "Welsh Conservative Party",
-        "emailed": true
-      },
-      {
-        "wq_ref": "WQ98868",
-        "url_path": "/WrittenQuestion/98868",
-        "tabled_str": "03/06/2026",
-        "answer_str": "10/06/2026",
-        "snippet": "Will the Cabinet Minister provide an update on the Welsh Government's plans to change permitted development rights ...",
-        "member_name": "Darren Millar",
-        "member_area": "Clwyd",
-        "member_uid": "171",
-        "full_question": "Will the Cabinet Minister provide an update on the Welsh Government's plans to change permitted development rights to restrict pop-up campsites?",
-        "answered_by": "Cabinet Minister for Local Government, Housing and Planning",
-        "answered_on": "11/06/2026",
-        "party": "Welsh Conservative Party",
-        "emailed": true
-      },
       {
         "wq_ref": "WQ98837",
         "url_path": "/WrittenQuestion/98837",
@@ -2006,23 +1676,6 @@
         "answered_by": "Cabinet Minister for Local Government, Housing and Planning",
         "answered_on": "18/06/2026",
         "party": "Welsh Conservative Party",
-        "emailed": true
-      }
-    ],
-    "2026-06-08": [
-      {
-        "wq_ref": "WQ99002",
-        "url_path": "/WrittenQuestion/99002",
-        "tabled_str": "11/06/2026",
-        "answer_str": "18/06/2026",
-        "snippet": "What consideration has the Welsh Government given to assessing the feasibility of bringing Penrhos Nature Reserve, Ynys ...",
-        "member_name": "Helen Jenner",
-        "member_area": "Bangor Conwy M\u00f4n",
-        "member_uid": "12153",
-        "full_question": "What consideration has the Welsh Government given to assessing the feasibility of bringing Penrhos Nature Reserve, Ynys Mon, into public ownership in recognition of its environmental, biodiversity, heritage, recreational and wellbeing value, given that it's currently being marketed for sale by administrators?",
-        "answered_by": "Cabinet Minister for Rural Resilience and Sustainability",
-        "answered_on": "19/06/2026",
-        "party": "Reform UK",
         "emailed": true
       }
     ],
@@ -2285,21 +1938,6 @@
         "emailed": true
       },
       {
-        "wq_ref": "WQ99286",
-        "url_path": "/WrittenQuestion/99286",
-        "tabled_str": "24/06/2026",
-        "answer_str": "01/07/2026",
-        "snippet": "Will the Cabinet Minister confirm whether the Visitor Accommodation (Register and Levy) (Wales) Act 2025 requires the ...",
-        "member_name": "Iain McIntosh",
-        "member_area": "Brycheiniog Tawe Nedd",
-        "member_uid": "12170",
-        "full_question": "Will the Cabinet Minister confirm whether the Visitor Accommodation (Register and Levy) (Wales) Act 2025 requires the visitor levy to be charged for babies and infants staying in visitor accommodation, and what assessment has been made of the possible impact this will have on family tourism in Wales?",
-        "answered_by": "Cabinet Minister for Finance",
-        "answered_on": "06/07/2026",
-        "party": "Reform UK",
-        "emailed": true
-      },
-      {
         "wq_ref": "WQ99320",
         "url_path": "/WrittenQuestion/99320",
         "tabled_str": "25/06/2026",
@@ -2359,21 +1997,6 @@
         "answered_by": "Cabinet Minister for Local Government, Housing and Planning",
         "answered_on": "06/07/2026",
         "party": "Welsh Labour",
-        "emailed": true
-      },
-      {
-        "wq_ref": "WQ99363",
-        "url_path": "/WrittenQuestion/99363",
-        "tabled_str": "29/06/2026",
-        "answer_str": "06/07/2026",
-        "snippet": "What support is the Welsh Government providing to community-led organisations seeking to regenerate town centres by bringing ...",
-        "member_name": "Nigel Williams",
-        "member_area": "Fflint Wrecsam",
-        "member_uid": "5113",
-        "full_question": "What support is the Welsh Government providing to community-led organisations seeking to regenerate town centres by bringing vacant or underused properties back into productive use?",
-        "answered_by": "Cabinet Minister for Local Government, Housing and Planning",
-        "answered_on": "06/07/2026",
-        "party": "Reform UK",
         "emailed": true
       }
     ],
@@ -2525,21 +2148,6 @@
         "full_question": "Does the Cabinet Minister accept the conclusions of the previous Welsh Government's Integrated Impact Assessment for the Visitor Accommodation (Register and Levy) Etc. (Wales) Act 2025 relating to potential reductions in visitor spend, reduced overnight stays and disproportionate impacts on smaller accommodation providers and, if so, does the Cabinet Minister consider those risks to be acceptable?",
         "answered_by": "Cabinet Minister for Finance",
         "answered_on": "16/07/2026",
-        "party": "Reform UK",
-        "emailed": true
-      },
-      {
-        "wq_ref": "WQ99622",
-        "url_path": "/WrittenQuestion/99622",
-        "tabled_str": "10/07/2026",
-        "answer_str": "17/07/2026",
-        "snippet": "Will the Cabinet Minister set out a) the cost of student finance for those receiving benefits, b) ...",
-        "member_name": "Dan Thomas",
-        "member_area": "Casnewydd Islwyn",
-        "member_uid": "12147",
-        "full_question": "Will the Cabinet Minister set out a) the cost of student finance for those receiving benefits, b) how many people after completing the course come off benefits and c) how much of this goes to people on long term sickness benefits who fail to return to work?",
-        "answered_by": "Deputy Minister for Skills and Tertiary Education",
-        "answered_on": "22/07/2026",
         "party": "Reform UK",
         "emailed": true
       },
@@ -2803,36 +2411,6 @@
         "emailed": true
       },
       {
-        "wq_ref": "WQ99896",
-        "url_path": "/WrittenQuestion/99896",
-        "tabled_str": "29/07/2026",
-        "answer_str": "05/08/2026",
-        "snippet": "What engagement has the Welsh Government had with the camping and tourism sector regarding the proposed changes ...",
-        "member_name": "Francesca O'Brien",
-        "member_area": "G\u0175yr Abertawe",
-        "member_uid": "12190",
-        "full_question": "What engagement has the Welsh Government had with the camping and tourism sector regarding the proposed changes to permitted development rights, since the consultation on changes to permitted development rights closed on 1 July 2025?",
-        "answered_by": "Cabinet Minister for Local Government, Housing and Planning",
-        "answered_on": "07/08/2026",
-        "party": "Reform UK",
-        "emailed": true
-      },
-      {
-        "wq_ref": "WQ99916",
-        "url_path": "/WrittenQuestion/99916",
-        "tabled_str": "29/07/2026",
-        "answer_str": "05/08/2026",
-        "snippet": "Will the Cabinet Minister expand permitted development rights for installing electrical vehicle charging points so that listed ...",
-        "member_name": "Tom Montgomery",
-        "member_area": "Clwyd",
-        "member_uid": "12183",
-        "full_question": "Will the Cabinet Minister expand permitted development rights for installing electrical vehicle charging points so that listed buildings no longer have to apply for Listed Building Consent?",
-        "answered_by": "Cabinet Minister for Local Government, Housing and Planning",
-        "answered_on": "03/08/2026",
-        "party": "Reform UK",
-        "emailed": true
-      },
-      {
         "wq_ref": "WQ99952",
         "url_path": "/WrittenQuestion/99952",
         "tabled_str": "29/07/2026",
@@ -3090,21 +2668,6 @@
         "answered_on": "24/08/2026",
         "party": "Welsh Labour",
         "emailed": true
-      },
-      {
-        "wq_ref": "WQ100047",
-        "url_path": "/WrittenQuestion/100047",
-        "tabled_str": "12/08/2026",
-        "answer_str": "19/08/2026",
-        "snippet": "...to all children and young people under 18 years of age in all types of visitor accommodation?",
-        "member_name": "Tom Montgomery",
-        "member_area": "Clwyd",
-        "member_uid": "12183",
-        "full_question": "Why will the Cabinet Minister not extend the Visitor Levy exclusion to all children and young people under 18 years of age in all types of visitor accommodation?",
-        "answered_by": "Cabinet Minister for Finance",
-        "answered_on": "18/08/2026",
-        "party": "Reform UK",
-        "emailed": true
       }
     ],
     "2026-08-17": [
@@ -3186,21 +2749,6 @@
     ],
     "2026-08-24": [
       {
-        "wq_ref": "WQ100279",
-        "url_path": "/WrittenQuestion/100279",
-        "tabled_str": "26/08/2026",
-        "answer_str": "03/09/2026",
-        "snippet": "...the ability of pubs and other small businesses to benefit from permitted development rights for temporary campsites?",
-        "member_name": "Paul Davies",
-        "member_area": "Ceredigion Penfro",
-        "member_uid": "145",
-        "full_question": "What assessment has the Welsh Government made of the effect that the 100-metre buffer zone around protected buildings will have on the ability of pubs and other small businesses to benefit from permitted development rights for temporary campsites?",
-        "answered_by": "Cabinet Minister for Enterprise, Connectivity and Energy",
-        "answered_on": "10/09/2026",
-        "party": "Welsh Conservative Party",
-        "emailed": true
-      },
-      {
         "wq_ref": "WQ100249",
         "url_path": "/WrittenQuestion/100249",
         "tabled_str": "26/08/2026",
@@ -3213,21 +2761,6 @@
         "answered_by": "Cabinet Minister for Local Government, Housing and Planning",
         "answered_on": "04/09/2026",
         "party": "Plaid Cymru",
-        "emailed": true
-      },
-      {
-        "wq_ref": "WQ100345",
-        "url_path": "/WrittenQuestion/100345",
-        "tabled_str": "26/08/2026",
-        "answer_str": "03/09/2026",
-        "snippet": "What is the Welsh Government's policy on providing illegal immigrants treatment under the NHS?",
-        "member_name": "Joe Martin",
-        "member_area": "Caerdydd Penarth",
-        "member_uid": "12146",
-        "full_question": "What is the Welsh Government's policy on providing illegal immigrants treatment under the NHS?",
-        "answered_by": "Cabinet Minister for Health and Care",
-        "answered_on": "08/09/2026",
-        "party": "Reform UK",
         "emailed": true
       }
     ],
@@ -3281,21 +2814,6 @@
       }
     ],
     "2026-09-14": [
-      {
-        "wq_ref": "WQ100507",
-        "url_path": "/WrittenQuestion/100507",
-        "tabled_str": "14/09/2026",
-        "answer_str": "21/09/2026",
-        "snippet": "...towards local services when they already contribute to funding public services through existing UK and Welsh taxation?",
-        "member_name": "Iain McIntosh",
-        "member_area": "Brycheiniog Tawe Nedd",
-        "member_uid": "12170",
-        "full_question": "Will the Cabinet Minister explain why the Welsh Government believes UK tourists, visitors and workers staying overnight in Wales should pay an additional visitor levy towards local services when they already contribute to funding public services through existing UK and Welsh taxation?",
-        "answered_by": "Cabinet Minister for Finance",
-        "answered_on": "16/09/2026",
-        "party": "Reform UK",
-        "emailed": true
-      },
       {
         "wq_ref": "WQ100530",
         "url_path": "/WrittenQuestion/100530",
@@ -3374,21 +2892,6 @@
         "emailed": true
       },
       {
-        "wq_ref": "WQ100638",
-        "url_path": "/WrittenQuestion/100638",
-        "tabled_str": "21/09/2026",
-        "answer_str": "28/09/2026",
-        "snippet": "What public sector decarbonisation programmes and projects will be funded by the \u00a338.7 million the Cabinet Minister ...",
-        "member_name": "Darren Millar",
-        "member_area": "Clwyd",
-        "member_uid": "171",
-        "full_question": "What public sector decarbonisation programmes and projects will be funded by the \u00a338.7 million the Cabinet Minister agreed for 2026 and 2027, as set out in the Decision Report on 29 June 2026?",
-        "answered_by": "Cabinet Minister for Rural Resilience and Sustainability",
-        "answered_on": "01/10/2026",
-        "party": "Welsh Conservative Party",
-        "emailed": true
-      },
-      {
         "wq_ref": "WQ100671",
         "url_path": "/WrittenQuestion/100671",
         "tabled_str": "23/09/2026",
@@ -3405,21 +2908,6 @@
       }
     ],
     "2026-09-28": [
-      {
-        "wq_ref": "WQ100797",
-        "url_path": "/WrittenQuestion/100797",
-        "tabled_str": "02/10/2026",
-        "answer_str": "09/10/2026",
-        "snippet": "How are health, education, social services and youth services working together to support children with complex needs?",
-        "member_name": "Sam Rowlands",
-        "member_area": "Fflint Wrecsam",
-        "member_uid": "8734",
-        "full_question": "How are health, education, social services and youth services working together to support children with complex needs?",
-        "answered_by": "Deputy First Minister and Cabinet Minister for Social Justice and Equality",
-        "answered_on": "09/10/2026",
-        "party": "Welsh Conservative Party",
-        "emailed": true
-      },
       {
         "wq_ref": "WQ100705",
         "url_path": "/WrittenQuestion/100705",
