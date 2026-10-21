@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-21T13:19:46.689369Z",
+  "generated": "2026-10-21T13:24:03.190902Z",
   "senedd_start": "2026-05-12",
-  "keywords_hash": "b9e6ebbdedf2",
-  "total": 117,
+  "keywords_hash": "c2381451bcd0",
+  "total": 116,
   "questions": [
     {
       "wq_ref": "WQ98823",
@@ -257,21 +257,6 @@
       "answered_by": "Cabinet Minister for Enterprise, Connectivity and Energy",
       "answered_on": "13/08/2026",
       "party": "Reform UK",
-      "emailed": true
-    },
-    {
-      "wq_ref": "WQ100805",
-      "url_path": "/WrittenQuestion/100805",
-      "tabled_str": "05/10/2026",
-      "answer_str": "12/10/2026",
-      "snippet": "How is the Cabinet Minister working with the Betsi Cadwaladr University Health Board to ensure that patients ...",
-      "member_name": "Janet Finch-Saunders",
-      "member_area": "Bangor Conwy M\u00f4n",
-      "member_uid": "212",
-      "full_question": "How is the Cabinet Minister working with the Betsi Cadwaladr University Health Board to ensure that patients with diabetes and similar medical conditions have access to food and drink while waiting for their consultation?",
-      "answered_by": "Cabinet Minister for Health and Care",
-      "answered_on": "16/10/2026",
-      "party": "Welsh Conservative Party",
       "emailed": true
     },
     {
@@ -3478,23 +3463,6 @@
         "answered_by": "Cabinet Minister for Local Government, Housing and Planning",
         "answered_on": "05/10/2026",
         "party": "Welsh Liberal Democrats",
-        "emailed": true
-      }
-    ],
-    "2026-10-05": [
-      {
-        "wq_ref": "WQ100805",
-        "url_path": "/WrittenQuestion/100805",
-        "tabled_str": "05/10/2026",
-        "answer_str": "12/10/2026",
-        "snippet": "How is the Cabinet Minister working with the Betsi Cadwaladr University Health Board to ensure that patients ...",
-        "member_name": "Janet Finch-Saunders",
-        "member_area": "Bangor Conwy M\u00f4n",
-        "member_uid": "212",
-        "full_question": "How is the Cabinet Minister working with the Betsi Cadwaladr University Health Board to ensure that patients with diabetes and similar medical conditions have access to food and drink while waiting for their consultation?",
-        "answered_by": "Cabinet Minister for Health and Care",
-        "answered_on": "16/10/2026",
-        "party": "Welsh Conservative Party",
         "emailed": true
       }
     ],
