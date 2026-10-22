@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-21T14:23:38.293101Z",
+  "generated": "2026-10-22T13:18:20.478445Z",
   "senedd_start": "2026-05-12",
   "keywords_hash": "c2381451bcd0",
-  "total": 99,
+  "total": 101,
   "questions": [
     {
       "wq_ref": "WQ100402",
@@ -419,8 +419,8 @@
       "member_area": "G\u0175yr Abertawe",
       "member_uid": "332",
       "full_question": "What plans does the Welsh Government have to give tenants in rented social accommodation a legal right to request a pet?",
-      "answered_by": "",
-      "answered_on": "",
+      "answered_by": "Cabinet Minister for Local Government, Housing and Planning",
+      "answered_on": "16/10/2026",
       "party": "Welsh Labour and Co-operative Party",
       "emailed": true
     },
@@ -466,6 +466,21 @@
       "full_question": "Does the Welsh Government have any plans to review fees for retrospective planning applications?",
       "answered_by": "Cabinet Minister for Local Government, Housing and Planning",
       "answered_on": "19/10/2026",
+      "party": "Plaid Cymru",
+      "emailed": true
+    },
+    {
+      "wq_ref": "WQ100952",
+      "url_path": "/WrittenQuestion/100952",
+      "tabled_str": "13/10/2026",
+      "answer_str": "20/10/2026",
+      "snippet": "Will the Welsh Government provide an update on the development of Baglan Bay?",
+      "member_name": "Sera Evans",
+      "member_area": "Afan Ogwr Rhondda",
+      "member_uid": "330",
+      "full_question": "Will the Welsh Government provide an update on the development of Baglan Bay?",
+      "answered_by": "Cabinet Minister for Enterprise, Connectivity and Energy",
+      "answered_on": "21/10/2026",
       "party": "Plaid Cymru",
       "emailed": true
     },
@@ -1007,6 +1022,21 @@
       "answered_by": "Cabinet Minister for Finance",
       "answered_on": "22/09/2026",
       "party": "Reform UK",
+      "emailed": true
+    },
+    {
+      "wq_ref": "WQ101059",
+      "url_path": "/WrittenQuestion/101059",
+      "tabled_str": "21/10/2026",
+      "answer_str": "28/10/2026",
+      "snippet": "...for public bodies subject to the duty to ask and act in the Homelessness and Social Housing Allocations (Wales) Act ...",
+      "member_name": "Anthony Slaughter",
+      "member_area": "Caerdydd Penarth",
+      "member_uid": "5025",
+      "full_question": "What progress has the Welsh Government made to provide funding, guidance and training for public bodies subject to the duty to ask and act in the Homelessness and Social Housing Allocations (Wales) Act 2026 to help staff identify people at risk of homelessness and act quickly to prevent homelessness?",
+      "answered_by": "",
+      "answered_on": "",
+      "party": "Welsh Green Party",
       "emailed": true
     },
     {
@@ -2965,8 +2995,8 @@
         "member_area": "G\u0175yr Abertawe",
         "member_uid": "332",
         "full_question": "What plans does the Welsh Government have to give tenants in rented social accommodation a legal right to request a pet?",
-        "answered_by": "",
-        "answered_on": "",
+        "answered_by": "Cabinet Minister for Local Government, Housing and Planning",
+        "answered_on": "16/10/2026",
         "party": "Welsh Labour and Co-operative Party",
         "emailed": true
       },
@@ -3013,6 +3043,38 @@
         "answered_by": "Cabinet Minister for Local Government, Housing and Planning",
         "answered_on": "19/10/2026",
         "party": "Plaid Cymru",
+        "emailed": true
+      },
+      {
+        "wq_ref": "WQ100952",
+        "url_path": "/WrittenQuestion/100952",
+        "tabled_str": "13/10/2026",
+        "answer_str": "20/10/2026",
+        "snippet": "Will the Welsh Government provide an update on the development of Baglan Bay?",
+        "member_name": "Sera Evans",
+        "member_area": "Afan Ogwr Rhondda",
+        "member_uid": "330",
+        "full_question": "Will the Welsh Government provide an update on the development of Baglan Bay?",
+        "answered_by": "Cabinet Minister for Enterprise, Connectivity and Energy",
+        "answered_on": "21/10/2026",
+        "party": "Plaid Cymru",
+        "emailed": true
+      }
+    ],
+    "2026-10-19": [
+      {
+        "wq_ref": "WQ101059",
+        "url_path": "/WrittenQuestion/101059",
+        "tabled_str": "21/10/2026",
+        "answer_str": "28/10/2026",
+        "snippet": "...for public bodies subject to the duty to ask and act in the Homelessness and Social Housing Allocations (Wales) Act ...",
+        "member_name": "Anthony Slaughter",
+        "member_area": "Caerdydd Penarth",
+        "member_uid": "5025",
+        "full_question": "What progress has the Welsh Government made to provide funding, guidance and training for public bodies subject to the duty to ask and act in the Homelessness and Social Housing Allocations (Wales) Act 2026 to help staff identify people at risk of homelessness and act quickly to prevent homelessness?",
+        "answered_by": "",
+        "answered_on": "",
+        "party": "Welsh Green Party",
         "emailed": true
       }
     ]
