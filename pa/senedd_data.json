@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-22T13:18:20.478445Z",
+  "generated": "2026-10-22T13:25:24.465183Z",
   "senedd_start": "2026-05-12",
   "keywords_hash": "c2381451bcd0",
-  "total": 101,
+  "total": 100,
   "questions": [
     {
       "wq_ref": "WQ100402",
@@ -466,21 +466,6 @@
       "full_question": "Does the Welsh Government have any plans to review fees for retrospective planning applications?",
       "answered_by": "Cabinet Minister for Local Government, Housing and Planning",
       "answered_on": "19/10/2026",
-      "party": "Plaid Cymru",
-      "emailed": true
-    },
-    {
-      "wq_ref": "WQ100952",
-      "url_path": "/WrittenQuestion/100952",
-      "tabled_str": "13/10/2026",
-      "answer_str": "20/10/2026",
-      "snippet": "Will the Welsh Government provide an update on the development of Baglan Bay?",
-      "member_name": "Sera Evans",
-      "member_area": "Afan Ogwr Rhondda",
-      "member_uid": "330",
-      "full_question": "Will the Welsh Government provide an update on the development of Baglan Bay?",
-      "answered_by": "Cabinet Minister for Enterprise, Connectivity and Energy",
-      "answered_on": "21/10/2026",
       "party": "Plaid Cymru",
       "emailed": true
     },
@@ -3042,21 +3027,6 @@
         "full_question": "Does the Welsh Government have any plans to review fees for retrospective planning applications?",
         "answered_by": "Cabinet Minister for Local Government, Housing and Planning",
         "answered_on": "19/10/2026",
-        "party": "Plaid Cymru",
-        "emailed": true
-      },
-      {
-        "wq_ref": "WQ100952",
-        "url_path": "/WrittenQuestion/100952",
-        "tabled_str": "13/10/2026",
-        "answer_str": "20/10/2026",
-        "snippet": "Will the Welsh Government provide an update on the development of Baglan Bay?",
-        "member_name": "Sera Evans",
-        "member_area": "Afan Ogwr Rhondda",
-        "member_uid": "330",
-        "full_question": "Will the Welsh Government provide an update on the development of Baglan Bay?",
-        "answered_by": "Cabinet Minister for Enterprise, Connectivity and Energy",
-        "answered_on": "21/10/2026",
         "party": "Plaid Cymru",
         "emailed": true
       }
