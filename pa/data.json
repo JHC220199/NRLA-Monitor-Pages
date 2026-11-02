@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-30T15:07:29.848032",
+  "lastUpdated": "2026-11-02T18:03:43.297182",
   "questions": [
     {
       "id": 1954746,
@@ -268,6 +268,29 @@
       "followUp": false,
       "weekCommencing": "2026-10-26",
       "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-10-27/38242",
+      "answered": true,
+      "isHolding": false,
+      "dateAnswered": "2nd November",
+      "answeringMember": "Martin McCluskey",
+      "answeringParty": "Lab",
+      "answerSummary": "The pricing and availability of mortgages, including decisions on the type of property to lend against spray foam, is a commercial decision for lenders in which the Government does not intervene. Therefore, we do not hold a record of these numbers.",
+      "summaryVersion": 2,
+      "emailed": true
+    },
+    {
+      "id": 1955245,
+      "uin": "901835",
+      "memberName": "Dr Lauren Sullivan",
+      "party": "Lab",
+      "house": "Commons",
+      "question": "To ask the Secretary of State for Housing, Communities and Local Government, whether her Department provides guidance to local authorities and leaseholders on the acquisition of difficult-to-sell assisted living properties.",
+      "dateTabled": "27th October",
+      "dateTabledRaw": "2026-10-27",
+      "dateForAnswer": "Due 2nd November",
+      "dateForAnswerRaw": "2026-11-02",
+      "followUp": false,
+      "weekCommencing": "2026-10-26",
+      "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-10-27/901835",
       "answered": false,
       "isHolding": false,
       "dateAnswered": null,
@@ -360,12 +383,12 @@
       "followUp": false,
       "weekCommencing": "2026-10-19",
       "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-10-23/37714",
-      "answered": false,
+      "answered": true,
       "isHolding": false,
-      "dateAnswered": null,
-      "answeringMember": "",
-      "answeringParty": "",
-      "answerSummary": null,
+      "dateAnswered": "2nd November",
+      "answeringMember": "Matthew Pennycook",
+      "answeringParty": "Lab",
+      "answerSummary": "I refer the hon. Member to the Written Ministerial Statement made on 15 July 2026 (HCWS270).",
       "summaryVersion": 2,
       "emailed": true
     },
@@ -406,12 +429,12 @@
       "followUp": false,
       "weekCommencing": "2026-10-19",
       "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-10-23/37720",
-      "answered": false,
+      "answered": true,
       "isHolding": false,
-      "dateAnswered": null,
-      "answeringMember": "",
-      "answeringParty": "",
-      "answerSummary": null,
+      "dateAnswered": "2nd November",
+      "answeringMember": "Matthew Pennycook",
+      "answeringParty": "Lab",
+      "answerSummary": "I refer the hon. Member to the answer given to Question UIN 78220 on 20 October 2025.",
       "summaryVersion": 2,
       "emailed": true
     },
@@ -13647,7 +13670,12 @@
     1954402,
     1954412,
     1954430,
-    1954477
+    1954477,
+    1954645,
+    1954744,
+    1954746,
+    1954872,
+    1955036
   ],
-  "lastEmailDate": "2026-10-30"
+  "lastEmailDate": "2026-11-02"
 }
