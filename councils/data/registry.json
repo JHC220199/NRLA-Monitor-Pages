@@ -1,0 +1,3191 @@
+{
+ "generated": "2026-11-05T20:49:11+00:00",
+ "count": 318,
+ "sources": {
+  "open_council_data": "https://opencouncildata.co.uk/councils.php?model=E&y=0",
+  "govuk_local_links": "https://local-links-manager.publishing.service.gov.uk/data/links_to_services_provided_by_local_authorities.csv",
+  "democracy_club_lgsf": "https://github.com/DemocracyClub/LGSF.git"
+ },
+ "councils": {
+  "E07000223": {
+   "gss": "E07000223",
+   "name": "Adur",
+   "official_name": "Adur District Council",
+   "website": "https://www.adur-worthing.gov.uk",
+   "ocd_id": 165,
+   "ocd_name": "Adur",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.adur-worthing.gov.uk"
+  },
+  "E07000032": {
+   "gss": "E07000032",
+   "name": "Amber Valley",
+   "official_name": "Amber Valley Borough Council",
+   "website": "https://www.ambervalley.gov.uk",
+   "ocd_id": 170,
+   "ocd_name": "Amber Valley",
+   "system": "JSON API",
+   "democracy_url": "https://info.ambervalley.gov.uk/WebServices/AVBCFeeds/DemocracyJSON.asmx"
+  },
+  "E07000224": {
+   "gss": "E07000224",
+   "name": "Arun",
+   "official_name": "Arun District Council",
+   "website": "https://www.arun.gov.uk",
+   "ocd_id": 29,
+   "ocd_name": "Arun",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.arun.gov.uk"
+  },
+  "E07000170": {
+   "gss": "E07000170",
+   "name": "Ashfield",
+   "official_name": "Ashfield District Council",
+   "website": "https://www.ashfield.gov.uk",
+   "ocd_id": 30,
+   "ocd_name": "Ashfield",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.ashfield.gov.uk"
+  },
+  "E07000105": {
+   "gss": "E07000105",
+   "name": "Ashford",
+   "official_name": "Ashford Borough Council",
+   "website": "https://www.ashford.gov.uk",
+   "ocd_id": 31,
+   "ocd_name": "Ashford",
+   "system": "ModernGov",
+   "democracy_url": "https://ashford.moderngov.co.uk"
+  },
+  "E07000200": {
+   "gss": "E07000200",
+   "name": "Babergh",
+   "official_name": "Babergh District Council",
+   "website": "https://www.babergh.gov.uk",
+   "ocd_id": 33,
+   "ocd_name": "Babergh",
+   "system": "ModernGov",
+   "democracy_url": "https://baberghmidsuffolk.moderngov.co.uk"
+  },
+  "E09000002": {
+   "gss": "E09000002",
+   "name": "Barking and Dagenham",
+   "official_name": "London Borough of Barking and Dagenham",
+   "website": "https://www.lbbd.gov.uk",
+   "ocd_id": 227,
+   "ocd_name": "Barking and Dagenham",
+   "system": "ModernGov",
+   "democracy_url": "https://lbbd.moderngov.co.uk"
+  },
+  "E09000003": {
+   "gss": "E09000003",
+   "name": "Barnet",
+   "official_name": "London Borough of Barnet",
+   "website": "https://www.barnet.gov.uk",
+   "ocd_id": 228,
+   "ocd_name": "Barnet",
+   "system": "ModernGov",
+   "democracy_url": "https://barnet.moderngov.co.uk"
+  },
+  "E08000038": {
+   "gss": "E08000038",
+   "name": "Barnsley",
+   "official_name": "Barnsley Metropolitan Borough Council",
+   "website": "https://www.barnsley.gov.uk",
+   "ocd_id": 264,
+   "ocd_name": "Barnsley",
+   "system": "ModernGov",
+   "democracy_url": "https://barnsleymbc.moderngov.co.uk"
+  },
+  "E07000066": {
+   "gss": "E07000066",
+   "name": "Basildon",
+   "official_name": "Basildon Borough Council",
+   "website": "https://www.basildon.gov.uk",
+   "ocd_id": 171,
+   "ocd_name": "Basildon",
+   "system": "ModernGov",
+   "democracy_url": "https://www.basildonmeetings.info"
+  },
+  "E07000084": {
+   "gss": "E07000084",
+   "name": "Basingstoke and Deane",
+   "official_name": "Basingstoke and Deane Borough Council",
+   "website": "https://www.basingstoke.gov.uk",
+   "ocd_id": 172,
+   "ocd_name": "Basingstoke and Deane",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.basingstoke.gov.uk"
+  },
+  "E07000171": {
+   "gss": "E07000171",
+   "name": "Bassetlaw",
+   "official_name": "Bassetlaw District Council",
+   "website": "https://www.bassetlaw.gov.uk",
+   "ocd_id": 35,
+   "ocd_name": "Bassetlaw",
+   "system": "ModernGov",
+   "democracy_url": "https://bassetlaw.moderngov.co.uk"
+  },
+  "E06000022": {
+   "gss": "E06000022",
+   "name": "Bath and North East Somerset",
+   "official_name": "Bath and North East Somerset Council",
+   "website": "https://www.bathnes.gov.uk",
+   "ocd_id": 327,
+   "ocd_name": "Bath and North East Somerset",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.bathnes.gov.uk"
+  },
+  "E06000055": {
+   "gss": "E06000055",
+   "name": "Bedford",
+   "official_name": "Bedford Borough Council",
+   "website": "https://www.bedford.gov.uk",
+   "ocd_id": 328,
+   "ocd_name": "Bedford",
+   "system": "ModernGov",
+   "democracy_url": "https://councillorsupport.bedford.gov.uk"
+  },
+  "E09000004": {
+   "gss": "E09000004",
+   "name": "Bexley",
+   "official_name": "London Borough of Bexley",
+   "website": "https://www.bexley.gov.uk",
+   "ocd_id": 229,
+   "ocd_name": "Bexley",
+   "system": "ModernGov",
+   "democracy_url": "http://democracy.bexley.gov.uk"
+  },
+  "E08000025": {
+   "gss": "E08000025",
+   "name": "Birmingham",
+   "official_name": "Birmingham City Council",
+   "website": "https://www.birmingham.gov.uk",
+   "ocd_id": 259,
+   "ocd_name": "Birmingham",
+   "system": "CMIS",
+   "democracy_url": "https://birmingham.cmis.uk.com/birmingham"
+  },
+  "E07000129": {
+   "gss": "E07000129",
+   "name": "Blaby",
+   "official_name": "Blaby District Council",
+   "website": "https://www.blaby.gov.uk",
+   "ocd_id": 36,
+   "ocd_name": "Blaby",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.blaby.gov.uk"
+  },
+  "E06000008": {
+   "gss": "E06000008",
+   "name": "Blackburn with Darwen",
+   "official_name": "Blackburn with Darwen Borough Council",
+   "website": "https://www.blackburn.gov.uk",
+   "ocd_id": 365,
+   "ocd_name": "Blackburn with Darwen",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.blackburn.gov.uk"
+  },
+  "E06000009": {
+   "gss": "E06000009",
+   "name": "Blackpool",
+   "official_name": "Blackpool Borough Council",
+   "website": "https://www.blackpool.gov.uk",
+   "ocd_id": 329,
+   "ocd_name": "Blackpool",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.blackpool.gov.uk"
+  },
+  "E07000033": {
+   "gss": "E07000033",
+   "name": "Bolsover",
+   "official_name": "Bolsover District Council",
+   "website": "https://www.bolsover.gov.uk",
+   "ocd_id": 37,
+   "ocd_name": "Bolsover",
+   "system": "ModernGov",
+   "democracy_url": "https://committees.bolsover.gov.uk"
+  },
+  "E08000001": {
+   "gss": "E08000001",
+   "name": "Bolton",
+   "official_name": "Bolton Metropolitan Borough Council",
+   "website": "https://www.bolton.gov.uk",
+   "ocd_id": 265,
+   "ocd_name": "Bolton",
+   "system": "ModernGov",
+   "democracy_url": "https://bolton.moderngov.co.uk"
+  },
+  "E07000136": {
+   "gss": "E07000136",
+   "name": "Boston",
+   "official_name": "Boston Borough Council",
+   "website": "https://www.boston.gov.uk",
+   "ocd_id": 38,
+   "ocd_name": "Boston",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.boston.gov.uk"
+  },
+  "E06000058": {
+   "gss": "E06000058",
+   "name": "Bournemouth, Christchurch and Poole",
+   "official_name": "Bournemouth, Christchurch and Poole Council",
+   "website": "https://www.bcpcouncil.gov.uk",
+   "ocd_id": 409,
+   "ocd_name": "Bournemouth, Christchurch and Poole",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.bcpcouncil.gov.uk"
+  },
+  "E06000036": {
+   "gss": "E06000036",
+   "name": "Bracknell Forest",
+   "official_name": "Bracknell Forest Council",
+   "website": "https://www.bracknell-forest.gov.uk",
+   "ocd_id": 331,
+   "ocd_name": "Bracknell Forest",
+   "system": "ModernGov",
+   "democracy_url": "https://democratic.bracknell-forest.gov.uk"
+  },
+  "E08000032": {
+   "gss": "E08000032",
+   "name": "Bradford",
+   "official_name": "City of Bradford Metropolitan District Council",
+   "website": "https://www.bradford.gov.uk",
+   "ocd_id": 266,
+   "ocd_name": "Bradford",
+   "system": "ModernGov",
+   "democracy_url": "https://bradford.moderngov.co.uk"
+  },
+  "E07000067": {
+   "gss": "E07000067",
+   "name": "Braintree",
+   "official_name": "Braintree District Council",
+   "website": "https://www.braintree.gov.uk",
+   "ocd_id": 39,
+   "ocd_name": "Braintree",
+   "system": "CMIS",
+   "democracy_url": "http://braintree.cmis.uk.com/braintree"
+  },
+  "E07000143": {
+   "gss": "E07000143",
+   "name": "Breckland",
+   "official_name": "Breckland Council",
+   "website": "https://www.breckland.gov.uk",
+   "ocd_id": 40,
+   "ocd_name": "Breckland",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.breckland.gov.uk"
+  },
+  "E09000005": {
+   "gss": "E09000005",
+   "name": "Brent",
+   "official_name": "London Borough of Brent",
+   "website": "https://www.brent.gov.uk",
+   "ocd_id": 230,
+   "ocd_name": "Brent",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.brent.gov.uk"
+  },
+  "E07000068": {
+   "gss": "E07000068",
+   "name": "Brentwood",
+   "official_name": "Brentwood Borough Council",
+   "website": "https://www.brentwood.gov.uk",
+   "ocd_id": 173,
+   "ocd_name": "Brentwood",
+   "system": "ModernGov",
+   "democracy_url": "https://brentwood.moderngov.co.uk"
+  },
+  "E06000043": {
+   "gss": "E06000043",
+   "name": "Brighton and Hove",
+   "official_name": "Brighton and Hove City Council",
+   "website": "https://www.brighton-hove.gov.uk",
+   "ocd_id": 332,
+   "ocd_name": "Brighton and Hove",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.brighton-hove.gov.uk"
+  },
+  "E06000023": {
+   "gss": "E06000023",
+   "name": "Bristol",
+   "official_name": "Bristol City Council",
+   "website": "https://www.bristol.gov.uk",
+   "ocd_id": 366,
+   "ocd_name": "Bristol",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.bristol.gov.uk"
+  },
+  "E07000144": {
+   "gss": "E07000144",
+   "name": "Broadland",
+   "official_name": "Broadland District Council",
+   "website": "https://www.southnorfolkandbroadland.gov.uk",
+   "ocd_id": 41,
+   "ocd_name": "Broadland",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.southnorfolkandbroadland.gov.uk"
+  },
+  "E09000006": {
+   "gss": "E09000006",
+   "name": "Bromley",
+   "official_name": "London Borough of Bromley",
+   "website": "https://www.bromley.gov.uk",
+   "ocd_id": 231,
+   "ocd_name": "Bromley",
+   "system": "ModernGov",
+   "democracy_url": "https://cds.bromley.gov.uk"
+  },
+  "E07000234": {
+   "gss": "E07000234",
+   "name": "Bromsgrove",
+   "official_name": "Bromsgrove District Council",
+   "website": "https://www.bromsgrove.gov.uk",
+   "ocd_id": 42,
+   "ocd_name": "Bromsgrove",
+   "system": "ModernGov",
+   "democracy_url": "https://moderngovwebpublic.bromsgrove.gov.uk"
+  },
+  "E07000095": {
+   "gss": "E07000095",
+   "name": "Broxbourne",
+   "official_name": "Borough of Broxbourne",
+   "website": "https://www.broxbourne.gov.uk",
+   "ocd_id": 174,
+   "ocd_name": "Broxbourne",
+   "system": "ModernGov",
+   "democracy_url": "https://broxbourne.moderngov.co.uk"
+  },
+  "E07000172": {
+   "gss": "E07000172",
+   "name": "Broxtowe",
+   "official_name": "Broxtowe Borough Council",
+   "website": "https://www.broxtowe.gov.uk",
+   "ocd_id": 43,
+   "ocd_name": "Broxtowe",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.broxtowe.gov.uk"
+  },
+  "E06000060": {
+   "gss": "E06000060",
+   "name": "Buckinghamshire",
+   "official_name": "Buckinghamshire Council",
+   "website": "https://www.buckinghamshire.gov.uk",
+   "ocd_id": 413,
+   "ocd_name": "Buckinghamshire",
+   "system": "ModernGov",
+   "democracy_url": "https://buckinghamshire.moderngov.co.uk"
+  },
+  "E07000117": {
+   "gss": "E07000117",
+   "name": "Burnley",
+   "official_name": "Burnley Borough Council",
+   "website": "https://www.burnley.gov.uk",
+   "ocd_id": 175,
+   "ocd_name": "Burnley",
+   "system": "ModernGov",
+   "democracy_url": "https://burnley.moderngov.co.uk"
+  },
+  "E08000002": {
+   "gss": "E08000002",
+   "name": "Bury",
+   "official_name": "Bury Metropolitan Borough Council",
+   "website": "https://www.bury.gov.uk",
+   "ocd_id": 267,
+   "ocd_name": "Bury",
+   "system": "ModernGov",
+   "democracy_url": "https://councildecisions.bury.gov.uk"
+  },
+  "E08000033": {
+   "gss": "E08000033",
+   "name": "Calderdale",
+   "official_name": "Calderdale Metropolitan Borough Council",
+   "website": "https://www.calderdale.gov.uk",
+   "ocd_id": 268,
+   "ocd_name": "Calderdale",
+   "system": "ModernGov",
+   "democracy_url": "https://calderdale.moderngov.co.uk"
+  },
+  "E07000008": {
+   "gss": "E07000008",
+   "name": "Cambridge",
+   "official_name": "Cambridge City Council",
+   "website": "https://www.cambridge.gov.uk",
+   "ocd_id": 176,
+   "ocd_name": "Cambridge",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.cambridge.gov.uk"
+  },
+  "E10000003": {
+   "gss": "E10000003",
+   "name": "Cambridgeshire",
+   "official_name": "Cambridgeshire County Council",
+   "website": "https://www.cambridgeshire.gov.uk",
+   "ocd_id": 2,
+   "ocd_name": "Cambridgeshire",
+   "system": "CMIS",
+   "democracy_url": "https://cambridgeshire.cmis.uk.com/ccc_live"
+  },
+  "E09000007": {
+   "gss": "E09000007",
+   "name": "Camden",
+   "official_name": "London Borough of Camden",
+   "website": "https://www.camden.gov.uk",
+   "ocd_id": 232,
+   "ocd_name": "Camden",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.camden.gov.uk"
+  },
+  "E07000192": {
+   "gss": "E07000192",
+   "name": "Cannock Chase",
+   "official_name": "Cannock Chase District Council",
+   "website": "https://www.cannockchasedc.gov.uk",
+   "ocd_id": 177,
+   "ocd_name": "Cannock Chase",
+   "system": "Custom HTML",
+   "democracy_url": "https://www.cannockchasedc.gov.uk/council/about-council/your-councillors"
+  },
+  "E07000106": {
+   "gss": "E07000106",
+   "name": "Canterbury",
+   "official_name": "Canterbury City Council",
+   "website": "https://www.canterbury.gov.uk",
+   "ocd_id": 44,
+   "ocd_name": "Canterbury",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.canterbury.gov.uk"
+  },
+  "E07000069": {
+   "gss": "E07000069",
+   "name": "Castle Point",
+   "official_name": "Castle Point Borough Council",
+   "website": "https://www.castlepoint.gov.uk",
+   "ocd_id": 179,
+   "ocd_name": "Castle Point",
+   "system": "CMIS",
+   "democracy_url": "https://castlepoint.cmis.uk.com/castlepoint"
+  },
+  "E06000056": {
+   "gss": "E06000056",
+   "name": "Central Bedfordshire",
+   "official_name": "Central Bedfordshire Council",
+   "website": "https://www.centralbedfordshire.gov.uk",
+   "ocd_id": 333,
+   "ocd_name": "Central Bedfordshire",
+   "system": "ModernGov",
+   "democracy_url": "https://centralbeds.moderngov.co.uk"
+  },
+  "E07000130": {
+   "gss": "E07000130",
+   "name": "Charnwood",
+   "official_name": "Charnwood Borough Council",
+   "website": "https://www.charnwood.gov.uk",
+   "ocd_id": 45,
+   "ocd_name": "Charnwood",
+   "system": "ModernGov",
+   "democracy_url": "https://charnwood.moderngov.co.uk"
+  },
+  "E07000070": {
+   "gss": "E07000070",
+   "name": "Chelmsford",
+   "official_name": "Chelmsford City Council",
+   "website": "https://www.chelmsford.gov.uk",
+   "ocd_id": 46,
+   "ocd_name": "Chelmsford",
+   "system": "Custom HTML",
+   "democracy_url": "https://www.chelmsford.gov.uk/your-council/councillors-committees-and-decision-making/councillors/find-a-councillor"
+  },
+  "E07000078": {
+   "gss": "E07000078",
+   "name": "Cheltenham",
+   "official_name": "Cheltenham Borough Council",
+   "website": "https://www.cheltenham.gov.uk",
+   "ocd_id": 166,
+   "ocd_name": "Cheltenham",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.cheltenham.gov.uk"
+  },
+  "E07000177": {
+   "gss": "E07000177",
+   "name": "Cherwell",
+   "official_name": "Cherwell District Council",
+   "website": "https://www.cherwell.gov.uk",
+   "ocd_id": 180,
+   "ocd_name": "Cherwell",
+   "system": "ModernGov",
+   "democracy_url": "http://modgov.cherwell.gov.uk"
+  },
+  "E06000049": {
+   "gss": "E06000049",
+   "name": "Cheshire East",
+   "official_name": "Cheshire East Council",
+   "website": "https://www.cheshireeast.gov.uk",
+   "ocd_id": 334,
+   "ocd_name": "Cheshire East",
+   "system": "ModernGov",
+   "democracy_url": "https://moderngov.cheshireeast.gov.uk/ecminutes"
+  },
+  "E06000050": {
+   "gss": "E06000050",
+   "name": "Cheshire West and Chester",
+   "official_name": "Cheshire West and Chester Council",
+   "website": "https://www.cheshirewestandchester.gov.uk",
+   "ocd_id": 335,
+   "ocd_name": "Cheshire West and Chester",
+   "system": "ModernGov",
+   "democracy_url": "https://cmttpublic.cheshirewestandchester.gov.uk"
+  },
+  "E07000034": {
+   "gss": "E07000034",
+   "name": "Chesterfield",
+   "official_name": "Chesterfield Borough Council",
+   "website": "https://www.chesterfield.gov.uk",
+   "ocd_id": 47,
+   "ocd_name": "Chesterfield",
+   "system": "ModernGov",
+   "democracy_url": "https://chesterfield.moderngov.co.uk"
+  },
+  "E07000225": {
+   "gss": "E07000225",
+   "name": "Chichester",
+   "official_name": "Chichester District Council",
+   "website": "https://www.chichester.gov.uk",
+   "ocd_id": 48,
+   "ocd_name": "Chichester",
+   "system": "ModernGov",
+   "democracy_url": "https://chichester.moderngov.co.uk"
+  },
+  "E07000118": {
+   "gss": "E07000118",
+   "name": "Chorley",
+   "official_name": "Chorley Council",
+   "website": "https://chorley.gov.uk",
+   "ocd_id": 181,
+   "ocd_name": "Chorley",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.chorley.gov.uk"
+  },
+  "E09000001": {
+   "gss": "E09000001",
+   "name": "City of London",
+   "official_name": "City of London Corporation",
+   "website": "https://www.cityoflondon.gov.uk",
+   "ocd_id": 406,
+   "ocd_name": "City of London",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.cityoflondon.gov.uk"
+  },
+  "E07000071": {
+   "gss": "E07000071",
+   "name": "Colchester",
+   "official_name": "Colchester City Council",
+   "website": "https://www.colchester.gov.uk",
+   "ocd_id": 182,
+   "ocd_name": "Colchester",
+   "system": "CMIS",
+   "democracy_url": "http://colchester.cmis.uk.com/colchester"
+  },
+  "E06000052": {
+   "gss": "E06000052",
+   "name": "Cornwall",
+   "official_name": "Cornwall Council",
+   "website": "https://www.cornwall.gov.uk",
+   "ocd_id": 336,
+   "ocd_name": "Cornwall",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.cornwall.gov.uk"
+  },
+  "E07000079": {
+   "gss": "E07000079",
+   "name": "Cotswold",
+   "official_name": "Cotswold District Council",
+   "website": "https://www.cotswold.gov.uk",
+   "ocd_id": 53,
+   "ocd_name": "Cotswold",
+   "system": "ModernGov",
+   "democracy_url": "https://meetings.cotswold.gov.uk"
+  },
+  "E08000026": {
+   "gss": "E08000026",
+   "name": "Coventry",
+   "official_name": "Coventry City Council",
+   "website": "https://www.coventry.gov.uk",
+   "ocd_id": 269,
+   "ocd_name": "Coventry",
+   "system": "ModernGov",
+   "democracy_url": "https://edemocracy.coventry.gov.uk"
+  },
+  "E07000226": {
+   "gss": "E07000226",
+   "name": "Crawley",
+   "official_name": "Crawley Borough Council",
+   "website": "https://www.crawley.gov.uk",
+   "ocd_id": 184,
+   "ocd_name": "Crawley",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.crawley.gov.uk"
+  },
+  "E09000008": {
+   "gss": "E09000008",
+   "name": "Croydon",
+   "official_name": "London Borough of Croydon",
+   "website": "https://www.croydon.gov.uk",
+   "ocd_id": 233,
+   "ocd_name": "Croydon",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.croydon.gov.uk"
+  },
+  "E06000063": {
+   "gss": "E06000063",
+   "name": "Cumberland",
+   "official_name": "Cumberland Council",
+   "website": "https://www.cumberland.gov.uk",
+   "ocd_id": 418,
+   "ocd_name": "Cumberland",
+   "system": "ModernGov",
+   "democracy_url": "https://cumberland.moderngov.co.uk"
+  },
+  "E07000096": {
+   "gss": "E07000096",
+   "name": "Dacorum",
+   "official_name": "Dacorum Borough Council",
+   "website": "https://www.dacorum.gov.uk",
+   "ocd_id": 54,
+   "ocd_name": "Dacorum",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.dacorum.gov.uk"
+  },
+  "E06000005": {
+   "gss": "E06000005",
+   "name": "Darlington",
+   "official_name": "Darlington Borough Council",
+   "website": "https://www.darlington.gov.uk",
+   "ocd_id": 337,
+   "ocd_name": "Darlington",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.darlington.gov.uk"
+  },
+  "E07000107": {
+   "gss": "E07000107",
+   "name": "Dartford",
+   "official_name": "Dartford Borough Council",
+   "website": "https://www.dartford.gov.uk",
+   "ocd_id": 55,
+   "ocd_name": "Dartford",
+   "system": "ModernGov",
+   "democracy_url": "https://dartford.moderngov.co.uk"
+  },
+  "E06000015": {
+   "gss": "E06000015",
+   "name": "Derby",
+   "official_name": "Derby City",
+   "website": "https://www.derby.gov.uk",
+   "ocd_id": 367,
+   "ocd_name": "Derby",
+   "system": "CMIS",
+   "democracy_url": "https://democracy.derby.gov.uk"
+  },
+  "E10000007": {
+   "gss": "E10000007",
+   "name": "Derbyshire",
+   "official_name": "Derbyshire County Council",
+   "website": "https://www.derbyshire.gov.uk",
+   "ocd_id": 4,
+   "ocd_name": "Derbyshire",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.derbyshire.gov.uk"
+  },
+  "E07000035": {
+   "gss": "E07000035",
+   "name": "Derbyshire Dales",
+   "official_name": "Derbyshire Dales District Council",
+   "website": "https://www.derbyshiredales.gov.uk",
+   "ocd_id": 56,
+   "ocd_name": "Derbyshire Dales",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.derbyshiredales.gov.uk"
+  },
+  "E10000008": {
+   "gss": "E10000008",
+   "name": "Devon",
+   "official_name": "Devon County Council",
+   "website": "https://new.devon.gov.uk",
+   "ocd_id": 5,
+   "ocd_name": "Devon",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.devon.gov.uk"
+  },
+  "E08000017": {
+   "gss": "E08000017",
+   "name": "Doncaster",
+   "official_name": "Doncaster Metropolitan Borough Council",
+   "website": "https://www.doncaster.gov.uk",
+   "ocd_id": 260,
+   "ocd_name": "Doncaster",
+   "system": "ModernGov",
+   "democracy_url": "https://doncaster.moderngov.co.uk"
+  },
+  "E06000059": {
+   "gss": "E06000059",
+   "name": "Dorset",
+   "official_name": "Dorset Council",
+   "website": "https://www.dorsetcouncil.gov.uk",
+   "ocd_id": 408,
+   "ocd_name": "Dorset",
+   "system": "ModernGov",
+   "democracy_url": "https://moderngov.dorsetcouncil.gov.uk"
+  },
+  "E07000108": {
+   "gss": "E07000108",
+   "name": "Dover",
+   "official_name": "Dover District Council",
+   "website": "https://www.dover.gov.uk",
+   "ocd_id": 57,
+   "ocd_name": "Dover",
+   "system": "ModernGov",
+   "democracy_url": "https://moderngov.dover.gov.uk"
+  },
+  "E08000027": {
+   "gss": "E08000027",
+   "name": "Dudley",
+   "official_name": "Dudley Metropolitan Borough Council",
+   "website": "https://www.dudley.gov.uk",
+   "ocd_id": 270,
+   "ocd_name": "Dudley",
+   "system": "CMIS",
+   "democracy_url": "http://cmis.dudley.gov.uk/cmis5"
+  },
+  "E06000047": {
+   "gss": "E06000047",
+   "name": "Durham",
+   "official_name": "Durham County Council",
+   "website": "https://www.durham.gov.uk",
+   "ocd_id": 338,
+   "ocd_name": "Durham",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.durham.gov.uk"
+  },
+  "E09000009": {
+   "gss": "E09000009",
+   "name": "Ealing",
+   "official_name": "London Borough of Ealing",
+   "website": "https://www.ealing.gov.uk",
+   "ocd_id": 234,
+   "ocd_name": "Ealing",
+   "system": "ModernGov",
+   "democracy_url": "https://ealing.moderngov.co.uk"
+  },
+  "E07000009": {
+   "gss": "E07000009",
+   "name": "East Cambridgeshire",
+   "official_name": "East Cambridgeshire District Council",
+   "website": "https://www.eastcambs.gov.uk",
+   "ocd_id": 58,
+   "ocd_name": "East Cambridgeshire",
+   "system": "Custom HTML",
+   "democracy_url": "https://eastcambs.gov.uk/about-council/councillors-and-committees/district-councillor-directory"
+  },
+  "E07000040": {
+   "gss": "E07000040",
+   "name": "East Devon",
+   "official_name": "East Devon District Council",
+   "website": "https://eastdevon.gov.uk",
+   "ocd_id": 59,
+   "ocd_name": "East Devon",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.eastdevon.gov.uk"
+  },
+  "E07000085": {
+   "gss": "E07000085",
+   "name": "East Hampshire",
+   "official_name": "East Hampshire District Council",
+   "website": "https://www.easthants.gov.uk",
+   "ocd_id": 61,
+   "ocd_name": "East Hampshire",
+   "system": "ModernGov",
+   "democracy_url": "https://easthants.moderngov.co.uk"
+  },
+  "E07000242": {
+   "gss": "E07000242",
+   "name": "East Hertfordshire",
+   "official_name": "East Hertfordshire District Council",
+   "website": "https://www.eastherts.gov.uk",
+   "ocd_id": 62,
+   "ocd_name": "East Hertfordshire",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.eastherts.gov.uk"
+  },
+  "E07000137": {
+   "gss": "E07000137",
+   "name": "East Lindsey",
+   "official_name": "East Lindsey District Council",
+   "website": "https://www.e-lindsey.gov.uk",
+   "ocd_id": 63,
+   "ocd_name": "East Lindsey",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.e-lindsey.gov.uk"
+  },
+  "E06000011": {
+   "gss": "E06000011",
+   "name": "East Riding of Yorkshire",
+   "official_name": "East Riding of Yorkshire Council",
+   "website": "https://www.eastriding.gov.uk",
+   "ocd_id": 339,
+   "ocd_name": "East Riding of Yorkshire",
+   "system": "Custom HTML",
+   "democracy_url": "https://www.eastriding.gov.uk"
+  },
+  "E07000193": {
+   "gss": "E07000193",
+   "name": "East Staffordshire",
+   "official_name": "East Staffordshire Borough Council",
+   "website": "https://www.eaststaffsbc.gov.uk",
+   "ocd_id": 65,
+   "ocd_name": "East Staffordshire",
+   "system": "Custom HTML",
+   "democracy_url": "https://www.eaststaffsbc.gov.uk/council-democracy/councillors"
+  },
+  "E07000244": {
+   "gss": "E07000244",
+   "name": "East Suffolk",
+   "official_name": "East Suffolk District Council",
+   "website": "https://www.eastsuffolk.gov.uk",
+   "ocd_id": 412,
+   "ocd_name": "East Suffolk",
+   "system": "CMIS",
+   "democracy_url": "https://eastsuffolk.cmis.uk.com/eastsuffolk"
+  },
+  "E06000067": {
+   "gss": "E06000067",
+   "name": "East Surrey",
+   "official_name": null,
+   "website": null,
+   "ocd_id": 421,
+   "ocd_name": "East Surrey",
+   "system": null,
+   "democracy_url": null
+  },
+  "E10000011": {
+   "gss": "E10000011",
+   "name": "East Sussex",
+   "official_name": "East Sussex County Council",
+   "website": "https://www.eastsussex.gov.uk",
+   "ocd_id": 7,
+   "ocd_name": "East Sussex",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.eastsussex.gov.uk"
+  },
+  "E07000061": {
+   "gss": "E07000061",
+   "name": "Eastbourne",
+   "official_name": "Eastbourne Borough Council",
+   "website": "https://www.lewes-eastbourne.gov.uk",
+   "ocd_id": 66,
+   "ocd_name": "Eastbourne",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.lewes-eastbourne.gov.uk"
+  },
+  "E07000086": {
+   "gss": "E07000086",
+   "name": "Eastleigh",
+   "official_name": "Eastleigh Borough Council",
+   "website": "https://www.eastleigh.gov.uk",
+   "ocd_id": 67,
+   "ocd_name": "Eastleigh",
+   "system": "ModernGov",
+   "democracy_url": "https://meetings.eastleigh.gov.uk"
+  },
+  "E07000207": {
+   "gss": "E07000207",
+   "name": "Elmbridge",
+   "official_name": "Elmbridge Borough Council",
+   "website": "https://www.elmbridge.gov.uk",
+   "ocd_id": 186,
+   "ocd_name": "Elmbridge",
+   "system": "ModernGov",
+   "democracy_url": "https://mygov.elmbridge.gov.uk"
+  },
+  "E09000010": {
+   "gss": "E09000010",
+   "name": "Enfield",
+   "official_name": "London Borough of Enfield",
+   "website": "https://new.enfield.gov.uk",
+   "ocd_id": 235,
+   "ocd_name": "Enfield",
+   "system": "ModernGov",
+   "democracy_url": "https://governance.enfield.gov.uk"
+  },
+  "E07000072": {
+   "gss": "E07000072",
+   "name": "Epping Forest",
+   "official_name": "Epping Forest District Council",
+   "website": "https://www.eppingforestdc.gov.uk",
+   "ocd_id": 187,
+   "ocd_name": "Epping Forest",
+   "system": "ModernGov",
+   "democracy_url": "https://rds.eppingforestdc.gov.uk"
+  },
+  "E07000208": {
+   "gss": "E07000208",
+   "name": "Epsom and Ewell",
+   "official_name": "Epsom and Ewell Borough Council",
+   "website": "https://www.epsom-ewell.gov.uk",
+   "ocd_id": 69,
+   "ocd_name": "Epsom and Ewell",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.epsom-ewell.gov.uk"
+  },
+  "E07000036": {
+   "gss": "E07000036",
+   "name": "Erewash",
+   "official_name": "Erewash Borough Council",
+   "website": "https://www.erewash.gov.uk",
+   "ocd_id": 70,
+   "ocd_name": "Erewash",
+   "system": "ModernGov",
+   "democracy_url": "https://moderngov.erewash.gov.uk"
+  },
+  "E10000012": {
+   "gss": "E10000012",
+   "name": "Essex",
+   "official_name": "Essex County Council",
+   "website": "https://www.essex.gov.uk",
+   "ocd_id": 8,
+   "ocd_name": "Essex",
+   "system": "CMIS",
+   "democracy_url": "http://cmis.essex.gov.uk/EssexCmis5"
+  },
+  "E07000041": {
+   "gss": "E07000041",
+   "name": "Exeter",
+   "official_name": "Exeter City Council",
+   "website": "https://exeter.gov.uk",
+   "ocd_id": 188,
+   "ocd_name": "Exeter",
+   "system": "ModernGov",
+   "democracy_url": "https://committees.exeter.gov.uk"
+  },
+  "E07000087": {
+   "gss": "E07000087",
+   "name": "Fareham",
+   "official_name": "Fareham Borough Council",
+   "website": "https://www.fareham.gov.uk",
+   "ocd_id": 189,
+   "ocd_name": "Fareham",
+   "system": "ModernGov",
+   "democracy_url": "https://moderngov.fareham.gov.uk"
+  },
+  "E07000010": {
+   "gss": "E07000010",
+   "name": "Fenland",
+   "official_name": "Fenland District Council",
+   "website": "https://www.fenland.gov.uk",
+   "ocd_id": 71,
+   "ocd_name": "Fenland",
+   "system": "ModernGov",
+   "democracy_url": "https://www.fenland.gov.uk/localgov"
+  },
+  "E07000112": {
+   "gss": "E07000112",
+   "name": "Folkestone and Hythe",
+   "official_name": "Folkestone and Hythe District Council",
+   "website": "https://www.folkestone-hythe.gov.uk",
+   "ocd_id": 123,
+   "ocd_name": "Folkestone and Hythe",
+   "system": "ModernGov",
+   "democracy_url": "https://folkestone-hythe.moderngov.co.uk"
+  },
+  "E07000080": {
+   "gss": "E07000080",
+   "name": "Forest of Dean",
+   "official_name": "Forest of Dean District Council",
+   "website": "https://www.fdean.gov.uk",
+   "ocd_id": 73,
+   "ocd_name": "Forest of Dean",
+   "system": "ModernGov",
+   "democracy_url": "https://meetings.fdean.gov.uk"
+  },
+  "E07000119": {
+   "gss": "E07000119",
+   "name": "Fylde",
+   "official_name": "Fylde Borough Council",
+   "website": "https://www.fylde.gov.uk",
+   "ocd_id": 74,
+   "ocd_name": "Fylde",
+   "system": "CMIS",
+   "democracy_url": "https://fylde.cmis.uk.com/fylde"
+  },
+  "E08000037": {
+   "gss": "E08000037",
+   "name": "Gateshead",
+   "official_name": "Gateshead Metropolitan Borough Council",
+   "website": "https://www.gateshead.gov.uk",
+   "ocd_id": 271,
+   "ocd_name": "Gateshead",
+   "system": "ModernGov",
+   "democracy_url": "https://gateshead.moderngov.co.uk"
+  },
+  "E07000173": {
+   "gss": "E07000173",
+   "name": "Gedling",
+   "official_name": "Gedling Borough Council",
+   "website": "https://www.gedling.gov.uk",
+   "ocd_id": 75,
+   "ocd_name": "Gedling",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.gedling.gov.uk"
+  },
+  "E07000081": {
+   "gss": "E07000081",
+   "name": "Gloucester",
+   "official_name": "Gloucester City Council",
+   "website": "https://www.gloucester.gov.uk",
+   "ocd_id": 76,
+   "ocd_name": "Gloucester",
+   "system": "ModernGov",
+   "democracy_url": "http://democracy.gloucester.gov.uk"
+  },
+  "E10000013": {
+   "gss": "E10000013",
+   "name": "Gloucestershire",
+   "official_name": "Gloucestershire County Council",
+   "website": "https://www.gloucestershire.gov.uk",
+   "ocd_id": 9,
+   "ocd_name": "Gloucestershire",
+   "system": "ModernGov",
+   "democracy_url": "https://glostext.gloucestershire.gov.uk"
+  },
+  "E07000088": {
+   "gss": "E07000088",
+   "name": "Gosport",
+   "official_name": "Gosport Borough Council",
+   "website": "https://www.gosport.gov.uk",
+   "ocd_id": 167,
+   "ocd_name": "Gosport",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.gosport.gov.uk"
+  },
+  "E07000109": {
+   "gss": "E07000109",
+   "name": "Gravesham",
+   "official_name": "Gravesham Borough Council",
+   "website": "https://www.gravesham.gov.uk",
+   "ocd_id": 77,
+   "ocd_name": "Gravesham",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.gravesham.gov.uk"
+  },
+  "E07000145": {
+   "gss": "E07000145",
+   "name": "Great Yarmouth",
+   "official_name": "Great Yarmouth Borough Council",
+   "website": "https://www.great-yarmouth.gov.uk",
+   "ocd_id": 190,
+   "ocd_name": "Great Yarmouth",
+   "system": "CMIS",
+   "democracy_url": "https://great-yarmouth.cmis.uk.com/great-yarmouth"
+  },
+  "E09000011": {
+   "gss": "E09000011",
+   "name": "Greenwich",
+   "official_name": "Royal Borough of Greenwich",
+   "website": "https://www.royalgreenwich.gov.uk",
+   "ocd_id": 236,
+   "ocd_name": "Greenwich",
+   "system": "ModernGov",
+   "democracy_url": "https://committees.royalgreenwich.gov.uk"
+  },
+  "E07000209": {
+   "gss": "E07000209",
+   "name": "Guildford",
+   "official_name": "Guildford Borough Council",
+   "website": "https://www.guildford.gov.uk",
+   "ocd_id": 78,
+   "ocd_name": "Guildford",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.guildford.gov.uk"
+  },
+  "E09000012": {
+   "gss": "E09000012",
+   "name": "Hackney",
+   "official_name": "London Borough of Hackney",
+   "website": "https://hackney.gov.uk",
+   "ocd_id": 237,
+   "ocd_name": "Hackney",
+   "system": "ModernGov",
+   "democracy_url": "https://hackney.moderngov.co.uk"
+  },
+  "E06000006": {
+   "gss": "E06000006",
+   "name": "Halton",
+   "official_name": "Halton Borough Council",
+   "website": "https://www4.halton.gov.uk",
+   "ocd_id": 368,
+   "ocd_name": "Halton",
+   "system": "ModernGov",
+   "democracy_url": "https://moderngov.halton.gov.uk"
+  },
+  "E09000013": {
+   "gss": "E09000013",
+   "name": "Hammersmith and Fulham",
+   "official_name": "London Borough of Hammersmith & Fulham",
+   "website": "https://www.lbhf.gov.uk",
+   "ocd_id": 238,
+   "ocd_name": "Hammersmith and Fulham",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.lbhf.gov.uk"
+  },
+  "E10000014": {
+   "gss": "E10000014",
+   "name": "Hampshire",
+   "official_name": "Hampshire County Council",
+   "website": "https://www.hants.gov.uk",
+   "ocd_id": 10,
+   "ocd_name": "Hampshire",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.hants.gov.uk"
+  },
+  "E07000131": {
+   "gss": "E07000131",
+   "name": "Harborough",
+   "official_name": "Harborough District Council",
+   "website": "https://www.harborough.gov.uk",
+   "ocd_id": 80,
+   "ocd_name": "Harborough",
+   "system": "CMIS",
+   "democracy_url": "https://cmis.harborough.gov.uk/cmis5"
+  },
+  "E09000014": {
+   "gss": "E09000014",
+   "name": "Haringey",
+   "official_name": "London Borough of Haringey",
+   "website": "https://www.haringey.gov.uk",
+   "ocd_id": 239,
+   "ocd_name": "Haringey",
+   "system": "ModernGov",
+   "democracy_url": "https://www.minutes.haringey.gov.uk"
+  },
+  "E07000073": {
+   "gss": "E07000073",
+   "name": "Harlow",
+   "official_name": "Harlow Council",
+   "website": "https://www.harlow.gov.uk",
+   "ocd_id": 191,
+   "ocd_name": "Harlow",
+   "system": "ModernGov",
+   "democracy_url": "https://harlow.moderngov.co.uk"
+  },
+  "E09000015": {
+   "gss": "E09000015",
+   "name": "Harrow",
+   "official_name": "London Borough of Harrow",
+   "website": "https://www.harrow.gov.uk",
+   "ocd_id": 240,
+   "ocd_name": "Harrow",
+   "system": "ModernGov",
+   "democracy_url": "https://moderngov.harrow.gov.uk"
+  },
+  "E07000089": {
+   "gss": "E07000089",
+   "name": "Hart",
+   "official_name": "Hart District Council",
+   "website": "https://www.hart.gov.uk",
+   "ocd_id": 192,
+   "ocd_name": "Hart",
+   "system": "ModernGov",
+   "democracy_url": "https://hart.moderngov.co.uk"
+  },
+  "E06000001": {
+   "gss": "E06000001",
+   "name": "Hartlepool",
+   "official_name": "Hartlepool Borough Council",
+   "website": "https://www.hartlepool.gov.uk",
+   "ocd_id": 369,
+   "ocd_name": "Hartlepool",
+   "system": "Custom HTML",
+   "democracy_url": "https://www.hartlepool.gov.uk/councillors"
+  },
+  "E07000062": {
+   "gss": "E07000062",
+   "name": "Hastings",
+   "official_name": "Hastings Borough Council",
+   "website": "https://www.hastings.gov.uk",
+   "ocd_id": 82,
+   "ocd_name": "Hastings",
+   "system": "ModernGov",
+   "democracy_url": "https://hastings.moderngov.co.uk"
+  },
+  "E07000090": {
+   "gss": "E07000090",
+   "name": "Havant",
+   "official_name": "Havant Borough Council",
+   "website": "https://www.havant.gov.uk",
+   "ocd_id": 193,
+   "ocd_name": "Havant",
+   "system": "ModernGov",
+   "democracy_url": "https://havant.moderngov.co.uk"
+  },
+  "E09000016": {
+   "gss": "E09000016",
+   "name": "Havering",
+   "official_name": "London Borough of Havering",
+   "website": "https://www.havering.gov.uk",
+   "ocd_id": 241,
+   "ocd_name": "Havering",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.havering.gov.uk"
+  },
+  "E06000019": {
+   "gss": "E06000019",
+   "name": "Herefordshire",
+   "official_name": "Herefordshire Council",
+   "website": "https://www.herefordshire.gov.uk",
+   "ocd_id": 340,
+   "ocd_name": "Herefordshire",
+   "system": "ModernGov",
+   "democracy_url": "https://councillors.herefordshire.gov.uk"
+  },
+  "E10000015": {
+   "gss": "E10000015",
+   "name": "Hertfordshire",
+   "official_name": "Hertfordshire County Council",
+   "website": "https://www.hertfordshire.gov.uk",
+   "ocd_id": 11,
+   "ocd_name": "Hertfordshire",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.hertfordshire.gov.uk"
+  },
+  "E07000098": {
+   "gss": "E07000098",
+   "name": "Hertsmere",
+   "official_name": "Hertsmere Borough Council",
+   "website": "https://www.hertsmere.gov.uk",
+   "ocd_id": 83,
+   "ocd_name": "Hertsmere",
+   "system": "ModernGov",
+   "democracy_url": "https://hertsmere.moderngov.co.uk"
+  },
+  "E07000037": {
+   "gss": "E07000037",
+   "name": "High Peak",
+   "official_name": "High Peak Borough Council",
+   "website": "https://www.highpeak.gov.uk",
+   "ocd_id": 84,
+   "ocd_name": "High Peak",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.highpeak.gov.uk"
+  },
+  "E09000017": {
+   "gss": "E09000017",
+   "name": "Hillingdon",
+   "official_name": "London Borough of Hillingdon",
+   "website": "https://www.hillingdon.gov.uk",
+   "ocd_id": 242,
+   "ocd_name": "Hillingdon",
+   "system": "ModernGov",
+   "democracy_url": "https://modgov.hillingdon.gov.uk"
+  },
+  "E07000132": {
+   "gss": "E07000132",
+   "name": "Hinckley and Bosworth",
+   "official_name": "Hinckley and Bosworth Borough Council",
+   "website": "https://www.hinckley-bosworth.gov.uk",
+   "ocd_id": 85,
+   "ocd_name": "Hinckley and Bosworth",
+   "system": "ModernGov",
+   "democracy_url": "https://moderngov.hinckley-bosworth.gov.uk"
+  },
+  "E07000227": {
+   "gss": "E07000227",
+   "name": "Horsham",
+   "official_name": "Horsham District Council",
+   "website": "https://www.horsham.gov.uk",
+   "ocd_id": 86,
+   "ocd_name": "Horsham",
+   "system": "ModernGov",
+   "democracy_url": "https://horsham.moderngov.co.uk"
+  },
+  "E09000018": {
+   "gss": "E09000018",
+   "name": "Hounslow",
+   "official_name": "London Borough of Hounslow",
+   "website": "https://www.hounslow.gov.uk",
+   "ocd_id": 243,
+   "ocd_name": "Hounslow",
+   "system": "ModernGov",
+   "democracy_url": "https://democraticservices.hounslow.gov.uk"
+  },
+  "E07000011": {
+   "gss": "E07000011",
+   "name": "Huntingdonshire",
+   "official_name": "Huntingdonshire District Council",
+   "website": "https://www.huntingdonshire.gov.uk",
+   "ocd_id": 87,
+   "ocd_name": "Huntingdonshire",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.huntingdonshire.gov.uk/moderngov"
+  },
+  "E07000120": {
+   "gss": "E07000120",
+   "name": "Hyndburn",
+   "official_name": "Hyndburn Borough Council",
+   "website": "https://www.hyndburnbc.gov.uk",
+   "ocd_id": 194,
+   "ocd_name": "Hyndburn",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.hyndburnbc.gov.uk"
+  },
+  "E07000202": {
+   "gss": "E07000202",
+   "name": "Ipswich",
+   "official_name": "Ipswich Borough Council",
+   "website": "https://www.ipswich.gov.uk",
+   "ocd_id": 195,
+   "ocd_name": "Ipswich",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.ipswich.gov.uk"
+  },
+  "E06000046": {
+   "gss": "E06000046",
+   "name": "Isle of Wight",
+   "official_name": "Isle of Wight Council",
+   "website": "https://www.iow.gov.uk",
+   "ocd_id": 342,
+   "ocd_name": "Isle of Wight",
+   "system": "ModernGov",
+   "democracy_url": "https://iow.moderngov.co.uk"
+  },
+  "E09000019": {
+   "gss": "E09000019",
+   "name": "Islington",
+   "official_name": "London Borough of Islington",
+   "website": "https://www.islington.gov.uk",
+   "ocd_id": 244,
+   "ocd_name": "Islington",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.islington.gov.uk"
+  },
+  "E09000020": {
+   "gss": "E09000020",
+   "name": "Kensington and Chelsea",
+   "official_name": "Royal Borough of Kensington and Chelsea",
+   "website": "https://www.rbkc.gov.uk",
+   "ocd_id": 245,
+   "ocd_name": "Kensington and Chelsea",
+   "system": "ModernGov",
+   "democracy_url": "https://www.rbkc.gov.uk/Committees"
+  },
+  "E10000016": {
+   "gss": "E10000016",
+   "name": "Kent",
+   "official_name": "Kent County Council",
+   "website": "https://www.kent.gov.uk",
+   "ocd_id": 12,
+   "ocd_name": "Kent",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.kent.gov.uk"
+  },
+  "E07000146": {
+   "gss": "E07000146",
+   "name": "King's Lynn and West Norfolk",
+   "official_name": "Borough Council of Kings Lynn and West Norfolk",
+   "website": "https://www.west-norfolk.gov.uk",
+   "ocd_id": 89,
+   "ocd_name": "King's Lynn and West Norfolk",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.west-norfolk.gov.uk"
+  },
+  "E06000010": {
+   "gss": "E06000010",
+   "name": "Kingston upon Hull",
+   "official_name": "Hull City Council",
+   "website": "https://www.hull.gov.uk",
+   "ocd_id": 341,
+   "ocd_name": "Kingston upon Hull",
+   "system": "CMIS",
+   "democracy_url": "https://cmis.hullcc.gov.uk/cmis"
+  },
+  "E09000021": {
+   "gss": "E09000021",
+   "name": "Kingston upon Thames",
+   "official_name": "Royal Borough of Kingston upon Thames",
+   "website": "https://www.kingston.gov.uk",
+   "ocd_id": 246,
+   "ocd_name": "Kingston upon Thames",
+   "system": "ModernGov",
+   "democracy_url": "https://moderngov.kingston.gov.uk"
+  },
+  "E08000034": {
+   "gss": "E08000034",
+   "name": "Kirklees",
+   "official_name": "Kirklees Council",
+   "website": "https://www.kirklees.gov.uk",
+   "ocd_id": 272,
+   "ocd_name": "Kirklees",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.kirklees.gov.uk"
+  },
+  "E08000011": {
+   "gss": "E08000011",
+   "name": "Knowsley",
+   "official_name": "Knowsley Metropolitan Borough Council",
+   "website": "https://www.knowsley.gov.uk",
+   "ocd_id": 273,
+   "ocd_name": "Knowsley",
+   "system": "ModernGov",
+   "democracy_url": "https://councillors.knowsley.gov.uk"
+  },
+  "E09000022": {
+   "gss": "E09000022",
+   "name": "Lambeth",
+   "official_name": "London Borough of Lambeth",
+   "website": "https://www.lambeth.gov.uk",
+   "ocd_id": 247,
+   "ocd_name": "Lambeth",
+   "system": "ModernGov",
+   "democracy_url": "https://moderngov.lambeth.gov.uk"
+  },
+  "E10000017": {
+   "gss": "E10000017",
+   "name": "Lancashire",
+   "official_name": "Lancashire County Council",
+   "website": "https://www.lancashire.gov.uk",
+   "ocd_id": 13,
+   "ocd_name": "Lancashire",
+   "system": "ModernGov",
+   "democracy_url": "https://council.lancashire.gov.uk"
+  },
+  "E07000121": {
+   "gss": "E07000121",
+   "name": "Lancaster",
+   "official_name": "Lancaster City Council",
+   "website": "https://www.lancaster.gov.uk",
+   "ocd_id": 90,
+   "ocd_name": "Lancaster",
+   "system": "ModernGov",
+   "democracy_url": "https://committeeadmin.lancaster.gov.uk"
+  },
+  "E08000035": {
+   "gss": "E08000035",
+   "name": "Leeds",
+   "official_name": "Leeds City Council",
+   "website": "https://www.leeds.gov.uk",
+   "ocd_id": 261,
+   "ocd_name": "Leeds",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.leeds.gov.uk"
+  },
+  "E06000016": {
+   "gss": "E06000016",
+   "name": "Leicester",
+   "official_name": "Leicester City Council",
+   "website": "https://www.leicester.gov.uk",
+   "ocd_id": 343,
+   "ocd_name": "Leicester",
+   "system": "ModernGov",
+   "democracy_url": "https://cabinet.leicester.gov.uk"
+  },
+  "E10000018": {
+   "gss": "E10000018",
+   "name": "Leicestershire",
+   "official_name": "Leicestershire County Council",
+   "website": "https://www.leicestershire.gov.uk",
+   "ocd_id": 14,
+   "ocd_name": "Leicestershire",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.leics.gov.uk"
+  },
+  "E07000063": {
+   "gss": "E07000063",
+   "name": "Lewes",
+   "official_name": "Lewes District Council",
+   "website": "https://www.lewes-eastbourne.gov.uk",
+   "ocd_id": 91,
+   "ocd_name": "Lewes",
+   "system": "ModernGov",
+   "democracy_url": "http://democracy.lewes-eastbourne.gov.uk"
+  },
+  "E09000023": {
+   "gss": "E09000023",
+   "name": "Lewisham",
+   "official_name": "London Borough of Lewisham",
+   "website": "https://www.lewisham.gov.uk",
+   "ocd_id": 248,
+   "ocd_name": "Lewisham",
+   "system": "ModernGov",
+   "democracy_url": "https://councilmeetings.lewisham.gov.uk"
+  },
+  "E07000194": {
+   "gss": "E07000194",
+   "name": "Lichfield",
+   "official_name": "Lichfield District Council",
+   "website": "https://www.lichfielddc.gov.uk",
+   "ocd_id": 92,
+   "ocd_name": "Lichfield",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.lichfielddc.gov.uk"
+  },
+  "E07000138": {
+   "gss": "E07000138",
+   "name": "Lincoln",
+   "official_name": "City of Lincoln Council",
+   "website": "https://www.lincoln.gov.uk",
+   "ocd_id": 196,
+   "ocd_name": "Lincoln",
+   "system": "ModernGov",
+   "democracy_url": "https://democratic.lincoln.gov.uk"
+  },
+  "E10000019": {
+   "gss": "E10000019",
+   "name": "Lincolnshire",
+   "official_name": "Lincolnshire County Council",
+   "website": "https://www.lincolnshire.gov.uk",
+   "ocd_id": 15,
+   "ocd_name": "Lincolnshire",
+   "system": "ModernGov",
+   "democracy_url": "https://lincolnshire.moderngov.co.uk"
+  },
+  "E08000012": {
+   "gss": "E08000012",
+   "name": "Liverpool",
+   "official_name": "Liverpool City Council",
+   "website": "https://liverpool.gov.uk",
+   "ocd_id": 274,
+   "ocd_name": "Liverpool",
+   "system": "ModernGov",
+   "democracy_url": "https://councillors.liverpool.gov.uk"
+  },
+  "E06000032": {
+   "gss": "E06000032",
+   "name": "Luton",
+   "official_name": "Luton Borough Council",
+   "website": "https://www.luton.gov.uk",
+   "ocd_id": 344,
+   "ocd_name": "Luton",
+   "system": "CMIS",
+   "democracy_url": "http://democracy.luton.gov.uk/cmis5public"
+  },
+  "E07000110": {
+   "gss": "E07000110",
+   "name": "Maidstone",
+   "official_name": "Maidstone Borough Council",
+   "website": "https://www.maidstone.gov.uk",
+   "ocd_id": 197,
+   "ocd_name": "Maidstone",
+   "system": "ModernGov",
+   "democracy_url": "https://meetings.maidstone.gov.uk"
+  },
+  "E07000074": {
+   "gss": "E07000074",
+   "name": "Maldon",
+   "official_name": "Maldon District Council",
+   "website": "https://www.maldon.gov.uk",
+   "ocd_id": 93,
+   "ocd_name": "Maldon",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.maldon.gov.uk"
+  },
+  "E07000235": {
+   "gss": "E07000235",
+   "name": "Malvern Hills",
+   "official_name": "Malvern Hills District Council",
+   "website": "https://www.malvernhills.gov.uk",
+   "ocd_id": 94,
+   "ocd_name": "Malvern Hills",
+   "system": "ModernGov",
+   "democracy_url": "https://moderngov.malvernhills.gov.uk"
+  },
+  "E08000003": {
+   "gss": "E08000003",
+   "name": "Manchester",
+   "official_name": "Manchester City Council",
+   "website": "https://www.manchester.gov.uk",
+   "ocd_id": 262,
+   "ocd_name": "Manchester",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.manchester.gov.uk"
+  },
+  "E07000174": {
+   "gss": "E07000174",
+   "name": "Mansfield",
+   "official_name": "Mansfield District Council",
+   "website": "https://www.mansfield.gov.uk",
+   "ocd_id": 95,
+   "ocd_name": "Mansfield",
+   "system": "ModernGov",
+   "democracy_url": "https://mansfield.moderngov.co.uk"
+  },
+  "E06000035": {
+   "gss": "E06000035",
+   "name": "Medway",
+   "official_name": "Medway Council",
+   "website": "https://www.medway.gov.uk",
+   "ocd_id": 345,
+   "ocd_name": "Medway",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.medway.gov.uk"
+  },
+  "E07000133": {
+   "gss": "E07000133",
+   "name": "Melton",
+   "official_name": "Melton Borough Council",
+   "website": "https://www.melton.gov.uk",
+   "ocd_id": 96,
+   "ocd_name": "Melton",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.melton.gov.uk"
+  },
+  "E09000024": {
+   "gss": "E09000024",
+   "name": "Merton",
+   "official_name": "London Borough of Merton",
+   "website": "https://www.merton.gov.uk",
+   "ocd_id": 249,
+   "ocd_name": "Merton",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.merton.gov.uk"
+  },
+  "E07000042": {
+   "gss": "E07000042",
+   "name": "Mid Devon",
+   "official_name": "Mid Devon District Council",
+   "website": "https://www.middevon.gov.uk",
+   "ocd_id": 98,
+   "ocd_name": "Mid Devon",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.middevon.gov.uk"
+  },
+  "E07000203": {
+   "gss": "E07000203",
+   "name": "Mid Suffolk",
+   "official_name": "Mid Suffolk District Council",
+   "website": "https://www.midsuffolk.gov.uk",
+   "ocd_id": 99,
+   "ocd_name": "Mid Suffolk",
+   "system": "ModernGov",
+   "democracy_url": "http://baberghmidsuffolk.moderngov.co.uk"
+  },
+  "E07000228": {
+   "gss": "E07000228",
+   "name": "Mid Sussex",
+   "official_name": "Mid Sussex District Council",
+   "website": "https://www.midsussex.gov.uk",
+   "ocd_id": 100,
+   "ocd_name": "Mid Sussex",
+   "system": "ModernGov",
+   "democracy_url": "https://midsussex.moderngov.co.uk"
+  },
+  "E06000002": {
+   "gss": "E06000002",
+   "name": "Middlesbrough",
+   "official_name": "Middlesbrough Borough Council",
+   "website": "https://www.middlesbrough.gov.uk",
+   "ocd_id": 346,
+   "ocd_name": "Middlesbrough",
+   "system": "ModernGov",
+   "democracy_url": "https://moderngov.middlesbrough.gov.uk"
+  },
+  "E06000042": {
+   "gss": "E06000042",
+   "name": "Milton Keynes",
+   "official_name": "Milton Keynes City Council",
+   "website": "https://www.milton-keynes.gov.uk",
+   "ocd_id": 370,
+   "ocd_name": "Milton Keynes",
+   "system": "ModernGov",
+   "democracy_url": "https://milton-keynes.moderngov.co.uk"
+  },
+  "E07000210": {
+   "gss": "E07000210",
+   "name": "Mole Valley",
+   "official_name": "Mole Valley District Council",
+   "website": "https://www.molevalley.gov.uk",
+   "ocd_id": 198,
+   "ocd_name": "Mole Valley",
+   "system": "Custom HTML",
+   "democracy_url": "https://www.molevalley.gov.uk/councillors-decision-making/who-are-your-councillors"
+  },
+  "E07000091": {
+   "gss": "E07000091",
+   "name": "New Forest",
+   "official_name": "New Forest District Council",
+   "website": "https://www.newforest.gov.uk",
+   "ocd_id": 101,
+   "ocd_name": "New Forest",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.newforest.gov.uk"
+  },
+  "E07000175": {
+   "gss": "E07000175",
+   "name": "Newark and Sherwood",
+   "official_name": "Newark and Sherwood District Council",
+   "website": "https://www.newark-sherwooddc.gov.uk",
+   "ocd_id": 102,
+   "ocd_name": "Newark and Sherwood",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.newark-sherwooddc.gov.uk"
+  },
+  "E08000021": {
+   "gss": "E08000021",
+   "name": "Newcastle upon Tyne",
+   "official_name": "Newcastle City Council",
+   "website": "https://www.newcastle.gov.uk",
+   "ocd_id": 263,
+   "ocd_name": "Newcastle upon Tyne",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.newcastle.gov.uk"
+  },
+  "E07000195": {
+   "gss": "E07000195",
+   "name": "Newcastle-under-Lyme",
+   "official_name": "Newcastle-under-Lyme District Council",
+   "website": "https://www.newcastle-staffs.gov.uk",
+   "ocd_id": 103,
+   "ocd_name": "Newcastle-under-Lyme",
+   "system": "ModernGov",
+   "democracy_url": "https://moderngov.newcastle-staffs.gov.uk"
+  },
+  "E09000025": {
+   "gss": "E09000025",
+   "name": "Newham",
+   "official_name": "London Borough of Newham",
+   "website": "https://www.newham.gov.uk",
+   "ocd_id": 250,
+   "ocd_name": "Newham",
+   "system": "ModernGov",
+   "democracy_url": "https://mgov.newham.gov.uk"
+  },
+  "E10000020": {
+   "gss": "E10000020",
+   "name": "Norfolk",
+   "official_name": "Norfolk County Council",
+   "website": "https://www.norfolk.gov.uk",
+   "ocd_id": 16,
+   "ocd_name": "Norfolk",
+   "system": "CMIS",
+   "democracy_url": "https://norfolkcc.cmis.uk.com/norfolkcc"
+  },
+  "E07000043": {
+   "gss": "E07000043",
+   "name": "North Devon",
+   "official_name": "North Devon Council",
+   "website": "https://www.northdevon.gov.uk",
+   "ocd_id": 104,
+   "ocd_name": "North Devon",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.northdevon.gov.uk"
+  },
+  "E07000038": {
+   "gss": "E07000038",
+   "name": "North East Derbyshire",
+   "official_name": "North East Derbyshire District Council",
+   "website": "https://www.ne-derbyshire.gov.uk",
+   "ocd_id": 106,
+   "ocd_name": "North East Derbyshire",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.ne-derbyshire.gov.uk"
+  },
+  "E06000012": {
+   "gss": "E06000012",
+   "name": "North East Lincolnshire",
+   "official_name": "North East Lincolnshire Council",
+   "website": "https://www.nelincs.gov.uk",
+   "ocd_id": 371,
+   "ocd_name": "North East Lincolnshire",
+   "system": "Custom HTML",
+   "democracy_url": "https://www.nelincs.gov.uk/your-council/councillors-and-mps"
+  },
+  "E07000099": {
+   "gss": "E07000099",
+   "name": "North Hertfordshire",
+   "official_name": "North Hertfordshire District Council",
+   "website": "https://www.north-herts.gov.uk",
+   "ocd_id": 199,
+   "ocd_name": "North Hertfordshire",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.north-herts.gov.uk"
+  },
+  "E07000139": {
+   "gss": "E07000139",
+   "name": "North Kesteven",
+   "official_name": "North Kesteven District Council",
+   "website": "https://www.n-kesteven.gov.uk",
+   "ocd_id": 107,
+   "ocd_name": "North Kesteven",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.n-kesteven.gov.uk"
+  },
+  "E06000013": {
+   "gss": "E06000013",
+   "name": "North Lincolnshire",
+   "official_name": "North Lincolnshire Council",
+   "website": "https://www.northlincs.gov.uk",
+   "ocd_id": 347,
+   "ocd_name": "North Lincolnshire",
+   "system": "ModernGov",
+   "democracy_url": "https://northlincolnshire.moderngov.co.uk"
+  },
+  "E07000147": {
+   "gss": "E07000147",
+   "name": "North Norfolk",
+   "official_name": "North Norfolk District Council",
+   "website": "https://www.north-norfolk.gov.uk",
+   "ocd_id": 108,
+   "ocd_name": "North Norfolk",
+   "system": "ModernGov",
+   "democracy_url": "https://modgov.north-norfolk.gov.uk"
+  },
+  "E06000061": {
+   "gss": "E06000061",
+   "name": "North Northamptonshire",
+   "official_name": "North Northamptonshire Council",
+   "website": "https://www.northnorthants.gov.uk",
+   "ocd_id": 414,
+   "ocd_name": "North Northamptonshire",
+   "system": "ModernGov",
+   "democracy_url": "https://northnorthants.moderngov.co.uk"
+  },
+  "E06000024": {
+   "gss": "E06000024",
+   "name": "North Somerset",
+   "official_name": "North Somerset Council",
+   "website": "https://www.n-somerset.gov.uk",
+   "ocd_id": 348,
+   "ocd_name": "North Somerset",
+   "system": "ModernGov",
+   "democracy_url": "https://n-somerset.moderngov.co.uk"
+  },
+  "E08000022": {
+   "gss": "E08000022",
+   "name": "North Tyneside",
+   "official_name": "North Tyneside Council",
+   "website": "https://my.northtyneside.gov.uk",
+   "ocd_id": 275,
+   "ocd_name": "North Tyneside",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.northtyneside.gov.uk"
+  },
+  "E07000218": {
+   "gss": "E07000218",
+   "name": "North Warwickshire",
+   "official_name": "North Warwickshire Borough Council",
+   "website": "https://www.northwarks.gov.uk",
+   "ocd_id": 109,
+   "ocd_name": "North Warwickshire",
+   "system": "ModernGov",
+   "democracy_url": "https://northwarwickshire.moderngov.co.uk"
+  },
+  "E07000134": {
+   "gss": "E07000134",
+   "name": "North West Leicestershire",
+   "official_name": "North West Leicestershire District Council",
+   "website": "https://www.nwleics.gov.uk",
+   "ocd_id": 110,
+   "ocd_name": "North West Leicestershire",
+   "system": "ModernGov",
+   "democracy_url": "https://minutes-1.nwleics.gov.uk"
+  },
+  "E06000065": {
+   "gss": "E06000065",
+   "name": "North Yorkshire",
+   "official_name": "North Yorkshire Council",
+   "website": "https://www.northyorks.gov.uk",
+   "ocd_id": 417,
+   "ocd_name": "North Yorkshire",
+   "system": "ModernGov",
+   "democracy_url": "https://edemocracy.northyorks.gov.uk"
+  },
+  "E06000057": {
+   "gss": "E06000057",
+   "name": "Northumberland",
+   "official_name": "Northumberland County Council",
+   "website": "https://www.northumberland.gov.uk",
+   "ocd_id": 349,
+   "ocd_name": "Northumberland",
+   "system": "ModernGov",
+   "democracy_url": "https://northumberland.moderngov.co.uk"
+  },
+  "E07000148": {
+   "gss": "E07000148",
+   "name": "Norwich",
+   "official_name": "Norwich City Council",
+   "website": "https://www.norwich.gov.uk",
+   "ocd_id": 200,
+   "ocd_name": "Norwich",
+   "system": "CMIS",
+   "democracy_url": "https://cmis.norwich.gov.uk/live"
+  },
+  "E06000018": {
+   "gss": "E06000018",
+   "name": "Nottingham",
+   "official_name": "Nottingham City Council",
+   "website": "https://www.nottinghamcity.gov.uk",
+   "ocd_id": 350,
+   "ocd_name": "Nottingham",
+   "system": "ModernGov",
+   "democracy_url": "https://committee.nottinghamcity.gov.uk"
+  },
+  "E10000024": {
+   "gss": "E10000024",
+   "name": "Nottinghamshire",
+   "official_name": "Nottinghamshire County Council",
+   "website": "https://www.nottinghamshire.gov.uk",
+   "ocd_id": 19,
+   "ocd_name": "Nottinghamshire",
+   "system": "CMIS",
+   "democracy_url": "https://www.nottinghamshire.gov.uk/dms"
+  },
+  "E07000219": {
+   "gss": "E07000219",
+   "name": "Nuneaton and Bedworth",
+   "official_name": "Nuneaton and Bedworth Borough Council",
+   "website": "https://www.nuneatonandbedworth.gov.uk",
+   "ocd_id": 168,
+   "ocd_name": "Nuneaton and Bedworth",
+   "system": "Custom HTML",
+   "democracy_url": "https://www.nuneatonandbedworth.gov.uk/councillors"
+  },
+  "E07000135": {
+   "gss": "E07000135",
+   "name": "Oadby and Wigston",
+   "official_name": "Oadby and Wigston Borough Council",
+   "website": "https://www.oadby-wigston.gov.uk",
+   "ocd_id": 112,
+   "ocd_name": "Oadby and Wigston",
+   "system": "ModernGov",
+   "democracy_url": "https://moderngov.oadby-wigston.gov.uk"
+  },
+  "E08000004": {
+   "gss": "E08000004",
+   "name": "Oldham",
+   "official_name": "Oldham Metropolitan Borough Council",
+   "website": "https://www.oldham.gov.uk",
+   "ocd_id": 276,
+   "ocd_name": "Oldham",
+   "system": "ModernGov",
+   "democracy_url": "https://committees.oldham.gov.uk"
+  },
+  "E07000178": {
+   "gss": "E07000178",
+   "name": "Oxford",
+   "official_name": "Oxford City Council",
+   "website": "https://www.oxford.gov.uk",
+   "ocd_id": 169,
+   "ocd_name": "Oxford",
+   "system": "ModernGov",
+   "democracy_url": "https://mycouncil.oxford.gov.uk"
+  },
+  "E10000025": {
+   "gss": "E10000025",
+   "name": "Oxfordshire",
+   "official_name": "Oxfordshire County Council",
+   "website": "https://www.oxfordshire.gov.uk",
+   "ocd_id": 20,
+   "ocd_name": "Oxfordshire",
+   "system": "ModernGov",
+   "democracy_url": "https://mycouncil.oxfordshire.gov.uk"
+  },
+  "E07000122": {
+   "gss": "E07000122",
+   "name": "Pendle",
+   "official_name": "Pendle Borough Council",
+   "website": "https://www.pendle.gov.uk",
+   "ocd_id": 201,
+   "ocd_name": "Pendle",
+   "system": "Custom HTML",
+   "democracy_url": "https://www.pendle.gov.uk/councillors/name"
+  },
+  "E06000031": {
+   "gss": "E06000031",
+   "name": "Peterborough",
+   "official_name": "Peterborough City Council",
+   "website": "https://www.peterborough.gov.uk",
+   "ocd_id": 372,
+   "ocd_name": "Peterborough",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.peterborough.gov.uk"
+  },
+  "E06000026": {
+   "gss": "E06000026",
+   "name": "Plymouth",
+   "official_name": "Plymouth City Council",
+   "website": "https://www.plymouth.gov.uk",
+   "ocd_id": 373,
+   "ocd_name": "Plymouth",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.plymouth.gov.uk"
+  },
+  "E06000044": {
+   "gss": "E06000044",
+   "name": "Portsmouth",
+   "official_name": "Portsmouth City Council",
+   "website": "https://www.portsmouth.gov.uk",
+   "ocd_id": 374,
+   "ocd_name": "Portsmouth",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.portsmouth.gov.uk"
+  },
+  "E07000123": {
+   "gss": "E07000123",
+   "name": "Preston",
+   "official_name": "Preston City Council",
+   "website": "https://www.preston.gov.uk",
+   "ocd_id": 202,
+   "ocd_name": "Preston",
+   "system": "ModernGov",
+   "democracy_url": "https://preston.moderngov.co.uk"
+  },
+  "E06000038": {
+   "gss": "E06000038",
+   "name": "Reading",
+   "official_name": "Reading Borough Council",
+   "website": "https://www.reading.gov.uk",
+   "ocd_id": 375,
+   "ocd_name": "Reading",
+   "system": "ModernGov",
+   "democracy_url": "http://democracy.reading.gov.uk"
+  },
+  "E09000026": {
+   "gss": "E09000026",
+   "name": "Redbridge",
+   "official_name": "London Borough of Redbridge",
+   "website": "https://www.redbridge.gov.uk",
+   "ocd_id": 251,
+   "ocd_name": "Redbridge",
+   "system": "ModernGov",
+   "democracy_url": "https://moderngov.redbridge.gov.uk"
+  },
+  "E06000003": {
+   "gss": "E06000003",
+   "name": "Redcar and Cleveland",
+   "official_name": "Redcar and Cleveland Borough Council",
+   "website": "https://www.redcar-cleveland.gov.uk",
+   "ocd_id": 352,
+   "ocd_name": "Redcar and Cleveland",
+   "system": "ModernGov",
+   "democracy_url": "https://rcbc.moderngov.co.uk"
+  },
+  "E07000236": {
+   "gss": "E07000236",
+   "name": "Redditch",
+   "official_name": "Redditch Borough Council",
+   "website": "https://www.redditchbc.gov.uk",
+   "ocd_id": 203,
+   "ocd_name": "Redditch",
+   "system": "ModernGov",
+   "democracy_url": "https://moderngovwebpublic.redditchbc.gov.uk"
+  },
+  "E07000211": {
+   "gss": "E07000211",
+   "name": "Reigate and Banstead",
+   "official_name": "Reigate and Banstead Borough Council",
+   "website": "https://www.reigate-banstead.gov.uk",
+   "ocd_id": 204,
+   "ocd_name": "Reigate and Banstead",
+   "system": "ModernGov",
+   "democracy_url": "https://reigate-banstead.moderngov.co.uk"
+  },
+  "E07000124": {
+   "gss": "E07000124",
+   "name": "Ribble Valley",
+   "official_name": "Ribble Valley Borough Council",
+   "website": "https://www.ribblevalley.gov.uk",
+   "ocd_id": 114,
+   "ocd_name": "Ribble Valley",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.ribblevalley.gov.uk"
+  },
+  "E09000027": {
+   "gss": "E09000027",
+   "name": "Richmond upon Thames",
+   "official_name": "London Borough of Richmond upon Thames",
+   "website": "https://www.richmond.gov.uk",
+   "ocd_id": 252,
+   "ocd_name": "Richmond upon Thames",
+   "system": "ModernGov",
+   "democracy_url": "https://cabnet.richmond.gov.uk"
+  },
+  "E08000005": {
+   "gss": "E08000005",
+   "name": "Rochdale",
+   "official_name": "Rochdale Metropolitan Borough Council",
+   "website": "https://www.rochdale.gov.uk",
+   "ocd_id": 277,
+   "ocd_name": "Rochdale",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.rochdale.gov.uk"
+  },
+  "E07000075": {
+   "gss": "E07000075",
+   "name": "Rochford",
+   "official_name": "Rochford District Council",
+   "website": "https://www.rochford.gov.uk",
+   "ocd_id": 205,
+   "ocd_name": "Rochford",
+   "system": "ModernGov",
+   "democracy_url": "https://rochford.moderngov.co.uk"
+  },
+  "E07000125": {
+   "gss": "E07000125",
+   "name": "Rossendale",
+   "official_name": "Rossendale Borough Council",
+   "website": "https://www.rossendale.gov.uk",
+   "ocd_id": 206,
+   "ocd_name": "Rossendale",
+   "system": "Custom HTML",
+   "democracy_url": "https://www.rossendale.gov.uk/councillors"
+  },
+  "E07000064": {
+   "gss": "E07000064",
+   "name": "Rother",
+   "official_name": "Rother District Council",
+   "website": "https://www.rother.gov.uk",
+   "ocd_id": 116,
+   "ocd_name": "Rother",
+   "system": "ModernGov",
+   "democracy_url": "https://rother.moderngov.co.uk"
+  },
+  "E08000018": {
+   "gss": "E08000018",
+   "name": "Rotherham",
+   "official_name": "Rotherham Metropolitan Borough Council",
+   "website": "https://www.rotherham.gov.uk",
+   "ocd_id": 278,
+   "ocd_name": "Rotherham",
+   "system": "ModernGov",
+   "democracy_url": "https://moderngov.rotherham.gov.uk"
+  },
+  "E07000220": {
+   "gss": "E07000220",
+   "name": "Rugby",
+   "official_name": "Rugby Borough Council",
+   "website": "https://www.rugby.gov.uk",
+   "ocd_id": 207,
+   "ocd_name": "Rugby",
+   "system": "Custom HTML",
+   "democracy_url": "https://www.rugby.gov.uk/councillors"
+  },
+  "E07000212": {
+   "gss": "E07000212",
+   "name": "Runnymede",
+   "official_name": "Runnymede Borough Council",
+   "website": "https://www.runnymede.gov.uk",
+   "ocd_id": 208,
+   "ocd_name": "Runnymede",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.runnymede.gov.uk"
+  },
+  "E07000176": {
+   "gss": "E07000176",
+   "name": "Rushcliffe",
+   "official_name": "Rushcliffe Borough Council",
+   "website": "https://www.rushcliffe.gov.uk",
+   "ocd_id": 117,
+   "ocd_name": "Rushcliffe",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.rushcliffe.gov.uk"
+  },
+  "E07000092": {
+   "gss": "E07000092",
+   "name": "Rushmoor",
+   "official_name": "Rushmoor Borough Council",
+   "website": "https://www.rushmoor.gov.uk",
+   "ocd_id": 209,
+   "ocd_name": "Rushmoor",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.rushmoor.gov.uk"
+  },
+  "E06000017": {
+   "gss": "E06000017",
+   "name": "Rutland",
+   "official_name": "Rutland County Council",
+   "website": "https://www.rutland.gov.uk",
+   "ocd_id": 353,
+   "ocd_name": "Rutland",
+   "system": "ModernGov",
+   "democracy_url": "https://rutlandcounty.moderngov.co.uk"
+  },
+  "E08000006": {
+   "gss": "E08000006",
+   "name": "Salford",
+   "official_name": "Salford City Council",
+   "website": "https://www.salford.gov.uk",
+   "ocd_id": 279,
+   "ocd_name": "Salford",
+   "system": "ModernGov",
+   "democracy_url": "https://sccdemocracy.salford.gov.uk"
+  },
+  "E08000028": {
+   "gss": "E08000028",
+   "name": "Sandwell",
+   "official_name": "Sandwell Metropolitan Borough Council",
+   "website": "https://www.sandwell.gov.uk",
+   "ocd_id": 280,
+   "ocd_name": "Sandwell",
+   "system": "ModernGov",
+   "democracy_url": "https://sandwell.moderngov.co.uk"
+  },
+  "E08000014": {
+   "gss": "E08000014",
+   "name": "Sefton",
+   "official_name": "Sefton Metropolitan Borough Council",
+   "website": "https://www.sefton.gov.uk",
+   "ocd_id": 281,
+   "ocd_name": "Sefton",
+   "system": "ModernGov",
+   "democracy_url": "https://modgov.sefton.gov.uk"
+  },
+  "E07000111": {
+   "gss": "E07000111",
+   "name": "Sevenoaks",
+   "official_name": "Sevenoaks District Council",
+   "website": "https://www.sevenoaks.gov.uk",
+   "ocd_id": 122,
+   "ocd_name": "Sevenoaks",
+   "system": "ModernGov",
+   "democracy_url": "https://cds.sevenoaks.gov.uk"
+  },
+  "E08000039": {
+   "gss": "E08000039",
+   "name": "Sheffield",
+   "official_name": "Sheffield City Council",
+   "website": "https://www.sheffield.gov.uk",
+   "ocd_id": 282,
+   "ocd_name": "Sheffield",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.sheffield.gov.uk"
+  },
+  "E06000051": {
+   "gss": "E06000051",
+   "name": "Shropshire",
+   "official_name": "Shropshire Council",
+   "website": "https://www.shropshire.gov.uk",
+   "ocd_id": 354,
+   "ocd_name": "Shropshire",
+   "system": "ModernGov",
+   "democracy_url": "https://shropshire.gov.uk/committee-services"
+  },
+  "E06000039": {
+   "gss": "E06000039",
+   "name": "Slough",
+   "official_name": "Slough Borough Council",
+   "website": "https://www.slough.gov.uk",
+   "ocd_id": 376,
+   "ocd_name": "Slough",
+   "system": "ModernGov",
+   "democracy_url": "http://democracy.slough.gov.uk"
+  },
+  "E08000029": {
+   "gss": "E08000029",
+   "name": "Solihull",
+   "official_name": "Solihull Metropolitan Borough Council",
+   "website": "https://www.solihull.gov.uk",
+   "ocd_id": 283,
+   "ocd_name": "Solihull",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.solihull.gov.uk"
+  },
+  "E06000066": {
+   "gss": "E06000066",
+   "name": "Somerset",
+   "official_name": "Somerset Council",
+   "website": "https://www.somerset.gov.uk",
+   "ocd_id": 416,
+   "ocd_name": "Somerset",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.somerset.gov.uk"
+  },
+  "E07000012": {
+   "gss": "E07000012",
+   "name": "South Cambridgeshire",
+   "official_name": "South Cambridgeshire District Council",
+   "website": "https://www.scambs.gov.uk",
+   "ocd_id": 125,
+   "ocd_name": "South Cambridgeshire",
+   "system": "ModernGov",
+   "democracy_url": "https://scambs.moderngov.co.uk"
+  },
+  "E07000039": {
+   "gss": "E07000039",
+   "name": "South Derbyshire",
+   "official_name": "South Derbyshire District Council",
+   "website": "https://www.southderbyshire.gov.uk",
+   "ocd_id": 126,
+   "ocd_name": "South Derbyshire",
+   "system": "CMIS",
+   "democracy_url": "http://south-derbys.cmis.uk.com/south-derbys"
+  },
+  "E06000025": {
+   "gss": "E06000025",
+   "name": "South Gloucestershire",
+   "official_name": "South Gloucestershire Council",
+   "website": "https://www.southglos.gov.uk",
+   "ocd_id": 355,
+   "ocd_name": "South Gloucestershire",
+   "system": "ModernGov",
+   "democracy_url": "https://council.southglos.gov.uk"
+  },
+  "E07000044": {
+   "gss": "E07000044",
+   "name": "South Hams",
+   "official_name": "South Hams District Council",
+   "website": "https://www.southhams.gov.uk",
+   "ocd_id": 127,
+   "ocd_name": "South Hams",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.swdevon.gov.uk"
+  },
+  "E07000140": {
+   "gss": "E07000140",
+   "name": "South Holland",
+   "official_name": "South Holland District Council",
+   "website": "https://www.sholland.gov.uk",
+   "ocd_id": 128,
+   "ocd_name": "South Holland",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.sholland.gov.uk"
+  },
+  "E07000141": {
+   "gss": "E07000141",
+   "name": "South Kesteven",
+   "official_name": "South Kesteven District Council",
+   "website": "https://www.southkesteven.gov.uk",
+   "ocd_id": 129,
+   "ocd_name": "South Kesteven",
+   "system": "ModernGov",
+   "democracy_url": "https://moderngov.southkesteven.gov.uk"
+  },
+  "E07000149": {
+   "gss": "E07000149",
+   "name": "South Norfolk",
+   "official_name": "South Norfolk District Council",
+   "website": "https://www.southnorfolkandbroadland.gov.uk",
+   "ocd_id": 131,
+   "ocd_name": "South Norfolk",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.southnorfolkandbroadland.gov.uk"
+  },
+  "E07000179": {
+   "gss": "E07000179",
+   "name": "South Oxfordshire",
+   "official_name": "South Oxfordshire District Council",
+   "website": "https://www.southoxon.gov.uk",
+   "ocd_id": 133,
+   "ocd_name": "South Oxfordshire",
+   "system": "ModernGov",
+   "democracy_url": "https://democratic.southoxon.gov.uk"
+  },
+  "E07000126": {
+   "gss": "E07000126",
+   "name": "South Ribble",
+   "official_name": "South Ribble Borough Council",
+   "website": "https://www.southribble.gov.uk",
+   "ocd_id": 134,
+   "ocd_name": "South Ribble",
+   "system": "ModernGov",
+   "democracy_url": "https://southribble.moderngov.co.uk"
+  },
+  "E07000196": {
+   "gss": "E07000196",
+   "name": "South Staffordshire",
+   "official_name": "South Staffordshire Council",
+   "website": "https://www.sstaffs.gov.uk",
+   "ocd_id": 136,
+   "ocd_name": "South Staffordshire",
+   "system": "CMIS",
+   "democracy_url": "https://southstaffs.cmis.uk.com"
+  },
+  "E08000023": {
+   "gss": "E08000023",
+   "name": "South Tyneside",
+   "official_name": "South Tyneside Council",
+   "website": "https://www.southtyneside.gov.uk",
+   "ocd_id": 284,
+   "ocd_name": "South Tyneside",
+   "system": "Custom HTML",
+   "democracy_url": "https://www.southtyneside.gov.uk/article/13598/councillors-a-to-z"
+  },
+  "E06000045": {
+   "gss": "E06000045",
+   "name": "Southampton",
+   "official_name": "Southampton City Council",
+   "website": "https://www.southampton.gov.uk",
+   "ocd_id": 377,
+   "ocd_name": "Southampton",
+   "system": "ModernGov",
+   "democracy_url": "https://www.southampton.gov.uk/modernGov"
+  },
+  "E06000033": {
+   "gss": "E06000033",
+   "name": "Southend-on-Sea",
+   "official_name": "Southend-on-Sea City Council",
+   "website": "https://www.southend.gov.uk",
+   "ocd_id": 378,
+   "ocd_name": "Southend-on-Sea",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.southend.gov.uk"
+  },
+  "E09000028": {
+   "gss": "E09000028",
+   "name": "Southwark",
+   "official_name": "London Borough of Southwark",
+   "website": "https://www.southwark.gov.uk",
+   "ocd_id": 253,
+   "ocd_name": "Southwark",
+   "system": "ModernGov",
+   "democracy_url": "https://moderngov.southwark.gov.uk"
+  },
+  "E07000213": {
+   "gss": "E07000213",
+   "name": "Spelthorne",
+   "official_name": "Spelthorne Borough Council",
+   "website": "https://www.spelthorne.gov.uk",
+   "ocd_id": 137,
+   "ocd_name": "Spelthorne",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.spelthorne.gov.uk"
+  },
+  "E07000240": {
+   "gss": "E07000240",
+   "name": "St Albans",
+   "official_name": "St Albans City and District Council",
+   "website": "https://www.stalbans.gov.uk",
+   "ocd_id": 210,
+   "ocd_name": "St Albans",
+   "system": "ModernGov",
+   "democracy_url": "https://stalbans.moderngov.co.uk"
+  },
+  "E08000013": {
+   "gss": "E08000013",
+   "name": "St. Helens",
+   "official_name": "St Helens Council",
+   "website": "https://www.sthelens.gov.uk",
+   "ocd_id": 285,
+   "ocd_name": "St. Helens",
+   "system": "ModernGov",
+   "democracy_url": "https://sthelens.moderngov.co.uk"
+  },
+  "E07000197": {
+   "gss": "E07000197",
+   "name": "Stafford",
+   "official_name": "Stafford Borough Council",
+   "website": "https://www.staffordbc.gov.uk",
+   "ocd_id": 407,
+   "ocd_name": "Stafford",
+   "system": "Custom HTML",
+   "democracy_url": "https://www.staffordbc.gov.uk/DemServCouncillors"
+  },
+  "E10000028": {
+   "gss": "E10000028",
+   "name": "Staffordshire",
+   "official_name": "Staffordshire County Council",
+   "website": "https://www.staffordshire.gov.uk",
+   "ocd_id": 22,
+   "ocd_name": "Staffordshire",
+   "system": "ModernGov",
+   "democracy_url": "https://moderngov.staffordshire.gov.uk"
+  },
+  "E07000198": {
+   "gss": "E07000198",
+   "name": "Staffordshire Moorlands",
+   "official_name": "Staffordshire Moorlands District Council",
+   "website": "https://www.staffsmoorlands.gov.uk",
+   "ocd_id": 139,
+   "ocd_name": "Staffordshire Moorlands",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.staffsmoorlands.gov.uk"
+  },
+  "E07000243": {
+   "gss": "E07000243",
+   "name": "Stevenage",
+   "official_name": "Stevenage Borough Council",
+   "website": "https://www.stevenage.gov.uk",
+   "ocd_id": 211,
+   "ocd_name": "Stevenage",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.stevenage.gov.uk"
+  },
+  "E08000007": {
+   "gss": "E08000007",
+   "name": "Stockport",
+   "official_name": "Stockport Metropolitan Borough Council",
+   "website": "https://www.stockport.gov.uk",
+   "ocd_id": 286,
+   "ocd_name": "Stockport",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.stockport.gov.uk"
+  },
+  "E06000004": {
+   "gss": "E06000004",
+   "name": "Stockton-on-Tees",
+   "official_name": "Stockton-on-Tees Borough Council",
+   "website": "https://www.stockton.gov.uk",
+   "ocd_id": 356,
+   "ocd_name": "Stockton-on-Tees",
+   "system": "ModernGov",
+   "democracy_url": "https://moderngov.stockton.gov.uk"
+  },
+  "E06000021": {
+   "gss": "E06000021",
+   "name": "Stoke-on-Trent",
+   "official_name": "Stoke-on-Trent City Council",
+   "website": "https://www.stoke.gov.uk",
+   "ocd_id": 357,
+   "ocd_name": "Stoke-on-Trent",
+   "system": "ModernGov",
+   "democracy_url": "https://moderngov.stoke.gov.uk"
+  },
+  "E07000221": {
+   "gss": "E07000221",
+   "name": "Stratford-on-Avon",
+   "official_name": "Stratford-on-Avon District Council",
+   "website": "https://www.stratford.gov.uk",
+   "ocd_id": 140,
+   "ocd_name": "Stratford-on-Avon",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.stratford.gov.uk"
+  },
+  "E07000082": {
+   "gss": "E07000082",
+   "name": "Stroud",
+   "official_name": "Stroud District Council",
+   "website": "https://www.stroud.gov.uk",
+   "ocd_id": 212,
+   "ocd_name": "Stroud",
+   "system": "ModernGov",
+   "democracy_url": "https://stroud.moderngov.co.uk"
+  },
+  "E10000029": {
+   "gss": "E10000029",
+   "name": "Suffolk",
+   "official_name": "Suffolk County Council",
+   "website": "https://www.suffolk.gov.uk",
+   "ocd_id": 23,
+   "ocd_name": "Suffolk",
+   "system": "Custom HTML",
+   "democracy_url": "https://www.suffolk.gov.uk/council-and-democracy/councillors-and-elected-representatives/find-your-councillor"
+  },
+  "E08000024": {
+   "gss": "E08000024",
+   "name": "Sunderland",
+   "official_name": "Sunderland City Council",
+   "website": "https://www.sunderland.gov.uk",
+   "ocd_id": 287,
+   "ocd_name": "Sunderland",
+   "system": "CMIS",
+   "democracy_url": "https://committees.sunderland.gov.uk/committees/cmis5"
+  },
+  "E10000030": {
+   "gss": "E10000030",
+   "name": "Surrey",
+   "official_name": "Surrey County Council",
+   "website": "https://www.surreycc.gov.uk",
+   "ocd_id": 24,
+   "ocd_name": "Surrey",
+   "system": "ModernGov",
+   "democracy_url": "https://mycouncil.surreycc.gov.uk"
+  },
+  "E07000214": {
+   "gss": "E07000214",
+   "name": "Surrey Heath",
+   "official_name": "Surrey Heath Borough Council",
+   "website": "https://www.surreyheath.gov.uk",
+   "ocd_id": 142,
+   "ocd_name": "Surrey Heath",
+   "system": "ModernGov",
+   "democracy_url": "https://surreyheath.moderngov.co.uk"
+  },
+  "E09000029": {
+   "gss": "E09000029",
+   "name": "Sutton",
+   "official_name": "London Borough of Sutton",
+   "website": "https://www.sutton.gov.uk",
+   "ocd_id": 254,
+   "ocd_name": "Sutton",
+   "system": "ModernGov",
+   "democracy_url": "https://moderngov.sutton.gov.uk"
+  },
+  "E07000113": {
+   "gss": "E07000113",
+   "name": "Swale",
+   "official_name": "Swale Borough Council",
+   "website": "https://www.swale.gov.uk",
+   "ocd_id": 143,
+   "ocd_name": "Swale",
+   "system": "ModernGov",
+   "democracy_url": "https://services.swale.gov.uk/meetings"
+  },
+  "E06000030": {
+   "gss": "E06000030",
+   "name": "Swindon",
+   "official_name": "Swindon Borough Council",
+   "website": "https://www.swindon.gov.uk",
+   "ocd_id": 379,
+   "ocd_name": "Swindon",
+   "system": "ModernGov",
+   "democracy_url": "https://ww5.swindon.gov.uk/moderngov"
+  },
+  "E08000008": {
+   "gss": "E08000008",
+   "name": "Tameside",
+   "official_name": "Tameside Metropolitan Borough Council",
+   "website": "https://www.tameside.gov.uk",
+   "ocd_id": 288,
+   "ocd_name": "Tameside",
+   "system": "ModernGov",
+   "democracy_url": "https://tameside.moderngov.co.uk"
+  },
+  "E07000199": {
+   "gss": "E07000199",
+   "name": "Tamworth",
+   "official_name": "Tamworth Borough Council",
+   "website": "https://www.tamworth.gov.uk",
+   "ocd_id": 213,
+   "ocd_name": "Tamworth",
+   "system": "ModernGov",
+   "democracy_url": "https://tamworth.moderngov.co.uk"
+  },
+  "E07000215": {
+   "gss": "E07000215",
+   "name": "Tandridge",
+   "official_name": "Tandridge District Council",
+   "website": "https://www.tandridge.gov.uk",
+   "ocd_id": 214,
+   "ocd_name": "Tandridge",
+   "system": "ModernGov",
+   "democracy_url": "https://tandridge.moderngov.co.uk"
+  },
+  "E07000045": {
+   "gss": "E07000045",
+   "name": "Teignbridge",
+   "official_name": "Teignbridge District Council",
+   "website": "https://www.teignbridge.gov.uk",
+   "ocd_id": 145,
+   "ocd_name": "Teignbridge",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.teignbridge.gov.uk"
+  },
+  "E06000020": {
+   "gss": "E06000020",
+   "name": "Telford and Wrekin",
+   "official_name": "Telford & Wrekin Council",
+   "website": "https://www.telford.gov.uk",
+   "ocd_id": 358,
+   "ocd_name": "Telford and Wrekin",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.telford.gov.uk"
+  },
+  "E07000076": {
+   "gss": "E07000076",
+   "name": "Tendring",
+   "official_name": "Tendring District Council",
+   "website": "https://www.tendringdc.gov.uk",
+   "ocd_id": 146,
+   "ocd_name": "Tendring",
+   "system": "ModernGov",
+   "democracy_url": "https://tdcdemocracy.tendringdc.gov.uk"
+  },
+  "E07000093": {
+   "gss": "E07000093",
+   "name": "Test Valley",
+   "official_name": "Test Valley Borough Council",
+   "website": "https://www.testvalley.gov.uk",
+   "ocd_id": 147,
+   "ocd_name": "Test Valley",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.testvalley.gov.uk"
+  },
+  "E07000083": {
+   "gss": "E07000083",
+   "name": "Tewkesbury",
+   "official_name": "Tewkesbury Borough Council",
+   "website": "https://www.tewkesbury.gov.uk",
+   "ocd_id": 148,
+   "ocd_name": "Tewkesbury",
+   "system": "ModernGov",
+   "democracy_url": "https://minutes.tewkesbury.gov.uk"
+  },
+  "E07000114": {
+   "gss": "E07000114",
+   "name": "Thanet",
+   "official_name": "Thanet District Council",
+   "website": "https://www.thanet.gov.uk",
+   "ocd_id": 149,
+   "ocd_name": "Thanet",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.thanet.gov.uk"
+  },
+  "E07000102": {
+   "gss": "E07000102",
+   "name": "Three Rivers",
+   "official_name": "Three Rivers District Council",
+   "website": "https://www.threerivers.gov.uk",
+   "ocd_id": 215,
+   "ocd_name": "Three Rivers",
+   "system": "ModernGov",
+   "democracy_url": "https://moderngov.threerivers.gov.uk"
+  },
+  "E06000034": {
+   "gss": "E06000034",
+   "name": "Thurrock",
+   "official_name": "Thurrock Council",
+   "website": "https://www.thurrock.gov.uk",
+   "ocd_id": 380,
+   "ocd_name": "Thurrock",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.thurrock.gov.uk"
+  },
+  "E07000115": {
+   "gss": "E07000115",
+   "name": "Tonbridge and Malling",
+   "official_name": "Tonbridge and Malling Borough Council",
+   "website": "https://www.tmbc.gov.uk",
+   "ocd_id": 150,
+   "ocd_name": "Tonbridge and Malling",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.tmbc.gov.uk"
+  },
+  "E06000027": {
+   "gss": "E06000027",
+   "name": "Torbay",
+   "official_name": "Torbay Council",
+   "website": "https://www.torbay.gov.uk",
+   "ocd_id": 359,
+   "ocd_name": "Torbay",
+   "system": "ModernGov",
+   "democracy_url": "http://www.torbay.gov.uk/DemocraticServices"
+  },
+  "E07000046": {
+   "gss": "E07000046",
+   "name": "Torridge",
+   "official_name": "Torridge District Council",
+   "website": "https://www.torridge.gov.uk",
+   "ocd_id": 151,
+   "ocd_name": "Torridge",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.torridge.gov.uk"
+  },
+  "E09000030": {
+   "gss": "E09000030",
+   "name": "Tower Hamlets",
+   "official_name": "London Borough of Tower Hamlets",
+   "website": "https://www.towerhamlets.gov.uk",
+   "ocd_id": 255,
+   "ocd_name": "Tower Hamlets",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.towerhamlets.gov.uk"
+  },
+  "E08000009": {
+   "gss": "E08000009",
+   "name": "Trafford",
+   "official_name": "Trafford Metropolitan Borough Council",
+   "website": "https://www.trafford.gov.uk",
+   "ocd_id": 289,
+   "ocd_name": "Trafford",
+   "system": "ModernGov",
+   "democracy_url": "https://democratic.trafford.gov.uk"
+  },
+  "E07000116": {
+   "gss": "E07000116",
+   "name": "Tunbridge Wells",
+   "official_name": "Tunbridge Wells Borough Council",
+   "website": "https://www.tunbridgewells.gov.uk",
+   "ocd_id": 216,
+   "ocd_name": "Tunbridge Wells",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.tunbridgewells.gov.uk"
+  },
+  "E07000077": {
+   "gss": "E07000077",
+   "name": "Uttlesford",
+   "official_name": "Uttlesford District Council",
+   "website": "https://www.uttlesford.gov.uk",
+   "ocd_id": 152,
+   "ocd_name": "Uttlesford",
+   "system": "ModernGov",
+   "democracy_url": "https://uttlesford.moderngov.co.uk"
+  },
+  "E07000180": {
+   "gss": "E07000180",
+   "name": "Vale of White Horse",
+   "official_name": "Vale of White Horse District Council",
+   "website": "https://www.whitehorsedc.gov.uk",
+   "ocd_id": 153,
+   "ocd_name": "Vale of White Horse",
+   "system": "ModernGov",
+   "democracy_url": "https://democratic.whitehorsedc.gov.uk"
+  },
+  "E08000036": {
+   "gss": "E08000036",
+   "name": "Wakefield",
+   "official_name": "Wakefield Metropolitan District Council",
+   "website": "https://www.wakefield.gov.uk",
+   "ocd_id": 290,
+   "ocd_name": "Wakefield",
+   "system": "ModernGov",
+   "democracy_url": "http://mg.wakefield.gov.uk"
+  },
+  "E08000030": {
+   "gss": "E08000030",
+   "name": "Walsall",
+   "official_name": "Walsall Metropolitan Borough Council",
+   "website": "https://go.walsall.gov.uk",
+   "ocd_id": 291,
+   "ocd_name": "Walsall",
+   "system": "CMIS",
+   "democracy_url": "https://cmispublic.walsall.gov.uk/cmis"
+  },
+  "E09000031": {
+   "gss": "E09000031",
+   "name": "Waltham Forest",
+   "official_name": "London Borough of Waltham Forest",
+   "website": "https://www.walthamforest.gov.uk",
+   "ocd_id": 256,
+   "ocd_name": "Waltham Forest",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.walthamforest.gov.uk"
+  },
+  "E09000032": {
+   "gss": "E09000032",
+   "name": "Wandsworth",
+   "official_name": "London Borough of Wandsworth",
+   "website": "https://www.wandsworth.gov.uk",
+   "ocd_id": 257,
+   "ocd_name": "Wandsworth",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.wandsworth.gov.uk"
+  },
+  "E06000007": {
+   "gss": "E06000007",
+   "name": "Warrington",
+   "official_name": "Warrington Borough Council",
+   "website": "https://www.warrington.gov.uk",
+   "ocd_id": 360,
+   "ocd_name": "Warrington",
+   "system": "CMIS",
+   "democracy_url": "https://cmis.warrington.gov.uk/cmis5"
+  },
+  "E07000222": {
+   "gss": "E07000222",
+   "name": "Warwick",
+   "official_name": "Warwick District Council",
+   "website": "https://www.warwickdc.gov.uk",
+   "ocd_id": 154,
+   "ocd_name": "Warwick",
+   "system": "CMIS",
+   "democracy_url": "https://estates10.warwickdc.gov.uk/cmis"
+  },
+  "E10000031": {
+   "gss": "E10000031",
+   "name": "Warwickshire",
+   "official_name": "Warwickshire County Council",
+   "website": "https://www.warwickshire.gov.uk",
+   "ocd_id": 25,
+   "ocd_name": "Warwickshire",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.warwickshire.gov.uk"
+  },
+  "E07000103": {
+   "gss": "E07000103",
+   "name": "Watford",
+   "official_name": "Watford Borough Council",
+   "website": "https://www.watford.gov.uk",
+   "ocd_id": 217,
+   "ocd_name": "Watford",
+   "system": "ModernGov",
+   "democracy_url": "https://watford.moderngov.co.uk"
+  },
+  "E07000216": {
+   "gss": "E07000216",
+   "name": "Waverley",
+   "official_name": "Waverley Borough Council",
+   "website": "https://www.waverley.gov.uk",
+   "ocd_id": 156,
+   "ocd_name": "Waverley",
+   "system": "ModernGov",
+   "democracy_url": "https://modgov.waverley.gov.uk"
+  },
+  "E07000065": {
+   "gss": "E07000065",
+   "name": "Wealden",
+   "official_name": "Wealden District Council",
+   "website": "https://www.wealden.gov.uk",
+   "ocd_id": 157,
+   "ocd_name": "Wealden",
+   "system": "ModernGov",
+   "democracy_url": "https://council.wealden.gov.uk"
+  },
+  "E07000241": {
+   "gss": "E07000241",
+   "name": "Welwyn Hatfield",
+   "official_name": "Welwyn Hatfield Council",
+   "website": "https://www.welhat.gov.uk",
+   "ocd_id": 218,
+   "ocd_name": "Welwyn Hatfield",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.welhat.gov.uk"
+  },
+  "E06000037": {
+   "gss": "E06000037",
+   "name": "West Berkshire",
+   "official_name": "West Berkshire Council",
+   "website": "https://www.westberks.gov.uk",
+   "ocd_id": 361,
+   "ocd_name": "West Berkshire",
+   "system": "ModernGov",
+   "democracy_url": "https://decisionmaking.westberks.gov.uk"
+  },
+  "E07000047": {
+   "gss": "E07000047",
+   "name": "West Devon",
+   "official_name": "West Devon Borough Council",
+   "website": "https://www.westdevon.gov.uk",
+   "ocd_id": 159,
+   "ocd_name": "West Devon",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.swdevon.gov.uk"
+  },
+  "E07000127": {
+   "gss": "E07000127",
+   "name": "West Lancashire",
+   "official_name": "West Lancashire Borough Council",
+   "website": "https://www.westlancs.gov.uk",
+   "ocd_id": 219,
+   "ocd_name": "West Lancashire",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.westlancs.gov.uk"
+  },
+  "E07000142": {
+   "gss": "E07000142",
+   "name": "West Lindsey",
+   "official_name": "West Lindsey District Council",
+   "website": "https://www.west-lindsey.gov.uk",
+   "ocd_id": 160,
+   "ocd_name": "West Lindsey",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.west-lindsey.gov.uk"
+  },
+  "E06000062": {
+   "gss": "E06000062",
+   "name": "West Northamptonshire",
+   "official_name": "West Northamptonshire Council",
+   "website": "https://www.westnorthants.gov.uk",
+   "ocd_id": 415,
+   "ocd_name": "West Northamptonshire",
+   "system": "ModernGov",
+   "democracy_url": "https://westnorthants.moderngov.co.uk"
+  },
+  "E07000181": {
+   "gss": "E07000181",
+   "name": "West Oxfordshire",
+   "official_name": "West Oxfordshire District Council",
+   "website": "https://www.westoxon.gov.uk",
+   "ocd_id": 220,
+   "ocd_name": "West Oxfordshire",
+   "system": "ModernGov",
+   "democracy_url": "https://meetings.westoxon.gov.uk"
+  },
+  "E07000245": {
+   "gss": "E07000245",
+   "name": "West Suffolk",
+   "official_name": "West Suffolk District Council",
+   "website": "https://www.westsuffolk.gov.uk",
+   "ocd_id": 410,
+   "ocd_name": "West Suffolk",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.westsuffolk.gov.uk"
+  },
+  "E06000068": {
+   "gss": "E06000068",
+   "name": "West Surrey",
+   "official_name": null,
+   "website": null,
+   "ocd_id": 420,
+   "ocd_name": "West Surrey",
+   "system": null,
+   "democracy_url": null
+  },
+  "E10000032": {
+   "gss": "E10000032",
+   "name": "West Sussex",
+   "official_name": "West Sussex County Council",
+   "website": "https://www.westsussex.gov.uk",
+   "ocd_id": 26,
+   "ocd_name": "West Sussex",
+   "system": "ModernGov",
+   "democracy_url": "https://westsussex.moderngov.co.uk"
+  },
+  "E09000033": {
+   "gss": "E09000033",
+   "name": "Westminster",
+   "official_name": "City of Westminster",
+   "website": "https://www.westminster.gov.uk",
+   "ocd_id": 258,
+   "ocd_name": "Westminster",
+   "system": "ModernGov",
+   "democracy_url": "https://committees.westminster.gov.uk"
+  },
+  "E06000064": {
+   "gss": "E06000064",
+   "name": "Westmorland and Furness",
+   "official_name": "Westmorland and Furness Council",
+   "website": "https://www.westmorlandandfurness.gov.uk",
+   "ocd_id": 419,
+   "ocd_name": "Westmorland and Furness",
+   "system": "ModernGov",
+   "democracy_url": "https://westmorlandandfurness.moderngov.co.uk"
+  },
+  "E08000010": {
+   "gss": "E08000010",
+   "name": "Wigan",
+   "official_name": "Wigan Metropolitan Borough Council",
+   "website": "https://www.wigan.gov.uk",
+   "ocd_id": 292,
+   "ocd_name": "Wigan",
+   "system": "ModernGov",
+   "democracy_url": "http://democracy.wigan.gov.uk"
+  },
+  "E06000054": {
+   "gss": "E06000054",
+   "name": "Wiltshire",
+   "official_name": "Wiltshire Council",
+   "website": "https://www.wiltshire.gov.uk",
+   "ocd_id": 362,
+   "ocd_name": "Wiltshire",
+   "system": "ModernGov",
+   "democracy_url": "https://cms.wiltshire.gov.uk"
+  },
+  "E07000094": {
+   "gss": "E07000094",
+   "name": "Winchester",
+   "official_name": "Winchester City Council",
+   "website": "https://www.winchester.gov.uk",
+   "ocd_id": 222,
+   "ocd_name": "Winchester",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.winchester.gov.uk"
+  },
+  "E06000040": {
+   "gss": "E06000040",
+   "name": "Windsor and Maidenhead",
+   "official_name": "Royal Borough of Windsor and Maidenhead",
+   "website": "https://www.rbwm.gov.uk",
+   "ocd_id": 363,
+   "ocd_name": "Windsor and Maidenhead",
+   "system": "ModernGov",
+   "democracy_url": "https://rbwm.moderngov.co.uk"
+  },
+  "E08000015": {
+   "gss": "E08000015",
+   "name": "Wirral",
+   "official_name": "Wirral Council",
+   "website": "https://www.wirral.gov.uk",
+   "ocd_id": 293,
+   "ocd_name": "Wirral",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.wirral.gov.uk"
+  },
+  "E07000217": {
+   "gss": "E07000217",
+   "name": "Woking",
+   "official_name": "Woking Borough Council",
+   "website": "https://www.woking.gov.uk",
+   "ocd_id": 223,
+   "ocd_name": "Woking",
+   "system": "ModernGov",
+   "democracy_url": "https://moderngov.woking.gov.uk"
+  },
+  "E06000041": {
+   "gss": "E06000041",
+   "name": "Wokingham",
+   "official_name": "Wokingham Borough Council",
+   "website": "https://www.wokingham.gov.uk",
+   "ocd_id": 381,
+   "ocd_name": "Wokingham",
+   "system": "ModernGov",
+   "democracy_url": "https://wokingham.moderngov.co.uk"
+  },
+  "E08000031": {
+   "gss": "E08000031",
+   "name": "Wolverhampton",
+   "official_name": "City of Wolverhampton Council",
+   "website": "https://www.wolverhampton.gov.uk",
+   "ocd_id": 294,
+   "ocd_name": "Wolverhampton",
+   "system": "ModernGov",
+   "democracy_url": "https://wolverhampton.moderngov.co.uk"
+  },
+  "E07000237": {
+   "gss": "E07000237",
+   "name": "Worcester",
+   "official_name": "Worcester City Council",
+   "website": "https://www.worcester.gov.uk",
+   "ocd_id": 224,
+   "ocd_name": "Worcester",
+   "system": "ModernGov",
+   "democracy_url": "https://committee.worcester.gov.uk"
+  },
+  "E10000034": {
+   "gss": "E10000034",
+   "name": "Worcestershire",
+   "official_name": "Worcestershire County Council",
+   "website": "https://www.worcestershire.gov.uk",
+   "ocd_id": 27,
+   "ocd_name": "Worcestershire",
+   "system": "ModernGov",
+   "democracy_url": "https://worcestershire.moderngov.co.uk"
+  },
+  "E07000229": {
+   "gss": "E07000229",
+   "name": "Worthing",
+   "official_name": "Worthing Borough Council",
+   "website": "https://www.adur-worthing.gov.uk",
+   "ocd_id": 225,
+   "ocd_name": "Worthing",
+   "system": "ModernGov",
+   "democracy_url": "https://democracy.adur-worthing.gov.uk"
+  },
+  "E07000238": {
+   "gss": "E07000238",
+   "name": "Wychavon",
+   "official_name": "Wychavon District Council",
+   "website": "https://www.wychavon.gov.uk",
+   "ocd_id": 162,
+   "ocd_name": "Wychavon",
+   "system": "ModernGov",
+   "democracy_url": "https://mgov.wychavon.gov.uk"
+  },
+  "E07000128": {
+   "gss": "E07000128",
+   "name": "Wyre",
+   "official_name": "Wyre Council",
+   "website": "https://www.wyre.gov.uk",
+   "ocd_id": 164,
+   "ocd_name": "Wyre",
+   "system": "ModernGov",
+   "democracy_url": "https://wyre.moderngov.co.uk"
+  },
+  "E07000239": {
+   "gss": "E07000239",
+   "name": "Wyre Forest",
+   "official_name": "Wyre Forest District Council",
+   "website": "https://www.wyreforestdc.gov.uk",
+   "ocd_id": 226,
+   "ocd_name": "Wyre Forest",
+   "system": "Custom HTML",
+   "democracy_url": "https://forms.wyreforestdc.gov.uk/council/committees"
+  },
+  "E06000014": {
+   "gss": "E06000014",
+   "name": "York",
+   "official_name": "City of York Council",
+   "website": "https://www.york.gov.uk",
+   "ocd_id": 364,
+   "ocd_name": "York",
+   "system": "ModernGov",
+   "democracy_url": "http://democracy.york.gov.uk"
+  }
+ }
+}

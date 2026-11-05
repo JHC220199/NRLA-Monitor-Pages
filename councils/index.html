@@ -1,0 +1,575 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Council Licensing Monitor</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap">
+<style>
+/* Layout: navy masthead, tab bar, then per-tab summary strip → filters → dense table/feed. NRLA monitor-suite tokens. */
+:root {
+  --navy: #113B54; --navy-deep: #0F2636; --orange: #E96C19;
+  --bg: #F6F7F8; --surface: #FCFCFC; --ink: #0F2636; --muted: #52687A; --line: #DCE3E9; --soft: #EDF1F4;
+  --accent: #C85A10; --accent-ink: #FCFCFC; --link: #135A82;
+  --good: #1D7A4E; --good-bg: #E2F3EA; --warn: #9A5A00; --warn-bg: #FCEFD9; --bad: #B3261E; --bad-bg: #FBE4E2; --info: #135A82; --info-bg: #E1EEF6;
+  --lab: #E4003B; --con: #0087DC; --ld: #F5A400; --grn: #02A95B; --ref: #12B6CF; --oth: #9AA6B2; --vac: #D6DCE1;
+  --display: "Space Grotesk", "Segoe UI", system-ui, sans-serif;
+  --body: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --r: 6px;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0B1C28; --surface: #11283A; --ink: #E6EDF2; --muted: #9DB1C1; --line: #22415A; --soft: #163248;
+  --accent: #F08A45; --accent-ink: #0F2636; --link: #7CC0E8;
+  --good: #6FD3A0; --good-bg: #123A2A; --warn: #F2C26B; --warn-bg: #3A2C12; --bad: #F2A39D; --bad-bg: #3E1A18; --info: #8FC8EC; --info-bg: #14344B;
+  --oth: #7D8B98; --vac: #2A4558; color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --bg: #0B1C28; --surface: #11283A; --ink: #E6EDF2; --muted: #9DB1C1; --line: #22415A; --soft: #163248;
+  --accent: #F08A45; --accent-ink: #0F2636; --link: #7CC0E8;
+  --good: #6FD3A0; --good-bg: #123A2A; --warn: #F2C26B; --warn-bg: #3A2C12; --bad: #F2A39D; --bad-bg: #3E1A18; --info: #8FC8EC; --info-bg: #14344B;
+  --oth: #7D8B98; --vac: #2A4558; color-scheme: dark; }
+
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body { background: var(--bg); color: var(--ink); font: 14px/1.5 var(--body); }
+a { color: var(--link); text-underline-offset: 2px; }
+a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible, summary:focus-visible { outline: 2px solid var(--orange); outline-offset: 2px; }
+.wrap { max-width: 1320px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+
+/* masthead (stays navy in both themes: it is the brand band) */
+.mast { background: #113B54; color: #FCFCFC; }
+.mast .wrap { padding-block: 22px 0; display: grid; gap: 4px; }
+.mast .kicker { font: 600 11px/1 var(--body); letter-spacing: .12em; text-transform: uppercase; color: #F4A46B; }
+.mast h1 { margin: 0; font: 700 clamp(24px, 3.2vw, 32px)/1.15 var(--display); letter-spacing: -.01em; text-wrap: balance; }
+.mast p { margin: 0; color: #C9D7E2; max-width: 70ch; }
+.tabs { display: flex; gap: 2px; margin-top: 16px; overflow-x: auto; scrollbar-width: none; }
+.tabs a { flex: none; color: #C9D7E2; text-decoration: none; font: 600 14px/1 var(--display); padding: 12px 14px 13px; border-radius: var(--r) var(--r) 0 0; display: flex; gap: 8px; align-items: center; }
+.tabs a:hover { color: #FCFCFC; background: rgba(252,252,252,.06); }
+.tabs a[aria-current="page"] { background: var(--bg); color: var(--ink); }
+.tabs .n { font: 600 11px/1 var(--body); padding: 3px 6px; border-radius: 99px; background: rgba(252,252,252,.14); color: inherit; font-variant-numeric: tabular-nums; }
+.tabs a[aria-current="page"] .n { background: var(--orange); color: #FCFCFC; }
+
+main .wrap { padding-block: 20px 40px; display: grid; gap: 18px; }
+section[hidden] { display: none !important; }
+.view { display: grid; gap: 18px; }
+h2 { margin: 0; font: 700 20px/1.2 var(--display); text-wrap: balance; }
+h3 { margin: 0; font: 600 15px/1.3 var(--display); }
+.lede { margin: 0; color: var(--muted); max-width: 80ch; }
+.stamp { color: var(--muted); font-size: 12px; }
+
+/* summary strip */
+.summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); overflow: hidden; }
+.stat { padding: 12px 14px; display: grid; gap: 2px; min-width: 0; box-shadow: 1px 0 0 var(--line), 0 1px 0 var(--line); }
+.stat b { font: 700 24px/1.1 var(--display); font-variant-numeric: tabular-nums; }
+.stat span { color: var(--muted); font-size: 12px; }
+.stat.hot b { color: var(--accent); }
+
+/* party leadership table */
+.lead-wrap { overflow-x: auto; background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); }
+table { border-collapse: collapse; width: 100%; font-variant-numeric: tabular-nums; }
+th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font: 600 11px/1.2 var(--body); letter-spacing: .06em; text-transform: uppercase; color: var(--muted); background: var(--soft); white-space: nowrap; }
+th.sort { cursor: pointer; user-select: none; }
+th.sort:hover { color: var(--ink); }
+th.sort[data-dir="asc"]::after { content: " ▲"; } th.sort[data-dir="desc"]::after { content: " ▼"; }
+tbody tr:hover td { background: color-mix(in srgb, var(--soft) 55%, transparent); }
+td.num, th.num { text-align: right; }
+.lead-table td, .lead-table th { text-align: right; } .lead-table td:first-child, .lead-table th:first-child { text-align: left; }
+
+/* filters */
+.filters { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.filters input[type=search], .filters select { font: inherit; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 7px 10px; min-width: 0; }
+.filters input[type=search] { flex: 1 1 220px; }
+.filters label.chk { display: inline-flex; gap: 6px; align-items: center; color: var(--muted); font-size: 13px; }
+.count { color: var(--muted); font-size: 13px; margin-left: auto; }
+button, .btn { font: 600 13px/1 var(--body); color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 8px 12px; cursor: pointer; }
+button:hover { border-color: var(--muted); }
+button.primary { background: var(--navy); border-color: var(--navy); color: #FCFCFC; }
+
+.table-wrap { overflow-x: auto; background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); }
+.table-wrap table { min-width: 960px; }
+
+/* chips */
+.chip { display: inline-flex; align-items: center; gap: 5px; font: 600 11.5px/1 var(--body); padding: 4px 7px; border-radius: 99px; white-space: nowrap; background: var(--soft); color: var(--ink); }
+.chip.good { background: var(--good-bg); color: var(--good); } .chip.warn { background: var(--warn-bg); color: var(--warn); }
+.chip.bad { background: var(--bad-bg); color: var(--bad); } .chip.info { background: var(--info-bg); color: var(--info); }
+.chip.new { background: var(--orange); color: #FCFCFC; }
+.dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; flex: none; }
+.label { font: 600 12px/1.2 var(--body); white-space: nowrap; display: inline-flex; gap: 6px; align-items: center; }
+
+/* seat bar */
+.bar { position: relative; display: flex; height: 12px; width: 180px; border-radius: 3px; overflow: hidden; background: var(--vac); }
+.bar i { display: block; height: 100%; }
+.bar .maj { position: absolute; top: -2px; bottom: -2px; width: 2px; background: var(--ink); }
+.barcell { display: grid; gap: 4px; }
+.opp { color: var(--muted); font-size: 12px; }
+.muted { color: var(--muted); }
+.small { font-size: 12px; }
+.neg { color: var(--bad); font-weight: 600; } .pos { color: var(--good); font-weight: 600; }
+
+/* two-column rows */
+.split { display: grid; grid-template-columns: minmax(0, 1fr) 320px; gap: 18px; align-items: start; }
+@media (max-width: 980px) { .split { grid-template-columns: minmax(0, 1fr); } }
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 14px; display: grid; gap: 10px; min-width: 0; }
+.panel ol, .panel ul { margin: 0; padding: 0; list-style: none; display: grid; gap: 10px; }
+.panel li { display: grid; gap: 2px; overflow-wrap: anywhere; padding-bottom: 10px; border-bottom: 1px solid var(--line); }
+.panel li:last-child { border-bottom: 0; padding-bottom: 0; }
+
+.changes-panel { max-height: 330px; overflow-y: auto; }
+/* early warning feed */
+.feed { display: grid; gap: 10px; }
+.item { background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--line); border-radius: var(--r); padding: 12px 14px; display: grid; gap: 8px; min-width: 0; }
+.item.s-designation { border-left-color: var(--bad); } .item.s-consultation { border-left-color: var(--orange); }
+.item.s-proposal { border-left-color: var(--warn); } .item.s-review { border-left-color: var(--info); }
+.item .top { display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: center; }
+.item .council { font: 700 15px/1.2 var(--display); }
+.item .title { font-weight: 600; }
+.item .meta { color: var(--muted); font-size: 12.5px; display: flex; flex-wrap: wrap; gap: 4px 12px; }
+.snip { margin: 0; font-size: 13px; color: var(--muted); border-left: 2px solid var(--line); padding-left: 10px; overflow-wrap: anywhere; }
+mark { background: color-mix(in srgb, var(--orange) 28%, transparent); color: var(--ink); padding: 0 2px; border-radius: 2px; }
+.docs { display: flex; flex-wrap: wrap; gap: 6px; }
+.docs a { font-size: 12.5px; padding: 3px 8px; border: 1px solid var(--line); border-radius: 99px; text-decoration: none; max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.docs a:hover { border-color: var(--link); }
+
+details.pages summary { cursor: pointer; color: var(--link); font-size: 12.5px; }
+details.pages[open] { margin-top: 4px; }
+.pg { display: grid; gap: 2px; padding: 8px 0; border-top: 1px dashed var(--line); font-size: 12.5px; }
+.pg:first-of-type { border-top: 0; }
+.empty { background: var(--surface); border: 1px dashed var(--line); border-radius: var(--r); padding: 22px; color: var(--muted); text-align: center; }
+textarea { width: 100%; min-height: 140px; font: 12px/1.4 ui-monospace, Menlo, Consolas, monospace; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 8px; }
+footer { color: var(--muted); font-size: 12px; border-top: 1px solid var(--line); padding-top: 14px; display: grid; gap: 4px; }
+.cov-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 18px; }
+@media (max-width: 560px) { .count { margin-left: 0; width: 100%; } .bar { width: 120px; } }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+</head>
+<body>
+<header class="mast">
+  <div class="wrap">
+    <span class="kicker">NRLA policy monitoring</span>
+    <h1>Council licensing monitor</h1>
+    <p>Track who runs England's councils, spot selective and additional licensing proposals in council papers before they reach consultation, and keep a register of live schemes.</p>
+    <nav class="tabs" aria-label="Sections">
+      <a href="#control" data-tab="control">Political control <span class="n" id="n-control">–</span></a>
+      <a href="#early-warning" data-tab="early-warning">Early warning <span class="n" id="n-early">–</span></a>
+      <a href="#schemes" data-tab="schemes">Licensing schemes <span class="n" id="n-schemes">–</span></a>
+      <a href="#coverage" data-tab="coverage">Coverage</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<div class="wrap">
+
+<!-- POLITICAL CONTROL -->
+<section id="v-control" class="view" data-view="control">
+  <div class="view">
+    <div style="display:grid;gap:4px">
+      <h2>Political control of English councils</h2>
+      <p class="lede">Seat counts update daily from Open Council Data, which tracks by-elections and defections as they happen. "Independents &amp; others" pools independents, residents' groups and smaller parties.</p>
+      <span class="stamp" id="stamp-control"></span>
+    </div>
+    <div class="summary" id="control-summary"></div>
+  </div>
+  <div class="split">
+    <div class="lead-wrap"><table class="lead-table" id="lead-table"></table></div>
+    <aside class="panel changes-panel">
+      <h3>Recent changes</h3>
+      <p class="small muted" style="margin:0">Control and seat changes logged since the monitor started.</p>
+      <ol id="changes"></ol>
+    </aside>
+  </div>
+  <div class="view" style="min-width:0">
+      <div class="filters">
+        <input type="search" id="c-q" placeholder="Search councils" aria-label="Search councils">
+        <select id="c-region" aria-label="Region"><option value="">All regions</option></select>
+        <select id="c-type" aria-label="Council type"><option value="">All types</option></select>
+        <select id="c-status" aria-label="Control status"><option value="">Any control status</option></select>
+        <select id="c-party" aria-label="Leading party"><option value="">Any leading party</option></select>
+        <label class="chk"><input type="checkbox" id="c-lgr"> Exclude councils being abolished</label>
+        <span class="count" id="c-count"></span>
+      </div>
+      <div class="table-wrap"><table id="control-table"></table></div>
+  </div>
+</section>
+
+<!-- EARLY WARNING -->
+<section id="v-early" class="view" data-view="early-warning" hidden>
+  <div style="display:grid;gap:4px">
+    <h2>Licensing in council papers</h2>
+    <p class="lede">Agenda items and reports that mention selective or additional licensing, read daily from councils' Modern.Gov committee systems. Cabinet reports, scrutiny papers and key-decision notices usually show up months before a formal consultation opens.</p>
+    <span class="stamp" id="stamp-early"></span>
+  </div>
+  <div class="summary" id="early-summary"></div>
+  <div class="split">
+    <div class="view" style="min-width:0">
+      <div class="filters">
+        <input type="search" id="e-q" placeholder="Search council, committee or text" aria-label="Search mentions">
+        <select id="e-period" aria-label="Period">
+          <option value="30">Last 30 days</option><option value="90" selected>Last 90 days</option>
+          <option value="365">Last 12 months</option><option value="0">All on file</option>
+        </select>
+        <select id="e-stage" aria-label="Stage"><option value="">All stages</option></select>
+        <select id="e-party" aria-label="Leading party"><option value="">Any leading party</option></select>
+        <label class="chk"><input type="checkbox" id="e-strong" checked> Strong matches only</label>
+        <label class="chk"><input type="checkbox" id="e-upcoming"> Upcoming meetings only</label>
+        <span class="count" id="e-count"></span>
+      </div>
+      <div class="feed" id="feed"></div>
+    </div>
+    <aside class="panel">
+      <h3>Councils on the radar</h3>
+      <p class="small muted" style="margin:0">Councils with matches in the selected period, most recent first.</p>
+      <ol id="radar"></ol>
+    </aside>
+  </div>
+</section>
+
+<!-- SCHEMES -->
+<section id="v-schemes" class="view" data-view="schemes" hidden>
+  <div style="display:grid;gap:4px">
+    <h2>Selective and additional licensing schemes</h2>
+    <p class="lede">Each council's property licensing pages are found from its sitemap and re-read daily. Scheme type, status, fees and dates are read from the page text, so treat them as leads to verify. Verified entries come from <code>config/schemes_manual.csv</code> and always take priority.</p>
+    <span class="stamp" id="stamp-schemes"></span>
+  </div>
+  <div class="summary" id="schemes-summary"></div>
+  <div class="filters">
+    <input type="search" id="s-q" placeholder="Search councils" aria-label="Search councils">
+    <select id="s-type" aria-label="Scheme type">
+      <option value="">Any scheme type</option><option value="selective">Selective</option><option value="additional">Additional</option><option value="either">Selective or additional</option>
+    </select>
+    <select id="s-status" aria-label="Status"><option value="">Any status</option></select>
+    <select id="s-region" aria-label="Region"><option value="">All regions</option></select>
+    <label class="chk"><input type="checkbox" id="s-changed"> Changed in last 14 days</label>
+    <label class="chk"><input type="checkbox" id="s-found" checked> Hide councils with no licensing pages</label>
+    <span class="count" id="s-count"></span>
+  </div>
+  <div class="table-wrap"><table id="schemes-table"></table></div>
+  <div class="panel">
+    <h3>Export for verification</h3>
+    <p class="small muted" style="margin:0">Copies the rows shown above in the same columns as <code>schemes_manual.csv</code>, pre-filled with what the monitor found. Check each row against the council's designation notice, then paste the verified rows into the CSV.</p>
+    <div class="filters"><button class="primary" id="s-export" type="button">Copy CSV of shown rows</button><span class="small muted" id="s-export-msg"></span></div>
+    <textarea id="s-csv" hidden aria-label="CSV export" readonly></textarea>
+  </div>
+</section>
+
+<!-- COVERAGE -->
+<section id="v-coverage" class="view" data-view="coverage" hidden>
+  <div style="display:grid;gap:4px">
+    <h2>Coverage and gaps</h2>
+    <p class="lede">What the monitor can and cannot see. Councils listed here need a fix in <code>config/registry_overrides.json</code> or a manual entry.</p>
+  </div>
+  <div class="summary" id="cov-summary"></div>
+  <div class="cov-grid">
+    <div class="panel"><h3>Committee sites with errors</h3><ul id="cov-errors"></ul></div>
+    <div class="panel"><h3>Reports blocked by a browser check</h3><p class="small muted" style="margin:0">Agenda titles and item text are still matched; report PDFs are not read.</p><ul id="cov-blocked"></ul></div>
+    <div class="panel"><h3>Not on Modern.Gov</h3><p class="small muted" style="margin:0">Papers for these councils are not scanned yet (mostly CMIS or bespoke systems).</p><ul id="cov-notmg"></ul></div>
+    <div class="panel"><h3>No licensing pages found</h3><p class="small muted" style="margin:0">No sitemap match. Add a <code>page_url</code> in the manual CSV if the council runs a scheme.</p><ul id="cov-nopages"></ul></div>
+  </div>
+</section>
+
+<footer>
+  <span>Political control: <a href="https://opencouncildata.co.uk/" target="_blank" rel="noopener">Open Council Data UK</a>, licensed <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>. Committee systems: <a href="https://github.com/DemocracyClub/LGSF" target="_blank" rel="noopener">Democracy Club LGSF</a> (MIT). Council websites and Modern.Gov papers are each council's own publications.</span>
+  <span>Built for the NRLA policy team. Automated readings are leads: confirm against the council's own documents before relying on them.</span>
+</footer>
+</div>
+</main>
+
+<script>
+(() => {
+  const PARTY = { Lab: ["Labour", "var(--lab)"], Con: ["Conservative", "var(--con)"], LD: ["Lib Dem", "var(--ld)"],
+                  Grn: ["Green", "var(--grn)"], Ref: ["Reform UK", "var(--ref)"], Oth: ["Ind. & others", "var(--oth)"] };
+  const ORDER = ["Lab", "Con", "LD", "Grn", "Ref", "Oth"];
+  const STAGE_CLASS = { "Designation decision": "designation", "Consultation": "consultation", "Early proposal": "proposal", "Renewal / review": "review", "Mention": "" };
+  const STAGE_CHIP = { "Designation decision": "bad", "Consultation": "warn", "Early proposal": "warn", "Renewal / review": "info", "Mention": "" };
+  const STATUS_CHIP = { "Majority": "good", "Minority administration": "warn", "Coalition": "info", "Coalition (minority)": "warn", "Directly elected mayor": "info", "Leadership to be confirmed": "bad" };
+  const SCHEME_CHIP = { "Live": "good", "Consultation open": "warn", "Consultation (check)": "warn", "Proposed": "warn", "Ended": "", "Pages found": "info", "None found": "" };
+
+  const $ = (s) => document.querySelector(s);
+  const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const fmtDate = (s) => { if (!s) return ""; const d = new Date(s.length === 10 ? s + "T12:00:00" : s); return isNaN(d) ? s : d.toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" }); };
+  const daysAgo = (s) => (Date.now() - new Date(s.length === 10 ? s + "T12:00:00" : s)) / 864e5;
+  const store = { get(k) { try { return localStorage.getItem("clm:" + k); } catch { return null; } }, set(k, v) { try { localStorage.setItem("clm:" + k, v); } catch {} } };
+
+  const D = { control: null, changes: [], mentions: null, schemes: null, status: null, registry: null };
+  const byGss = {};
+
+  async function load(name) { try { const r = await fetch("data/" + name, { cache: "no-store" }); return r.ok ? await r.json() : null; } catch { return null; } }
+
+  function partyDot(p) { return `<span class="dot" style="background:${PARTY[p]?.[1] || "var(--oth)"}"></span>`; }
+  function leadName(c) { if (!c || !c.lead_party) return "—"; if (c.lead_party !== "Oth") return PARTY[c.lead_party][0]; const t = c.control_label.split(/[\/ ]/)[0]; return t === "IND" ? "Independent" : t; }
+  function controlChip(c) {
+    if (!c) return "";
+    return `<span class="label" title="${esc(c.control_description || c.control_label)}">${partyDot(c.lead_party)}${esc(c.control_label)}</span>`;
+  }
+  function fillSelect(sel, values, keep) {
+    const el = $(sel); const first = el.options[0].outerHTML;
+    el.innerHTML = first + values.map((v) => `<option value="${esc(v)}">${esc(v)}</option>`).join("");
+    if (keep) el.value = keep;
+  }
+  const uniq = (a) => [...new Set(a.filter(Boolean))].sort();
+
+  /* ---------- political control ---------- */
+  let cSort = { key: "name", dir: "asc" };
+  function renderControl() {
+    const cs = D.control?.councils || [];
+    $("#n-control").textContent = cs.length || "–";
+    if (!cs.length) { $("#control-table").outerHTML = `<div class="empty">Political control data has not been generated yet. It appears after the first daily run.</div>`; return; }
+    $("#stamp-control").textContent = `Updated ${fmtDate(D.control.generated)} · ${cs.length} councils`;
+    const st = (s) => cs.filter((c) => c.status === s).length;
+    const noc = cs.filter((c) => c.overall_control === "No overall control").length;
+    $("#control-summary").innerHTML = [
+      [st("Majority"), "single-party majority"], [noc, "no overall control"], [st("Minority administration"), "minority administrations"],
+      [st("Coalition") + st("Coalition (minority)"), "coalitions"], [st("Directly elected mayor"), "directly elected mayors"],
+      [cs.filter((c) => /abolish/i.test(c.lgr_note || "")).length, "due to be abolished under LGR"],
+    ].map(([n, l]) => `<div class="stat"><b>${n}</b><span>${l}</span></div>`).join("");
+
+    // leadership by party
+    const rows = ORDER.map((p) => {
+      const led = cs.filter((c) => c.lead_party === p);
+      const full = led.filter((c) => c.status === "Majority" || (c.status === "Directly elected mayor" && /council majority/.test(c.overall_control) && !/no council/.test(c.overall_control))).length;
+      const seats = cs.reduce((a, c) => a + (c.seats?.[p] || 0), 0);
+      return { p, full, noc: led.length - full, total: led.length, seats };
+    });
+    $("#lead-table").innerHTML = `<thead><tr><th>Party</th><th>Councillors</th><th>Majority control</th><th>Leading without a majority</th><th>Councils led</th></tr></thead><tbody>` +
+      rows.map((r) => `<tr><td><span class="label">${partyDot(r.p)}${PARTY[r.p][0]}</span></td><td>${r.seats.toLocaleString("en-GB")}</td><td>${r.full}</td><td>${r.noc}</td><td><b>${r.total}</b></td></tr>`).join("") + `</tbody>`;
+
+    fillSelect("#c-region", uniq(cs.map((c) => c.region)), $("#c-region").value);
+    fillSelect("#c-type", uniq(cs.map((c) => c.type)), $("#c-type").value);
+    fillSelect("#c-status", uniq(cs.map((c) => c.status)), $("#c-status").value);
+    const pv = $("#c-party").value;
+    $("#c-party").innerHTML = `<option value="">Any leading party</option>` + ORDER.map((p) => `<option value="${p}">${PARTY[p][0]}</option>`).join("");
+    $("#c-party").value = pv;
+    drawControlTable();
+
+    const ch = D.changes || [];
+    $("#changes").innerHTML = ch.length ? ch.slice(0, 40).map((c) => `<li><span class="small muted">${fmtDate(c.date)}</span><b>${esc(c.council)}</b>${c.control_changed ? ' <span class="chip new">Control change</span>' : ""}<span class="small">${esc(c.summary)}</span></li>`).join("")
+      : `<li class="muted small">Nothing yet. The first comparison happens on the next daily run.</li>`;
+  }
+
+  function drawControlTable() {
+    const cs = D.control?.councils || [];
+    const q = $("#c-q").value.trim().toLowerCase(), reg = $("#c-region").value, ty = $("#c-type").value, stt = $("#c-status").value, pa = $("#c-party").value, lgr = $("#c-lgr").checked;
+    let list = cs.filter((c) => (!q || (c.name + " " + (c.county || "")).toLowerCase().includes(q)) && (!reg || c.region === reg) && (!ty || c.type === ty) && (!stt || c.status === stt) && (!pa || c.lead_party === pa) && (!lgr || !/abolish/i.test(c.lgr_note || "")));
+    const k = cSort.key, dir = cSort.dir === "asc" ? 1 : -1;
+    const val = (c) => k === "name" ? c.name : k === "seats" ? c.control_seats : k === "wm" ? c.working_majority : k === "total" ? c.total : k === "status" ? c.status : k === "region" ? (c.region || "") : k === "type" ? (c.type || "") : c.control_label;
+    list.sort((a, b) => { const x = val(a), y = val(b); return (typeof x === "number" ? x - y : String(x).localeCompare(String(y))) * dir; });
+    $("#c-count").textContent = `${list.length} of ${cs.length} councils`;
+    const th = (key, label, cls = "") => `<th class="sort ${cls}" data-key="${key}" ${cSort.key === key ? `data-dir="${cSort.dir}"` : ""}>${label}</th>`;
+    $("#control-table").innerHTML = `<thead><tr>${th("name", "Council")}${th("type", "Type")}${th("region", "Region")}${th("label", "Control")}${th("status", "Status")}<th>Seats</th>${th("seats", "Controlling group", "num")}${th("wm", "Working majority", "num")}<th>Opposition</th></tr></thead><tbody>` +
+      list.map((c) => {
+        const segs = ORDER.map((p) => c.seats[p] ? `<i style="width:${(c.seats[p] / c.total) * 100}%;background:${PARTY[p][1]}" title="${PARTY[p][0]}: ${c.seats[p]}"></i>` : "").join("");
+        const opp = Object.entries(c.opposition || {}).map(([p, n]) => `${PARTY[p]?.[0] || p} ${n}`).join(" · ") || "—";
+        const wm = c.working_majority;
+        return `<tr>
+          <td><a href="${esc(c.ocd_url)}" target="_blank" rel="noopener"><b>${esc(c.name)}</b></a>${c.lgr_note ? `<div class="small muted">${esc(c.lgr_note)}</div>` : ""}</td>
+          <td class="small">${esc(c.type || "")}</td><td class="small">${esc(c.region || "")}</td>
+          <td>${controlChip(c)}<div class="small muted">${esc(c.overall_control)}</div></td>
+          <td><span class="chip ${STATUS_CHIP[c.status] || ""}">${esc(c.status)}</span></td>
+          <td><div class="barcell"><div class="bar" aria-label="Seat shares">${segs}<span class="maj" style="left:${(c.majority_required / c.total) * 100}%" title="Majority: ${c.majority_required}"></span></div><span class="small muted">${c.total} seats${c.vacant ? ` · ${c.vacant} vacant` : ""} · ${c.majority_required} for majority</span></div></td>
+          <td class="num"><b>${c.control_seats}</b>${c.control_seats_approx ? '<span class="muted" title="Includes the pooled independents &amp; others figure, so this is an upper bound">*</span>' : ""}</td>
+          <td class="num ${wm < 0 ? "neg" : "pos"}">${wm > 0 ? "+" : ""}${wm}</td>
+          <td class="opp">${esc(opp)}</td></tr>`;
+      }).join("") + `</tbody>`;
+    $("#control-table").querySelectorAll("th.sort").forEach((t) => t.onclick = () => {
+      const key = t.dataset.key; cSort = { key, dir: cSort.key === key && cSort.dir === "asc" ? "desc" : "asc" }; drawControlTable();
+    });
+  }
+
+  /* ---------- early warning ---------- */
+  function groupMentions() {
+    const g = new Map();
+    for (const m of D.mentions?.mentions || []) {
+      const key = m.meeting_url + "|" + m.item_title;
+      if (!g.has(key)) g.set(key, { ...m, docs: [], hits: 0, firstSeen: m.first_seen, strong: false, stages: new Set(), terms: new Set(), snippets: [] });
+      const x = g.get(key);
+      if (m.doc_url) x.docs.push({ title: m.doc_title, url: m.doc_url });
+      x.hits += m.hit_count; x.strong ||= m.tier === "strong"; x.stages.add(m.stage);
+      m.terms.forEach((t) => x.terms.add(t));
+      if (m.first_seen < x.firstSeen) x.firstSeen = m.first_seen;
+      x.snippets.push({ s: m.snippet, src: m.source, stage: m.stage });
+    }
+    const rank = ["Designation decision", "Consultation", "Early proposal", "Renewal / review", "Mention"];
+    return [...g.values()].map((x) => {
+      x.stage = rank.find((r) => x.stages.has(r)) || "Mention";
+      const best = x.snippets.find((s) => s.stage === x.stage && s.src === "report") || x.snippets.find((s) => s.stage === x.stage) || x.snippets[0];
+      x.snippet = (best?.s || "").replace(/(\s*\|\s*){2,}/g, " | ");
+      return x;
+    });
+  }
+  let GROUPS = [];
+  function highlight(text, terms) {
+    let h = esc(text);
+    const t = [...terms].sort((a, b) => b.length - a.length).map((s) => esc(s).replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
+    if (t.length) h = h.replace(new RegExp("(" + t.join("|") + ")", "gi"), "<mark>$1</mark>");
+    return h;
+  }
+  function renderEarly() {
+    GROUPS = groupMentions();
+    if (!D.mentions) { $("#feed").innerHTML = `<div class="empty">No scan results yet. They appear after the first scan of council papers.</div>`; return; }
+    $("#stamp-early").textContent = `Updated ${fmtDate(D.mentions.generated)} · ${D.mentions.count} matching documents on file`;
+    fillSelect("#e-stage", ["Designation decision", "Consultation", "Early proposal", "Renewal / review", "Mention"], $("#e-stage").value);
+    const pv = $("#e-party").value;
+    $("#e-party").innerHTML = `<option value="">Any leading party</option>` + ORDER.map((p) => `<option value="${p}">${PARTY[p][0]}</option>`).join("");
+    $("#e-party").value = pv;
+    drawEarly();
+  }
+  function drawEarly() {
+    const q = $("#e-q").value.trim().toLowerCase(), per = +$("#e-period").value, stg = $("#e-stage").value, pa = $("#e-party").value, strong = $("#e-strong").checked, up = $("#e-upcoming").checked;
+    const today = new Date().toISOString().slice(0, 10);
+    const list = GROUPS.filter((x) => {
+      const ctl = x.councils.map((c) => byGss[c.gss]).filter(Boolean);
+      return (!per || daysAgo(x.meeting_date) <= per) && (!stg || x.stage === stg) && (!strong || x.strong) && (!up || x.meeting_date >= today)
+        && (!pa || ctl.some((c) => c.lead_party === pa))
+        && (!q || [x.councils.map((c) => c.name).join(" "), x.committee, x.item_title, x.snippet].join(" ").toLowerCase().includes(q));
+    }).sort((a, b) => b.meeting_date.localeCompare(a.meeting_date) || a.councils[0].name.localeCompare(b.councils[0].name));
+    const councilsN = new Set(list.flatMap((x) => x.councils.map((c) => c.gss))).size;
+    $("#n-early").textContent = new Set(GROUPS.filter((x) => x.strong && daysAgo(x.meeting_date) <= 90).flatMap((x) => x.councils.map((c) => c.gss))).size || "0";
+    const cnt = (s) => list.filter((x) => x.stage === s).length;
+    $("#early-summary").innerHTML = [
+      [councilsN, "councils with matches", "hot"], [list.length, "agenda items"],
+      [cnt("Designation decision"), "designation decisions"], [cnt("Consultation"), "consultation stage"],
+      [cnt("Early proposal"), "early proposals"], [list.filter((x) => daysAgo(x.firstSeen) <= 7).length, "new this week"],
+    ].map(([n, l, c]) => `<div class="stat ${c || ""}"><b>${n}</b><span>${l}</span></div>`).join("");
+    $("#e-count").textContent = `${list.length} items`;
+    $("#feed").innerHTML = list.length ? list.slice(0, 300).map((x) => {
+      const names = x.councils.map((c) => esc(c.name)).join(" &amp; ");
+      const ctl = byGss[x.councils[0].gss];
+      const docs = x.docs.slice(0, 8).map((d) => `<a href="${esc(d.url)}" target="_blank" rel="noopener" title="${esc(d.title)}">${esc(d.title || "Report")}</a>`).join("");
+      return `<article class="item s-${STAGE_CLASS[x.stage]}">
+        <div class="top"><span class="council">${names}</span>${ctl ? controlChip(ctl) : ""}<span class="chip ${STAGE_CHIP[x.stage]}">${esc(x.stage)}</span>${daysAgo(x.firstSeen) <= 7 ? '<span class="chip new">New</span>' : ""}${x.strong ? "" : '<span class="chip">Contextual match</span>'}</div>
+        <div class="title"><a href="${esc(x.meeting_url)}" target="_blank" rel="noopener">${esc(x.item_number ? x.item_number + " " : "")}${esc(x.item_title)}</a></div>
+        <div class="meta"><span>${esc(x.committee)}</span><span>${x.meeting_date >= today ? "Meeting due " : "Met "}${fmtDate(x.meeting_date)}</span><span>Found ${fmtDate(x.firstSeen)}</span></div>
+        ${x.snippet ? `<p class="snip">${highlight(x.snippet, x.terms)}</p>` : ""}
+        ${docs ? `<div class="docs">${docs}</div>` : ""}
+      </article>`;
+    }).join("") : `<div class="empty">No items match these filters. Try a longer period or include contextual matches.</div>`;
+    const radar = new Map();
+    for (const x of list) for (const c of x.councils) {
+      const r = radar.get(c.gss) || { name: c.name, gss: c.gss, n: 0, last: "", stage: x.stage };
+      r.n++; if (x.meeting_date > r.last) { r.last = x.meeting_date; r.stage = x.stage; }
+      radar.set(c.gss, r);
+    }
+    $("#radar").innerHTML = [...radar.values()].sort((a, b) => b.last.localeCompare(a.last)).slice(0, 60).map((r) => {
+      const ctl = byGss[r.gss];
+      return `<li><b>${esc(r.name)}</b><span class="small">${ctl ? controlChip(ctl) : ""} <span class="chip ${STAGE_CHIP[r.stage]}">${esc(r.stage)}</span></span><span class="small muted">${r.n} item${r.n > 1 ? "s" : ""} · latest ${fmtDate(r.last)}</span></li>`;
+    }).join("") || `<li class="muted small">No councils in this period.</li>`;
+  }
+
+  /* ---------- schemes ---------- */
+  function renderSchemes() {
+    const cs = D.schemes?.councils || [];
+    if (!cs.length) { $("#schemes-table").outerHTML = `<div class="empty">The schemes register has not been generated yet.</div>`; return; }
+    $("#stamp-schemes").textContent = `Updated ${fmtDate(D.schemes.generated)} · ${cs.length} council websites checked`;
+    const has = (c) => c.auto.selective || c.auto.additional || c.manual.length;
+    $("#n-schemes").textContent = cs.filter(has).length;
+    $("#schemes-summary").innerHTML = [
+      [cs.filter((c) => c.auto.selective).length, "councils with selective licensing pages"],
+      [cs.filter((c) => c.auto.additional).length, "councils with additional licensing pages"],
+      [cs.filter((c) => c.auto.status === "Live").length, "councils with pages reading as live"],
+      [cs.filter((c) => /Consultation/.test(c.auto.status)).length, "councils with pages mentioning consultation", "hot"],
+      [cs.filter((c) => c.manual.length).length, "councils verified"],
+      [cs.filter((c) => c.auto.last_changed && daysAgo(c.auto.last_changed) <= 14).length, "changed in last 14 days"],
+    ].map(([n, l, k]) => `<div class="stat ${k || ""}"><b>${n}</b><span>${l}</span></div>`).join("");
+    fillSelect("#s-status", uniq(cs.map((c) => c.auto.status)), $("#s-status").value);
+    fillSelect("#s-region", uniq(Object.values(byGss).map((c) => c.region)), $("#s-region").value);
+    drawSchemes();
+  }
+  let SHOWN = [];
+  function drawSchemes() {
+    const cs = D.schemes?.councils || [];
+    const q = $("#s-q").value.trim().toLowerCase(), ty = $("#s-type").value, stt = $("#s-status").value, reg = $("#s-region").value, chg = $("#s-changed").checked, found = $("#s-found").checked;
+    SHOWN = cs.filter((c) => {
+      const a = c.auto;
+      return (!q || c.name.toLowerCase().includes(q)) && (!stt || a.status === stt) && (!reg || byGss[c.gss]?.region === reg)
+        && (!ty || (ty === "selective" ? a.selective : ty === "additional" ? a.additional : a.selective || a.additional))
+        && (!chg || (a.last_changed && daysAgo(a.last_changed) <= 14))
+        && (!found || a.selective || a.additional || c.manual.length);
+    });
+    $("#s-count").textContent = `${SHOWN.length} councils`;
+    const tick = (b) => b ? `<span class="chip good">Yes</span>` : `<span class="muted">—</span>`;
+    $("#schemes-table").innerHTML = `<thead><tr><th>Council</th><th>Selective</th><th>Additional</th><th>Read from pages</th><th>Verified</th><th>Fees mentioned</th><th>Designation notices</th><th>Pages</th></tr></thead><tbody>` +
+      SHOWN.map((c) => {
+        const a = c.auto, ctl = byGss[c.gss];
+        const man = c.manual.map((m) => `<div class="small"><b>${esc(m.scheme_type)}</b> ${esc(m.status)}${m.end_date ? ` · ends ${esc(m.end_date)}` : ""}${m.fee ? ` · ${esc(m.fee)}` : ""}<span class="muted">${m.verified_on ? ` (checked ${esc(m.verified_on)})` : ""}</span></div>`).join("") || `<span class="muted small">Not yet</span>`;
+        const des = a.designation_links.slice(0, 3).map((l) => `<div class="small"><a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.text || "Notice")}</a></div>`).join("") + (a.designation_links.length > 3 ? `<div class="small muted">+${a.designation_links.length - 3} more</div>` : "") || `<span class="muted">—</span>`;
+        const good = c.pages.filter((p) => !p.error);
+        const pages = c.pages.map((p) => `<div class="pg"><a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.title || p.url)}</a>
+            ${p.error ? `<span class="chip bad">${esc(p.error)}</span>` : `<span class="muted">${[p.selective && "selective", p.additional && "additional", ...(p.signals || [])].filter(Boolean).join(" · ") || "no licensing terms"}${p.changed ? ` · <b>changed ${fmtDate(p.changed)}</b>` : ""}</span>`}
+            ${(p.dates || []).filter((d) => d.kind !== "other").slice(0, 3).map((d) => `<span class="muted">${d.kind === "start" ? "Start" : "End"}: ${esc(d.date)}</span>`).join("")}
+            ${(p.fees || []).slice(0, 3).map((f) => `<span class="muted" title="${esc(f.context)}">${esc(f.amount)}: …${esc(f.context.slice(40, 140))}…</span>`).join("")}</div>`).join("");
+        return `<tr>
+          <td><a href="${esc(c.website)}" target="_blank" rel="noopener"><b>${esc(c.name)}</b></a><div>${ctl ? controlChip(ctl) : ""}</div></td>
+          <td>${tick(a.selective)}</td><td>${tick(a.additional)}</td>
+          <td><span class="chip ${SCHEME_CHIP[a.status] || ""}">${esc(a.status)}</span>${a.last_changed ? `<div class="small muted">Changed ${fmtDate(a.last_changed)}</div>` : ""}</td>
+          <td>${man}</td>
+          <td class="small">${a.fees.slice(0, 5).map(esc).join(", ") || '<span class="muted">—</span>'}</td>
+          <td>${des}</td>
+          <td>${c.pages.length ? `<details class="pages"><summary>${good.length} page${good.length === 1 ? "" : "s"}${c.pages.length > good.length ? `, ${c.pages.length - good.length} unreachable` : ""}</summary>${pages}</details>` : `<span class="muted small">${esc(c.discovery?.method || "")}</span>`}</td></tr>`;
+      }).join("") + `</tbody>`;
+  }
+  function csvCell(v) { v = String(v ?? ""); return /[",\n]/.test(v) ? '"' + v.replace(/"/g, '""') + '"' : v; }
+  $("#s-export").onclick = async () => {
+    const head = ["gss", "council", "scheme_type", "scheme_name", "status", "coverage", "start_date", "end_date", "fee", "discounted_fee", "page_url", "designation_url", "verified_by", "verified_on", "notes"];
+    const rows = [head.join(",")];
+    for (const c of SHOWN) {
+      const a = c.auto;
+      const types = [a.selective && "Selective", a.additional && "Additional"].filter(Boolean);
+      const page = (c.pages.filter((p) => !p.error).sort((x, y) => (y.score || 0) - (x.score || 0))[0] || {}).url || "";
+      const dates = c.pages.flatMap((p) => p.dates || []);
+      for (const t of types.length ? types : [""]) {
+        rows.push([c.gss, c.name, t, "", a.status, "", (dates.find((d) => d.kind === "start") || {}).date || "", (dates.find((d) => d.kind === "end") || {}).date || "",
+          a.fees[0] || "", "", page, (a.designation_links[0] || {}).url || "", "", "", "auto: check before saving"].map(csvCell).join(","));
+      }
+    }
+    const text = rows.join("\n");
+    const ta = $("#s-csv"); ta.value = text; ta.hidden = false;
+    try { await navigator.clipboard.writeText(text); $("#s-export-msg").textContent = `Copied ${rows.length - 1} rows.`; }
+    catch { ta.select(); $("#s-export-msg").textContent = "Select the text below and copy it."; }
+  };
+
+  /* ---------- coverage ---------- */
+  function renderCoverage() {
+    const sites = D.status?.sites || {};
+    const vals = Object.entries(sites);
+    const errs = vals.filter(([, s]) => s.error), blocked = vals.filter(([, s]) => s.docs_blocked && !s.docs_read);
+    const notmg = D.status?.not_covered || [];
+    const nop = (D.schemes?.councils || []).filter((c) => c.discovery?.method === "none found" && !c.manual.length);
+    $("#cov-summary").innerHTML = [
+      [vals.length - errs.length, "committee sites scanned"], [errs.length, "sites with errors"], [blocked.length, "sites with reports blocked"],
+      [notmg.length, "councils not on Modern.Gov"], [nop.length, "councils with no licensing pages found"],
+    ].map(([n, l]) => `<div class="stat"><b>${n}</b><span>${l}</span></div>`).join("");
+    const li = (s) => `<li class="small">${s}</li>`;
+    $("#cov-errors").innerHTML = errs.map(([b, s]) => li(`<b>${esc(s.councils.join(", "))}</b><span class="muted">${esc(s.error)}</span>`)).join("") || li("None");
+    $("#cov-blocked").innerHTML = blocked.map(([b, s]) => li(`<b>${esc(s.councils.join(", "))}</b>`)).join("") || li("None");
+    $("#cov-notmg").innerHTML = notmg.map((n) => li(esc(n))).join("") || li("None");
+    $("#cov-nopages").innerHTML = nop.map((c) => li(`<a href="${esc(c.website)}" target="_blank" rel="noopener">${esc(c.name)}</a>`)).join("") || li("None");
+  }
+
+  /* ---------- routing ---------- */
+  const TABS = { control: "v-control", "early-warning": "v-early", schemes: "v-schemes", coverage: "v-coverage" };
+  function route() {
+    const t = TABS[location.hash.slice(1)] ? location.hash.slice(1) : "control";
+    for (const [k, id] of Object.entries(TABS)) document.getElementById(id).hidden = k !== t;
+    document.querySelectorAll(".tabs a").forEach((a) => a.dataset.tab === t ? a.setAttribute("aria-current", "page") : a.removeAttribute("aria-current"));
+  }
+  addEventListener("hashchange", route);
+
+  ["#c-q", "#c-region", "#c-type", "#c-status", "#c-party", "#c-lgr"].forEach((s) => $(s).addEventListener("input", drawControlTable));
+  ["#e-q", "#e-period", "#e-stage", "#e-party", "#e-strong", "#e-upcoming"].forEach((s) => $(s).addEventListener("input", () => { drawEarly(); store.set(s, $(s).type === "checkbox" ? $(s).checked : $(s).value); }));
+  ["#s-q", "#s-type", "#s-status", "#s-region", "#s-changed", "#s-found"].forEach((s) => $(s).addEventListener("input", drawSchemes));
+
+  route();
+  Promise.all(["control.json", "control_changes.json", "mentions.json", "schemes.json", "scan_status.json"].map(load)).then(([c, ch, m, s, st]) => {
+    Object.assign(D, { control: c, changes: ch || [], mentions: m, schemes: s, status: st });
+    for (const x of c?.councils || []) if (x.gss) byGss[x.gss] = x;
+    for (const s of ["#e-period", "#e-strong", "#e-upcoming"]) { const v = store.get(s); if (v != null) { if ($(s).type === "checkbox") $(s).checked = v === "true"; else $(s).value = v; } }
+    renderControl(); renderEarly(); renderSchemes(); renderCoverage();
+  });
+})();
+</script>
+</body>
+</html>
