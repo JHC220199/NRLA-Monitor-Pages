@@ -1,11 +1,6 @@
 {
-<<<<<<< HEAD
- "generated": "2026-11-05T22:31:30+00:00",
- "count": 105,
-=======
- "generated": "2026-11-05T22:51:48+00:00",
+ "generated": "2026-11-05T23:40:29+00:00",
  "count": 106,
->>>>>>> 7a97bb1 (Council monitor data 2026-11-05)
  "mentions": [
   {
    "id": "https://democracy.bristol.gov.uk|12186|Private Rented Sector Strategy|133304",
@@ -2044,7 +2039,7 @@
    ],
    "stage": "Mention",
    "snippet": "…provement Notice – section 30 of the Housing Act 2004. 8. Contravention of an overcrowding notice – section 139 of the Housing Act 2004. 9. Failure to obtain a selective licence – section 95 of the Housing Act 2004. 10. Failure to obtain an HMO licence – section 72 of the Housing Act 2004. 11. Knowingly permitting over-occupation of an HMO – section 72 of the Housing Act 2004. 12. Failure to compl…",
-   "first_seen": "2026-11-05T22:45:31+00:00"
+   "first_seen": "2026-11-05T23:34:38+00:00"
   },
   {
    "id": "https://democracy.wirral.gov.uk|12671|Wirral Housing Strategy 2026-2031 Implementation Plan|50144908",
