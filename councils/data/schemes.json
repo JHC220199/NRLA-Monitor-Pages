@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-05T23:44:07+00:00",
- "count": 316,
+ "generated": "2026-11-06T15:58:38+00:00",
+ "count": 295,
  "insecure_tls_hosts": [],
  "councils": [
   {
@@ -58,42 +58,42 @@
     {
      "url": "https%3A%2F%2Fwww.arun.gov.uk%2Fadditional-hmo-licensing-scheme-designation-2024",
      "error": "MissingSchema",
-     "checked": "2026-11-05T23:40:29+00:00"
+     "checked": "2026-11-06T15:54:56+00:00"
     },
     {
      "url": "https%3A%2F%2Fwww.arun.gov.uk%2Fhmo-licensing-additional",
      "error": "MissingSchema",
-     "checked": "2026-11-05T23:40:31+00:00"
+     "checked": "2026-11-06T15:54:58+00:00"
     },
     {
      "url": "https%3A%2F%2Fwww.arun.gov.uk%2F7-additional-hmo-licensing",
      "error": "MissingSchema",
-     "checked": "2026-11-05T23:40:33+00:00"
+     "checked": "2026-11-06T15:55:00+00:00"
     },
     {
      "url": "https%3A%2F%2Fwww.arun.gov.uk%2Fadditional-hmo-licensing-scheme-2025",
      "error": "MissingSchema",
-     "checked": "2026-11-05T23:40:35+00:00"
+     "checked": "2026-11-06T15:55:02+00:00"
     },
     {
      "url": "https%3A%2F%2Fwww.arun.gov.uk%2Fprivacy-notice-additional-hmo-licensing-scheme",
      "error": "MissingSchema",
-     "checked": "2026-11-05T23:40:37+00:00"
+     "checked": "2026-11-06T15:55:04+00:00"
     },
     {
      "url": "https%3A%2F%2Fwww.arun.gov.uk%2F11-properties-proposed-to-be-included-in-the-additional-hmo-licensing-scheme",
      "error": "MissingSchema",
-     "checked": "2026-11-05T23:40:39+00:00"
+     "checked": "2026-11-06T15:55:06+00:00"
     },
     {
      "url": "https%3A%2F%2Fwww.arun.gov.uk%2F10-why-is-arun-district-council-considering-implementing-additional-hmo-licensing",
      "error": "MissingSchema",
-     "checked": "2026-11-05T23:40:41+00:00"
+     "checked": "2026-11-06T15:55:08+00:00"
     },
     {
      "url": "https%3A%2F%2Fwww.arun.gov.uk%2Fhmo-licensing-consultation",
      "error": "MissingSchema",
-     "checked": "2026-11-05T23:40:43+00:00"
+     "checked": "2026-11-06T15:55:10+00:00"
     }
    ],
    "auto": {
@@ -172,7 +172,7 @@
      ],
      "first_seen": "2026-11-05T20:14:17+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:30+00:00",
+     "checked": "2026-11-06T15:54:57+00:00",
      "score": 5
     }
    ],
@@ -281,7 +281,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:14:13+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:30+00:00",
+     "checked": "2026-11-06T15:54:58+00:00",
      "score": 4,
      "error": "HTTP 403"
     },
@@ -330,7 +330,7 @@
      ],
      "first_seen": "2026-11-05T20:14:15+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:31+00:00",
+     "checked": "2026-11-06T15:55:00+00:00",
      "score": 4,
      "error": "HTTP 403"
     },
@@ -346,7 +346,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:14:17+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:33+00:00",
+     "checked": "2026-11-06T15:55:02+00:00",
      "score": 4,
      "error": "HTTP 403"
     },
@@ -403,7 +403,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:14:20+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:35+00:00",
+     "checked": "2026-11-06T15:55:04+00:00",
      "score": 3,
      "error": "HTTP 403"
     },
@@ -421,9 +421,14 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:14:21+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:37+00:00",
+     "checked": "2026-11-06T15:55:06+00:00",
      "score": 2,
      "error": "HTTP 403"
+    },
+    {
+     "url": "https://www.lbbd.gov.uk/news/2025/barking-and-dagenham-council-introduce-new-selective-licensing-scheme-improve-private",
+     "error": "HTTP 403",
+     "checked": "2026-11-06T15:54:57+00:00"
     }
    ],
    "auto": {
@@ -435,7 +440,25 @@
     "designation_links": [],
     "last_changed": null
    },
-   "manual": []
+   "manual": [
+    {
+     "gss": "E09000002",
+     "council": "Barking and Dagenham",
+     "scheme_type": "Selective",
+     "scheme_name": "",
+     "status": "",
+     "coverage": "",
+     "start_date": "",
+     "end_date": "",
+     "fee": "",
+     "discounted_fee": "",
+     "page_url": "https://www.lbbd.gov.uk/news/2025/barking-and-dagenham-council-introduce-new-selective-licensing-scheme-improve-private",
+     "designation_url": "https://www.lbbd.gov.uk/sites/default/files/2025-01/Public%20Notice%20-%20Selective%20Licensing%20Designation.pdf",
+     "verified_by": "",
+     "verified_on": "",
+     "notes": "Seeded from web search 5 Nov 2026; page address only, scheme details not yet verified"
+    }
+   ]
   },
   {
    "gss": "E09000003",
@@ -446,7 +469,23 @@
     "when": "2026-11-05T20:14:15+00:00",
     "candidates": 0
    },
-   "pages": [],
+   "pages": [
+    {
+     "url": "https://barnet.gov.uk/HMOlicensing",
+     "title": "Pardon Our Interruption",
+     "hash": "7b49698a56b62c43",
+     "selective": false,
+     "additional": false,
+     "signals": [],
+     "fees": [],
+     "dates": [],
+     "designation_links": [],
+     "first_seen": "2026-11-06T15:54:57+00:00",
+     "changed": null,
+     "checked": "2026-11-06T15:54:57+00:00",
+     "score": 0
+    }
+   ],
    "auto": {
     "selective": false,
     "additional": false,
@@ -456,7 +495,25 @@
     "designation_links": [],
     "last_changed": null
    },
-   "manual": []
+   "manual": [
+    {
+     "gss": "E09000003",
+     "council": "Barnet",
+     "scheme_type": "Additional",
+     "scheme_name": "",
+     "status": "",
+     "coverage": "",
+     "start_date": "",
+     "end_date": "",
+     "fee": "",
+     "discounted_fee": "",
+     "page_url": "https://barnet.gov.uk/HMOlicensing",
+     "designation_url": "https://admin.barnet.gov.uk/sites/default/files/2022-07/Designation%20for%20Additional%20Licensing%20FINAL.pdf",
+     "verified_by": "",
+     "verified_on": "",
+     "notes": "Seeded from web search 5 Nov 2026; page address only, scheme details not yet verified"
+    }
+   ]
   },
   {
    "gss": "E08000038",
@@ -507,7 +564,7 @@
      ],
      "first_seen": "2026-11-05T20:14:18+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:30+00:00",
+     "checked": "2026-11-06T15:54:57+00:00",
      "score": -2
     }
    ],
@@ -607,7 +664,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:14:22+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:30+00:00",
+     "checked": "2026-11-06T15:54:57+00:00",
      "score": 1
     },
     {
@@ -631,7 +688,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:14:24+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:31+00:00",
+     "checked": "2026-11-06T15:54:58+00:00",
      "score": 0
     },
     {
@@ -663,7 +720,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:14:26+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:34+00:00",
+     "checked": "2026-11-06T15:55:00+00:00",
      "score": 0
     },
     {
@@ -678,7 +735,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:14:28+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:36+00:00",
+     "checked": "2026-11-06T15:55:02+00:00",
      "score": 0
     },
     {
@@ -710,7 +767,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:14:30+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:38+00:00",
+     "checked": "2026-11-06T15:55:04+00:00",
      "score": -2
     },
     {
@@ -725,7 +782,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:14:32+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:40+00:00",
+     "checked": "2026-11-06T15:55:06+00:00",
      "score": -2
     }
    ],
@@ -765,7 +822,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:14:21+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:30+00:00",
+     "checked": "2026-11-06T15:54:56+00:00",
      "score": 0
     },
     {
@@ -829,7 +886,7 @@
      ],
      "first_seen": "2026-11-05T20:14:23+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:31+00:00",
+     "checked": "2026-11-06T15:54:58+00:00",
      "score": -2
     },
     {
@@ -850,7 +907,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:14:25+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:33+00:00",
+     "checked": "2026-11-06T15:55:00+00:00",
      "score": -2
     }
    ],
@@ -931,7 +988,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:14:25+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:30+00:00",
+     "checked": "2026-11-06T15:54:57+00:00",
      "score": 5
     },
     {
@@ -974,7 +1031,7 @@
      ],
      "first_seen": "2026-11-05T20:14:27+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:32+00:00",
+     "checked": "2026-11-06T15:54:59+00:00",
      "score": 5
     },
     {
@@ -1017,7 +1074,7 @@
      ],
      "first_seen": "2026-11-05T20:14:29+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:34+00:00",
+     "checked": "2026-11-06T15:55:01+00:00",
      "score": 5
     },
     {
@@ -1050,7 +1107,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:14:31+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:36+00:00",
+     "checked": "2026-11-06T15:55:03+00:00",
      "score": 5
     },
     {
@@ -1097,7 +1154,7 @@
      ],
      "first_seen": "2026-11-05T20:14:33+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:38+00:00",
+     "checked": "2026-11-06T15:55:05+00:00",
      "score": 5
     },
     {
@@ -1120,7 +1177,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:14:35+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:40+00:00",
+     "checked": "2026-11-06T15:55:07+00:00",
      "score": 5
     },
     {
@@ -1143,7 +1200,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:14:37+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:42+00:00",
+     "checked": "2026-11-06T15:55:09+00:00",
      "score": 5
     },
     {
@@ -1164,7 +1221,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:14:39+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:44+00:00",
+     "checked": "2026-11-06T15:55:11+00:00",
      "score": 5
     }
    ],
@@ -1298,7 +1355,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:14:57+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:55+00:00",
+     "checked": "2026-11-06T15:55:23+00:00",
      "score": 10
     },
     {
@@ -1340,7 +1397,7 @@
      ],
      "first_seen": "2026-11-05T20:15:10+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:07+00:00",
+     "checked": "2026-11-06T15:55:36+00:00",
      "score": 5
     },
     {
@@ -1355,7 +1412,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:15:12+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:09+00:00",
+     "checked": "2026-11-06T15:55:39+00:00",
      "score": 5
     },
     {
@@ -1397,28 +1454,28 @@
      ],
      "first_seen": "2026-11-05T20:15:15+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:12+00:00",
+     "checked": "2026-11-06T15:55:41+00:00",
      "score": 5
     },
     {
      "url": "https://www.blackpool.gov.uk/Business/Licensing-and-permits/Housing-licences/Selective-licensing/Central-area-selective-and-additional-licensing/",
      "error": "RetryError",
-     "checked": "2026-11-05T23:40:42+00:00"
+     "checked": "2026-11-06T15:55:09+00:00"
     },
     {
      "url": "https://www.blackpool.gov.uk/Business/Licensing-and-permits/Housing-licences/Selective-licensing/Claremont-area-selective-and-additional-licensing/",
      "error": "RetryError",
-     "checked": "2026-11-05T23:40:53+00:00"
+     "checked": "2026-11-06T15:55:21+00:00"
     },
     {
      "url": "https://www.blackpool.gov.uk/Business/Licensing-and-permits/Housing-licences/Selective-licensing/Claremont-area-selective-and-additional-licensing/Claremont-area-selective-and-additional-licensing.aspx",
      "error": "RetryError",
-     "checked": "2026-11-05T23:41:06+00:00"
+     "checked": "2026-11-06T15:55:36+00:00"
     },
     {
      "url": "https://www.blackpool.gov.uk/Your-Council/Have-your-say/Consultations/Documents/Proposed-selective-licensing-conditions.aspx",
      "error": "RetryError",
-     "checked": "2026-11-05T23:41:24+00:00"
+     "checked": "2026-11-06T15:55:53+00:00"
     }
    ],
    "auto": {
@@ -1497,13 +1554,13 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:14:31+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:32+00:00",
+     "checked": "2026-11-06T15:54:59+00:00",
      "score": 5
     },
     {
      "url": "https://www.bolton.gov.uk/downloads/file/7525/additional-licensing-scheme-for-houses-in-multiple-occupation-hmos-draft-consultation-document",
      "error": "HTTP 200",
-     "checked": "2026-11-05T23:40:31+00:00"
+     "checked": "2026-11-06T15:54:58+00:00"
     }
    ],
    "auto": {
@@ -1589,7 +1646,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:14:36+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:32+00:00",
+     "checked": "2026-11-06T15:54:59+00:00",
      "score": -2
     }
    ],
@@ -1672,7 +1729,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:14:35+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:32+00:00",
+     "checked": "2026-11-06T15:54:59+00:00",
      "score": 1
     },
     {
@@ -1687,7 +1744,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:14:37+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:34+00:00",
+     "checked": "2026-11-06T15:55:01+00:00",
      "score": 0
     },
     {
@@ -1702,7 +1759,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:14:39+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:36+00:00",
+     "checked": "2026-11-06T15:55:03+00:00",
      "score": 0
     },
     {
@@ -1717,7 +1774,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:14:41+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:38+00:00",
+     "checked": "2026-11-06T15:55:05+00:00",
      "score": -2
     }
    ],
@@ -1754,7 +1811,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:14:36+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:33+00:00",
+     "checked": "2026-11-06T15:55:00+00:00",
      "score": 0
     },
     {
@@ -1769,7 +1826,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:14:38+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:34+00:00",
+     "checked": "2026-11-06T15:55:02+00:00",
      "score": 0
     },
     {
@@ -1784,7 +1841,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:14:40+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:36+00:00",
+     "checked": "2026-11-06T15:55:03+00:00",
      "score": 0
     },
     {
@@ -1799,7 +1856,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:14:42+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:38+00:00",
+     "checked": "2026-11-06T15:55:05+00:00",
      "score": 0
     },
     {
@@ -1814,7 +1871,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:14:44+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:40+00:00",
+     "checked": "2026-11-06T15:55:07+00:00",
      "score": 0
     }
    ],
@@ -1900,7 +1957,7 @@
      ],
      "first_seen": "2026-11-05T20:14:40+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:34+00:00",
+     "checked": "2026-11-06T15:55:01+00:00",
      "score": 11
     },
     {
@@ -1958,7 +2015,7 @@
      ],
      "first_seen": "2026-11-05T20:14:42+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:36+00:00",
+     "checked": "2026-11-06T15:55:03+00:00",
      "score": 11
     },
     {
@@ -2011,7 +2068,7 @@
      ],
      "first_seen": "2026-11-05T20:14:44+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:38+00:00",
+     "checked": "2026-11-06T15:55:05+00:00",
      "score": 11
     },
     {
@@ -2126,7 +2183,7 @@
      ],
      "first_seen": "2026-11-05T20:14:46+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:40+00:00",
+     "checked": "2026-11-06T15:55:07+00:00",
      "score": 4
     },
     {
@@ -2141,7 +2198,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:14:48+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:42+00:00",
+     "checked": "2026-11-06T15:55:09+00:00",
      "score": 3
     }
    ],
@@ -2288,7 +2345,7 @@
      ],
      "first_seen": "2026-11-05T20:14:51+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:38+00:00",
+     "checked": "2026-11-06T15:55:06+00:00",
      "score": 7
     },
     {
@@ -2351,7 +2408,7 @@
      ],
      "first_seen": "2026-11-05T20:14:53+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:40+00:00",
+     "checked": "2026-11-06T15:55:08+00:00",
      "score": 7
     },
     {
@@ -2439,7 +2496,7 @@
      ],
      "first_seen": "2026-11-05T20:14:55+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:42+00:00",
+     "checked": "2026-11-06T15:55:09+00:00",
      "score": 7
     },
     {
@@ -2481,7 +2538,7 @@
      ],
      "first_seen": "2026-11-05T20:14:56+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:44+00:00",
+     "checked": "2026-11-06T15:55:11+00:00",
      "score": 5
     },
     {
@@ -2532,7 +2589,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:14:58+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:46+00:00",
+     "checked": "2026-11-06T15:55:13+00:00",
      "score": 5
     },
     {
@@ -2600,7 +2657,7 @@
      ],
      "first_seen": "2026-11-05T20:15:02+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:48+00:00",
+     "checked": "2026-11-06T15:55:16+00:00",
      "score": 5
     },
     {
@@ -2620,7 +2677,7 @@
      ],
      "first_seen": "2026-11-05T20:15:02+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:50+00:00",
+     "checked": "2026-11-06T15:55:17+00:00",
      "score": 5
     },
     {
@@ -2661,7 +2718,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:15:04+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:52+00:00",
+     "checked": "2026-11-06T15:55:19+00:00",
      "score": 4
     }
    ],
@@ -2724,17 +2781,198 @@
     "when": "2026-11-05T20:10:02+00:00",
     "candidates": 0
    },
-   "pages": [],
+   "pages": [
+    {
+     "url": "https://www.bristol.gov.uk/business/licences-and-permits/property-licences/licence-fees-extra-charges-and-discounts/additional-hmo-and-selective-property-licence-fees",
+     "title": "Additional HMO and selective property licence fees",
+     "hash": "00dce265a4727cbf",
+     "selective": true,
+     "additional": true,
+     "signals": [
+      "live"
+     ],
+     "fees": [
+      {
+       "amount": "£1,300",
+       "context": "n (HMO) not already covered by mandatory licensing for the three wards above. Total cost: £1,300 First payment: £1,000, payable when submitting the licence"
+      },
+      {
+       "amount": "£1,000",
+       "context": "vered by mandatory licensing for the three wards above. Total cost: £1,300 First payment: £1,000, payable when submitting the licence application. Second pa"
+      },
+      {
+       "amount": "£300",
+       "context": "0 First payment: £1,000, payable when submitting the licence application. Second payment: £300, payable upon successful application before the licence is"
+      },
+      {
+       "amount": "£799",
+       "context": "e came into force on 6 April 2022 for all private rented housing in the area. Total cost: £799 First payment: £499, payable when submitting the licence ap"
+      },
+      {
+       "amount": "£499",
+       "context": "6 April 2022 for all private rented housing in the area. Total cost: £799 First payment: £499, payable when submitting the licence application Second pay"
+      },
+      {
+       "amount": "£1,861",
+       "context": "eld additional licensing schemes. Cost of the licence Total cost for a first time licence £1,861: First payment: £1,023, payable when submitting the licence"
+      },
+      {
+       "amount": "£1,023",
+       "context": "g schemes. Cost of the licence Total cost for a first time licence £1,861: First payment: £1,023, payable when submitting the licence application. Second pa"
+      },
+      {
+       "amount": "£838",
+       "context": ": First payment: £1,023, payable when submitting the licence application. Second payment: £838, payable upon successful application before the licence is"
+      }
+     ],
+     "dates": [
+      {
+       "date": "6 April 2022",
+       "kind": "start",
+       "context": "ple one family Bedminster, Brislington West and Horfield additional licensing scheme from 6 April 2022 An additional licensing schem"
+      },
+      {
+       "date": "6 April 2022",
+       "kind": "start",
+       "context": "onal licensing scheme from 6 April 2022 An additional licensing scheme came into force on 6 April 2022 for all Houses in Multiple Oc"
+      },
+      {
+       "date": "6 April 2022",
+       "kind": "start",
+       "context": "he licence lasts 5 years. Bedminster and Brislington West selective licensing scheme from 6 April 2022 A selective licensing scheme"
+      },
+      {
+       "date": "6 April 2022",
+       "kind": "start",
+       "context": "ective licensing scheme from 6 April 2022 A selective licensing scheme came into force on 6 April 2022 for all private rented housin"
+      },
+      {
+       "date": "6 August 2024",
+       "kind": "start",
+       "context": "g scheme discounts . The licence lasts 5 years. Citywide additional licensing scheme from 6 August 2024 An additional licensing schem"
+      },
+      {
+       "date": "6 August 2024",
+       "kind": "start",
+       "context": "nal licensing scheme from 6 August 2024 An additional licensing scheme came into force on 6 August 2024 for all Houses in Multiple Oc"
+      },
+      {
+       "date": "6 August 2024",
+       "kind": "start",
+       "context": "iscounts. Length of the licence The licence last 5 years. Selective licensing scheme from 6 August 2024 A selective licensing scheme"
+      },
+      {
+       "date": "6 August 2024",
+       "kind": "start",
+       "context": "licensing scheme from 6 August 2024 A selective licensing scheme will come into force on 6 August 2024 for all private rented housin"
+      }
+     ],
+     "designation_links": [],
+     "first_seen": "2026-11-06T15:55:09+00:00",
+     "changed": null,
+     "checked": "2026-11-06T15:55:09+00:00",
+     "score": 15
+    },
+    {
+     "url": "https://www.bristol.gov.uk/business/licences-and-permits/property-licences/types-of-licence",
+     "title": "Types of property licence",
+     "hash": "486cc7402dcc88b2",
+     "selective": true,
+     "additional": true,
+     "signals": [
+      "live"
+     ],
+     "fees": [],
+     "dates": [
+      {
+       "date": "6th August 2029",
+       "kind": "end",
+       "context": "dditional licence for a property anywhere in the city which has expired or expires before 6th August 2029, you will be required to appl"
+      },
+      {
+       "date": "6 August 2024",
+       "kind": "start",
+       "context": "emes Additional HMO licensing scheme: Citywide A new licensing scheme came into effect on 6 August 2024 and most privately rented HMO"
+      },
+      {
+       "date": "6 August 2024",
+       "kind": "start",
+       "context": "Bishopston and Ashley Down, Cotham, and Easton A new licensing scheme came into effect on 6 August 2024 and most privately rented pro"
+      },
+      {
+       "date": "6 April 2022",
+       "kind": "start",
+       "context": "scheme: Bedminster and Brislington West wards A new licensing scheme came into effect on 6 April 2022 and most privately rented pro"
+      },
+      {
+       "date": "6 April 2022",
+       "kind": "start",
+       "context": "Additional HMO licensing scheme: Horfield ward A new licensing scheme came into effect on 6 April 2022 and most privately rented HMO"
+      }
+     ],
+     "designation_links": [],
+     "first_seen": "2026-11-06T15:55:07+00:00",
+     "changed": null,
+     "checked": "2026-11-06T15:55:07+00:00",
+     "score": 4
+    }
+   ],
    "auto": {
-    "selective": false,
-    "additional": false,
-    "status": "None found",
-    "signals": [],
-    "fees": [],
+    "selective": true,
+    "additional": true,
+    "status": "Live",
+    "signals": [
+     "live"
+    ],
+    "fees": [
+     "£300",
+     "£499",
+     "£799",
+     "£838",
+     "£1,000",
+     "£1,023",
+     "£1,300",
+     "£1,861"
+    ],
     "designation_links": [],
     "last_changed": null
    },
-   "manual": []
+   "manual": [
+    {
+     "gss": "E06000023",
+     "council": "Bristol",
+     "scheme_type": "",
+     "scheme_name": "",
+     "status": "",
+     "coverage": "",
+     "start_date": "",
+     "end_date": "",
+     "fee": "",
+     "discounted_fee": "",
+     "page_url": "https://www.bristol.gov.uk/business/licences-and-permits/property-licences/types-of-licence",
+     "designation_url": "https://www.bristol.gov.uk/files/documents/7242-public-notice-citywide-al-and-3-ward-sl-v3/file",
+     "verified_by": "",
+     "verified_on": "",
+     "notes": "Seeded from web search 5 Nov 2026; page address only, scheme details not yet verified"
+    },
+    {
+     "gss": "E06000023",
+     "council": "Bristol",
+     "scheme_type": "",
+     "scheme_name": "",
+     "status": "",
+     "coverage": "",
+     "start_date": "",
+     "end_date": "",
+     "fee": "",
+     "discounted_fee": "",
+     "page_url": "https://www.bristol.gov.uk/business/licences-and-permits/property-licences/licence-fees-extra-charges-and-discounts/additional-hmo-and-selective-property-licence-fees",
+     "designation_url": "",
+     "verified_by": "",
+     "verified_on": "",
+     "notes": "Seeded from web search 5 Nov 2026; page address only, scheme details not yet verified"
+    }
+   ]
   },
   {
    "gss": "E07000144",
@@ -2758,7 +2996,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:14:45+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:39+00:00",
+     "checked": "2026-11-06T15:55:08+00:00",
      "score": 0
     },
     {
@@ -2779,7 +3017,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:14:47+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:40+00:00",
+     "checked": "2026-11-06T15:55:09+00:00",
      "score": 0
     },
     {
@@ -2794,7 +3032,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:14:49+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:42+00:00",
+     "checked": "2026-11-06T15:55:12+00:00",
      "score": -2
     }
    ],
@@ -2852,7 +3090,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:14:56+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:41+00:00",
+     "checked": "2026-11-06T15:55:08+00:00",
      "score": -2
     }
    ],
@@ -2889,7 +3127,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:14:51+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:41+00:00",
+     "checked": "2026-11-06T15:55:09+00:00",
      "score": -2
     },
     {
@@ -2904,7 +3142,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:14:53+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:42+00:00",
+     "checked": "2026-11-06T15:55:11+00:00",
      "score": -2
     },
     {
@@ -2919,7 +3157,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:14:55+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:44+00:00",
+     "checked": "2026-11-06T15:55:13+00:00",
      "score": -2
     },
     {
@@ -2947,7 +3185,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:14:57+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:47+00:00",
+     "checked": "2026-11-06T15:55:15+00:00",
      "score": -2
     },
     {
@@ -2971,7 +3209,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:14:59+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:48+00:00",
+     "checked": "2026-11-06T15:55:17+00:00",
      "score": -2
     },
     {
@@ -2991,7 +3229,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:15:01+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:50+00:00",
+     "checked": "2026-11-06T15:55:19+00:00",
      "score": -2
     },
     {
@@ -3006,7 +3244,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:15:03+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:53+00:00",
+     "checked": "2026-11-06T15:55:21+00:00",
      "score": -2
     }
    ],
@@ -3070,7 +3308,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:14:54+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:42+00:00",
+     "checked": "2026-11-06T15:55:09+00:00",
      "score": 0
     },
     {
@@ -3091,7 +3329,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:14:55+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:43+00:00",
+     "checked": "2026-11-06T15:55:11+00:00",
      "score": 0
     },
     {
@@ -3112,7 +3350,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:14:58+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:46+00:00",
+     "checked": "2026-11-06T15:55:13+00:00",
      "score": 0
     },
     {
@@ -3133,7 +3371,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:15:00+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:47+00:00",
+     "checked": "2026-11-06T15:55:15+00:00",
      "score": 0
     },
     {
@@ -3154,7 +3392,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:15:02+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:50+00:00",
+     "checked": "2026-11-06T15:55:17+00:00",
      "score": 0
     },
     {
@@ -3175,7 +3413,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:15:04+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:52+00:00",
+     "checked": "2026-11-06T15:55:19+00:00",
      "score": 0
     },
     {
@@ -3196,7 +3434,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:15:06+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:54+00:00",
+     "checked": "2026-11-06T15:55:21+00:00",
      "score": 0
     },
     {
@@ -3217,7 +3455,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:15:08+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:56+00:00",
+     "checked": "2026-11-06T15:55:23+00:00",
      "score": 0
     }
    ],
@@ -3245,42 +3483,42 @@
     {
      "url": "https://burnley.gov.uk/housing/private-rented-sector/selective-licensing/designated-areas-in-burnley/",
      "error": "RetryError",
-     "checked": "2026-11-05T23:40:53+00:00"
+     "checked": "2026-11-06T15:55:20+00:00"
     },
     {
      "url": "https://burnley.gov.uk/housing/private-rented-sector/selective-licensing/selective-licensing-2022/leyland-road-designation-street-list/",
      "error": "RetryError",
-     "checked": "2026-11-05T23:41:04+00:00"
+     "checked": "2026-11-06T15:55:32+00:00"
     },
     {
      "url": "https://burnley.gov.uk/housing/private-rented-sector/selective-licensing/selective-licensing-2022/burnley-wood-with-healey-wood-2022-2027-designation-street-list/",
      "error": "RetryError",
-     "checked": "2026-11-05T23:41:16+00:00"
+     "checked": "2026-11-06T15:55:43+00:00"
     },
     {
      "url": "https://burnley.gov.uk/tag/selective-licensing/",
      "error": "RetryError",
-     "checked": "2026-11-05T23:41:27+00:00"
+     "checked": "2026-11-06T15:55:55+00:00"
     },
     {
      "url": "https://burnley.gov.uk/selective-licensing-schemes-burnley-set-continue/",
      "error": "RetryError",
-     "checked": "2026-11-05T23:41:38+00:00"
+     "checked": "2026-11-06T15:56:06+00:00"
     },
     {
      "url": "https://burnley.gov.uk/housing/private-rented-sector/selective-licensing/",
      "error": "RetryError",
-     "checked": "2026-11-05T23:41:50+00:00"
+     "checked": "2026-11-06T15:56:17+00:00"
     },
     {
      "url": "https://burnley.gov.uk/housing/private-rented-sector/selective-licensing/sl2026/",
      "error": "RetryError",
-     "checked": "2026-11-05T23:42:01+00:00"
+     "checked": "2026-11-06T15:56:29+00:00"
     },
     {
      "url": "https://burnley.gov.uk/housing/private-rented-sector/selective-licensing/support-landlords/",
      "error": "RetryError",
-     "checked": "2026-11-05T23:42:12+00:00"
+     "checked": "2026-11-06T15:56:40+00:00"
     }
    ],
    "auto": {
@@ -3358,27 +3596,6 @@
    "manual": []
   },
   {
-   "gss": "E10000003",
-   "name": "Cambridgeshire",
-   "website": "https://www.cambridgeshire.gov.uk",
-   "discovery": {
-    "method": "none found",
-    "when": "2026-11-05T20:15:10+00:00",
-    "candidates": 0
-   },
-   "pages": [],
-   "auto": {
-    "selective": false,
-    "additional": false,
-    "status": "None found",
-    "signals": [],
-    "fees": [],
-    "designation_links": [],
-    "last_changed": null
-   },
-   "manual": []
-  },
-  {
    "gss": "E09000007",
    "name": "Camden",
    "website": "https://www.camden.gov.uk",
@@ -3387,17 +3604,81 @@
     "when": "2026-11-05T20:15:20+00:00",
     "candidates": 0
    },
-   "pages": [],
+   "pages": [
+    {
+     "url": "https://www.camden.gov.uk/hmo-consultation",
+     "title": "New additional HMO licensing scheme designation agreed - Camden Council",
+     "hash": "ca7fd9a81f7741a9",
+     "selective": false,
+     "additional": true,
+     "signals": [
+      "consultation",
+      "live"
+     ],
+     "fees": [],
+     "dates": [
+      {
+       "date": "8 December 2025",
+       "kind": "start",
+       "context": "scheme was made on the 2 July and will come into force when the current scheme expires on 8 December 2025. You can read: The public not"
+      }
+     ],
+     "designation_links": [
+      {
+       "text": "The public notice confirming the designation",
+       "url": "https://www.camden.gov.uk/hmo-consultation-public-notice"
+      },
+      {
+       "text": "The designation itself",
+       "url": "https://www.camden.gov.uk/documents/d/guest/additional-hmo-licensing-designation-sealed"
+      }
+     ],
+     "first_seen": "2026-11-06T15:55:11+00:00",
+     "changed": null,
+     "checked": "2026-11-06T15:55:11+00:00",
+     "score": 2
+    }
+   ],
    "auto": {
     "selective": false,
-    "additional": false,
-    "status": "None found",
-    "signals": [],
+    "additional": true,
+    "status": "Live",
+    "signals": [
+     "consultation",
+     "live"
+    ],
     "fees": [],
-    "designation_links": [],
+    "designation_links": [
+     {
+      "text": "The public notice confirming the designation",
+      "url": "https://www.camden.gov.uk/hmo-consultation-public-notice"
+     },
+     {
+      "text": "The designation itself",
+      "url": "https://www.camden.gov.uk/documents/d/guest/additional-hmo-licensing-designation-sealed"
+     }
+    ],
     "last_changed": null
    },
-   "manual": []
+   "manual": [
+    {
+     "gss": "E09000007",
+     "council": "Camden",
+     "scheme_type": "Additional",
+     "scheme_name": "",
+     "status": "",
+     "coverage": "",
+     "start_date": "",
+     "end_date": "",
+     "fee": "",
+     "discounted_fee": "",
+     "page_url": "https://www.camden.gov.uk/hmo-consultation",
+     "designation_url": "https://www.camden.gov.uk/hmo-consultation-public-notice",
+     "verified_by": "",
+     "verified_on": "",
+     "notes": "Seeded from web search 5 Nov 2026; page address only, scheme details not yet verified"
+    }
+   ]
   },
   {
    "gss": "E07000192",
@@ -3442,7 +3723,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:15:12+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:43+00:00",
+     "checked": "2026-11-06T15:55:12+00:00",
      "score": 0
     },
     {
@@ -3466,7 +3747,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:15:14+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:45+00:00",
+     "checked": "2026-11-06T15:55:14+00:00",
      "score": -2
     }
    ],
@@ -3560,7 +3841,7 @@
      ],
      "first_seen": "2026-11-05T20:15:18+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:44+00:00",
+     "checked": "2026-11-06T15:55:12+00:00",
      "score": 7
     },
     {
@@ -3590,7 +3871,7 @@
      ],
      "first_seen": "2026-11-05T20:15:20+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:46+00:00",
+     "checked": "2026-11-06T15:55:13+00:00",
      "score": 7
     },
     {
@@ -3607,7 +3888,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:15:22+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:48+00:00",
+     "checked": "2026-11-06T15:55:15+00:00",
      "score": 6
     },
     {
@@ -3627,7 +3908,7 @@
      ],
      "first_seen": "2026-11-05T20:15:24+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:50+00:00",
+     "checked": "2026-11-06T15:55:17+00:00",
      "score": 5
     },
     {
@@ -3667,7 +3948,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:15:26+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:52+00:00",
+     "checked": "2026-11-06T15:55:19+00:00",
      "score": 5
     },
     {
@@ -3698,7 +3979,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:15:28+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:54+00:00",
+     "checked": "2026-11-06T15:55:21+00:00",
      "score": 5
     },
     {
@@ -3735,7 +4016,7 @@
      ],
      "first_seen": "2026-11-05T20:15:30+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:56+00:00",
+     "checked": "2026-11-06T15:55:23+00:00",
      "score": 5
     },
     {
@@ -3752,7 +4033,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:15:32+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:58+00:00",
+     "checked": "2026-11-06T15:55:25+00:00",
      "score": 5
     }
    ],
@@ -3867,7 +4148,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:15:31+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:44+00:00",
+     "checked": "2026-11-06T15:55:12+00:00",
      "score": 0
     },
     {
@@ -3882,7 +4163,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:15:33+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:46+00:00",
+     "checked": "2026-11-06T15:55:14+00:00",
      "score": 0
     },
     {
@@ -3897,7 +4178,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:15:35+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:48+00:00",
+     "checked": "2026-11-06T15:55:16+00:00",
      "score": 0
     },
     {
@@ -3912,7 +4193,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:15:37+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:50+00:00",
+     "checked": "2026-11-06T15:55:18+00:00",
      "score": 0
     },
     {
@@ -3927,7 +4208,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:15:39+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:52+00:00",
+     "checked": "2026-11-06T15:55:20+00:00",
      "score": 0
     },
     {
@@ -3942,7 +4223,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:15:41+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:54+00:00",
+     "checked": "2026-11-06T15:55:22+00:00",
      "score": 0
     },
     {
@@ -3957,7 +4238,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:15:43+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:56+00:00",
+     "checked": "2026-11-06T15:55:24+00:00",
      "score": 0
     },
     {
@@ -3972,7 +4253,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:15:45+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:58+00:00",
+     "checked": "2026-11-06T15:55:26+00:00",
      "score": 0
     }
    ],
@@ -4030,7 +4311,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:15:35+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:45+00:00",
+     "checked": "2026-11-06T15:55:14+00:00",
      "score": -2
     }
    ],
@@ -4263,7 +4544,7 @@
      ],
      "first_seen": "2026-11-05T20:15:48+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:46+00:00",
+     "checked": "2026-11-06T15:55:15+00:00",
      "score": 5
     },
     {
@@ -4278,7 +4559,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:15:50+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:47+00:00",
+     "checked": "2026-11-06T15:55:17+00:00",
      "score": 5
     },
     {
@@ -4328,7 +4609,7 @@
      ],
      "first_seen": "2026-11-05T20:15:52+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:49+00:00",
+     "checked": "2026-11-06T15:55:19+00:00",
      "score": 4
     },
     {
@@ -4343,7 +4624,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:15:57+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:59+00:00",
+     "checked": "2026-11-06T15:55:23+00:00",
      "score": 0
     },
     {
@@ -4393,7 +4674,7 @@
      ],
      "first_seen": "2026-11-05T20:15:57+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:59+00:00",
+     "checked": "2026-11-06T15:55:23+00:00",
      "score": 0
     },
     {
@@ -4408,7 +4689,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:15:59+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:01+00:00",
+     "checked": "2026-11-06T15:55:26+00:00",
      "score": 0
     },
     {
@@ -4451,7 +4732,7 @@
      ],
      "first_seen": "2026-11-05T20:16:01+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:03+00:00",
+     "checked": "2026-11-06T15:55:28+00:00",
      "score": 0
     },
     {
@@ -4479,7 +4760,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:16:03+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:05+00:00",
+     "checked": "2026-11-06T15:55:30+00:00",
      "score": 0
     }
    ],
@@ -4584,7 +4865,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:09:58+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:52+00:00",
+     "checked": "2026-11-06T15:55:20+00:00",
      "score": 10
     },
     {
@@ -4624,7 +4905,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:10:00+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:54+00:00",
+     "checked": "2026-11-06T15:55:24+00:00",
      "score": 10
     },
     {
@@ -4674,7 +4955,7 @@
      ],
      "first_seen": "2026-11-05T20:10:01+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:56+00:00",
+     "checked": "2026-11-06T15:55:25+00:00",
      "score": 10
     },
     {
@@ -4697,7 +4978,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:10:01+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:58+00:00",
+     "checked": "2026-11-06T15:55:27+00:00",
      "score": 9
     },
     {
@@ -4718,7 +4999,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:10:03+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:00+00:00",
+     "checked": "2026-11-06T15:55:29+00:00",
      "score": 9
     },
     {
@@ -4733,7 +5014,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:10:03+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:02+00:00",
+     "checked": "2026-11-06T15:55:30+00:00",
      "score": 7
     },
     {
@@ -4748,7 +5029,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:10:05+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:04+00:00",
+     "checked": "2026-11-06T15:55:32+00:00",
      "score": 7
     },
     {
@@ -4763,7 +5044,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:10:05+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:06+00:00",
+     "checked": "2026-11-06T15:55:36+00:00",
      "score": 7
     }
    ],
@@ -4904,54 +5185,12 @@
    "manual": []
   },
   {
-   "gss": "E10000007",
-   "name": "Derbyshire",
-   "website": "https://www.derbyshire.gov.uk",
-   "discovery": {
-    "method": "none found",
-    "when": "2026-11-05T20:16:09+00:00",
-    "candidates": 0
-   },
-   "pages": [],
-   "auto": {
-    "selective": false,
-    "additional": false,
-    "status": "None found",
-    "signals": [],
-    "fees": [],
-    "designation_links": [],
-    "last_changed": null
-   },
-   "manual": []
-  },
-  {
    "gss": "E07000035",
    "name": "Derbyshire Dales",
    "website": "https://www.derbyshiredales.gov.uk",
    "discovery": {
     "method": "none found",
     "when": "2026-11-05T20:16:09+00:00",
-    "candidates": 0
-   },
-   "pages": [],
-   "auto": {
-    "selective": false,
-    "additional": false,
-    "status": "None found",
-    "signals": [],
-    "fees": [],
-    "designation_links": [],
-    "last_changed": null
-   },
-   "manual": []
-  },
-  {
-   "gss": "E10000008",
-   "name": "Devon",
-   "website": "https://new.devon.gov.uk",
-   "discovery": {
-    "method": "none found",
-    "when": "2026-11-05T20:16:21+00:00",
     "candidates": 0
    },
    "pages": [],
@@ -4975,7 +5214,13 @@
     "when": "2026-11-05T20:16:14+00:00",
     "candidates": 0
    },
-   "pages": [],
+   "pages": [
+    {
+     "url": "https://www.doncaster.gov.uk/services/business-investment/selective-licensing",
+     "error": "HTTP 403",
+     "checked": "2026-11-06T15:55:21+00:00"
+    }
+   ],
    "auto": {
     "selective": false,
     "additional": false,
@@ -4985,7 +5230,25 @@
     "designation_links": [],
     "last_changed": null
    },
-   "manual": []
+   "manual": [
+    {
+     "gss": "E08000017",
+     "council": "Doncaster",
+     "scheme_type": "Selective",
+     "scheme_name": "",
+     "status": "",
+     "coverage": "",
+     "start_date": "",
+     "end_date": "",
+     "fee": "",
+     "discounted_fee": "",
+     "page_url": "https://www.doncaster.gov.uk/services/business-investment/selective-licensing",
+     "designation_url": "https://www.doncaster.gov.uk/Documents/DocumentView/Stream/Media/Default/Housing/Hexthorpe Designation Notice 2021.pdf",
+     "verified_by": "",
+     "verified_on": "",
+     "notes": "Seeded from web search 5 Nov 2026; page address only, scheme details not yet verified"
+    }
+   ]
   },
   {
    "gss": "E06000059",
@@ -5080,7 +5343,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:16:21+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:53+00:00",
+     "checked": "2026-11-06T15:55:22+00:00",
      "score": 7
     },
     {
@@ -5172,7 +5435,7 @@
      ],
      "first_seen": "2026-11-05T20:16:24+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:55+00:00",
+     "checked": "2026-11-06T15:55:23+00:00",
      "score": 5
     },
     {
@@ -5187,7 +5450,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:16:25+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:57+00:00",
+     "checked": "2026-11-06T15:55:25+00:00",
      "score": 5
     },
     {
@@ -5202,7 +5465,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:16:27+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:59+00:00",
+     "checked": "2026-11-06T15:55:27+00:00",
      "score": 0
     }
    ],
@@ -5242,7 +5505,13 @@
     "when": "2026-11-05T20:16:24+00:00",
     "candidates": 0
    },
-   "pages": [],
+   "pages": [
+    {
+     "url": "https://www.ealing.gov.uk/news/article/2171/new_private_rented_licensing_schemes_coming_into_force",
+     "error": "HTTP 404",
+     "checked": "2026-11-06T15:55:24+00:00"
+    }
+   ],
    "auto": {
     "selective": false,
     "additional": false,
@@ -5252,7 +5521,25 @@
     "designation_links": [],
     "last_changed": null
    },
-   "manual": []
+   "manual": [
+    {
+     "gss": "E09000009",
+     "council": "Ealing",
+     "scheme_type": "",
+     "scheme_name": "",
+     "status": "",
+     "coverage": "",
+     "start_date": "",
+     "end_date": "",
+     "fee": "",
+     "discounted_fee": "",
+     "page_url": "https://www.ealing.gov.uk/news/article/2171/new_private_rented_licensing_schemes_coming_into_force",
+     "designation_url": "https://www.ealing.gov.uk/download/downloads/id/18089/designation_of_an_area_for_selective_licensing.pdf",
+     "verified_by": "",
+     "verified_on": "",
+     "notes": "Seeded from web search 5 Nov 2026; page address only, scheme details not yet verified"
+    }
+   ]
   },
   {
    "gss": "E07000009",
@@ -5276,7 +5563,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:16:23+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:57+00:00",
+     "checked": "2026-11-06T15:55:26+00:00",
      "score": -2
     }
    ],
@@ -5355,7 +5642,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:16:27+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:57+00:00",
+     "checked": "2026-11-06T15:55:27+00:00",
      "score": 0
     }
    ],
@@ -5455,27 +5742,6 @@
    "manual": []
   },
   {
-   "gss": "E10000011",
-   "name": "East Sussex",
-   "website": "https://www.eastsussex.gov.uk",
-   "discovery": {
-    "method": "none found",
-    "when": "2026-11-05T20:16:36+00:00",
-    "candidates": 0
-   },
-   "pages": [],
-   "auto": {
-    "selective": false,
-    "additional": false,
-    "status": "None found",
-    "signals": [],
-    "fees": [],
-    "designation_links": [],
-    "last_changed": null
-   },
-   "manual": []
-  },
-  {
    "gss": "E07000061",
    "name": "Eastbourne",
    "website": "https://www.lewes-eastbourne.gov.uk",
@@ -5547,7 +5813,18 @@
     "when": "2026-11-05T20:17:23+00:00",
     "candidates": 0
    },
-   "pages": [],
+   "pages": [
+    {
+     "url": "https://enfield.gov.uk/services/housing/private-rented-property-licensing",
+     "error": "HTTP 403",
+     "checked": "2026-11-06T15:55:26+00:00"
+    },
+    {
+     "url": "https://www.enfield.gov.uk/services/housing/selective-licensing-scheme",
+     "error": "HTTP 403",
+     "checked": "2026-11-06T15:55:26+00:00"
+    }
+   ],
    "auto": {
     "selective": false,
     "additional": false,
@@ -5557,7 +5834,42 @@
     "designation_links": [],
     "last_changed": null
    },
-   "manual": []
+   "manual": [
+    {
+     "gss": "E09000010",
+     "council": "Enfield",
+     "scheme_type": "",
+     "scheme_name": "",
+     "status": "",
+     "coverage": "",
+     "start_date": "",
+     "end_date": "",
+     "fee": "",
+     "discounted_fee": "",
+     "page_url": "https://enfield.gov.uk/services/housing/private-rented-property-licensing",
+     "designation_url": "",
+     "verified_by": "",
+     "verified_on": "",
+     "notes": "Seeded from web search 5 Nov 2026; page address only, scheme details not yet verified"
+    },
+    {
+     "gss": "E09000010",
+     "council": "Enfield",
+     "scheme_type": "Selective",
+     "scheme_name": "",
+     "status": "",
+     "coverage": "",
+     "start_date": "",
+     "end_date": "",
+     "fee": "",
+     "discounted_fee": "",
+     "page_url": "https://www.enfield.gov.uk/services/housing/selective-licensing-scheme",
+     "designation_url": "",
+     "verified_by": "",
+     "verified_on": "",
+     "notes": "Seeded from web search 5 Nov 2026; page address only, scheme details not yet verified"
+    }
+   ]
   },
   {
    "gss": "E07000072",
@@ -5623,7 +5935,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:17:05+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:58+00:00",
+     "checked": "2026-11-06T15:55:28+00:00",
      "score": -2
     },
     {
@@ -5653,7 +5965,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:17:06+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:01+00:00",
+     "checked": "2026-11-06T15:55:29+00:00",
      "score": -2
     }
    ],
@@ -5666,27 +5978,6 @@
      "£843.75",
      "£983.50"
     ],
-    "designation_links": [],
-    "last_changed": null
-   },
-   "manual": []
-  },
-  {
-   "gss": "E10000012",
-   "name": "Essex",
-   "website": "https://www.essex.gov.uk",
-   "discovery": {
-    "method": "none found",
-    "when": "2026-11-05T20:17:14+00:00",
-    "candidates": 0
-   },
-   "pages": [],
-   "auto": {
-    "selective": false,
-    "additional": false,
-    "status": "None found",
-    "signals": [],
-    "fees": [],
     "designation_links": [],
     "last_changed": null
    },
@@ -5768,7 +6059,7 @@
     {
      "url": "https://www.folkestone-hythe.gov.uk/downloads/file/974/hmo-licence-application-guidance-notes",
      "error": "HTTP 200",
-     "checked": "2026-11-05T23:40:59+00:00"
+     "checked": "2026-11-06T15:55:28+00:00"
     },
     {
      "url": "https://www.folkestone-hythe.gov.uk/downloads/download/87/hmo-licence-application-guidance-notes",
@@ -5782,7 +6073,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:17:30+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:00+00:00",
+     "checked": "2026-11-06T15:55:29+00:00",
      "score": -2
     },
     {
@@ -5806,7 +6097,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:17:32+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:02+00:00",
+     "checked": "2026-11-06T15:55:31+00:00",
      "score": -2
     }
    ],
@@ -5872,7 +6163,18 @@
     "when": "2026-11-05T20:10:02+00:00",
     "candidates": 0
    },
-   "pages": [],
+   "pages": [
+    {
+     "url": "https://www.gateshead.gov.uk/prs",
+     "error": "HTTP 403",
+     "checked": "2026-11-06T15:55:28+00:00"
+    },
+    {
+     "url": "https://www.gateshead.gov.uk/article/31462/Designation-of-selective-and-additional-houses-in-multiple-occupation-HMO-licensing",
+     "error": "HTTP 403",
+     "checked": "2026-11-06T15:55:30+00:00"
+    }
+   ],
    "auto": {
     "selective": false,
     "additional": false,
@@ -5882,7 +6184,42 @@
     "designation_links": [],
     "last_changed": null
    },
-   "manual": []
+   "manual": [
+    {
+     "gss": "E08000037",
+     "council": "Gateshead",
+     "scheme_type": "",
+     "scheme_name": "",
+     "status": "",
+     "coverage": "",
+     "start_date": "",
+     "end_date": "",
+     "fee": "",
+     "discounted_fee": "",
+     "page_url": "https://www.gateshead.gov.uk/prs",
+     "designation_url": "https://www.gateshead.gov.uk/article/31461/Public-notice",
+     "verified_by": "",
+     "verified_on": "",
+     "notes": "Seeded from web search 5 Nov 2026; page address only, scheme details not yet verified"
+    },
+    {
+     "gss": "E08000037",
+     "council": "Gateshead",
+     "scheme_type": "",
+     "scheme_name": "",
+     "status": "",
+     "coverage": "",
+     "start_date": "",
+     "end_date": "",
+     "fee": "",
+     "discounted_fee": "",
+     "page_url": "https://www.gateshead.gov.uk/article/31462/Designation-of-selective-and-additional-houses-in-multiple-occupation-HMO-licensing",
+     "designation_url": "",
+     "verified_by": "",
+     "verified_on": "",
+     "notes": "Seeded from web search 5 Nov 2026; page address only, scheme details not yet verified"
+    }
+   ]
   },
   {
    "gss": "E07000173",
@@ -5906,7 +6243,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:17:38+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:59+00:00",
+     "checked": "2026-11-06T15:55:28+00:00",
      "score": 7
     },
     {
@@ -5921,7 +6258,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:17:40+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:00+00:00",
+     "checked": "2026-11-06T15:55:30+00:00",
      "score": 7
     },
     {
@@ -5936,7 +6273,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:17:42+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:02+00:00",
+     "checked": "2026-11-06T15:55:32+00:00",
      "score": 7
     },
     {
@@ -5951,7 +6288,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:17:44+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:04+00:00",
+     "checked": "2026-11-06T15:55:34+00:00",
      "score": 7
     },
     {
@@ -5991,7 +6328,7 @@
      ],
      "first_seen": "2026-11-05T20:17:47+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:06+00:00",
+     "checked": "2026-11-06T15:55:37+00:00",
      "score": 7
     },
     {
@@ -6044,7 +6381,7 @@
      ],
      "first_seen": "2026-11-05T20:17:48+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:09+00:00",
+     "checked": "2026-11-06T15:55:38+00:00",
      "score": 6
     },
     {
@@ -6101,7 +6438,7 @@
      ],
      "first_seen": "2026-11-05T20:17:50+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:10+00:00",
+     "checked": "2026-11-06T15:55:40+00:00",
      "score": 6
     },
     {
@@ -6121,7 +6458,7 @@
      ],
      "first_seen": "2026-11-05T20:17:52+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:12+00:00",
+     "checked": "2026-11-06T15:55:43+00:00",
      "score": 5
     }
    ],
@@ -6185,27 +6522,6 @@
    "discovery": {
     "method": "none found",
     "when": "2026-11-05T20:17:41+00:00",
-    "candidates": 0
-   },
-   "pages": [],
-   "auto": {
-    "selective": false,
-    "additional": false,
-    "status": "None found",
-    "signals": [],
-    "fees": [],
-    "designation_links": [],
-    "last_changed": null
-   },
-   "manual": []
-  },
-  {
-   "gss": "E10000013",
-   "name": "Gloucestershire",
-   "website": "https://www.gloucestershire.gov.uk",
-   "discovery": {
-    "method": "none found",
-    "when": "2026-11-05T20:17:45+00:00",
     "candidates": 0
    },
    "pages": [],
@@ -6305,7 +6621,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:17:58+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:40:59+00:00",
+     "checked": "2026-11-06T15:55:30+00:00",
      "score": 4,
      "error": "HTTP 403"
     },
@@ -6321,7 +6637,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:18:00+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:01+00:00",
+     "checked": "2026-11-06T15:55:32+00:00",
      "score": 4
     },
     {
@@ -6336,7 +6652,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:18:02+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:03+00:00",
+     "checked": "2026-11-06T15:55:34+00:00",
      "score": 4,
      "error": "HTTP 403"
     },
@@ -6361,7 +6677,7 @@
      ],
      "first_seen": "2026-11-05T20:18:04+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:05+00:00",
+     "checked": "2026-11-06T15:55:36+00:00",
      "score": 4,
      "error": "HTTP 403"
     },
@@ -6377,7 +6693,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:18:06+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:07+00:00",
+     "checked": "2026-11-06T15:55:38+00:00",
      "score": 3,
      "error": "HTTP 403"
     },
@@ -6393,7 +6709,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:18:08+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:09+00:00",
+     "checked": "2026-11-06T15:55:40+00:00",
      "score": 2,
      "error": "HTTP 403"
     },
@@ -6409,7 +6725,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:18:10+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:11+00:00",
+     "checked": "2026-11-06T15:55:42+00:00",
      "score": 2
     },
     {
@@ -6424,7 +6740,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:18:12+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:13+00:00",
+     "checked": "2026-11-06T15:55:44+00:00",
      "score": 2,
      "error": "HTTP 403"
     }
@@ -6471,7 +6787,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:17:55+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:02+00:00",
+     "checked": "2026-11-06T15:55:31+00:00",
      "score": 0
     },
     {
@@ -6495,7 +6811,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:17:58+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:04+00:00",
+     "checked": "2026-11-06T15:55:32+00:00",
      "score": 0
     }
    ],
@@ -6554,7 +6870,7 @@
      ],
      "first_seen": "2026-11-05T20:18:00+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:03+00:00",
+     "checked": "2026-11-06T15:55:31+00:00",
      "score": 4
     },
     {
@@ -6604,7 +6920,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:18:02+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:05+00:00",
+     "checked": "2026-11-06T15:55:33+00:00",
      "score": 2
     }
    ],
@@ -6726,7 +7042,7 @@
      ],
      "first_seen": "2026-11-05T20:18:05+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:04+00:00",
+     "checked": "2026-11-06T15:55:33+00:00",
      "score": 9,
      "error": "HTTP 202"
     },
@@ -6763,7 +7079,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:18:07+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:06+00:00",
+     "checked": "2026-11-06T15:55:35+00:00",
      "score": 4,
      "error": "HTTP 202"
     },
@@ -6812,7 +7128,7 @@
      ],
      "first_seen": "2026-11-05T20:18:09+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:08+00:00",
+     "checked": "2026-11-06T15:55:37+00:00",
      "score": 4,
      "error": "HTTP 202"
     },
@@ -6833,7 +7149,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:18:11+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:10+00:00",
+     "checked": "2026-11-06T15:55:39+00:00",
      "score": 4,
      "error": "HTTP 202"
     },
@@ -6865,9 +7181,14 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:18:13+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:12+00:00",
+     "checked": "2026-11-06T15:55:41+00:00",
      "score": 2,
      "error": "HTTP 202"
+    },
+    {
+     "url": "https://www.lbhf.gov.uk/housing/private-housing/improving-private-rented-housing-2017-22",
+     "error": "HTTP 202",
+     "checked": "2026-11-06T15:55:31+00:00"
     }
    ],
    "auto": {
@@ -6879,28 +7200,25 @@
     "designation_links": [],
     "last_changed": null
    },
-   "manual": []
-  },
-  {
-   "gss": "E10000014",
-   "name": "Hampshire",
-   "website": "https://www.hants.gov.uk",
-   "discovery": {
-    "method": "none found",
-    "when": "2026-11-05T20:18:17+00:00",
-    "candidates": 0
-   },
-   "pages": [],
-   "auto": {
-    "selective": false,
-    "additional": false,
-    "status": "None found",
-    "signals": [],
-    "fees": [],
-    "designation_links": [],
-    "last_changed": null
-   },
-   "manual": []
+   "manual": [
+    {
+     "gss": "E09000013",
+     "council": "Hammersmith and Fulham",
+     "scheme_type": "",
+     "scheme_name": "",
+     "status": "",
+     "coverage": "",
+     "start_date": "",
+     "end_date": "",
+     "fee": "",
+     "discounted_fee": "",
+     "page_url": "https://www.lbhf.gov.uk/housing/private-housing/improving-private-rented-housing-2017-22",
+     "designation_url": "",
+     "verified_by": "",
+     "verified_on": "",
+     "notes": "Seeded from web search 5 Nov 2026; page address only, scheme details not yet verified"
+    }
+   ]
   },
   {
    "gss": "E07000131",
@@ -6962,7 +7280,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:19:24+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:05+00:00",
+     "checked": "2026-11-06T15:55:33+00:00",
      "score": 10
     },
     {
@@ -6990,7 +7308,7 @@
      ],
      "first_seen": "2026-11-05T20:19:27+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:07+00:00",
+     "checked": "2026-11-06T15:55:35+00:00",
      "score": 9
     },
     {
@@ -7014,7 +7332,7 @@
      ],
      "first_seen": "2026-11-05T20:19:28+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:09+00:00",
+     "checked": "2026-11-06T15:55:37+00:00",
      "score": 9
     },
     {
@@ -7029,7 +7347,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:19:30+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:11+00:00",
+     "checked": "2026-11-06T15:55:39+00:00",
      "score": 9
     },
     {
@@ -7051,7 +7369,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:19:32+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:13+00:00",
+     "checked": "2026-11-06T15:55:40+00:00",
      "score": 7
     },
     {
@@ -7066,7 +7384,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:19:34+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:15+00:00",
+     "checked": "2026-11-06T15:55:43+00:00",
      "score": 7
     },
     {
@@ -7105,7 +7423,7 @@
      ],
      "first_seen": "2026-11-05T20:19:37+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:17+00:00",
+     "checked": "2026-11-06T15:55:45+00:00",
      "score": 7
     },
     {
@@ -7131,7 +7449,7 @@
      ],
      "first_seen": "2026-11-05T20:19:39+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:19+00:00",
+     "checked": "2026-11-06T15:55:47+00:00",
      "score": 5
     }
    ],
@@ -7216,7 +7534,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:18:27+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:07+00:00",
+     "checked": "2026-11-06T15:55:34+00:00",
      "score": -2
     },
     {
@@ -7244,7 +7562,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:18:29+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:08+00:00",
+     "checked": "2026-11-06T15:55:36+00:00",
      "score": -2
     }
    ],
@@ -7281,7 +7599,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:18:41+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:16+00:00",
+     "checked": "2026-11-06T15:55:46+00:00",
      "score": 5
     },
     {
@@ -7296,7 +7614,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:18:43+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:18+00:00",
+     "checked": "2026-11-06T15:55:48+00:00",
      "score": 5
     },
     {
@@ -7367,7 +7685,7 @@
      ],
      "first_seen": "2026-11-05T20:18:45+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:20+00:00",
+     "checked": "2026-11-06T15:55:50+00:00",
      "score": 5
     },
     {
@@ -7382,7 +7700,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:18:47+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:22+00:00",
+     "checked": "2026-11-06T15:55:52+00:00",
      "score": 5
     },
     {
@@ -7410,7 +7728,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:18:49+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:24+00:00",
+     "checked": "2026-11-06T15:55:54+00:00",
      "score": 5
     },
     {
@@ -7428,13 +7746,13 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:18:51+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:26+00:00",
+     "checked": "2026-11-06T15:55:56+00:00",
      "score": 5
     },
     {
      "url": "https://www.harrow.gov.uk/renewselectivelicensing",
      "error": "ConnectionError",
-     "checked": "2026-11-05T23:41:16+00:00"
+     "checked": "2026-11-06T15:55:46+00:00"
     }
    ],
    "auto": {
@@ -7544,7 +7862,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:12:18+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:08+00:00",
+     "checked": "2026-11-06T15:55:36+00:00",
      "score": -2
     }
    ],
@@ -7591,56 +7909,133 @@
    },
    "pages": [
     {
+     "url": "https://www.havering.gov.uk/news/article/1737/new-property-licensing-schemes-launched",
+     "title": "New property licensing schemes launched | London Borough of Havering",
+     "hash": "fbe519b86645d8d4",
+     "selective": true,
+     "additional": true,
+     "signals": [],
+     "fees": [],
+     "dates": [
+      {
+       "date": "18 March 2026",
+       "kind": "start",
+       "context": "selective licensing and the additional HMO licensing schemes, take effect from Wednesday 18 March 2026. The schemes are designed to"
+      },
+      {
+       "date": "18 March 2026",
+       "kind": "start",
+       "context": "nd or washing facilities. This scheme applies to all wards in the borough. From Wednesday 18 March 2026, more landlords, lettings and"
+      },
+      {
+       "date": "18 March 2026",
+       "kind": "other",
+       "context": "which areas are covered are on our property licensing page. Property licensing Published: 18 March 2026 Give us feedback about this w"
+      }
+     ],
+     "designation_links": [],
+     "first_seen": "2026-11-06T15:55:37+00:00",
+     "changed": null,
+     "checked": "2026-11-06T15:55:37+00:00",
+     "score": 4
+    },
+    {
+     "url": "https://www.havering.gov.uk/landlordlicenceconsultation",
+     "title": "Property Licensing - London Borough of Havering Council - Citizen Space",
+     "hash": "8d41d17adeb1f551",
+     "selective": true,
+     "additional": true,
+     "signals": [
+      "consultation",
+      "proposed"
+     ],
+     "fees": [],
+     "dates": [],
+     "designation_links": [],
+     "first_seen": "2026-11-06T15:55:41+00:00",
+     "changed": null,
+     "checked": "2026-11-06T15:55:41+00:00",
+     "score": 2
+    },
+    {
      "url": "https://www.havering.gov.uk/downloads/file/7262/landlord-licensing-scheme-2-selective-designation",
      "error": "HTTP 200",
-     "checked": "2026-11-05T23:41:09+00:00"
+     "checked": "2026-11-06T15:55:42+00:00"
     },
     {
      "url": "https://www.havering.gov.uk/downloads/file/7263/landlord-licensing-scheme-3-selective-designation",
      "error": "HTTP 200",
-     "checked": "2026-11-05T23:41:11+00:00"
+     "checked": "2026-11-06T15:55:43+00:00"
     },
     {
      "url": "https://www.havering.gov.uk/downloads/file/5533/list-of-addresses-designated-for-selective-licensing",
      "error": "HTTP 200",
-     "checked": "2026-11-05T23:41:13+00:00"
+     "checked": "2026-11-06T15:55:46+00:00"
     },
     {
      "url": "https://www.havering.gov.uk/downloads/file/6094/additional-licensing-scheme-1-designation-list-29-july-2022",
      "error": "HTTP 200",
-     "checked": "2026-11-05T23:41:15+00:00"
+     "checked": "2026-11-06T15:55:47+00:00"
     },
     {
      "url": "https://www.havering.gov.uk/downloads/file/6093/additional-licensing-scheme-2-designation-list-29-july-2022",
      "error": "HTTP 200",
-     "checked": "2026-11-05T23:41:17+00:00"
+     "checked": "2026-11-06T15:55:49+00:00"
     },
     {
      "url": "https://www.havering.gov.uk/downloads/file/4220/public-notice---hmo---designation-of-an-area-for-selective-licensing---october-2020",
      "error": "HTTP 200",
-     "checked": "2026-11-05T23:41:19+00:00"
-    },
-    {
-     "url": "https://www.havering.gov.uk/downloads/file/4304/public-notice---hmo---designation-of-an-area-for-selective-licensing---january-2021",
-     "error": "HTTP 200",
-     "checked": "2026-11-05T23:41:21+00:00"
-    },
-    {
-     "url": "https://www.havering.gov.uk/downloads/file/5415/public-notice---hmo---designation-of-an-area-for-additional-licensing---october-2020",
-     "error": "HTTP 200",
-     "checked": "2026-11-05T23:41:23+00:00"
+     "checked": "2026-11-06T15:55:51+00:00"
     }
    ],
    "auto": {
-    "selective": false,
-    "additional": false,
-    "status": "None found",
-    "signals": [],
+    "selective": true,
+    "additional": true,
+    "status": "Proposed",
+    "signals": [
+     "consultation",
+     "proposed"
+    ],
     "fees": [],
     "designation_links": [],
     "last_changed": null
    },
-   "manual": []
+   "manual": [
+    {
+     "gss": "E09000016",
+     "council": "Havering",
+     "scheme_type": "",
+     "scheme_name": "",
+     "status": "",
+     "coverage": "",
+     "start_date": "",
+     "end_date": "",
+     "fee": "",
+     "discounted_fee": "",
+     "page_url": "https://www.havering.gov.uk/news/article/1737/new-property-licensing-schemes-launched",
+     "designation_url": "",
+     "verified_by": "",
+     "verified_on": "",
+     "notes": "Seeded from web search 5 Nov 2026; page address only, scheme details not yet verified"
+    },
+    {
+     "gss": "E09000016",
+     "council": "Havering",
+     "scheme_type": "",
+     "scheme_name": "",
+     "status": "",
+     "coverage": "",
+     "start_date": "",
+     "end_date": "",
+     "fee": "",
+     "discounted_fee": "",
+     "page_url": "https://www.havering.gov.uk/landlordlicenceconsultation",
+     "designation_url": "",
+     "verified_by": "",
+     "verified_on": "",
+     "notes": "Seeded from web search 5 Nov 2026; page address only, scheme details not yet verified"
+    }
+   ]
   },
   {
    "gss": "E06000019",
@@ -7649,27 +8044,6 @@
    "discovery": {
     "method": "none found",
     "when": "2026-11-05T20:18:56+00:00",
-    "candidates": 0
-   },
-   "pages": [],
-   "auto": {
-    "selective": false,
-    "additional": false,
-    "status": "None found",
-    "signals": [],
-    "fees": [],
-    "designation_links": [],
-    "last_changed": null
-   },
-   "manual": []
-  },
-  {
-   "gss": "E10000015",
-   "name": "Hertfordshire",
-   "website": "https://www.hertfordshire.gov.uk",
-   "discovery": {
-    "method": "none found",
-    "when": "2026-11-05T20:19:03+00:00",
     "candidates": 0
    },
    "pages": [],
@@ -7768,7 +8142,7 @@
      ],
      "first_seen": "2026-11-05T20:19:11+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:13+00:00",
+     "checked": "2026-11-06T15:55:42+00:00",
      "score": 5
     },
     {
@@ -7783,7 +8157,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:19:14+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:14+00:00",
+     "checked": "2026-11-06T15:55:43+00:00",
      "score": 0
     },
     {
@@ -7798,7 +8172,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:19:16+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:16+00:00",
+     "checked": "2026-11-06T15:55:45+00:00",
      "score": 0
     }
    ],
@@ -7888,7 +8262,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:19:20+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:13+00:00",
+     "checked": "2026-11-06T15:55:44+00:00",
      "score": 4
     },
     {
@@ -7909,7 +8283,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:19:22+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:14+00:00",
+     "checked": "2026-11-06T15:55:45+00:00",
      "score": 0
     }
    ],
@@ -8003,7 +8377,7 @@
      ],
      "first_seen": "2026-11-05T20:19:45+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:14+00:00",
+     "checked": "2026-11-06T15:55:44+00:00",
      "score": 9
     },
     {
@@ -8050,7 +8424,7 @@
      ],
      "first_seen": "2026-11-05T22:02:46+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:15+00:00",
+     "checked": "2026-11-06T15:55:46+00:00",
      "score": 7
     },
     {
@@ -8070,7 +8444,7 @@
      ],
      "first_seen": "2026-11-05T22:02:48+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:17+00:00",
+     "checked": "2026-11-06T15:55:48+00:00",
      "score": 5
     },
     {
@@ -8085,7 +8459,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:19:51+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:19+00:00",
+     "checked": "2026-11-06T15:55:50+00:00",
      "score": 5
     },
     {
@@ -8113,7 +8487,7 @@
      ],
      "first_seen": "2026-11-05T22:02:52+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:21+00:00",
+     "checked": "2026-11-06T15:55:53+00:00",
      "score": 5
     },
     {
@@ -8133,7 +8507,7 @@
      ],
      "first_seen": "2026-11-05T22:02:54+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:23+00:00",
+     "checked": "2026-11-06T15:55:54+00:00",
      "score": 3
     }
    ],
@@ -8213,7 +8587,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:19:26+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:15+00:00",
+     "checked": "2026-11-06T15:55:46+00:00",
      "score": 0
     },
     {
@@ -8272,7 +8646,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:19:28+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:16+00:00",
+     "checked": "2026-11-06T15:55:47+00:00",
      "score": -2
     }
    ],
@@ -8370,7 +8744,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:19:30+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:17+00:00",
+     "checked": "2026-11-06T15:55:46+00:00",
      "score": 6
     },
     {
@@ -8425,7 +8799,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:19:32+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:19+00:00",
+     "checked": "2026-11-06T15:55:48+00:00",
      "score": 6
     },
     {
@@ -8449,7 +8823,7 @@
      ],
      "first_seen": "2026-11-05T20:19:34+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:21+00:00",
+     "checked": "2026-11-06T15:55:50+00:00",
      "score": 4
     },
     {
@@ -8464,7 +8838,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:19:36+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:23+00:00",
+     "checked": "2026-11-06T15:55:52+00:00",
      "score": 4
     },
     {
@@ -8479,7 +8853,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:19:38+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:25+00:00",
+     "checked": "2026-11-06T15:55:54+00:00",
      "score": 4
     },
     {
@@ -8510,7 +8884,7 @@
      ],
      "first_seen": "2026-11-05T20:19:40+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:27+00:00",
+     "checked": "2026-11-06T15:55:56+00:00",
      "score": 4
     },
     {
@@ -8525,7 +8899,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:19:42+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:29+00:00",
+     "checked": "2026-11-06T15:55:58+00:00",
      "score": 4
     },
     {
@@ -8540,7 +8914,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:19:44+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:31+00:00",
+     "checked": "2026-11-06T15:56:00+00:00",
      "score": 4
     }
    ],
@@ -8640,7 +9014,7 @@
      ],
      "first_seen": "2026-11-05T20:19:31+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:17+00:00",
+     "checked": "2026-11-06T15:55:49+00:00",
      "score": 3
     },
     {
@@ -8671,7 +9045,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:19:33+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:19+00:00",
+     "checked": "2026-11-06T15:55:49+00:00",
      "score": -2
     },
     {
@@ -8713,7 +9087,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:19:35+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:21+00:00",
+     "checked": "2026-11-06T15:55:51+00:00",
      "score": -2
     },
     {
@@ -8734,7 +9108,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:19:37+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:23+00:00",
+     "checked": "2026-11-06T15:55:54+00:00",
      "score": -2
     }
    ],
@@ -8767,27 +9141,6 @@
       "url": "https://www.rbkc.gov.uk/media/document/designation-of-an-area-for-additional-licensing-of-hmos"
      }
     ],
-    "last_changed": null
-   },
-   "manual": []
-  },
-  {
-   "gss": "E10000016",
-   "name": "Kent",
-   "website": "https://www.kent.gov.uk",
-   "discovery": {
-    "method": "none found",
-    "when": "2026-11-05T20:19:37+00:00",
-    "candidates": 0
-   },
-   "pages": [],
-   "auto": {
-    "selective": false,
-    "additional": false,
-    "status": "None found",
-    "signals": [],
-    "fees": [],
-    "designation_links": [],
     "last_changed": null
    },
    "manual": []
@@ -8847,7 +9200,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:19:40+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:20+00:00",
+     "checked": "2026-11-06T15:55:48+00:00",
      "score": 0
     },
     {
@@ -8862,7 +9215,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:19:42+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:21+00:00",
+     "checked": "2026-11-06T15:55:49+00:00",
      "score": -2
     },
     {
@@ -8910,7 +9263,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:19:44+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:23+00:00",
+     "checked": "2026-11-06T15:55:51+00:00",
      "score": -2
     }
    ],
@@ -8968,7 +9321,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:19:44+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:23+00:00",
+     "checked": "2026-11-06T15:55:53+00:00",
      "score": 0
     }
    ],
@@ -9070,7 +9423,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:19:51+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:24+00:00",
+     "checked": "2026-11-06T15:55:53+00:00",
      "score": 7
     },
     {
@@ -9091,7 +9444,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:19:54+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:25+00:00",
+     "checked": "2026-11-06T15:55:54+00:00",
      "score": 5
     },
     {
@@ -9155,7 +9508,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:19:55+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:27+00:00",
+     "checked": "2026-11-06T15:55:56+00:00",
      "score": 5
     },
     {
@@ -9193,7 +9546,7 @@
      ],
      "first_seen": "2026-11-05T20:19:57+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:29+00:00",
+     "checked": "2026-11-06T15:55:58+00:00",
      "score": 5
     },
     {
@@ -9210,7 +9563,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:19:59+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:31+00:00",
+     "checked": "2026-11-06T15:56:00+00:00",
      "score": 4
     },
     {
@@ -9225,7 +9578,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:20:08+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:33+00:00",
+     "checked": "2026-11-06T15:56:02+00:00",
      "score": 0
     },
     {
@@ -9240,7 +9593,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:20:09+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:35+00:00",
+     "checked": "2026-11-06T15:56:04+00:00",
      "score": 0
     }
    ],
@@ -9271,27 +9624,6 @@
    "manual": []
   },
   {
-   "gss": "E10000017",
-   "name": "Lancashire",
-   "website": "https://www.lancashire.gov.uk",
-   "discovery": {
-    "method": "none found",
-    "when": "2026-11-05T20:19:49+00:00",
-    "candidates": 0
-   },
-   "pages": [],
-   "auto": {
-    "selective": false,
-    "additional": false,
-    "status": "None found",
-    "signals": [],
-    "fees": [],
-    "designation_links": [],
-    "last_changed": null
-   },
-   "manual": []
-  },
-  {
    "gss": "E07000121",
    "name": "Lancaster",
    "website": "https://www.lancaster.gov.uk",
@@ -9304,7 +9636,7 @@
     {
      "url": "http://lancaster.gov.uk/housing/private-rented-accommodation/house-in-multiple-occupancy-hmo-licence-application",
      "error": "ConnectTimeout",
-     "checked": "2026-11-05T23:43:33+00:00"
+     "checked": "2026-11-06T15:58:03+00:00"
     }
    ],
    "auto": {
@@ -9429,7 +9761,7 @@
      ],
      "first_seen": "2026-11-05T20:09:59+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:24+00:00",
+     "checked": "2026-11-06T15:55:54+00:00",
      "score": 8
     },
     {
@@ -9510,7 +9842,7 @@
      ],
      "first_seen": "2026-11-05T20:10:00+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:26+00:00",
+     "checked": "2026-11-06T15:55:55+00:00",
      "score": 3
     },
     {
@@ -9621,7 +9953,7 @@
      ],
      "first_seen": "2026-11-05T20:10:01+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:28+00:00",
+     "checked": "2026-11-06T15:55:58+00:00",
      "score": 3
     },
     {
@@ -9664,7 +9996,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:10:02+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:29+00:00",
+     "checked": "2026-11-06T15:55:59+00:00",
      "score": 3
     },
     {
@@ -9679,7 +10011,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:10:03+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:32+00:00",
+     "checked": "2026-11-06T15:56:02+00:00",
      "score": 2
     }
    ],
@@ -9768,7 +10100,7 @@
      ],
      "first_seen": "2026-11-05T20:19:53+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:24+00:00",
+     "checked": "2026-11-06T15:55:55+00:00",
      "score": 9
     },
     {
@@ -9783,7 +10115,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:19:55+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:26+00:00",
+     "checked": "2026-11-06T15:55:56+00:00",
      "score": 4
     },
     {
@@ -9803,7 +10135,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:19:57+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:27+00:00",
+     "checked": "2026-11-06T15:55:58+00:00",
      "score": 4
     }
    ],
@@ -9829,27 +10161,6 @@
       "url": "https://www.leicester.gov.uk/sites/default/files/2026-11/Notice%20of%20designation%20for%20selective%20licensing%20%28east%20and%20west%20cluster%29.pdf"
      }
     ],
-    "last_changed": null
-   },
-   "manual": []
-  },
-  {
-   "gss": "E10000018",
-   "name": "Leicestershire",
-   "website": "https://www.leicestershire.gov.uk",
-   "discovery": {
-    "method": "none found",
-    "when": "2026-11-05T20:19:59+00:00",
-    "candidates": 0
-   },
-   "pages": [],
-   "auto": {
-    "selective": false,
-    "additional": false,
-    "status": "None found",
-    "signals": [],
-    "fees": [],
-    "designation_links": [],
     "last_changed": null
    },
    "manual": []
@@ -9884,17 +10195,107 @@
     "when": "2026-11-05T20:20:02+00:00",
     "candidates": 0
    },
-   "pages": [],
+   "pages": [
+    {
+     "url": "https://lewisham.gov.uk/articles/news/new-property-licence-scheme-launches-in-lewisham",
+     "title": "Lewisham Council - New property licence scheme launches in Lewisham",
+     "hash": "b45f82611b8298ab",
+     "selective": true,
+     "additional": false,
+     "signals": [
+      "consultation"
+     ],
+     "fees": [],
+     "dates": [
+      {
+       "date": "1 July 2024",
+       "kind": "start",
+       "context": "New property licence scheme launches in Lewisham From 1 July 2024, most privately rented proper"
+      }
+     ],
+     "designation_links": [],
+     "first_seen": "2026-11-06T15:55:55+00:00",
+     "changed": null,
+     "checked": "2026-11-06T15:55:55+00:00",
+     "score": 4
+    },
+    {
+     "url": "https://lewisham.gov.uk/myservices/housing/landlords/hmo/apply-for-a-licence",
+     "title": "Lewisham Council - Apply for a private property licence",
+     "hash": "526198771725eb79",
+     "selective": true,
+     "additional": true,
+     "signals": [
+      "live"
+     ],
+     "fees": [],
+     "dates": [
+      {
+       "date": "22 April 2022",
+       "kind": "other",
+       "context": "st one tenant pays rent Additional HMO Licensing Introduced in the borough of Lewisham on 22 April 2022 for smaller HMOs that are not"
+      },
+      {
+       "date": "1 July 2024",
+       "kind": "start",
+       "context": "Selective licensing The Council has designated a new scheme that will come into force on 1 July 2024 and covers 18 wards within th"
+      }
+     ],
+     "designation_links": [],
+     "first_seen": "2026-11-06T15:55:57+00:00",
+     "changed": null,
+     "checked": "2026-11-06T15:55:57+00:00",
+     "score": -2
+    }
+   ],
    "auto": {
-    "selective": false,
-    "additional": false,
-    "status": "None found",
-    "signals": [],
+    "selective": true,
+    "additional": true,
+    "status": "Live",
+    "signals": [
+     "consultation",
+     "live"
+    ],
     "fees": [],
     "designation_links": [],
     "last_changed": null
    },
-   "manual": []
+   "manual": [
+    {
+     "gss": "E09000023",
+     "council": "Lewisham",
+     "scheme_type": "",
+     "scheme_name": "",
+     "status": "",
+     "coverage": "",
+     "start_date": "",
+     "end_date": "",
+     "fee": "",
+     "discounted_fee": "",
+     "page_url": "https://lewisham.gov.uk/articles/news/new-property-licence-scheme-launches-in-lewisham",
+     "designation_url": "https://lewisham.gov.uk/-/media/services/housing/lbl-selective-licensing-designation.pdf",
+     "verified_by": "",
+     "verified_on": "",
+     "notes": "Seeded from web search 5 Nov 2026; page address only, scheme details not yet verified"
+    },
+    {
+     "gss": "E09000023",
+     "council": "Lewisham",
+     "scheme_type": "",
+     "scheme_name": "",
+     "status": "",
+     "coverage": "",
+     "start_date": "",
+     "end_date": "",
+     "fee": "",
+     "discounted_fee": "",
+     "page_url": "https://lewisham.gov.uk/myservices/housing/landlords/hmo/apply-for-a-licence",
+     "designation_url": "",
+     "verified_by": "",
+     "verified_on": "",
+     "notes": "Seeded from web search 5 Nov 2026; page address only, scheme details not yet verified"
+    }
+   ]
   },
   {
    "gss": "E07000194",
@@ -9923,7 +10324,7 @@
      ],
      "first_seen": "2026-11-05T20:20:01+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:25+00:00",
+     "checked": "2026-11-06T15:55:57+00:00",
      "score": 0
     },
     {
@@ -9943,7 +10344,7 @@
      ],
      "first_seen": "2026-11-05T20:20:03+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:26+00:00",
+     "checked": "2026-11-06T15:55:58+00:00",
      "score": 0
     },
     {
@@ -9963,7 +10364,7 @@
      ],
      "first_seen": "2026-11-05T20:20:05+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:28+00:00",
+     "checked": "2026-11-06T15:56:00+00:00",
      "score": 0
     },
     {
@@ -10000,7 +10401,7 @@
      ],
      "first_seen": "2026-11-05T20:20:07+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:30+00:00",
+     "checked": "2026-11-06T15:56:02+00:00",
      "score": 0
     },
     {
@@ -10020,7 +10421,7 @@
      ],
      "first_seen": "2026-11-05T20:20:09+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:32+00:00",
+     "checked": "2026-11-06T15:56:04+00:00",
      "score": 0
     },
     {
@@ -10040,13 +10441,13 @@
      ],
      "first_seen": "2026-11-05T20:20:11+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:34+00:00",
+     "checked": "2026-11-06T15:56:06+00:00",
      "score": 0
     },
     {
      "url": "https://www.lichfielddc.gov.uk/downloads/file/2472/hmo-licence-application-form",
      "error": "HTTP 200",
-     "checked": "2026-11-05T23:41:36+00:00"
+     "checked": "2026-11-06T15:56:08+00:00"
     }
    ],
    "auto": {
@@ -10073,30 +10474,9 @@
     {
      "url": "https://www.lincoln.gov.uk/downloads/file/1136/mandatory-hmo-licensing-scheme",
      "error": "HTTP 200",
-     "checked": "2026-11-05T23:41:27+00:00"
+     "checked": "2026-11-06T15:55:58+00:00"
     }
    ],
-   "auto": {
-    "selective": false,
-    "additional": false,
-    "status": "None found",
-    "signals": [],
-    "fees": [],
-    "designation_links": [],
-    "last_changed": null
-   },
-   "manual": []
-  },
-  {
-   "gss": "E10000019",
-   "name": "Lincolnshire",
-   "website": "https://www.lincolnshire.gov.uk",
-   "discovery": {
-    "method": "none found",
-    "when": "2026-11-05T20:20:05+00:00",
-    "candidates": 0
-   },
-   "pages": [],
    "auto": {
     "selective": false,
     "additional": false,
@@ -10138,7 +10518,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:09:59+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:28+00:00",
+     "checked": "2026-11-06T15:55:59+00:00",
      "score": 8
     },
     {
@@ -10153,7 +10533,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:10:00+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:30+00:00",
+     "checked": "2026-11-06T15:56:01+00:00",
      "score": 8
     },
     {
@@ -10170,7 +10550,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:10:01+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:32+00:00",
+     "checked": "2026-11-06T15:56:03+00:00",
      "score": 8
     },
     {
@@ -10185,7 +10565,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:10:02+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:34+00:00",
+     "checked": "2026-11-06T15:56:05+00:00",
      "score": 8
     },
     {
@@ -10239,7 +10619,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:10:03+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:36+00:00",
+     "checked": "2026-11-06T15:56:07+00:00",
      "score": 7
     },
     {
@@ -10256,7 +10636,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:10:04+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:38+00:00",
+     "checked": "2026-11-06T15:56:09+00:00",
      "score": 6
     },
     {
@@ -10271,7 +10651,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:10:05+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:40+00:00",
+     "checked": "2026-11-06T15:56:11+00:00",
      "score": 3
     },
     {
@@ -10286,7 +10666,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:10:06+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:42+00:00",
+     "checked": "2026-11-06T15:56:13+00:00",
      "score": 3
     }
    ],
@@ -10354,7 +10734,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:20:07+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:28+00:00",
+     "checked": "2026-11-06T15:55:59+00:00",
      "score": 10
     },
     {
@@ -10396,7 +10776,7 @@
      ],
      "first_seen": "2026-11-05T20:20:09+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:30+00:00",
+     "checked": "2026-11-06T15:56:01+00:00",
      "score": 10
     },
     {
@@ -10448,7 +10828,7 @@
      ],
      "first_seen": "2026-11-05T20:20:11+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:32+00:00",
+     "checked": "2026-11-06T15:56:03+00:00",
      "score": 5
     },
     {
@@ -10485,7 +10865,7 @@
      ],
      "first_seen": "2026-11-05T20:20:13+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:34+00:00",
+     "checked": "2026-11-06T15:56:05+00:00",
      "score": 5
     },
     {
@@ -10513,7 +10893,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:20:15+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:36+00:00",
+     "checked": "2026-11-06T15:56:07+00:00",
      "score": -3
     },
     {
@@ -10528,7 +10908,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:20:17+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:38+00:00",
+     "checked": "2026-11-06T15:56:09+00:00",
      "score": -3
     },
     {
@@ -10543,7 +10923,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:20:20+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:40+00:00",
+     "checked": "2026-11-06T15:56:11+00:00",
      "score": -3
     },
     {
@@ -10558,7 +10938,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:20:21+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:42+00:00",
+     "checked": "2026-11-06T15:56:13+00:00",
      "score": -3
     }
    ],
@@ -10684,7 +11064,13 @@
     "when": "2026-11-05T20:20:15+00:00",
     "candidates": 0
    },
-   "pages": [],
+   "pages": [
+    {
+     "url": "https://www.manchester.gov.uk/online-directories/licences-and-permissions-directories/licensing/rented-housing/selective-licensing",
+     "error": "HTTP 403",
+     "checked": "2026-11-06T15:56:00+00:00"
+    }
+   ],
    "auto": {
     "selective": false,
     "additional": false,
@@ -10694,7 +11080,25 @@
     "designation_links": [],
     "last_changed": null
    },
-   "manual": []
+   "manual": [
+    {
+     "gss": "E08000003",
+     "council": "Manchester",
+     "scheme_type": "Selective",
+     "scheme_name": "",
+     "status": "",
+     "coverage": "",
+     "start_date": "",
+     "end_date": "",
+     "fee": "",
+     "discounted_fee": "",
+     "page_url": "https://www.manchester.gov.uk/online-directories/licences-and-permissions-directories/licensing/rented-housing/selective-licensing",
+     "designation_url": "",
+     "verified_by": "",
+     "verified_on": "",
+     "notes": "Seeded from web search 5 Nov 2026; page address only, scheme details not yet verified"
+    }
+   ]
   },
   {
    "gss": "E07000174",
@@ -10759,7 +11163,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:20:22+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:37+00:00",
+     "checked": "2026-11-06T15:56:06+00:00",
      "score": 5
     },
     {
@@ -10815,7 +11219,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:20:24+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:39+00:00",
+     "checked": "2026-11-06T15:56:08+00:00",
      "score": 5
     },
     {
@@ -10885,7 +11289,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:20:26+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:41+00:00",
+     "checked": "2026-11-06T15:56:10+00:00",
      "score": 5
     },
     {
@@ -10900,7 +11304,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:20:28+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:43+00:00",
+     "checked": "2026-11-06T15:56:12+00:00",
      "score": 5
     },
     {
@@ -10915,23 +11319,23 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:20:30+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:45+00:00",
+     "checked": "2026-11-06T15:56:14+00:00",
      "score": 5
     },
     {
      "url": "https://www.mansfield.gov.uk/SelectiveLicencingConsultationSurvey",
      "error": "HTTP 404",
-     "checked": "2026-11-05T23:41:32+00:00"
+     "checked": "2026-11-06T15:56:02+00:00"
     },
     {
      "url": "https://www.mansfield.gov.uk/downloads/file/6787/appendix-3---maps-of-designated-selective-licensing-areas",
      "error": "HTTP 200",
-     "checked": "2026-11-05T23:41:33+00:00"
+     "checked": "2026-11-06T15:56:03+00:00"
     },
     {
      "url": "https://www.mansfield.gov.uk/downloads/file/6680/odr---approval-to-consult-on-introducing-selective-licensing-in-the-mansfield-district",
      "error": "HTTP 200",
-     "checked": "2026-11-05T23:41:35+00:00"
+     "checked": "2026-11-06T15:56:04+00:00"
     }
    ],
    "auto": {
@@ -11047,7 +11451,7 @@
      ],
      "first_seen": "2026-11-05T20:20:20+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:33+00:00",
+     "checked": "2026-11-06T15:56:03+00:00",
      "score": 0
     },
     {
@@ -11062,7 +11466,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:20:22+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:34+00:00",
+     "checked": "2026-11-06T15:56:04+00:00",
      "score": 0
     }
    ],
@@ -11138,7 +11542,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:20:19+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:35+00:00",
+     "checked": "2026-11-06T15:56:05+00:00",
      "score": 5
     },
     {
@@ -11153,7 +11557,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:20:21+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:36+00:00",
+     "checked": "2026-11-06T15:56:06+00:00",
      "score": 5
     },
     {
@@ -11168,7 +11572,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:20:23+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:38+00:00",
+     "checked": "2026-11-06T15:56:08+00:00",
      "score": 4
     }
    ],
@@ -11255,7 +11659,13 @@
     "when": "2026-11-05T20:10:02+00:00",
     "candidates": 0
    },
-   "pages": [],
+   "pages": [
+    {
+     "url": "https://www.middlesbrough.gov.uk/housing/landlords/selective-landlord-licensing-scheme/",
+     "error": "HTTP 403",
+     "checked": "2026-11-06T15:56:04+00:00"
+    }
+   ],
    "auto": {
     "selective": false,
     "additional": false,
@@ -11265,7 +11675,25 @@
     "designation_links": [],
     "last_changed": null
    },
-   "manual": []
+   "manual": [
+    {
+     "gss": "E06000002",
+     "council": "Middlesbrough",
+     "scheme_type": "Selective",
+     "scheme_name": "",
+     "status": "",
+     "coverage": "",
+     "start_date": "",
+     "end_date": "",
+     "fee": "",
+     "discounted_fee": "",
+     "page_url": "https://www.middlesbrough.gov.uk/housing/landlords/selective-landlord-licensing-scheme/",
+     "designation_url": "https://www.middlesbrough.gov.uk/media/aidkhavb/newport-sll-sealed-order-apr24.pdf",
+     "verified_by": "",
+     "verified_on": "",
+     "notes": "Seeded from web search 5 Nov 2026; page address only, scheme details not yet verified"
+    }
+   ]
   },
   {
    "gss": "E06000042",
@@ -11310,7 +11738,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:20:36+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:36+00:00",
+     "checked": "2026-11-06T15:56:05+00:00",
      "score": 0
     }
    ],
@@ -11359,7 +11787,7 @@
     {
      "url": "http://default/business-licensing/licensing/houses-multiple-occupation-hmo-licences",
      "error": "ConnectionError",
-     "checked": "2026-11-05T23:41:45+00:00"
+     "checked": "2026-11-06T15:56:14+00:00"
     }
    ],
    "auto": {
@@ -11419,7 +11847,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:20:41+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:38+00:00",
+     "checked": "2026-11-06T15:56:10+00:00",
      "score": 4
     },
     {
@@ -11436,7 +11864,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:20:43+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:39+00:00",
+     "checked": "2026-11-06T15:56:11+00:00",
      "score": 4
     }
    ],
@@ -11547,7 +11975,7 @@
      ],
      "first_seen": "2026-11-05T20:10:04+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:39+00:00",
+     "checked": "2026-11-06T15:56:09+00:00",
      "score": 6
     },
     {
@@ -11606,7 +12034,7 @@
      ],
      "first_seen": "2026-11-05T20:10:05+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:41+00:00",
+     "checked": "2026-11-06T15:56:11+00:00",
      "score": 5
     },
     {
@@ -11645,7 +12073,7 @@
      ],
      "first_seen": "2026-11-05T20:10:06+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:42+00:00",
+     "checked": "2026-11-06T15:56:13+00:00",
      "score": 4
     },
     {
@@ -11671,7 +12099,7 @@
      ],
      "first_seen": "2026-11-05T20:10:07+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:44+00:00",
+     "checked": "2026-11-06T15:56:15+00:00",
      "score": 4
     },
     {
@@ -11701,7 +12129,7 @@
      ],
      "first_seen": "2026-11-05T20:10:08+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:46+00:00",
+     "checked": "2026-11-06T15:56:17+00:00",
      "score": 4
     },
     {
@@ -11760,7 +12188,7 @@
      ],
      "first_seen": "2026-11-05T20:10:09+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:48+00:00",
+     "checked": "2026-11-06T15:56:19+00:00",
      "score": 4
     },
     {
@@ -11786,7 +12214,7 @@
      ],
      "first_seen": "2026-11-05T20:10:10+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:50+00:00",
+     "checked": "2026-11-06T15:56:21+00:00",
      "score": 4
     },
     {
@@ -11812,7 +12240,7 @@
      ],
      "first_seen": "2026-11-05T20:10:11+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:52+00:00",
+     "checked": "2026-11-06T15:56:23+00:00",
      "score": 4
     }
    ],
@@ -11869,27 +12297,6 @@
       "url": "https://mgov.newham.gov.uk/ieListDocuments.aspx?CId=296&MID=6514#AI26864"
      }
     ],
-    "last_changed": null
-   },
-   "manual": []
-  },
-  {
-   "gss": "E10000020",
-   "name": "Norfolk",
-   "website": "https://www.norfolk.gov.uk",
-   "discovery": {
-    "method": "none found",
-    "when": "2026-11-05T20:20:51+00:00",
-    "candidates": 0
-   },
-   "pages": [],
-   "auto": {
-    "selective": false,
-    "additional": false,
-    "status": "None found",
-    "signals": [],
-    "fees": [],
-    "designation_links": [],
     "last_changed": null
    },
    "manual": []
@@ -11966,7 +12373,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:21:07+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:39+00:00",
+     "checked": "2026-11-06T15:56:11+00:00",
      "score": 7
     },
     {
@@ -11990,7 +12397,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:21:09+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:41+00:00",
+     "checked": "2026-11-06T15:56:13+00:00",
      "score": 7
     },
     {
@@ -12014,7 +12421,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:21:11+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:43+00:00",
+     "checked": "2026-11-06T15:56:15+00:00",
      "score": 7
     },
     {
@@ -12037,7 +12444,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:21:13+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:45+00:00",
+     "checked": "2026-11-06T15:56:17+00:00",
      "score": 7
     },
     {
@@ -12062,7 +12469,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:21:15+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:47+00:00",
+     "checked": "2026-11-06T15:56:19+00:00",
      "score": 7
     },
     {
@@ -12085,7 +12492,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:21:17+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:49+00:00",
+     "checked": "2026-11-06T15:56:21+00:00",
      "score": 7
     },
     {
@@ -12164,7 +12571,7 @@
      ],
      "first_seen": "2026-11-05T20:21:19+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:51+00:00",
+     "checked": "2026-11-06T15:56:23+00:00",
      "score": 5
     },
     {
@@ -12185,7 +12592,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:21:21+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:54+00:00",
+     "checked": "2026-11-06T15:56:26+00:00",
      "score": 5
     }
    ],
@@ -12251,7 +12658,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:20:54+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:42+00:00",
+     "checked": "2026-11-06T15:56:14+00:00",
      "score": 0
     }
    ],
@@ -12359,7 +12766,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:20:58+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:42+00:00",
+     "checked": "2026-11-06T15:56:14+00:00",
      "score": -2
     }
    ],
@@ -12398,7 +12805,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:21:03+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:44+00:00",
+     "checked": "2026-11-06T15:56:15+00:00",
      "score": 0
     }
    ],
@@ -12504,7 +12911,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:21:07+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:43+00:00",
+     "checked": "2026-11-06T15:56:15+00:00",
      "score": 3
     },
     {
@@ -12566,7 +12973,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:21:09+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:45+00:00",
+     "checked": "2026-11-06T15:56:16+00:00",
      "score": 3
     },
     {
@@ -12643,7 +13050,7 @@
      ],
      "first_seen": "2026-11-05T20:21:11+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:47+00:00",
+     "checked": "2026-11-06T15:56:19+00:00",
      "score": 3
     }
    ],
@@ -12709,12 +13116,12 @@
     {
      "url": "https://norwich.gov.uk/your-council-explained/consultations-and-engagement/closed-consultations/draft-houses-multiple-occupation-hmo-licensing-policy",
      "error": "ConnectionError",
-     "checked": "2026-11-05T23:41:54+00:00"
+     "checked": "2026-11-06T15:56:25+00:00"
     },
     {
      "url": "https://norwich.gov.uk/your-council-explained/consultations-and-engagement/closed-consultations/consultation-closed-houses-multiple-occupation-hmo-licensing-policy",
      "error": "ConnectionError",
-     "checked": "2026-11-05T23:42:03+00:00"
+     "checked": "2026-11-06T15:56:38+00:00"
     }
    ],
    "auto": {
@@ -12737,38 +13144,253 @@
     "when": "2026-11-05T20:10:07+00:00",
     "candidates": 0
    },
-   "pages": [],
+   "pages": [
+    {
+     "url": "https://www.nottinghamcity.gov.uk/information-for-residents/housing/private-rented-accommodation/information-for-landlords/licensing-for-landlords/selective-licensing/",
+     "title": "Selective Licensing - Nottingham City Council",
+     "hash": "83a636653f50154a",
+     "selective": true,
+     "additional": true,
+     "signals": [],
+     "fees": [
+      {
+       "amount": "£290",
+       "context": "credited (Accredited with DASH, Unipol or ANUK) Non-accredited Less compliant* Part A fee £290 £290 £290 Part B fee £469 £660 £1,028 Total licence fee £75"
+      },
+      {
+       "amount": "£469",
+       "context": "DASH, Unipol or ANUK) Non-accredited Less compliant* Part A fee £290 £290 £290 Part B fee £469 £660 £1,028 Total licence fee £759 £950 £1,318 Block licenc"
+      },
+      {
+       "amount": "£660",
+       "context": "Unipol or ANUK) Non-accredited Less compliant* Part A fee £290 £290 £290 Part B fee £469 £660 £1,028 Total licence fee £759 £950 £1,318 Block licence fee"
+      },
+      {
+       "amount": "£1,028",
+       "context": "ol or ANUK) Non-accredited Less compliant* Part A fee £290 £290 £290 Part B fee £469 £660 £1,028 Total licence fee £759 £950 £1,318 Block licence fees** Acc"
+      },
+      {
+       "amount": "£759",
+       "context": "d Less compliant* Part A fee £290 £290 £290 Part B fee £469 £660 £1,028 Total licence fee £759 £950 £1,318 Block licence fees** Accredited (Accredited wit"
+      },
+      {
+       "amount": "£950",
+       "context": "s compliant* Part A fee £290 £290 £290 Part B fee £469 £660 £1,028 Total licence fee £759 £950 £1,318 Block licence fees** Accredited (Accredited with DAS"
+      },
+      {
+       "amount": "£1,318",
+       "context": "pliant* Part A fee £290 £290 £290 Part B fee £469 £660 £1,028 Total licence fee £759 £950 £1,318 Block licence fees** Accredited (Accredited with DASH, Unip"
+      },
+      {
+       "amount": "£470",
+       "context": "credited (Accredited with DASH, Unipol or ANUK) Non-accredited Less Compliant* Part A fee £470 £470 £470 Part B fee £1,403 £2,371 £2,833 Block base total"
+      }
+     ],
+     "dates": [
+      {
+       "date": "1 April 2026",
+       "kind": "start",
+       "context": "d. For further information visit: Housing Licensing Social Impact Report Fee changes from 1 April 2026 - New Selective licence fees"
+      },
+      {
+       "date": "1 April 2026",
+       "kind": "start",
+       "context": "Impact Report Fee changes from 1 April 2026 - New Selective licence fees will apply from 1 April 2026. Apply for an individual prop"
+      },
+      {
+       "date": "01 December 2023",
+       "kind": "start",
+       "context": "e) When do I apply for a new licence? The second scheme of selective licensing started on 01 December 2023. If your licence has expired,"
+      },
+      {
+       "date": "1 December 2023",
+       "kind": "start",
+       "context": "icensing and Mandatory Licensing. If your property does not need a Selective Licence from 1 December 2023 it may still need one of thes"
+      },
+      {
+       "date": "1 December 2023",
+       "kind": "start",
+       "context": "nts If someone rents a home in Nottingham City the landlord probably needs a licence from 1 December 2023. Click here to see if your pr"
+      },
+      {
+       "date": "1 December 2023",
+       "kind": "start",
+       "context": "operty needs a licence Page Click here For information on HMOs and licensing Webpage From 1 December 2023 Tenants in Nottingham should"
+      },
+      {
+       "date": "1 April 2026",
+       "kind": "start",
+       "context": "ink to Documents from GOV.UK How to let - GOV.UK (www.gov.uk) Licence fees Fees Fees from 1 April 2026 Individual Property Licence F"
+      },
+      {
+       "date": "01 December 2023",
+       "kind": "other",
+       "context": "uncil Page Paper application form for Selective Licensing The 2nd licence scheme begun on 01 December 2023. The paper application form i"
+      },
+      {
+       "date": "01 December 2023",
+       "kind": "other",
+       "context": "ocessing paper application £113 Block licence application The 2nd licence scheme begun on 01 December 2023. Please find below the follow"
+      }
+     ],
+     "designation_links": [
+      {
+       "text": "proposed designation and check if your property is within the proposed area",
+       "url": "https://geoserver.nottinghamcity.gov.uk/myproperty/?c=housing"
+      },
+      {
+       "text": "Sealed Designation",
+       "url": "https://www.nottinghamcity.gov.uk/media/cg0eetgl/sealed-designation.pdf"
+      },
+      {
+       "text": "Selective Licensing 2 Public Notice 2023",
+       "url": "https://www.nottinghamcity.gov.uk/media/wojdrsqs/selective-licensing-2-public-notice-2023.docx"
+      }
+     ],
+     "first_seen": "2026-11-06T15:56:15+00:00",
+     "changed": null,
+     "checked": "2026-11-06T15:56:15+00:00",
+     "score": 3
+    },
+    {
+     "url": "https://nottinghamcity.gov.uk/information-for-residents/housing/private-rented-accommodation/information-for-landlords/licensing-for-landlords/additional-licensing",
+     "title": "Additional Licensing - Nottingham City Council",
+     "hash": "02c485b174ae0a28",
+     "selective": true,
+     "additional": true,
+     "signals": [],
+     "fees": [
+      {
+       "amount": "£697",
+       "context": "ard – For non-accredited landlords Application fee up to 9 bedrooms 1st Payment (Part A): £697 2nd Payment (Part B): £910 Total: £1607 Less Compliant – Ap"
+      },
+      {
+       "amount": "£910",
+       "context": "ndlords Application fee up to 9 bedrooms 1st Payment (Part A): £697 2nd Payment (Part B): £910 Total: £1607 Less Compliant – Application fee up to 9 bedro"
+      },
+      {
+       "amount": "£160",
+       "context": "ication fee up to 9 bedrooms 1st Payment (Part A): £697 2nd Payment (Part B): £910 Total: £1607 Less Compliant – Application fee up to 9 bedrooms See fee"
+      },
+      {
+       "amount": "£148",
+       "context": "ore details when this fee may be applied 1st Payment (Part A): £697 2nd Payment (Part B): £1483 Total: £2180 Accredited – The proposed licence holder is a"
+      },
+      {
+       "amount": "£218",
+       "context": "hen this fee may be applied 1st Payment (Part A): £697 2nd Payment (Part B): £1483 Total: £2180 Accredited – The proposed licence holder is accredited wit"
+      },
+      {
+       "amount": "£513",
+       "context": "r ANUK) Application fee up to 9 bedrooms 1st Payment (Part A): £697 2nd Payment (Part B): £513 Total: £1210 Description Fee Comments Extra Bedroom Fee £29"
+      },
+      {
+       "amount": "£121",
+       "context": "ication fee up to 9 bedrooms 1st Payment (Part A): £697 2nd Payment (Part B): £513 Total: £1210 Description Fee Comments Extra Bedroom Fee £29 When an HMO"
+      },
+      {
+       "amount": "£67",
+       "context": "is paid. This fee shall be payable on request. Extra copy documentation (6–10 documents) £67 Extra copy documentation (11–30 documents) £100 Extra copy"
+      }
+     ],
+     "dates": [
+      {
+       "date": "1 April 2026",
+       "kind": "start",
+       "context": "low: Contact Us Online HMO Licence Fees & Payments HMO Fees Description Comments Fee from 1 April 2026 Standard – For non-accredited"
+      }
+     ],
+     "designation_links": [
+      {
+       "text": "Sealed Designation",
+       "url": "https://nottinghamcity.gov.uk/media/xcxdoy2p/designation-of-an-area-for-additional-licensing-of-houses-in-multiple-occupation-2024-signed-by-nc.pdf"
+      },
+      {
+       "text": "Public Notice",
+       "url": "https://nottinghamcity.gov.uk/media/bgfhjo3b/al3-public-notice-final.pdf"
+      }
+     ],
+     "first_seen": "2026-11-06T15:56:15+00:00",
+     "changed": null,
+     "checked": "2026-11-06T15:56:15+00:00",
+     "score": 3
+    }
+   ],
    "auto": {
-    "selective": false,
-    "additional": false,
-    "status": "None found",
+    "selective": true,
+    "additional": true,
+    "status": "Pages found",
     "signals": [],
-    "fees": [],
-    "designation_links": [],
+    "fees": [
+     "£67",
+     "£121",
+     "£148",
+     "£160",
+     "£218",
+     "£290",
+     "£469",
+     "£470"
+    ],
+    "designation_links": [
+     {
+      "text": "proposed designation and check if your property is within the proposed area",
+      "url": "https://geoserver.nottinghamcity.gov.uk/myproperty/?c=housing"
+     },
+     {
+      "text": "Sealed Designation",
+      "url": "https://www.nottinghamcity.gov.uk/media/cg0eetgl/sealed-designation.pdf"
+     },
+     {
+      "text": "Selective Licensing 2 Public Notice 2023",
+      "url": "https://www.nottinghamcity.gov.uk/media/wojdrsqs/selective-licensing-2-public-notice-2023.docx"
+     },
+     {
+      "text": "Sealed Designation",
+      "url": "https://nottinghamcity.gov.uk/media/xcxdoy2p/designation-of-an-area-for-additional-licensing-of-houses-in-multiple-occupation-2024-signed-by-nc.pdf"
+     },
+     {
+      "text": "Public Notice",
+      "url": "https://nottinghamcity.gov.uk/media/bgfhjo3b/al3-public-notice-final.pdf"
+     }
+    ],
     "last_changed": null
    },
-   "manual": []
-  },
-  {
-   "gss": "E10000024",
-   "name": "Nottinghamshire",
-   "website": "https://www.nottinghamshire.gov.uk",
-   "discovery": {
-    "method": "none found",
-    "when": "2026-11-05T20:21:16+00:00",
-    "candidates": 0
-   },
-   "pages": [],
-   "auto": {
-    "selective": false,
-    "additional": false,
-    "status": "None found",
-    "signals": [],
-    "fees": [],
-    "designation_links": [],
-    "last_changed": null
-   },
-   "manual": []
+   "manual": [
+    {
+     "gss": "E06000018",
+     "council": "Nottingham",
+     "scheme_type": "Selective",
+     "scheme_name": "",
+     "status": "",
+     "coverage": "",
+     "start_date": "",
+     "end_date": "",
+     "fee": "",
+     "discounted_fee": "",
+     "page_url": "https://www.nottinghamcity.gov.uk/information-for-residents/housing/private-rented-accommodation/information-for-landlords/licensing-for-landlords/selective-licensing/",
+     "designation_url": "",
+     "verified_by": "",
+     "verified_on": "",
+     "notes": "Seeded from web search 5 Nov 2026; page address only, scheme details not yet verified"
+    },
+    {
+     "gss": "E06000018",
+     "council": "Nottingham",
+     "scheme_type": "Additional",
+     "scheme_name": "",
+     "status": "",
+     "coverage": "",
+     "start_date": "",
+     "end_date": "",
+     "fee": "",
+     "discounted_fee": "",
+     "page_url": "https://nottinghamcity.gov.uk/information-for-residents/housing/private-rented-accommodation/information-for-landlords/licensing-for-landlords/additional-licensing",
+     "designation_url": "",
+     "verified_by": "",
+     "verified_on": "",
+     "notes": "Seeded from web search 5 Nov 2026; page address only, scheme details not yet verified"
+    }
+   ]
   },
   {
    "gss": "E07000219",
@@ -12783,7 +13405,7 @@
     {
      "url": "https://www.nuneatonandbedworth.gov.uk/downloads/file/141/hmo-licence-application-pack",
      "error": "HTTP 200",
-     "checked": "2026-11-05T23:41:46+00:00"
+     "checked": "2026-11-06T15:56:16+00:00"
     }
    ],
    "auto": {
@@ -12898,7 +13520,7 @@
      ],
      "first_seen": "2026-11-05T20:21:17+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:46+00:00",
+     "checked": "2026-11-06T15:56:16+00:00",
      "score": 5
     }
    ],
@@ -12979,7 +13601,7 @@
      ],
      "first_seen": "2026-11-05T20:21:20+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:46+00:00",
+     "checked": "2026-11-06T15:56:17+00:00",
      "score": 5
     },
     {
@@ -13014,7 +13636,7 @@
      ],
      "first_seen": "2026-11-05T20:22:12+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:43:57+00:00",
+     "checked": "2026-11-06T15:58:28+00:00",
      "score": 5
     },
     {
@@ -13031,7 +13653,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:22:14+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:43:59+00:00",
+     "checked": "2026-11-06T15:58:29+00:00",
      "score": 5
     },
     {
@@ -13066,7 +13688,7 @@
      ],
      "first_seen": "2026-11-05T20:22:16+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:44:01+00:00",
+     "checked": "2026-11-06T15:58:32+00:00",
      "score": 5
     },
     {
@@ -13081,7 +13703,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:22:18+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:44:03+00:00",
+     "checked": "2026-11-06T15:58:33+00:00",
      "score": 3
     },
     {
@@ -13096,7 +13718,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:22:20+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:44:05+00:00",
+     "checked": "2026-11-06T15:58:35+00:00",
      "score": 3
     },
     {
@@ -13131,13 +13753,13 @@
      ],
      "first_seen": "2026-11-05T20:22:22+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:44:07+00:00",
+     "checked": "2026-11-06T15:58:37+00:00",
      "score": 3
     },
     {
      "url": "https://www.oldham.gov.uk/selective_licensing",
      "error": "ConnectTimeout",
-     "checked": "2026-11-05T23:43:57+00:00"
+     "checked": "2026-11-06T15:58:27+00:00"
     }
    ],
    "auto": {
@@ -13187,7 +13809,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:10:06+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:48+00:00",
+     "checked": "2026-11-06T15:56:19+00:00",
      "score": 10
     },
     {
@@ -13233,7 +13855,7 @@
      ],
      "first_seen": "2026-11-05T20:10:07+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:50+00:00",
+     "checked": "2026-11-06T15:56:21+00:00",
      "score": 7
     },
     {
@@ -13250,7 +13872,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:10:09+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:54+00:00",
+     "checked": "2026-11-06T15:56:25+00:00",
      "score": 7
     },
     {
@@ -13290,28 +13912,28 @@
      ],
      "first_seen": "2026-11-05T20:10:12+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:00+00:00",
+     "checked": "2026-11-06T15:56:31+00:00",
      "score": 7
     },
     {
      "url": "https://www.oxford.gov.uk/downloads/file/1570/consultation-on-selective-and-additional-hmo-licensing-in-the-private-rented-sector-in-oxford---report-of-findings-january-2021",
      "error": "HTTP 200",
-     "checked": "2026-11-05T23:41:46+00:00"
+     "checked": "2026-11-06T15:56:18+00:00"
     },
     {
      "url": "https://www.oxford.gov.uk/downloads/file/1739/selective-licensing-designation-for-holywell-ward",
      "error": "HTTP 200",
-     "checked": "2026-11-05T23:41:52+00:00"
+     "checked": "2026-11-06T15:56:23+00:00"
     },
     {
      "url": "https://www.oxford.gov.uk/downloads/file/1636/selective-licensing-consultation-report---february-2021",
      "error": "HTTP 200",
-     "checked": "2026-11-05T23:41:56+00:00"
+     "checked": "2026-11-06T15:56:27+00:00"
     },
     {
      "url": "https://www.oxford.gov.uk/downloads/file/1738/selective-licensing-designation-for-23-wards-except-holywell",
      "error": "HTTP 200",
-     "checked": "2026-11-05T23:41:58+00:00"
+     "checked": "2026-11-06T15:56:29+00:00"
     }
    ],
    "auto": {
@@ -13362,27 +13984,6 @@
    "manual": []
   },
   {
-   "gss": "E10000025",
-   "name": "Oxfordshire",
-   "website": "https://www.oxfordshire.gov.uk",
-   "discovery": {
-    "method": "none found",
-    "when": "2026-11-05T20:21:27+00:00",
-    "candidates": 0
-   },
-   "pages": [],
-   "auto": {
-    "selective": false,
-    "additional": false,
-    "status": "None found",
-    "signals": [],
-    "fees": [],
-    "designation_links": [],
-    "last_changed": null
-   },
-   "manual": []
-  },
-  {
    "gss": "E07000122",
    "name": "Pendle",
    "website": "https://www.pendle.gov.uk",
@@ -13391,17 +13992,73 @@
     "when": "2026-11-05T20:21:27+00:00",
     "candidates": 0
    },
-   "pages": [],
+   "pages": [
+    {
+     "url": "https://www.pendle.gov.uk/newsroomarchive/news/article/65/do_you_live_in_or_let_a_private_rented_home_in_colne",
+     "title": "Do you live in or let a private rented home in Colne? - Pendle News Room",
+     "hash": "c06f8157ebcafe3b",
+     "selective": true,
+     "additional": false,
+     "signals": [
+      "consultation_open"
+     ],
+     "fees": [
+      {
+       "amount": "£770",
+       "context": "properties. A licence will typically last for a maximum of five years and carry a fee of £770 per property, with the possibility of a reduced fee for ear"
+      }
+     ],
+     "dates": [
+      {
+       "date": "21st September 2016",
+       "kind": "other",
+       "context": "? Latest News Do you live in or let a private rented home in Colne? Published: Wednesday, 21st September 2016 If you live in or let a priva"
+      },
+      {
+       "date": "7 November 2016",
+       "kind": "end",
+       "context": "the scheme including tenants, local residents and businesses. You can have your say until 7 November 2016. For more information or to c"
+      }
+     ],
+     "designation_links": [],
+     "first_seen": "2026-11-06T15:56:20+00:00",
+     "changed": null,
+     "checked": "2026-11-06T15:56:20+00:00",
+     "score": 0
+    }
+   ],
    "auto": {
-    "selective": false,
+    "selective": true,
     "additional": false,
-    "status": "None found",
-    "signals": [],
-    "fees": [],
+    "status": "Consultation open",
+    "signals": [
+     "consultation_open"
+    ],
+    "fees": [
+     "£770"
+    ],
     "designation_links": [],
     "last_changed": null
    },
-   "manual": []
+   "manual": [
+    {
+     "gss": "E07000122",
+     "council": "Pendle",
+     "scheme_type": "Selective",
+     "scheme_name": "",
+     "status": "",
+     "coverage": "",
+     "start_date": "",
+     "end_date": "",
+     "fee": "",
+     "discounted_fee": "",
+     "page_url": "https://www.pendle.gov.uk/newsroomarchive/news/article/65/do_you_live_in_or_let_a_private_rented_home_in_colne",
+     "designation_url": "",
+     "verified_by": "",
+     "verified_on": "",
+     "notes": "Seeded from web search 5 Nov 2026; page address only, scheme details not yet verified"
+    }
+   ]
   },
   {
    "gss": "E06000031",
@@ -13487,7 +14144,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:10:13+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:48+00:00",
+     "checked": "2026-11-06T15:56:22+00:00",
      "score": 7
     },
     {
@@ -13521,7 +14178,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:10:20+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:50+00:00",
+     "checked": "2026-11-06T15:56:23+00:00",
      "score": 7
     },
     {
@@ -13559,7 +14216,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:10:32+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:52+00:00",
+     "checked": "2026-11-06T15:56:25+00:00",
      "score": 5
     },
     {
@@ -13613,7 +14270,7 @@
      ],
      "first_seen": "2026-11-05T20:10:32+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:53+00:00",
+     "checked": "2026-11-06T15:56:27+00:00",
      "score": 5
     },
     {
@@ -13648,7 +14305,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:10:33+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:55+00:00",
+     "checked": "2026-11-06T15:56:29+00:00",
      "score": -2
     }
    ],
@@ -13721,7 +14378,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:21:34+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:53+00:00",
+     "checked": "2026-11-06T15:56:23+00:00",
      "score": -2,
      "error": "HTTP 403"
     },
@@ -13737,7 +14394,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:21:35+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:54+00:00",
+     "checked": "2026-11-06T15:56:25+00:00",
      "score": -2,
      "error": "HTTP 403"
     }
@@ -13814,7 +14471,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:21:32+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:54+00:00",
+     "checked": "2026-11-06T15:56:25+00:00",
      "score": 6
     },
     {
@@ -13836,7 +14493,7 @@
      ],
      "first_seen": "2026-11-05T20:21:34+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:56+00:00",
+     "checked": "2026-11-06T15:56:27+00:00",
      "score": 5
     },
     {
@@ -13858,7 +14515,7 @@
      ],
      "first_seen": "2026-11-05T20:21:36+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:58+00:00",
+     "checked": "2026-11-06T15:56:29+00:00",
      "score": 5
     },
     {
@@ -13873,7 +14530,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:21:39+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:00+00:00",
+     "checked": "2026-11-06T15:56:31+00:00",
      "score": 1
     },
     {
@@ -13919,7 +14576,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:21:40+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:02+00:00",
+     "checked": "2026-11-06T15:56:33+00:00",
      "score": 0
     },
     {
@@ -13940,7 +14597,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:21:42+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:04+00:00",
+     "checked": "2026-11-06T15:56:35+00:00",
      "score": 0
     },
     {
@@ -13971,7 +14628,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:21:44+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:06+00:00",
+     "checked": "2026-11-06T15:56:37+00:00",
      "score": -2
     }
    ],
@@ -14068,7 +14725,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:21:35+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:55+00:00",
+     "checked": "2026-11-06T15:56:27+00:00",
      "score": 11
     },
     {
@@ -14107,7 +14764,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:21:37+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:57+00:00",
+     "checked": "2026-11-06T15:56:28+00:00",
      "score": 11
     },
     {
@@ -14169,7 +14826,7 @@
      ],
      "first_seen": "2026-11-05T20:21:39+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:59+00:00",
+     "checked": "2026-11-06T15:56:30+00:00",
      "score": 4
     }
    ],
@@ -14278,7 +14935,7 @@
      ],
      "first_seen": "2026-11-05T20:21:36+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:56+00:00",
+     "checked": "2026-11-06T15:56:30+00:00",
      "score": 5
     },
     {
@@ -14293,7 +14950,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:21:38+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:58+00:00",
+     "checked": "2026-11-06T15:56:31+00:00",
      "score": 4
     },
     {
@@ -14308,7 +14965,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:21:40+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:00+00:00",
+     "checked": "2026-11-06T15:56:33+00:00",
      "score": 4
     },
     {
@@ -14323,7 +14980,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:21:42+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:02+00:00",
+     "checked": "2026-11-06T15:56:35+00:00",
      "score": 3
     },
     {
@@ -14346,7 +15003,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:21:44+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:04+00:00",
+     "checked": "2026-11-06T15:56:37+00:00",
      "score": 3
     },
     {
@@ -14361,7 +15018,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:21:46+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:06+00:00",
+     "checked": "2026-11-06T15:56:39+00:00",
      "score": -5
     }
    ],
@@ -14403,7 +15060,13 @@
     "when": "2026-11-05T20:21:39+00:00",
     "candidates": 0
    },
-   "pages": [],
+   "pages": [
+    {
+     "url": "https://www.redcar-cleveland.gov.uk/housing/housing-standards/selective-licensing",
+     "error": "HTTP 403",
+     "checked": "2026-11-06T15:56:31+00:00"
+    }
+   ],
    "auto": {
     "selective": false,
     "additional": false,
@@ -14413,7 +15076,25 @@
     "designation_links": [],
     "last_changed": null
    },
-   "manual": []
+   "manual": [
+    {
+     "gss": "E06000003",
+     "council": "Redcar and Cleveland",
+     "scheme_type": "Selective",
+     "scheme_name": "",
+     "status": "",
+     "coverage": "",
+     "start_date": "",
+     "end_date": "",
+     "fee": "",
+     "discounted_fee": "",
+     "page_url": "https://www.redcar-cleveland.gov.uk/housing/housing-standards/selective-licensing",
+     "designation_url": "",
+     "verified_by": "",
+     "verified_on": "",
+     "notes": "Seeded from web search 5 Nov 2026; page address only, scheme details not yet verified"
+    }
+   ]
   },
   {
    "gss": "E07000236",
@@ -14437,7 +15118,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:21:48+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:41:59+00:00",
+     "checked": "2026-11-06T15:56:32+00:00",
      "score": -2
     }
    ],
@@ -14540,13 +15221,13 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:21:45+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:00+00:00",
+     "checked": "2026-11-06T15:56:32+00:00",
      "score": 5
     },
     {
      "url": "https://www.rochdale.gov.uk/landlord-licensing",
      "error": "HTTP 404",
-     "checked": "2026-11-05T23:42:03+00:00"
+     "checked": "2026-11-06T15:56:33+00:00"
     },
     {
      "url": "https://www.rochdale.gov.uk/hmolicence",
@@ -14581,28 +15262,28 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:21:49+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:04+00:00",
+     "checked": "2026-11-06T15:56:36+00:00",
      "score": 0
     },
     {
      "url": "https://www.rochdale.gov.uk/landlordlicence",
      "error": "HTTP 404",
-     "checked": "2026-11-05T23:42:06+00:00"
+     "checked": "2026-11-06T15:56:37+00:00"
     },
     {
      "url": "https://www.rochdale.gov.uk/landlordlicense",
      "error": "HTTP 404",
-     "checked": "2026-11-05T23:42:08+00:00"
+     "checked": "2026-11-06T15:56:39+00:00"
     },
     {
      "url": "https://www.rochdale.gov.uk/landlordlicenses",
      "error": "HTTP 404",
-     "checked": "2026-11-05T23:42:10+00:00"
+     "checked": "2026-11-06T15:56:41+00:00"
     },
     {
      "url": "https://www.rochdale.gov.uk/landlordlicences",
      "error": "HTTP 404",
-     "checked": "2026-11-05T23:42:12+00:00"
+     "checked": "2026-11-06T15:56:43+00:00"
     },
     {
      "url": "https://www.rochdale.gov.uk/houses-multiple-occupation-hmos/hmo-licensing-register",
@@ -14616,7 +15297,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:21:59+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:14+00:00",
+     "checked": "2026-11-06T15:56:46+00:00",
      "score": 0
     }
    ],
@@ -14676,7 +15357,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:21:47+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:01+00:00",
+     "checked": "2026-11-06T15:56:33+00:00",
      "score": -2
     }
    ],
@@ -14734,7 +15415,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:21:56+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:02+00:00",
+     "checked": "2026-11-06T15:56:34+00:00",
      "score": 0
     }
    ],
@@ -14771,7 +15452,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:21:49+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:02+00:00",
+     "checked": "2026-11-06T15:56:35+00:00",
      "score": 5
     },
     {
@@ -14814,7 +15495,7 @@
      ],
      "first_seen": "2026-11-05T20:21:51+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:04+00:00",
+     "checked": "2026-11-06T15:56:37+00:00",
      "score": 5
     },
     {
@@ -14847,7 +15528,7 @@
      ],
      "first_seen": "2026-11-05T20:21:53+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:06+00:00",
+     "checked": "2026-11-06T15:56:39+00:00",
      "score": 5
     },
     {
@@ -14867,7 +15548,7 @@
      ],
      "first_seen": "2026-11-05T20:21:55+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:08+00:00",
+     "checked": "2026-11-06T15:56:41+00:00",
      "score": 5
     },
     {
@@ -14933,7 +15614,7 @@
      ],
      "first_seen": "2026-11-05T20:21:57+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:10+00:00",
+     "checked": "2026-11-06T15:56:43+00:00",
      "score": 5
     },
     {
@@ -14953,7 +15634,7 @@
      ],
      "first_seen": "2026-11-05T20:21:59+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:12+00:00",
+     "checked": "2026-11-06T15:56:45+00:00",
      "score": 5
     },
     {
@@ -14975,7 +15656,7 @@
      ],
      "first_seen": "2026-11-05T20:22:01+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:14+00:00",
+     "checked": "2026-11-06T15:56:47+00:00",
      "score": 5
     },
     {
@@ -15003,7 +15684,7 @@
      ],
      "first_seen": "2026-11-05T20:22:03+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:16+00:00",
+     "checked": "2026-11-06T15:56:49+00:00",
      "score": 5
     }
    ],
@@ -15018,10 +15699,10 @@
     "fees": [
      "£276",
      "£276.00",
-     "£476",
      "£476.00",
-     "£699",
+     "£476",
      "£699.00",
+     "£699",
      "£849.00",
      "£975.00"
     ],
@@ -15095,7 +15776,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:21:51+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:04+00:00",
+     "checked": "2026-11-06T15:56:38+00:00",
      "score": 0
     },
     {
@@ -15123,7 +15804,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:21:53+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:05+00:00",
+     "checked": "2026-11-06T15:56:39+00:00",
      "score": 0
     }
    ],
@@ -15315,7 +15996,7 @@
      ],
      "first_seen": "2026-11-05T20:10:08+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:06+00:00",
+     "checked": "2026-11-06T15:56:39+00:00",
      "score": 8
     },
     {
@@ -15348,7 +16029,7 @@
      ],
      "first_seen": "2026-11-05T20:10:09+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:08+00:00",
+     "checked": "2026-11-06T15:56:40+00:00",
      "score": 8
     },
     {
@@ -15450,7 +16131,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:10:10+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:10+00:00",
+     "checked": "2026-11-06T15:56:42+00:00",
      "score": 6
     },
     {
@@ -15474,7 +16155,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:10:11+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:12+00:00",
+     "checked": "2026-11-06T15:56:44+00:00",
      "score": 6
     },
     {
@@ -15489,7 +16170,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:10:12+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:14+00:00",
+     "checked": "2026-11-06T15:56:46+00:00",
      "score": 6
     },
     {
@@ -15506,7 +16187,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:10:13+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:16+00:00",
+     "checked": "2026-11-06T15:56:48+00:00",
      "score": 6
     },
     {
@@ -15521,7 +16202,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:10:14+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:18+00:00",
+     "checked": "2026-11-06T15:56:51+00:00",
      "score": 6
     },
     {
@@ -15549,7 +16230,7 @@
      ],
      "first_seen": "2026-11-05T20:10:15+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:20+00:00",
+     "checked": "2026-11-06T15:56:52+00:00",
      "score": 6
     }
    ],
@@ -15613,7 +16294,7 @@
      ],
      "first_seen": "2026-11-05T20:22:04+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:08+00:00",
+     "checked": "2026-11-06T15:56:41+00:00",
      "score": 7
     },
     {
@@ -15633,7 +16314,7 @@
      ],
      "first_seen": "2026-11-05T20:22:08+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:12+00:00",
+     "checked": "2026-11-06T15:56:45+00:00",
      "score": 7
     },
     {
@@ -15653,7 +16334,7 @@
      ],
      "first_seen": "2026-11-05T20:22:12+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:16+00:00",
+     "checked": "2026-11-06T15:56:49+00:00",
      "score": 7
     },
     {
@@ -15670,28 +16351,28 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:22:14+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:18+00:00",
+     "checked": "2026-11-06T15:56:51+00:00",
      "score": 7
     },
     {
      "url": "https://www.sandwell.gov.uk/downloads/file/1336/additional-licensing-scheme-designation",
      "error": "HTTP 200",
-     "checked": "2026-11-05T23:42:06+00:00"
+     "checked": "2026-11-06T15:56:40+00:00"
     },
     {
      "url": "https://www.sandwell.gov.uk/downloads/file/2838/additional-licensing-scheme-designation-2024",
      "error": "HTTP 200",
-     "checked": "2026-11-05T23:42:10+00:00"
+     "checked": "2026-11-06T15:56:44+00:00"
     },
     {
      "url": "https://www.sandwell.gov.uk/downloads/file/2839/additional-licensing-scheme-designation---public-notice-2024",
      "error": "HTTP 200",
-     "checked": "2026-11-05T23:42:14+00:00"
+     "checked": "2026-11-06T15:56:47+00:00"
     },
     {
      "url": "https://www.sandwell.gov.uk/downloads/file/2840/revocation-of-additional-licensing-designation-2022---public-notice",
      "error": "HTTP 200",
-     "checked": "2026-11-05T23:42:20+00:00"
+     "checked": "2026-11-06T15:56:53+00:00"
     }
    ],
    "auto": {
@@ -15805,7 +16486,7 @@
      ],
      "first_seen": "2026-11-05T20:22:07+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:06+00:00",
+     "checked": "2026-11-06T15:56:40+00:00",
      "score": 5
     }
    ],
@@ -15879,7 +16560,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:22:13+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:07+00:00",
+     "checked": "2026-11-06T15:56:41+00:00",
      "score": 5
     },
     {
@@ -15907,7 +16588,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:22:14+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:09+00:00",
+     "checked": "2026-11-06T15:56:43+00:00",
      "score": 5
     },
     {
@@ -15941,7 +16622,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:22:16+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:11+00:00",
+     "checked": "2026-11-06T15:56:44+00:00",
      "score": 5
     },
     {
@@ -15962,7 +16643,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:22:19+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:13+00:00",
+     "checked": "2026-11-06T15:56:47+00:00",
      "score": 0
     }
    ],
@@ -16023,7 +16704,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:22:17+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:13+00:00",
+     "checked": "2026-11-06T15:56:41+00:00",
      "score": 4
     },
     {
@@ -16044,7 +16725,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:22:19+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:14+00:00",
+     "checked": "2026-11-06T15:56:43+00:00",
      "score": 4
     },
     {
@@ -16065,7 +16746,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:22:21+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:16+00:00",
+     "checked": "2026-11-06T15:56:45+00:00",
      "score": 4
     },
     {
@@ -16080,7 +16761,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:22:23+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:18+00:00",
+     "checked": "2026-11-06T15:56:47+00:00",
      "score": 4
     },
     {
@@ -16108,7 +16789,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:22:25+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:20+00:00",
+     "checked": "2026-11-06T15:56:49+00:00",
      "score": 4
     },
     {
@@ -16123,7 +16804,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:22:27+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:22+00:00",
+     "checked": "2026-11-06T15:56:51+00:00",
      "score": 4
     },
     {
@@ -16149,7 +16830,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:22:29+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:24+00:00",
+     "checked": "2026-11-06T15:56:53+00:00",
      "score": 4
     },
     {
@@ -16164,7 +16845,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:22:31+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:26+00:00",
+     "checked": "2026-11-06T15:56:55+00:00",
      "score": 4
     }
    ],
@@ -16253,7 +16934,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:22:54+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:13+00:00",
+     "checked": "2026-11-06T15:56:48+00:00",
      "score": 0
     }
    ],
@@ -16416,7 +17097,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:22:32+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:14+00:00",
+     "checked": "2026-11-06T15:56:48+00:00",
      "score": 0
     },
     {
@@ -16437,7 +17118,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:22:34+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:16+00:00",
+     "checked": "2026-11-06T15:56:49+00:00",
      "score": 0
     },
     {
@@ -16452,7 +17133,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:22:36+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:18+00:00",
+     "checked": "2026-11-06T15:56:52+00:00",
      "score": -2
     }
    ],
@@ -16541,24 +17222,29 @@
    },
    "pages": [
     {
+     "url": "https://www.southtyneside.gov.uk/article/1784/Selective-licensing-scheme",
+     "error": "HTTP 403",
+     "checked": "2026-11-06T15:56:49+00:00"
+    },
+    {
      "url": "https://www.southtyneside.gov.uk/article/7314/Additional-and-selective-licensing",
      "error": "HTTP 403",
-     "checked": "2026-11-05T23:42:14+00:00"
+     "checked": "2026-11-06T15:56:50+00:00"
     },
     {
      "url": "https://www.southtyneside.gov.uk/article/1384/Landlord-licences",
      "error": "HTTP 403",
-     "checked": "2026-11-05T23:42:16+00:00"
+     "checked": "2026-11-06T15:56:52+00:00"
     },
     {
      "url": "https://www.southtyneside.gov.uk/article/7313/Checking-a-HMO-licence",
      "error": "HTTP 403",
-     "checked": "2026-11-05T23:42:18+00:00"
+     "checked": "2026-11-06T15:56:54+00:00"
     },
     {
      "url": "https://www.southtyneside.gov.uk/article/7302/Apply-for-renew-or-change-an-HMO-licence",
      "error": "HTTP 403",
-     "checked": "2026-11-05T23:42:20+00:00"
+     "checked": "2026-11-06T15:56:56+00:00"
     }
    ],
    "auto": {
@@ -16570,7 +17256,25 @@
     "designation_links": [],
     "last_changed": null
    },
-   "manual": []
+   "manual": [
+    {
+     "gss": "E08000023",
+     "council": "South Tyneside",
+     "scheme_type": "Selective",
+     "scheme_name": "",
+     "status": "",
+     "coverage": "",
+     "start_date": "",
+     "end_date": "",
+     "fee": "",
+     "discounted_fee": "",
+     "page_url": "https://www.southtyneside.gov.uk/article/1784/Selective-licensing-scheme",
+     "designation_url": "",
+     "verified_by": "",
+     "verified_on": "",
+     "notes": "Seeded from web search 5 Nov 2026; page address only, scheme details not yet verified"
+    }
+   ]
   },
   {
    "gss": "E06000045",
@@ -16581,17 +17285,121 @@
     "when": "2026-11-05T20:22:42+00:00",
     "candidates": 0
    },
-   "pages": [],
+   "pages": [
+    {
+     "url": "https://southampton.gov.uk/council-democracy/have-your-say/licensing-scheme-for-houses-in-multiple-occupation-hmos-consultation",
+     "title": "Licensing Scheme for Houses in Multiple Occupation (HMOs) Consultation",
+     "hash": "6e2ecb0c9bc373e3",
+     "selective": true,
+     "additional": false,
+     "signals": [
+      "consultation",
+      "consultation_open"
+     ],
+     "fees": [],
+     "dates": [
+      {
+       "date": "26 February 2025",
+       "kind": "end",
+       "context": "Have your say on the changes to the licensing scheme The consultation closes on Wednesday 26 February 2025 . You can also email your con"
+      }
+     ],
+     "designation_links": [],
+     "first_seen": "2026-11-06T15:56:50+00:00",
+     "changed": null,
+     "checked": "2026-11-06T15:56:50+00:00",
+     "score": 2
+    },
+    {
+     "url": "https://www.southampton.gov.uk/housing/landlords/houses-multiple-occupation/licences",
+     "title": "Criteria for house in multiple occupation (HMO) licensing",
+     "hash": "c996552ff2465832",
+     "selective": false,
+     "additional": true,
+     "signals": [],
+     "fees": [],
+     "dates": [
+      {
+       "date": "1 October 2025",
+       "kind": "start",
+       "context": "scheme. Additional HMO licensing A new Additional HMO licensing scheme is in effect from 1 October 2025 until 30 September 2030. The"
+      },
+      {
+       "date": "30 September 2030",
+       "kind": "start",
+       "context": "MO licensing A new Additional HMO licensing scheme is in effect from 1 October 2025 until 30 September 2030. The new designation requires"
+      },
+      {
+       "date": "1 October 2025",
+       "kind": "start",
+       "context": "ou must apply for this licence within three months of the start of the scheme, that being 1 October 2025. Failure to submit an applica"
+      }
+     ],
+     "designation_links": [
+      {
+       "text": "designation notice",
+       "url": "https://www.southampton.gov.uk/media/fdenxzhi/additional-hmo-licensing-scheme-designation-notice-july-2025.pdf"
+      }
+     ],
+     "first_seen": "2026-11-06T15:56:49+00:00",
+     "changed": null,
+     "checked": "2026-11-06T15:56:49+00:00",
+     "score": 0
+    }
+   ],
    "auto": {
-    "selective": false,
-    "additional": false,
-    "status": "None found",
-    "signals": [],
+    "selective": true,
+    "additional": true,
+    "status": "Consultation open",
+    "signals": [
+     "consultation",
+     "consultation_open"
+    ],
     "fees": [],
-    "designation_links": [],
+    "designation_links": [
+     {
+      "text": "designation notice",
+      "url": "https://www.southampton.gov.uk/media/fdenxzhi/additional-hmo-licensing-scheme-designation-notice-july-2025.pdf"
+     }
+    ],
     "last_changed": null
    },
-   "manual": []
+   "manual": [
+    {
+     "gss": "E06000045",
+     "council": "Southampton",
+     "scheme_type": "Additional",
+     "scheme_name": "",
+     "status": "",
+     "coverage": "",
+     "start_date": "",
+     "end_date": "",
+     "fee": "",
+     "discounted_fee": "",
+     "page_url": "https://www.southampton.gov.uk/housing/landlords/houses-multiple-occupation/licences",
+     "designation_url": "",
+     "verified_by": "",
+     "verified_on": "",
+     "notes": "Seeded from web search 5 Nov 2026; page address only, scheme details not yet verified"
+    },
+    {
+     "gss": "E06000045",
+     "council": "Southampton",
+     "scheme_type": "Additional",
+     "scheme_name": "",
+     "status": "",
+     "coverage": "",
+     "start_date": "",
+     "end_date": "",
+     "fee": "",
+     "discounted_fee": "",
+     "page_url": "https://southampton.gov.uk/council-democracy/have-your-say/licensing-scheme-for-houses-in-multiple-occupation-hmos-consultation",
+     "designation_url": "",
+     "verified_by": "",
+     "verified_on": "",
+     "notes": "Seeded from web search 5 Nov 2026; page address only, scheme details not yet verified"
+    }
+   ]
   },
   {
    "gss": "E06000033",
@@ -16628,7 +17436,7 @@
      ],
      "first_seen": "2026-11-05T20:22:47+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:20+00:00",
+     "checked": "2026-11-06T15:56:54+00:00",
      "score": 5
     },
     {
@@ -16645,7 +17453,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:22:49+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:22+00:00",
+     "checked": "2026-11-06T15:56:56+00:00",
      "score": 5
     },
     {
@@ -16675,7 +17483,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:22:51+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:24+00:00",
+     "checked": "2026-11-06T15:56:58+00:00",
      "score": 5
     },
     {
@@ -16692,7 +17500,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:22:53+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:26+00:00",
+     "checked": "2026-11-06T15:57:00+00:00",
      "score": 5
     },
     {
@@ -16707,7 +17515,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:22:55+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:28+00:00",
+     "checked": "2026-11-06T15:57:02+00:00",
      "score": 5
     },
     {
@@ -16722,18 +17530,18 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:22:57+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:30+00:00",
+     "checked": "2026-11-06T15:57:04+00:00",
      "score": 5
     },
     {
      "url": "https://www.southend.gov.uk/downloads/file/6966/public-notice---designation-of-an-area-for-selective-licensing",
      "error": "HTTP 200",
-     "checked": "2026-11-05T23:42:17+00:00"
+     "checked": "2026-11-06T15:56:51+00:00"
     },
     {
      "url": "https://www.southend.gov.uk/downloads/file/6988/selective-licensing---council-responses-to-consultation-comments",
      "error": "HTTP 200",
-     "checked": "2026-11-05T23:42:18+00:00"
+     "checked": "2026-11-06T15:56:52+00:00"
     }
    ],
    "auto": {
@@ -16781,7 +17589,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:22:49+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:19+00:00",
+     "checked": "2026-11-06T15:56:53+00:00",
      "score": 4
     },
     {
@@ -16796,7 +17604,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:22:51+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:20+00:00",
+     "checked": "2026-11-06T15:56:54+00:00",
      "score": 4
     },
     {
@@ -16811,7 +17619,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:22:53+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:23+00:00",
+     "checked": "2026-11-06T15:56:57+00:00",
      "score": 4
     },
     {
@@ -16839,7 +17647,7 @@
      ],
      "first_seen": "2026-11-05T20:22:55+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:24+00:00",
+     "checked": "2026-11-06T15:56:59+00:00",
      "score": 4
     },
     {
@@ -16854,7 +17662,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:22:57+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:27+00:00",
+     "checked": "2026-11-06T15:57:00+00:00",
      "score": 4
     },
     {
@@ -16874,7 +17682,7 @@
      ],
      "first_seen": "2026-11-05T20:22:58+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:29+00:00",
+     "checked": "2026-11-06T15:57:03+00:00",
      "score": 4
     },
     {
@@ -16889,7 +17697,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:23:01+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:31+00:00",
+     "checked": "2026-11-06T15:57:05+00:00",
      "score": 4
     },
     {
@@ -16910,7 +17718,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:23:03+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:32+00:00",
+     "checked": "2026-11-06T15:57:06+00:00",
      "score": 4
     }
    ],
@@ -16955,7 +17763,7 @@
     {
      "url": "http://default/page/503/privacy-notice-houses-multiple-occupation-hmo-licence",
      "error": "ConnectionError",
-     "checked": "2026-11-05T23:42:29+00:00"
+     "checked": "2026-11-06T15:57:01+00:00"
     }
    ],
    "auto": {
@@ -17012,7 +17820,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:22:57+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:21+00:00",
+     "checked": "2026-11-06T15:56:54+00:00",
      "score": 0
     },
     {
@@ -17033,7 +17841,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:22:58+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:22+00:00",
+     "checked": "2026-11-06T15:56:56+00:00",
      "score": -2
     }
    ],
@@ -17055,27 +17863,6 @@
    "discovery": {
     "method": "none found",
     "when": "2026-11-05T20:23:00+00:00",
-    "candidates": 0
-   },
-   "pages": [],
-   "auto": {
-    "selective": false,
-    "additional": false,
-    "status": "None found",
-    "signals": [],
-    "fees": [],
-    "designation_links": [],
-    "last_changed": null
-   },
-   "manual": []
-  },
-  {
-   "gss": "E10000028",
-   "name": "Staffordshire",
-   "website": "https://www.staffordshire.gov.uk",
-   "discovery": {
-    "method": "none found",
-    "when": "2026-11-05T20:23:05+00:00",
     "candidates": 0
    },
    "pages": [],
@@ -17162,7 +17949,18 @@
     "when": "2026-11-05T20:23:09+00:00",
     "candidates": 0
    },
-   "pages": [],
+   "pages": [
+    {
+     "url": "https://www.stockton.gov.uk/article/14526/The-purpose-of-Selective-Licensing-and-who-it-applies-to",
+     "error": "HTTP 403",
+     "checked": "2026-11-06T15:56:55+00:00"
+    },
+    {
+     "url": "https://stockton.gov.uk/selective-licensing-scheme-2023",
+     "error": "HTTP 403",
+     "checked": "2026-11-06T15:56:55+00:00"
+    }
+   ],
    "auto": {
     "selective": false,
     "additional": false,
@@ -17172,7 +17970,42 @@
     "designation_links": [],
     "last_changed": null
    },
-   "manual": []
+   "manual": [
+    {
+     "gss": "E06000004",
+     "council": "Stockton-on-Tees",
+     "scheme_type": "Selective",
+     "scheme_name": "",
+     "status": "",
+     "coverage": "",
+     "start_date": "",
+     "end_date": "",
+     "fee": "",
+     "discounted_fee": "",
+     "page_url": "https://www.stockton.gov.uk/article/14526/The-purpose-of-Selective-Licensing-and-who-it-applies-to",
+     "designation_url": "https://www.stockton.gov.uk/media/6381/Selective-Licensing-Notice-Draft-May-2024/pdf/Selective_Licensing_Notice_Draft_-_May_2024_-_new_version.pdf",
+     "verified_by": "",
+     "verified_on": "",
+     "notes": "Seeded from web search 5 Nov 2026; page address only, scheme details not yet verified"
+    },
+    {
+     "gss": "E06000004",
+     "council": "Stockton-on-Tees",
+     "scheme_type": "Selective",
+     "scheme_name": "",
+     "status": "",
+     "coverage": "",
+     "start_date": "",
+     "end_date": "",
+     "fee": "",
+     "discounted_fee": "",
+     "page_url": "https://stockton.gov.uk/selective-licensing-scheme-2023",
+     "designation_url": "",
+     "verified_by": "",
+     "verified_on": "",
+     "notes": "Seeded from web search 5 Nov 2026; page address only, scheme details not yet verified"
+    }
+   ]
   },
   {
    "gss": "E06000021",
@@ -17204,7 +18037,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:10:08+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:21+00:00",
+     "checked": "2026-11-06T15:56:56+00:00",
      "score": 5
     },
     {
@@ -17219,7 +18052,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:10:09+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:22+00:00",
+     "checked": "2026-11-06T15:56:57+00:00",
      "score": 5
     },
     {
@@ -17234,7 +18067,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:10:10+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:24+00:00",
+     "checked": "2026-11-06T15:56:59+00:00",
      "score": 5
     }
    ],
@@ -17273,7 +18106,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:23:10+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:23+00:00",
+     "checked": "2026-11-06T15:56:58+00:00",
      "score": -2
     }
    ],
@@ -17310,27 +18143,6 @@
    "manual": []
   },
   {
-   "gss": "E10000029",
-   "name": "Suffolk",
-   "website": "https://www.suffolk.gov.uk",
-   "discovery": {
-    "method": "none found",
-    "when": "2026-11-05T20:23:15+00:00",
-    "candidates": 0
-   },
-   "pages": [],
-   "auto": {
-    "selective": false,
-    "additional": false,
-    "status": "None found",
-    "signals": [],
-    "fees": [],
-    "designation_links": [],
-    "last_changed": null
-   },
-   "manual": []
-  },
-  {
    "gss": "E08000024",
    "name": "Sunderland",
    "website": "https://www.sunderland.gov.uk",
@@ -17339,7 +18151,13 @@
     "when": "2026-11-05T20:23:15+00:00",
     "candidates": 0
    },
-   "pages": [],
+   "pages": [
+    {
+     "url": "https://sunderland.gov.uk/article/29669/Have-your-say-on-licensing-in-Sunderland",
+     "error": "HTTP 403",
+     "checked": "2026-11-06T15:56:57+00:00"
+    }
+   ],
    "auto": {
     "selective": false,
     "additional": false,
@@ -17349,28 +18167,25 @@
     "designation_links": [],
     "last_changed": null
    },
-   "manual": []
-  },
-  {
-   "gss": "E10000030",
-   "name": "Surrey",
-   "website": "https://www.surreycc.gov.uk",
-   "discovery": {
-    "method": "none found",
-    "when": "2026-11-05T20:23:19+00:00",
-    "candidates": 0
-   },
-   "pages": [],
-   "auto": {
-    "selective": false,
-    "additional": false,
-    "status": "None found",
-    "signals": [],
-    "fees": [],
-    "designation_links": [],
-    "last_changed": null
-   },
-   "manual": []
+   "manual": [
+    {
+     "gss": "E08000024",
+     "council": "Sunderland",
+     "scheme_type": "",
+     "scheme_name": "",
+     "status": "",
+     "coverage": "",
+     "start_date": "",
+     "end_date": "",
+     "fee": "",
+     "discounted_fee": "",
+     "page_url": "https://sunderland.gov.uk/article/29669/Have-your-say-on-licensing-in-Sunderland",
+     "designation_url": "",
+     "verified_by": "",
+     "verified_on": "",
+     "notes": "Seeded from web search 5 Nov 2026; page address only, scheme details not yet verified"
+    }
+   ]
   },
   {
    "gss": "E07000214",
@@ -17415,7 +18230,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:23:19+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:24+00:00",
+     "checked": "2026-11-06T15:56:58+00:00",
      "score": 0
     },
     {
@@ -17435,7 +18250,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:23:21+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:26+00:00",
+     "checked": "2026-11-06T15:56:59+00:00",
      "score": -2
     }
    ],
@@ -17495,7 +18310,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:23:23+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:25+00:00",
+     "checked": "2026-11-06T15:56:59+00:00",
      "score": 5
     },
     {
@@ -17510,7 +18325,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:23:25+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:27+00:00",
+     "checked": "2026-11-06T15:57:00+00:00",
      "score": -2
     },
     {
@@ -17525,7 +18340,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:23:27+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:29+00:00",
+     "checked": "2026-11-06T15:57:02+00:00",
      "score": -2
     },
     {
@@ -17540,7 +18355,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:23:29+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:31+00:00",
+     "checked": "2026-11-06T15:57:04+00:00",
      "score": -2
     },
     {
@@ -17555,7 +18370,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:23:31+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:33+00:00",
+     "checked": "2026-11-06T15:57:06+00:00",
      "score": -2
     }
    ],
@@ -17856,7 +18671,7 @@
      ],
      "first_seen": "2026-11-05T20:23:47+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:27+00:00",
+     "checked": "2026-11-06T15:57:01+00:00",
      "score": 3
     },
     {
@@ -17876,7 +18691,7 @@
      ],
      "first_seen": "2026-11-05T20:23:49+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:28+00:00",
+     "checked": "2026-11-06T15:57:02+00:00",
      "score": 3
     }
    ],
@@ -18103,7 +18918,7 @@
      ],
      "first_seen": "2026-11-05T20:23:41+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:27+00:00",
+     "checked": "2026-11-06T15:57:00+00:00",
      "score": 9
     },
     {
@@ -18166,7 +18981,7 @@
      ],
      "first_seen": "2026-11-05T20:23:43+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:29+00:00",
+     "checked": "2026-11-06T15:57:02+00:00",
      "score": 9
     },
     {
@@ -18214,7 +19029,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:23:45+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:31+00:00",
+     "checked": "2026-11-06T15:57:04+00:00",
      "score": 5
     },
     {
@@ -18231,7 +19046,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:23:48+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:33+00:00",
+     "checked": "2026-11-06T15:57:05+00:00",
      "score": 5
     },
     {
@@ -18279,7 +19094,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:23:49+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:35+00:00",
+     "checked": "2026-11-06T15:57:07+00:00",
      "score": 5
     },
     {
@@ -18296,7 +19111,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:23:51+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:37+00:00",
+     "checked": "2026-11-06T15:57:10+00:00",
      "score": 5
     },
     {
@@ -18311,7 +19126,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:23:53+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:39+00:00",
+     "checked": "2026-11-06T15:57:12+00:00",
      "score": 4
     },
     {
@@ -18326,7 +19141,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:23:55+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:41+00:00",
+     "checked": "2026-11-06T15:57:14+00:00",
      "score": 4
     }
    ],
@@ -18392,7 +19207,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:23:48+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:28+00:00",
+     "checked": "2026-11-06T15:57:02+00:00",
      "score": 0,
      "error": "HTTP 403"
     },
@@ -18408,7 +19223,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:23:50+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:30+00:00",
+     "checked": "2026-11-06T15:57:03+00:00",
      "score": 0,
      "error": "HTTP 403"
     },
@@ -18441,7 +19256,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:23:52+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:32+00:00",
+     "checked": "2026-11-06T15:57:05+00:00",
      "score": -2,
      "error": "HTTP 403"
     }
@@ -18559,7 +19374,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:23:57+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:29+00:00",
+     "checked": "2026-11-06T15:57:02+00:00",
      "score": -2
     }
    ],
@@ -18609,7 +19424,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:24:01+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:30+00:00",
+     "checked": "2026-11-06T15:57:03+00:00",
      "score": 3
     },
     {
@@ -18668,7 +19483,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:24:03+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:32+00:00",
+     "checked": "2026-11-06T15:57:05+00:00",
      "score": -1
     },
     {
@@ -18683,7 +19498,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:24:05+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:34+00:00",
+     "checked": "2026-11-06T15:57:07+00:00",
      "score": -5
     }
    ],
@@ -18743,7 +19558,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:24:01+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:31+00:00",
+     "checked": "2026-11-06T15:57:06+00:00",
      "score": 9
     },
     {
@@ -18785,7 +19600,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:24:03+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:33+00:00",
+     "checked": "2026-11-06T15:57:07+00:00",
      "score": 9
     },
     {
@@ -18827,7 +19642,7 @@
      ],
      "first_seen": "2026-11-05T20:24:05+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:35+00:00",
+     "checked": "2026-11-06T15:57:09+00:00",
      "score": 6
     },
     {
@@ -18853,7 +19668,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:24:07+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:37+00:00",
+     "checked": "2026-11-06T15:57:11+00:00",
      "score": 5
     },
     {
@@ -18870,7 +19685,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:24:09+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:39+00:00",
+     "checked": "2026-11-06T15:57:13+00:00",
      "score": 4
     },
     {
@@ -18896,7 +19711,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:24:11+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:41+00:00",
+     "checked": "2026-11-06T15:57:15+00:00",
      "score": 4
     },
     {
@@ -18911,7 +19726,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:24:13+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:43+00:00",
+     "checked": "2026-11-06T15:57:17+00:00",
      "score": 4
     },
     {
@@ -18926,7 +19741,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:24:15+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:45+00:00",
+     "checked": "2026-11-06T15:57:19+00:00",
      "score": 4
     }
    ],
@@ -19023,7 +19838,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:24:07+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:32+00:00",
+     "checked": "2026-11-06T15:57:05+00:00",
      "score": -2,
      "error": "HTTP 403"
     }
@@ -19061,27 +19876,6 @@
    "manual": []
   },
   {
-   "gss": "E10000031",
-   "name": "Warwickshire",
-   "website": "https://www.warwickshire.gov.uk",
-   "discovery": {
-    "method": "none found",
-    "when": "2026-11-05T20:24:12+00:00",
-    "candidates": 0
-   },
-   "pages": [],
-   "auto": {
-    "selective": false,
-    "additional": false,
-    "status": "None found",
-    "signals": [],
-    "fees": [],
-    "designation_links": [],
-    "last_changed": null
-   },
-   "manual": []
-  },
-  {
    "gss": "E07000103",
    "name": "Watford",
    "website": "https://www.watford.gov.uk",
@@ -19103,7 +19897,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:24:13+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:33+00:00",
+     "checked": "2026-11-06T15:57:06+00:00",
      "score": 0
     }
    ],
@@ -19155,7 +19949,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:24:14+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:34+00:00",
+     "checked": "2026-11-06T15:58:34+00:00",
      "score": 0
     }
    ],
@@ -19288,7 +20082,7 @@
     {
      "url": "https://www.west-lindsey.gov.uk/council-democracy/have-your-say/consultations/previous-consultations/selective-licensing-consultation-2022",
      "title": "Selective Licensing Consultation 2022 | West Lindsey District Council",
-     "hash": "a998a4326d068332",
+     "hash": "dabf332489168244",
      "selective": true,
      "additional": false,
      "signals": [
@@ -19319,14 +20113,14 @@
      ],
      "designation_links": [],
      "first_seen": "2026-11-05T20:24:25+00:00",
-     "changed": null,
-     "checked": "2026-11-05T23:42:34+00:00",
+     "changed": "2026-11-06T15:57:08+00:00",
+     "checked": "2026-11-06T15:57:08+00:00",
      "score": 7
     },
     {
      "url": "https://www.west-lindsey.gov.uk/council-news/2022/03/statement-re-selective-licensing",
      "title": "Archived News: Statement re: Selective Licensing | West Lindsey District Council",
-     "hash": "e7e69d693ff3b5a5",
+     "hash": "ca748d50a94cfc64",
      "selective": true,
      "additional": false,
      "signals": [
@@ -19352,14 +20146,14 @@
      ],
      "designation_links": [],
      "first_seen": "2026-11-05T20:24:27+00:00",
-     "changed": null,
-     "checked": "2026-11-05T23:42:36+00:00",
+     "changed": "2026-11-06T15:57:10+00:00",
+     "checked": "2026-11-06T15:57:10+00:00",
      "score": 5
     },
     {
      "url": "https://www.west-lindsey.gov.uk/housing-homelessness/private-sector-housing/selective-licensing",
      "title": "Selective Licensing | West Lindsey District Council",
-     "hash": "f5827b1709919d00",
+     "hash": "bed9dd459ef82bda",
      "selective": true,
      "additional": false,
      "signals": [
@@ -19391,8 +20185,8 @@
      ],
      "designation_links": [],
      "first_seen": "2026-11-05T20:24:29+00:00",
-     "changed": null,
-     "checked": "2026-11-05T23:42:38+00:00",
+     "changed": "2026-11-06T15:57:12+00:00",
+     "checked": "2026-11-06T15:57:12+00:00",
      "score": 5
     }
    ],
@@ -19406,7 +20200,7 @@
     ],
     "fees": [],
     "designation_links": [],
-    "last_changed": null
+    "last_changed": "2026-11-06T15:57:12+00:00"
    },
    "manual": []
   },
@@ -19445,7 +20239,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:24:24+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:33+00:00",
+     "checked": "2026-11-06T15:57:07+00:00",
      "score": 0
     },
     {
@@ -19466,7 +20260,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:24:26+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:35+00:00",
+     "checked": "2026-11-06T15:57:09+00:00",
      "score": -2
     }
    ],
@@ -19526,31 +20320,10 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:24:28+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:35+00:00",
+     "checked": "2026-11-06T15:57:10+00:00",
      "score": 0
     }
    ],
-   "auto": {
-    "selective": false,
-    "additional": false,
-    "status": "None found",
-    "signals": [],
-    "fees": [],
-    "designation_links": [],
-    "last_changed": null
-   },
-   "manual": []
-  },
-  {
-   "gss": "E10000032",
-   "name": "West Sussex",
-   "website": "https://www.westsussex.gov.uk",
-   "discovery": {
-    "method": "none found",
-    "when": "2026-11-05T20:24:29+00:00",
-    "candidates": 0
-   },
-   "pages": [],
    "auto": {
     "selective": false,
     "additional": false,
@@ -19615,7 +20388,7 @@
      ],
      "first_seen": "2026-11-05T20:24:32+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:35+00:00",
+     "checked": "2026-11-06T15:57:10+00:00",
      "score": 11
     },
     {
@@ -19666,7 +20439,7 @@
      ],
      "first_seen": "2026-11-05T20:24:34+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:36+00:00",
+     "checked": "2026-11-06T15:57:11+00:00",
      "score": 10
     },
     {
@@ -19692,7 +20465,7 @@
      ],
      "first_seen": "2026-11-05T20:24:36+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:38+00:00",
+     "checked": "2026-11-06T15:57:13+00:00",
      "score": 9
     },
     {
@@ -19723,7 +20496,7 @@
      ],
      "first_seen": "2026-11-05T20:24:38+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:40+00:00",
+     "checked": "2026-11-06T15:57:15+00:00",
      "score": 9
     },
     {
@@ -19749,7 +20522,7 @@
      ],
      "first_seen": "2026-11-05T20:24:40+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:42+00:00",
+     "checked": "2026-11-06T15:57:17+00:00",
      "score": 9
     },
     {
@@ -19775,7 +20548,7 @@
      ],
      "first_seen": "2026-11-05T20:24:42+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:44+00:00",
+     "checked": "2026-11-06T15:57:19+00:00",
      "score": 9
     },
     {
@@ -19801,7 +20574,7 @@
      ],
      "first_seen": "2026-11-05T20:24:44+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:47+00:00",
+     "checked": "2026-11-06T15:57:21+00:00",
      "score": 9
     },
     {
@@ -19829,7 +20602,7 @@
      ],
      "first_seen": "2026-11-05T20:24:46+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:48+00:00",
+     "checked": "2026-11-06T15:57:23+00:00",
      "score": 7
     }
    ],
@@ -19900,7 +20673,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:24:33+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:36+00:00",
+     "checked": "2026-11-06T15:57:11+00:00",
      "score": 0
     }
    ],
@@ -20009,7 +20782,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:24:41+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:35+00:00",
+     "checked": "2026-11-06T15:57:11+00:00",
      "score": 0,
      "error": "HTTP 202"
     },
@@ -20025,7 +20798,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:24:43+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:37+00:00",
+     "checked": "2026-11-06T15:57:13+00:00",
      "score": 0,
      "error": "HTTP 202"
     },
@@ -20054,7 +20827,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:24:44+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:39+00:00",
+     "checked": "2026-11-06T15:57:15+00:00",
      "score": -2,
      "error": "HTTP 202"
     }
@@ -20175,7 +20948,7 @@
      ],
      "first_seen": "2026-11-05T20:24:40+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:36+00:00",
+     "checked": "2026-11-06T15:57:13+00:00",
      "score": 3
     },
     {
@@ -20228,7 +21001,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:24:42+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:38+00:00",
+     "checked": "2026-11-06T15:57:14+00:00",
      "score": 3
     },
     {
@@ -20286,7 +21059,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:24:45+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:40+00:00",
+     "checked": "2026-11-06T15:57:17+00:00",
      "score": 3
     },
     {
@@ -20344,7 +21117,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:24:46+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:42+00:00",
+     "checked": "2026-11-06T15:57:19+00:00",
      "score": 3
     },
     {
@@ -20367,7 +21140,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:24:49+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:44+00:00",
+     "checked": "2026-11-06T15:57:21+00:00",
      "score": -2
     }
    ],
@@ -20474,7 +21247,7 @@
      ],
      "first_seen": "2026-11-05T20:24:37+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:38+00:00",
+     "checked": "2026-11-06T15:57:14+00:00",
      "score": 7,
      "error": "HTTP 403"
     },
@@ -20513,7 +21286,7 @@
      ],
      "first_seen": "2026-11-05T20:24:39+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:40+00:00",
+     "checked": "2026-11-06T15:57:16+00:00",
      "score": 5,
      "error": "HTTP 403"
     },
@@ -20552,7 +21325,7 @@
      ],
      "first_seen": "2026-11-05T20:24:42+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:42+00:00",
+     "checked": "2026-11-06T15:57:18+00:00",
      "score": 3,
      "error": "HTTP 403"
     },
@@ -20573,7 +21346,7 @@
      ],
      "first_seen": "2026-11-05T20:24:43+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:44+00:00",
+     "checked": "2026-11-06T15:57:20+00:00",
      "score": 2,
      "error": "HTTP 403"
     },
@@ -20627,7 +21400,7 @@
      ],
      "first_seen": "2026-11-05T20:24:45+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:46+00:00",
+     "checked": "2026-11-06T15:57:22+00:00",
      "score": 0,
      "error": "HTTP 403"
     },
@@ -20648,7 +21421,7 @@
      ],
      "first_seen": "2026-11-05T20:24:47+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:48+00:00",
+     "checked": "2026-11-06T15:57:24+00:00",
      "score": -2,
      "error": "HTTP 403"
     },
@@ -20669,7 +21442,7 @@
      ],
      "first_seen": "2026-11-05T20:24:49+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:50+00:00",
+     "checked": "2026-11-06T15:57:26+00:00",
      "score": -2,
      "error": "HTTP 403"
     }
@@ -20713,7 +21486,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:24:38+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:40+00:00",
+     "checked": "2026-11-06T15:57:15+00:00",
      "score": 0
     }
    ],
@@ -20756,27 +21529,6 @@
    "discovery": {
     "method": "none found",
     "when": "2026-11-05T20:24:44+00:00",
-    "candidates": 0
-   },
-   "pages": [],
-   "auto": {
-    "selective": false,
-    "additional": false,
-    "status": "None found",
-    "signals": [],
-    "fees": [],
-    "designation_links": [],
-    "last_changed": null
-   },
-   "manual": []
-  },
-  {
-   "gss": "E10000034",
-   "name": "Worcestershire",
-   "website": "https://www.worcestershire.gov.uk",
-   "discovery": {
-    "method": "none found",
-    "when": "2026-11-05T20:24:51+00:00",
     "candidates": 0
    },
    "pages": [],
@@ -20927,7 +21679,7 @@
      ],
      "first_seen": "2026-11-05T20:24:53+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:40+00:00",
+     "checked": "2026-11-06T15:57:16+00:00",
      "score": 5
     },
     {
@@ -20972,7 +21724,7 @@
      ],
      "first_seen": "2026-11-05T20:24:54+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:42+00:00",
+     "checked": "2026-11-06T15:57:18+00:00",
      "score": 5
     },
     {
@@ -20989,7 +21741,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:24:57+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:44+00:00",
+     "checked": "2026-11-06T15:57:20+00:00",
      "score": 5
     },
     {
@@ -21006,7 +21758,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:24:59+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:46+00:00",
+     "checked": "2026-11-06T15:57:22+00:00",
      "score": 5
     },
     {
@@ -21021,7 +21773,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:25:01+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:48+00:00",
+     "checked": "2026-11-06T15:57:24+00:00",
      "score": 5
     },
     {
@@ -21080,7 +21832,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:25:03+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:50+00:00",
+     "checked": "2026-11-06T15:57:26+00:00",
      "score": 5
     },
     {
@@ -21101,7 +21853,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:25:05+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:52+00:00",
+     "checked": "2026-11-06T15:57:28+00:00",
      "score": 5
     },
     {
@@ -21149,7 +21901,7 @@
      "designation_links": [],
      "first_seen": "2026-11-05T20:25:07+00:00",
      "changed": null,
-     "checked": "2026-11-05T23:42:54+00:00",
+     "checked": "2026-11-06T15:57:30+00:00",
      "score": 1
     }
    ],

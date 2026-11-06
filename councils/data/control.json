@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T23:27:28+00:00",
+ "generated": "2026-11-06T15:16:28+00:00",
  "source": "Open Council Data UK (opencouncildata.co.uk), CC BY-SA 4.0",
  "count": 318,
  "councils": [
@@ -95,8 +95,8 @@
     "Con": 19,
     "LD": 14,
     "Grn": 5,
-    "Ref": 2,
-    "Oth": 6
+    "Ref": 1,
+    "Oth": 7
    },
    "vacant": 0,
    "total": 54,
@@ -119,15 +119,15 @@
    "lead_party": "LD",
    "status": "Coalition",
    "overall_control": "No overall control",
-   "control_seats": 33,
+   "control_seats": 34,
    "control_seats_approx": true,
-   "working_majority": 12,
+   "working_majority": 14,
    "largest_party": "Con",
    "opposition": {
     "Con": 19,
-    "Ref": 2
+    "Ref": 1
    },
-   "opposition_total": 21
+   "opposition_total": 20
   },
   {
    "ocd_id": 30,
@@ -900,12 +900,12 @@
    "seats": {
     "Lab": 8,
     "Con": 9,
-    "LD": 26,
+    "LD": 27,
     "Grn": 5,
     "Ref": 3,
     "Oth": 24
    },
-   "vacant": 1,
+   "vacant": 0,
    "total": 76,
    "control_description": "LD/IND Majority Coalition",
    "majority_required": 39,
@@ -922,9 +922,9 @@
    "lead_party": "LD",
    "status": "Coalition",
    "overall_control": "No overall control",
-   "control_seats": 50,
+   "control_seats": 51,
    "control_seats_approx": true,
-   "working_majority": 25,
+   "working_majority": 26,
    "largest_party": "LD",
    "opposition": {
     "Con": 9,
@@ -7215,12 +7215,12 @@
    "name": "North East Lincolnshire",
    "control_label": "REF min",
    "seats": {
-    "Lab": 9,
+    "Lab": 10,
     "Con": 10,
     "LD": 3,
     "Grn": 0,
     "Ref": 13,
-    "Oth": 5
+    "Oth": 4
    },
    "vacant": 2,
    "total": 42,
@@ -7243,9 +7243,9 @@
    "working_majority": -14,
    "largest_party": "Ref",
    "opposition": {
+    "Lab": 10,
     "Con": 10,
-    "Lab": 9,
-    "Oth": 5,
+    "Oth": 4,
     "LD": 3
    },
    "opposition_total": 27

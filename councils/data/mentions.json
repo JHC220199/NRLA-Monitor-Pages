@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-05T23:40:29+00:00",
- "count": 106,
+ "generated": "2026-11-06T15:54:56+00:00",
+ "count": 115,
  "mentions": [
   {
    "id": "https://democracy.bristol.gov.uk|12186|Private Rented Sector Strategy|133304",
@@ -51,7 +51,7 @@
     "additional hmo licensing"
    ],
    "stage": "Consultation",
-   "snippet": "Additional HMO Licensing - Future Proposals and Housing Enforcement Policy |  | Additional Notice (for November 2026) - General Exception - Additional HMO Licensing Consultation and Housing Enforcement Policy",
+   "snippet": "Additional HMO Licensing - Future Proposals and Housing Enforcement Policy | Additional Notice (for November 2026) - General Exception - Additional HMO Licensing Consultation and Housing Enforcement Policy",
    "first_seen": "2026-11-05T20:08:47+00:00"
   },
   {
@@ -103,106 +103,6 @@
    "stage": "Mention",
    "snippet": "…tion 30 of The 2004 Act]  Offences in relation to licensing of Houses in Multiple Occupation (HMOs) [Section 72 of The 2004 Act]  Offences in relation to the Selective Licensing of ‘houses’ [Section 95 of The 2004 Act]  Failure to comply with an Overcrowding Notice [Section 139 of The 2004 Act]  Failure to comply with a management regulation in respect of an HMO [Section 234 of The 2004 Act] 1…",
    "first_seen": "2026-11-05T21:13:57+00:00"
-  },
-  {
-   "id": "https://democratic.whitehorsedc.gov.uk|3612|Proper officers and authorised officer appointments|65926",
-   "councils": [
-    {
-     "name": "Vale of White Horse",
-     "gss": "E07000180"
-    }
-   ],
-   "committee": "Constitution",
-   "meeting_date": "2026-10-31",
-   "meeting_url": "https://democratic.whitehorsedc.gov.uk/ieListDocuments.aspx?MId=3612",
-   "item_number": "17s",
-   "item_title": "Proper officers and authorised officer appointments",
-   "doc_title": "Proper officers and authorised officer appointments",
-   "doc_url": "https://democratic.whitehorsedc.gov.uk/mgConvert2PDF.aspx?ID=65926",
-   "source": "report",
-   "tier": "strong",
-   "hit_count": 1,
-   "terms": [
-    "selective licens"
-   ],
-   "stage": "Consultation",
-   "snippet": "…forcement of Housing Standards Director of housing and environment Part 2 Licensing of Houses in Multiple Occupation Director of housing and environment Part 3 Selective licensing of residential accommodation Director of housing and environment Housing Act 2004 Part 4 Additional controls in relation to residential accommodation Director of housing and environment Part 6 Other provisions about hous…",
-   "first_seen": "2026-11-05T21:24:07+00:00"
-  },
-  {
-   "id": "https://democratic.whitehorsedc.gov.uk|3612|Proper officers and authorised officer appointments|agenda",
-   "councils": [
-    {
-     "name": "Vale of White Horse",
-     "gss": "E07000180"
-    }
-   ],
-   "committee": "Constitution",
-   "meeting_date": "2026-10-31",
-   "meeting_url": "https://democratic.whitehorsedc.gov.uk/ieListDocuments.aspx?MId=3612",
-   "item_number": "17s",
-   "item_title": "Proper officers and authorised officer appointments",
-   "doc_title": null,
-   "doc_url": null,
-   "source": "agenda",
-   "tier": "strong",
-   "hit_count": 1,
-   "terms": [
-    "selective licens"
-   ],
-   "stage": "Consultation",
-   "snippet": "…forcement of Housing Standards Director of housing and environment Part 2 Licensing of Houses in Multiple Occupation Director of housing and environment Part 3 Selective licensing of residential accommodation Director of housing and environment Housing Act 2004 Part 4 Additional controls in relation to residential accommodation Director of housing and environment Part 6 Other provisions about hous…",
-   "first_seen": "2026-11-05T21:24:05+00:00"
-  },
-  {
-   "id": "https://democratic.southoxon.gov.uk|3944|Proper officers and authorised officer appointments|40918",
-   "councils": [
-    {
-     "name": "South Oxfordshire",
-     "gss": "E07000179"
-    }
-   ],
-   "committee": "Constitution",
-   "meeting_date": "2026-10-31",
-   "meeting_url": "https://democratic.southoxon.gov.uk/ieListDocuments.aspx?MId=3944",
-   "item_number": "17s",
-   "item_title": "Proper officers and authorised officer appointments",
-   "doc_title": "Proper officers and authorised officer appointments",
-   "doc_url": "https://democratic.southoxon.gov.uk/mgConvert2PDF.aspx?ID=40918",
-   "source": "report",
-   "tier": "strong",
-   "hit_count": 1,
-   "terms": [
-    "selective licens"
-   ],
-   "stage": "Consultation",
-   "snippet": "…forcement of Housing Standards Director of housing and environment Part 2 Licensing of Houses in Multiple Occupation Director of housing and environment Part 3 Selective licensing of residential accommodation Director of housing and environment Housing Act 2004 Part 4 Additional controls in relation to residential accommodation Director of housing and environment Part 6 Other provisions about hous…",
-   "first_seen": "2026-11-05T20:46:09+00:00"
-  },
-  {
-   "id": "https://democratic.southoxon.gov.uk|3944|Proper officers and authorised officer appointments|agenda",
-   "councils": [
-    {
-     "name": "South Oxfordshire",
-     "gss": "E07000179"
-    }
-   ],
-   "committee": "Constitution",
-   "meeting_date": "2026-10-31",
-   "meeting_url": "https://democratic.southoxon.gov.uk/ieListDocuments.aspx?MId=3944",
-   "item_number": "17s",
-   "item_title": "Proper officers and authorised officer appointments",
-   "doc_title": null,
-   "doc_url": null,
-   "source": "agenda",
-   "tier": "strong",
-   "hit_count": 1,
-   "terms": [
-    "selective licens"
-   ],
-   "stage": "Consultation",
-   "snippet": "…forcement of Housing Standards Director of housing and environment Part 2 Licensing of Houses in Multiple Occupation Director of housing and environment Part 3 Selective licensing of residential accommodation Director of housing and environment Housing Act 2004 Part 4 Additional controls in relation to residential accommodation Director of housing and environment Part 6 Other provisions about hous…",
-   "first_seen": "2026-11-05T20:46:07+00:00"
   },
   {
    "id": "https://moderngov.middlesbrough.gov.uk|10565|Selective Landlord Licensing Scrutiny Review: Identification of Recurring Proper|agenda",
@@ -275,7 +175,7 @@
    "terms": [
     "additional hmo licensing"
    ],
-   "stage": "Renewal / review",
+   "stage": "Mention",
    "snippet": "…stered, the Council does not currently have a definitive figure for how many are operating within the Borough. • That the Council does not currently operate an Additional HMO Licensing scheme, which could, where the statutory requirements are met, extend licensing to specified HMOs that are not covered by mandatory licensing. This Council further notes: • That the Council does not currently map th…",
    "first_seen": "2026-11-05T21:20:09+00:00"
   },
@@ -301,8 +201,8 @@
     "additional hmo licence",
     "additional hmo licensing"
    ],
-   "stage": "Consultation",
-   "snippet": "…ent of Houses of Multiple Occupation |  | Scrutiny Report for 22 October 2026. HMOs joint report from Licencing and Planning | Appendix 1 - Map of the proposed additional HMO licence scheme designation | Appendix 2 - Additional Ti HMO Report-Ealing-2026-07-03 | Appendix 3 - Proposed Licence Conditions | Appendix 4 - Proposed Licence Conditions s257 | Appendix 5 - Current Licence Conditions | Appen…",
+   "stage": "Early proposal",
+   "snippet": "…ent of Houses of Multiple Occupation | | Scrutiny Report for 22 October 2026. HMOs joint report from Licencing and Planning | Appendix 1 - Map of the proposed additional HMO licence scheme designation | Appendix 2 - Additional Ti HMO Report-Ealing-2026-07-03 | Appendix 3 - Proposed Licence Conditions | Appendix 4 - Proposed Licence Conditions s257 | Appendix 5 - Current Licence Conditions | Appen…",
    "first_seen": "2026-11-05T20:23:28+00:00"
   },
   {
@@ -379,7 +279,7 @@
     "designation of an area for additional",
     "selective licens"
    ],
-   "stage": "Consultation",
+   "stage": "Early proposal",
    "snippet": "…he location and sustainable concentration of new HMOs rather than prevent good-quality shared housing. Cabinet Report Houses in Multiple Occupation Update 5 b) Additional HMO licensing: The Council could explore the designation of an area for additional licensing of smaller HMOs where evidence shows that a significant proportion of HMOs of the relevant description are being managed ineffectively a…",
    "first_seen": "2026-11-05T20:36:51+00:00"
   },
@@ -406,7 +306,7 @@
     "selective licenc",
     "selective licens"
    ],
-   "stage": "Early proposal",
+   "stage": "Designation decision",
    "snippet": "Report to: TOURISM, ECONOMY AND COMMUNITIES SCRUTINY COMMITTEE Relevant officer: Jennifer Clayton – Head of Public Protection and Enforcement Paul Kirkham – Selective Licensing Delivery Manager Date of meeting: October 2026 12 MONTH REVIEW OF THE IMPLEMENTATION OF THE SELECTIVE LICENSING SCHEME 1.0 Purpose of the report 1.1 To review a 12 month update following the implementation of the selecti…",
    "first_seen": "2026-11-05T20:17:02+00:00"
   },
@@ -431,7 +331,7 @@
    "terms": [
     "selective licens"
    ],
-   "stage": "Mention",
+   "stage": "Designation decision",
    "snippet": "12 MONTH REVIEW OF THE IMPLEMENTATION OF THE SELECTIVE LICENSING SCHEME | To review a 12 month update following the implementation of the selective licensing scheme, which commenced in April 2025. | Item 8 Selective Lic",
    "first_seen": "2026-11-05T20:17:01+00:00"
   },
@@ -460,7 +360,7 @@
     "licensing designation",
     "selective licens"
    ],
-   "stage": "Consultation",
+   "stage": "Mention",
    "snippet": "…planning control, the application of clear concentration or threshold policies (often at both ward and street level), non -adjacency or spacing rules, targeted additional licensing schemes, and data -led, cross-departmental enforcement. T hese approaches are typically framed not as opposition to HMOs in principle, but as proportionate mechanisms for managing scale, distribution and cumulative impa…",
    "first_seen": "2026-11-05T21:19:56+00:00"
   },
@@ -491,7 +391,7 @@
     "selective licenc",
     "selective licens"
    ],
-   "stage": "Consultation",
+   "stage": "Early proposal",
    "snippet": "…to C4) across the city and in doing so determine when this should be. 1.3 Approve that, subject to consultation and detailed design, that the council introduce Additional Licensing for HMOs across the city, to bring smaller HMOs within a formal regulatory framework. 1.4 Approve that, subject to detailed design, the conditions for existing licenses are strengthened. 1.5 Approve the additional finan…",
    "first_seen": "2026-11-05T21:19:56+00:00"
   },
@@ -558,8 +458,8 @@
    "meeting_date": "2026-09-24",
    "meeting_url": "https://mgov.newham.gov.uk/ieListDocuments.aspx?MId=15523",
    "item_number": "6.",
-   "item_title": "Private Rented Sector, Renters&#39; Rights and Landlord Licensing",
-   "doc_title": "PSHS Scrutiny Report - Private Rented Sector, Renters&#39; Rights and Landlord Licensing",
+   "item_title": "Private Rented Sector, Renters' Rights and Landlord Licensing",
+   "doc_title": "PSHS Scrutiny Report - Private Rented Sector, Renters' Rights and Landlord Licensing",
    "doc_url": "https://mgov.newham.gov.uk/mgConvert2PDF.aspx?ID=189674",
    "source": "report",
    "tier": "strong",
@@ -572,7 +472,7 @@
     "property licensing",
     "property licensing scheme"
    ],
-   "stage": "Renewal / review",
+   "stage": "Mention",
    "snippet": "1 LONDON BOROUGH OF NEWHAM Housing and Regeneration Scrutiny Committee Report title Private Rented Sector, Renters' Rights and Landlord Licensing Date of Meeting 24 September 2026 Lead Officer and contact details Zulfiqar Mulak – Director of Housing Needs Helen Masterson – Head of Private Sector Housing Standards Corporate Director Paul Kitson – Corporate Director…",
    "first_seen": "2026-11-05T20:39:24+00:00"
   },
@@ -588,7 +488,7 @@
    "meeting_date": "2026-09-24",
    "meeting_url": "https://mgov.newham.gov.uk/ieListDocuments.aspx?MId=15523",
    "item_number": "6.",
-   "item_title": "Private Rented Sector, Renters&#39; Rights and Landlord Licensing",
+   "item_title": "Private Rented Sector, Renters' Rights and Landlord Licensing",
    "doc_title": null,
    "doc_url": null,
    "source": "agenda",
@@ -597,8 +497,8 @@
    "terms": [
     "landlord licensing"
    ],
-   "stage": "Mention",
-   "snippet": "Private Rented Sector, Renters&#39; Rights and Landlord Licensing | To consider the Council’s approach to supporting residents in the private rented sector including landlord licensing, enforcement activity, standards in privately rented homes, communications to residents and early impl…",
+   "stage": "Early proposal",
+   "snippet": "Private Rented Sector, Renters' Rights and Landlord Licensing | To consider the Council’s approach to supporting residents in the private rented sector including landlord licensing, enforcement activity, standards in privately rented homes, communications to residents and early impl…",
    "first_seen": "2026-11-05T20:39:23+00:00"
   },
   {
@@ -628,7 +528,7 @@
     "selective licenc",
     "selective licens"
    ],
-   "stage": "Renewal / review",
+   "stage": "Mention",
    "snippet": "…Privately Rented Sector Properties ....................13 6.2. Mandatory Houses in Multiple Occupation (HMO) Licensing ................................13 6.3. Additional HMO Licensing ...............................................................................................14 6.4. Selective Licensing ............................................................................................…",
    "first_seen": "2026-11-05T20:26:40+00:00"
   },
@@ -653,7 +553,7 @@
    "terms": [
     "selective licenc"
    ],
-   "stage": "Mention",
+   "stage": "Early proposal",
    "snippet": "…nd non-statutory enforcement functions including (but not limited to) the investigation and enforcement of: • Property disrepair and hazards • Unlicensed HMO / Selective Licences • Minimum Energy Efficiency Standards • High- & Mi Rise Fire Safety • Statutory Nuisances (including accumulations, pest issues and overflowing drainage) • Renters Rights Act ITEM NO: 6 PAGE NO: 3 4.2. The Private Housing…",
    "first_seen": "2026-11-05T20:26:38+00:00"
   },
@@ -669,7 +569,7 @@
    "meeting_date": "2026-09-22",
    "meeting_url": "https://democracy.medway.gov.uk/ieListDocuments.aspx?MId=6551",
    "item_number": "8.",
-   "item_title": "Private Sector Licensing (Additional &amp; Selective Licensing Schemes)",
+   "item_title": "Private Sector Licensing (Additional & Selective Licensing Schemes)",
    "doc_title": "Appendix E",
    "doc_url": "http://democracy.medway.gov.uk/mgConvert2PDF.aspx?ID=91476",
    "source": "report",
@@ -697,7 +597,7 @@
    "meeting_date": "2026-09-22",
    "meeting_url": "https://democracy.medway.gov.uk/ieListDocuments.aspx?MId=6551",
    "item_number": "8.",
-   "item_title": "Private Sector Licensing (Additional &amp; Selective Licensing Schemes)",
+   "item_title": "Private Sector Licensing (Additional & Selective Licensing Schemes)",
    "doc_title": "Appendix C",
    "doc_url": "http://democracy.medway.gov.uk/mgConvert2PDF.aspx?ID=91474",
    "source": "report",
@@ -729,7 +629,7 @@
    "meeting_date": "2026-09-22",
    "meeting_url": "https://democracy.medway.gov.uk/ieListDocuments.aspx?MId=6551",
    "item_number": "8.",
-   "item_title": "Private Sector Licensing (Additional &amp; Selective Licensing Schemes)",
+   "item_title": "Private Sector Licensing (Additional & Selective Licensing Schemes)",
    "doc_title": "Appendix D",
    "doc_url": "http://democracy.medway.gov.uk/mgConvert2PDF.aspx?ID=91475",
    "source": "report",
@@ -739,7 +639,7 @@
     "additional licensing",
     "selective licens"
    ],
-   "stage": "Consultation",
+   "stage": "Mention",
    "snippet": "Appendix D – Additional & Selective Licensing Schemes Medway Council – Selective & Additional Licensing Schemes What is Selective Licensing and how does it work? The Housing Act 2004 gives Councils the power to designate areas within their district as subject to Sel…",
    "first_seen": "2026-11-05T21:10:36+00:00"
   },
@@ -755,7 +655,7 @@
    "meeting_date": "2026-09-22",
    "meeting_url": "https://democracy.medway.gov.uk/ieListDocuments.aspx?MId=6551",
    "item_number": "8.",
-   "item_title": "Private Sector Licensing (Additional &amp; Selective Licensing Schemes)",
+   "item_title": "Private Sector Licensing (Additional & Selective Licensing Schemes)",
    "doc_title": "Appendix B",
    "doc_url": "http://democracy.medway.gov.uk/mgConvert2PDF.aspx?ID=91473",
    "source": "report",
@@ -787,7 +687,7 @@
    "meeting_date": "2026-09-22",
    "meeting_url": "https://democracy.medway.gov.uk/ieListDocuments.aspx?MId=6551",
    "item_number": "8.",
-   "item_title": "Private Sector Licensing (Additional &amp; Selective Licensing Schemes)",
+   "item_title": "Private Sector Licensing (Additional & Selective Licensing Schemes)",
    "doc_title": "Appendix A",
    "doc_url": "http://democracy.medway.gov.uk/mgConvert2PDF.aspx?ID=91472",
    "source": "report",
@@ -819,7 +719,7 @@
    "meeting_date": "2026-09-22",
    "meeting_url": "https://democracy.medway.gov.uk/ieListDocuments.aspx?MId=6551",
    "item_number": "8.",
-   "item_title": "Private Sector Licensing (Additional &amp; Selective Licensing Schemes)",
+   "item_title": "Private Sector Licensing (Additional & Selective Licensing Schemes)",
    "doc_title": "Report",
    "doc_url": "http://democracy.medway.gov.uk/mgConvert2PDF.aspx?ID=91471",
    "source": "report",
@@ -835,7 +735,7 @@
     "section 80 of the housing act",
     "selective licenc"
    ],
-   "stage": "Designation decision",
+   "stage": "Mention",
    "snippet": "Cabinet 22 September 2026 Private Sector Licensing (Additional & Selective Licensing Schemes) Portfolio Holder: Councillor Louwella Prenter, Portfolio Holder for Housing & Homelessness Report from: Adam Bryan, Director of Place Author: Becs Wilcox, Chief Housing Officer Summary The report seeks approval…",
    "first_seen": "2026-11-05T21:10:24+00:00"
   },
@@ -851,7 +751,7 @@
    "meeting_date": "2026-09-22",
    "meeting_url": "https://democracy.medway.gov.uk/ieListDocuments.aspx?MId=6551",
    "item_number": "8.",
-   "item_title": "Private Sector Licensing (Additional &amp; Selective Licensing Schemes)",
+   "item_title": "Private Sector Licensing (Additional & Selective Licensing Schemes)",
    "doc_title": null,
    "doc_url": null,
    "source": "agenda",
@@ -861,8 +761,149 @@
     "selective licens"
    ],
    "stage": "Mention",
-   "snippet": "Private Sector Licensing (Additional &amp; Selective Licensing Schemes) | Report | Appendix A | Appendix B | Appendix C | Appendix D | Appendix E | Appendix F | Appendix G | Addendum Report",
+   "snippet": "Private Sector Licensing (Additional & Selective Licensing Schemes) | Report | Appendix A | Appendix B | Appendix C | Appendix D | Appendix E | Appendix F | Appendix G | Addendum Report",
    "first_seen": "2026-11-05T21:10:23+00:00"
+  },
+  {
+   "id": "https://cmis.norwich.gov.uk/live|1731|REG/26/001 - Consultation on Discretionary Property Licensing of Private Rented |cmis:49888994fe69dafe",
+   "councils": [
+    {
+     "name": "Norwich",
+     "gss": "E07000148"
+    }
+   ],
+   "committee": "Regulatory committee",
+   "meeting_date": "2026-09-17",
+   "meeting_url": "https://cmis.norwich.gov.uk/live/Meetingscalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/1731/Committee/39/SelectedTab/Documents/Default.aspx",
+   "item_number": "4",
+   "item_title": "REG/26/001 - Consultation on Discretionary Property Licensing of Private Rented Sector Housing",
+   "doc_title": "Appendix 2 - Tenure Intelligence (TI) Norwich Report",
+   "doc_url": "https://cmis.norwich.gov.uk/Live/Document.ashx?czJKcaeAi5tUFL1DTL2UE4zNRBcoShgo=8DGcVDtic41p4oRr9k6NlZ0aV1CzdGpCzjA%2bqYhanZKFDg58ULPErw%3d%3d&rUzwRPf%2bZ3zd4E7Ikn8Lyw%3d%3d=pwRE6AGJFLDNlh225F5QMaQWCtPHwdhUfCZ%2fLUQzgA2uL5jNRG4jdQ%3d%3d&mCTIbCubSFfXsDGW9IXnlg%3d%3d=hFflUdN3100%3d&kCx1AnS9%2fpWZQ40DXFvdEw%3d%3d=hFflUdN3100%3d&uJovDxwdjMPoYv%2bAJvYtyA%3d%3d=ctNJFf55vVA%3d&FgPlIEJYlotS%2bYGoBi5olA%3d%3d=NHdURQburHA%3d&d9Qjj0ag1Pd993jsyOJqFvmyB7X0CSQK=ctNJFf55vVA%3d&WGewmoAfeNR9xqBux0r1Q8Za60lavYmz=ctNJFf55vVA%3d&WGewmoAfeNQ16B2MHuCpMRKZMwaG1PaO=ctNJFf55vVA%3d",
+   "source": "report",
+   "tier": "contextual",
+   "hit_count": 3,
+   "terms": [
+    "landlord licensing",
+    "property licensing"
+   ],
+   "stage": "Consultation",
+   "snippet": "…key, which provide detailed analysis at the property level. Data records used to form the foundation of this report include but are not limited to: Council tax Property licensing Other council interventions records Tenancy deposit data Housing benefit Private housing complaints and interventions records ASB complaints and interventions records Energy Performance data 3 Key Findings  The Census 20…",
+   "first_seen": "2026-11-06T15:27:09+00:00"
+  },
+  {
+   "id": "https://cmis.norwich.gov.uk/live|1731|REG/26/001 - Consultation on Discretionary Property Licensing of Private Rented |cmis:d09f43303d7ce2fe",
+   "councils": [
+    {
+     "name": "Norwich",
+     "gss": "E07000148"
+    }
+   ],
+   "committee": "Regulatory committee",
+   "meeting_date": "2026-09-17",
+   "meeting_url": "https://cmis.norwich.gov.uk/live/Meetingscalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/1731/Committee/39/SelectedTab/Documents/Default.aspx",
+   "item_number": "4",
+   "item_title": "REG/26/001 - Consultation on Discretionary Property Licensing of Private Rented Sector Housing",
+   "doc_title": "Appendix 1 - Summary of Evidence for Consultation August 2026",
+   "doc_url": "https://cmis.norwich.gov.uk/Live/Document.ashx?czJKcaeAi5tUFL1DTL2UE4zNRBcoShgo=Dr52ja%2bv1NHRdZa7QoHPm%2bRfHRVwgoyg3GH33gt33661n19vNHTLKA%3d%3d&rUzwRPf%2bZ3zd4E7Ikn8Lyw%3d%3d=pwRE6AGJFLDNlh225F5QMaQWCtPHwdhUfCZ%2fLUQzgA2uL5jNRG4jdQ%3d%3d&mCTIbCubSFfXsDGW9IXnlg%3d%3d=hFflUdN3100%3d&kCx1AnS9%2fpWZQ40DXFvdEw%3d%3d=hFflUdN3100%3d&uJovDxwdjMPoYv%2bAJvYtyA%3d%3d=ctNJFf55vVA%3d&FgPlIEJYlotS%2bYGoBi5olA%3d%3d=NHdURQburHA%3d&d9Qjj0ag1Pd993jsyOJqFvmyB7X0CSQK=ctNJFf55vVA%3d&WGewmoAfeNR9xqBux0r1Q8Za60lavYmz=ctNJFf55vVA%3d&WGewmoAfeNQ16B2MHuCpMRKZMwaG1PaO=ctNJFf55vVA%3d",
+   "source": "report",
+   "tier": "strong",
+   "hit_count": 19,
+   "terms": [
+    "additional licensing",
+    "discretionary licensing",
+    "discretionary property licensing",
+    "property licensing",
+    "property licensing scheme",
+    "selective licens"
+   ],
+   "stage": "Consultation",
+   "snippet": "…tock condition and the pressures affecting both tenants and communities. Norwich faces a number of housing challenges that are relevant to the consideration of discretionary property licensing. DRAFT Page 2 of 20 A growing demand for housing: Norwich's population has increased steadily to around 147,000 residents, placing continued pressure on the housing market and increasing demand for affordabl…",
+   "first_seen": "2026-11-06T15:27:06+00:00"
+  },
+  {
+   "id": "https://cmis.norwich.gov.uk/live|1731|REG/26/001 - Consultation on Discretionary Property Licensing of Private Rented |cmis:27411ff09b90c0c2",
+   "councils": [
+    {
+     "name": "Norwich",
+     "gss": "E07000148"
+    }
+   ],
+   "committee": "Regulatory committee",
+   "meeting_date": "2026-09-17",
+   "meeting_url": "https://cmis.norwich.gov.uk/live/Meetingscalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/1731/Committee/39/SelectedTab/Documents/Default.aspx",
+   "item_number": "4",
+   "item_title": "REG/26/001 - Consultation on Discretionary Property Licensing of Private Rented Sector Housing",
+   "doc_title": "Consultation on Discretionary Property Licensing of Private Rented Sector Housing",
+   "doc_url": "https://cmis.norwich.gov.uk/Live/Document.ashx?czJKcaeAi5tUFL1DTL2UE4zNRBcoShgo=BO6ASG8JWGi%2f1eYpTXvdz%2fuCOaP4SpAojCB3fEYgVwkaGrBKaVIY8A%3d%3d&rUzwRPf%2bZ3zd4E7Ikn8Lyw%3d%3d=pwRE6AGJFLDNlh225F5QMaQWCtPHwdhUfCZ%2fLUQzgA2uL5jNRG4jdQ%3d%3d&mCTIbCubSFfXsDGW9IXnlg%3d%3d=hFflUdN3100%3d&kCx1AnS9%2fpWZQ40DXFvdEw%3d%3d=hFflUdN3100%3d&uJovDxwdjMPoYv%2bAJvYtyA%3d%3d=ctNJFf55vVA%3d&FgPlIEJYlotS%2bYGoBi5olA%3d%3d=NHdURQburHA%3d&d9Qjj0ag1Pd993jsyOJqFvmyB7X0CSQK=ctNJFf55vVA%3d&WGewmoAfeNR9xqBux0r1Q8Za60lavYmz=ctNJFf55vVA%3d&WGewmoAfeNQ16B2MHuCpMRKZMwaG1PaO=ctNJFf55vVA%3d",
+   "source": "report",
+   "tier": "strong",
+   "hit_count": 81,
+   "terms": [
+    "additional hmo licensing",
+    "additional licensing",
+    "discretionary licensing",
+    "discretionary property licensing",
+    "licensing designation",
+    "part 3 of the housing act 2004",
+    "property licensing",
+    "property licensing scheme"
+   ],
+   "stage": "Consultation",
+   "snippet": "2 orwich City Council logo Committee name: Regulatory Committee date: 17/09/2026 Report title: Consultation on Discretionary Property Licensing of Private Rented Sector Housing Portfolio: Councillor Stutely, Deputy Leader and Cabinet Member for Planning and Regulatory Report from: Head of planning and regulatory services Wards: All OPEN PUBLIC ITEM…",
+   "first_seen": "2026-11-06T15:27:04+00:00"
+  },
+  {
+   "id": "https://cmis.norwich.gov.uk/live|1731|REG/26/001 - Consultation on Discretionary Property Licensing of Private Rented |agenda",
+   "councils": [
+    {
+     "name": "Norwich",
+     "gss": "E07000148"
+    }
+   ],
+   "committee": "Regulatory committee",
+   "meeting_date": "2026-09-17",
+   "meeting_url": "https://cmis.norwich.gov.uk/live/Meetingscalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/1731/Committee/39/SelectedTab/Documents/Default.aspx",
+   "item_number": "4",
+   "item_title": "REG/26/001 - Consultation on Discretionary Property Licensing of Private Rented Sector Housing",
+   "doc_title": null,
+   "doc_url": null,
+   "source": "agenda",
+   "tier": "strong",
+   "hit_count": 8,
+   "terms": [
+    "additional licensing",
+    "discretionary licensing",
+    "discretionary property licensing",
+    "selective licens"
+   ],
+   "stage": "Consultation",
+   "snippet": "REG/26/001 - Consultation on Discretionary Property Licensing of Private Rented Sector Housing | The purpose of this report is to present the evidence gathered concerning conditions within Norwich's private rented sector and the proposed Additional and Selective Licens…",
+   "first_seen": "2026-11-06T15:27:02+00:00"
+  },
+  {
+   "id": "https://cmis.hullcc.gov.uk/cmis|11581|Agenda papers|cmis:65a983b15f8a4bc6",
+   "councils": [
+    {
+     "name": "Kingston upon Hull",
+     "gss": "E06000010"
+    }
+   ],
+   "committee": "Full Council",
+   "meeting_date": "2026-09-17",
+   "meeting_url": "https://cmis.hullcc.gov.uk/cmis/CalendarofMeetings/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/11581/Committee/1/SelectedTab/Documents/Default.aspx",
+   "item_number": "",
+   "item_title": "Agenda papers",
+   "doc_title": "Agenda Document Pack - Full Council - 17/09/2026",
+   "doc_url": "https://cmis.hullcc.gov.uk/CMIS/Document.ashx?czJKcaeAi5tUFL1DTL2UE4zNRBcoShgo=R475boHlFGRLspdHi1u9mb9GmeFJrZHDU3tBiE%2fKKSpJKnyK3m7B3w%3d%3d&rUzwRPf%2bZ3zd4E7Ikn8Lyw%3d%3d=pwRE6AGJFLDNlh225F5QMaQWCtPHwdhUfCZ%2fLUQzgA2uL5jNRG4jdQ%3d%3d&mCTIbCubSFfXsDGW9IXnlg%3d%3d=hFflUdN3100%3d&kCx1AnS9%2fpWZQ40DXFvdEw%3d%3d=hFflUdN3100%3d&uJovDxwdjMPoYv%2bAJvYtyA%3d%3d=ctNJFf55vVA%3d&FgPlIEJYlotS%2bYGoBi5olA%3d%3d=NHdURQburHA%3d&d9Qjj0ag1Pd993jsyOJqFvmyB7X0CSQK=ctNJFf55vVA%3d&WGewmoAfeNR9xqBux0r1Q8Za60lavYmz=ctNJFf55vVA%3d&WGewmoAfeNQ16B2MHuCpMRKZMwaG1PaO=ctNJFf55vVA%3d",
+   "source": "report",
+   "tier": "strong",
+   "hit_count": 1,
+   "terms": [
+    "additional licensing"
+   ],
+   "stage": "Early proposal",
+   "snippet": "…Article 4 controls for small HMOs across the city, and to set out what the evidence supports. ● To ask Cabinet to report within three months on introducing an additional licensing scheme covering HMOs that fall below the national mandatory licensing threshold, subject to the applicable legal tests and evidence. ● To ask the Leader of the Council to write to the Secretary of State for Housing, Com…",
+   "first_seen": "2026-11-06T15:23:59+00:00"
   },
   {
    "id": "https://democracy.merton.gov.uk|4825|Confirmation of an immediate Article 4 Direction for Houses in Multiple Occupati|59601",
@@ -886,7 +927,7 @@
     "additional licensing",
     "landlord licensing"
    ],
-   "stage": "Renewal / review",
+   "stage": "Mention",
    "snippet": "…olicy. 50 Merton Liberal Democrats [original response at the end of this document - summary below] Supports a borough-wide Article 4 Direction and borough-wide landlord licensing to improve housing standards and consistency. Welcomes stronger controls on HMOs while recognising their importance as an affordable housing option. Supports protecting a balanced housing mix, including both HMOs and fami…",
    "first_seen": "2026-11-05T20:37:19+00:00"
   },
@@ -912,7 +953,7 @@
     "additional licensing",
     "landlord licensing"
    ],
-   "stage": "Consultation",
+   "stage": "Mention",
    "snippet": "…e a negative impact upon many neighbourhoods with high levels of noise complaints and accumulations of rubbish. The provisions in this report towards requiring additional licensing and planning permissions for small HMOs will help nurture civic pride by driving up standards for tenants and neighbours. Other service delivery priority Organisational development Page 65 Background, options and next s…",
    "first_seen": "2026-11-05T20:37:18+00:00"
   },
@@ -937,7 +978,7 @@
    "terms": [
     "selective licens"
    ],
-   "stage": "Consultation",
+   "stage": "Mention",
    "snippet": "…ransparent billing, clearer consultation and a defined service offer. 7. Increase compliance with private rented sector standards through targeted enforcement, selective licensing, HMO licensing and hazard reduction. This will lead to safer, warmer and higher-quality PRS homes. Priority 4 — Safe, Clean, Green Neighbourhoods Why this matters: Residents want safer estates, enhanced lighting, reliabl…",
    "first_seen": "2026-11-05T20:27:27+00:00"
   },
@@ -963,7 +1004,7 @@
     "landlord licensing",
     "landlord licensing scheme"
    ],
-   "stage": "Mention",
+   "stage": "Early proposal",
    "snippet": "Introduction to New Scrutiny Topic - The Selective Landlord Licensing Scheme / Licensing of Private Rented Properties | The Head of Public Protection and Selective Landlord Licensing Manager will be in attendance to provide an overview on the Selective Landlord Licensing Scheme / Licensing…",
    "first_seen": "2026-11-05T20:38:29+00:00"
   },
@@ -990,7 +1031,7 @@
     "landlord licensing",
     "selective licens"
    ],
-   "stage": "Renewal / review",
+   "stage": "Mention",
    "snippet": "OFFICIAL Landlord Licensing and Private Sector Housing Enforcement HAB September 2026 OFFICIAL Context: Croydon’s Private Rented Sector • 40,000+ private rented dwellings • Majority of landlords own less than 5 properties • Increasing ‘build-to-rent…",
    "first_seen": "2026-11-05T20:08:13+00:00"
   },
@@ -1006,8 +1047,8 @@
    "meeting_date": "2026-09-10",
    "meeting_url": "https://democracy.blackburn.gov.uk/ieListDocuments.aspx?MId=4362",
    "item_number": "15.",
-   "item_title": "EB Housing Standards&#39; &#39;Enforcement Policy&#39;",
-   "doc_title": "Appendix 1 for EB Housing Standards&#39; &#39;Enforcement Policy&#39;",
+   "item_title": "EB Housing Standards' 'Enforcement Policy'",
+   "doc_title": "Appendix 1 for EB Housing Standards' 'Enforcement Policy'",
    "doc_url": "https://democracy.blackburn.gov.uk/mgConvert2PDF.aspx?ID=35139",
    "source": "report",
    "tier": "strong",
@@ -1032,8 +1073,8 @@
    "meeting_date": "2026-09-10",
    "meeting_url": "https://democracy.blackburn.gov.uk/ieListDocuments.aspx?MId=4362",
    "item_number": "15.",
-   "item_title": "EB Housing Standards&#39; &#39;Enforcement Policy&#39;",
-   "doc_title": "EB Housing Standards&#39; &#39;Enforcement Policy&#39;",
+   "item_title": "EB Housing Standards' 'Enforcement Policy'",
+   "doc_title": "EB Housing Standards' 'Enforcement Policy'",
    "doc_url": "https://democracy.blackburn.gov.uk/mgConvert2PDF.aspx?ID=35136",
    "source": "report",
    "tier": "strong",
@@ -1043,9 +1084,157 @@
     "landlord licensing scheme",
     "selective licens"
    ],
-   "stage": "Renewal / review",
+   "stage": "Early proposal",
    "snippet": "…tenants and landlords on their rights and responsibilities regarding living conditions, housing standards and repairs. • Assess, Declare and Monitor Selective Landlord Licensing Areas When required and subject to evidence, the team will investigate and assess areas of poor housing and localised social factors to consider the use of selective licensing powers. Where appropriate the team will help…",
    "first_seen": "2026-11-05T20:16:18+00:00"
+  },
+  {
+   "id": "https://cmis.norwich.gov.uk/live|1701|CAB/26/035 - Consultation on Discretionary Property Licensing of Private Rented |cmis:856356ba1afe8b48",
+   "councils": [
+    {
+     "name": "Norwich",
+     "gss": "E07000148"
+    }
+   ],
+   "committee": "Cabinet",
+   "meeting_date": "2026-09-09",
+   "meeting_url": "https://cmis.norwich.gov.uk/live/Meetingscalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/1701/Committee/1/SelectedTab/Documents/Default.aspx",
+   "item_number": "13",
+   "item_title": "CAB/26/035 - Consultation on Discretionary Property Licensing of Private Rented Sector Housing",
+   "doc_title": "Appendix 2 - Tenure Intelligence (TI) Norwich Report",
+   "doc_url": "https://cmis.norwich.gov.uk/Live/Document.ashx?czJKcaeAi5tUFL1DTL2UE4zNRBcoShgo=qxcHZ%2f6AAXgUIvdQYXtBuO7kE1sDvT068mC86%2fKRKhEAdF2OIa01Zg%3d%3d&rUzwRPf%2bZ3zd4E7Ikn8Lyw%3d%3d=pwRE6AGJFLDNlh225F5QMaQWCtPHwdhUfCZ%2fLUQzgA2uL5jNRG4jdQ%3d%3d&mCTIbCubSFfXsDGW9IXnlg%3d%3d=hFflUdN3100%3d&kCx1AnS9%2fpWZQ40DXFvdEw%3d%3d=hFflUdN3100%3d&uJovDxwdjMPoYv%2bAJvYtyA%3d%3d=ctNJFf55vVA%3d&FgPlIEJYlotS%2bYGoBi5olA%3d%3d=NHdURQburHA%3d&d9Qjj0ag1Pd993jsyOJqFvmyB7X0CSQK=ctNJFf55vVA%3d&WGewmoAfeNR9xqBux0r1Q8Za60lavYmz=ctNJFf55vVA%3d&WGewmoAfeNQ16B2MHuCpMRKZMwaG1PaO=ctNJFf55vVA%3d",
+   "source": "report",
+   "tier": "contextual",
+   "hit_count": 3,
+   "terms": [
+    "landlord licensing",
+    "property licensing"
+   ],
+   "stage": "Consultation",
+   "snippet": "…key, which provide detailed analysis at the property level. Data records used to form the foundation of this report include but are not limited to: Council tax Property licensing Other council interventions records Tenancy deposit data Housing benefit Private housing complaints and interventions records ASB complaints and interventions records Energy Performance data 3 Key Findings  The Census 20…",
+   "first_seen": "2026-11-06T15:26:54+00:00"
+  },
+  {
+   "id": "https://cmis.norwich.gov.uk/live|1701|CAB/26/035 - Consultation on Discretionary Property Licensing of Private Rented |cmis:679e8db587d499f9",
+   "councils": [
+    {
+     "name": "Norwich",
+     "gss": "E07000148"
+    }
+   ],
+   "committee": "Cabinet",
+   "meeting_date": "2026-09-09",
+   "meeting_url": "https://cmis.norwich.gov.uk/live/Meetingscalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/1701/Committee/1/SelectedTab/Documents/Default.aspx",
+   "item_number": "13",
+   "item_title": "CAB/26/035 - Consultation on Discretionary Property Licensing of Private Rented Sector Housing",
+   "doc_title": "Appendix 1 - Summary of Evidence for Consultation August 2026",
+   "doc_url": "https://cmis.norwich.gov.uk/Live/Document.ashx?czJKcaeAi5tUFL1DTL2UE4zNRBcoShgo=BHfBl%2feV4skDzPkViL9Ky%2fxdJfkgZuhXSQ3%2fi3FoYGC%2b1jxzQOip4g%3d%3d&rUzwRPf%2bZ3zd4E7Ikn8Lyw%3d%3d=pwRE6AGJFLDNlh225F5QMaQWCtPHwdhUfCZ%2fLUQzgA2uL5jNRG4jdQ%3d%3d&mCTIbCubSFfXsDGW9IXnlg%3d%3d=hFflUdN3100%3d&kCx1AnS9%2fpWZQ40DXFvdEw%3d%3d=hFflUdN3100%3d&uJovDxwdjMPoYv%2bAJvYtyA%3d%3d=ctNJFf55vVA%3d&FgPlIEJYlotS%2bYGoBi5olA%3d%3d=NHdURQburHA%3d&d9Qjj0ag1Pd993jsyOJqFvmyB7X0CSQK=ctNJFf55vVA%3d&WGewmoAfeNR9xqBux0r1Q8Za60lavYmz=ctNJFf55vVA%3d&WGewmoAfeNQ16B2MHuCpMRKZMwaG1PaO=ctNJFf55vVA%3d",
+   "source": "report",
+   "tier": "strong",
+   "hit_count": 19,
+   "terms": [
+    "additional licensing",
+    "discretionary licensing",
+    "discretionary property licensing",
+    "property licensing",
+    "property licensing scheme",
+    "selective licens"
+   ],
+   "stage": "Consultation",
+   "snippet": "…tock condition and the pressures affecting both tenants and communities. Norwich faces a number of housing challenges that are relevant to the consideration of discretionary property licensing. DRAFT Page 2 of 20 A growing demand for housing: Norwich's population has increased steadily to around 147,000 residents, placing continued pressure on the housing market and increasing demand for affordabl…",
+   "first_seen": "2026-11-06T15:26:50+00:00"
+  },
+  {
+   "id": "https://cmis.norwich.gov.uk/live|1701|CAB/26/035 - Consultation on Discretionary Property Licensing of Private Rented |cmis:f8ba4cf581227f27",
+   "councils": [
+    {
+     "name": "Norwich",
+     "gss": "E07000148"
+    }
+   ],
+   "committee": "Cabinet",
+   "meeting_date": "2026-09-09",
+   "meeting_url": "https://cmis.norwich.gov.uk/live/Meetingscalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/1701/Committee/1/SelectedTab/Documents/Default.aspx",
+   "item_number": "13",
+   "item_title": "CAB/26/035 - Consultation on Discretionary Property Licensing of Private Rented Sector Housing",
+   "doc_title": "Consultation on Discretionary Property Licensing of Private Rented Sector Housing",
+   "doc_url": "https://cmis.norwich.gov.uk/Live/Document.ashx?czJKcaeAi5tUFL1DTL2UE4zNRBcoShgo=YtWQW7qka3yY88SxCA1x8PeSSNTR7X2YsE0J5EzZUw2ZpadNgQtytw%3d%3d&rUzwRPf%2bZ3zd4E7Ikn8Lyw%3d%3d=pwRE6AGJFLDNlh225F5QMaQWCtPHwdhUfCZ%2fLUQzgA2uL5jNRG4jdQ%3d%3d&mCTIbCubSFfXsDGW9IXnlg%3d%3d=hFflUdN3100%3d&kCx1AnS9%2fpWZQ40DXFvdEw%3d%3d=hFflUdN3100%3d&uJovDxwdjMPoYv%2bAJvYtyA%3d%3d=ctNJFf55vVA%3d&FgPlIEJYlotS%2bYGoBi5olA%3d%3d=NHdURQburHA%3d&d9Qjj0ag1Pd993jsyOJqFvmyB7X0CSQK=ctNJFf55vVA%3d&WGewmoAfeNR9xqBux0r1Q8Za60lavYmz=ctNJFf55vVA%3d&WGewmoAfeNQ16B2MHuCpMRKZMwaG1PaO=ctNJFf55vVA%3d",
+   "source": "report",
+   "tier": "strong",
+   "hit_count": 89,
+   "terms": [
+    "additional hmo licensing",
+    "additional licensing",
+    "discretionary licensing",
+    "discretionary property licensing",
+    "licensing designation",
+    "part 3 of the housing act 2004",
+    "property licensing",
+    "property licensing scheme"
+   ],
+   "stage": "Consultation",
+   "snippet": "2 orwich City Council logo Committee name: Cabinet Committee date: 09/09/2026 Report title: Consultation on Discretionary Property Licensing of Private Rented Sector Housing Portfolio: Councillor Stutely, Deputy Leader and Cabinet Member for Planning and Regulatory Report from: Head of planning and regulatory services Wards: All OPEN PUBLIC ITEM…",
+   "first_seen": "2026-11-06T15:26:49+00:00"
+  },
+  {
+   "id": "https://cmis.norwich.gov.uk/live|1701|CAB/26/035 - Consultation on Discretionary Property Licensing of Private Rented |agenda",
+   "councils": [
+    {
+     "name": "Norwich",
+     "gss": "E07000148"
+    }
+   ],
+   "committee": "Cabinet",
+   "meeting_date": "2026-09-09",
+   "meeting_url": "https://cmis.norwich.gov.uk/live/Meetingscalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/1701/Committee/1/SelectedTab/Documents/Default.aspx",
+   "item_number": "13",
+   "item_title": "CAB/26/035 - Consultation on Discretionary Property Licensing of Private Rented Sector Housing",
+   "doc_title": null,
+   "doc_url": null,
+   "source": "agenda",
+   "tier": "strong",
+   "hit_count": 7,
+   "terms": [
+    "additional licensing",
+    "discretionary licensing",
+    "discretionary property licensing",
+    "selective licens"
+   ],
+   "stage": "Consultation",
+   "snippet": "CAB/26/035 - Consultation on Discretionary Property Licensing of Private Rented Sector Housing | To consider a review of conditions in private rented sector in Norwich and options for intervention. | Consultation on Discretionary Property Licensing of Private Rented Se…",
+   "first_seen": "2026-11-06T15:26:46+00:00"
+  },
+  {
+   "id": "https://birmingham.cmis.uk.com/birmingham|15102|Property Licensing Year 3 Review|cmis:f7584d78a975c35c",
+   "councils": [
+    {
+     "name": "Birmingham",
+     "gss": "E08000025"
+    }
+   ],
+   "committee": "Licensing and Public Protection Committee",
+   "meeting_date": "2026-09-09",
+   "meeting_url": "https://birmingham.cmis.uk.com/birmingham/Meetings/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/15102/Committee/5/SelectedTab/Documents/Default.aspx",
+   "item_number": "8",
+   "item_title": "Property Licensing Year 3 Review",
+   "doc_title": "Property Licensing - 3 Year Review and Update",
+   "doc_url": "https://birmingham.cmis.uk.com/Birmingham/Document.ashx?czJKcaeAi5tUFL1DTL2UE4zNRBcoShgo=NDLjpwHgI4AI9ZUV6qG9gYAyLtUGWSRB68aohRhDO5gonBObXtCThQ%3d%3d&rUzwRPf%2bZ3zd4E7Ikn8Lyw%3d%3d=pwRE6AGJFLDNlh225F5QMaQWCtPHwdhUfCZ%2fLUQzgA2uL5jNRG4jdQ%3d%3d&mCTIbCubSFfXsDGW9IXnlg%3d%3d=hFflUdN3100%3d&kCx1AnS9%2fpWZQ40DXFvdEw%3d%3d=hFflUdN3100%3d&uJovDxwdjMPoYv%2bAJvYtyA%3d%3d=ctNJFf55vVA%3d&FgPlIEJYlotS%2bYGoBi5olA%3d%3d=NHdURQburHA%3d&d9Qjj0ag1Pd993jsyOJqFvmyB7X0CSQK=ctNJFf55vVA%3d&WGewmoAfeNR9xqBux0r1Q8Za60lavYmz=ctNJFf55vVA%3d&WGewmoAfeNQ16B2MHuCpMRKZMwaG1PaO=ctNJFf55vVA%3d",
+   "source": "report",
+   "tier": "strong",
+   "hit_count": 27,
+   "terms": [
+    "additional hmo licence",
+    "additional licence",
+    "additional licensing",
+    "discretionary property licensing",
+    "hmo licensing scheme",
+    "licensing designation",
+    "property licensing",
+    "property licensing scheme"
+   ],
+   "stage": "Renewal / review",
+   "snippet": "…plicable Page 3 of 14 OFFICIAL 1 EXECUTIVE SUMMARY 1.1 As per Section 84(3) and Section 60(3) of the Housing Act 2004, Local Authorities are required to review discretionary property licensing schemes operating in their areas “…from time to time…” Birmingham has two such schemes ‘Additional’ and ‘Selective’ and they have been in operation since June 2023 and as part of the current designation will…",
+   "first_seen": "2026-11-06T15:18:45+00:00"
   },
   {
    "id": "https://democracy.manchester.gov.uk|5334|Renters Rights Act Implementation|65256",
@@ -1068,7 +1257,7 @@
    "terms": [
     "selective licens"
    ],
-   "stage": "Renewal / review",
+   "stage": "Mention",
    "snippet": "…y Efficiency Standards and the Supported Housing (Regulatory Oversight) Act. 3.3 Alongside these national reforms, at a local level, the Council’s programme of selective licensing is driving up standards in areas of the city where issues with property condition and management are most acute. To date, the Council has licensed c.5,740 privately rented homes (including approximately 4,000 in live sch…",
    "first_seen": "2026-11-05T20:36:31+00:00"
   },
@@ -1109,7 +1298,7 @@
    "meeting_date": "2026-09-08",
    "meeting_url": "https://democracy.kirklees.gov.uk/ieListDocuments.aspx?MId=8417",
    "item_number": "13.",
-   "item_title": "Renters&#39; Rights Act 2025 - adoption of relevant policies",
+   "item_title": "Renters' Rights Act 2025 - adoption of relevant policies",
    "doc_title": "Appendix Private Sector Housing Enforcement Policy",
    "doc_url": "https://democracy.kirklees.gov.uk/mgConvert2PDF.aspx?ID=77116",
    "source": "report",
@@ -1134,7 +1323,7 @@
    "meeting_date": "2026-09-08",
    "meeting_url": "https://democracy.kirklees.gov.uk/ieListDocuments.aspx?MId=8417",
    "item_number": "13.",
-   "item_title": "Renters&#39; Rights Act 2025 - adoption of relevant policies",
+   "item_title": "Renters' Rights Act 2025 - adoption of relevant policies",
    "doc_title": "Appendix Civil Financial Penalty Policy",
    "doc_url": "https://democracy.kirklees.gov.uk/mgConvert2PDF.aspx?ID=77115",
    "source": "report",
@@ -1171,7 +1360,7 @@
     "selective licenc",
     "selective licens"
    ],
-   "stage": "Consultation",
+   "stage": "Mention",
    "snippet": "…ape. The key pieces of legislation shaping this strategy are: • Housing Act 2004: the basis for Housing Health and Safety Rating System (HHSRS), HMO licensing, selective licensing, and additional licensing schemes. • Housing Act 1988: the legislative basis for assured tenancies, to be amended by the Renters' Rights Act 2025. • Landlord and Tenant Act 1985: landlord repair obligations. • Energy Eff…",
    "first_seen": "2026-11-05T20:35:08+00:00"
   },
@@ -1213,7 +1402,7 @@
    "meeting_date": "2026-09-03",
    "meeting_url": "https://www.southampton.gov.uk/modernGov/ieListDocuments.aspx?MId=8793",
    "item_number": "8.",
-   "item_title": "Private Rented Sector - Update against the Scrutiny Inquiry Recommendations and Implementation of the Renters&#39; Rights Act 2025",
+   "item_title": "Private Rented Sector - Update against the Scrutiny Inquiry Recommendations and Implementation of the Renters' Rights Act 2025",
    "doc_title": "Renters Rights Act and Scrutiny Inquiry Update",
    "doc_url": "http://www.southampton.gov.uk/moderngov/mgConvert2PDF.aspx?ID=86126",
    "source": "report",
@@ -1240,7 +1429,7 @@
    "meeting_date": "2026-08-25",
    "meeting_url": "https://sccdemocracy.salford.gov.uk/ieListDocuments.aspx?MId=9749",
    "item_number": "5b",
-   "item_title": "Salford&#39;s Annual Good Homes Strategy Delivery Plan 2026/27.",
+   "item_title": "Salford's Annual Good Homes Strategy Delivery Plan 2026/27.",
    "doc_title": "Report - Refreshed 2026-27 Housing Strategy Delivery Plan",
    "doc_url": "https://sccdemocracy.salford.gov.uk/mgConvert2PDF.aspx?ID=96756",
    "source": "report",
@@ -1255,7 +1444,7 @@
     "selective licenc",
     "selective licens"
    ],
-   "stage": "Renewal / review",
+   "stage": "Mention",
    "snippet": "…New webpages on line o Land registry set up o PACE training scheduled for Feb 27 with access to other PACE trained colleagues until then • Review of Broughton landlord licensing and s.257 HMO licensing schemes completed • Registered Housing Provider feedback includes: o Salford City Council homes, managed by Pendleton Together achieved a C2 grading as part of the Housing Inspection – an improveme…",
    "first_seen": "2026-11-05T20:09:06+00:00"
   },
@@ -1280,7 +1469,7 @@
    "terms": [
     "additional licensing"
    ],
-   "stage": "Mention",
+   "stage": "Designation decision",
    "snippet": "Implementation of borough wide additional licensing scheme for Houses In Multiple Occupation | Implementation of borough wide additional licensing scheme for Houses in Multiple Occupation",
    "first_seen": "2026-11-05T21:06:52+00:00"
   },
@@ -1309,7 +1498,7 @@
     "licensing designation",
     "selective licens"
    ],
-   "stage": "Consultation",
+   "stage": "Mention",
    "snippet": "…planning control, the application of clear concentration or threshold policies (often at both ward and street level), non -adjacency or spacing rules, targeted additional licensing schemes, and data -led, cross-departmental enforcement. T hese approaches are typically framed not as opposition to HMOs in principle, but as proportionate mechanisms for managing scale, distribution and cumulative impa…",
    "first_seen": "2026-11-05T21:19:42+00:00"
   },
@@ -1340,7 +1529,7 @@
     "selective licenc",
     "selective licens"
    ],
-   "stage": "Consultation",
+   "stage": "Early proposal",
    "snippet": "…to C4) across the city and in doing so determine when this should be. 1.3 Approve that, subject to consultation and detailed design, that the council introduce Additional Licensing for HMOs across the city, to bring smaller HMOs within a formal regulatory framework. 1.4 Approve that, subject to detailed design, the conditions for existing licenses are strengthened. 1.5 Approve the additional finan…",
    "first_seen": "2026-11-05T21:19:37+00:00"
   },
@@ -1365,7 +1554,7 @@
    "terms": [
     "additional licensing"
    ],
-   "stage": "Consultation",
+   "stage": "Early proposal",
    "snippet": "…to C4) across the city and in doing so determine when this should be. 1.3 Approve that, subject to consultation and detailed design, that the council introduce Additional Licensing for HMOs across the city, to bring smaller HMOs within a formal regulatory framework. 1.4 Approve that, subject to detailed design, the conditions for existing licenses are strengthened. 1.5 Approve the additional finan…",
    "first_seen": "2026-11-05T21:19:36+00:00"
   },
@@ -1397,7 +1586,7 @@
     "licensing designation",
     "section 56 of the housing act"
    ],
-   "stage": "Designation decision",
+   "stage": "Consultation",
    "snippet": "…in Salford. RECOMMENDATIONS: That the Cabinet / City Mayor Authorises officers to commence a formal consultation exercise on proposals to designate a citywide Additional HMO Licensing scheme for Section 257 Houses in Multiple Occupation in Salford. EXECUTIVE SUMMARY: The Housing Act 2004 introduced significant changes to the regulation of private rented housing in England, with its main provision…",
    "first_seen": "2026-11-05T20:07:37+00:00"
   },
@@ -1425,7 +1614,7 @@
     "landlord licensing",
     "selective licens"
    ],
-   "stage": "Consultation",
+   "stage": "Early proposal",
    "snippet": "1 APPENDIX C: Equality Impact Assessment (EIA) Title of proposal: Introduction of Additional HMO Licensing scheme for section 257 HMOs which will cover all wards of Salford. Date of assessment: May 2026 Date and frequency of reviewing the assessment:12 months after designation Service Group/ Team: Landlord Licensing – Re…",
    "first_seen": "2026-11-05T20:07:35+00:00"
   },
@@ -1456,7 +1645,7 @@
     "selective licenc",
     "selective licens"
    ],
-   "stage": "Consultation",
+   "stage": "Early proposal",
    "snippet": "Appendix B:Survey Results Proposal to Designate a Citywide Additional Licensing Scheme for Section 257 Houses in Multiple Occupation in Salford 1 Contents Survey responses ....................................................................................................................2 S257 HMO…",
    "first_seen": "2026-11-05T20:07:34+00:00"
   },
@@ -1488,7 +1677,7 @@
     "landlord licensing",
     "landlord licensing scheme"
    ],
-   "stage": "Consultation",
+   "stage": "Early proposal",
    "snippet": "1 Consultation Proposal to designate a citywide Additional Licensing scheme for Section 257 Houses in Multiple Occupation in Salford January 2026 2 Contents PART 1 EXECUTIVE SUMMARY ..........................................................................................................…",
    "first_seen": "2026-11-05T20:07:33+00:00"
   },
@@ -1520,7 +1709,7 @@
     "section 56 of the housing act",
     "selective licens"
    ],
-   "stage": "Designation decision",
+   "stage": "Early proposal",
    "snippet": "REPORT OF CITY MAYOR AND LEAD FOR HOUSING AND ANTI-POVERTY To Cabinet 11 August 2026 TITLE: Proposal to designate a citywide Additional HMO Licensing Scheme for properties that fall within the Definition of Section 257 Houses in Multiple Occupation of the Housing Act 2004 RECOMMENDATIONS: The City Mayor in consultation with Cabinet is recommended to: 1. Approve t…",
    "first_seen": "2026-11-05T20:07:30+00:00"
   },
@@ -1546,7 +1735,7 @@
     "additional hmo licensing",
     "additional licensing"
    ],
-   "stage": "Consultation",
+   "stage": "Early proposal",
    "snippet": "Proposal to designate a citywide Additional HMO Licensing Scheme for properties that fall within the Definition of Section 257 Houses in Multiple Occupation of the Housing Act 2004 | Report of the City Mayor and Lead for Housing and Anti-Poverty. | Cabinet Report - Proposa…",
    "first_seen": "2026-11-05T20:07:29+00:00"
   },
@@ -1571,9 +1760,64 @@
    "terms": [
     "discretionary licensing"
    ],
-   "stage": "Early proposal",
-   "snippet": "Proposed Annual Review of Discretionary Licensing Fees |  | Proposed Annual Review of Discretionary Licensing Fees | Appendix 1 - Licensing Fees 2026-27 | Appendix 2 - LGA guidance on locally set licensing fees _ Local Government Association",
+   "stage": "Renewal / review",
+   "snippet": "Proposed Annual Review of Discretionary Licensing Fees | | Proposed Annual Review of Discretionary Licensing Fees | Appendix 1 - Licensing Fees 2026-27 | Appendix 2 - LGA guidance on locally set licensing fees _ Local Government Association",
    "first_seen": "2026-11-05T20:18:46+00:00"
+  },
+  {
+   "id": "https://cmis.norwich.gov.uk/live|1681|Private Rented Sector Housing in Norwich|cmis:54a2ca75566a0ac5",
+   "councils": [
+    {
+     "name": "Norwich",
+     "gss": "E07000148"
+    }
+   ],
+   "committee": "Scrutiny committee",
+   "meeting_date": "2026-08-06",
+   "meeting_url": "https://cmis.norwich.gov.uk/live/Meetingscalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/1681/Committee/4/SelectedTab/Documents/Default.aspx",
+   "item_number": "4",
+   "item_title": "Private Rented Sector Housing in Norwich",
+   "doc_title": "Appendix 2 - Tenure Intelligence (TI) Norwich Report",
+   "doc_url": "https://cmis.norwich.gov.uk/Live/Document.ashx?czJKcaeAi5tUFL1DTL2UE4zNRBcoShgo=feyyzaXkmvBsbw7Lmoj1zmmtaP%2f6AZTDn3SPOa2sEfFd9mjHvg5b6A%3d%3d&rUzwRPf%2bZ3zd4E7Ikn8Lyw%3d%3d=pwRE6AGJFLDNlh225F5QMaQWCtPHwdhUfCZ%2fLUQzgA2uL5jNRG4jdQ%3d%3d&mCTIbCubSFfXsDGW9IXnlg%3d%3d=hFflUdN3100%3d&kCx1AnS9%2fpWZQ40DXFvdEw%3d%3d=hFflUdN3100%3d&uJovDxwdjMPoYv%2bAJvYtyA%3d%3d=ctNJFf55vVA%3d&FgPlIEJYlotS%2bYGoBi5olA%3d%3d=NHdURQburHA%3d&d9Qjj0ag1Pd993jsyOJqFvmyB7X0CSQK=ctNJFf55vVA%3d&WGewmoAfeNR9xqBux0r1Q8Za60lavYmz=ctNJFf55vVA%3d&WGewmoAfeNQ16B2MHuCpMRKZMwaG1PaO=ctNJFf55vVA%3d",
+   "source": "report",
+   "tier": "contextual",
+   "hit_count": 3,
+   "terms": [
+    "landlord licensing",
+    "property licensing"
+   ],
+   "stage": "Mention",
+   "snippet": "…key, which provide detailed analysis at the property level. Data records used to form the foundation of this report include but are not limited to: Council tax Property licensing Other council interventions records Tenancy deposit data Housing benefit Private housing complaints and interventions records ASB complaints and interventions records Energy Performance data 3 Key Findings • The Census 20…",
+   "first_seen": "2026-11-06T15:26:29+00:00"
+  },
+  {
+   "id": "https://cmis.norwich.gov.uk/live|1681|Private Rented Sector Housing in Norwich|cmis:cfdc90d59e8db4a0",
+   "councils": [
+    {
+     "name": "Norwich",
+     "gss": "E07000148"
+    }
+   ],
+   "committee": "Scrutiny committee",
+   "meeting_date": "2026-08-06",
+   "meeting_url": "https://cmis.norwich.gov.uk/live/Meetingscalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/1681/Committee/4/SelectedTab/Documents/Default.aspx",
+   "item_number": "4",
+   "item_title": "Private Rented Sector Housing in Norwich",
+   "doc_title": "Private Rented Sector Housing in Norwich",
+   "doc_url": "https://cmis.norwich.gov.uk/Live/Document.ashx?czJKcaeAi5tUFL1DTL2UE4zNRBcoShgo=9iuFJw1uzkWqsFQgwBys4YQQUlQ%2fUO2%2fYo413UNSdV5cqPNu6ZmB0w%3d%3d&rUzwRPf%2bZ3zd4E7Ikn8Lyw%3d%3d=pwRE6AGJFLDNlh225F5QMaQWCtPHwdhUfCZ%2fLUQzgA2uL5jNRG4jdQ%3d%3d&mCTIbCubSFfXsDGW9IXnlg%3d%3d=hFflUdN3100%3d&kCx1AnS9%2fpWZQ40DXFvdEw%3d%3d=hFflUdN3100%3d&uJovDxwdjMPoYv%2bAJvYtyA%3d%3d=ctNJFf55vVA%3d&FgPlIEJYlotS%2bYGoBi5olA%3d%3d=NHdURQburHA%3d&d9Qjj0ag1Pd993jsyOJqFvmyB7X0CSQK=ctNJFf55vVA%3d&WGewmoAfeNR9xqBux0r1Q8Za60lavYmz=ctNJFf55vVA%3d&WGewmoAfeNQ16B2MHuCpMRKZMwaG1PaO=ctNJFf55vVA%3d",
+   "source": "report",
+   "tier": "strong",
+   "hit_count": 28,
+   "terms": [
+    "additional licensing",
+    "discretionary licensing",
+    "discretionary property licensing",
+    "property licensing",
+    "selective licens"
+   ],
+   "stage": "Designation decision",
+   "snippet": "…s, including: • Scheme design • Close management and monitoring • Levels of compliance • Enforcement approach • Wider housing market dynamics Implementation of Discretionary Property Licensing 100. The following process lays out the mechanism through which a local authority can implement Discretionary Property Licensing under the Housing Act 2004. i) Evidence and Review: The Council reviews housin…",
+   "first_seen": "2026-11-06T15:26:23+00:00"
   },
   {
    "id": "https://democracy.medway.gov.uk|6549|Private Sector Licensing (Additional &amp; Selective Licensing Schemes)|90721",
@@ -1587,7 +1831,7 @@
    "meeting_date": "2026-08-04",
    "meeting_url": "https://democracy.medway.gov.uk/ieListDocuments.aspx?MId=6549",
    "item_number": "8.",
-   "item_title": "Private Sector Licensing (Additional &amp; Selective Licensing Schemes)",
+   "item_title": "Private Sector Licensing (Additional & Selective Licensing Schemes)",
    "doc_title": "Appendix E",
    "doc_url": "http://democracy.medway.gov.uk/mgConvert2PDF.aspx?ID=90721",
    "source": "report",
@@ -1615,7 +1859,7 @@
    "meeting_date": "2026-08-04",
    "meeting_url": "https://democracy.medway.gov.uk/ieListDocuments.aspx?MId=6549",
    "item_number": "8.",
-   "item_title": "Private Sector Licensing (Additional &amp; Selective Licensing Schemes)",
+   "item_title": "Private Sector Licensing (Additional & Selective Licensing Schemes)",
    "doc_title": "Appendix D",
    "doc_url": "http://democracy.medway.gov.uk/mgConvert2PDF.aspx?ID=90720",
    "source": "report",
@@ -1625,7 +1869,7 @@
     "additional licensing",
     "selective licens"
    ],
-   "stage": "Consultation",
+   "stage": "Mention",
    "snippet": "Appendix D – Additional & Selective Licensing Schemes Medway Council – Selective & Additional Licensing Schemes What is Selective Licensing and how does it work? The Housing Act 2004 gives Councils the power to designate areas within their district as subject to Sel…",
    "first_seen": "2026-11-05T21:10:17+00:00"
   },
@@ -1641,7 +1885,7 @@
    "meeting_date": "2026-08-04",
    "meeting_url": "https://democracy.medway.gov.uk/ieListDocuments.aspx?MId=6549",
    "item_number": "8.",
-   "item_title": "Private Sector Licensing (Additional &amp; Selective Licensing Schemes)",
+   "item_title": "Private Sector Licensing (Additional & Selective Licensing Schemes)",
    "doc_title": "Appendix C",
    "doc_url": "http://democracy.medway.gov.uk/mgConvert2PDF.aspx?ID=90719",
    "source": "report",
@@ -1673,7 +1917,7 @@
    "meeting_date": "2026-08-04",
    "meeting_url": "https://democracy.medway.gov.uk/ieListDocuments.aspx?MId=6549",
    "item_number": "8.",
-   "item_title": "Private Sector Licensing (Additional &amp; Selective Licensing Schemes)",
+   "item_title": "Private Sector Licensing (Additional & Selective Licensing Schemes)",
    "doc_title": "Appendix B",
    "doc_url": "http://democracy.medway.gov.uk/mgConvert2PDF.aspx?ID=90718",
    "source": "report",
@@ -1705,7 +1949,7 @@
    "meeting_date": "2026-08-04",
    "meeting_url": "https://democracy.medway.gov.uk/ieListDocuments.aspx?MId=6549",
    "item_number": "8.",
-   "item_title": "Private Sector Licensing (Additional &amp; Selective Licensing Schemes)",
+   "item_title": "Private Sector Licensing (Additional & Selective Licensing Schemes)",
    "doc_title": "Appendix A",
    "doc_url": "http://democracy.medway.gov.uk/mgConvert2PDF.aspx?ID=90717",
    "source": "report",
@@ -1737,7 +1981,7 @@
    "meeting_date": "2026-08-04",
    "meeting_url": "https://democracy.medway.gov.uk/ieListDocuments.aspx?MId=6549",
    "item_number": "8.",
-   "item_title": "Private Sector Licensing (Additional &amp; Selective Licensing Schemes)",
+   "item_title": "Private Sector Licensing (Additional & Selective Licensing Schemes)",
    "doc_title": "Report",
    "doc_url": "http://democracy.medway.gov.uk/mgConvert2PDF.aspx?ID=90716",
    "source": "report",
@@ -1753,7 +1997,7 @@
     "section 80 of the housing act",
     "selective licenc"
    ],
-   "stage": "Designation decision",
+   "stage": "Mention",
    "snippet": "Cabinet 4 August 2026 Private Sector Licensing (Additional & Selective Licensing Schemes) Portfolio Holder: Councillor Louwella Prenter, Portfolio Holder for Housing & Homelessness Report from: Adam Bryan, Director of Place Author: Becs Wilcox, Chief Housing Officer Summary The report seeks approval…",
    "first_seen": "2026-11-05T21:10:05+00:00"
   },
@@ -1769,7 +2013,7 @@
    "meeting_date": "2026-08-04",
    "meeting_url": "https://democracy.medway.gov.uk/ieListDocuments.aspx?MId=6549",
    "item_number": "8.",
-   "item_title": "Private Sector Licensing (Additional &amp; Selective Licensing Schemes)",
+   "item_title": "Private Sector Licensing (Additional & Selective Licensing Schemes)",
    "doc_title": null,
    "doc_url": null,
    "source": "agenda",
@@ -1779,7 +2023,7 @@
     "selective licens"
    ],
    "stage": "Mention",
-   "snippet": "Private Sector Licensing (Additional &amp; Selective Licensing Schemes) | Report | Appendix A | Appendix B | Appendix C | Appendix D | Appendix E | Appendix F | Appendix G",
+   "snippet": "Private Sector Licensing (Additional & Selective Licensing Schemes) | Report | Appendix A | Appendix B | Appendix C | Appendix D | Appendix E | Appendix F | Appendix G",
    "first_seen": "2026-11-05T21:10:04+00:00"
   },
   {
@@ -1831,7 +2075,7 @@
     "selective licenc",
     "selective licens"
    ],
-   "stage": "Early proposal",
+   "stage": "Mention",
    "snippet": "…xpands its scope to include enforcement duties introduced on 1st May 2026 by the Renters Rights Act 2025 (‘the Act’). The policy incorporates the Selective and Additional Licensing policies approved at Cabinet in March 2026 and due to be implemented from 1st September 2026. This policy sets out the Council’s principles for enforcing and executing its duties as a Housing Authority under the relevan…",
    "first_seen": "2026-11-05T20:07:30+00:00"
   },
@@ -1856,7 +2100,7 @@
    "terms": [
     "additional licensing"
    ],
-   "stage": "Consultation",
+   "stage": "Early proposal",
    "snippet": "…and what consultation has been carried out? Data collection Data on the Croydon private rented sector was considered as part of the EQIA for the Selective and Additional Licensing policy report approved by Cabinet in March 2026. National research suggests that those with protected characteristics are more likely to be housed in the private rented sector – for example, 23% of PRS households from e…",
    "first_seen": "2026-11-05T20:07:30+00:00"
   },
@@ -1883,7 +2127,7 @@
     "landlord licensing scheme",
     "selective licens"
    ],
-   "stage": "Consultation",
+   "stage": "Mention",
    "snippet": "…mpliant with the new duties set out in the Renters’ Rights Act 2025 (RRA25) and able to strengthen enforcement of other existing housing legislation (including landlord licensing provisions) in line with the Executive Mayor’s wider commitment to a zero-tolerance enforcement approach. 1.2 The private rented sector plays a vital role in meeting local housing need. However, evidence gathered by the C…",
    "first_seen": "2026-11-05T20:07:28+00:00"
   },
@@ -2087,7 +2331,7 @@
    "terms": [
     "selective licens"
    ],
-   "stage": "Early proposal",
+   "stage": "Mention",
    "snippet": "…rated EPC C and above 2,000 Referrals p.a. to wider support services March 2027 Maintain effective place-based regulation through licensing Review and evaluate Selective Licensing schemes (2024–29 and 2025–30) and make recommendations to Members on future schemes. Target 100% of licensable PRS properties licensed 2024–29 review by Spring 2028; 2025–30 review by Summer 2029 Spring 2028 Wirral Counc…",
    "first_seen": "2026-11-05T21:30:52+00:00"
   },
@@ -2138,7 +2382,7 @@
     "selective licenc",
     "selective licens"
    ],
-   "stage": "Mention",
+   "stage": "Early proposal",
    "snippet": "…0 12 14 16Number of Households Rightsized The Renters’ Rights Act gives tenants new rights and introduces new rules for private landlords Continued roll out of selective licensing allows for targeted interventions in areas where issues with property condition and management are most acute Improve the safety, quality & management of private rented sector homes National RRA – 1st May 2026 • Key tena…",
    "first_seen": "2026-11-05T20:36:29+00:00"
   },
@@ -2166,7 +2410,7 @@
     "selective licenc",
     "selective licens"
    ],
-   "stage": "Consultation",
+   "stage": "Mention",
    "snippet": "…finalising EDI training specifically for landlords, which is believed to be the first of its type in the country. 5.3.12. At a more local level MCC’s extensive selective licencing programme has further clamped down on poor quality management in the sector, providing additional protections for tenants, ensuring properties are safe and secure (to date, MCC’s selective licensing programme has covered…",
    "first_seen": "2026-11-05T20:36:27+00:00"
   },
@@ -2182,7 +2426,7 @@
    "meeting_date": "2026-07-21",
    "meeting_url": "http://mg.wakefield.gov.uk/ieListDocuments.aspx?MId=16454",
    "item_number": "20.",
-   "item_title": "Renters Rights Act and Changes to the Council&#39;s Strategic Housing Private Rented Sector Enforcement and Civil Penalty Policies",
+   "item_title": "Renters Rights Act and Changes to the Council's Strategic Housing Private Rented Sector Enforcement and Civil Penalty Policies",
    "doc_title": "Appendix 3 STRATEGIC HOUSING CIVIL PENALTIES POLICY MAY 2026 v2",
    "doc_url": "https://mg.wakefield.gov.uk/mgConvert2PDF.aspx?ID=138134",
    "source": "report",
@@ -2207,7 +2451,7 @@
    "meeting_date": "2026-07-21",
    "meeting_url": "http://mg.wakefield.gov.uk/ieListDocuments.aspx?MId=16454",
    "item_number": "20.",
-   "item_title": "Renters Rights Act and Changes to the Council&#39;s Strategic Housing Private Rented Sector Enforcement and Civil Penalty Policies",
+   "item_title": "Renters Rights Act and Changes to the Council's Strategic Housing Private Rented Sector Enforcement and Civil Penalty Policies",
    "doc_title": "Appendix 1 STRATEGIC HOUSING ENFORCEMENT POLICY MAY 2026 v2",
    "doc_url": "https://mg.wakefield.gov.uk/mgConvert2PDF.aspx?ID=138132",
    "source": "report",
@@ -2216,7 +2460,7 @@
    "terms": [
     "selective licens"
    ],
-   "stage": "Early proposal",
+   "stage": "Mention",
    "snippet": "…in the first instance if there has been: • Non-compliance with previous formal or informal action • Offences in relation to the licensing of HMOs or houses if Selective Licensing is in force Investigatory powers In addition to the Council’s informal and formal powers of enforcement, there are investigatory powers relating to the collection of information and relating to the entry of premises incl…",
    "first_seen": "2026-11-05T21:24:47+00:00"
   },
@@ -2243,7 +2487,7 @@
     "selective licens"
    ],
    "stage": "Consultation",
-   "snippet": "Selective Licensing Designations |  | Selective Licensing Designations | Selective Licensing Consultation",
+   "snippet": "Selective Licensing Designations | | Selective Licensing Designations | Selective Licensing Consultation",
    "first_seen": "2026-11-05T20:39:41+00:00"
   },
   {
@@ -2269,7 +2513,7 @@
     "landlord licensing",
     "selective licenc"
    ],
-   "stage": "Mention",
+   "stage": "Early proposal",
    "snippet": "…ces. · Hounslow Council has already demonstrated its commitment to improving standards in the private rented sector through robust enforcement action, expanded Additional HMO Licensing and its commitment to introducing Selective Landlord Licensing where appropriate. This Council further notes that: · Every resident deserves a safe, secure and decent home. · Strong enforcement protects responsible…",
    "first_seen": "2026-11-05T20:30:45+00:00"
   },
@@ -2285,7 +2529,7 @@
    "meeting_date": "2026-07-20",
    "meeting_url": "https://moderngov.southwark.gov.uk/ieListDocuments.aspx?MId=8549",
    "item_number": "9.",
-   "item_title": "Renters&#39; Rights Act 2025 and adoption of new Private Sector Housing Enforcement Policy",
+   "item_title": "Renters' Rights Act 2025 and adoption of new Private Sector Housing Enforcement Policy",
    "doc_title": "Appendix 1 - Private Sector Housing Enforcement Policy",
    "doc_url": "http://moderngov.southwark.gov.uk/mgConvert2PDF.aspx?ID=133921",
    "source": "report",
@@ -2299,7 +2543,7 @@
     "selective licenc",
     "selective licens"
    ],
-   "stage": "Early proposal",
+   "stage": "Mention",
    "snippet": "…n improvement notice - section 30(1) Housing Act 2004 43 Failure to comply with an overcrowding notice - section 139(7) Housing Act 2004 43 Failure to obtain a selective licence – section 95(1) Housing Act 2004 44 Failure to obtain an HMO licence – section 72(1) Housing Act 2004 44 Knowingly permitting over-occupation of an HMO - section 72(2) Housing Act 2004 44 Failure to Comply with The Managem…",
    "first_seen": "2026-11-05T20:46:30+00:00"
   },
@@ -2315,7 +2559,7 @@
    "meeting_date": "2026-07-20",
    "meeting_url": "https://moderngov.southwark.gov.uk/ieListDocuments.aspx?MId=8549",
    "item_number": "9.",
-   "item_title": "Renters&#39; Rights Act 2025 and adoption of new Private Sector Housing Enforcement Policy",
+   "item_title": "Renters' Rights Act 2025 and adoption of new Private Sector Housing Enforcement Policy",
    "doc_title": "Report: Renters’ Rights Act 2025 and adoption of new Private Sector Housing Enforcement Policy",
    "doc_url": "http://moderngov.southwark.gov.uk/mgConvert2PDF.aspx?ID=133920",
    "source": "report",
@@ -2325,7 +2569,7 @@
     "discretionary property licensing",
     "property licensing scheme"
    ],
-   "stage": "Mention",
+   "stage": "Early proposal",
    "snippet": "…using requirements of residents. 28. Improving housing conditions in the PRS, especially through the designation, administration and enforcement of large-scale discretionary property licensing schemes, supports Southwark’s Fairer Future Commitments particularly the themes 'homes for all' and 'tackling health inequalities’. 29. Southwark’s Housing Strategy expresses an ambition to transform the PRS…",
    "first_seen": "2026-11-05T20:46:28+00:00"
   },
@@ -2341,7 +2585,7 @@
    "meeting_date": "2026-07-20",
    "meeting_url": "https://democracy.kirklees.gov.uk/ieListDocuments.aspx?MId=8475",
    "item_number": "7.",
-   "item_title": "Renters&#39; Rights Act 2025 - adoption of relevant policies",
+   "item_title": "Renters' Rights Act 2025 - adoption of relevant policies",
    "doc_title": "Item 7b. Civil Financial Penalty Policy – Private Sector Housing App 2",
    "doc_url": "https://democracy.kirklees.gov.uk/mgConvert2PDF.aspx?ID=75885",
    "source": "report",
@@ -2366,7 +2610,7 @@
    "meeting_date": "2026-07-20",
    "meeting_url": "https://democracy.kirklees.gov.uk/ieListDocuments.aspx?MId=8475",
    "item_number": "7.",
-   "item_title": "Renters&#39; Rights Act 2025 - adoption of relevant policies",
+   "item_title": "Renters' Rights Act 2025 - adoption of relevant policies",
    "doc_title": "Item 7a. Private Sector Housing Enforcement Policy App 1",
    "doc_url": "https://democracy.kirklees.gov.uk/mgConvert2PDF.aspx?ID=75884",
    "source": "report",
@@ -2451,7 +2695,7 @@
    "terms": [
     "hmo licensing scheme"
    ],
-   "stage": "Consultation",
+   "stage": "Mention",
    "snippet": "…ion. 2) Request Cabinet to consider licensing all HMO’s, regardless of size, which have planning permission granted or permitted development in addition to the HMO licensing scheme as currently required under the Housing Act 2004. Proposed By: Cllr John Corrigan Seconded By: Cllr Judith McMahon",
    "first_seen": "2026-11-05T20:46:56+00:00"
   },
@@ -2478,7 +2722,7 @@
     "part 3 of the housing act 2004",
     "selective licens"
    ],
-   "stage": "Renewal / review",
+   "stage": "Mention",
    "snippet": "…olicy, the social housing register, homelessness prevention, domestic abuse, specialist housing, aids and adaptations, and the private rented sector, including selective licensing in parts of the Borough. It refers to the legislative frameworks, corporate policies and strategic plans that shape the Council’s approach to housing across Gedling. Vision The Gedling Legacy Plan 2026-2028 sets out four…",
    "first_seen": "2026-11-05T20:26:00+00:00"
   },
@@ -2504,9 +2748,34 @@
     "selective licenc",
     "selective licens"
    ],
-   "stage": "Early proposal",
+   "stage": "Mention",
    "snippet": "…n Act 1977 • Failure to comply with an Improvement Notice [s30 HA 2004] • Offences in relation to licensing of HMOs [s72 HA 2004] • Offences in relation to the Selective Licensing of ‘houses’ [s95 HA 2004] • Failure to comply with an Overcrowding Notice [s139 HA 2004] • Failure to comply with a management regulation in respect of an HMO [s234 HA 2004] • Offences in relation to Regulation 3 of the…",
    "first_seen": "2026-11-05T21:31:01+00:00"
+  },
+  {
+   "id": "https://great-yarmouth.cmis.uk.com/great-yarmouth|2133|Agenda papers|cmis:cf43bb62b2353be5",
+   "councils": [
+    {
+     "name": "Great Yarmouth",
+     "gss": "E07000145"
+    }
+   ],
+   "committee": "Cabinet",
+   "meeting_date": "2026-07-14",
+   "meeting_url": "https://great-yarmouth.cmis.uk.com/great-yarmouth/Meetings/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/2133/Committee/200/SelectedTab/Documents/Default.aspx",
+   "item_number": "",
+   "item_title": "Agenda papers",
+   "doc_title": "Agenda Document Pack - Cabinet - 14/07/2026",
+   "doc_url": "https://great-yarmouth.cmis.uk.com/great-yarmouth/Document.ashx?czJKcaeAi5tUFL1DTL2UE4zNRBcoShgo=NXDqhHvMpThQQLN8xlrtyJFnzYy4hc4yQCA6a7ioUIZvUmKGc4f3XA%3d%3d&rUzwRPf%2bZ3zd4E7Ikn8Lyw%3d%3d=pwRE6AGJFLDNlh225F5QMaQWCtPHwdhUfCZ%2fLUQzgA2uL5jNRG4jdQ%3d%3d&mCTIbCubSFfXsDGW9IXnlg%3d%3d=hFflUdN3100%3d&kCx1AnS9%2fpWZQ40DXFvdEw%3d%3d=hFflUdN3100%3d&uJovDxwdjMPoYv%2bAJvYtyA%3d%3d=ctNJFf55vVA%3d&FgPlIEJYlotS%2bYGoBi5olA%3d%3d=NHdURQburHA%3d&d9Qjj0ag1Pd993jsyOJqFvmyB7X0CSQK=ctNJFf55vVA%3d&WGewmoAfeNR9xqBux0r1Q8Za60lavYmz=ctNJFf55vVA%3d&WGewmoAfeNQ16B2MHuCpMRKZMwaG1PaO=ctNJFf55vVA%3d",
+   "source": "report",
+   "tier": "strong",
+   "hit_count": 3,
+   "terms": [
+    "selective licens"
+   ],
+   "stage": "Early proposal",
+   "snippet": "…nted to drive transformation of North Quay, the launch of the art trail, the first phase of work for the restoration of the Winter Gardens, introduction of the Selective Licensing Scheme, new homes at the Conge, and the launch of a new taskforce to tackle key priorities highlighted by residents, further details of these highlights can be found within the report. Appendix 1 within the report provid…",
+   "first_seen": "2026-11-06T15:20:35+00:00"
   },
   {
    "id": "https://moderngov.stoke.gov.uk|14571|Adoption of a new Civil Penalties Policy for Private Sector Housing (Notice of D|181801",
@@ -2682,7 +2951,7 @@
     "landlord licensing",
     "selective licens"
    ],
-   "stage": "Renewal / review",
+   "stage": "Mention",
    "snippet": "OFFICIAL Landlord Licensing and Private Sector Housing Enforcement Update Mark Baigent Strategic Lead Homes Sub-Committee 14 July 2026 OFFICIAL Types of Landlord Licensing and Enforcement • Mandatory HMO Licensing – already in place • Additional HMO…",
    "first_seen": "2026-11-05T20:08:34+00:00"
   },
@@ -2710,7 +2979,7 @@
     "landlord licensing scheme",
     "selective licens"
    ],
-   "stage": "Consultation",
+   "stage": "Mention",
    "snippet": "…ndix A 50 Merton Liberal Democrats [original response at the end of this document - summary below] Supports a borough-wide Article 4 Direction and borough-wide landlord licensing to improve housing standards and consistency. Welcomes stronger controls on HMOs while recognising their importance as an affordable housing option. Supports protecting a balanced housing mix, including both HMOs and fami…",
    "first_seen": "2026-11-05T20:37:02+00:00"
   },
@@ -2736,7 +3005,7 @@
     "additional licensing",
     "landlord licensing"
    ],
-   "stage": "Consultation",
+   "stage": "Mention",
    "snippet": "…e a negative impact upon many neighbourhoods with high levels of noise complaints and accumulations of rubbish. The provisions in this report towards requiring additional licensing and planning permissions for small HMOs will help nurture civic pride by driving up standards for tenants and neighbours. Other service delivery priority Organisational development Page 36 Background, options and next s…",
    "first_seen": "2026-11-05T20:37:00+00:00"
   },
@@ -2761,7 +3030,7 @@
    "terms": [
     "selective licens"
    ],
-   "stage": "Consultation",
+   "stage": "Mention",
    "snippet": "…e and how they will be impacted. These could be- -third-party research, -census data, -legislation, -articles, -reports, Renter’s Rights Act ACEHO model policy Selective licensing and hmo licensing data Census data 3601 Oxford City Council- EqIA. Ver 1.3 (02.10.2025) Equalities Steering Group 5 -briefs. 19. If you have not done any consultations or collected data & information, are you planning to…",
    "first_seen": "2026-11-05T20:40:48+00:00"
   },

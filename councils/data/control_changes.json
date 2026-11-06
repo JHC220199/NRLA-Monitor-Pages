@@ -1,1 +1,26 @@
-[]
+[
+ {
+  "date": "2026-11-06T15:16:28+00:00",
+  "ocd_id": 371,
+  "gss": "E06000012",
+  "council": "North East Lincolnshire",
+  "control_changed": false,
+  "summary": "Seats: Lab 9→10, Oth 5→4"
+ },
+ {
+  "date": "2026-11-06T15:16:28+00:00",
+  "ocd_id": 409,
+  "gss": "E06000058",
+  "council": "Bournemouth, Christchurch and Poole",
+  "control_changed": false,
+  "summary": "Seats: LD 26→27, Vacant 1→0"
+ },
+ {
+  "date": "2026-11-06T15:16:28+00:00",
+  "ocd_id": 29,
+  "gss": "E07000224",
+  "council": "Arun",
+  "control_changed": false,
+  "summary": "Seats: Ref 2→1, Oth 6→7"
+ }
+]
