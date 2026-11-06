@@ -1,0 +1,338 @@
+{
+ "generated": "2026-11-06T15:15:30+00:00",
+ "count": 83,
+ "councils": [
+  {
+   "gss": "E07000105",
+   "name": "Ashford"
+  },
+  {
+   "gss": "E07000200",
+   "name": "Babergh"
+  },
+  {
+   "gss": "E09000003",
+   "name": "Barnet"
+  },
+  {
+   "gss": "E08000038",
+   "name": "Barnsley"
+  },
+  {
+   "gss": "E07000066",
+   "name": "Basildon"
+  },
+  {
+   "gss": "E07000084",
+   "name": "Basingstoke and Deane"
+  },
+  {
+   "gss": "E06000055",
+   "name": "Bedford"
+  },
+  {
+   "gss": "E06000009",
+   "name": "Blackpool"
+  },
+  {
+   "gss": "E08000001",
+   "name": "Bolton"
+  },
+  {
+   "gss": "E06000058",
+   "name": "Bournemouth, Christchurch and Poole"
+  },
+  {
+   "gss": "E08000032",
+   "name": "Bradford"
+  },
+  {
+   "gss": "E06000023",
+   "name": "Bristol"
+  },
+  {
+   "gss": "E07000144",
+   "name": "Broadland"
+  },
+  {
+   "gss": "E07000234",
+   "name": "Bromsgrove"
+  },
+  {
+   "gss": "E06000060",
+   "name": "Buckinghamshire"
+  },
+  {
+   "gss": "E08000002",
+   "name": "Bury"
+  },
+  {
+   "gss": "E07000106",
+   "name": "Canterbury"
+  },
+  {
+   "gss": "E07000070",
+   "name": "Chelmsford"
+  },
+  {
+   "gss": "E07000177",
+   "name": "Cherwell"
+  },
+  {
+   "gss": "E07000226",
+   "name": "Crawley"
+  },
+  {
+   "gss": "E06000063",
+   "name": "Cumberland"
+  },
+  {
+   "gss": "E06000015",
+   "name": "Derby"
+  },
+  {
+   "gss": "E08000017",
+   "name": "Doncaster"
+  },
+  {
+   "gss": "E07000108",
+   "name": "Dover"
+  },
+  {
+   "gss": "E06000047",
+   "name": "Durham"
+  },
+  {
+   "gss": "E09000009",
+   "name": "Ealing"
+  },
+  {
+   "gss": "E07000244",
+   "name": "East Suffolk"
+  },
+  {
+   "gss": "E07000061",
+   "name": "Eastbourne"
+  },
+  {
+   "gss": "E07000208",
+   "name": "Epsom and Ewell"
+  },
+  {
+   "gss": "E07000041",
+   "name": "Exeter"
+  },
+  {
+   "gss": "E07000081",
+   "name": "Gloucester"
+  },
+  {
+   "gss": "E07000109",
+   "name": "Gravesham"
+  },
+  {
+   "gss": "E06000006",
+   "name": "Halton"
+  },
+  {
+   "gss": "E07000089",
+   "name": "Hart"
+  },
+  {
+   "gss": "E07000062",
+   "name": "Hastings"
+  },
+  {
+   "gss": "E06000019",
+   "name": "Herefordshire"
+  },
+  {
+   "gss": "E07000098",
+   "name": "Hertsmere"
+  },
+  {
+   "gss": "E07000132",
+   "name": "Hinckley and Bosworth"
+  },
+  {
+   "gss": "E07000227",
+   "name": "Horsham"
+  },
+  {
+   "gss": "E09000021",
+   "name": "Kingston upon Thames"
+  },
+  {
+   "gss": "E07000121",
+   "name": "Lancaster"
+  },
+  {
+   "gss": "E06000016",
+   "name": "Leicester"
+  },
+  {
+   "gss": "E07000063",
+   "name": "Lewes"
+  },
+  {
+   "gss": "E08000012",
+   "name": "Liverpool"
+  },
+  {
+   "gss": "E07000203",
+   "name": "Mid Suffolk"
+  },
+  {
+   "gss": "E08000021",
+   "name": "Newcastle upon Tyne"
+  },
+  {
+   "gss": "E06000024",
+   "name": "North Somerset"
+  },
+  {
+   "gss": "E06000057",
+   "name": "Northumberland"
+  },
+  {
+   "gss": "E06000018",
+   "name": "Nottingham"
+  },
+  {
+   "gss": "E06000038",
+   "name": "Reading"
+  },
+  {
+   "gss": "E07000236",
+   "name": "Redditch"
+  },
+  {
+   "gss": "E07000064",
+   "name": "Rother"
+  },
+  {
+   "gss": "E07000220",
+   "name": "Rugby"
+  },
+  {
+   "gss": "E07000092",
+   "name": "Rushmoor"
+  },
+  {
+   "gss": "E08000006",
+   "name": "Salford"
+  },
+  {
+   "gss": "E08000028",
+   "name": "Sandwell"
+  },
+  {
+   "gss": "E08000014",
+   "name": "Sefton"
+  },
+  {
+   "gss": "E08000039",
+   "name": "Sheffield"
+  },
+  {
+   "gss": "E06000039",
+   "name": "Slough"
+  },
+  {
+   "gss": "E08000029",
+   "name": "Solihull"
+  },
+  {
+   "gss": "E07000012",
+   "name": "South Cambridgeshire"
+  },
+  {
+   "gss": "E07000044",
+   "name": "South Hams"
+  },
+  {
+   "gss": "E07000149",
+   "name": "South Norfolk"
+  },
+  {
+   "gss": "E09000028",
+   "name": "Southwark"
+  },
+  {
+   "gss": "E07000240",
+   "name": "St Albans"
+  },
+  {
+   "gss": "E08000013",
+   "name": "St. Helens"
+  },
+  {
+   "gss": "E07000243",
+   "name": "Stevenage"
+  },
+  {
+   "gss": "E06000021",
+   "name": "Stoke-on-Trent"
+  },
+  {
+   "gss": "E07000113",
+   "name": "Swale"
+  },
+  {
+   "gss": "E07000199",
+   "name": "Tamworth"
+  },
+  {
+   "gss": "E07000045",
+   "name": "Teignbridge"
+  },
+  {
+   "gss": "E07000093",
+   "name": "Test Valley"
+  },
+  {
+   "gss": "E07000114",
+   "name": "Thanet"
+  },
+  {
+   "gss": "E07000102",
+   "name": "Three Rivers"
+  },
+  {
+   "gss": "E06000034",
+   "name": "Thurrock"
+  },
+  {
+   "gss": "E08000009",
+   "name": "Trafford"
+  },
+  {
+   "gss": "E06000007",
+   "name": "Warrington"
+  },
+  {
+   "gss": "E07000047",
+   "name": "West Devon"
+  },
+  {
+   "gss": "E08000010",
+   "name": "Wigan"
+  },
+  {
+   "gss": "E07000094",
+   "name": "Winchester"
+  },
+  {
+   "gss": "E07000217",
+   "name": "Woking"
+  },
+  {
+   "gss": "E08000031",
+   "name": "Wolverhampton"
+  },
+  {
+   "gss": "E07000239",
+   "name": "Wyre Forest"
+  }
+ ]
+}
