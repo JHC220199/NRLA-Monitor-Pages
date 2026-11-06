@@ -153,11 +153,12 @@ footer { color: var(--muted); font-size: 12px; border-top: 1px solid var(--line)
   <div class="wrap">
     <span class="kicker">NRLA policy monitoring</span>
     <h1>Council licensing monitor</h1>
-    <p>Track who runs England's councils, spot selective and additional licensing proposals in council papers before they reach consultation, and keep a register of live schemes.</p>
+    <p>Track who runs England's councils, spot selective and additional licensing proposals in council papers before they reach consultation, and keep registers of live schemes and Article 4 HMO directions.</p>
     <nav class="tabs" aria-label="Sections">
       <a href="#control" data-tab="control">Political control <span class="n" id="n-control">–</span></a>
       <a href="#early-warning" data-tab="early-warning">Early warning <span class="n" id="n-early">–</span></a>
       <a href="#schemes" data-tab="schemes">Licensing schemes <span class="n" id="n-schemes">–</span></a>
+      <a href="#article-4" data-tab="article-4">Article 4 (HMOs) <span class="n" id="n-a4">–</span></a>
       <a href="#coverage" data-tab="coverage">Coverage</a>
     </nav>
   </div>
@@ -261,6 +262,33 @@ footer { color: var(--muted); font-size: 12px; border-top: 1px solid var(--line)
   </div>
 </section>
 
+<!-- ARTICLE 4 -->
+<section id="v-a4" class="view" data-view="article-4" hidden>
+  <div style="display:grid;gap:4px">
+    <h2>Article 4 directions on HMOs</h2>
+    <p class="lede">Where a council has removed the right to turn a family house into a small HMO (use class C3 to C4) without planning permission. Read from the national planning data councils publish to MHCLG, and from each council's own Article 4 pages, re-read daily. Coverage is worked out from published boundaries where they exist. Verified entries come from <code>config/article4_manual.csv</code> and always take priority.</p>
+    <span class="stamp" id="stamp-a4"></span>
+  </div>
+  <div class="summary" id="a4-summary"></div>
+  <div class="filters">
+    <input type="search" id="a-q" placeholder="Search councils or areas" aria-label="Search councils or areas">
+    <select id="a-status" aria-label="Status"><option value="">Any status</option></select>
+    <select id="a-scope" aria-label="Coverage"><option value="">Any coverage</option></select>
+    <select id="a-region" aria-label="Region"><option value="">All regions</option></select>
+    <label class="chk"><input type="checkbox" id="a-prop"> Pages mention a new proposal</label>
+    <label class="chk"><input type="checkbox" id="a-found" checked> Hide councils with nothing found</label>
+    <label class="chk"><input type="checkbox" id="a-mem" class="mem-only"> NRLA members only</label>
+    <span class="count" id="a-count"></span>
+  </div>
+  <div class="table-wrap"><table id="a4-table"></table></div>
+  <div class="panel">
+    <h3>Export for verification</h3>
+    <p class="small muted" style="margin:0">Copies the rows shown above in the same columns as <code>article4_manual.csv</code>, pre-filled with what the monitor found. Check each against the council's Article 4 direction notice, then paste the verified rows into the CSV. "Not found" means nothing was found automatically, not that the council has no direction.</p>
+    <div class="filters"><button class="primary" id="a-export" type="button">Copy CSV of shown rows</button><span class="small muted" id="a-export-msg"></span></div>
+    <textarea id="a-csv" hidden aria-label="CSV export" readonly></textarea>
+  </div>
+</section>
+
 <!-- COVERAGE -->
 <section id="v-coverage" class="view" data-view="coverage" hidden>
   <div style="display:grid;gap:4px">
@@ -277,7 +305,7 @@ footer { color: var(--muted); font-size: 12px; border-top: 1px solid var(--line)
 </section>
 
 <footer>
-  <span>Political control: <a href="https://opencouncildata.co.uk/" target="_blank" rel="noopener">Open Council Data UK</a>, licensed <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>. Committee systems: <a href="https://github.com/DemocracyClub/LGSF" target="_blank" rel="noopener">Democracy Club LGSF</a> (MIT). Council websites and committee papers are each council's own publications.</span>
+  <span>Political control: <a href="https://opencouncildata.co.uk/" target="_blank" rel="noopener">Open Council Data UK</a>, licensed <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>. Committee systems: <a href="https://github.com/DemocracyClub/LGSF" target="_blank" rel="noopener">Democracy Club LGSF</a> (MIT). Article 4 directions: <a href="https://www.planning.data.gov.uk/" target="_blank" rel="noopener">Planning Data</a>, MHCLG, Open Government Licence v3.0. Council websites and committee papers are each council's own publications.</span>
   <span>Built for the NRLA policy team. Automated readings are leads: confirm against the council's own documents before relying on them.</span>
 </footer>
 </div>
@@ -542,6 +570,75 @@ footer { color: var(--muted); font-size: 12px; border-top: 1px solid var(--line)
     catch { ta.select(); $("#s-export-msg").textContent = "Select the text below and copy it."; }
   };
 
+  /* ---------- article 4 ---------- */
+  const A4_CHIP = { "In force": "good", "Coming into force": "warn", "Proposed": "warn", "Ended": "", "Pages found": "info", "Not found": "" };
+  const A4_SOURCE = { verified: "Verified", manual: "Seeded, not yet verified", national: "National planning data", website: "Council website" };
+  const a4Found = (c) => c.summary.status !== "Not found";
+  function renderA4() {
+    const cs = D.a4?.councils || [];
+    if (!cs.length) { $("#a4-table").outerHTML = `<div class="empty">The Article 4 register has not been generated yet.</div>`; $("#n-a4").textContent = "0"; return; }
+    $("#stamp-a4").innerHTML = `Updated ${fmtDate(D.a4.generated)} · ${cs.length} councils checked · Planning data: <a href="${esc(D.a4.source_page)}" target="_blank" rel="noopener">planning.data.gov.uk</a> (OGL v3.0)${D.a4.national_data_ok === false ? " · national data unavailable today, showing the last copy" : ""}`;
+    const live = (c) => c.summary.status === "In force";
+    $("#n-a4").textContent = cs.filter(live).length;
+    $("#a4-summary").innerHTML = [
+      [cs.filter(live).length, "councils with a direction in force"],
+      [cs.filter((c) => live(c) && c.summary.scope === "Whole area").length, "covering the whole council area"],
+      [cs.filter((c) => live(c) && c.summary.scope === "Selected areas").length, "covering selected areas"],
+      [cs.filter((c) => ["Coming into force", "Proposed"].includes(c.summary.status) || c.summary.proposal_on_pages).length, "coming in, proposed or being extended", "hot"],
+      [cs.filter((c) => c.national).length, "in national planning data"],
+      [cs.filter((c) => c.manual.some((m) => m.verified_on)).length, "councils verified"],
+    ].map(([n, l, k]) => `<div class="stat ${k || ""}"><b>${n}</b><span>${l}</span></div>`).join("");
+    fillSelect("#a-status", uniq(cs.map((c) => c.summary.status)), $("#a-status").value);
+    fillSelect("#a-scope", uniq(cs.map((c) => c.summary.scope).filter(Boolean)), $("#a-scope").value);
+    fillSelect("#a-region", uniq(Object.values(byGss).map((c) => c.region)), $("#a-region").value);
+    drawA4();
+  }
+  let A4_SHOWN = [];
+  function drawA4() {
+    const cs = D.a4?.councils || [];
+    const q = $("#a-q").value.trim().toLowerCase(), stt = $("#a-status").value, sc = $("#a-scope").value, reg = $("#a-region").value, prop = $("#a-prop").checked, found = $("#a-found").checked;
+    A4_SHOWN = cs.filter((c) => {
+      const s = c.summary;
+      return (!q || c.name.toLowerCase().includes(q) || (s.areas || "").toLowerCase().includes(q)) && (!stt || s.status === stt) && (!sc || s.scope === sc)
+        && (!reg || byGss[c.gss]?.region === reg) && (!prop || s.proposal_on_pages || ["Coming into force", "Proposed"].includes(s.status))
+        && (!found || a4Found(c)) && (!memOnly() || MEM.has(c.gss));
+    });
+    $("#a-count").textContent = `${A4_SHOWN.length} councils`;
+    $("#a4-table").innerHTML = `<thead><tr><th>Council</th><th>Article 4 for HMOs</th><th>Coverage</th><th>In force from</th><th>Areas and directions</th><th>Verified</th><th>Pages</th></tr></thead><tbody>` +
+      A4_SHOWN.map((c) => {
+        const s = c.summary, n = c.national, ctl = byGss[c.gss];
+        const pct = s.coverage_pct != null ? `<div class="small muted">${s.coverage_pct >= 99.5 ? "100" : s.coverage_pct}% of the council's area</div>` : "";
+        const dirs = (n?.directions || []).map((d) => `<div class="small">${d.document_url ? `<a href="${esc(d.document_url)}" target="_blank" rel="noopener">${esc(d.name)}</a>` : esc(d.name)}<span class="muted">${d.start ? ` · from ${fmtDate(d.start)}` : ""}${d.end ? ` · ended ${fmtDate(d.end)}` : ""}</span></div>`).join("");
+        const areas = s.areas ? `<div class="small muted" title="${esc(s.areas)}">Areas: ${esc(s.areas.length > 160 ? s.areas.slice(0, 160) + "…" : s.areas)}</div>` : "";
+        const man = c.manual.filter((m) => m.verified_on).map((m) => `<div class="small"><b>${esc(m.hmo_direction)}</b>${m.coverage ? ` · ${esc(m.coverage)}` : ""}${m.direction_type ? ` · ${esc(m.direction_type)}` : ""}<span class="muted"> (checked ${esc(m.verified_on)})</span>${m.notes ? `<div class="muted">${esc(m.notes)}</div>` : ""}</div>`).join("") || `<span class="muted small">Not yet</span>`;
+        const good = c.pages.filter((p) => !p.error);
+        const pages = c.pages.map((p) => `<div class="pg"><a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.title || p.url)}</a>
+            ${p.error ? `<span class="chip bad">${esc(p.error)}</span>` : `<span class="muted">${p.hmo ? ["HMO Article 4", ...(p.signals || []).map((x) => x.replace("_", "-"))].join(" · ") : "no HMO Article 4 wording"}${p.changed ? ` · <b>changed ${fmtDate(p.changed)}</b>` : ""}</span>`}
+            ${(p.dates || []).slice(0, 2).map((d) => `<span class="muted" title="${esc(d.context)}">In force: ${fmtDate(d.date)}</span>`).join("")}</div>`).join("");
+        return `<tr>
+          <td><a href="${esc(c.website || "#")}" target="_blank" rel="noopener"><b>${esc(c.name)}</b></a>${memChip(c.gss)}<div>${ctl ? controlChip(ctl) : ""}</div></td>
+          <td><span class="chip ${A4_CHIP[s.status] || ""}">${esc(s.status)}</span>${s.source ? `<div class="small muted">${A4_SOURCE[s.source]}</div>` : ""}${s.proposal_on_pages ? `<div><span class="chip warn">Pages mention a proposal</span></div>` : ""}${s.direction_type ? `<div class="small muted">${esc(s.direction_type)}</div>` : ""}</td>
+          <td>${s.scope ? `<b class="small">${esc(s.scope)}</b>` : `<span class="muted">—</span>`}${pct}</td>
+          <td class="small">${s.in_force_from ? fmtDate(s.in_force_from) : '<span class="muted">—</span>'}</td>
+          <td>${dirs}${areas}${!dirs && !areas ? '<span class="muted">—</span>' : ""}</td>
+          <td>${man}</td>
+          <td>${c.pages.length ? `<details class="pages"><summary>${good.length} page${good.length === 1 ? "" : "s"}${c.pages.length > good.length ? `, ${c.pages.length - good.length} unreachable` : ""}${s.pages_changed ? " · changed" : ""}</summary>${pages}</details>` : `<span class="muted small">${esc(c.discovery?.method || "")}</span>`}</td></tr>`;
+      }).join("") + `</tbody>`;
+  }
+  $("#a-export").onclick = async () => {
+    const head = ["gss", "council", "hmo_direction", "coverage", "areas", "in_force_from", "direction_type", "source_url", "verified_on", "notes"];
+    const rows = [head.join(",")];
+    for (const c of A4_SHOWN) {
+      const s = c.summary;
+      const page = (c.pages.find((p) => p.hmo && !p.error) || {}).url || (c.national?.directions || []).map((d) => d.document_url).find(Boolean) || "";
+      rows.push([c.gss, c.name, s.status, s.scope, s.areas, s.in_force_from || "", s.direction_type, page, "", `auto (${s.source || "none"}): check before saving`].map(csvCell).join(","));
+    }
+    const text = rows.join("\n");
+    const ta = $("#a-csv"); ta.value = text; ta.hidden = false;
+    try { await navigator.clipboard.writeText(text); $("#a-export-msg").textContent = `Copied ${rows.length - 1} rows.`; }
+    catch { ta.select(); $("#a-export-msg").textContent = "Select the text below and copy it."; }
+  };
+
   /* ---------- coverage ---------- */
   function renderCoverage() {
     const sites = D.status?.sites || {};
@@ -561,7 +658,7 @@ footer { color: var(--muted); font-size: 12px; border-top: 1px solid var(--line)
   }
 
   /* ---------- routing ---------- */
-  const TABS = { control: "v-control", "early-warning": "v-early", schemes: "v-schemes", coverage: "v-coverage" };
+  const TABS = { control: "v-control", "early-warning": "v-early", schemes: "v-schemes", "article-4": "v-a4", coverage: "v-coverage" };
   function route() {
     const t = TABS[location.hash.slice(1)] ? location.hash.slice(1) : "control";
     for (const [k, id] of Object.entries(TABS)) document.getElementById(id).hidden = k !== t;
@@ -572,6 +669,7 @@ footer { color: var(--muted); font-size: 12px; border-top: 1px solid var(--line)
   ["#c-q", "#c-region", "#c-type", "#c-status", "#c-party", "#c-lgr"].forEach((s) => $(s).addEventListener("input", drawControlTable));
   ["#e-q", "#e-period", "#e-stage", "#e-party", "#e-strong", "#e-upcoming"].forEach((s) => $(s).addEventListener("input", () => { drawEarly(); store.set(s, $(s).type === "checkbox" ? $(s).checked : $(s).value); }));
   ["#s-q", "#s-type", "#s-status", "#s-region", "#s-changed", "#s-found"].forEach((s) => $(s).addEventListener("input", drawSchemes));
+  ["#a-q", "#a-status", "#a-scope", "#a-region", "#a-prop", "#a-found"].forEach((s) => $(s).addEventListener("input", drawA4));
 
   document.querySelectorAll(".mem-only").forEach((el) => el.addEventListener("input", () => {
     document.querySelectorAll(".mem-only").forEach((o) => { o.checked = el.checked; });
@@ -579,17 +677,18 @@ footer { color: var(--muted); font-size: 12px; border-top: 1px solid var(--line)
     if (D.control) drawControlTable();
     if (D.mentions) drawEarly();
     if (D.schemes?.councils?.length) drawSchemes();
+    if (D.a4?.councils?.length) drawA4();
   }));
 
   route();
-  Promise.all(["control.json", "control_changes.json", "mentions.json", "schemes.json", "scan_status.json", "members.json"].map(load)).then(([c, ch, m, s, st, mem]) => {
+  Promise.all(["control.json", "control_changes.json", "mentions.json", "schemes.json", "scan_status.json", "members.json", "article4.json"].map(load)).then(([c, ch, m, s, st, mem, a4]) => {
     for (const x of mem?.councils || []) { MEM.add(x.gss); MEM_NAMES.add(x.name); }
     if (!MEM.size) document.querySelectorAll(".mem-only").forEach((o) => { o.closest("label").hidden = true; });
     else if (store.get("mem") === "true") document.querySelectorAll(".mem-only").forEach((o) => { o.checked = true; });
-    Object.assign(D, { control: c, changes: ch || [], mentions: m, schemes: s, status: st });
+    Object.assign(D, { control: c, changes: ch || [], mentions: m, schemes: s, status: st, a4 });
     for (const x of c?.councils || []) if (x.gss) byGss[x.gss] = x;
     for (const s of ["#e-period", "#e-strong", "#e-upcoming"]) { const v = store.get(s); if (v != null) { if ($(s).type === "checkbox") $(s).checked = v === "true"; else $(s).value = v; } }
-    renderControl(); renderEarly(); renderSchemes(); renderCoverage();
+    renderControl(); renderEarly(); renderSchemes(); renderA4(); renderCoverage();
   });
 })();
 </script>
