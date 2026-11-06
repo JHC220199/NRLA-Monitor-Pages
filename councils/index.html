@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Council Licensing Monitor</title>
 <meta name="claude:viewport-fit-sides" content="cover">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23113B54'/%3E%3Cpath d='M8 23V12l8-5 8 5v11h-5v-6h-6v6z' fill='%23E96C19'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap">
@@ -97,6 +98,7 @@ button.primary { background: var(--navy); border-color: var(--navy); color: #FCF
 .chip.good { background: var(--good-bg); color: var(--good); } .chip.warn { background: var(--warn-bg); color: var(--warn); }
 .chip.bad { background: var(--bad-bg); color: var(--bad); } .chip.info { background: var(--info-bg); color: var(--info); }
 .chip.new { background: var(--orange); color: #FCFCFC; }
+.chip.member { background: var(--navy); color: #FCFCFC; }
 .dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; flex: none; }
 .label { font: 600 12px/1.2 var(--body); white-space: nowrap; display: inline-flex; gap: 6px; align-items: center; }
 
@@ -190,6 +192,7 @@ footer { color: var(--muted); font-size: 12px; border-top: 1px solid var(--line)
         <select id="c-status" aria-label="Control status"><option value="">Any control status</option></select>
         <select id="c-party" aria-label="Leading party"><option value="">Any leading party</option></select>
         <label class="chk"><input type="checkbox" id="c-lgr"> Exclude councils being abolished</label>
+        <label class="chk"><input type="checkbox" id="c-mem" class="mem-only"> NRLA members only</label>
         <span class="count" id="c-count"></span>
       </div>
       <div class="table-wrap"><table id="control-table"></table></div>
@@ -200,7 +203,7 @@ footer { color: var(--muted); font-size: 12px; border-top: 1px solid var(--line)
 <section id="v-early" class="view" data-view="early-warning" hidden>
   <div style="display:grid;gap:4px">
     <h2>Licensing in council papers</h2>
-    <p class="lede">Agenda items and reports that mention selective or additional licensing, read daily from councils' Modern.Gov committee systems. Cabinet reports, scrutiny papers and key-decision notices usually show up months before a formal consultation opens.</p>
+    <p class="lede">Agenda items and reports that mention selective or additional licensing, read daily from councils' Modern.Gov and CMIS committee systems. Cabinet reports, scrutiny papers and key-decision notices usually show up months before a formal consultation opens.</p>
     <span class="stamp" id="stamp-early"></span>
   </div>
   <div class="summary" id="early-summary"></div>
@@ -216,6 +219,7 @@ footer { color: var(--muted); font-size: 12px; border-top: 1px solid var(--line)
         <select id="e-party" aria-label="Leading party"><option value="">Any leading party</option></select>
         <label class="chk"><input type="checkbox" id="e-strong" checked> Strong matches only</label>
         <label class="chk"><input type="checkbox" id="e-upcoming"> Upcoming meetings only</label>
+        <label class="chk"><input type="checkbox" id="e-mem" class="mem-only"> NRLA members only</label>
         <span class="count" id="e-count"></span>
       </div>
       <div class="feed" id="feed"></div>
@@ -245,6 +249,7 @@ footer { color: var(--muted); font-size: 12px; border-top: 1px solid var(--line)
     <select id="s-region" aria-label="Region"><option value="">All regions</option></select>
     <label class="chk"><input type="checkbox" id="s-changed"> Changed in last 14 days</label>
     <label class="chk"><input type="checkbox" id="s-found" checked> Hide councils with no licensing pages</label>
+    <label class="chk"><input type="checkbox" id="s-mem" class="mem-only"> NRLA members only</label>
     <span class="count" id="s-count"></span>
   </div>
   <div class="table-wrap"><table id="schemes-table"></table></div>
@@ -266,13 +271,13 @@ footer { color: var(--muted); font-size: 12px; border-top: 1px solid var(--line)
   <div class="cov-grid">
     <div class="panel"><h3>Committee sites with errors</h3><ul id="cov-errors"></ul></div>
     <div class="panel"><h3>Reports blocked by a browser check</h3><p class="small muted" style="margin:0">Agenda titles and item text are still matched; report PDFs are not read.</p><ul id="cov-blocked"></ul></div>
-    <div class="panel"><h3>Not on Modern.Gov</h3><p class="small muted" style="margin:0">Papers for these councils are not scanned yet (mostly CMIS or bespoke systems).</p><ul id="cov-notmg"></ul></div>
+    <div class="panel"><h3>Committee system not scanned</h3><p class="small muted" style="margin:0">Papers for these councils are not scanned yet (bespoke committee websites, or none yet).</p><ul id="cov-notmg"></ul></div>
     <div class="panel"><h3>No licensing pages found</h3><p class="small muted" style="margin:0">No sitemap match. Add a <code>page_url</code> in the manual CSV if the council runs a scheme.</p><ul id="cov-nopages"></ul></div>
   </div>
 </section>
 
 <footer>
-  <span>Political control: <a href="https://opencouncildata.co.uk/" target="_blank" rel="noopener">Open Council Data UK</a>, licensed <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>. Committee systems: <a href="https://github.com/DemocracyClub/LGSF" target="_blank" rel="noopener">Democracy Club LGSF</a> (MIT). Council websites and Modern.Gov papers are each council's own publications.</span>
+  <span>Political control: <a href="https://opencouncildata.co.uk/" target="_blank" rel="noopener">Open Council Data UK</a>, licensed <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>. Committee systems: <a href="https://github.com/DemocracyClub/LGSF" target="_blank" rel="noopener">Democracy Club LGSF</a> (MIT). Council websites and committee papers are each council's own publications.</span>
   <span>Built for the NRLA policy team. Automated readings are leads: confirm against the council's own documents before relying on them.</span>
 </footer>
 </div>
@@ -289,6 +294,7 @@ footer { color: var(--muted); font-size: 12px; border-top: 1px solid var(--line)
   const SCHEME_CHIP = { "Live": "good", "Consultation open": "warn", "Consultation (check)": "warn", "Proposed": "warn", "Ended": "", "Pages found": "info", "None found": "" };
 
   const $ = (s) => document.querySelector(s);
+  const deco = (s) => { const t = document.createElement("textarea"); let v = String(s ?? ""); for (let i = 0; i < 2 && /&(#\d+|[a-z]+);/i.test(v); i++) { t.innerHTML = v; v = t.value; } return v; };
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   const fmtDate = (s) => { if (!s) return ""; const d = new Date(s.length === 10 ? s + "T12:00:00" : s); return isNaN(d) ? s : d.toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" }); };
   const daysAgo = (s) => (Date.now() - new Date(s.length === 10 ? s + "T12:00:00" : s)) / 864e5;
@@ -296,6 +302,10 @@ footer { color: var(--muted); font-size: 12px; border-top: 1px solid var(--line)
 
   const D = { control: null, changes: [], mentions: null, schemes: null, status: null, registry: null };
   const byGss = {};
+  const MEM = new Set(), MEM_NAMES = new Set();  // NRLA member councils (ONS codes, names)
+  const memOnly = () => $("#c-mem").checked;
+  const memChip = (gss) => MEM.has(gss) ? ' <span class="chip member" title="NRLA local authority member">NRLA member</span>' : "";
+  const memName = (n) => esc(n) + (MEM_NAMES.has(n) ? ' <span class="chip member">NRLA member</span>' : "");
 
   async function load(name) { try { const r = await fetch("data/" + name, { cache: "no-store" }); return r.ok ? await r.json() : null; } catch { return null; } }
 
@@ -325,6 +335,7 @@ footer { color: var(--muted); font-size: 12px; border-top: 1px solid var(--line)
       [st("Majority"), "single-party majority"], [noc, "no overall control"], [st("Minority administration"), "minority administrations"],
       [st("Coalition") + st("Coalition (minority)"), "coalitions"], [st("Directly elected mayor"), "directly elected mayors"],
       [cs.filter((c) => /abolish/i.test(c.lgr_note || "")).length, "due to be abolished under LGR"],
+      [cs.filter((c) => MEM.has(c.gss)).length, "NRLA member councils"],
     ].map(([n, l]) => `<div class="stat"><b>${n}</b><span>${l}</span></div>`).join("");
 
     // leadership by party
@@ -353,7 +364,7 @@ footer { color: var(--muted); font-size: 12px; border-top: 1px solid var(--line)
   function drawControlTable() {
     const cs = D.control?.councils || [];
     const q = $("#c-q").value.trim().toLowerCase(), reg = $("#c-region").value, ty = $("#c-type").value, stt = $("#c-status").value, pa = $("#c-party").value, lgr = $("#c-lgr").checked;
-    let list = cs.filter((c) => (!q || (c.name + " " + (c.county || "")).toLowerCase().includes(q)) && (!reg || c.region === reg) && (!ty || c.type === ty) && (!stt || c.status === stt) && (!pa || c.lead_party === pa) && (!lgr || !/abolish/i.test(c.lgr_note || "")));
+    let list = cs.filter((c) => (!q || (c.name + " " + (c.county || "")).toLowerCase().includes(q)) && (!reg || c.region === reg) && (!ty || c.type === ty) && (!stt || c.status === stt) && (!pa || c.lead_party === pa) && (!lgr || !/abolish/i.test(c.lgr_note || "")) && (!memOnly() || MEM.has(c.gss)));
     const k = cSort.key, dir = cSort.dir === "asc" ? 1 : -1;
     const val = (c) => k === "name" ? c.name : k === "seats" ? c.control_seats : k === "wm" ? c.working_majority : k === "total" ? c.total : k === "status" ? c.status : k === "region" ? (c.region || "") : k === "type" ? (c.type || "") : c.control_label;
     list.sort((a, b) => { const x = val(a), y = val(b); return (typeof x === "number" ? x - y : String(x).localeCompare(String(y))) * dir; });
@@ -365,7 +376,7 @@ footer { color: var(--muted); font-size: 12px; border-top: 1px solid var(--line)
         const opp = Object.entries(c.opposition || {}).map(([p, n]) => `${PARTY[p]?.[0] || p} ${n}`).join(" · ") || "—";
         const wm = c.working_majority;
         return `<tr>
-          <td><a href="${esc(c.ocd_url)}" target="_blank" rel="noopener"><b>${esc(c.name)}</b></a>${c.lgr_note ? `<div class="small muted">${esc(c.lgr_note)}</div>` : ""}</td>
+          <td><a href="${esc(c.ocd_url)}" target="_blank" rel="noopener"><b>${esc(c.name)}</b></a>${memChip(c.gss)}${c.lgr_note ? `<div class="small muted">${esc(c.lgr_note)}</div>` : ""}</td>
           <td class="small">${esc(c.type || "")}</td><td class="small">${esc(c.region || "")}</td>
           <td>${controlChip(c)}<div class="small muted">${esc(c.overall_control)}</div></td>
           <td><span class="chip ${STATUS_CHIP[c.status] || ""}">${esc(c.status)}</span></td>
@@ -423,7 +434,7 @@ footer { color: var(--muted); font-size: 12px; border-top: 1px solid var(--line)
     const list = GROUPS.filter((x) => {
       const ctl = x.councils.map((c) => byGss[c.gss]).filter(Boolean);
       return (!per || daysAgo(x.meeting_date) <= per) && (!stg || x.stage === stg) && (!strong || x.strong) && (!up || x.meeting_date >= today)
-        && (!pa || ctl.some((c) => c.lead_party === pa))
+        && (!pa || ctl.some((c) => c.lead_party === pa)) && (!memOnly() || x.councils.some((c) => MEM.has(c.gss)))
         && (!q || [x.councils.map((c) => c.name).join(" "), x.committee, x.item_title, x.snippet].join(" ").toLowerCase().includes(q));
     }).sort((a, b) => b.meeting_date.localeCompare(a.meeting_date) || a.councils[0].name.localeCompare(b.councils[0].name));
     const councilsN = new Set(list.flatMap((x) => x.councils.map((c) => c.gss))).size;
@@ -438,12 +449,12 @@ footer { color: var(--muted); font-size: 12px; border-top: 1px solid var(--line)
     $("#feed").innerHTML = list.length ? list.slice(0, 300).map((x) => {
       const names = x.councils.map((c) => esc(c.name)).join(" &amp; ");
       const ctl = byGss[x.councils[0].gss];
-      const docs = x.docs.slice(0, 8).map((d) => `<a href="${esc(d.url)}" target="_blank" rel="noopener" title="${esc(d.title)}">${esc(d.title || "Report")}</a>`).join("");
+      const docs = x.docs.slice(0, 8).map((d) => `<a href="${esc(d.url)}" target="_blank" rel="noopener" title="${esc(deco(d.title))}">${esc(deco(d.title) || "Report")}</a>`).join("");
       return `<article class="item s-${STAGE_CLASS[x.stage]}">
-        <div class="top"><span class="council">${names}</span>${ctl ? controlChip(ctl) : ""}<span class="chip ${STAGE_CHIP[x.stage]}">${esc(x.stage)}</span>${daysAgo(x.firstSeen) <= 7 ? '<span class="chip new">New</span>' : ""}${x.strong ? "" : '<span class="chip">Contextual match</span>'}</div>
-        <div class="title"><a href="${esc(x.meeting_url)}" target="_blank" rel="noopener">${esc(x.item_number ? x.item_number + " " : "")}${esc(x.item_title)}</a></div>
-        <div class="meta"><span>${esc(x.committee)}</span><span>${x.meeting_date >= today ? "Meeting due " : "Met "}${fmtDate(x.meeting_date)}</span><span>Found ${fmtDate(x.firstSeen)}</span></div>
-        ${x.snippet ? `<p class="snip">${highlight(x.snippet, x.terms)}</p>` : ""}
+        <div class="top"><span class="council">${names}</span>${x.councils.map((c) => memChip(c.gss)).find(Boolean) || ""}${ctl ? controlChip(ctl) : ""}<span class="chip ${STAGE_CHIP[x.stage]}">${esc(x.stage)}</span>${daysAgo(x.firstSeen) <= 7 ? '<span class="chip new">New</span>' : ""}${x.strong ? "" : '<span class="chip">Contextual match</span>'}</div>
+        <div class="title"><a href="${esc(x.meeting_url)}" target="_blank" rel="noopener">${esc(x.item_number ? x.item_number + " " : "")}${esc(deco(x.item_title))}</a></div>
+        <div class="meta"><span>${esc(deco(x.committee))}</span><span>${x.meeting_date >= today ? "Meeting due " : "Met "}${fmtDate(x.meeting_date)}</span><span>Found ${fmtDate(x.firstSeen)}</span></div>
+        ${x.snippet ? `<p class="snip">${highlight(deco(x.snippet), x.terms)}</p>` : ""}
         ${docs ? `<div class="docs">${docs}</div>` : ""}
       </article>`;
     }).join("") : `<div class="empty">No items match these filters. Try a longer period or include contextual matches.</div>`;
@@ -455,7 +466,7 @@ footer { color: var(--muted); font-size: 12px; border-top: 1px solid var(--line)
     }
     $("#radar").innerHTML = [...radar.values()].sort((a, b) => b.last.localeCompare(a.last)).slice(0, 60).map((r) => {
       const ctl = byGss[r.gss];
-      return `<li><b>${esc(r.name)}</b><span class="small">${ctl ? controlChip(ctl) : ""} <span class="chip ${STAGE_CHIP[r.stage]}">${esc(r.stage)}</span></span><span class="small muted">${r.n} item${r.n > 1 ? "s" : ""} · latest ${fmtDate(r.last)}</span></li>`;
+      return `<li><b>${esc(r.name)}</b><span class="small">${memChip(r.gss)} ${ctl ? controlChip(ctl) : ""} <span class="chip ${STAGE_CHIP[r.stage]}">${esc(r.stage)}</span></span><span class="small muted">${r.n} item${r.n > 1 ? "s" : ""} · latest ${fmtDate(r.last)}</span></li>`;
     }).join("") || `<li class="muted small">No councils in this period.</li>`;
   }
 
@@ -471,7 +482,7 @@ footer { color: var(--muted); font-size: 12px; border-top: 1px solid var(--line)
       [cs.filter((c) => c.auto.additional).length, "councils with additional licensing pages"],
       [cs.filter((c) => c.auto.status === "Live").length, "councils with pages reading as live"],
       [cs.filter((c) => /Consultation/.test(c.auto.status)).length, "councils with pages mentioning consultation", "hot"],
-      [cs.filter((c) => c.manual.length).length, "councils verified"],
+      [cs.filter((c) => c.manual.some((m) => m.verified_on)).length, "councils verified"],
       [cs.filter((c) => c.auto.last_changed && daysAgo(c.auto.last_changed) <= 14).length, "changed in last 14 days"],
     ].map(([n, l, k]) => `<div class="stat ${k || ""}"><b>${n}</b><span>${l}</span></div>`).join("");
     fillSelect("#s-status", uniq(cs.map((c) => c.auto.status)), $("#s-status").value);
@@ -487,14 +498,14 @@ footer { color: var(--muted); font-size: 12px; border-top: 1px solid var(--line)
       return (!q || c.name.toLowerCase().includes(q)) && (!stt || a.status === stt) && (!reg || byGss[c.gss]?.region === reg)
         && (!ty || (ty === "selective" ? a.selective : ty === "additional" ? a.additional : a.selective || a.additional))
         && (!chg || (a.last_changed && daysAgo(a.last_changed) <= 14))
-        && (!found || a.selective || a.additional || c.manual.length);
+        && (!found || a.selective || a.additional || c.manual.length) && (!memOnly() || MEM.has(c.gss));
     });
     $("#s-count").textContent = `${SHOWN.length} councils`;
     const tick = (b) => b ? `<span class="chip good">Yes</span>` : `<span class="muted">—</span>`;
     $("#schemes-table").innerHTML = `<thead><tr><th>Council</th><th>Selective</th><th>Additional</th><th>Read from pages</th><th>Verified</th><th>Fees mentioned</th><th>Designation notices</th><th>Pages</th></tr></thead><tbody>` +
       SHOWN.map((c) => {
         const a = c.auto, ctl = byGss[c.gss];
-        const man = c.manual.map((m) => `<div class="small"><b>${esc(m.scheme_type)}</b> ${esc(m.status)}${m.end_date ? ` · ends ${esc(m.end_date)}` : ""}${m.fee ? ` · ${esc(m.fee)}` : ""}<span class="muted">${m.verified_on ? ` (checked ${esc(m.verified_on)})` : ""}</span></div>`).join("") || `<span class="muted small">Not yet</span>`;
+        const man = c.manual.filter((m) => m.verified_on).map((m) => `<div class="small"><b>${esc(m.scheme_type)}</b> ${esc(m.status)}${m.end_date ? ` · ends ${esc(m.end_date)}` : ""}${m.fee ? ` · ${esc(m.fee)}` : ""}<span class="muted">${m.verified_on ? ` (checked ${esc(m.verified_on)})` : ""}</span></div>`).join("") || `<span class="muted small">Not yet</span>`;
         const des = a.designation_links.slice(0, 3).map((l) => `<div class="small"><a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.text || "Notice")}</a></div>`).join("") + (a.designation_links.length > 3 ? `<div class="small muted">+${a.designation_links.length - 3} more</div>` : "") || `<span class="muted">—</span>`;
         const good = c.pages.filter((p) => !p.error);
         const pages = c.pages.map((p) => `<div class="pg"><a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.title || p.url)}</a>
@@ -502,7 +513,7 @@ footer { color: var(--muted); font-size: 12px; border-top: 1px solid var(--line)
             ${(p.dates || []).filter((d) => d.kind !== "other").slice(0, 3).map((d) => `<span class="muted">${d.kind === "start" ? "Start" : "End"}: ${esc(d.date)}</span>`).join("")}
             ${(p.fees || []).slice(0, 3).map((f) => `<span class="muted" title="${esc(f.context)}">${esc(f.amount)}: …${esc(f.context.slice(40, 140))}…</span>`).join("")}</div>`).join("");
         return `<tr>
-          <td><a href="${esc(c.website)}" target="_blank" rel="noopener"><b>${esc(c.name)}</b></a><div>${ctl ? controlChip(ctl) : ""}</div></td>
+          <td><a href="${esc(c.website)}" target="_blank" rel="noopener"><b>${esc(c.name)}</b></a>${memChip(c.gss)}<div>${ctl ? controlChip(ctl) : ""}</div></td>
           <td>${tick(a.selective)}</td><td>${tick(a.additional)}</td>
           <td><span class="chip ${SCHEME_CHIP[a.status] || ""}">${esc(a.status)}</span>${a.last_changed ? `<div class="small muted">Changed ${fmtDate(a.last_changed)}</div>` : ""}</td>
           <td>${man}</td>
@@ -537,16 +548,16 @@ footer { color: var(--muted); font-size: 12px; border-top: 1px solid var(--line)
     const vals = Object.entries(sites);
     const errs = vals.filter(([, s]) => s.error), blocked = vals.filter(([, s]) => s.docs_blocked && !s.docs_read);
     const notmg = D.status?.not_covered || [];
-    const nop = (D.schemes?.councils || []).filter((c) => c.discovery?.method === "none found" && !c.manual.length);
+    const nop = (D.schemes?.councils || []).filter((c) => c.discovery?.method === "none found" && !c.manual.length && byGss[c.gss]?.type !== "County");
     $("#cov-summary").innerHTML = [
       [vals.length - errs.length, "committee sites scanned"], [errs.length, "sites with errors"], [blocked.length, "sites with reports blocked"],
-      [notmg.length, "councils not on Modern.Gov"], [nop.length, "councils with no licensing pages found"],
+      [notmg.length, "councils on unsupported systems"], [nop.length, "councils with no licensing pages found"],
     ].map(([n, l]) => `<div class="stat"><b>${n}</b><span>${l}</span></div>`).join("");
     const li = (s) => `<li class="small">${s}</li>`;
-    $("#cov-errors").innerHTML = errs.map(([b, s]) => li(`<b>${esc(s.councils.join(", "))}</b><span class="muted">${esc(s.error)}</span>`)).join("") || li("None");
-    $("#cov-blocked").innerHTML = blocked.map(([b, s]) => li(`<b>${esc(s.councils.join(", "))}</b>`)).join("") || li("None");
-    $("#cov-notmg").innerHTML = notmg.map((n) => li(esc(n))).join("") || li("None");
-    $("#cov-nopages").innerHTML = nop.map((c) => li(`<a href="${esc(c.website)}" target="_blank" rel="noopener">${esc(c.name)}</a>`)).join("") || li("None");
+    $("#cov-errors").innerHTML = errs.map(([b, s]) => li(`<b>${s.councils.map(memName).join(", ")}</b><span class="muted">${esc(s.error)}</span>`)).join("") || li("None");
+    $("#cov-blocked").innerHTML = blocked.map(([b, s]) => li(`<b>${s.councils.map(memName).join(", ")}</b>`)).join("") || li("None");
+    $("#cov-notmg").innerHTML = notmg.map((n) => li(memName(n))).join("") || li("None");
+    $("#cov-nopages").innerHTML = nop.map((c) => li(`<a href="${esc(c.website)}" target="_blank" rel="noopener">${esc(c.name)}</a>${memChip(c.gss)}`)).join("") || li("None");
   }
 
   /* ---------- routing ---------- */
@@ -562,8 +573,19 @@ footer { color: var(--muted); font-size: 12px; border-top: 1px solid var(--line)
   ["#e-q", "#e-period", "#e-stage", "#e-party", "#e-strong", "#e-upcoming"].forEach((s) => $(s).addEventListener("input", () => { drawEarly(); store.set(s, $(s).type === "checkbox" ? $(s).checked : $(s).value); }));
   ["#s-q", "#s-type", "#s-status", "#s-region", "#s-changed", "#s-found"].forEach((s) => $(s).addEventListener("input", drawSchemes));
 
+  document.querySelectorAll(".mem-only").forEach((el) => el.addEventListener("input", () => {
+    document.querySelectorAll(".mem-only").forEach((o) => { o.checked = el.checked; });
+    store.set("mem", el.checked);
+    if (D.control) drawControlTable();
+    if (D.mentions) drawEarly();
+    if (D.schemes?.councils?.length) drawSchemes();
+  }));
+
   route();
-  Promise.all(["control.json", "control_changes.json", "mentions.json", "schemes.json", "scan_status.json"].map(load)).then(([c, ch, m, s, st]) => {
+  Promise.all(["control.json", "control_changes.json", "mentions.json", "schemes.json", "scan_status.json", "members.json"].map(load)).then(([c, ch, m, s, st, mem]) => {
+    for (const x of mem?.councils || []) { MEM.add(x.gss); MEM_NAMES.add(x.name); }
+    if (!MEM.size) document.querySelectorAll(".mem-only").forEach((o) => { o.closest("label").hidden = true; });
+    else if (store.get("mem") === "true") document.querySelectorAll(".mem-only").forEach((o) => { o.checked = true; });
     Object.assign(D, { control: c, changes: ch || [], mentions: m, schemes: s, status: st });
     for (const x of c?.councils || []) if (x.gss) byGss[x.gss] = x;
     for (const s of ["#e-period", "#e-strong", "#e-upcoming"]) { const v = store.get(s); if (v != null) { if ($(s).type === "checkbox") $(s).checked = v === "true"; else $(s).value = v; } }
