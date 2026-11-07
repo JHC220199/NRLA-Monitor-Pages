@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T18:16:37+00:00",
+ "generated": "2026-11-07T14:16:33+00:00",
  "source": "Open Council Data UK (opencouncildata.co.uk), CC BY-SA 4.0",
  "count": 318,
  "councils": [
@@ -5106,11 +5106,11 @@
    "control_label": "LAB",
    "seats": {
     "Lab": 25,
-    "Con": 9,
+    "Con": 8,
     "LD": 1,
     "Grn": 2,
     "Ref": 1,
-    "Oth": 5
+    "Oth": 6
    },
    "vacant": 0,
    "total": 43,
@@ -5135,8 +5135,8 @@
    "working_majority": 7,
    "largest_party": "Lab",
    "opposition": {
-    "Con": 9,
-    "Oth": 5,
+    "Con": 8,
+    "Oth": 6,
     "Grn": 2,
     "LD": 1,
     "Ref": 1
@@ -7255,14 +7255,14 @@
    "name": "North Hertfordshire",
    "control_label": "LAB min",
    "seats": {
-    "Lab": 23,
+    "Lab": 22,
     "Con": 7,
     "LD": 19,
     "Grn": 0,
     "Ref": 0,
     "Oth": 1
    },
-   "vacant": 1,
+   "vacant": 2,
    "total": 51,
    "control_description": "LAB Minority",
    "majority_required": 26,
@@ -7280,9 +7280,9 @@
    "lead_party": "Lab",
    "status": "Minority administration",
    "overall_control": "No overall control",
-   "control_seats": 23,
+   "control_seats": 22,
    "control_seats_approx": false,
-   "working_majority": -4,
+   "working_majority": -5,
    "largest_party": "Lab",
    "opposition": {
     "LD": 19,
@@ -8621,8 +8621,8 @@
    "control_label": "IND/LD/LAB/GRN",
    "seats": {
     "Lab": 6,
-    "Con": 12,
-    "LD": 9,
+    "Con": 13,
+    "LD": 8,
     "Grn": 3,
     "Ref": 0,
     "Oth": 8
@@ -8648,14 +8648,14 @@
    "lead_party": "Oth",
    "status": "Coalition",
    "overall_control": "No overall control",
-   "control_seats": 26,
+   "control_seats": 25,
    "control_seats_approx": true,
-   "working_majority": 14,
+   "working_majority": 12,
    "largest_party": "Con",
    "opposition": {
-    "Con": 12
+    "Con": 13
    },
-   "opposition_total": 12
+   "opposition_total": 13
   },
   {
    "ocd_id": 278,

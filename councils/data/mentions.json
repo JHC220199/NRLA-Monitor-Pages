@@ -1,7 +1,32 @@
 {
- "generated": "2026-11-06T18:31:23+00:00",
- "count": 115,
+ "generated": "2026-11-07T14:53:08+00:00",
+ "count": 116,
  "mentions": [
+  {
+   "id": "https://democracy.lbhf.gov.uk|8053|Housing Strategy 2026-31|136777",
+   "councils": [
+    {
+     "name": "Hammersmith and Fulham",
+     "gss": "E09000013"
+    }
+   ],
+   "committee": "Cabinet",
+   "meeting_date": "2026-11-16",
+   "meeting_url": "https://democracy.lbhf.gov.uk/ieListDocuments.aspx?MId=8053",
+   "item_number": "4.",
+   "item_title": "Housing Strategy 2026-31",
+   "doc_title": "Appendix 1 – Draft Housing Strategy 2026-31",
+   "doc_url": "https://democracy.lbhf.gov.uk/mgConvert2PDF.aspx?ID=136777",
+   "source": "report",
+   "tier": "strong",
+   "hit_count": 2,
+   "terms": [
+    "selective licens"
+   ],
+   "stage": "Mention",
+   "snippet": "…rent billing, clearer consultation and a defined service offer. 6. Increase compliance with private rented sector (PRS) standards through targeted enforcement, selective licensing, HMO licensing and hazard reduction. This will lead to safer, warmer and higher-quality PRS homes. Priority 4: Safe, clean, green neighbourhoods Why this matters Residents want safer estates, enhanced lighting, reliable…",
+   "first_seen": "2026-11-07T14:32:33+00:00"
+  },
   {
    "id": "https://democracy.bristol.gov.uk|12186|Private Rented Sector Strategy|133304",
    "councils": [

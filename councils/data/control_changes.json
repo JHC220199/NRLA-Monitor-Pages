@@ -1,5 +1,29 @@
 [
  {
+  "date": "2026-11-07T14:16:33+00:00",
+  "ocd_id": 116,
+  "gss": "E07000064",
+  "council": "Rother",
+  "control_changed": false,
+  "summary": "Seats: Con 12→13, LD 9→8"
+ },
+ {
+  "date": "2026-11-07T14:16:33+00:00",
+  "ocd_id": 199,
+  "gss": "E07000099",
+  "council": "North Hertfordshire",
+  "control_changed": false,
+  "summary": "Seats: Lab 23→22, Vacant 1→2"
+ },
+ {
+  "date": "2026-11-07T14:16:33+00:00",
+  "ocd_id": 84,
+  "gss": "E07000037",
+  "council": "High Peak",
+  "control_changed": false,
+  "summary": "Seats: Con 9→8, Oth 5→6"
+ },
+ {
   "date": "2026-11-06T15:16:28+00:00",
   "ocd_id": 371,
   "gss": "E06000012",
