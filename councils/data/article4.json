@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T09:52:35+00:00",
+ "generated": "2026-11-09T18:07:42+00:00",
  "count": 297,
  "national_data_ok": true,
  "source": "Planning Data (planning.data.gov.uk), MHCLG, Open Government Licence v3.0; council websites",
@@ -81,17 +81,17 @@
     {
      "url": "https%3A%2F%2Fwww.arun.gov.uk%2Fdirection-article-4",
      "error": "MissingSchema",
-     "checked": "2026-11-09T09:45:55+00:00"
+     "checked": "2026-11-09T18:01:00+00:00"
     },
     {
      "url": "https%3A%2F%2Fwww.arun.gov.uk%2Fsite-notice-article-4",
      "error": "MissingSchema",
-     "checked": "2026-11-09T09:45:57+00:00"
+     "checked": "2026-11-09T18:01:02+00:00"
     },
     {
      "url": "https%3A%2F%2Fwww.arun.gov.uk%2Farticle-4-committee-report",
      "error": "MissingSchema",
-     "checked": "2026-11-09T09:45:59+00:00"
+     "checked": "2026-11-09T18:01:04+00:00"
     }
    ],
    "auto": {
@@ -170,8 +170,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:35:15+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:45:56+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:01+00:00",
+     "score": 9
     },
     {
      "url": "https://www.ashford.gov.uk/transparency/open-data/article-4-directions/unique-reference-3470/",
@@ -183,8 +183,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:35:17+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:45:57+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:02+00:00",
+     "score": 9
     },
     {
      "url": "https://www.ashford.gov.uk/transparency/open-data/article-4-directions/unique-reference-3433/",
@@ -196,8 +196,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:35:19+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:45:59+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:04+00:00",
+     "score": 9
     },
     {
      "url": "https://www.ashford.gov.uk/transparency/open-data/article-4-directions/unique-reference-3461/",
@@ -209,8 +209,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:35:21+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:01+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:06+00:00",
+     "score": 9
     },
     {
      "url": "https://www.ashford.gov.uk/transparency/open-data/article-4-directions/unique-reference-t831161/",
@@ -222,8 +222,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:35:23+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:03+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:08+00:00",
+     "score": 9
     },
     {
      "url": "https://www.ashford.gov.uk/transparency/open-data/article-4-directions/unique-reference-t831071/",
@@ -235,8 +235,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:35:25+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:05+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:10+00:00",
+     "score": 9
     }
    ],
    "auto": {
@@ -580,19 +580,23 @@
      "title": "Article 4 Directions | Bath and North East Somerset Council",
      "hash": "0962c37b39b61730",
      "hmo": true,
-     "signals": [],
+     "signals": [
+      "in_force"
+     ],
      "whole_area": false,
      "dates": [],
      "first_seen": "2026-11-06T18:35:24+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:45:56+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:02+00:00",
+     "score": 9
     }
    ],
    "auto": {
     "hmo": true,
-    "status": "Pages found",
-    "signals": [],
+    "status": "In force",
+    "signals": [
+     "in_force"
+    ],
     "whole_area": false,
     "in_force_from": null,
     "last_changed": null
@@ -604,7 +608,7 @@
    },
    "manual": [],
    "summary": {
-    "status": "Pages found",
+    "status": "In force",
     "source": "website",
     "scope": "Unclear",
     "coverage_pct": null,
@@ -634,8 +638,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:35:22+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:45:55+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:01+00:00",
+     "score": 11
     }
    ],
    "auto": {
@@ -758,13 +762,13 @@
       },
       {
        "date": "2017-09-24",
-       "context": "y and Guidance Planning and building control Article 4 Direction which came into force on 24 September 2017. The Direction relates to dev"
+       "context": "e be required for change of use from Class C3 to Class C4. ction which came into force on 24 September 2017. The Direction relates to dev"
       }
      ],
      "first_seen": "2026-11-06T18:35:31+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:45:56+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:03+00:00",
+     "score": 11
     }
    ],
    "auto": {
@@ -841,8 +845,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:35:29+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:45:56+00:00",
-     "score": 9
+     "checked": "2026-11-09T18:01:01+00:00",
+     "score": 11
     },
     {
      "url": "https://www.birmingham.gov.uk/hmoppdarticle4",
@@ -854,8 +858,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:35:30+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:45:57+00:00",
-     "score": 9
+     "checked": "2026-11-09T18:01:03+00:00",
+     "score": 11
     },
     {
      "url": "https://www.birmingham.gov.uk/downloads/file/883/high_street_sutton_coldfield_article_4_details",
@@ -867,8 +871,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:35:32+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:45:59+00:00",
-     "score": 3
+     "checked": "2026-11-09T18:01:04+00:00",
+     "score": 8
     },
     {
      "url": "https://www.birmingham.gov.uk/downloads/file/906/old_yardley_conservation_area_article_4_direction",
@@ -880,8 +884,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:35:34+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:01+00:00",
-     "score": 1
+     "checked": "2026-11-09T18:01:06+00:00",
+     "score": 6
     },
     {
      "url": "https://www.birmingham.gov.uk/downloads/file/1257/selly_park_conservation_area_article_4_direction",
@@ -893,8 +897,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:35:36+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:03+00:00",
-     "score": 1
+     "checked": "2026-11-09T18:01:08+00:00",
+     "score": 6
     },
     {
      "url": "https://www.birmingham.gov.uk/downloads/file/873/greenfield_road_conservation_area_article_4_direction",
@@ -906,8 +910,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:35:38+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:05+00:00",
-     "score": 1
+     "checked": "2026-11-09T18:01:10+00:00",
+     "score": 6
     }
    ],
    "auto": {
@@ -955,8 +959,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:35:28+00:00",
      "changed": "2026-11-08T14:54:12+00:00",
-     "checked": "2026-11-09T09:45:55+00:00",
-     "score": 1
+     "checked": "2026-11-09T18:01:01+00:00",
+     "score": 8
     }
    ],
    "auto": {
@@ -1059,8 +1063,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:35:32+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:45:57+00:00",
-     "score": 10
+     "checked": "2026-11-09T18:01:02+00:00",
+     "score": 14
     },
     {
      "url": "https://www.blackpool.gov.uk/Residents/Planning-environment-and-community/Planning/Article-4-directions/HMO/Article-4-Direction-HMO.aspx",
@@ -1072,8 +1076,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:35:33+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:45:58+00:00",
-     "score": 10
+     "checked": "2026-11-09T18:01:03+00:00",
+     "score": 14
     },
     {
      "url": "https://www.blackpool.gov.uk/Residents/Planning-environment-and-community/Planning/Article-4-directions/HMO/Article-4-C3-C4-Evidence-Base.aspx",
@@ -1085,8 +1089,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:35:35+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:00+00:00",
-     "score": 10
+     "checked": "2026-11-09T18:01:05+00:00",
+     "score": 14
     },
     {
      "url": "https://www.blackpool.gov.uk/Residents/Planning-environment-and-community/Planning/Article-4-directions/HMO/Article-4-C3-C4-consultation-statement.aspx",
@@ -1100,8 +1104,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:35:37+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:02+00:00",
-     "score": 10
+     "checked": "2026-11-09T18:01:07+00:00",
+     "score": 14
     },
     {
      "url": "https://www.blackpool.gov.uk/Residents/Planning-environment-and-community/Planning/Article-4-directions/HMO/Notice-of-confirmation-of-Article-4-Direction-Borough-wide.aspx",
@@ -1113,8 +1117,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:35:39+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:04+00:00",
-     "score": 10
+     "checked": "2026-11-09T18:01:10+00:00",
+     "score": 14
     },
     {
      "url": "https://www.blackpool.gov.uk/Residents/Planning-environment-and-community/Planning/Article-4-direction.aspx",
@@ -1126,8 +1130,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:35:41+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:06+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:11+00:00",
+     "score": 11
     }
    ],
    "auto": {
@@ -1211,8 +1215,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:35:37+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:03+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:08+00:00",
+     "score": 9
     }
    ],
    "auto": {
@@ -1360,8 +1364,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:35:38+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:45:56+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:01+00:00",
+     "score": 9
     }
    ],
    "auto": {
@@ -1407,8 +1411,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:35:41+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:45:56+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:02+00:00",
+     "score": 9
     },
     {
      "url": "https://www.braintree.gov.uk/homepage/216/article-4-direction---land-off-back-lane-stisted-2003",
@@ -1420,8 +1424,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:35:43+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:45:58+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:04+00:00",
+     "score": 9
     }
    ],
    "auto": {
@@ -1527,18 +1531,6 @@
      "dates": [
       {
        "date": "2022-11-01",
-       "context": "o Houses in Multiple Occupation (use Class C4) on 3 February 2022. It came into effect on 1 November 2022. An overview hat Houses of Mu"
-      },
-      {
-       "date": "2022-11-01",
-       "context": "o Houses in Multiple Occupation (use Class C4) on 3 February 2022. It came into effect on 1 November 2022. An overview map shows its lo"
-      },
-      {
-       "date": "2022-11-01",
-       "context": "o Houses in Multiple Occupation (use Class C4) on 3 February 2022. It came into effect on 1 November 2022. An overview map shows its lo"
-      },
-      {
-       "date": "2022-11-01",
        "context": "o Houses in Multiple Occupation (use Class C4) on 3 February 2022. It came into effect on 1 November 2022. An overview map shows its lo"
       },
       {
@@ -1552,8 +1544,8 @@
      ],
      "first_seen": "2026-11-06T18:35:42+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:45:56+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:02+00:00",
+     "score": 11
     }
    ],
    "auto": {
@@ -1630,39 +1622,15 @@
      "title": "Article 4 Directions",
      "hash": "1449e20a55722a44",
      "hmo": true,
-     "signals": [],
+     "signals": [
+      "in_force"
+     ],
      "whole_area": false,
      "dates": [],
      "first_seen": "2026-11-06T18:35:51+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:45:57+00:00",
-     "score": 4
-    },
-    {
-     "url": "https://www.brighton-hove.gov.uk/list-article-4-directions-brighton-hove",
-     "title": "List of Article 4 Directions in Brighton & Hove",
-     "hash": "75f21b98309fc1ac",
-     "hmo": false,
-     "signals": [],
-     "whole_area": false,
-     "dates": [],
-     "first_seen": "2026-11-06T18:35:52+00:00",
-     "changed": null,
-     "checked": "2026-11-09T09:45:59+00:00",
-     "score": 4
-    },
-    {
-     "url": "https://www.brighton-hove.gov.uk/confirmed-queens-park-article-4-direction",
-     "title": "Confirmed Queens Park Article 4 Direction",
-     "hash": "eeb149c7fb0b82d8",
-     "hmo": false,
-     "signals": [],
-     "whole_area": false,
-     "dates": [],
-     "first_seen": "2026-11-06T18:35:54+00:00",
-     "changed": null,
-     "checked": "2026-11-09T09:46:01+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:03+00:00",
+     "score": 11
     },
     {
      "url": "https://www.brighton-hove.gov.uk/planning/heritage/article-4-direction-hilltop",
@@ -1674,8 +1642,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:35:56+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:03+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:10+00:00",
+     "score": 11
     },
     {
      "url": "https://www.brighton-hove.gov.uk/planning/heritage/article-4-direction-avenues",
@@ -1687,8 +1655,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:35:59+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:05+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:13+00:00",
+     "score": 11
     },
     {
      "url": "https://www.brighton-hove.gov.uk/planning/heritage/article-4-direction-kemp-town",
@@ -1700,14 +1668,42 @@
      "dates": [],
      "first_seen": "2026-11-06T18:36:01+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:07+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:14+00:00",
+     "score": 11
+    },
+    {
+     "url": "https://www.brighton-hove.gov.uk/list-article-4-directions-brighton-hove",
+     "title": "List of Article 4 Directions in Brighton & Hove",
+     "hash": "75f21b98309fc1ac",
+     "hmo": false,
+     "signals": [],
+     "whole_area": false,
+     "dates": [],
+     "first_seen": "2026-11-06T18:35:52+00:00",
+     "changed": null,
+     "checked": "2026-11-09T18:01:06+00:00",
+     "score": 9
+    },
+    {
+     "url": "https://www.brighton-hove.gov.uk/confirmed-queens-park-article-4-direction",
+     "title": "Confirmed Queens Park Article 4 Direction",
+     "hash": "eeb149c7fb0b82d8",
+     "hmo": false,
+     "signals": [],
+     "whole_area": false,
+     "dates": [],
+     "first_seen": "2026-11-06T18:35:54+00:00",
+     "changed": null,
+     "checked": "2026-11-09T18:01:08+00:00",
+     "score": 9
     }
    ],
    "auto": {
     "hmo": true,
-    "status": "Pages found",
-    "signals": [],
+    "status": "In force",
+    "signals": [
+     "in_force"
+    ],
     "whole_area": false,
     "in_force_from": null,
     "last_changed": null
@@ -1719,7 +1715,7 @@
    },
    "manual": [],
    "summary": {
-    "status": "Pages found",
+    "status": "In force",
     "source": "website",
     "scope": "Unclear",
     "coverage_pct": null,
@@ -1864,8 +1860,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:35:46+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:45:57+00:00",
-     "score": 1
+     "checked": "2026-11-09T18:01:04+00:00",
+     "score": 8
     },
     {
      "url": "https://www.southnorfolkandbroadland.gov.uk/planning/conservation/article-4-directions/article-4-directions-broadland",
@@ -1877,8 +1873,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:35:48+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:45:59+00:00",
-     "score": 1
+     "checked": "2026-11-09T18:01:05+00:00",
+     "score": 8
     },
     {
      "url": "https://www.southnorfolkandbroadland.gov.uk/planning/conservation/article-4-directions/article-4-directions-south-norfolk",
@@ -1890,8 +1886,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:35:50+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:01+00:00",
-     "score": 1
+     "checked": "2026-11-09T18:01:07+00:00",
+     "score": 8
     },
     {
      "url": "https://www.southnorfolkandbroadland.gov.uk/planning/conservation/article-4-directions/article-4-directions-broadland/broadland-article-4-directions",
@@ -1903,8 +1899,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:35:52+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:03+00:00",
-     "score": 1
+     "checked": "2026-11-09T18:01:09+00:00",
+     "score": 8
     },
     {
      "url": "https://www.southnorfolkandbroadland.gov.uk/planning/conservation/article-4-directions/article-4-directions-south-norfolk/south-norfolk-article-4-directions",
@@ -1916,8 +1912,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:35:54+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:06+00:00",
-     "score": 1
+     "checked": "2026-11-09T18:01:11+00:00",
+     "score": 8
     }
    ],
    "auto": {
@@ -2095,8 +2091,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:35:55+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:45:59+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:05+00:00",
+     "score": 11
     }
    ],
    "auto": {
@@ -2330,8 +2326,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:36:44+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:05+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:11+00:00",
+     "score": 9
     },
     {
      "url": "https://www.camden.gov.uk/article-4-directions-land-use-classes",
@@ -2343,8 +2339,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:36:46+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:07+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:13+00:00",
+     "score": 9
     },
     {
      "url": "https://www.camden.gov.uk/article-4-directions-other-development-",
@@ -2356,8 +2352,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:36:48+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:09+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:15+00:00",
+     "score": 9
     },
     {
      "url": "https://www.camden.gov.uk/article-4-directions-under-consultation",
@@ -2369,8 +2365,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:36:50+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:11+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:17+00:00",
+     "score": 9
     },
     {
      "url": "https://www.camden.gov.uk/article-4-directions-heritage-and-conservation",
@@ -2382,8 +2378,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:36:52+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:13+00:00",
-     "score": 1
+     "checked": "2026-11-09T18:01:19+00:00",
+     "score": 6
     }
    ],
    "auto": {
@@ -2552,8 +2548,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:36:20+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:00+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:06+00:00",
+     "score": 8
     }
    ],
    "auto": {
@@ -2632,8 +2628,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:36:13+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:45:59+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:05+00:00",
+     "score": 11
     }
    ],
    "auto": {
@@ -2698,19 +2694,23 @@
      "title": "Article 4 directions - Cheltenham Borough Council",
      "hash": "670b6111e49108b8",
      "hmo": true,
-     "signals": [],
+     "signals": [
+      "in_force"
+     ],
      "whole_area": false,
      "dates": [],
      "first_seen": "2026-11-06T18:36:17+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:45:59+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:05+00:00",
+     "score": 11
     }
    ],
    "auto": {
     "hmo": true,
-    "status": "Pages found",
-    "signals": [],
+    "status": "In force",
+    "signals": [
+     "in_force"
+    ],
     "whole_area": false,
     "in_force_from": null,
     "last_changed": null
@@ -2821,12 +2821,24 @@
       {
        "date": "2016-05-02",
        "context": "period. The Direction was confirmed on 12 November 2015. The Direction came into force on 2 May 2016. Public Notice - Article 4 Di"
+      },
+      {
+       "date": "2016-05-02",
+       "context": "period. The Direction was confirmed on 12 November 2015. The Direction came into force on 2 May 2016. Public Notice - Article 4 Di"
+      },
+      {
+       "date": "2016-05-02",
+       "context": "period. The Direction was confirmed on 12 November 2015. The Direction came into force on 2 May 2016. Public Notice - Article 4 Di"
+      },
+      {
+       "date": "2016-05-02",
+       "context": "period. The Direction was confirmed on 12 November 2015. The Direction came into force on 2 May 2016. Public Notice - Article 4 Di"
       }
      ],
      "first_seen": "2026-11-06T18:36:23+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:00+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:06+00:00",
+     "score": 11
     },
     {
      "url": "https://www.cheshirewestandchester.gov.uk/your-council/policies-and-performance/council-plans-policies-and-strategies/planning-policy/article-4-direction-garden-quarter",
@@ -2835,7 +2847,6 @@
      "hmo": true,
      "signals": [
       "confirmed",
-      "immediate",
       "in_force",
       "non_immediate"
      ],
@@ -2843,7 +2854,15 @@
      "dates": [
       {
        "date": "2013-07-08",
-       "context": "onsidered by the Council’s Executive on 5 December 2012. The Direction came into force on 8 July 2013 and planning permission i on-"
+       "context": "onsidered by the Council’s Executive on 5 December 2012. The Direction came into force on 8 July 2013 and planning permission is no"
+      },
+      {
+       "date": "2013-07-08",
+       "context": "onsidered by the Council’s Executive on 5 December 2012. The Direction came into force on 8 July 2013 and planning permission is no"
+      },
+      {
+       "date": "2013-07-08",
+       "context": "onsidered by the Council’s Executive on 5 December 2012. The Direction came into force on 8 July 2013 and planning permission is no"
       },
       {
        "date": "2013-07-08",
@@ -2852,8 +2871,8 @@
      ],
      "first_seen": "2026-11-06T18:36:25+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:02+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:08+00:00",
+     "score": 11
     }
    ],
    "auto": {
@@ -2861,7 +2880,6 @@
     "status": "In force",
     "signals": [
      "confirmed",
-     "immediate",
      "in_force",
      "non_immediate"
     ],
@@ -2882,7 +2900,7 @@
     "coverage_pct": null,
     "in_force_from": "2013-07-08",
     "areas": "",
-    "direction_type": "Immediate",
+    "direction_type": "Non-immediate",
     "proposal_on_pages": false,
     "pages_changed": null
    }
@@ -2967,7 +2985,8 @@
      "hmo": true,
      "signals": [
       "confirmed",
-      "immediate"
+      "immediate",
+      "in_force"
      ],
      "whole_area": false,
      "dates": [
@@ -2980,22 +2999,26 @@
        "context": "on the immediate Article 4 direction followed this resolution from 24th September 2025 to 16th October 2025. The representations to this"
       },
       {
-       "date": "2026-01-27",
-       "context": "cutive Member’s decision on 24 February 2026 , following a recommendation from Council on 27 January 2026 . The introduction of an Arti"
+       "date": "2025-09-24",
+       "context": "A public consultation on the immediate Article 4 direction followed this resolution from 24th September 2025 to 16th October 2025. The rep"
       },
       {
-       "date": "2026-01-27",
-       "context": "cutive Member’s decision on 24 February 2026 , following a recommendation from Council on 27 January 2026 . The introduction of an Arti"
+       "date": "2025-10-16",
+       "context": "on the immediate Article 4 direction followed this resolution from 24th September 2025 to 16th October 2025. The representations to this"
       },
       {
-       "date": "2026-01-27",
-       "context": "ssion may still decision on 24 February 2026 , following a recommendation from Council on 27 January 2026 . The introduction of an Arti"
+       "date": "2025-09-24",
+       "context": "A public consultation on the immediate Article 4 direction followed this resolution from 24th September 2025 to 16th October 2025. The rep"
+      },
+      {
+       "date": "2025-10-16",
+       "context": "on the immediate Article 4 direction followed this resolution from 24th September 2025 to 16th October 2025. The representations to this"
       }
      ],
      "first_seen": "2026-11-06T18:36:29+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:01+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:07+00:00",
+     "score": 11
     },
     {
      "url": "https://chorley.gov.uk/planning-15/guide-article-4-directions/3",
@@ -3007,8 +3030,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:36:31+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:02+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:08+00:00",
+     "score": 11
     },
     {
      "url": "https://chorley.gov.uk/planning-15/guide-article-4-directions/2",
@@ -3020,8 +3043,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:36:33+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:04+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:10+00:00",
+     "score": 11
     }
    ],
    "auto": {
@@ -3029,7 +3052,8 @@
     "status": "In force",
     "signals": [
      "confirmed",
-     "immediate"
+     "immediate",
+     "in_force"
     ],
     "whole_area": false,
     "in_force_from": "2025-09-24",
@@ -3162,32 +3186,32 @@
     {
      "url": "https://www.cotswold.gov.uk/planning-and-building/planning-policy/article-3-and-4-directions/article-4-directions/",
      "error": "HTTP 404",
-     "checked": "2026-11-09T09:46:02+00:00"
+     "checked": "2026-11-09T18:01:09+00:00"
     },
     {
      "url": "https://www.cotswold.gov.uk/planning-and-building/planning-policy/article-3-and-4-directions/article-4-directions/bibury/",
      "error": "HTTP 404",
-     "checked": "2026-11-09T09:46:04+00:00"
+     "checked": "2026-11-09T18:01:10+00:00"
     },
     {
      "url": "https://www.cotswold.gov.uk/planning-and-building/planning-policy/article-3-and-4-directions/article-4-directions/avening/",
      "error": "HTTP 404",
-     "checked": "2026-11-09T09:46:06+00:00"
+     "checked": "2026-11-09T18:01:12+00:00"
     },
     {
      "url": "https://www.cotswold.gov.uk/planning-and-building/planning-policy/article-3-and-4-directions/article-4-directions/tetbury/",
      "error": "HTTP 404",
-     "checked": "2026-11-09T09:46:08+00:00"
+     "checked": "2026-11-09T18:01:14+00:00"
     },
     {
      "url": "https://www.cotswold.gov.uk/planning-and-building/planning-policy/article-3-and-4-directions/article-4-directions/blockley/",
      "error": "HTTP 404",
-     "checked": "2026-11-09T09:46:10+00:00"
+     "checked": "2026-11-09T18:01:16+00:00"
     },
     {
      "url": "https://www.cotswold.gov.uk/planning-and-building/planning-policy/article-3-and-4-directions/article-4-directions/mickleton/",
      "error": "HTTP 404",
-     "checked": "2026-11-09T09:46:12+00:00"
+     "checked": "2026-11-09T18:01:18+00:00"
     }
    ],
    "auto": {
@@ -3257,8 +3281,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:36:43+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:05+00:00",
-     "score": 9
+     "checked": "2026-11-09T18:01:10+00:00",
+     "score": 11
     },
     {
      "url": "https://www.coventry.gov.uk/article4",
@@ -3270,8 +3294,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:36:49+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:10+00:00",
-     "score": 3
+     "checked": "2026-11-09T18:01:16+00:00",
+     "score": 8
     }
    ],
    "auto": {
@@ -3460,27 +3484,30 @@
      "hash": "9868b598ce51af33",
      "hmo": true,
      "signals": [
-      "confirmed"
+      "confirmed",
+      "in_force"
      ],
      "whole_area": true,
      "dates": [],
      "first_seen": "2026-11-06T18:36:51+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:06+00:00",
-     "score": 10
+     "checked": "2026-11-09T18:01:11+00:00",
+     "score": 14
     },
     {
      "url": "https://www.croydon.gov.uk/planning-and-regeneration/planning-policy/article-4-directions",
      "title": "Article 4 directions | Croydon Council",
      "hash": "28f338930b5fd2d5",
      "hmo": true,
-     "signals": [],
+     "signals": [
+      "in_force"
+     ],
      "whole_area": false,
      "dates": [],
      "first_seen": "2026-11-06T18:36:53+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:07+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:13+00:00",
+     "score": 11
     },
     {
      "url": "https://www.croydon.gov.uk/planning-and-regeneration/planning-policy/article-4-directions/kenley-aerodrome-kenley",
@@ -3492,8 +3519,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:36:55+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:10+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:15+00:00",
+     "score": 11
     },
     {
      "url": "https://www.croydon.gov.uk/planning-and-regeneration/planning-policy/article-4-directions/dipsleys-shaw-south-croydon",
@@ -3505,8 +3532,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:36:57+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:11+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:17+00:00",
+     "score": 11
     },
     {
      "url": "https://www.croydon.gov.uk/planning-and-regeneration/planning-policy/article-4-directions/warminster-road-south-norwood",
@@ -3518,8 +3545,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:36:59+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:14+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:19+00:00",
+     "score": 11
     },
     {
      "url": "https://www.croydon.gov.uk/planning-and-regeneration/planning-policy/article-4-directions/kenley-lane-and-hawkhirst-road",
@@ -3531,15 +3558,16 @@
      "dates": [],
      "first_seen": "2026-11-06T18:37:02+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:15+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:21+00:00",
+     "score": 11
     }
    ],
    "auto": {
     "hmo": true,
     "status": "In force",
     "signals": [
-     "confirmed"
+     "confirmed",
+     "in_force"
     ],
     "whole_area": true,
     "in_force_from": null,
@@ -3580,8 +3608,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:36:53+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:06+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:11+00:00",
+     "score": 11
     }
    ],
    "auto": {
@@ -3719,8 +3747,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:36:56+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:07+00:00",
-     "score": 10
+     "checked": "2026-11-09T18:01:12+00:00",
+     "score": 12
     },
     {
      "url": "https://www.dartford.gov.uk/downloads/download/63/list-of-article-4-directions",
@@ -3732,8 +3760,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:37:04+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:14+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:19+00:00",
+     "score": 9
     },
     {
      "url": "https://www.dartford.gov.uk/planning-3/restrictions-permitted-development-article-4-directions",
@@ -3745,8 +3773,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:37:06+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:16+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:21+00:00",
+     "score": 11
     }
    ],
    "auto": {
@@ -3827,8 +3855,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:37:05+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:07+00:00",
-     "score": 1
+     "checked": "2026-11-09T18:01:12+00:00",
+     "score": 8
     }
    ],
    "auto": {
@@ -3999,15 +4027,15 @@
      "dates": [
       {
        "date": "2023-09-15",
-       "context": "Article 4 Direction (A4d’s) covering the whole borough which will come into force on the 15 September 2023. The A4D removes the ability"
+       "context": "Article 4 Direction (A4d’s) covering the whole borough which will come into force on the 15 September 2023. nges of use to take place w"
+      },
+      {
+       "date": "2023-09-15",
+       "context": "Article 4 Direction (A4d’s) covering the whole borough which will come into force on the 15 September 2023. The A4D removes the abil d D"
       },
       {
        "date": "2023-09-15",
        "context": "Article 4 Direction (A4d’s) covering the whole borough which will come into force on the 15 September 2023. The A4D removes the ability"
-      },
-      {
-       "date": "2023-09-15",
-       "context": "to 6 people (Use Class C4) without the need for planning permission. Therefore, from the 15 September 2023 a planning application will n"
       },
       {
        "date": "2023-09-15",
@@ -4020,8 +4048,8 @@
      ],
      "first_seen": "2026-11-06T18:37:15+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:07+00:00",
-     "score": 10
+     "checked": "2026-11-09T18:01:12+00:00",
+     "score": 14
     },
     {
      "url": "https://www.dudley.gov.uk/residents/planning/historic-environment/article-4-directions/",
@@ -4033,8 +4061,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:37:17+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:09+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:14+00:00",
+     "score": 11
     },
     {
      "url": "https://www.dudley.gov.uk/residents/planning/historic-environment/article-4-directions/conservation-area-boundary-maps/",
@@ -4046,8 +4074,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:37:19+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:10+00:00",
-     "score": 1
+     "checked": "2026-11-09T18:01:16+00:00",
+     "score": 8
     }
    ],
    "auto": {
@@ -4097,8 +4125,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:37:16+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:07+00:00",
-     "score": 9
+     "checked": "2026-11-09T18:01:13+00:00",
+     "score": 11
     }
    ],
    "auto": {
@@ -4278,8 +4306,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:37:26+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:11+00:00",
-     "score": 1
+     "checked": "2026-11-09T18:01:14+00:00",
+     "score": 8
     }
    ],
    "auto": {
@@ -4552,8 +4580,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:37:52+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:08+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:14+00:00",
+     "score": 11
     }
    ],
    "auto": {
@@ -4682,17 +4710,17 @@
     {
      "url": "http://162.13.188.10/residents/planning/planning-policy/what-article-4-direction",
      "error": "ConnectTimeout",
-     "checked": "2026-11-09T09:48:17+00:00"
+     "checked": "2026-11-09T18:03:23+00:00"
     },
     {
      "url": "http://162.13.188.10/epsom-office-buildings-article-4-directions",
      "error": "ConnectTimeout",
-     "checked": "2026-11-09T09:50:26+00:00"
+     "checked": "2026-11-09T18:05:32+00:00"
     },
     {
      "url": "http://162.13.188.10/residents/planning/historic-environment/epsom-office-buildings-article-4-directions",
      "error": "ConnectTimeout",
-     "checked": "2026-11-09T09:52:35+00:00"
+     "checked": "2026-11-09T18:07:41+00:00"
     }
    ],
    "auto": {
@@ -4766,17 +4794,19 @@
      ],
      "first_seen": "2026-11-06T18:38:55+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:11+00:00",
-     "score": 10,
-     "error": "HTTP 403"
+     "checked": "2026-11-09T18:01:15+00:00",
+     "score": 14
     }
    ],
    "auto": {
-    "hmo": false,
-    "status": "Not found",
-    "signals": [],
+    "hmo": true,
+    "status": "In force",
+    "signals": [
+     "confirmed",
+     "in_force"
+    ],
     "whole_area": false,
-    "in_force_from": null,
+    "in_force_from": "2025-12-19",
     "last_changed": null
    },
    "discovery": {
@@ -4786,11 +4816,11 @@
    },
    "manual": [],
    "summary": {
-    "status": "Not found",
-    "source": null,
-    "scope": "",
+    "status": "In force",
+    "source": "website",
+    "scope": "Unclear",
     "coverage_pct": null,
-    "in_force_from": null,
+    "in_force_from": "2025-12-19",
     "areas": "",
     "direction_type": "",
     "proposal_on_pages": false,
@@ -4980,8 +5010,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:39:20+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:11+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:16+00:00",
+     "score": 11
     },
     {
      "url": "https://www.folkestone-hythe.gov.uk/downloads/download/544/article-4---planning",
@@ -4993,8 +5023,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:39:24+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:14+00:00",
-     "score": 3
+     "checked": "2026-11-09T18:01:19+00:00",
+     "score": 10
     }
    ],
    "auto": {
@@ -5040,23 +5070,23 @@
      "dates": [],
      "first_seen": "2026-11-06T18:39:23+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:11+00:00",
-     "score": 1
+     "checked": "2026-11-09T18:01:16+00:00",
+     "score": 8
     },
     {
      "url": "https://www.fdean.gov.uk/planning-and-building/historic-buildings-and-conservation-areas/conservation-areas/article-4-directions/article-4-direction-locations/",
      "error": "HTTP 404",
-     "checked": "2026-11-09T09:46:13+00:00"
+     "checked": "2026-11-09T18:01:18+00:00"
     },
     {
      "url": "https://www.fdean.gov.uk/planning-and-building/historic-buildings-and-conservation-areas/conservation-areas/article-4-directions/article-4-direction-locations/newnham/",
      "error": "HTTP 404",
-     "checked": "2026-11-09T09:46:15+00:00"
+     "checked": "2026-11-09T18:01:20+00:00"
     },
     {
      "url": "https://www.fdean.gov.uk/planning-and-building/historic-buildings-and-conservation-areas/conservation-areas/article-4-directions/article-4-direction-locations/english-bicknor/",
      "error": "HTTP 404",
-     "checked": "2026-11-09T09:46:17+00:00"
+     "checked": "2026-11-09T18:01:22+00:00"
     }
    ],
    "auto": {
@@ -5170,8 +5200,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:39:32+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:12+00:00",
-     "score": 10
+     "checked": "2026-11-09T18:01:17+00:00",
+     "score": 6
     }
    ],
    "auto": {
@@ -5285,8 +5315,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:39:41+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:13+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:18+00:00",
+     "score": 11
     }
    ],
    "auto": {
@@ -5455,8 +5485,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:39:49+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:15+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:19+00:00",
+     "score": 11
     }
    ],
    "auto": {
@@ -5640,31 +5670,33 @@
        "context": "C3) to houses in multiple occupation (Use Class C4). The Direction came into force on the 30 November 2013, which means that planning pe"
       },
       {
-       "date": "2013-11-30",
-       "context": "C3) to houses in multiple occupation (Use Class C4). The Direction came into force on the 30 November 2013, which means that planning pe"
+       "date": "2012-11-30",
+       "context": "( pdf , 3 page(s) , 205.94 KB ) Consultation documents/reports The consultation ran from 30 November 2012 until 11 January 2013. The si"
       },
       {
-       "date": "2013-11-30",
-       "context": "C3) to houses in multiple occupation (Use Class C4). The Direction came into force on the 30 November 2013, which means that planning pe"
+       "date": "2013-01-11",
+       "context": "5.94 KB ) Consultation documents/reports The consultation ran from 30 November 2012 until 11 January 2013. The signed document is not a"
       }
      ],
      "first_seen": "2026-11-07T14:57:17+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:16+00:00",
-     "score": 10
+     "checked": "2026-11-09T18:01:21+00:00",
+     "score": 14
     },
     {
      "url": "https://haringey.gov.uk/planning-building-control/planning/planning-policy/article-4-directions/article-4-directions/article-4-direction-houses-multiple-occupation/map-article-4-direction-hmos-haringey",
      "title": "Map of Article 4 Direction for HMOs in Haringey | Haringey Council",
      "hash": "1ecbeaaef47a3aba",
      "hmo": true,
-     "signals": [],
+     "signals": [
+      "in_force"
+     ],
      "whole_area": false,
      "dates": [],
      "first_seen": "2026-11-07T14:57:19+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:18+00:00",
-     "score": 10
+     "checked": "2026-11-09T18:01:23+00:00",
+     "score": 14
     },
     {
      "url": "https://haringey.gov.uk/planning-building-control/planning/planning-policy/article-4-directions",
@@ -5676,21 +5708,23 @@
      "dates": [],
      "first_seen": "2026-11-07T14:57:21+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:21+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:26+00:00",
+     "score": 11
     },
     {
      "url": "https://haringey.gov.uk/planning-building-control/planning/planning-policy/article-4-directions/article-4-directions-haringey",
      "title": "Article 4 Directions in Haringey | Haringey Council",
      "hash": "8405855809063c01",
      "hmo": true,
-     "signals": [],
+     "signals": [
+      "in_force"
+     ],
      "whole_area": false,
      "dates": [],
      "first_seen": "2026-11-07T14:57:23+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:23+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:28+00:00",
+     "score": 11
     },
     {
      "url": "https://haringey.gov.uk/planning-building-control/planning/planning-policy/article-4-directions/article-4-direction-change-use-warehouses-residential-use",
@@ -5702,8 +5736,8 @@
      "dates": [],
      "first_seen": "2026-11-07T14:57:25+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:24+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:30+00:00",
+     "score": 11
     },
     {
      "url": "https://haringey.gov.uk/planning-building-control/planning/planning-policy/design-conservation/conservation-areas/conservation-areas/development-conservation-areas/map-conservation-areas-covered-article-4-directions-haringey",
@@ -5715,8 +5749,8 @@
      "dates": [],
      "first_seen": "2026-11-07T14:57:27+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:26+00:00",
-     "score": 1
+     "checked": "2026-11-09T18:01:31+00:00",
+     "score": 8
     }
    ],
    "auto": {
@@ -5726,7 +5760,7 @@
      "in_force"
     ],
     "whole_area": false,
-    "in_force_from": "2013-11-30",
+    "in_force_from": "2012-11-30",
     "last_changed": null
    },
    "discovery": {
@@ -5740,7 +5774,7 @@
     "source": "website",
     "scope": "Unclear",
     "coverage_pct": null,
-    "in_force_from": "2013-11-30",
+    "in_force_from": "2012-11-30",
     "areas": "",
     "direction_type": "",
     "proposal_on_pages": false,
@@ -5808,21 +5842,23 @@
      "dates": [],
      "first_seen": "2026-11-06T18:40:08+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:14+00:00",
-     "score": 10
+     "checked": "2026-11-09T18:01:19+00:00",
+     "score": 14
     },
     {
      "url": "https://www.harlow.gov.uk/planning-and-building-control/planning-permission/article-4-directions",
      "title": "Article 4 directions | Harlow Council",
      "hash": "8228377bb35d9302",
      "hmo": true,
-     "signals": [],
+     "signals": [
+      "in_force"
+     ],
      "whole_area": true,
      "dates": [],
      "first_seen": "2026-11-06T18:40:10+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:15+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:20+00:00",
+     "score": 11
     },
     {
      "url": "https://www.harlow.gov.uk/planning-and-building-control/planning-permission/article-4-directions/old-harlow",
@@ -5834,8 +5870,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:40:12+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:17+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:22+00:00",
+     "score": 11
     },
     {
      "url": "https://www.harlow.gov.uk/planning-and-building-control/planning-permission/article-4-directions/morley-grove",
@@ -5847,8 +5883,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:40:14+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:19+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:24+00:00",
+     "score": 11
     },
     {
      "url": "https://www.harlow.gov.uk/planning-and-building-control/planning-permission/article-4-directions/mark-hall-north",
@@ -5860,8 +5896,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:40:16+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:21+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:26+00:00",
+     "score": 11
     },
     {
      "url": "https://www.harlow.gov.uk/planning-and-building-control/planning-permission/article-4-directions/churchgate-street",
@@ -5870,24 +5906,21 @@
      "hmo": true,
      "signals": [],
      "whole_area": false,
-     "dates": [
-      {
-       "date": "2026-03-04",
-       "context": "ls in the Churchgate Street management plan and guidance . The direction is in place from 4 March 2026 and affects all houses in the"
-      }
-     ],
+     "dates": [],
      "first_seen": "2026-11-06T18:40:18+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:23+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:28+00:00",
+     "score": 11
     }
    ],
    "auto": {
     "hmo": true,
     "status": "In force",
-    "signals": [],
+    "signals": [
+     "in_force"
+    ],
     "whole_area": true,
-    "in_force_from": "2026-03-04",
+    "in_force_from": null,
     "last_changed": null
    },
    "discovery": {
@@ -5921,6 +5954,7 @@
      "hash": "77dd0aff42af661b",
      "hmo": true,
      "signals": [
+      "confirmed",
       "immediate",
       "in_force"
      ],
@@ -5936,41 +5970,42 @@
       },
       {
        "date": "2026-06-12",
-       "context": "–6 people). This rule applies across the entire borough. The Direction came into force on 12 June 2026. The changes mean that the sa"
+       "context": "on 14 October 2026. Note that the requirement for planning permission came into effect on 12 June 2026, when the Direction was first"
       },
       {
        "date": "2026-06-12",
-       "context": "–6 people). This rule applies across the entire borough. The Direction came into force on 12 June 2026. The changes mean that the sa"
+       "context": "tant note Although the Direction was confirmed on 14 October 2026, it came into effect on 12 June 2026, when it was introduced with"
       },
       {
        "date": "2026-06-12",
-       "context": "–6 people). This rule applies across the entire borough. The Direction came into force on 12 June 2026. The changes mean that the sa"
+       "context": "HMO created on or after 12 Jun he requirement for planning permission came into effect on 12 June 2026, when the Direction was first"
       },
       {
        "date": "2026-06-12",
-       "context": "–6 people). This rule applies across the entire borough. The Direction came into force on 12 June 2026. The changes mean that the sa"
+       "context": "tant note Although the Direction was confirmed on 14 October 2026, it came into effect on 12 June 2026, when it was introduced with"
       }
      ],
      "first_seen": "2026-11-06T18:40:23+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:15+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:21+00:00",
+     "score": 11
     },
     {
      "url": "https://www.harrow.gov.uk/proposedarticle4direction",
      "error": "HTTP 404",
-     "checked": "2026-11-09T09:46:14+00:00"
+     "checked": "2026-11-09T18:01:19+00:00"
     },
     {
      "url": "https://www.harrow.gov.uk/proposedarticle4s",
      "error": "HTTP 404",
-     "checked": "2026-11-09T09:46:17+00:00"
+     "checked": "2026-11-09T18:01:23+00:00"
     }
    ],
    "auto": {
     "hmo": true,
     "status": "In force",
     "signals": [
+     "confirmed",
      "immediate",
      "in_force"
     ],
@@ -6013,8 +6048,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:40:22+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:15+00:00",
-     "score": 1
+     "checked": "2026-11-09T18:01:20+00:00",
+     "score": 8
     }
    ],
    "auto": {
@@ -6051,27 +6086,12 @@
    "publishes_a4_data": false,
    "pages": [
     {
-     "url": "https://www.hartlepool.gov.uk/hmo-article-4-consultation",
-     "title": "Houses in Multiple Occupation (HMOs) Article 4 consultation | Hartlepool Borough Council",
-     "hash": "bfc4b7dc080b1465",
-     "hmo": true,
-     "signals": [
-      "non_immediate",
-      "proposed"
-     ],
-     "whole_area": false,
-     "dates": [],
-     "first_seen": "2026-11-06T18:40:26+00:00",
-     "changed": null,
-     "checked": "2026-11-09T09:46:16+00:00",
-     "score": 9
-    },
-    {
      "url": "https://www.hartlepool.gov.uk/planning-policy/house-multiple-occupation-hmo-article-4-consultation",
      "title": "Houses in Multiple Occupation (HMOs) Article 4 consultation | Hartlepool Borough Council",
      "hash": "bfc4b7dc080b1465",
      "hmo": true,
      "signals": [
+      "in_force",
       "non_immediate",
       "proposed"
      ],
@@ -6079,8 +6099,25 @@
      "dates": [],
      "first_seen": "2026-11-06T18:40:28+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:17+00:00",
-     "score": 9
+     "checked": "2026-11-09T18:01:22+00:00",
+     "score": 13
+    },
+    {
+     "url": "https://www.hartlepool.gov.uk/hmo-article-4-consultation",
+     "title": "Houses in Multiple Occupation (HMOs) Article 4 consultation | Hartlepool Borough Council",
+     "hash": "bfc4b7dc080b1465",
+     "hmo": true,
+     "signals": [
+      "in_force",
+      "non_immediate",
+      "proposed"
+     ],
+     "whole_area": false,
+     "dates": [],
+     "first_seen": "2026-11-06T18:40:26+00:00",
+     "changed": null,
+     "checked": "2026-11-09T18:01:20+00:00",
+     "score": 11
     },
     {
      "url": "https://www.hartlepool.gov.uk/article-4",
@@ -6095,8 +6132,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:40:36+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:25+00:00",
-     "score": 3
+     "checked": "2026-11-09T18:01:30+00:00",
+     "score": 8
     },
     {
      "url": "https://www.hartlepool.gov.uk/downloads/download/522/article-4-made-direction",
@@ -6108,8 +6145,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:40:34+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:23+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:28+00:00",
+     "score": 9
     }
    ],
    "auto": {
@@ -6117,6 +6154,7 @@
     "status": "In force",
     "signals": [
      "confirmed",
+     "in_force",
      "non_immediate",
      "proposed"
     ],
@@ -6154,13 +6192,15 @@
      "title": "Article 4 Directions | Hastings Borough Council",
      "hash": "a10c3a5589b76604",
      "hmo": true,
-     "signals": [],
+     "signals": [
+      "in_force"
+     ],
      "whole_area": true,
      "dates": [],
      "first_seen": "2026-11-06T18:41:18+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:19+00:00",
-     "score": 0
+     "checked": "2026-11-09T18:01:24+00:00",
+     "score": 5
     },
     {
      "url": "https://www.hastings.gov.uk/my-council/consultations/land-stability-article-4-consultation/",
@@ -6172,14 +6212,16 @@
      "dates": [],
      "first_seen": "2026-11-06T18:41:16+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:17+00:00",
-     "score": 3
+     "checked": "2026-11-09T18:01:22+00:00",
+     "score": 8
     }
    ],
    "auto": {
     "hmo": true,
-    "status": "Pages found",
-    "signals": [],
+    "status": "In force",
+    "signals": [
+     "in_force"
+    ],
     "whole_area": true,
     "in_force_from": null,
     "last_changed": null
@@ -6191,7 +6233,7 @@
    },
    "manual": [],
    "summary": {
-    "status": "Pages found",
+    "status": "In force",
     "source": "website",
     "scope": "Whole area",
     "coverage_pct": null,
@@ -6219,8 +6261,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:40:39+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:16+00:00",
-     "score": 0
+     "checked": "2026-11-09T18:01:20+00:00",
+     "score": 7
     }
    ],
    "auto": {
@@ -6261,13 +6303,15 @@
      "title": "Article 4 Directions - HMOs in Havering | London Borough of Havering",
      "hash": "beae938a88184515",
      "hmo": true,
-     "signals": [],
+     "signals": [
+      "in_force"
+     ],
      "whole_area": false,
      "dates": [],
      "first_seen": "2026-11-06T18:40:44+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:18+00:00",
-     "score": 10
+     "checked": "2026-11-09T18:01:22+00:00",
+     "score": 12
     },
     {
      "url": "https://www.havering.gov.uk/downloads/download/1076/hmo-article-4-directions-clarification-statement",
@@ -6279,8 +6323,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:40:46+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:20+00:00",
-     "score": 10
+     "checked": "2026-11-09T18:01:24+00:00",
+     "score": 12
     },
     {
      "url": "https://www.havering.gov.uk/downloads/download/132/article-4-directions-regarding-hmos-equality-impact-assessment-eia",
@@ -6292,14 +6336,16 @@
      "dates": [],
      "first_seen": "2026-11-06T18:40:52+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:26+00:00",
-     "score": 10
+     "checked": "2026-11-09T18:01:30+00:00",
+     "score": 12
     }
    ],
    "auto": {
     "hmo": true,
-    "status": "Pages found",
-    "signals": [],
+    "status": "In force",
+    "signals": [
+     "in_force"
+    ],
     "whole_area": false,
     "in_force_from": null,
     "last_changed": null
@@ -6311,7 +6357,7 @@
    },
    "manual": [],
    "summary": {
-    "status": "Pages found",
+    "status": "In force",
     "source": "website",
     "scope": "Unclear",
     "coverage_pct": null,
@@ -6462,8 +6508,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:41:13+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:17+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:23+00:00",
+     "score": 9
     },
     {
      "url": "https://www.hillingdon.gov.uk/article/15003/Article-4-direction-data",
@@ -6475,8 +6521,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:41:15+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:19+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:24+00:00",
+     "score": 9
     }
    ],
    "auto": {
@@ -6739,17 +6785,25 @@
      "dates": [
       {
        "date": "2024-06-01",
+       "context": "Full Council, is a non-immediate direction, and it will therefore come into force on the 1 June 2024. The conf cases, very small"
+      },
+      {
+       "date": "2024-06-01",
        "context": "Full Council, is a non-immediate direction, and it will therefore come into force on the 1 June 2024. The confirmed Direction, sup"
       },
       {
        "date": "2024-06-01",
        "context": "Full Council, is a non-immediate direction, and it will therefore come into force on the 1 June 2024. The confirmed Direction, sup"
+      },
+      {
+       "date": "2024-06-01",
+       "context": "tion: Adoption Notice (dated iate direction, and it will therefore come into force on the 1 June 2024. The confirmed Direction, sup"
       }
      ],
      "first_seen": "2026-11-06T18:41:28+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:18+00:00",
-     "score": 10
+     "checked": "2026-11-09T18:01:23+00:00",
+     "score": 14
     },
     {
      "url": "https://www.ipswich.gov.uk/planning-and-building-control/conservation-and-urban-design/article-4-directions",
@@ -6773,24 +6827,12 @@
       {
        "date": "2024-06-01",
        "context": "cupation (C4) The confirmed Article 4 Direction for Small HMOs (due to come into force on 1st June 2024), removes existing permitted"
-      },
-      {
-       "date": "2024-06-01",
-       "context": "cupation (C4) The confirmed Article 4 Direction for Small HMOs (due to come into force on 1st June 2024), removes existing permitted"
-      },
-      {
-       "date": "2024-06-01",
-       "context": "cupation (C4) The confirmed Article 4 Direction for Small HMOs (due to come into force on 1st June 2024), removes existing permitted"
-      },
-      {
-       "date": "2024-06-01",
-       "context": "cupation (C4) The confirmed Article 4 Direction for Small HMOs (due to come into force on 1st June 2024), removes existing permitted"
       }
      ],
      "first_seen": "2026-11-06T18:41:30+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:20+00:00",
-     "score": 1
+     "checked": "2026-11-09T18:01:25+00:00",
+     "score": 8
     }
    ],
    "auto": {
@@ -6873,8 +6915,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:41:34+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:19+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:24+00:00",
+     "score": 9
     },
     {
      "url": "https://www.islington.gov.uk/consultations/2018/b1a-to-c3-residential-article-4-direction",
@@ -6886,8 +6928,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:41:36+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:21+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:26+00:00",
+     "score": 9
     },
     {
      "url": "https://www.islington.gov.uk/consultations/2022/class-e-to-residential-article-4-directions",
@@ -6899,8 +6941,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:41:38+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:23+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:28+00:00",
+     "score": 9
     }
    ],
    "auto": {
@@ -6946,8 +6988,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:41:38+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:20+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:25+00:00",
+     "score": 11
     },
     {
      "url": "https://www.rbkc.gov.uk/planning-and-building-control/heritage-and-conservation/article-4-directions",
@@ -6959,8 +7001,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:41:40+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:21+00:00",
-     "score": 1
+     "checked": "2026-11-09T18:01:27+00:00",
+     "score": 8
     },
     {
      "url": "https://www.rbkc.gov.uk/planning-and-building-control/heritage-and-conservation/article-4-directions-conservation-areas",
@@ -6972,8 +7014,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:41:42+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:23+00:00",
-     "score": 1
+     "checked": "2026-11-09T18:01:28+00:00",
+     "score": 8
     }
    ],
    "auto": {
@@ -7019,8 +7061,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:41:41+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:20+00:00",
-     "score": 3
+     "checked": "2026-11-09T18:01:26+00:00",
+     "score": 8
     },
     {
      "url": "https://www.west-norfolk.gov.uk/downloads/file/10045/article_4_-_middleton",
@@ -7032,8 +7074,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:41:43+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:22+00:00",
-     "score": 3
+     "checked": "2026-11-09T18:01:27+00:00",
+     "score": 8
     },
     {
      "url": "https://www.west-norfolk.gov.uk/downloads/file/10042/article_4_-_snettisham",
@@ -7045,8 +7087,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:41:45+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:24+00:00",
-     "score": 3
+     "checked": "2026-11-09T18:01:29+00:00",
+     "score": 8
     },
     {
      "url": "https://www.west-norfolk.gov.uk/downloads/file/10046/article_4_-_kings_lynn",
@@ -7058,8 +7100,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:41:47+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:26+00:00",
-     "score": 3
+     "checked": "2026-11-09T18:01:31+00:00",
+     "score": 8
     },
     {
      "url": "https://www.west-norfolk.gov.uk/downloads/file/10048/article_4_-_hunstanton",
@@ -7071,8 +7113,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:41:49+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:28+00:00",
-     "score": 3
+     "checked": "2026-11-09T18:01:33+00:00",
+     "score": 8
     },
     {
      "url": "https://www.west-norfolk.gov.uk/downloads/file/10039/article_4_-_reffley_wood",
@@ -7084,8 +7126,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:41:51+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:30+00:00",
-     "score": 3
+     "checked": "2026-11-09T18:01:35+00:00",
+     "score": 8
     }
    ],
    "auto": {
@@ -7131,8 +7173,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:41:47+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:25+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:30+00:00",
+     "score": 11
     },
     {
      "url": "https://www.hull.gov.uk/planning-applications/article-4-directions/5",
@@ -7146,8 +7188,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:41:55+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:33+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:38+00:00",
+     "score": 11
     },
     {
      "url": "https://www.hull.gov.uk/planning-applications/article-4-directions",
@@ -7159,8 +7201,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:41:45+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:24+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:29+00:00",
+     "score": 11
     },
     {
      "url": "https://www.hull.gov.uk/planning-applications/article-4-directions/3",
@@ -7172,8 +7214,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:41:49+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:27+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:32+00:00",
+     "score": 11
     },
     {
      "url": "https://www.hull.gov.uk/planning-applications/article-4-directions/6",
@@ -7185,8 +7227,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:41:51+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:29+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:34+00:00",
+     "score": 11
     },
     {
      "url": "https://www.hull.gov.uk/planning-applications/article-4-directions/8",
@@ -7198,8 +7240,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:41:53+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:31+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:36+00:00",
+     "score": 11
     }
    ],
    "auto": {
@@ -7247,8 +7289,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:41:54+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:24+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:30+00:00",
+     "score": 11
     },
     {
      "url": "https://www.kingston.gov.uk/planning-and-building-control/planning-maps/article-4-directions-map",
@@ -7260,8 +7302,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:41:56+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:26+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:31+00:00",
+     "score": 11
     },
     {
      "url": "https://www.kingston.gov.uk/planning-and-building-control/planning-policy/find-article-4-directions/seething-wells-filter-beds",
@@ -7273,8 +7315,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:41:58+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:28+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:33+00:00",
+     "score": 11
     },
     {
      "url": "https://www.kingston.gov.uk/planning-and-building-control/planning-policy/find-article-4-directions/north-lodge-and-south-lodge",
@@ -7286,8 +7328,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:42:00+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:31+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:36+00:00",
+     "score": 11
     },
     {
      "url": "https://www.kingston.gov.uk/planning-and-building-control/planning-policy/find-article-4-directions/commercial-and-residential-use",
@@ -7299,8 +7341,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:42:02+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:32+00:00",
-     "score": 1
+     "checked": "2026-11-09T18:01:38+00:00",
+     "score": 8
     }
    ],
    "auto": {
@@ -7379,8 +7421,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:41:58+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:24+00:00",
-     "score": 1
+     "checked": "2026-11-09T18:01:31+00:00",
+     "score": 8
     }
    ],
    "auto": {
@@ -7421,13 +7463,15 @@
      "title": "Article 4 Directions | Lambeth Council",
      "hash": "5154e66ca3fa84f9",
      "hmo": true,
-     "signals": [],
+     "signals": [
+      "in_force"
+     ],
      "whole_area": false,
      "dates": [],
      "first_seen": "2026-11-06T18:42:06+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:25+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:31+00:00",
+     "score": 11
     },
     {
      "url": "https://www.lambeth.gov.uk/consultations/have-your-say-making-article-4-direction-withdraw-permitted-development-right-changes-use",
@@ -7435,30 +7479,11 @@
      "hash": "d84cbf77bb3cb571",
      "hmo": true,
      "signals": [
+      "in_force",
       "non_immediate"
      ],
      "whole_area": false,
      "dates": [
-      {
-       "date": "2010-10-01",
-       "context": "ion of representations. Background information / Purpose of consultation With effect from 1 October 2010, the Government int osed The"
-      },
-      {
-       "date": "2010-10-01",
-       "context": "ion of representations. Background information / Purpose of consultation With effect from 1 October 2010, the Government introduced a"
-      },
-      {
-       "date": "2010-10-01",
-       "context": "ion of representations. Background information / Purpose of consultation With effect from 1 October 2010, the Government introduced a"
-      },
-      {
-       "date": "2010-10-01",
-       "context": "ion of representations. Background information / Purpose of consultation With effect from 1 October 2010, the Government introduced a"
-      },
-      {
-       "date": "2010-10-01",
-       "context": "ion of representations. Background information / Purpose of consultation With effect from 1 October 2010, the Government introduced a"
-      },
       {
        "date": "2010-10-01",
        "context": "ion of representations. Background information / Purpose of consultation With effect from 1 October 2010, the Government introduced a"
@@ -7466,8 +7491,8 @@
      ],
      "first_seen": "2026-11-06T18:42:11+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:32+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:37+00:00",
+     "score": 9
     },
     {
      "url": "https://www.lambeth.gov.uk/planning-building-control/planning-policy-guidance/article-4-directions/Class-MA-KIBAs-2021",
@@ -7479,8 +7504,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:42:07+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:27+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:32+00:00",
+     "score": 11
     },
     {
      "url": "https://www.lambeth.gov.uk/planning-building-control/planning-policy-guidance/article-4-directions/Class-MA-london-plan-CAZ-2021",
@@ -7492,8 +7517,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:42:09+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:29+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:34+00:00",
+     "score": 11
     },
     {
      "url": "https://www.lambeth.gov.uk/planning-building-control/planning-policy-guidance/article-4-directions/Class-MA-selected-town-centres-2021",
@@ -7505,8 +7530,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:42:13+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:33+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:38+00:00",
+     "score": 11
     },
     {
      "url": "https://www.lambeth.gov.uk/planning-building-control/planning-policy-guidance/article-4-directions-withdrawing-class-ma-permitted-development-rights",
@@ -7518,14 +7543,15 @@
      "dates": [],
      "first_seen": "2026-11-06T18:42:15+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:35+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:40+00:00",
+     "score": 11
     }
    ],
    "auto": {
     "hmo": true,
     "status": "In force",
     "signals": [
+     "in_force",
      "non_immediate"
     ],
     "whole_area": false,
@@ -7619,19 +7645,23 @@
      "title": "Houses in multiple occupation - article 4 direction | Leeds.gov.uk",
      "hash": "d69e2259b37f362d",
      "hmo": true,
-     "signals": [],
+     "signals": [
+      "in_force"
+     ],
      "whole_area": false,
      "dates": [],
      "first_seen": "2026-11-06T18:42:03+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:25+00:00",
-     "score": 10
+     "checked": "2026-11-09T18:01:30+00:00",
+     "score": 14
     }
    ],
    "auto": {
     "hmo": true,
-    "status": "Pages found",
-    "signals": [],
+    "status": "In force",
+    "signals": [
+     "in_force"
+    ],
     "whole_area": false,
     "in_force_from": null,
     "last_changed": null
@@ -7700,32 +7730,38 @@
      "title": "Houses in multiple occupation (HMOs): planning permission and Article 4 Directions | Check if you need planning permission | Leicester City Council",
      "hash": "319677ce57173754",
      "hmo": true,
-     "signals": [],
+     "signals": [
+      "in_force"
+     ],
      "whole_area": false,
      "dates": [],
      "first_seen": "2026-11-06T18:42:05+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:26+00:00",
-     "score": 10
+     "checked": "2026-11-09T18:01:31+00:00",
+     "score": 14
     },
     {
      "url": "https://www.leicester.gov.uk/planning-environment-and-building-control/planning-applications/check-if-you-need-planning-permission/article-4-directions-leicester",
      "title": "Article 4 directions in Leicester | Check if you need planning permission | Leicester City Council",
      "hash": "60b17803594f6e69",
      "hmo": true,
-     "signals": [],
+     "signals": [
+      "in_force"
+     ],
      "whole_area": false,
      "dates": [],
      "first_seen": "2026-11-06T18:42:07+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:28+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:33+00:00",
+     "score": 11
     }
    ],
    "auto": {
     "hmo": true,
-    "status": "Pages found",
-    "signals": [],
+    "status": "In force",
+    "signals": [
+     "in_force"
+    ],
     "whole_area": false,
     "in_force_from": null,
     "last_changed": null
@@ -7834,33 +7870,33 @@
      "dates": [
       {
        "date": "2020-03-07",
-       "context": "ection covers Lewisham's Southern Wards (old ward boundaries) and has been in force since 7 March 2020. The second Article 4 (1) di"
-      },
-      {
-       "date": "2020-03-07",
-       "context": "ection covers Lewisham's Southern Wards (old ward boundaries) and has been in force since 7 March 2020. The second direction covers"
-      },
-      {
-       "date": "2020-03-07",
        "context": "ection covers Lewisham's Southern Wards (old ward boundaries) and has been in force since 7 March 2020. The second direction covers"
       },
       {
        "date": "2024-01-19",
-       "context": "rch 2020. The second direction covers the remainder of the borough and came into force on 19 January 2024. Fu Article 4 (1) direction o"
+       "context": "rch 2020. The second direction covers the remainder of the borough and came into force on 19 January 2024. Further details and associat"
       },
       {
        "date": "2020-03-07",
-       "context": "ection covers Lewisham's Southern Wards (old ward boundaries) and has been in force since 7 March 2020. The second direction covers"
+       "context": "d below. Why we have brought in this change We want to better manage the i in force since 7 March 2020. The second direction covers"
       },
       {
        "date": "2024-01-19",
-       "context": "rch 2020. The second direction covers the remainder of the borough and came into force on 19 January 2024. Further det he whole borough"
+       "context": "rch 2020. The second direction covers the remainder of the borough and came into force on 19 January 2024. Further details and associat"
+      },
+      {
+       "date": "2020-03-07",
+       "context": "refused and is not a ban on this form of accommodation. The Direction came into force on 7 March 2020. You can download a copy of t"
+      },
+      {
+       "date": "2020-03-07",
+       "context": "refused and is not a ban on this form of accommodation. The Direction came into force on 7 March 2020. You can download a copy of t"
       }
      ],
      "first_seen": "2026-11-06T18:42:09+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:27+00:00",
-     "score": 10
+     "checked": "2026-11-09T18:01:31+00:00",
+     "score": 12
     },
     {
      "url": "https://lewisham.gov.uk/myservices/planning/policy/article-4-direction-for-class-e",
@@ -7872,8 +7908,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:42:11+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:28+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:34+00:00",
+     "score": 11
     },
     {
      "url": "https://lewisham.gov.uk/myservices/planning/conservation/article-4-directions",
@@ -7885,8 +7921,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:42:13+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:30+00:00",
-     "score": 1
+     "checked": "2026-11-09T18:01:35+00:00",
+     "score": 8
     }
    ],
    "auto": {
@@ -7934,8 +7970,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:42:10+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:27+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:32+00:00",
+     "score": 9
     }
    ],
    "auto": {
@@ -7976,34 +8012,15 @@
      "title": "Houses in Multiple Occupancy – City of Lincoln Council",
      "hash": "752d971c8419d625",
      "hmo": true,
-     "signals": [],
-     "whole_area": false,
-     "dates": [
-      {
-       "date": "2016-03-01",
-       "context": "Planning permission will therefore be required for change of use from Class C3 to C4 from 1st March 2016. Is my property a House in Mu"
-      },
-      {
-       "date": "2016-03-01",
-       "context": "Planning permission will therefore be required for change of use from Class C3 to C4 from 1st March 2016. Is my property a House in Mu"
-      },
-      {
-       "date": "2016-03-01",
-       "context": "Planning permission will therefore be required for change of use from Class C3 to C4 from 1st March 2016. Is my property a House in Mu"
-      },
-      {
-       "date": "2016-03-01",
-       "context": "Planning permission will therefore be required for change of use from Class C3 to C4 from 1st March 2016. Is my property a House in Mu"
-      },
-      {
-       "date": "2016-03-01",
-       "context": "Planning permission will therefore be required for change of use from Class C3 to C4 from 1st March 2016. Is my property a House in Mu"
-      }
+     "signals": [
+      "in_force"
      ],
+     "whole_area": false,
+     "dates": [],
      "first_seen": "2026-11-06T18:42:17+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:32+00:00",
-     "score": 9
+     "checked": "2026-11-09T18:01:37+00:00",
+     "score": 11
     },
     {
      "url": "https://www.lincoln.gov.uk/planning/article-4-directions",
@@ -8011,6 +8028,7 @@
      "hash": "88018e828874e951",
      "hmo": true,
      "signals": [
+      "in_force",
       "proposed"
      ],
      "whole_area": true,
@@ -8021,17 +8039,13 @@
       },
       {
        "date": "2016-03-01",
-       "context": "Planning permission will therefore be required for change of use from Class C3 to C4 from 1 March 2016. From the downloads you will"
-      },
-      {
-       "date": "2016-03-01",
-       "context": "Planning permission will therefore be required for change of use from Class C3 to C4 from 1 March 2016. From the downloads you will"
+       "context": "of these areas are also within e be required for change of use from Class C3 to C4 from 1 March 2016. From the downloads you will"
       }
      ],
      "first_seen": "2026-11-06T18:42:19+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:34+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:39+00:00",
+     "score": 11
     },
     {
      "url": "https://www.lincoln.gov.uk/downloads/download/55/article-4-directions",
@@ -8043,14 +8057,15 @@
      "dates": [],
      "first_seen": "2026-11-06T18:42:21+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:36+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:41+00:00",
+     "score": 9
     }
    ],
    "auto": {
     "hmo": true,
     "status": "In force",
     "signals": [
+     "in_force",
      "proposed"
     ],
     "whole_area": true,
@@ -8310,13 +8325,15 @@
      "title": "Article 4 directions - Liverpool City Council",
      "hash": "51a6c48ebbb64dda",
      "hmo": true,
-     "signals": [],
+     "signals": [
+      "in_force"
+     ],
      "whole_area": false,
      "dates": [],
      "first_seen": "2026-11-06T18:42:18+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:32+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:37+00:00",
+     "score": 11
     },
     {
      "url": "https://liverpool.gov.uk/business/land-and-property/article-4-direction-area-data/",
@@ -8328,14 +8345,16 @@
      "dates": [],
      "first_seen": "2026-11-06T18:42:16+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:31+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:36+00:00",
+     "score": 9
     }
    ],
    "auto": {
     "hmo": true,
-    "status": "Pages found",
-    "signals": [],
+    "status": "In force",
+    "signals": [
+     "in_force"
+    ],
     "whole_area": false,
     "in_force_from": null,
     "last_changed": null
@@ -8375,8 +8394,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:42:20+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:30+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:35+00:00",
+     "score": 11
     },
     {
      "url": "https://www.luton.gov.uk/planning-building-control/planning/article-4-directions/article-4-open-datasets",
@@ -8388,8 +8407,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:42:22+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:32+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:37+00:00",
+     "score": 11
     },
     {
      "url": "https://www.luton.gov.uk/planning-building-control/planning/article-4-directions/article-4-direction-updates",
@@ -8401,8 +8420,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:42:24+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:34+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:40+00:00",
+     "score": 11
     },
     {
      "url": "https://www.luton.gov.uk/planning-building-control/planning/article-4-directions/current-article-4-directions",
@@ -8414,8 +8433,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:42:26+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:36+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:41+00:00",
+     "score": 11
     },
     {
      "url": "https://www.luton.gov.uk/planning-building-control/planning/article-4-directions/supporting-evidence-article-4-direction",
@@ -8427,8 +8446,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:42:28+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:38+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:44+00:00",
+     "score": 11
     },
     {
      "url": "https://www.luton.gov.uk/planning-building-control/planning/article-4-directions/article-4-direction-consultations-notifications",
@@ -8440,8 +8459,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:42:30+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:40+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:45+00:00",
+     "score": 11
     }
    ],
    "auto": {
@@ -8648,16 +8667,13 @@
      "hash": "24e5b9b754d65362",
      "hmo": true,
      "signals": [
-      "confirmed"
+      "confirmed",
+      "in_force"
      ],
      "whole_area": false,
      "dates": [
       {
        "date": "2026-05-05",
-       "context": "otice for the Article 4 direction . Read our cabinet reports: cabinet agenda from Tuesday 5 May 2026 record of cabi equired for th"
-      },
-      {
-       "date": "2026-05-05",
        "context": "otice for the Article 4 direction . Read our cabinet reports: cabinet agenda from Tuesday 5 May 2026 record of cabinet minutes fro"
       },
       {
@@ -8675,12 +8691,16 @@
       {
        "date": "2026-05-05",
        "context": "otice for the Article 4 direction . Read our cabinet reports: cabinet agenda from Tuesday 5 May 2026 record of cabinet minutes fro"
+      },
+      {
+       "date": "2026-05-05",
+       "context": "et reports: cabinet agenda from Tuesday 5 May 2026 record of cabinet minutes from Tuesday 5 May 2026 . Find out more about HMOs ."
       }
      ],
      "first_seen": "2026-11-06T18:42:39+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:34+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:40+00:00",
+     "score": 8
     },
     {
      "url": "https://www.medway.gov.uk/downloads/file/2102/article_4_directions",
@@ -8692,8 +8712,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:42:37+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:33+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:38+00:00",
+     "score": 9
     },
     {
      "url": "https://www.medway.gov.uk/info/200147/applying_for_planning_permission/553/article_4_directions/2",
@@ -8705,15 +8725,16 @@
      "dates": [],
      "first_seen": "2026-11-06T18:42:41+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:36+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:42+00:00",
+     "score": 8
     }
    ],
    "auto": {
     "hmo": true,
     "status": "In force",
     "signals": [
-     "confirmed"
+     "confirmed",
+     "in_force"
     ],
     "whole_area": false,
     "in_force_from": "2026-05-05",
@@ -8789,8 +8810,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:42:41+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:33+00:00",
-     "score": 3
+     "checked": "2026-11-09T18:01:38+00:00",
+     "score": 10
     }
    ],
    "auto": {
@@ -8838,8 +8859,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:43:42+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:35+00:00",
-     "score": 1
+     "checked": "2026-11-09T18:01:40+00:00",
+     "score": 8
     }
    ],
    "auto": {
@@ -9013,9 +9034,7 @@
      "title": "Article 4 Directions in Milton Keynes | Milton Keynes City Council",
      "hash": "9438e316d9f9f523",
      "hmo": true,
-     "signals": [
-      "in_force"
-     ],
+     "signals": [],
      "whole_area": true,
      "dates": [
       {
@@ -9025,36 +9044,18 @@
       {
        "date": "2010-12-30",
        "context": "ach one. Houses in Multiple Occupation An initial HMO Direction had immediate effect from 30 December 2010. It applied to the whole of t"
-      },
-      {
-       "date": "2011-12-23",
-       "context": "er 2010 and made subject to consultation. It applied to the whole of the borough from the 23 December 2011 after it pply? There are sev"
-      },
-      {
-       "date": "2010-12-30",
-       "context": "ach one. Houses in Multiple Occupation An initial HMO Direction had immediate effect from 30 December 2010. It applied to the whole of t"
-      },
-      {
-       "date": "2011-12-23",
-       "context": "er 2010 and made subject to consultation. It applied to the whole of the borough from the 23 December 2011 after it was made permanent ."
-      },
-      {
-       "date": "2011-12-23",
-       "context": "er 2010 and made subject to consultation. It applied to the whole of the borough from the 23 December 2011 after it was made permanent ."
       }
      ],
      "first_seen": "2026-11-06T18:43:05+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:34+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:39+00:00",
+     "score": 11
     }
    ],
    "auto": {
     "hmo": true,
     "status": "In force",
-    "signals": [
-     "in_force"
-    ],
+    "signals": [],
     "whole_area": true,
     "in_force_from": "2010-12-30",
     "last_changed": null
@@ -9094,8 +9095,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:43:13+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:34+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:39+00:00",
+     "score": 11
     }
    ],
    "auto": {
@@ -9167,7 +9168,7 @@
     {
      "url": "http://default/planning-building-control/planning/historic-environment/conservation-areas/planning-permission-article-4-directions-conservation-areas",
      "error": "ConnectionError",
-     "checked": "2026-11-09T09:46:43+00:00"
+     "checked": "2026-11-09T18:01:48+00:00"
     }
    ],
    "auto": {
@@ -9252,13 +9253,15 @@
      "title": "Local Planning Restrictions and Statutory Orders | Newcastle City Council",
      "hash": "6efd8a8f1d744ff0",
      "hmo": true,
-     "signals": [],
+     "signals": [
+      "in_force"
+     ],
      "whole_area": true,
      "dates": [],
      "first_seen": "2026-11-06T18:43:21+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:35+00:00",
-     "score": 3
+     "checked": "2026-11-09T18:01:40+00:00",
+     "score": 10
     },
     {
      "url": "https://newcastle.gov.uk/services/planning-building-and-development/guide-planning-applications/article-4-list",
@@ -9270,14 +9273,16 @@
      "dates": [],
      "first_seen": "2026-11-06T18:43:23+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:39+00:00",
-     "score": 3
+     "checked": "2026-11-09T18:01:41+00:00",
+     "score": 10
     }
    ],
    "auto": {
     "hmo": true,
-    "status": "Pages found",
-    "signals": [],
+    "status": "In force",
+    "signals": [
+     "in_force"
+    ],
     "whole_area": true,
     "in_force_from": null,
     "last_changed": null
@@ -9506,8 +9511,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:43:45+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:37+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:41+00:00",
+     "score": 9
     },
     {
      "url": "https://www.north-herts.gov.uk/conservation-areas-and-article-4-directions",
@@ -9519,8 +9524,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:43:47+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:38+00:00",
-     "score": 1
+     "checked": "2026-11-09T18:01:44+00:00",
+     "score": 6
     }
    ],
    "auto": {
@@ -9566,8 +9571,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:43:46+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:36+00:00",
-     "score": 1
+     "checked": "2026-11-09T18:01:42+00:00",
+     "score": 8
     }
    ],
    "auto": {
@@ -9646,8 +9651,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:43:55+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:38+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:43+00:00",
+     "score": 11
     }
    ],
    "auto": {
@@ -9702,28 +9707,12 @@
       {
        "date": "2024-04-24",
        "context": "live in or own a residential property within the area covered by the Direction, then from 24 April 2024 you would need to gain planni"
-      },
-      {
-       "date": "2024-04-24",
-       "context": "se class C4), meaning that this type of development will require planning permission from 24 April 2024, which is the date the Direct"
-      },
-      {
-       "date": "2024-04-24",
-       "context": "live in or own a residential property within the area covered by the Direction, then from 24 April 2024 you would need to gain planni"
-      },
-      {
-       "date": "2024-04-24",
-       "context": "se class C4), meaning that this type of development will require planning permission from 24 April 2024, which is the date the Direct"
-      },
-      {
-       "date": "2024-04-24",
-       "context": "live in or own a residential property within the area covered by the Direction, then from 24 April 2024 you would need to gain planni"
       }
      ],
      "first_seen": "2026-11-06T18:44:00+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:39+00:00",
-     "score": 1
+     "checked": "2026-11-09T18:01:44+00:00",
+     "score": 6
     },
     {
      "url": "https://www.northnorthants.gov.uk/conservation-and-protection/article-4-directions",
@@ -9735,8 +9724,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:43:58+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:37+00:00",
-     "score": 1
+     "checked": "2026-11-09T18:01:42+00:00",
+     "score": 6
     }
    ],
    "auto": {
@@ -9786,8 +9775,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:44:01+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:39+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:44+00:00",
+     "score": 11
     }
    ],
    "auto": {
@@ -9887,6 +9876,7 @@
      "hmo": true,
      "signals": [
       "confirmed",
+      "in_force",
       "proposed"
      ],
      "whole_area": true,
@@ -9898,24 +9888,12 @@
       {
        "date": "2025-12-18",
        "context": "ing 6 weeks starting from the 6th of November 2025. The formal consultation will close on 18th December 2025. Why we have brought in this"
-      },
-      {
-       "date": "2025-12-18",
-       "context": "ing 6 weeks starting from the 6th of November 2025. The formal consultation will close on 18th December 2025. Why we have brought in this"
-      },
-      {
-       "date": "2025-12-18",
-       "context": "ing 6 weeks starting from the 6th of November 2025. The formal consultation will close on 18th December 2025. Why we have brought in this"
-      },
-      {
-       "date": "2025-12-18",
-       "context": "an applicatio rting from the 6th of November 2025. The formal consultation will close on 18th December 2025. Why we have brought in this"
       }
      ],
      "first_seen": "2026-11-06T18:44:10+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:44+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:49+00:00",
+     "score": 11
     },
     {
      "url": "https://www.northwarks.gov.uk/planning/article-4-1-direction/2",
@@ -9927,8 +9905,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:44:12+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:46+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:51+00:00",
+     "score": 11
     },
     {
      "url": "https://www.northwarks.gov.uk/forward-planning/article-4-1-directions",
@@ -9940,8 +9918,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:44:14+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:48+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:53+00:00",
+     "score": 11
     }
    ],
    "auto": {
@@ -9949,6 +9927,7 @@
     "status": "In force",
     "signals": [
      "confirmed",
+     "in_force",
      "proposed"
     ],
     "whole_area": true,
@@ -10019,8 +9998,9 @@
      ],
      "first_seen": "2026-11-06T18:44:13+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:41+00:00",
-     "score": 3
+     "checked": "2026-11-09T18:02:03+00:00",
+     "score": 3,
+     "error": "RetryError"
     },
     {
      "url": "https://www.nwleics.gov.uk/pages/apiary_gate_and_clapgun_street_article_4_direction",
@@ -10032,20 +10012,17 @@
      "dates": [],
      "first_seen": "2026-11-06T18:44:11+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:39+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:53+00:00",
+     "score": 4,
+     "error": "RetryError"
     }
    ],
    "auto": {
-    "hmo": true,
-    "status": "In force",
-    "signals": [
-     "in_force",
-     "non_immediate",
-     "proposed"
-    ],
+    "hmo": false,
+    "status": "Not found",
+    "signals": [],
     "whole_area": false,
-    "in_force_from": "2021-02-19",
+    "in_force_from": null,
     "last_changed": null
    },
    "discovery": {
@@ -10055,14 +10032,14 @@
    },
    "manual": [],
    "summary": {
-    "status": "In force",
-    "source": "website",
-    "scope": "Unclear",
+    "status": "Not found",
+    "source": null,
+    "scope": "",
     "coverage_pct": null,
-    "in_force_from": "2021-02-19",
+    "in_force_from": null,
     "areas": "",
-    "direction_type": "Non-immediate",
-    "proposal_on_pages": true,
+    "direction_type": "",
+    "proposal_on_pages": false,
     "pages_changed": null
    }
   },
@@ -10116,8 +10093,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:44:17+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:39+00:00",
-     "score": 1
+     "checked": "2026-11-09T18:01:45+00:00",
+     "score": 8
     }
    ],
    "auto": {
@@ -10156,7 +10133,7 @@
     {
      "url": "https://norwich.gov.uk/your-council-explained/consultations-and-engagement/closed-consultations/closed-consultation-article-4-direction-offices-residential",
      "error": "ConnectionError",
-     "checked": "2026-11-09T09:46:49+00:00"
+     "checked": "2026-11-09T18:01:54+00:00"
     }
    ],
    "auto": {
@@ -10197,19 +10174,23 @@
      "title": "Restrictions on HMO and permitted development (Article 4) - Nottingham City Council",
      "hash": "8808db26129d8211",
      "hmo": true,
-     "signals": [],
+     "signals": [
+      "in_force"
+     ],
      "whole_area": false,
      "dates": [],
      "first_seen": "2026-11-06T18:44:28+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:40+00:00",
-     "score": 6
+     "checked": "2026-11-09T18:01:44+00:00",
+     "score": 3
     }
    ],
    "auto": {
     "hmo": true,
-    "status": "Pages found",
-    "signals": [],
+    "status": "In force",
+    "signals": [
+     "in_force"
+    ],
     "whole_area": false,
     "in_force_from": null,
     "last_changed": null
@@ -10262,8 +10243,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:44:31+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:40+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:45+00:00",
+     "score": 9
     },
     {
      "url": "https://www.nuneatonandbedworth.gov.uk/adopted-borough-plan/article-4-directions-conservation-areas",
@@ -10275,8 +10256,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:44:41+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:50+00:00",
-     "score": 1
+     "checked": "2026-11-09T18:01:54+00:00",
+     "score": 6
     }
    ],
    "auto": {
@@ -10353,8 +10334,7 @@
      "signals": [
       "confirmed",
       "in_force",
-      "non_immediate",
-      "proposed"
+      "non_immediate"
      ],
      "whole_area": true,
      "dates": [
@@ -10364,7 +10344,11 @@
       },
       {
        "date": "2025-09-22",
-       "context": "nfirmed with effect from 1 January 2026, the Non-Immediate Article 4(1) Direction made on 22 September 2025 under Article 4(1) of House"
+       "context": "nfirmed with effect from 1 January 2026, the Non-Immediate Article 4(1) Direction made on 22 September 2025 under Article 4(1) of the 201"
+      },
+      {
+       "date": "2026-01-01",
+       "context": "er 2025 under Article 4(1) of the 2015 Order. The Article 4 Direction came into effect on 1 January 2026. This means that such convers"
       },
       {
        "date": "2026-01-01",
@@ -10376,17 +10360,13 @@
       },
       {
        "date": "2026-01-01",
-       "context": "ived, on 15 December 2025 Oldham Metropolitan Borough Council, confirmed with effect from 1 January 2026, the Non-Immediate Article 4("
-      },
-      {
-       "date": "2025-09-22",
-       "context": "nfirmed with effect from 1 January 2026, the Non-Immediate Article 4(1) Direction made on 22 September 2025 under Article 4(1) of the 201"
+       "context": "er 2025 under Article 4(1) of the 2015 Order. The Article 4 Direction came into effect on 1 January 2026. This means that such convers"
       }
      ],
      "first_seen": "2026-11-06T18:44:33+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:40+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:45+00:00",
+     "score": 9
     }
    ],
    "auto": {
@@ -10395,8 +10375,7 @@
     "signals": [
      "confirmed",
      "in_force",
-     "non_immediate",
-     "proposed"
+     "non_immediate"
     ],
     "whole_area": true,
     "in_force_from": "2025-09-22",
@@ -10416,7 +10395,7 @@
     "in_force_from": "2025-09-22",
     "areas": "",
     "direction_type": "Non-immediate",
-    "proposal_on_pages": true,
+    "proposal_on_pages": false,
     "pages_changed": null
    }
   },
@@ -10461,8 +10440,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:44:39+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:42+00:00",
-     "score": 10
+     "checked": "2026-11-09T18:01:47+00:00",
+     "score": 12
     }
    ],
    "auto": {
@@ -10508,8 +10487,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:44:39+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:41+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:46+00:00",
+     "score": 9
     },
     {
      "url": "https://www.pendle.gov.uk/downloads/file/5431/whitefield_article_4_direction_further_-_leaflet_-_urdu",
@@ -10521,8 +10500,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:44:41+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:43+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:48+00:00",
+     "score": 9
     },
     {
      "url": "https://www.pendle.gov.uk/downloads/file/5432/whitefield_article_4_direction_further_-_statutory_notice",
@@ -10534,8 +10513,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:44:43+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:45+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:50+00:00",
+     "score": 9
     },
     {
      "url": "https://www.pendle.gov.uk/downloads/file/5430/whitefield_article_4_direction_further_-_leaflet_-_english",
@@ -10547,8 +10526,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:44:45+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:47+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:52+00:00",
+     "score": 9
     },
     {
      "url": "https://www.pendle.gov.uk/downloads/file/5433/whitefield_article_4_direction_further_-_final_direction_and_plan",
@@ -10560,8 +10539,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:44:47+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:49+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:54+00:00",
+     "score": 9
     },
     {
      "url": "https://www.pendle.gov.uk/downloads/file/5428/whitefield_conservation_area_article_4_direction_-_leaflet_-_urdu",
@@ -10573,8 +10552,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:44:49+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:51+00:00",
-     "score": 1
+     "checked": "2026-11-09T18:01:56+00:00",
+     "score": 6
     }
    ],
    "auto": {
@@ -10635,21 +10614,6 @@
    "publishes_a4_data": true,
    "pages": [
     {
-     "url": "https://www.peterborough.gov.uk/engagement-hub/small-homes-in-multiple-occupation-article-4-direction-fletton-woodston-hamptons-and-park",
-     "title": "Small Homes in Multiple Occupation Article 4 Direction - Fletton, Woodston, Hamptons and Park | Peterborough City Council",
-     "hash": "15924c04b06993c5",
-     "hmo": true,
-     "signals": [
-      "proposed"
-     ],
-     "whole_area": false,
-     "dates": [],
-     "first_seen": "2026-11-06T18:44:44+00:00",
-     "changed": null,
-     "checked": "2026-11-09T09:46:48+00:00",
-     "score": 10
-    },
-    {
      "url": "https://www.peterborough.gov.uk/council/planning-and-development/planning-and-building/houses-in-multiple-occupation-article-4-direction",
      "title": "Houses in Multiple Occupation - Article 4 Direction | Peterborough City Council",
      "hash": "0774b13b72157777",
@@ -10659,8 +10623,29 @@
      "dates": [],
      "first_seen": "2026-11-06T18:44:46+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:49+00:00",
-     "score": 10
+     "checked": "2026-11-09T18:01:52+00:00",
+     "score": 14
+    },
+    {
+     "url": "https://www.peterborough.gov.uk/engagement-hub/small-homes-in-multiple-occupation-article-4-direction-fletton-woodston-hamptons-and-park",
+     "title": "Small Homes in Multiple Occupation Article 4 Direction - Fletton, Woodston, Hamptons and Park | Peterborough City Council",
+     "hash": "15924c04b06993c5",
+     "hmo": true,
+     "signals": [
+      "in_force",
+      "proposed"
+     ],
+     "whole_area": false,
+     "dates": [
+      {
+       "date": "2023-05-19",
+       "context": "From : 24 Feb 2023 - To : 19 May 2023 Outcome of the 2023 consultat"
+      }
+     ],
+     "first_seen": "2026-11-06T18:44:44+00:00",
+     "changed": null,
+     "checked": "2026-11-09T18:01:51+00:00",
+     "score": 12
     },
     {
      "url": "https://www.peterborough.gov.uk/council/planning-and-development/conservation-trees-and-hedges/article-4-directions",
@@ -10676,12 +10661,32 @@
       {
        "date": "2024-01-01",
        "context": "SharePoint folder) Houses in Multiple Occupation - Article 4 Direction came into force on 1 January 2024 following a consultation even"
+      },
+      {
+       "date": "2024-01-01",
+       "context": "SharePoint folder) Houses in Multiple Occupation - Article 4 Direction came into force on 1 January 2024 following a consultation even"
+      },
+      {
+       "date": "2024-01-01",
+       "context": "SharePoint folder) Houses in Multiple Occupation - Article 4 Direction came into force on 1 January 2024 following a consultation even"
+      },
+      {
+       "date": "2024-01-01",
+       "context": "SharePoint folder) Houses in Multiple Occupation - Article 4 Direction came into force on 1 January 2024 following a consultation even"
+      },
+      {
+       "date": "2024-01-01",
+       "context": "SharePoint folder) Houses in Multiple Occupation - Article 4 Direction came into force on 1 January 2024 following a consultation even"
+      },
+      {
+       "date": "2024-01-01",
+       "context": "SharePoint folder) Houses in Multiple Occupation - Article 4 Direction came into force on 1 January 2024 following a consultation even"
       }
      ],
      "first_seen": "2026-11-06T18:44:52+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:47:07+00:00",
-     "score": 1
+     "checked": "2026-11-09T18:01:58+00:00",
+     "score": 8
     },
     {
      "url": "https://www.peterborough.gov.uk/engagement-hub/article-4-direction-concerning-1073-lincoln-road-peterborough",
@@ -10693,8 +10698,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:44:48+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:58+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:54+00:00",
+     "score": 9
     },
     {
      "url": "https://www.peterborough.gov.uk/engagement-hub/article-4-for-hampton",
@@ -10706,8 +10711,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:44:50+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:47:05+00:00",
-     "score": 3
+     "checked": "2026-11-09T18:01:57+00:00",
+     "score": 8
     }
    ],
    "auto": {
@@ -10718,7 +10723,7 @@
      "proposed"
     ],
     "whole_area": false,
-    "in_force_from": "2024-01-01",
+    "in_force_from": "2023-05-19",
     "last_changed": null
    },
    "discovery": {
@@ -10806,7 +10811,7 @@
     {
      "url": "https://media.portsmouth.gov.uk/wp-content/uploads/2025/05/Update-on-Houses-of-Multiple-Occupancy-information-report.pdf",
      "error": "ConnectionError",
-     "checked": "2026-11-09T09:46:59+00:00"
+     "checked": "2026-11-09T18:02:06+00:00"
     }
    ],
    "auto": {
@@ -10907,8 +10912,8 @@
      ],
      "first_seen": "2026-11-06T18:44:54+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:45+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:56+00:00",
+     "score": 11
     },
     {
      "url": "https://www.reading.gov.uk/housing/private-renting/landlords/houses-in-multiple-occupation-hmos/article-4-directions/",
@@ -10920,8 +10925,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:44:52+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:44+00:00",
-     "score": 10
+     "checked": "2026-11-09T18:01:54+00:00",
+     "score": 12
     },
     {
      "url": "https://www.reading.gov.uk/planning-and-building-control/article-4-directions/notice-of-article-4-direction-residential-development/",
@@ -10933,8 +10938,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:44:56+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:47+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:58+00:00",
+     "score": 11
     }
    ],
    "auto": {
@@ -11003,17 +11008,17 @@
       },
       {
        "date": "2019-12-06",
-       "context": "elated people. The Council introduced an Article 4 (1) Direction which came into force on 6 December 2019. This Article 4 (1) means tha"
+       "context": "the property as a small HMO took place before the Article 4 Direction came into effect on 6 December 2019. If the conversion did n tion"
       },
       {
        "date": "2019-12-06",
-       "context": "elated people. The Council introduced an Article 4 (1) Direction which came into force on 6 December 2019. This Article 4 (1) means tha"
+       "context": "the property as a small HMO took place before the Article 4 Direction came into effect on 6 December 2019. If the conversion did not ta"
       }
      ],
      "first_seen": "2026-11-06T18:44:55+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:48+00:00",
-     "score": 10
+     "checked": "2026-11-09T18:01:55+00:00",
+     "score": 14
     }
    ],
    "auto": {
@@ -11139,25 +11144,21 @@
       },
       {
        "date": "2027-07-30",
-       "context": "House in Multiple Occupation (HMO) (Use Class C4). The direction will come into force on 30 July 2027. What is an HMO? The simplest"
+       "context": "n and plan Article 4 direction (confirmed) (PDF) When will the direction come into force? 30 July 2027 - one year after notification"
       },
       {
        "date": "2027-07-30",
-       "context": "House in Multiple Occupation (HMO) (Use Class C4). The direction will come into force on 30 July 2027. What is an HMO? The simplest"
+       "context": "n and plan Article 4 direction (confirmed) (PDF) When will the direction come into force? 30 July 2027 - one year after notification"
       },
       {
        "date": "2027-07-30",
-       "context": "House in Multiple Occupation (HMO) (Use Class C4). The direction will come into force on 30 July 2027. What is an HMO? The simplest"
-      },
-      {
-       "date": "2027-07-30",
-       "context": "House in Multiple Occupation (HMO) (Use Class C4). The direction will come into force on 30 July 2027. What is an HMO? The simplest"
+       "context": "n and plan Article 4 direction (confirmed) (PDF) When will the direction come into force? 30 July 2027 - one year after notification"
       }
      ],
      "first_seen": "2026-11-06T18:45:00+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:49+00:00",
-     "score": 10
+     "checked": "2026-11-09T18:01:56+00:00",
+     "score": 12
     },
     {
      "url": "https://www.reigate-banstead.gov.uk/article4direction",
@@ -11169,8 +11170,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:45:02+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:51+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:57+00:00",
+     "score": 9
     }
    ],
    "auto": {
@@ -11221,8 +11222,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:45:08+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:51+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:57+00:00",
+     "score": 9
     },
     {
      "url": "https://www.ribblevalley.gov.uk/downloads/download/750/article-4-direction",
@@ -11234,8 +11235,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:45:10+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:53+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:59+00:00",
+     "score": 9
     },
     {
      "url": "https://www.ribblevalley.gov.uk/downloads/download/508/article-4-directions",
@@ -11247,8 +11248,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:45:12+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:55+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:02:01+00:00",
+     "score": 9
     }
    ],
    "auto": {
@@ -11469,54 +11470,54 @@
     {
      "url": "https://www.rother.gov.uk/planning-and-building-control/do-i-need-planning-permission/planning-information/article-4-directions/",
      "title": "Article 4 Directions – Rother District Council",
-     "hash": "a6755dbdc46b587b",
+     "hash": "ce077f4cc1bdc0a8",
      "hmo": true,
      "signals": [],
      "whole_area": false,
      "dates": [],
      "first_seen": "2026-11-06T18:45:26+00:00",
-     "changed": null,
-     "checked": "2026-11-09T09:46:51+00:00",
-     "score": 4
+     "changed": "2026-11-09T18:01:58+00:00",
+     "checked": "2026-11-09T18:01:58+00:00",
+     "score": 11
     },
     {
      "url": "https://www.rother.gov.uk/planning-and-building-control/do-i-need-planning-permission/planning-information/article-4-directions/documents-and-data/",
      "title": "Documents and Data – Rother District Council",
-     "hash": "b52fac9c65d04fdd",
+     "hash": "e2b507c6cda176bc",
      "hmo": true,
      "signals": [],
      "whole_area": false,
      "dates": [],
      "first_seen": "2026-11-06T18:45:28+00:00",
-     "changed": null,
-     "checked": "2026-11-09T09:46:53+00:00",
-     "score": 4
+     "changed": "2026-11-09T18:02:00+00:00",
+     "checked": "2026-11-09T18:02:00+00:00",
+     "score": 11
     },
     {
      "url": "https://www.rother.gov.uk/planning-and-building-control/do-i-need-planning-permission/planning-information/article-4-directions/article-4-directions-at-fairlight-cove/",
      "title": "Article 4 Directions at Fairlight Cove – Rother District Council",
-     "hash": "664f59192a210b7c",
+     "hash": "0f81ed7bf70e0ce8",
      "hmo": false,
      "signals": [],
      "whole_area": false,
      "dates": [],
      "first_seen": "2026-11-06T18:45:30+00:00",
-     "changed": null,
-     "checked": "2026-11-09T09:46:55+00:00",
-     "score": 4
+     "changed": "2026-11-09T18:02:02+00:00",
+     "checked": "2026-11-09T18:02:02+00:00",
+     "score": 11
     },
     {
      "url": "https://www.rother.gov.uk/planning-and-building-control/do-i-need-planning-permission/planning-information/article-4-directions/article-4-directions-at-fairlight-cove/advice-to-homeowners-managing-ground-instability-at-fairlight-cove/",
      "title": "Advice to Homeowners: Managing ground instability at Fairlight Cove – Rother District Council",
-     "hash": "61a0f7b367e0004a",
+     "hash": "93dc9e9f854bd4f2",
      "hmo": false,
      "signals": [],
      "whole_area": false,
      "dates": [],
      "first_seen": "2026-11-06T18:45:32+00:00",
-     "changed": null,
-     "checked": "2026-11-09T09:46:57+00:00",
-     "score": 4
+     "changed": "2026-11-09T18:02:04+00:00",
+     "checked": "2026-11-09T18:02:04+00:00",
+     "score": 11
     }
    ],
    "auto": {
@@ -11525,7 +11526,7 @@
     "signals": [],
     "whole_area": false,
     "in_force_from": null,
-    "last_changed": null
+    "last_changed": "2026-11-09T18:02:00+00:00"
    },
    "discovery": {
     "method": "sitemap",
@@ -11542,7 +11543,7 @@
     "areas": "",
     "direction_type": "",
     "proposal_on_pages": false,
-    "pages_changed": null
+    "pages_changed": "2026-11-09T18:02:00+00:00"
    }
   },
   {
@@ -11796,7 +11797,7 @@
      "dates": [
       {
        "date": "2018-11-25",
-       "context": "Kersal, Ordsall, Langworthy, Weaste and Seedley), and the wards of Barton and Eccles from 25 November 2018 , an / Planning applications"
+       "context": "Kersal, Ordsall, Langworthy, Weaste and Seedley), and the wards of Barton and Eccles from 25 November 2018 , and would be sec ember 2017"
       },
       {
        "date": "2018-11-25",
@@ -11804,17 +11805,25 @@
       },
       {
        "date": "2018-11-25",
-       "context": "o this, a decision was taken to confirm the direction, meaning that it came into force on 25 November 2018. The notice of the confirmati"
+       "context": "Kersal, Ordsall, Langworthy, Weaste and Seedley), and the wards of Barton and Eccles from 25 November 2018 , and would be secured by wha"
+      },
+      {
+       "date": "2018-11-25",
+       "context": "y Mayor and his Cabinet aken to confirm the direction, meaning that it came into force on 25 November 2018. The notice of the confirmati"
       },
       {
        "date": "2024-11-17",
        "context": "ffected by the new article 4 direction that will come into force in parts of Salford from 17 November 2024. New ward boundaries Since th"
+      },
+      {
+       "date": "2018-11-25",
+       "context": "of these wards does not change the boundary of the 2018 article 4 Dire came into force on 25 November 2018. The notice of the confirmati"
       }
      ],
      "first_seen": "2026-11-06T18:45:39+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:53+00:00",
-     "score": 10
+     "checked": "2026-11-09T18:01:58+00:00",
+     "score": 14
     },
     {
      "url": "https://www.salford.gov.uk/planning-building-and-regeneration/planning-applications/get-planning-advice/do-i-need-planning-permission/article-4-direction/",
@@ -11822,7 +11831,6 @@
      "hash": "0d9ff74427428d99",
      "hmo": true,
      "signals": [
-      "confirmed",
       "in_force"
      ],
      "whole_area": false,
@@ -11836,10 +11844,6 @@
        "context": "ted development rights ’. However, as a result of two separate article 4 directions, from 17 November 2024 the only areas of the city wh"
       },
       {
-       "date": "2024-11-17",
-       "context": "ted development rights ’. However, as a result of two separate article 4 directions, from 17 November 2024 the only areas of the city wh"
-      },
-      {
        "date": "2018-11-25",
        "context": "tion An article 4 direction relating to small HMOs came into force in parts of Salford on 25 November 2018. Full details relating to the"
       },
@@ -11848,14 +11852,18 @@
        "context": "tion An article 4 direction relating to small HMOs came into force in parts of Salford on 25 November 2018. Full details relating to the"
       },
       {
-       "date": "2024-11-17",
-       "context": "would supplement the 2018 article 4 direction. It would apply to the following areas from 17 November 2024 and mean that planning permis"
+       "date": "2018-11-25",
+       "context": "tion An article 4 direction relating to small HMOs came into force in parts of Salford on 25 November 2018. Full details relating to the"
+      },
+      {
+       "date": "2018-11-25",
+       "context": "tion An article 4 direction relating to small HMOs came into force in parts of Salford on 25 November 2018. Full details relating to the"
       }
      ],
      "first_seen": "2026-11-06T18:45:41+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:54+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:02:00+00:00",
+     "score": 11
     },
     {
      "url": "https://www.salford.gov.uk/planning-building-and-regeneration/planning-applications/get-planning-advice/do-i-need-planning-permission/article-4-direction/article-4-direction-data/",
@@ -11867,15 +11875,14 @@
      "dates": [],
      "first_seen": "2026-11-06T18:45:43+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:56+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:02:02+00:00",
+     "score": 11
     }
    ],
    "auto": {
     "hmo": true,
     "status": "In force",
     "signals": [
-     "confirmed",
      "in_force"
     ],
     "whole_area": false,
@@ -12088,8 +12095,8 @@
      ],
      "first_seen": "2026-11-06T18:45:56+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:53+00:00",
-     "score": 6
+     "checked": "2026-11-09T18:02:00+00:00",
+     "score": 5
     }
    ],
    "auto": {
@@ -12184,8 +12191,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:45:54+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:51+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:01:59+00:00",
+     "score": 11
     }
    ],
    "auto": {
@@ -12258,24 +12265,20 @@
      "url": "https://www.somerset.gov.uk/planning-buildings-and-land/article-4-directions/",
      "title": "Article 4 Directions",
      "hash": "781c61327650b5c7",
-     "hmo": true,
-     "signals": [
-      "confirmed"
-     ],
+     "hmo": false,
+     "signals": [],
      "whole_area": false,
      "dates": [],
      "first_seen": "2026-11-06T18:46:33+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:53+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:02:01+00:00",
+     "score": 11
     }
    ],
    "auto": {
-    "hmo": true,
-    "status": "In force",
-    "signals": [
-     "confirmed"
-    ],
+    "hmo": false,
+    "status": "Not found",
+    "signals": [],
     "whole_area": false,
     "in_force_from": null,
     "last_changed": null
@@ -12287,9 +12290,9 @@
    },
    "manual": [],
    "summary": {
-    "status": "In force",
-    "source": "website",
-    "scope": "Unclear",
+    "status": "Not found",
+    "source": null,
+    "scope": "",
     "coverage_pct": null,
     "in_force_from": null,
     "areas": "",
@@ -12547,8 +12550,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:46:37+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:54+00:00",
-     "score": 1
+     "checked": "2026-11-09T18:02:01+00:00",
+     "score": 8
     },
     {
      "url": "https://www.southnorfolkandbroadland.gov.uk/planning/conservation/article-4-directions/article-4-directions-broadland",
@@ -12560,8 +12563,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:46:39+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:56+00:00",
-     "score": 1
+     "checked": "2026-11-09T18:02:03+00:00",
+     "score": 8
     },
     {
      "url": "https://www.southnorfolkandbroadland.gov.uk/planning/conservation/article-4-directions/article-4-directions-south-norfolk",
@@ -12573,8 +12576,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:46:41+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:58+00:00",
-     "score": 1
+     "checked": "2026-11-09T18:02:05+00:00",
+     "score": 8
     },
     {
      "url": "https://www.southnorfolkandbroadland.gov.uk/planning/conservation/article-4-directions/article-4-directions-broadland/broadland-article-4-directions",
@@ -12586,8 +12589,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:46:43+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:47:00+00:00",
-     "score": 1
+     "checked": "2026-11-09T18:02:07+00:00",
+     "score": 8
     },
     {
      "url": "https://www.southnorfolkandbroadland.gov.uk/planning/conservation/article-4-directions/article-4-directions-south-norfolk/south-norfolk-article-4-directions",
@@ -12599,8 +12602,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:46:45+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:47:02+00:00",
-     "score": 1
+     "checked": "2026-11-09T18:02:09+00:00",
+     "score": 8
     }
    ],
    "auto": {
@@ -12646,8 +12649,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:46:55+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:59+00:00",
-     "score": 1
+     "checked": "2026-11-09T18:02:05+00:00",
+     "score": 8
     }
    ],
    "auto": {
@@ -12690,19 +12693,20 @@
      "hmo": true,
      "signals": [
       "confirmed",
-      "immediate"
+      "immediate",
+      "in_force"
      ],
      "whole_area": true,
      "dates": [],
      "first_seen": "2026-11-06T18:46:48+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:58+00:00",
-     "score": 9
+     "checked": "2026-11-09T18:02:04+00:00",
+     "score": 11
     },
     {
      "url": "https://southribble.gov.uk/planning-policy/article-4-direction-Ã¢ÂÂ-houses-multiple-occupation-hmo",
      "error": "HTTP 404",
-     "checked": "2026-11-09T09:46:56+00:00"
+     "checked": "2026-11-09T18:02:03+00:00"
     }
    ],
    "auto": {
@@ -12710,7 +12714,8 @@
     "status": "In force",
     "signals": [
      "confirmed",
-     "immediate"
+     "immediate",
+     "in_force"
     ],
     "whole_area": true,
     "in_force_from": null,
@@ -12751,8 +12756,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:46:52+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:46:58+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:02:04+00:00",
+     "score": 11
     },
     {
      "url": "https://www.sstaffs.gov.uk/planning/planning-policy-and-local-plans/restrictions-under-permitted-development-article-4",
@@ -12764,8 +12769,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:46:53+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:47:00+00:00",
-     "score": 3
+     "checked": "2026-11-09T18:02:05+00:00",
+     "score": 10
     }
    ],
    "auto": {
@@ -12804,32 +12809,32 @@
     {
      "url": "https://www.southtyneside.gov.uk/article/3654/Article-4-directions",
      "error": "HTTP 403",
-     "checked": "2026-11-09T09:47:00+00:00"
+     "checked": "2026-11-09T18:02:06+00:00"
     },
     {
      "url": "https://www.southtyneside.gov.uk/article4",
      "error": "HTTP 403",
-     "checked": "2026-11-09T09:47:02+00:00"
+     "checked": "2026-11-09T18:02:08+00:00"
     },
     {
      "url": "https://www.southtyneside.gov.uk/article/28839/Article-4-map",
      "error": "HTTP 403",
-     "checked": "2026-11-09T09:47:04+00:00"
+     "checked": "2026-11-09T18:02:10+00:00"
     },
     {
      "url": "https://www.southtyneside.gov.uk/article/1671/Article-4-restrictions",
      "error": "HTTP 403",
-     "checked": "2026-11-09T09:47:06+00:00"
+     "checked": "2026-11-09T18:02:12+00:00"
     },
     {
      "url": "https://www.southtyneside.gov.uk/article/28846/Article-4-restrictions",
      "error": "HTTP 403",
-     "checked": "2026-11-09T09:47:08+00:00"
+     "checked": "2026-11-09T18:02:14+00:00"
     },
     {
      "url": "https://www.southtyneside.gov.uk/article/28842/Article-4-page-snippet",
      "error": "HTTP 403",
-     "checked": "2026-11-09T09:47:10+00:00"
+     "checked": "2026-11-09T18:02:16+00:00"
     }
    ],
    "auto": {
@@ -12899,8 +12904,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:46:58+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:47:00+00:00",
-     "score": 1
+     "checked": "2026-11-09T18:02:04+00:00",
+     "score": 8
     },
     {
      "url": "https://www.southampton.gov.uk/planning-building-control/planning-building-control-online-documents/ethelburt-avenue-conservation-area-sealed-article-4-direction/",
@@ -12912,8 +12917,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:47:00+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:47:01+00:00",
-     "score": 1
+     "checked": "2026-11-09T18:02:06+00:00",
+     "score": 8
     },
     {
      "url": "https://www.southampton.gov.uk/planning-building-control/planning-building-control-online-documents/oakmount-triangle-conservation-area-sealed-article-4-direction/",
@@ -12925,8 +12930,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:47:02+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:47:03+00:00",
-     "score": 1
+     "checked": "2026-11-09T18:02:08+00:00",
+     "score": 8
     }
    ],
    "auto": {
@@ -12972,8 +12977,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:47:01+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:47:02+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:02:07+00:00",
+     "score": 11
     }
    ],
    "auto": {
@@ -13053,8 +13058,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:47:09+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:47:01+00:00",
-     "score": 3
+     "checked": "2026-11-09T18:02:07+00:00",
+     "score": 10
     },
     {
      "url": "https://www.southwark.gov.uk/planning-environment-and-building-control/planning/planning-policy-and-guidance/article-4/houses",
@@ -13066,8 +13071,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:47:19+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:47:11+00:00",
-     "score": 3
+     "checked": "2026-11-09T18:02:17+00:00",
+     "score": 10
     },
     {
      "url": "https://www.southwark.gov.uk/planning-environment-and-building-control/planning/planning-policy-and-guidance/article-4",
@@ -13079,8 +13084,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:47:11+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:47:03+00:00",
-     "score": 3
+     "checked": "2026-11-09T18:02:09+00:00",
+     "score": 10
     },
     {
      "url": "https://www.southwark.gov.uk/planning-environment-and-building-control/planning/planning-policy-and-guidance/article-4-0",
@@ -13092,8 +13097,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:47:13+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:47:05+00:00",
-     "score": 3
+     "checked": "2026-11-09T18:02:11+00:00",
+     "score": 10
     },
     {
      "url": "https://www.southwark.gov.uk/planning-environment-and-building-control/planning/planning-policy-and-guidance/article-4/old",
@@ -13105,8 +13110,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:47:15+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:47:07+00:00",
-     "score": 3
+     "checked": "2026-11-09T18:02:13+00:00",
+     "score": 10
     },
     {
      "url": "https://www.southwark.gov.uk/planning-environment-and-building-control/planning/planning-policy-and-guidance/article-4/great",
@@ -13118,8 +13123,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:47:17+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:47:10+00:00",
-     "score": 3
+     "checked": "2026-11-09T18:02:15+00:00",
+     "score": 10
     }
    ],
    "auto": {
@@ -13158,12 +13163,12 @@
     {
      "url": "http://default/page/1481/article-4-directions",
      "error": "ConnectionError",
-     "checked": "2026-11-09T09:47:09+00:00"
+     "checked": "2026-11-09T18:02:15+00:00"
     },
     {
      "url": "http://default/page/1307/article-4-direction-data-set",
      "error": "ConnectionError",
-     "checked": "2026-11-09T09:47:18+00:00"
+     "checked": "2026-11-09T18:02:24+00:00"
     }
    ],
    "auto": {
@@ -13362,7 +13367,6 @@
      "hmo": true,
      "signals": [
       "confirmed",
-      "immediate",
       "in_force",
       "non_immediate"
      ],
@@ -13373,20 +13377,20 @@
        "context": ", confirmed on 21 January 2026, replace the two Directions below which came into force on 16 December 2022. The third Article 4 Directio"
       },
       {
-       "date": "2016-09-19",
-       "context": "for changes of use from C3 (residential) to C4 (HMO). The Article 4 direction was made on 19 September 2016 and was confirmed on 24 May 2"
+       "date": "2022-12-16",
+       "context": ", confirmed on 21 January 2026, replace the two Directions below which came into force on 16 December 2022. The third Article 4 Directio"
       },
       {
-       "date": "2017-09-20",
-       "context": "19 September 2016 and was confirmed on 24 May 2017. The Direction will come into force on 20 September 2017. Confirmation of Direction -"
+       "date": "2022-12-16",
+       "context": ", confirmed on 21 January 2026, replace the two Directions below which came into force on 16 December 2022. The third Article 4 Directio"
       },
       {
-       "date": "2016-09-19",
-       "context": "for changes of use from C3 (residential) to C4 (HMO). The Article 4 direction was made on 19 September 2016 and was confirmed on 24 May 2"
+       "date": "2022-12-16",
+       "context": ", confirmed on 21 January 2026, replace the two Directions below which came into force on 16 December 2022. The third Article 4 Directio"
       },
       {
-       "date": "2017-09-20",
-       "context": "19 September 2016 and was confirmed on 24 May 2017. The Direction will come into force on 20 September 2017. Confirmation of Direction -"
+       "date": "2018-06-15",
+       "context": "e Direction for Class B1c (light industrial) to Class C3 (residential) came into force on 15 June 2018. Confirmation of Direction Cl"
       },
       {
        "date": "2016-09-19",
@@ -13395,8 +13399,8 @@
      ],
      "first_seen": "2026-11-06T18:47:26+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:47:03+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:02:07+00:00",
+     "score": 11
     }
    ],
    "auto": {
@@ -13404,7 +13408,6 @@
     "status": "In force",
     "signals": [
      "confirmed",
-     "immediate",
      "in_force",
      "non_immediate"
     ],
@@ -13425,7 +13428,7 @@
     "coverage_pct": 99.7,
     "in_force_from": "2017-09-20",
     "areas": "",
-    "direction_type": "Immediate",
+    "direction_type": "Non-immediate",
     "proposal_on_pages": false,
     "pages_changed": null
    }
@@ -13513,21 +13516,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:47:30+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:47:04+00:00",
-     "score": 4
-    },
-    {
-     "url": "https://www.stoke.gov.uk/homepage/143/conservation_areas_and_article_4_directions",
-     "title": "Conservation Areas and Article 4 Directions | Stoke-on-Trent",
-     "hash": "e4559499c12d6045",
-     "hmo": false,
-     "signals": [],
-     "whole_area": false,
-     "dates": [],
-     "first_seen": "2026-11-06T18:47:32+00:00",
-     "changed": null,
-     "checked": "2026-11-09T09:47:05+00:00",
-     "score": 1
+     "checked": "2026-11-09T18:02:08+00:00",
+     "score": 9
     },
     {
      "url": "https://www.stoke.gov.uk/info/20005/planning_and_building/578/article_4_directions_and_conservation_areas",
@@ -13539,8 +13529,21 @@
      "dates": [],
      "first_seen": "2026-11-06T18:47:34+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:47:07+00:00",
-     "score": 1
+     "checked": "2026-11-09T18:02:11+00:00",
+     "score": 8
+    },
+    {
+     "url": "https://www.stoke.gov.uk/homepage/143/conservation_areas_and_article_4_directions",
+     "title": "Conservation Areas and Article 4 Directions | Stoke-on-Trent",
+     "hash": "e4559499c12d6045",
+     "hmo": false,
+     "signals": [],
+     "whole_area": false,
+     "dates": [],
+     "first_seen": "2026-11-06T18:47:32+00:00",
+     "changed": null,
+     "checked": "2026-11-09T18:02:09+00:00",
+     "score": 6
     }
    ],
    "auto": {
@@ -13685,8 +13688,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:47:45+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:47:04+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:02:09+00:00",
+     "score": 11
     }
    ],
    "auto": {
@@ -13736,13 +13739,13 @@
      "dates": [
       {
        "date": "2024-11-26",
-       "context": "electronically for the purposes of meeting the Council's duties arising from repor ee on 26 November 2024. Article 4 Direction (2025) P"
+       "context": "ically for the purposes of meeting the Council's duties arising from reporting response n 26 November 2024. Article 4 Direction (2025) P"
       }
      ],
      "first_seen": "2026-11-06T18:47:47+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:47:05+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:02:09+00:00",
+     "score": 11
     }
    ],
    "auto": {
@@ -13825,8 +13828,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:47:51+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:47:05+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:02:10+00:00",
+     "score": 9
     },
     {
      "url": "https://www.swindon.gov.uk/downloads/download/1080/swindon_railway_village_article_4_direction",
@@ -13838,8 +13841,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:47:53+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:47:07+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:02:11+00:00",
+     "score": 9
     },
     {
      "url": "https://www.swindon.gov.uk/downloads/file/5247/bishopstone_article_4_direction",
@@ -13851,8 +13854,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:47:55+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:47:09+00:00",
-     "score": 1
+     "checked": "2026-11-09T18:02:13+00:00",
+     "score": 6
     },
     {
      "url": "https://www.swindon.gov.uk/downloads/download/1079/bishopstone_article_4_direction",
@@ -13864,8 +13867,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:47:57+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:47:11+00:00",
-     "score": 1
+     "checked": "2026-11-09T18:02:15+00:00",
+     "score": 6
     }
    ],
    "auto": {
@@ -13906,19 +13909,23 @@
      "title": "Article 4 directions - Tameside Metropolitan Borough Council",
      "hash": "b0c8a468bf6d97d2",
      "hmo": true,
-     "signals": [],
+     "signals": [
+      "in_force"
+     ],
      "whole_area": true,
      "dates": [],
      "first_seen": "2026-11-06T18:48:55+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:47:11+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:02:14+00:00",
+     "score": 11
     }
    ],
    "auto": {
     "hmo": true,
-    "status": "Pages found",
-    "signals": [],
+    "status": "In force",
+    "signals": [
+     "in_force"
+    ],
     "whole_area": true,
     "in_force_from": null,
     "last_changed": null
@@ -13930,7 +13937,7 @@
    },
    "manual": [],
    "summary": {
-    "status": "Pages found",
+    "status": "In force",
     "source": "website",
     "scope": "Whole area",
     "coverage_pct": null,
@@ -14103,7 +14110,7 @@
     {
      "url": "https://www.tendringdc.gov.uk/sub-content-pages/article-4-direction-relating-to-houses-in-multiple-occupation",
      "title": "Article 4 Direction relating to houses in multiple occupation",
-     "hash": "adf7ec72a2039b59",
+     "hash": "32b6cb90bc9c489e",
      "hmo": true,
      "signals": [
       "confirmed",
@@ -14120,26 +14127,18 @@
        "context": "ction came into force. We consulted on the Article 4 Direction from 20th December 2011 to 14th February 2012 and considered representation"
       },
       {
-       "date": "2011-12-08",
-       "context": "irection on 31st May 2013 and it came into force on that d HMO) by Article 4 Direction On 8th December 2011, we made a Direction under Ar"
-      },
-      {
        "date": "2011-12-20",
        "context": "the date when the Direction came into force. We consulted on the Article 4 Direction from 20th December 2011 to 14th February 2012 and con"
       },
       {
        "date": "2012-02-14",
        "context": "ction came into force. We consulted on the Article 4 Direction from 20th December 2011 to 14th February 2012 and considered representation"
-      },
-      {
-       "date": "2011-12-20",
-       "context": "the date when the Direction came into force. We consulted on the Article 4 Direction from 20th December 2011 to 14th February 2012 and con"
       }
      ],
      "first_seen": "2026-11-06T18:48:04+00:00",
-     "changed": null,
-     "checked": "2026-11-09T09:47:06+00:00",
-     "score": 10
+     "changed": "2026-11-09T18:02:09+00:00",
+     "checked": "2026-11-09T18:02:09+00:00",
+     "score": 12
     },
     {
      "url": "https://www.tendringdc.gov.uk/content/article-4-directions",
@@ -14149,14 +14148,16 @@
      "signals": [
       "confirmed",
       "immediate",
-      "in_force"
+      "in_force",
+      "non_immediate",
+      "proposed"
      ],
      "whole_area": false,
      "dates": [],
      "first_seen": "2026-11-06T18:48:06+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:47:07+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:02:11+00:00",
+     "score": 9
     }
    ],
    "auto": {
@@ -14165,11 +14166,13 @@
     "signals": [
      "confirmed",
      "immediate",
-     "in_force"
+     "in_force",
+     "non_immediate",
+     "proposed"
     ],
     "whole_area": false,
-    "in_force_from": "2011-12-08",
-    "last_changed": null
+    "in_force_from": "2011-12-20",
+    "last_changed": "2026-11-09T18:02:09+00:00"
    },
    "discovery": {
     "method": "sitemap",
@@ -14185,8 +14188,8 @@
     "in_force_from": "2021-12-24",
     "areas": "",
     "direction_type": "Immediate",
-    "proposal_on_pages": false,
-    "pages_changed": null
+    "proposal_on_pages": true,
+    "pages_changed": "2026-11-09T18:02:09+00:00"
    }
   },
   {
@@ -14239,8 +14242,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:48:07+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:47:08+00:00",
-     "score": 3
+     "checked": "2026-11-09T18:02:09+00:00",
+     "score": 10
     },
     {
      "url": "https://tewkesbury.gov.uk/services/planning/conservation/conservation-areas-and-article-4-directions/",
@@ -14252,8 +14255,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:48:09+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:47:10+00:00",
-     "score": 1
+     "checked": "2026-11-09T18:02:11+00:00",
+     "score": 8
     }
    ],
    "auto": {
@@ -14329,6 +14332,7 @@
      "hmo": true,
      "signals": [
       "in_force",
+      "non_immediate",
       "proposed"
      ],
      "whole_area": false,
@@ -14347,13 +14351,17 @@
       },
       {
        "date": "2024-03-29",
-       "context": "page . Related news Plannin y 2024. The modified Article 4 Direction came into effect on 29 March 2024. Attachments Article 4 Direct"
+       "context": "Secretary of State in January 2024. The modified Article 4 Direction came into effect on 29 March 2024. Attachments Article 4 Direct"
+      },
+      {
+       "date": "2024-03-29",
+       "context": "Secretary of State in January 2024. The modified Article 4 Direction came into effect on 29 March 2024. Attachments Article 4 Direct"
       }
      ],
      "first_seen": "2026-11-06T18:48:11+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:47:09+00:00",
-     "score": 3
+     "checked": "2026-11-09T18:02:11+00:00",
+     "score": 10
     }
    ],
    "auto": {
@@ -14361,6 +14369,7 @@
     "status": "In force",
     "signals": [
      "in_force",
+     "non_immediate",
      "proposed"
     ],
     "whole_area": false,
@@ -14380,7 +14389,7 @@
     "coverage_pct": null,
     "in_force_from": "2024-03-29",
     "areas": "",
-    "direction_type": "",
+    "direction_type": "Non-immediate",
     "proposal_on_pages": true,
     "pages_changed": null
    }
@@ -14556,6 +14565,18 @@
      "whole_area": false,
      "dates": [
       {
+       "date": "2023-06-14",
+       "context": "d by the Mayor in Cabinet on 1 August 2022 and will come into force on 18 August 2022. On 14 June 2023, the Secretary of State wrote"
+      },
+      {
+       "date": "2023-06-14",
+       "context": "d by the Mayor in Cabinet on 1 August 2022 and will come into force on 18 August 2022. On 14 June 2023, the Secretary of State wrote"
+      },
+      {
+       "date": "2021-01-01",
+       "context": "(C4). This was approved by the Mayor in Cabinet on 29 January 2020 and came into force on 1 January 2021. This direction cil. He dire"
+      },
+      {
        "date": "2021-01-01",
        "context": "(C4). This was approved by the Mayor in Cabinet on 29 January 2020 and came into force on 1 January 2021. This direction applies to th"
       },
@@ -14570,8 +14591,8 @@
      ],
      "first_seen": "2026-11-06T18:48:29+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:47:08+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:02:12+00:00",
+     "score": 11
     }
    ],
    "auto": {
@@ -14719,8 +14740,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:48:49+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:47:11+00:00",
-     "score": 1
+     "checked": "2026-11-09T18:02:13+00:00",
+     "score": 8
     }
    ],
    "auto": {
@@ -14770,10 +14791,6 @@
      "dates": [
       {
        "date": "2025-10-24",
-       "context": ". The Direction was confirmed and sealed on 9 May 2025 . The Direction came into force on 24 October 2025. It re ouncil made a non-imme"
-      },
-      {
-       "date": "2025-10-24",
        "context": ". The Direction was confirmed and sealed on 9 May 2025 . The Direction came into force on 24 October 2025. It removes permitted develop"
       },
       {
@@ -14783,8 +14800,8 @@
      ],
      "first_seen": "2026-11-06T18:48:38+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:47:09+00:00",
-     "score": 10
+     "checked": "2026-11-09T18:02:12+00:00",
+     "score": 14
     }
    ],
    "auto": {
@@ -14829,7 +14846,9 @@
      "title": "Houses in Multiple Occupation (HMO) consultation: Article 4 Direction | Walsall Council",
      "hash": "5f3f7ffa7580b332",
      "hmo": true,
-     "signals": [],
+     "signals": [
+      "in_force"
+     ],
      "whole_area": true,
      "dates": [
       {
@@ -14849,24 +14868,26 @@
        "context": "anning permission, alongside the necessary licencing regime . What the changes mean (from 1 October 2025) Anyone wishing to develop or"
       },
       {
-       "date": "2025-10-01",
-       "context": "Cabinet 2025. As a result, a borough-wide Article 4 Direction has been implemented (from 1 October 2025) in line with the cabinet dec"
+       "date": "2024-11-11",
+       "context": "4 Direction . Our consultation approach The consultation took place from 30 September to 11 November 2024. The representation made duri"
       },
       {
        "date": "2025-10-01",
-       "context": "anning permission, alongside the necessary licencing regime . What the changes mean (from 1 October 2025) Anyone wishing to develop or"
+       "context": "Cabinet 2025. As a result, a borough-wide Article 4 Direction has been implemented (from 1 October 2025) in line with the cabinet dec"
       }
      ],
      "first_seen": "2026-11-06T18:48:42+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:47:09+00:00",
-     "score": 9
+     "checked": "2026-11-09T18:02:12+00:00",
+     "score": 13
     }
    ],
    "auto": {
     "hmo": true,
     "status": "In force",
-    "signals": [],
+    "signals": [
+     "in_force"
+    ],
     "whole_area": true,
     "in_force_from": "2024-11-11",
     "last_changed": null
@@ -14926,14 +14947,15 @@
      "hash": "f3f7c403d52e7334",
      "hmo": true,
      "signals": [
-      "confirmed"
+      "confirmed",
+      "in_force"
      ],
      "whole_area": true,
      "dates": [],
      "first_seen": "2026-11-06T18:48:44+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:47:11+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:02:13+00:00",
+     "score": 11
     },
     {
      "url": "https://www.walthamforest.gov.uk/planning-and-building-control/planning-policy/local-plan-part-1-shaping-borough-2020-2035/article-4-directions",
@@ -14945,15 +14967,16 @@
      "dates": [],
      "first_seen": "2026-11-06T18:48:46+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:47:12+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:02:14+00:00",
+     "score": 11
     }
    ],
    "auto": {
     "hmo": true,
     "status": "In force",
     "signals": [
-     "confirmed"
+     "confirmed",
+     "in_force"
     ],
     "whole_area": true,
     "in_force_from": null,
@@ -15084,32 +15107,6 @@
    "publishes_a4_data": false,
    "pages": [
     {
-     "url": "https://www.watford.gov.uk/directory/5/article-4-directions-finder",
-     "title": "Article 4 directions finder – www.watford.gov.uk",
-     "hash": "ef664f53d93ead19",
-     "hmo": false,
-     "signals": [],
-     "whole_area": false,
-     "dates": [],
-     "first_seen": "2026-11-06T18:48:52+00:00",
-     "changed": null,
-     "checked": "2026-11-09T09:47:10+00:00",
-     "score": 4
-    },
-    {
-     "url": "https://www.watford.gov.uk/downloads/download/200/article-4-directions",
-     "title": "Article 4 Directions – www.watford.gov.uk",
-     "hash": "3c5d032ebeb14060",
-     "hmo": false,
-     "signals": [],
-     "whole_area": false,
-     "dates": [],
-     "first_seen": "2026-11-06T18:48:54+00:00",
-     "changed": null,
-     "checked": "2026-11-09T09:47:12+00:00",
-     "score": 4
-    },
-    {
      "url": "https://www.watford.gov.uk/planning-information-1/article-4-directions-watford",
      "title": "Article 4 directions in Watford – www.watford.gov.uk",
      "hash": "78ed8b2c49488045",
@@ -15119,8 +15116,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:48:56+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:47:14+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:02:16+00:00",
+     "score": 11
     },
     {
      "url": "https://www.watford.gov.uk/planning-information-1/article-4-directions-issued-designated-employment-areas-june-2023",
@@ -15132,8 +15129,34 @@
      "dates": [],
      "first_seen": "2026-11-06T18:49:02+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:47:20+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:02:22+00:00",
+     "score": 11
+    },
+    {
+     "url": "https://www.watford.gov.uk/directory/5/article-4-directions-finder",
+     "title": "Article 4 directions finder – www.watford.gov.uk",
+     "hash": "ef664f53d93ead19",
+     "hmo": false,
+     "signals": [],
+     "whole_area": false,
+     "dates": [],
+     "first_seen": "2026-11-06T18:48:52+00:00",
+     "changed": null,
+     "checked": "2026-11-09T18:02:13+00:00",
+     "score": 9
+    },
+    {
+     "url": "https://www.watford.gov.uk/downloads/download/200/article-4-directions",
+     "title": "Article 4 Directions – www.watford.gov.uk",
+     "hash": "3c5d032ebeb14060",
+     "hmo": false,
+     "signals": [],
+     "whole_area": false,
+     "dates": [],
+     "first_seen": "2026-11-06T18:48:54+00:00",
+     "changed": null,
+     "checked": "2026-11-09T18:02:14+00:00",
+     "score": 9
     }
    ],
    "auto": {
@@ -15179,8 +15202,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:48:56+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:47:12+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:02:15+00:00",
+     "score": 11
     }
    ],
    "auto": {
@@ -15353,19 +15376,23 @@
      "title": "Article 4 - HMOs and Chapel Lane - West Lancashire Borough Council",
      "hash": "72a96894b6067339",
      "hmo": true,
-     "signals": [],
+     "signals": [
+      "in_force"
+     ],
      "whole_area": false,
      "dates": [],
      "first_seen": "2026-11-06T18:49:11+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:47:11+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:02:15+00:00",
+     "score": 11
     }
    ],
    "auto": {
     "hmo": true,
-    "status": "Pages found",
-    "signals": [],
+    "status": "In force",
+    "signals": [
+     "in_force"
+    ],
     "whole_area": false,
     "in_force_from": null,
     "last_changed": null
@@ -15377,7 +15404,7 @@
    },
    "manual": [],
    "summary": {
-    "status": "Pages found",
+    "status": "In force",
     "source": "website",
     "scope": "Unclear",
     "coverage_pct": null,
@@ -15435,28 +15462,14 @@
      "hmo": true,
      "signals": [
       "confirmed",
-      "in_force",
-      "non_immediate"
+      "in_force"
      ],
      "whole_area": false,
-     "dates": [
-      {
-       "date": "2018-09-29",
-       "context": "ection was made on 29 June 2017 and confirmed on 20 February 2018. It came into effect on 29 September 2018. Far Cotton and Delapre Artic"
-      },
-      {
-       "date": "2018-09-29",
-       "context": "ection was made on 29 June 2017 and confirmed on 20 February 2018. It came into effect on 29 September 2018. Far Cotton and Delapre Artic"
-      },
-      {
-       "date": "2020-11-13",
-       "context": "Northampton not previously covered by such a direction. The Direction came into force on 13 November 2020. Article 4 Notice of Making P"
-      }
-     ],
+     "dates": [],
      "first_seen": "2026-11-06T18:49:11+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:47:16+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:02:17+00:00",
+     "score": 9
     },
     {
      "url": "https://www.westnorthants.gov.uk/designated-heritage-assets/article-4-directions",
@@ -15468,8 +15481,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:49:09+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:47:11+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:02:15+00:00",
+     "score": 9
     }
    ],
    "auto": {
@@ -15477,11 +15490,10 @@
     "status": "In force",
     "signals": [
      "confirmed",
-     "in_force",
-     "non_immediate"
+     "in_force"
     ],
     "whole_area": false,
-    "in_force_from": "2018-09-29",
+    "in_force_from": null,
     "last_changed": null
    },
    "discovery": {
@@ -15495,9 +15507,9 @@
     "source": "website",
     "scope": "Unclear",
     "coverage_pct": null,
-    "in_force_from": "2018-09-29",
+    "in_force_from": null,
     "areas": "",
-    "direction_type": "Non-immediate",
+    "direction_type": "",
     "proposal_on_pages": false,
     "pages_changed": null
    }
@@ -15552,8 +15564,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:49:15+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:47:12+00:00",
-     "score": 1
+     "checked": "2026-11-09T18:02:16+00:00",
+     "score": 8
     },
     {
      "url": "https://www.westsuffolk.gov.uk/planning/Conservation/proposed-clare-article-4-direction.cfm",
@@ -15565,8 +15577,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:49:17+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:47:14+00:00",
-     "score": 1
+     "checked": "2026-11-09T18:02:19+00:00",
+     "score": 8
     },
     {
      "url": "https://www.westsuffolk.gov.uk/planning/Conservation/bury-st-edmunds-article-4-directionsnew.cfm",
@@ -15578,8 +15590,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:49:19+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:47:16+00:00",
-     "score": 1
+     "checked": "2026-11-09T18:02:20+00:00",
+     "score": 8
     }
    ],
    "auto": {
@@ -15654,8 +15666,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:49:17+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:47:12+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:02:16+00:00",
+     "score": 11
     }
    ],
    "auto": {
@@ -15701,8 +15713,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:49:18+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:47:13+00:00",
-     "score": 1
+     "checked": "2026-11-09T18:02:17+00:00",
+     "score": 8
     },
     {
      "url": "https://www.westmorlandandfurness.gov.uk/planning-and-building-control/planning/conservation-area-planning-guidance/planning-guidance-alston-conservation-area-article-4-direction",
@@ -15714,8 +15726,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:49:20+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:47:15+00:00",
-     "score": 1
+     "checked": "2026-11-09T18:02:18+00:00",
+     "score": 8
     },
     {
      "url": "https://www.westmorlandandfurness.gov.uk/planning-and-building-control/planning/conservation-area-planning-guidance/planning-guidance-kendal-conservation-area-article-4-direction",
@@ -15727,8 +15739,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:49:22+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:47:17+00:00",
-     "score": 1
+     "checked": "2026-11-09T18:02:20+00:00",
+     "score": 8
     }
    ],
    "auto": {
@@ -15833,27 +15845,27 @@
     {
      "url": "http://www.winchester.gov.uk/planning/houses-in-multiple-occupation-and-the-stanmore-article-4-direction",
      "error": "HTTP 404",
-     "checked": "2026-11-09T09:47:13+00:00"
+     "checked": "2026-11-09T18:02:17+00:00"
     },
     {
      "url": "http://www.winchester.gov.uk/planning-policy/article-4-directions/houses-in-multiple-occupation-and-the-stanmore-article-4-direction",
      "error": "HTTP 404",
-     "checked": "2026-11-09T09:47:15+00:00"
+     "checked": "2026-11-09T18:02:18+00:00"
     },
     {
      "url": "http://www.winchester.gov.uk/planning-policy/article-4-directions",
      "error": "HTTP 404",
-     "checked": "2026-11-09T09:47:17+00:00"
+     "checked": "2026-11-09T18:02:20+00:00"
     },
     {
      "url": "http://www.winchester.gov.uk/planning-policy/article-4-directions/article-4-direction-winnall",
      "error": "HTTP 404",
-     "checked": "2026-11-09T09:47:19+00:00"
+     "checked": "2026-11-09T18:02:22+00:00"
     },
     {
      "url": "http://www.winchester.gov.uk/planning-policy/article-4-directions/article-4-direction-removing-permitted-development-rights-in-winchester-for-changes-of-use-from-offices-to-housing",
      "error": "HTTP 404",
-     "checked": "2026-11-09T09:47:21+00:00"
+     "checked": "2026-11-09T18:02:24+00:00"
     }
    ],
    "auto": {
@@ -15932,8 +15944,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:49:33+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:47:15+00:00",
-     "score": 1
+     "checked": "2026-11-09T18:02:19+00:00",
+     "score": 8
     }
    ],
    "auto": {
@@ -16041,29 +16053,27 @@
      "hash": "69f6f64cf5b23e94",
      "hmo": true,
      "signals": [
+      "confirmed",
       "in_force"
      ],
      "whole_area": false,
      "dates": [
       {
        "date": "2017-09-14",
-       "context": "2017 City of Wolverhampton Counc rmed this Direction and the Direction came into force on 14 September 2017 . The Direction applies to de"
-      },
-      {
-       "date": "2017-09-14",
-       "context": "ssion. A copy of the HMO Article 4 Directi Direction and the Direction came into force on 14 September 2017 . The Direction applies to de"
+       "context": "ty of Wolverhampton Council confirmed this Direction and the Direction came into force on 14 September 2017 . The Direction applies to de"
       }
      ],
      "first_seen": "2026-11-06T18:49:34+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:47:16+00:00",
-     "score": 10
+     "checked": "2026-11-09T18:02:18+00:00",
+     "score": 14
     }
    ],
    "auto": {
     "hmo": true,
     "status": "In force",
     "signals": [
+     "confirmed",
      "in_force"
     ],
     "whole_area": false,
@@ -16199,29 +16209,11 @@
      "title": "Article 4 Direction for HMOs – Wyre Council",
      "hash": "fda69d12ec9cd115",
      "hmo": true,
-     "signals": [],
+     "signals": [
+      "in_force"
+     ],
      "whole_area": false,
      "dates": [
-      {
-       "date": "2026-07-29",
-       "context": "rticle 4 Direction, and this 21-day consultation period ended on the 19 March 2026 . From 29 July 2026, any change of use from Class"
-      },
-      {
-       "date": "2026-07-29",
-       "context": "rticle 4 Direction, and this 21-day consultation period ended on the 19 March 2026 . From 29 July 2026, any change of use from Class"
-      },
-      {
-       "date": "2026-07-29",
-       "context": "rticle 4 Direction, and this 21-day consultation period ended on the 19 March 2026 . From 29 July 2026, any change of use from Class"
-      },
-      {
-       "date": "2026-07-29",
-       "context": "rticle 4 Direction, and this 21-day consultation period ended on the 19 March 2026 . From 29 July 2026, any change of use from Class"
-      },
-      {
-       "date": "2026-07-29",
-       "context": "rticle 4 Direction, and this 21-day consultation period ended on the 19 March 2026 . From 29 July 2026, any change of use from Class"
-      },
       {
        "date": "2026-07-29",
        "context": "rticle 4 Direction, and this 21-day consultation period ended on the 19 March 2026 . From 29 July 2026, any change of use from Class"
@@ -16229,8 +16221,8 @@
      ],
      "first_seen": "2026-11-06T18:49:35+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:47:16+00:00",
-     "score": 10
+     "checked": "2026-11-09T18:02:19+00:00",
+     "score": 14
     },
     {
      "url": "https://www.wyre.gov.uk/downloads/download/406/article-4-direction-for-hmos",
@@ -16242,14 +16234,16 @@
      "dates": [],
      "first_seen": "2026-11-06T18:49:37+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:47:18+00:00",
-     "score": 10
+     "checked": "2026-11-09T18:02:20+00:00",
+     "score": 12
     }
    ],
    "auto": {
     "hmo": true,
     "status": "In force",
-    "signals": [],
+    "signals": [
+     "in_force"
+    ],
     "whole_area": false,
     "in_force_from": "2026-07-29",
     "last_changed": null
@@ -16346,8 +16340,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:49:39+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:47:16+00:00",
-     "score": 10
+     "checked": "2026-11-09T18:02:19+00:00",
+     "score": 12
     },
     {
      "url": "https://www.york.gov.uk/private-landlords-tenants/article-4-direction-relation-houses-multiple-occupation-hmo",
@@ -16359,34 +16353,38 @@
      "dates": [],
      "first_seen": "2026-11-06T18:49:39+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:47:18+00:00",
-     "score": 10
-    },
-    {
-     "url": "https://www.york.gov.uk/Article4Direction",
-     "title": "Article 4 directions in York – City of York Council",
-     "hash": "873871e64a937f2a",
-     "hmo": true,
-     "signals": [],
-     "whole_area": false,
-     "dates": [],
-     "first_seen": "2026-11-06T18:49:41+00:00",
-     "changed": null,
-     "checked": "2026-11-09T09:47:20+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:02:21+00:00",
+     "score": 12
     },
     {
      "url": "https://www.york.gov.uk/planning-advice-guidance/article-4-directions-york",
      "title": "Article 4 directions in York – City of York Council",
      "hash": "873871e64a937f2a",
      "hmo": true,
-     "signals": [],
+     "signals": [
+      "in_force"
+     ],
      "whole_area": false,
      "dates": [],
      "first_seen": "2026-11-06T18:49:43+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:47:22+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:02:25+00:00",
+     "score": 11
+    },
+    {
+     "url": "https://www.york.gov.uk/Article4Direction",
+     "title": "Article 4 directions in York – City of York Council",
+     "hash": "873871e64a937f2a",
+     "hmo": true,
+     "signals": [
+      "in_force"
+     ],
+     "whole_area": false,
+     "dates": [],
+     "first_seen": "2026-11-06T18:49:41+00:00",
+     "changed": null,
+     "checked": "2026-11-09T18:02:23+00:00",
+     "score": 9
     },
     {
      "url": "https://www.york.gov.uk/planning-advice-guidance/article-4-direction-79-fulford-road",
@@ -16398,8 +16396,8 @@
      "dates": [],
      "first_seen": "2026-11-06T18:49:45+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:47:24+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:02:27+00:00",
+     "score": 11
     },
     {
      "url": "https://www.york.gov.uk/planning-advice-guidance/article-4-direction-plan-punch-bowl-public-house",
@@ -16411,14 +16409,16 @@
      "dates": [],
      "first_seen": "2026-11-06T18:49:47+00:00",
      "changed": null,
-     "checked": "2026-11-09T09:47:26+00:00",
-     "score": 4
+     "checked": "2026-11-09T18:02:29+00:00",
+     "score": 11
     }
    ],
    "auto": {
     "hmo": true,
-    "status": "Pages found",
-    "signals": [],
+    "status": "In force",
+    "signals": [
+     "in_force"
+    ],
     "whole_area": false,
     "in_force_from": null,
     "last_changed": null

@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T09:18:03+00:00",
+ "generated": "2026-11-09T17:44:10+00:00",
  "source": "Open Council Data UK (opencouncildata.co.uk), CC BY-SA 4.0",
  "count": 318,
  "councils": [
@@ -11571,7 +11571,7 @@
   {
    "ocd_id": 154,
    "name": "Warwick",
-   "control_label": "GRN/LAB min",
+   "control_label": "GRN min",
    "seats": {
     "Lab": 7,
     "Con": 5,
@@ -11582,7 +11582,7 @@
    },
    "vacant": 0,
    "total": 44,
-   "control_description": "GRN/LAB Minority Coalition",
+   "control_description": "GRN Minority",
    "majority_required": 23,
    "region": "West Midlands",
    "county": "Warwickshire County",
@@ -11593,22 +11593,22 @@
    "lgr_note": "New authority elections 2027. To be abolished 2028.",
    "ocd_url": "https://opencouncildata.co.uk/council.php?c=154&y=0",
    "control_parties": [
-    "Grn",
-    "Lab"
+    "Grn"
    ],
    "lead_party": "Grn",
-   "status": "Coalition (minority)",
+   "status": "Minority administration",
    "overall_control": "No overall control",
-   "control_seats": 21,
+   "control_seats": 14,
    "control_seats_approx": false,
-   "working_majority": -2,
+   "working_majority": -16,
    "largest_party": "Grn",
    "opposition": {
     "LD": 9,
     "Oth": 9,
+    "Lab": 7,
     "Con": 5
    },
-   "opposition_total": 23
+   "opposition_total": 30
   },
   {
    "ocd_id": 25,

@@ -1,5 +1,13 @@
 [
  {
+  "date": "2026-11-09T17:44:10+00:00",
+  "ocd_id": 154,
+  "gss": "E07000222",
+  "council": "Warwick",
+  "control_changed": true,
+  "summary": "Control: GRN/LAB min → GRN min"
+ },
+ {
   "date": "2026-11-07T14:16:33+00:00",
   "ocd_id": 116,
   "gss": "E07000064",
