@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T17:44:10+00:00",
+ "generated": "2026-11-10T15:43:32+00:00",
  "source": "Open Council Data UK (opencouncildata.co.uk), CC BY-SA 4.0",
  "count": 318,
  "councils": [
@@ -49,13 +49,13 @@
    "control_label": "LAB min",
    "seats": {
     "Lab": 19,
-    "Con": 7,
+    "Con": 6,
     "LD": 1,
     "Grn": 6,
     "Ref": 3,
     "Oth": 6
    },
-   "vacant": 0,
+   "vacant": 1,
    "total": 42,
    "control_description": "LAB Minority",
    "majority_required": 22,
@@ -75,16 +75,16 @@
    "overall_control": "No overall control",
    "control_seats": 19,
    "control_seats_approx": false,
-   "working_majority": -4,
+   "working_majority": -3,
    "largest_party": "Lab",
    "opposition": {
-    "Con": 7,
+    "Con": 6,
     "Grn": 6,
     "Oth": 6,
     "Ref": 3,
     "LD": 1
    },
-   "opposition_total": 23
+   "opposition_total": 22
   },
   {
    "ocd_id": 29,
@@ -8340,18 +8340,18 @@
   {
    "ocd_id": 203,
    "name": "Redditch",
-   "control_label": "CON/IND",
+   "control_label": "CON/IND min",
    "seats": {
     "Lab": 13,
-    "Con": 4,
+    "Con": 5,
     "LD": 0,
     "Grn": 0,
     "Ref": 7,
-    "Oth": 3
+    "Oth": 2
    },
    "vacant": 0,
    "total": 27,
-   "control_description": "CON/IND Majority Coalition",
+   "control_description": "CON/IND Minority Coalition",
    "majority_required": 14,
    "region": "West Midlands",
    "county": "Worcestershire County",
@@ -8907,14 +8907,14 @@
    "name": "Salford",
    "control_label": "LAB Mayor",
    "seats": {
-    "Lab": 34,
+    "Lab": 33,
     "Con": 6,
     "LD": 1,
     "Grn": 3,
     "Ref": 14,
     "Oth": 2
    },
-   "vacant": 0,
+   "vacant": 1,
    "total": 60,
    "control_description": "LAB Elected Mayor",
    "majority_required": 31,
@@ -8929,9 +8929,9 @@
    "lead_party": "Lab",
    "status": "Directly elected mayor",
    "overall_control": "Mayor (Labour), council majority",
-   "control_seats": 34,
+   "control_seats": 33,
    "control_seats_approx": false,
-   "working_majority": 8,
+   "working_majority": 7,
    "largest_party": "Lab",
    "opposition": {
     "Ref": 14,
@@ -10733,10 +10733,10 @@
    "seats": {
     "Lab": 0,
     "Con": 9,
-    "LD": 25,
+    "LD": 26,
     "Grn": 0,
     "Ref": 2,
-    "Oth": 11
+    "Oth": 10
    },
    "vacant": 0,
    "total": 47,
@@ -10756,16 +10756,16 @@
    "lead_party": "LD",
    "status": "Majority",
    "overall_control": "Liberal Democrat majority",
-   "control_seats": 25,
+   "control_seats": 26,
    "control_seats_approx": false,
-   "working_majority": 3,
+   "working_majority": 5,
    "largest_party": "LD",
    "opposition": {
-    "Oth": 11,
+    "Oth": 10,
     "Con": 9,
     "Ref": 2
    },
-   "opposition_total": 22
+   "opposition_total": 21
   },
   {
    "ocd_id": 358,
@@ -12615,11 +12615,11 @@
    "control_label": "GRN/LD/IND min",
    "seats": {
     "Lab": 2,
-    "Con": 13,
+    "Con": 14,
     "LD": 7,
     "Grn": 7,
     "Ref": 21,
-    "Oth": 7
+    "Oth": 6
    },
    "vacant": 0,
    "total": 57,
@@ -12640,16 +12640,16 @@
    "lead_party": "Grn",
    "status": "Coalition (minority)",
    "overall_control": "No overall control",
-   "control_seats": 21,
+   "control_seats": 20,
    "control_seats_approx": true,
-   "working_majority": -15,
+   "working_majority": -17,
    "largest_party": "Ref",
    "opposition": {
     "Ref": 21,
-    "Con": 13,
+    "Con": 14,
     "Lab": 2
    },
-   "opposition_total": 36
+   "opposition_total": 37
   },
   {
    "ocd_id": 225,

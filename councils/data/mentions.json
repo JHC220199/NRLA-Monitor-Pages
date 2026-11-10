@@ -1,7 +1,239 @@
 {
- "generated": "2026-11-09T17:57:06+00:00",
- "count": 116,
+ "generated": "2026-11-10T16:37:43+00:00",
+ "count": 125,
  "mentions": [
+  {
+   "id": "https://mycouncil.oxford.gov.uk|8388|Review of the Selective Licensing Scheme|93288",
+   "councils": [
+    {
+     "name": "Oxford",
+     "gss": "E07000178"
+    }
+   ],
+   "committee": "Cabinet",
+   "meeting_date": "2026-11-18",
+   "meeting_url": "https://mycouncil.oxford.gov.uk/ieListDocuments.aspx?MId=8388",
+   "item_number": "13.",
+   "item_title": "Review of the Selective Licensing Scheme",
+   "doc_title": "3 - Equality Impact Assessment (1)",
+   "doc_url": "https://mycouncil.oxford.gov.uk/mgConvert2PDF.aspx?ID=93288",
+   "source": "report",
+   "tier": "strong",
+   "hit_count": 4,
+   "terms": [
+    "selective licens"
+   ],
+   "stage": "Renewal / review",
+   "snippet": "Oxford City Council Equality Impact Assessment (EQIA) Form Summary Name of activity being assessed: Consultation of the renewal of Selective Licensing Scheme Implementation date of the activity under consideration: Consultation will run for 12 weeks from 19 November Directorate/Department(s): Planning and Regulation Service Area(s): Regulatory Services Is this a new or…",
+   "first_seen": "2026-11-10T16:02:16+00:00"
+  },
+  {
+   "id": "https://mycouncil.oxford.gov.uk|8388|Review of the Selective Licensing Scheme|93287",
+   "councils": [
+    {
+     "name": "Oxford",
+     "gss": "E07000178"
+    }
+   ],
+   "committee": "Cabinet",
+   "meeting_date": "2026-11-18",
+   "meeting_url": "https://mycouncil.oxford.gov.uk/ieListDocuments.aspx?MId=8388",
+   "item_number": "13.",
+   "item_title": "Review of the Selective Licensing Scheme",
+   "doc_title": "2 - Risk Register (1)",
+   "doc_url": "https://mycouncil.oxford.gov.uk/mgConvert2PDF.aspx?ID=93287",
+   "source": "report",
+   "tier": "strong",
+   "hit_count": 1,
+   "terms": [
+    "selective licens"
+   ],
+   "stage": "Renewal / review",
+   "snippet": "…elayed, and legal costs and reputational damage. Regulatory Services Manager 3 4 12 2 3 6 2 3 6 Ensure that the statutory requirements for proving the case for selective licensing are robust and are met, and that sufficient resources are provided to undertake a comprehensive consultation that reaches a wide audience. Consult for 12 weeks, above the 10 week minimum. 01/03/27 Statutory review of Yea…",
+   "first_seen": "2026-11-10T16:02:15+00:00"
+  },
+  {
+   "id": "https://mycouncil.oxford.gov.uk|8388|Review of the Selective Licensing Scheme|93286",
+   "councils": [
+    {
+     "name": "Oxford",
+     "gss": "E07000178"
+    }
+   ],
+   "committee": "Cabinet",
+   "meeting_date": "2026-11-18",
+   "meeting_url": "https://mycouncil.oxford.gov.uk/ieListDocuments.aspx?MId=8388",
+   "item_number": "13.",
+   "item_title": "Review of the Selective Licensing Scheme",
+   "doc_title": "1 - SL Review Report (1)",
+   "doc_url": "https://mycouncil.oxford.gov.uk/mgConvert2PDF.aspx?ID=93286",
+   "source": "report",
+   "tier": "strong",
+   "hit_count": 14,
+   "terms": [
+    "additional hmo licensing",
+    "selective licenc",
+    "selective licens"
+   ],
+   "stage": "Renewal / review",
+   "snippet": "Selective Licensing Review Report Executive Summary The scheme aims to improve housing conditions in the private rented sector across the city, giving tenants safer homes and landlords consistent standards with less risk of noncompliance. I…",
+   "first_seen": "2026-11-10T16:02:14+00:00"
+  },
+  {
+   "id": "https://mycouncil.oxford.gov.uk|8388|Review of the Selective Licensing Scheme|agenda",
+   "councils": [
+    {
+     "name": "Oxford",
+     "gss": "E07000178"
+    }
+   ],
+   "committee": "Cabinet",
+   "meeting_date": "2026-11-18",
+   "meeting_url": "https://mycouncil.oxford.gov.uk/ieListDocuments.aspx?MId=8388",
+   "item_number": "13.",
+   "item_title": "Review of the Selective Licensing Scheme",
+   "doc_title": null,
+   "doc_url": null,
+   "source": "agenda",
+   "tier": "strong",
+   "hit_count": 2,
+   "terms": [
+    "selective licens"
+   ],
+   "stage": "Consultation",
+   "snippet": "Review of the Selective Licensing Scheme | The Director of Planning and Regulation submitted a report seeking approval from Cabinet to conduct a statutory consultation to renew the Selective Licensing Scheme in 2027. Cabinet is recommended to: 1. Agree t…",
+   "first_seen": "2026-11-10T16:02:13+00:00"
+  },
+  {
+   "id": "https://mycouncil.oxford.gov.uk|8388|Review of the Selective Licensing Scheme|93285",
+   "councils": [
+    {
+     "name": "Oxford",
+     "gss": "E07000178"
+    }
+   ],
+   "committee": "Cabinet",
+   "meeting_date": "2026-11-18",
+   "meeting_url": "https://mycouncil.oxford.gov.uk/ieListDocuments.aspx?MId=8388",
+   "item_number": "13.",
+   "item_title": "Review of the Selective Licensing Scheme",
+   "doc_title": "0 - Cabinet Report_SL Permission to Consult_Nov26 (1) (1)",
+   "doc_url": "https://mycouncil.oxford.gov.uk/mgConvert2PDF.aspx?ID=93285",
+   "source": "report",
+   "tier": "strong",
+   "hit_count": 17,
+   "terms": [
+    "licensing designation",
+    "part 3 of the housing act 2004",
+    "selective licens"
+   ],
+   "stage": "Designation decision",
+   "snippet": "…tatement No 183 Agenda Item 13 Introduction and background 1. The Housing Act 2004 gives local authorities the power to designate all or part of their area for selective licensing, which requires landlords of privately rented homes to obtain a licence for each property. A designation can be made where the area meets one or more of the grounds in the Act, and it can last for up to 5 years. 2. Oxfor…",
+   "first_seen": "2026-11-10T16:02:13+00:00"
+  },
+  {
+   "id": "https://birmingham.cmis.uk.com/birmingham|15103|Register your Rental Property and Private Rented Sector Database|cmis:8c3333e88fa9e5ee",
+   "councils": [
+    {
+     "name": "Birmingham",
+     "gss": "E08000025"
+    }
+   ],
+   "committee": "Licensing and Public Protection Committee",
+   "meeting_date": "2026-11-18",
+   "meeting_url": "https://birmingham.cmis.uk.com/birmingham/Meetings/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/15103/Committee/5/SelectedTab/Documents/Default.aspx",
+   "item_number": "5",
+   "item_title": "Register your Rental Property and Private Rented Sector Database",
+   "doc_title": "Register Your Rental Property Service and Private Rented Sector Database",
+   "doc_url": "https://birmingham.cmis.uk.com/Birmingham/Document.ashx?czJKcaeAi5tUFL1DTL2UE4zNRBcoShgo=jAVYjh3ilFOBSKEoagmx8nJbKaTXqiXuY7uAX809MaExrPw670JvwA%3d%3d&rUzwRPf%2bZ3zd4E7Ikn8Lyw%3d%3d=pwRE6AGJFLDNlh225F5QMaQWCtPHwdhUfCZ%2fLUQzgA2uL5jNRG4jdQ%3d%3d&mCTIbCubSFfXsDGW9IXnlg%3d%3d=hFflUdN3100%3d&kCx1AnS9%2fpWZQ40DXFvdEw%3d%3d=hFflUdN3100%3d&uJovDxwdjMPoYv%2bAJvYtyA%3d%3d=ctNJFf55vVA%3d&FgPlIEJYlotS%2bYGoBi5olA%3d%3d=NHdURQburHA%3d&d9Qjj0ag1Pd993jsyOJqFvmyB7X0CSQK=ctNJFf55vVA%3d&WGewmoAfeNR9xqBux0r1Q8Za60lavYmz=ctNJFf55vVA%3d&WGewmoAfeNQ16B2MHuCpMRKZMwaG1PaO=ctNJFf55vVA%3d",
+   "source": "report",
+   "tier": "strong",
+   "hit_count": 10,
+   "terms": [
+    "additional licensing",
+    "selective licenc",
+    "selective licens"
+   ],
+   "stage": "Mention",
+   "snippet": "…-led enforcement and support the Council's wider housing priorities. 1.5 The new registration requirements are separate from existing Mandatory HMO Licensing, Additional Licensing and Selective Licensing schemes. Landlords must continue to comply with all applicable licensing requirements in addition to the new database registration obligations. 1.6 The reforms also introduce new civil penalty po…",
+   "first_seen": "2026-11-10T15:56:39+00:00"
+  },
+  {
+   "id": "https://democracy.lichfielddc.gov.uk|3358|Houses in Multiple Occupation (HMOs), Article 4 Directions and Additional Licens|22052",
+   "councils": [
+    {
+     "name": "Lichfield",
+     "gss": "E07000194"
+    }
+   ],
+   "committee": "Overview & Scrutiny Committee",
+   "meeting_date": "2026-11-17",
+   "meeting_url": "https://democracy.lichfielddc.gov.uk/ieListDocuments.aspx?MId=3358",
+   "item_number": "6.",
+   "item_title": "Houses in Multiple Occupation (HMOs), Article 4 Directions and Additional Licensing Schemes",
+   "doc_title": "OS HMO briefing FINAL",
+   "doc_url": "https://democracy.lichfielddc.gov.uk/mgConvert2PDF.aspx?ID=22052",
+   "source": "report",
+   "tier": "strong",
+   "hit_count": 9,
+   "terms": [
+    "additional licensing"
+   ],
+   "stage": "Early proposal",
+   "snippet": "…licensing, assessing housing hazards and taking appropriate enforcement action where statutory standards are not met. The Council may also consider introducing additional licensing for other HMOs w here appropriate. These licensing responsibilities are separate from the council’s role as Local Planning Authority. An HMO licence concerns whether a property is safe, appropriately managed and suitabl…",
+   "first_seen": "2026-11-10T16:01:01+00:00"
+  },
+  {
+   "id": "https://democracy.lichfielddc.gov.uk|3358|Houses in Multiple Occupation (HMOs), Article 4 Directions and Additional Licens|agenda",
+   "councils": [
+    {
+     "name": "Lichfield",
+     "gss": "E07000194"
+    }
+   ],
+   "committee": "Overview & Scrutiny Committee",
+   "meeting_date": "2026-11-17",
+   "meeting_url": "https://democracy.lichfielddc.gov.uk/ieListDocuments.aspx?MId=3358",
+   "item_number": "6.",
+   "item_title": "Houses in Multiple Occupation (HMOs), Article 4 Directions and Additional Licensing Schemes",
+   "doc_title": null,
+   "doc_url": null,
+   "source": "agenda",
+   "tier": "strong",
+   "hit_count": 1,
+   "terms": [
+    "additional licensing"
+   ],
+   "stage": "Mention",
+   "snippet": "Houses in Multiple Occupation (HMOs), Article 4 Directions and Additional Licensing Schemes | OS HMO briefing FINAL",
+   "first_seen": "2026-11-10T16:01:00+00:00"
+  },
+  {
+   "id": "https://democracy.chorley.gov.uk|11775|Planning Advice Notes (Children's Homes, HMOs, Affordable Housing, and Open Spac|202606",
+   "councils": [
+    {
+     "name": "Chorley",
+     "gss": "E07000118"
+    }
+   ],
+   "committee": "Council",
+   "meeting_date": "2026-11-17",
+   "meeting_url": "https://democracy.chorley.gov.uk/ieListDocuments.aspx?MId=11775",
+   "item_number": "8.",
+   "item_title": "Planning Advice Notes (Children's Homes, HMOs, Affordable Housing, and Open Space)",
+   "doc_title": "Appendix 1 - HMO PAN",
+   "doc_url": "https://democracy.chorley.gov.uk/mgConvert2PDF.aspx?ID=202606",
+   "source": "report",
+   "tier": "strong",
+   "hit_count": 2,
+   "terms": [
+    "additional licensing",
+    "selective licenc"
+   ],
+   "stage": "Mention",
+   "snippet": "…grants powers to local authorities, in certain closely prescribed circumstances, to license HMOs that are not covered by mandatory licensing. This is known as Additional Licensing. Furthermore, if HMOs are located within a specific area designated under the Housing Act 2004, a Selective Licence is required. 5 5. Article 4 direction 5.1. Chorley Council resolved on 23rd September 2025 to introduce…",
+   "first_seen": "2026-11-10T15:58:16+00:00"
+  },
   {
    "id": "https://democracy.lbhf.gov.uk|8053|Housing Strategy 2026-31|136777",
    "councils": [

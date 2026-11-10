@@ -1,5 +1,45 @@
 [
  {
+  "date": "2026-11-10T15:43:32+00:00",
+  "ocd_id": 27,
+  "gss": "E10000034",
+  "council": "Worcestershire",
+  "control_changed": false,
+  "summary": "Seats: Con 13→14, Oth 7→6"
+ },
+ {
+  "date": "2026-11-10T15:43:32+00:00",
+  "ocd_id": 145,
+  "gss": "E07000045",
+  "council": "Teignbridge",
+  "control_changed": false,
+  "summary": "Seats: LD 25→26, Oth 11→10"
+ },
+ {
+  "date": "2026-11-10T15:43:32+00:00",
+  "ocd_id": 279,
+  "gss": "E08000006",
+  "council": "Salford",
+  "control_changed": false,
+  "summary": "Seats: Lab 34→33, Vacant 0→1"
+ },
+ {
+  "date": "2026-11-10T15:43:32+00:00",
+  "ocd_id": 203,
+  "gss": "E07000236",
+  "council": "Redditch",
+  "control_changed": true,
+  "summary": "Control: CON/IND → CON/IND min; Seats: Con 4→5, Oth 3→2"
+ },
+ {
+  "date": "2026-11-10T15:43:32+00:00",
+  "ocd_id": 170,
+  "gss": "E07000032",
+  "council": "Amber Valley",
+  "control_changed": false,
+  "summary": "Seats: Con 7→6, Vacant 0→1"
+ },
+ {
   "date": "2026-11-09T17:44:10+00:00",
   "ocd_id": 154,
   "gss": "E07000222",
