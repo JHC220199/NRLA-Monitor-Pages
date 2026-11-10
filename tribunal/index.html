@@ -149,7 +149,7 @@ th[aria-sort] button { color: var(--ink); }
     <div>
       <div class="eyebrow">NRLA &middot; First-tier Tribunal (Property Chamber)</div>
       <h1>Rent Tribunal Tracker</h1>
-      <p>Decisions on rent increases proposed under assured tenancies in England since 1 May 2026, when the Renters&rsquo; Rights Act took effect. Filter by bedrooms and by whether bills are included to see how the Tribunal is treating properties like yours.</p>
+      <p>Decisions on rent increases proposed under assured tenancies in England, made under the rules introduced by the Renters&rsquo; Rights Act. Filter by bedrooms and by whether bills are included to see how the Tribunal is treating properties like yours.</p>
     </div>
     <div class="stamp"><strong id="stampCount">Loading decisions</strong><span id="stampDate">&nbsp;</span></div>
   </div>
@@ -175,7 +175,6 @@ th[aria-sort] button { color: var(--ink); }
     </div>
     <div class="frow">
       <div class="field"><label for="outcome">Outcome</label><select id="outcome"><option value="">All outcomes</option></select></div>
-      <div class="field"><label for="regime">Rules applied</label><select id="regime"><option value="">Either</option></select></div>
       <div class="field"><label for="landlord">Landlord</label><select id="landlord"><option value="">All landlords</option><option>Private or other</option><option>Social</option></select></div>
       <div class="field"><label for="from">Decided from</label><input type="date" id="from"></div>
       <div class="field"><label for="to">Decided to</label><input type="date" id="to"></div>
@@ -238,8 +237,8 @@ th[aria-sort] button { color: var(--ink); }
       <li><strong>Automated extraction.</strong> Rents, bedrooms, bills and outcomes are read from each decision by a rule-based parser and can be wrong. Rows marked &ldquo;check&rdquo; showed an inconsistency in the published decision. Always read the original decision before relying on a figure.</li>
       <li><strong>Monthly rents.</strong> Weekly, fortnightly and four-weekly rents are converted to a calendar month so cases can be compared. Hover over a rent to see the figure as stated.</li>
       <li><strong>Bills included.</strong> &ldquo;Yes&rdquo; means the decision records council tax, utilities, water or broadband as covered by the rent. &ldquo;No&rdquo; means it records the tenant as responsible. &ldquo;Not stated&rdquo; means the decision is silent.</li>
-      <li><strong>Rules applied.</strong> &ldquo;Renters&rsquo; Rights Act rules&rdquo; marks cases the Tribunal handled under the amended Housing Act 1988, where it cannot set a rent above the landlord&rsquo;s proposal. Many decisions since May still concern notices served under the earlier rules.</li>
-      <li><strong>Landlord.</strong> &ldquo;Social&rdquo; marks cases where the decision points to a housing association, council or charity. In those cases the Tribunal often sets a market rent well above the rent the landlord proposed.</li>
+      <li><strong>Which cases are included.</strong> Only cases the Tribunal decided under the Housing Act 1988 as amended by the Renters&rsquo; Rights Act, where it cannot set a rent above the landlord&rsquo;s proposal. Cases on notices served under the earlier rules are left out. A case is included where it carries one of the new case codes (MRA or MRB), cites the amended section 14, or concerns a notice served on or after 1 May 2026.</li>
+      <li><strong>Landlord.</strong> &ldquo;Social&rdquo; marks cases where the decision points to a housing association, council or charity.</li>
       <li><strong>Personal data.</strong> This tracker does not hold the names of tenants, landlords or their representatives.</li>
     </ul>
   </section>
@@ -317,7 +316,7 @@ th[aria-sort] button { color: var(--ink); }
   function renderBars() {
     var order = ["Proposed rent upheld", "Increase reduced", "No increase", "Set below current rent", "Set above proposed rent", "Rent determined", "No determination", "Rent not extracted"];
     var notes = { "Proposed rent upheld": "The landlord’s figure was confirmed", "Increase reduced": "Set between the current and proposed rent", "No increase": "Left at the current rent",
-      "Set below current rent": "Market rent found to be lower than the tenant already pays", "Set above proposed rent": "Market rent found to exceed the proposal (earlier rules, mostly social landlords)",
+      "Set below current rent": "Market rent found to be lower than the tenant already pays", "Set above proposed rent": "Rent set above the proposal, which the amended rules do not allow. Check the decision",
       "Rent determined": "Rent set, with no proposed figure to compare", "No determination": "Struck out, withdrawn, invalid notice or no jurisdiction", "Rent not extracted": "The parser could not read a figure" };
     var counts = {}; view.forEach(function (r) { var g = outcomeGroup(r); counts[g] = (counts[g] || 0) + 1; });
     var max = Math.max.apply(null, order.map(function (o) { return counts[o] || 0; }).concat([1]));
@@ -355,7 +354,7 @@ th[aria-sort] button { color: var(--ink); }
       var where = [r.local_authority, r.region].filter(Boolean).join(", ");
       var flow = r.determined_pcm == null && r.proposed_pcm == null && r.current_pcm == null ? "–" :
         '<span class="rent-flow"><span title="' + esc(stated(r, "current")) + '">' + gbp(r.current_pcm) + '</span><span class="arrow">&rarr;</span><span title="' + esc(stated(r, "proposed")) + '">' + gbp(r.proposed_pcm) + '</span><span class="arrow">&rarr;</span><b title="' + esc(stated(r, "determined")) + '">' + gbp(r.determined_pcm) + "</b></span>";
-      return "<tr><td>" + esc(fmtDate(r.decision_date)) + '</td><td><div class="addr">' + esc(r.address) + '</div><div class="meta">' + esc(where) + (where ? " &middot; " : "") + esc(r.case_ref || "") + "</div></td><td>" + esc(beds) + '<div class="meta">' + esc(r.property_type || "") + "</div></td><td>" + esc(r.bills_included) + (r.bills_detail ? '<div class="meta">' + esc(r.bills_detail) + "</div>" : "") + "</td><td>" + flow + flags + '</td><td class="num">' + pct(r.pct_proposed, true) + '</td><td class="num">' + pct(r.pct_set, true) + '</td><td><span class="pill ' + pillClass(r.outcome) + '">' + esc(r.outcome) + '</span><div class="meta">' + esc(r.regime === "Not identified" ? "" : r.regime) + '</div></td><td><a href="' + esc(r.url) + '" target="_blank" rel="noopener">GOV.UK</a>' + (r.pdf ? ' &middot; <a href="' + esc(r.pdf) + '" target="_blank" rel="noopener">PDF</a>' : "") + "</td></tr>";
+      return "<tr><td>" + esc(fmtDate(r.decision_date)) + '</td><td><div class="addr">' + esc(r.address) + '</div><div class="meta">' + esc(where) + (where ? " &middot; " : "") + esc(r.case_ref || "") + "</div></td><td>" + esc(beds) + '<div class="meta">' + esc(r.property_type || "") + "</div></td><td>" + esc(r.bills_included) + (r.bills_detail ? '<div class="meta">' + esc(r.bills_detail) + "</div>" : "") + "</td><td>" + flow + flags + '</td><td class="num">' + pct(r.pct_proposed, true) + '</td><td class="num">' + pct(r.pct_set, true) + '</td><td><span class="pill ' + pillClass(r.outcome) + '">' + esc(r.outcome) + '</span></td><td><a href="' + esc(r.url) + '" target="_blank" rel="noopener">GOV.UK</a>' + (r.pdf ? ' &middot; <a href="' + esc(r.pdf) + '" target="_blank" rel="noopener">PDF</a>' : "") + "</td></tr>";
     }).join("") || '<tr><td colspan="9" class="empty">No decisions match these filters. Try clearing one.</td></tr>';
     $("pageInfo").textContent = view.length ? "Showing " + ((st.page - 1) * PAGE + 1) + "–" + Math.min(st.page * PAGE, view.length) + " of " + view.length.toLocaleString("en-GB") : "";
     $("prev").disabled = st.page <= 1; $("next").disabled = st.page >= pages;
@@ -368,11 +367,11 @@ th[aria-sort] button { color: var(--ink); }
   function render() { view = all.filter(matches); renderKpis(); renderBars(); renderBeds(); renderTable(); }
 
   function bind() {
-    [["q", "input"], ["region", "change"], ["la", "change"], ["ptype", "change"], ["outcome", "change"], ["regime", "change"], ["landlord", "change"], ["from", "change"], ["to", "change"]].forEach(function (p) {
+    [["q", "input"], ["region", "change"], ["la", "change"], ["ptype", "change"], ["outcome", "change"], ["landlord", "change"], ["from", "change"], ["to", "change"]].forEach(function (p) {
       $(p[0]).addEventListener(p[1], function (e) { st[p[0]] = e.target.value.trim(); st.page = 1; render(); });
     });
     $("reset").addEventListener("click", function () {
-      ["q", "region", "la", "ptype", "outcome", "regime", "landlord", "from", "to"].forEach(function (id) { $(id).value = ""; st[id] = ""; });
+      ["q", "region", "la", "ptype", "outcome", "landlord", "from", "to"].forEach(function (id) { $(id).value = ""; st[id] = ""; });
       st.beds = {}; st.bills = {}; st.page = 1;
       Array.prototype.forEach.call(document.querySelectorAll(".chip"), function (c) { c.setAttribute("aria-pressed", "false"); });
       // chips keep a reference to the old stores, so rebuild them
@@ -397,7 +396,7 @@ th[aria-sort] button { color: var(--ink); }
   fetch("data/decisions.json", { cache: "no-store" }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }).then(function (d) {
     all = d.decisions || [];
     fillSelect("region", uniq("region")); fillSelect("la", uniq("local_authority")); fillSelect("ptype", uniq("property_type"));
-    fillSelect("outcome", uniq(null, outcomeGroup)); fillSelect("regime", uniq("regime").filter(function (v) { return v !== "Not identified"; }));
+    fillSelect("outcome", uniq(null, outcomeGroup));
     chips("bedChips", BANDS, BAND_LABEL, st.beds); chips("billChips", BILLS, null, st.bills);
     $("stampCount").textContent = all.length.toLocaleString("en-GB") + " decisions tracked";
     $("stampDate").textContent = "Updated " + new Date(d.generated).toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" });
