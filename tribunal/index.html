@@ -129,6 +129,18 @@ th[aria-sort] button { color: var(--ink); }
 .btn[disabled] { opacity: 0.45; cursor: default; }
 .reg-head { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: flex-start; justify-content: space-between; }
 .empty { padding: 28px 10px; text-align: center; color: var(--ink-2); }
+.more { font: inherit; font-size: 13px; font-weight: 600; color: var(--navy); background: transparent; border: 1px solid var(--line); border-radius: 4px; padding: 4px 9px; min-height: 30px; cursor: pointer; white-space: nowrap; }
+.more::after { content: " \25BE"; }
+.more[aria-expanded="true"]::after { content: " \25B4"; }
+.more:hover { border-color: var(--navy); }
+tr.detail td { background: var(--bg); padding: 14px 16px 18px; }
+tbody tr.detail:hover { background: var(--bg); }
+.detail-in { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); gap: 12px 32px; }
+.summary { margin: 0; max-width: 70ch; line-height: 1.6; }
+.facts { margin: 0; display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: 4px 14px; font-size: 13px; }
+.facts dt { color: var(--ink-2); }
+.facts dd { margin: 0; min-width: 0; }
+@media (max-width: 860px) { .detail-in { grid-template-columns: minmax(0, 1fr); } }
 
 .notes { font-size: 13.5px; color: var(--ink-2); }
 .notes h2 { color: var(--ink); margin-bottom: 8px; }
@@ -222,7 +234,7 @@ th[aria-sort] button { color: var(--ink); }
           <th class="num" data-k="pct_proposed"><button type="button">Rise sought</button></th>
           <th class="num" data-k="pct_set"><button type="button">Rise set</button></th>
           <th data-k="outcome"><button type="button">Outcome</button></th>
-          <th>Source</th>
+          <th>Details</th>
         </tr></thead>
         <tbody></tbody>
       </table>
@@ -235,6 +247,7 @@ th[aria-sort] button { color: var(--ink); }
     <ul>
       <li><strong>Source.</strong> Market rent decisions published by the First-tier Tribunal on <a href="https://www.gov.uk/residential-property-tribunal-decisions" target="_blank" rel="noopener">GOV.UK</a>, decided on or after 1 May 2026. Checked daily. Contains public sector information licensed under the <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank" rel="noopener">Open Government Licence v3.0</a>.</li>
       <li><strong>Automated extraction.</strong> Rents, bedrooms, bills and outcomes are read from each decision by a rule-based parser and can be wrong. Rows marked &ldquo;check&rdquo; showed an inconsistency in the published decision. Always read the original decision before relying on a figure.</li>
+      <li><strong>Case summaries.</strong> Select &ldquo;Summary&rdquo; on any row. Each summary is assembled from the figures and facts read from that decision, in fixed wording: the landlord&rsquo;s proposal, how the Tribunal handled the case, its view of the market rent and any deductions where the decision states them, and the result. It does not reproduce the Tribunal&rsquo;s reasoning, so read the decision for the full picture.</li>
       <li><strong>Monthly rents.</strong> Weekly, fortnightly and four-weekly rents are converted to a calendar month so cases can be compared. Hover over a rent to see the figure as stated.</li>
       <li><strong>Bills included.</strong> &ldquo;Yes&rdquo; means the decision records council tax, utilities, water or broadband as covered by the rent. &ldquo;No&rdquo; means it records the tenant as responsible. &ldquo;Not stated&rdquo; means the decision is silent.</li>
       <li><strong>Which cases are included.</strong> Only cases the Tribunal decided under the Housing Act 1988 as amended by the Renters&rsquo; Rights Act, where it cannot set a rent above the landlord&rsquo;s proposal. Cases on notices served under the earlier rules are left out. A case is included where it carries one of the new case codes (MRA or MRB), cites the amended section 14, or concerns a notice served on or after 1 May 2026.</li>
@@ -338,6 +351,24 @@ th[aria-sort] button { color: var(--ink); }
 
   function pillClass(o) { return o === "Proposed rent upheld" || o === "Set above proposed rent" ? "up" : (o === "Increase reduced" || o === "No increase" || o === "Set below current rent") ? "down" : ""; }
 
+  var openRows = {};
+  function rowKey(r) { return r.case_ref || r.url; }
+  function gbpExact(n) { return "\u00a3" + n.toLocaleString("en-GB", { maximumFractionDigits: 2 }); }
+  function moreBtn(r) { return '<button type="button" class="more" data-key="' + esc(rowKey(r)) + '" aria-expanded="' + (openRows[rowKey(r)] ? "true" : "false") + '">Summary</button>'; }
+  function detailRow(r) {
+    var per = { month: "pcm", week: "a week", fortnight: "a fortnight", "four-weekly": "every four weeks", year: "a year" }[r.rent_period || "month"] || "";
+    var facts = [];
+    if (r.notice_date) facts.push(["Notice served", fmtDate(r.notice_date)]);
+    if (r.effective_date) facts.push(["New rent from", fmtDate(r.effective_date)]);
+    if (r.market_rent != null) facts.push(["Tribunal\u2019s market rent", gbpExact(r.market_rent) + " " + per]);
+    facts.push(["Bills included", r.bills_included + (r.bills_detail ? " (" + r.bills_detail + ")" : "")]);
+    if (r.landlord_type) facts.push(["Landlord", r.landlord_type]);
+    if (r.case_ref) facts.push(["Case reference", r.case_ref]);
+    if ((r.flags || []).length) facts.push(["Check", r.flags.join(". ")]);
+    return '<tr class="detail"' + (openRows[rowKey(r)] ? "" : " hidden") + '><td colspan="9"><div class="detail-in"><p class="summary">' + esc(r.summary || "No summary is available for this case.") +
+      '</p><dl class="facts">' + facts.map(function (f) { return "<dt>" + esc(f[0]) + "</dt><dd>" + esc(f[1]) + "</dd>"; }).join("") + "</dl></div></td></tr>";
+  }
+
   function renderTable() {
     var k = st.sort, dir = st.dir;
     view.sort(function (a, b) {
@@ -354,7 +385,7 @@ th[aria-sort] button { color: var(--ink); }
       var where = [r.local_authority, r.region].filter(Boolean).join(", ");
       var flow = r.determined_pcm == null && r.proposed_pcm == null && r.current_pcm == null ? "–" :
         '<span class="rent-flow"><span title="' + esc(stated(r, "current")) + '">' + gbp(r.current_pcm) + '</span><span class="arrow">&rarr;</span><span title="' + esc(stated(r, "proposed")) + '">' + gbp(r.proposed_pcm) + '</span><span class="arrow">&rarr;</span><b title="' + esc(stated(r, "determined")) + '">' + gbp(r.determined_pcm) + "</b></span>";
-      return "<tr><td>" + esc(fmtDate(r.decision_date)) + '</td><td><div class="addr">' + esc(r.address) + '</div><div class="meta">' + esc(where) + (where ? " &middot; " : "") + esc(r.case_ref || "") + "</div></td><td>" + esc(beds) + '<div class="meta">' + esc(r.property_type || "") + "</div></td><td>" + esc(r.bills_included) + (r.bills_detail ? '<div class="meta">' + esc(r.bills_detail) + "</div>" : "") + "</td><td>" + flow + flags + '</td><td class="num">' + pct(r.pct_proposed, true) + '</td><td class="num">' + pct(r.pct_set, true) + '</td><td><span class="pill ' + pillClass(r.outcome) + '">' + esc(r.outcome) + '</span></td><td><a href="' + esc(r.url) + '" target="_blank" rel="noopener">GOV.UK</a>' + (r.pdf ? ' &middot; <a href="' + esc(r.pdf) + '" target="_blank" rel="noopener">PDF</a>' : "") + "</td></tr>";
+      return "<tr><td>" + esc(fmtDate(r.decision_date)) + '</td><td><div class="addr">' + esc(r.address) + '</div><div class="meta">' + esc(where) + (where ? " &middot; " : "") + esc(r.case_ref || "") + "</div></td><td>" + esc(beds) + '<div class="meta">' + esc(r.property_type || "") + "</div></td><td>" + esc(r.bills_included) + (r.bills_detail ? '<div class="meta">' + esc(r.bills_detail) + "</div>" : "") + "</td><td>" + flow + flags + '</td><td class="num">' + pct(r.pct_proposed, true) + '</td><td class="num">' + pct(r.pct_set, true) + '</td><td><span class="pill ' + pillClass(r.outcome) + '">' + esc(r.outcome) + '</span></td><td>' + moreBtn(r) + '<div class="meta"><a href="' + esc(r.url) + '" target="_blank" rel="noopener">GOV.UK</a>' + (r.pdf ? ' &middot; <a href="' + esc(r.pdf) + '" target="_blank" rel="noopener">PDF</a>' : "") + "</div></td></tr>" + detailRow(r);
     }).join("") || '<tr><td colspan="9" class="empty">No decisions match these filters. Try clearing one.</td></tr>';
     $("pageInfo").textContent = view.length ? "Showing " + ((st.page - 1) * PAGE + 1) + "–" + Math.min(st.page * PAGE, view.length) + " of " + view.length.toLocaleString("en-GB") : "";
     $("prev").disabled = st.page <= 1; $("next").disabled = st.page >= pages;
@@ -378,6 +409,15 @@ th[aria-sort] button { color: var(--ink); }
       $("bedChips").innerHTML = ""; $("billChips").innerHTML = ""; chips("bedChips", BANDS, BAND_LABEL, st.beds); chips("billChips", BILLS, null, st.bills);
       render();
     });
+    $("reg").querySelector("tbody").addEventListener("click", function (e) {
+      var b = e.target.closest ? e.target.closest("button.more") : null;
+      if (!b) return;
+      var tr = b.closest("tr").nextElementSibling;
+      if (!tr || !tr.classList.contains("detail")) return;
+      tr.hidden = !tr.hidden;
+      b.setAttribute("aria-expanded", tr.hidden ? "false" : "true");
+      openRows[b.dataset.key] = !tr.hidden;
+    });
     $("prev").addEventListener("click", function () { if (st.page > 1) { st.page--; renderTable(); } });
     $("next").addEventListener("click", function () { st.page++; renderTable(); });
     Array.prototype.forEach.call(document.querySelectorAll("#reg th[data-k] button"), function (b) {
@@ -385,7 +425,7 @@ th[aria-sort] button { color: var(--ink); }
     });
     var csv = $("csv");
     if (csv) csv.addEventListener("click", function () {
-      var cols = ["case_ref", "address", "postcode", "local_authority", "region", "decision_date", "regime", "landlord_type", "property_type", "bedroom_band", "bills_included", "bills_detail", "rent_period", "current_rent", "proposed_rent", "determined_rent", "current_pcm", "proposed_pcm", "determined_pcm", "pct_proposed", "pct_set", "share_awarded", "outcome", "url"];
+      var cols = ["case_ref", "address", "postcode", "local_authority", "region", "decision_date", "regime", "landlord_type", "property_type", "bedroom_band", "bills_included", "bills_detail", "rent_period", "current_rent", "proposed_rent", "determined_rent", "current_pcm", "proposed_pcm", "determined_pcm", "pct_proposed", "pct_set", "share_awarded", "outcome", "market_rent", "summary", "url"];
       var q = function (v) { v = v == null ? "" : String(v); return /[",\n]/.test(v) ? '"' + v.replace(/"/g, '""') + '"' : v; };
       var text = "﻿" + cols.join(",") + "\n" + view.map(function (r) { return cols.map(function (c) { return q(r[c]); }).join(","); }).join("\n");
       var a = document.createElement("a"); a.href = URL.createObjectURL(new Blob([text], { type: "text/csv" })); a.download = "nrla-rent-tribunal-decisions.csv";
