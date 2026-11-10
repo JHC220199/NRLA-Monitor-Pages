@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>NRLA Rent Tribunal Tracker</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap">
+<style>
+/* Layout: navy masthead, then a working surface read top to bottom - filters, headline figures,
+   two summaries side by side (outcomes, bedrooms), then the full register of decisions. */
+:root {
+  --bg: #F6F7F8;
+  --surface: #FCFCFC;
+  --ink: #0F2636;
+  --ink-2: #4A6072;
+  --line: #DCE3E9;
+  --navy: #113B54;
+  --accent: #E96C19;
+  --accent-soft: #FCEBDD;
+  --navy-soft: #E3ECF2;
+  --grey-soft: #E9EDF0;
+  --mast-bg: #113B54;
+  --mast-ink: #FCFCFC;
+  --mast-ink-2: #C5D5E0;
+  --bar: #113B54;
+  --track: #E6EBEF;
+  --focus: #E96C19;
+  --display: "Space Grotesk", "Segoe UI", system-ui, sans-serif;
+  --body: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0A1A26; --surface: #0F2636; --ink: #EEF2F5; --ink-2: #A3B6C4; --line: #24445B;
+    --navy: #8FC0E0; --accent: #F28B47; --accent-soft: #4A2C16; --navy-soft: #1B3B52; --grey-soft: #1C3345;
+    --mast-bg: #0F2636; --mast-ink: #FCFCFC; --mast-ink-2: #A3B6C4; --bar: #7FB4D6; --track: #1B3447; --focus: #F28B47;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0A1A26; --surface: #0F2636; --ink: #EEF2F5; --ink-2: #A3B6C4; --line: #24445B;
+  --navy: #8FC0E0; --accent: #F28B47; --accent-soft: #4A2C16; --navy-soft: #1B3B52; --grey-soft: #1C3345;
+  --mast-bg: #0F2636; --mast-ink: #FCFCFC; --mast-ink-2: #A3B6C4; --bar: #7FB4D6; --track: #1B3447; --focus: #F28B47;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--body); font-size: 15px; line-height: 1.5; }
+.wrap { max-width: 1240px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+h1, h2, h3 { font-family: var(--display); text-wrap: balance; margin: 0; letter-spacing: -0.01em; }
+a { color: var(--navy); }
+:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+
+.mast { background: var(--mast-bg); color: var(--mast-ink); border-bottom: 4px solid var(--accent); }
+.mast .wrap { padding-block: 26px 22px; display: flex; flex-wrap: wrap; gap: 14px 32px; align-items: flex-end; justify-content: space-between; }
+.eyebrow { font-family: var(--display); font-size: 12px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--mast-ink-2); }
+.mast h1 { font-size: clamp(26px, 4vw, 36px); font-weight: 700; line-height: 1.1; margin-top: 4px; }
+.mast p { margin: 8px 0 0; color: var(--mast-ink-2); max-width: 62ch; }
+.stamp { font-size: 13px; color: var(--mast-ink-2); text-align: right; min-width: 0; }
+.stamp strong { display: block; color: var(--mast-ink); font-family: var(--display); font-size: 15px; font-weight: 600; }
+
+main.wrap { padding-block: 22px 40px; display: flex; flex-direction: column; gap: 22px; }
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 18px; min-width: 0; }
+.panel h2 { font-size: 17px; font-weight: 600; }
+.panel .sub { color: var(--ink-2); font-size: 13px; margin: 2px 0 14px; }
+
+/* Filters */
+.filters { display: flex; flex-direction: column; gap: 16px; }
+.frow { display: flex; flex-wrap: wrap; gap: 14px 18px; align-items: flex-end; }
+.field { display: flex; flex-direction: column; gap: 5px; min-width: 0; }
+.field > label, .field > .lab { font-size: 11.5px; font-weight: 600; letter-spacing: 0.07em; text-transform: uppercase; color: var(--ink-2); }
+.field.grow { flex: 1 1 240px; }
+input[type="search"], input[type="date"], select {
+  font: inherit; color: var(--ink); background: var(--bg); border: 1px solid var(--line); border-radius: 4px;
+  padding: 8px 10px; min-height: 38px; max-width: 100%; width: 100%;
+}
+select { min-width: 150px; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip {
+  font: inherit; font-size: 14px; font-weight: 500; color: var(--ink); background: var(--bg); border: 1px solid var(--line);
+  border-radius: 999px; padding: 6px 13px; min-height: 36px; cursor: pointer;
+}
+.chip:hover { border-color: var(--navy); }
+.chip[aria-pressed="true"] { background: var(--navy); border-color: var(--navy); color: var(--surface); }
+.btn { font: inherit; font-weight: 600; font-size: 14px; border-radius: 4px; padding: 8px 14px; min-height: 38px; cursor: pointer;
+  background: transparent; color: var(--navy); border: 1px solid var(--navy); text-decoration: none; display: inline-flex; align-items: center; }
+.btn:hover { background: var(--navy-soft); }
+.headline-filters { display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr); gap: 16px 28px; padding-bottom: 16px; border-bottom: 1px solid var(--line); }
+
+/* Headline figures */
+.kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 12px; }
+.kpi { background: var(--surface); border: 1px solid var(--line); border-top: 3px solid var(--navy); border-radius: 6px; padding: 14px 16px; min-width: 0; }
+.kpi .v { font-family: var(--display); font-size: 30px; font-weight: 700; line-height: 1.1; font-variant-numeric: tabular-nums; }
+.kpi .l { font-size: 13px; font-weight: 600; margin-top: 4px; }
+.kpi .n { font-size: 12.5px; color: var(--ink-2); margin-top: 2px; }
+.basis { font-size: 13px; color: var(--ink-2); margin: -10px 0 0; }
+
+.two { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.25fr); gap: 22px; }
+
+/* Outcome bars: one hue, magnitude only */
+.bars { display: flex; flex-direction: column; gap: 10px; }
+.bar-row { display: grid; grid-template-columns: minmax(0, 190px) minmax(0, 1fr) 92px; gap: 10px; align-items: center; font-size: 14px; }
+.bar-row .name { min-width: 0; }
+.bar-track { background: var(--track); border-radius: 4px; height: 12px; position: relative; }
+.bar-fill { background: var(--bar); border-radius: 0 4px 4px 0; height: 12px; min-width: 2px; }
+.bar-row .val { text-align: right; font-variant-numeric: tabular-nums; color: var(--ink-2); white-space: nowrap; }
+.bar-row .val b { color: var(--ink); font-weight: 600; }
+
+/* Tables */
+.scroll { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font-size: 14px; }
+th, td { padding: 9px 10px; text-align: left; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font-size: 11.5px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-2); white-space: nowrap; background: var(--surface); }
+td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+tbody tr:hover { background: var(--bg); }
+th button { font: inherit; letter-spacing: inherit; text-transform: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: pointer; }
+th button:hover { color: var(--ink); }
+th[aria-sort] button { color: var(--ink); }
+.addr { font-weight: 500; }
+.meta { color: var(--ink-2); font-size: 12.5px; }
+.rent-flow { white-space: nowrap; font-variant-numeric: tabular-nums; }
+.rent-flow .arrow { color: var(--ink-2); padding: 0 3px; }
+.rent-flow b { font-weight: 600; }
+.pill { display: inline-flex; align-items: center; gap: 6px; font-size: 12.5px; font-weight: 500; padding: 3px 9px; border-radius: 12px; line-height: 1.35; background: var(--grey-soft); color: var(--ink); }
+.pill::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--ink-2); flex: none; }
+.pill.up { background: var(--navy-soft); } .pill.up::before { background: var(--navy); }
+.pill.down { background: var(--accent-soft); } .pill.down::before { background: var(--accent); }
+.flag { display: inline-block; font-size: 11.5px; font-weight: 600; color: var(--ink); border: 1px solid var(--accent); border-radius: 3px; padding: 0 5px; margin-left: 6px; cursor: help; }
+.pager { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: space-between; margin-top: 14px; font-size: 14px; color: var(--ink-2); }
+.pager .nav { display: flex; gap: 8px; align-items: center; }
+.btn[disabled] { opacity: 0.45; cursor: default; }
+.reg-head { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: flex-start; justify-content: space-between; }
+.empty { padding: 28px 10px; text-align: center; color: var(--ink-2); }
+
+.notes { font-size: 13.5px; color: var(--ink-2); }
+.notes h2 { color: var(--ink); margin-bottom: 8px; }
+.notes ul { margin: 0; padding-left: 18px; display: flex; flex-direction: column; gap: 6px; max-width: 95ch; }
+.notes strong { color: var(--ink); font-weight: 600; }
+
+@media (max-width: 860px) {
+  .two, .headline-filters { grid-template-columns: minmax(0, 1fr); }
+  .stamp { text-align: left; }
+  .bar-row { grid-template-columns: minmax(0, 130px) minmax(0, 1fr) 84px; font-size: 13px; }
+}
+@media (prefers-reduced-motion: no-preference) { .bar-fill { transition: width 0.25s ease; } }
+</style>
+</head>
+<body>
+<header class="mast">
+  <div class="wrap">
+    <div>
+      <div class="eyebrow">NRLA &middot; First-tier Tribunal (Property Chamber)</div>
+      <h1>Rent Tribunal Tracker</h1>
+      <p>Decisions on rent increases proposed under assured tenancies in England since 1 May 2026, when the Renters&rsquo; Rights Act took effect. Filter by bedrooms and by whether bills are included to see how the Tribunal is treating properties like yours.</p>
+    </div>
+    <div class="stamp"><strong id="stampCount">Loading decisions</strong><span id="stampDate">&nbsp;</span></div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="panel filters" aria-label="Filters">
+    <div class="headline-filters">
+      <div class="field">
+        <span class="lab" id="bedsLab">Bedrooms</span>
+        <div class="chips" id="bedChips" role="group" aria-labelledby="bedsLab"></div>
+      </div>
+      <div class="field">
+        <span class="lab" id="billsLab">Bills included in the rent</span>
+        <div class="chips" id="billChips" role="group" aria-labelledby="billsLab"></div>
+      </div>
+    </div>
+    <div class="frow">
+      <div class="field grow"><label for="q">Search address, postcode, council or case reference</label><input type="search" id="q" placeholder="e.g. M16, Kirklees, LON/00AY"></div>
+      <div class="field"><label for="region">Region</label><select id="region"><option value="">All regions</option></select></div>
+      <div class="field"><label for="la">Local authority</label><select id="la"><option value="">All councils</option></select></div>
+      <div class="field"><label for="ptype">Property type</label><select id="ptype"><option value="">All types</option></select></div>
+    </div>
+    <div class="frow">
+      <div class="field"><label for="outcome">Outcome</label><select id="outcome"><option value="">All outcomes</option></select></div>
+      <div class="field"><label for="regime">Rules applied</label><select id="regime"><option value="">Either</option></select></div>
+      <div class="field"><label for="landlord">Landlord</label><select id="landlord"><option value="">All landlords</option><option>Private or other</option><option>Social</option></select></div>
+      <div class="field"><label for="from">Decided from</label><input type="date" id="from"></div>
+      <div class="field"><label for="to">Decided to</label><input type="date" id="to"></div>
+      <button class="btn" id="reset" type="button">Clear filters</button>
+    </div>
+  </section>
+
+  <section class="kpis" id="kpis" aria-label="Headline figures"></section>
+  <p class="basis" id="basis"></p>
+
+  <div class="two">
+    <section class="panel">
+      <h2>How the Tribunal ruled</h2>
+      <p class="sub" id="outSub">Share of decisions matching your filters.</p>
+      <div class="bars" id="bars"></div>
+    </section>
+    <section class="panel">
+      <h2>By number of bedrooms</h2>
+      <p class="sub">Medians, shown as monthly rent. Cases with a current, proposed and determined rent.</p>
+      <div class="scroll">
+        <table id="bedTable">
+          <thead><tr><th>Bedrooms</th><th class="num">Cases</th><th class="num">Current</th><th class="num">Proposed</th><th class="num">Determined</th><th class="num">Rise sought</th><th class="num">Rise set</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+  </div>
+
+  <section class="panel">
+    <div class="reg-head">
+      <div>
+        <h2>Decisions</h2>
+        <p class="sub" id="regSub">&nbsp;</p>
+      </div>
+      <button class="btn" id="csv" type="button">Download these rows (CSV)</button>
+    </div>
+    <div class="scroll">
+      <table id="reg">
+        <thead><tr>
+          <th data-k="decision_date"><button type="button">Decided</button></th>
+          <th data-k="address"><button type="button">Property</button></th>
+          <th data-k="bedrooms"><button type="button">Beds</button></th>
+          <th data-k="bills_included"><button type="button">Bills</button></th>
+          <th data-k="determined_pcm"><button type="button">Current &rarr; proposed &rarr; determined (pcm)</button></th>
+          <th class="num" data-k="pct_proposed"><button type="button">Rise sought</button></th>
+          <th class="num" data-k="pct_set"><button type="button">Rise set</button></th>
+          <th data-k="outcome"><button type="button">Outcome</button></th>
+          <th>Source</th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <div class="pager"><span id="pageInfo"></span><span class="nav"><button class="btn" id="prev" type="button">Previous</button><button class="btn" id="next" type="button">Next</button></span></div>
+  </section>
+
+  <section class="panel notes">
+    <h2>About this data</h2>
+    <ul>
+      <li><strong>Source.</strong> Market rent decisions published by the First-tier Tribunal on <a href="https://www.gov.uk/residential-property-tribunal-decisions" target="_blank" rel="noopener">GOV.UK</a>, decided on or after 1 May 2026. Checked daily. Contains public sector information licensed under the <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank" rel="noopener">Open Government Licence v3.0</a>.</li>
+      <li><strong>Automated extraction.</strong> Rents, bedrooms, bills and outcomes are read from each decision by a rule-based parser and can be wrong. Rows marked &ldquo;check&rdquo; showed an inconsistency in the published decision. Always read the original decision before relying on a figure.</li>
+      <li><strong>Monthly rents.</strong> Weekly, fortnightly and four-weekly rents are converted to a calendar month so cases can be compared. Hover over a rent to see the figure as stated.</li>
+      <li><strong>Bills included.</strong> &ldquo;Yes&rdquo; means the decision records council tax, utilities, water or broadband as covered by the rent. &ldquo;No&rdquo; means it records the tenant as responsible. &ldquo;Not stated&rdquo; means the decision is silent.</li>
+      <li><strong>Rules applied.</strong> &ldquo;Renters&rsquo; Rights Act rules&rdquo; marks cases the Tribunal handled under the amended Housing Act 1988, where it cannot set a rent above the landlord&rsquo;s proposal. Many decisions since May still concern notices served under the earlier rules.</li>
+      <li><strong>Landlord.</strong> &ldquo;Social&rdquo; marks cases where the decision points to a housing association, council or charity. In those cases the Tribunal often sets a market rent well above the rent the landlord proposed.</li>
+      <li><strong>Personal data.</strong> This tracker does not hold the names of tenants, landlords or their representatives.</li>
+    </ul>
+  </section>
+</main>
+
+<script>
+(function () {
+  "use strict";
+  var BANDS = ["Room in shared house", "Studio", "1", "2", "3", "4", "5+", "Not stated"];
+  var BAND_LABEL = { "Room in shared house": "Room", "Studio": "Studio", "1": "1", "2": "2", "3": "3", "4": "4", "5+": "5+", "Not stated": "Not stated" };
+  var BILLS = ["Yes", "No", "Not stated"];
+  var PAGE = 25;
+  var all = [], view = [];
+  var st = { q: "", region: "", la: "", beds: {}, bills: {}, ptype: "", outcome: "", regime: "", landlord: "", from: "", to: "", sort: "decision_date", dir: -1, page: 1 };
+  var $ = function (id) { return document.getElementById(id); };
+
+  function esc(s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); }
+  function gbp(n) { return n == null ? "–" : "£" + Math.round(n).toLocaleString("en-GB"); }
+  function pct(n, signed) { if (n == null) return "–"; var s = (Math.round(n * 10) / 10).toFixed(1) + "%"; return signed && n > 0 ? "+" + s : s; }
+  function median(xs) { xs = xs.filter(function (x) { return x != null && isFinite(x); }).sort(function (a, b) { return a - b; }); if (!xs.length) return null; var m = Math.floor(xs.length / 2); return xs.length % 2 ? xs[m] : (xs[m - 1] + xs[m]) / 2; }
+  function fmtDate(iso) { if (!iso) return "–"; var d = new Date(iso + "T00:00:00"); return d.toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" }); }
+  function outcomeGroup(r) { var o = r.outcome || ""; return o.indexOf("No determination") === 0 ? "No determination" : o; }
+  function stated(r, k) { var a = r[k + "_rent"]; if (a == null) return ""; return "£" + a.toLocaleString("en-GB", { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + " per " + (r.rent_period || "month"); }
+
+  function fillSelect(id, values) { var el = $(id); values.forEach(function (v) { var o = document.createElement("option"); o.value = v; o.textContent = v; el.appendChild(o); }); }
+  function uniq(key, fn) { var seen = {}; all.forEach(function (r) { var v = fn ? fn(r) : r[key]; if (v) seen[v] = 1; }); return Object.keys(seen).sort(); }
+
+  function chips(id, values, labels, store) {
+    var box = $(id);
+    values.forEach(function (v) {
+      var b = document.createElement("button");
+      b.type = "button"; b.className = "chip"; b.textContent = labels ? labels[v] : v; b.setAttribute("aria-pressed", "false"); b.dataset.v = v;
+      b.addEventListener("click", function () {
+        if (store[v]) delete store[v]; else store[v] = 1;
+        b.setAttribute("aria-pressed", store[v] ? "true" : "false"); st.page = 1; render();
+      });
+      box.appendChild(b);
+    });
+  }
+
+  function matches(r) {
+    if (Object.keys(st.beds).length && !st.beds[r.bedroom_band]) return false;
+    if (Object.keys(st.bills).length && !st.bills[r.bills_included]) return false;
+    if (st.region && r.region !== st.region) return false;
+    if (st.la && r.local_authority !== st.la) return false;
+    if (st.ptype && r.property_type !== st.ptype) return false;
+    if (st.outcome && outcomeGroup(r) !== st.outcome) return false;
+    if (st.regime && r.regime !== st.regime) return false;
+    if (st.landlord && r.landlord_type !== st.landlord) return false;
+    if (st.from && r.decision_date < st.from) return false;
+    if (st.to && r.decision_date > st.to) return false;
+    if (st.q) {
+      var hay = ((r.address || "") + " " + (r.postcode || "") + " " + (r.local_authority || "") + " " + (r.case_ref || "") + " " + (r.region || "")).toLowerCase();
+      var terms = st.q.toLowerCase().split(/\s+/).filter(Boolean);
+      for (var i = 0; i < terms.length; i++) if (hay.indexOf(terms[i]) === -1) return false;
+    }
+    return true;
+  }
+
+  function renderKpis() {
+    var full = view.filter(function (r) { return r.current_pcm != null && r.proposed_pcm != null && r.determined_pcm != null; });
+    var upheld = full.filter(function (r) { return r.outcome === "Proposed rent upheld" || r.outcome === "Set above proposed rent"; }).length;
+    var tiles = [
+      [view.length.toLocaleString("en-GB"), "Decisions", "matching your filters"],
+      [pct(median(full.map(function (r) { return r.pct_proposed; })), true), "Rise landlords sought", "median, on the current rent"],
+      [pct(median(full.map(function (r) { return r.pct_set; })), true), "Rise the Tribunal set", "median, on the current rent"],
+      [pct(median(full.map(function (r) { return r.share_awarded; }))), "Share of the rise awarded", "median of what was sought"],
+      [full.length ? pct(upheld / full.length * 100) : "–", "Proposed rent upheld in full", upheld + " of " + full.length + " cases"],
+      [gbp(median(full.map(function (r) { return r.determined_pcm; }))), "Rent determined", "median, per calendar month"]
+    ];
+    $("kpis").innerHTML = tiles.map(function (t) { return '<div class="kpi"><div class="v">' + esc(t[0]) + '</div><div class="l">' + esc(t[1]) + '</div><div class="n">' + esc(t[2]) + "</div></div>"; }).join("");
+    $("basis").textContent = "Rent figures are based on the " + full.length.toLocaleString("en-GB") + " of these " + view.length.toLocaleString("en-GB") + " decisions that state a current, proposed and determined rent.";
+  }
+
+  function renderBars() {
+    var order = ["Proposed rent upheld", "Increase reduced", "No increase", "Set below current rent", "Set above proposed rent", "Rent determined", "No determination", "Rent not extracted"];
+    var notes = { "Proposed rent upheld": "The landlord’s figure was confirmed", "Increase reduced": "Set between the current and proposed rent", "No increase": "Left at the current rent",
+      "Set below current rent": "Market rent found to be lower than the tenant already pays", "Set above proposed rent": "Market rent found to exceed the proposal (earlier rules, mostly social landlords)",
+      "Rent determined": "Rent set, with no proposed figure to compare", "No determination": "Struck out, withdrawn, invalid notice or no jurisdiction", "Rent not extracted": "The parser could not read a figure" };
+    var counts = {}; view.forEach(function (r) { var g = outcomeGroup(r); counts[g] = (counts[g] || 0) + 1; });
+    var max = Math.max.apply(null, order.map(function (o) { return counts[o] || 0; }).concat([1]));
+    $("bars").innerHTML = order.filter(function (o) { return counts[o]; }).map(function (o) {
+      var n = counts[o], share = n / view.length * 100;
+      return '<div class="bar-row" title="' + esc(notes[o] + ": " + n + " of " + view.length + " decisions") + '"><span class="name">' + esc(o) + '</span><span class="bar-track"><div class="bar-fill" style="width:' + (n / max * 100).toFixed(1) + '%"></div></span><span class="val"><b>' + pct(share) + "</b> &middot; " + n + "</span></div>";
+    }).join("") || '<div class="empty">No decisions match these filters.</div>';
+  }
+
+  function renderBeds() {
+    var rows = BANDS.map(function (b) {
+      var rs = view.filter(function (r) { return r.bedroom_band === b && r.current_pcm != null && r.proposed_pcm != null && r.determined_pcm != null; });
+      if (!rs.length) return "";
+      var m = function (k) { return median(rs.map(function (r) { return r[k]; })); };
+      return "<tr><td>" + esc(b === "Room in shared house" ? "Room in shared house" : b === "Not stated" || b === "Studio" ? b : b + " bed") + '</td><td class="num">' + rs.length + '</td><td class="num">' + gbp(m("current_pcm")) + '</td><td class="num">' + gbp(m("proposed_pcm")) + '</td><td class="num"><b>' + gbp(m("determined_pcm")) + '</b></td><td class="num">' + pct(m("pct_proposed"), true) + '</td><td class="num">' + pct(m("pct_set"), true) + "</td></tr>";
+    }).join("");
+    $("bedTable").querySelector("tbody").innerHTML = rows || '<tr><td colspan="7" class="empty">No cases with all three rents match these filters.</td></tr>';
+  }
+
+  function pillClass(o) { return o === "Proposed rent upheld" || o === "Set above proposed rent" ? "up" : (o === "Increase reduced" || o === "No increase" || o === "Set below current rent") ? "down" : ""; }
+
+  function renderTable() {
+    var k = st.sort, dir = st.dir;
+    view.sort(function (a, b) {
+      var x = a[k], y = b[k];
+      if (x == null && y == null) return 0; if (x == null) return 1; if (y == null) return -1;
+      if (typeof x === "number" && typeof y === "number") return (x - y) * dir;
+      return String(x).localeCompare(String(y)) * dir;
+    });
+    var pages = Math.max(1, Math.ceil(view.length / PAGE)); if (st.page > pages) st.page = pages;
+    var slice = view.slice((st.page - 1) * PAGE, st.page * PAGE);
+    $("reg").querySelector("tbody").innerHTML = slice.map(function (r) {
+      var beds = r.bedroom_band === "Not stated" ? "–" : (BAND_LABEL[r.bedroom_band] || r.bedroom_band);
+      var flags = (r.flags || []).length ? '<span class="flag" title="' + esc(r.flags.join(". ")) + '">check</span>' : "";
+      var where = [r.local_authority, r.region].filter(Boolean).join(", ");
+      var flow = r.determined_pcm == null && r.proposed_pcm == null && r.current_pcm == null ? "–" :
+        '<span class="rent-flow"><span title="' + esc(stated(r, "current")) + '">' + gbp(r.current_pcm) + '</span><span class="arrow">&rarr;</span><span title="' + esc(stated(r, "proposed")) + '">' + gbp(r.proposed_pcm) + '</span><span class="arrow">&rarr;</span><b title="' + esc(stated(r, "determined")) + '">' + gbp(r.determined_pcm) + "</b></span>";
+      return "<tr><td>" + esc(fmtDate(r.decision_date)) + '</td><td><div class="addr">' + esc(r.address) + '</div><div class="meta">' + esc(where) + (where ? " &middot; " : "") + esc(r.case_ref || "") + "</div></td><td>" + esc(beds) + '<div class="meta">' + esc(r.property_type || "") + "</div></td><td>" + esc(r.bills_included) + (r.bills_detail ? '<div class="meta">' + esc(r.bills_detail) + "</div>" : "") + "</td><td>" + flow + flags + '</td><td class="num">' + pct(r.pct_proposed, true) + '</td><td class="num">' + pct(r.pct_set, true) + '</td><td><span class="pill ' + pillClass(r.outcome) + '">' + esc(r.outcome) + '</span><div class="meta">' + esc(r.regime === "Not identified" ? "" : r.regime) + '</div></td><td><a href="' + esc(r.url) + '" target="_blank" rel="noopener">GOV.UK</a>' + (r.pdf ? ' &middot; <a href="' + esc(r.pdf) + '" target="_blank" rel="noopener">PDF</a>' : "") + "</td></tr>";
+    }).join("") || '<tr><td colspan="9" class="empty">No decisions match these filters. Try clearing one.</td></tr>';
+    $("pageInfo").textContent = view.length ? "Showing " + ((st.page - 1) * PAGE + 1) + "–" + Math.min(st.page * PAGE, view.length) + " of " + view.length.toLocaleString("en-GB") : "";
+    $("prev").disabled = st.page <= 1; $("next").disabled = st.page >= pages;
+    $("regSub").textContent = view.length.toLocaleString("en-GB") + " of " + all.length.toLocaleString("en-GB") + " decisions. Select a column heading to sort.";
+    Array.prototype.forEach.call(document.querySelectorAll("#reg th[data-k]"), function (th) {
+      if (th.dataset.k === st.sort) th.setAttribute("aria-sort", st.dir === 1 ? "ascending" : "descending"); else th.removeAttribute("aria-sort");
+    });
+  }
+
+  function render() { view = all.filter(matches); renderKpis(); renderBars(); renderBeds(); renderTable(); }
+
+  function bind() {
+    [["q", "input"], ["region", "change"], ["la", "change"], ["ptype", "change"], ["outcome", "change"], ["regime", "change"], ["landlord", "change"], ["from", "change"], ["to", "change"]].forEach(function (p) {
+      $(p[0]).addEventListener(p[1], function (e) { st[p[0]] = e.target.value.trim(); st.page = 1; render(); });
+    });
+    $("reset").addEventListener("click", function () {
+      ["q", "region", "la", "ptype", "outcome", "regime", "landlord", "from", "to"].forEach(function (id) { $(id).value = ""; st[id] = ""; });
+      st.beds = {}; st.bills = {}; st.page = 1;
+      Array.prototype.forEach.call(document.querySelectorAll(".chip"), function (c) { c.setAttribute("aria-pressed", "false"); });
+      // chips keep a reference to the old stores, so rebuild them
+      $("bedChips").innerHTML = ""; $("billChips").innerHTML = ""; chips("bedChips", BANDS, BAND_LABEL, st.beds); chips("billChips", BILLS, null, st.bills);
+      render();
+    });
+    $("prev").addEventListener("click", function () { if (st.page > 1) { st.page--; renderTable(); } });
+    $("next").addEventListener("click", function () { st.page++; renderTable(); });
+    Array.prototype.forEach.call(document.querySelectorAll("#reg th[data-k] button"), function (b) {
+      b.addEventListener("click", function () { var k = b.parentNode.dataset.k; if (st.sort === k) st.dir = -st.dir; else { st.sort = k; st.dir = (k === "address" || k === "outcome" || k === "bills_included") ? 1 : -1; } st.page = 1; renderTable(); });
+    });
+    var csv = $("csv");
+    if (csv) csv.addEventListener("click", function () {
+      var cols = ["case_ref", "address", "postcode", "local_authority", "region", "decision_date", "regime", "landlord_type", "property_type", "bedroom_band", "bills_included", "bills_detail", "rent_period", "current_rent", "proposed_rent", "determined_rent", "current_pcm", "proposed_pcm", "determined_pcm", "pct_proposed", "pct_set", "share_awarded", "outcome", "url"];
+      var q = function (v) { v = v == null ? "" : String(v); return /[",\n]/.test(v) ? '"' + v.replace(/"/g, '""') + '"' : v; };
+      var text = "﻿" + cols.join(",") + "\n" + view.map(function (r) { return cols.map(function (c) { return q(r[c]); }).join(","); }).join("\n");
+      var a = document.createElement("a"); a.href = URL.createObjectURL(new Blob([text], { type: "text/csv" })); a.download = "nrla-rent-tribunal-decisions.csv";
+      document.body.appendChild(a); a.click(); a.remove();
+    });
+  }
+
+  fetch("data/decisions.json", { cache: "no-store" }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }).then(function (d) {
+    all = d.decisions || [];
+    fillSelect("region", uniq("region")); fillSelect("la", uniq("local_authority")); fillSelect("ptype", uniq("property_type"));
+    fillSelect("outcome", uniq(null, outcomeGroup)); fillSelect("regime", uniq("regime").filter(function (v) { return v !== "Not identified"; }));
+    chips("bedChips", BANDS, BAND_LABEL, st.beds); chips("billChips", BILLS, null, st.bills);
+    $("stampCount").textContent = all.length.toLocaleString("en-GB") + " decisions tracked";
+    $("stampDate").textContent = "Updated " + new Date(d.generated).toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" });
+    bind(); render();
+  }).catch(function (e) {
+    $("stampCount").textContent = "Data could not be loaded";
+    $("kpis").innerHTML = '<div class="kpi"><div class="l">The decisions file did not load (' + esc(e.message) + ').</div><div class="n">Reload the page. If it persists, check that data/decisions.json has been published.</div></div>';
+  });
+})();
+</script>
+</body>
+</html>
