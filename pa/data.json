@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-09T18:20:03.253747",
+  "lastUpdated": "2026-11-10T16:20:33.142915",
   "questions": [
     {
       "id": 1956598,
@@ -113,6 +113,29 @@
       "answeringMember": "",
       "answeringParty": "",
       "answerSummary": null,
+      "summaryVersion": 2,
+      "emailed": true
+    },
+    {
+      "id": 1956321,
+      "uin": "40646",
+      "memberName": "Peter Lamb",
+      "party": "Lab",
+      "house": "Commons",
+      "question": "To ask the Secretary of State for Work and Pensions, what assessment he has made of the potential impact of the decision not to uprate Local Housing Allowance on Universal Credit claimants experiencing homelessness.",
+      "dateTabled": "3rd November",
+      "dateTabledRaw": "2026-11-03",
+      "dateForAnswer": "",
+      "dateForAnswerRaw": "2026-11-10",
+      "followUp": false,
+      "weekCommencing": "2026-11-02",
+      "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-11-03/40646",
+      "answered": true,
+      "isHolding": false,
+      "dateAnswered": "10th November",
+      "answeringMember": "Sir Stephen Timms",
+      "answeringParty": "Lab",
+      "answerSummary": "The Department for Work and Pensions worked closely with the Ministry of Housing, Communities and Local Government on the National Plan to End Homelessness which includes targeted prevention measures to support people at higher risk of homelessness. The Government\u2019s investment in homelessness and rough sleeping services is now over \u00a34.4 billion over the next three years and builds on the actions\u2026",
       "summaryVersion": 2,
       "emailed": true
     },
@@ -360,12 +383,12 @@
       "followUp": false,
       "weekCommencing": "2026-11-02",
       "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-11-02/39761",
-      "answered": false,
+      "answered": true,
       "isHolding": false,
-      "dateAnswered": null,
-      "answeringMember": "",
-      "answeringParty": "",
-      "answerSummary": null,
+      "dateAnswered": "10th November",
+      "answeringMember": "Martin McCluskey",
+      "answeringParty": "Lab",
+      "answerSummary": "Impact assessments for both Private and Social Rented Sector Minimum Energy Efficiency Standards are published on GOV.UK. There are no current requirements for properties to meet EPC A.",
       "summaryVersion": 2,
       "emailed": true
     },
@@ -3710,14 +3733,15 @@
       "dateForAnswer": "Due 2nd September",
       "weekCommencing": "2026-08-24",
       "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-08-28/21853",
-      "answered": false,
+      "answered": true,
       "isHolding": false,
-      "dateAnswered": null,
-      "answeringMember": "",
-      "answeringParty": "",
-      "answerSummary": null,
+      "dateAnswered": "10th November",
+      "answeringMember": "Matthew Pennycook",
+      "answeringParty": "Lab",
+      "answerSummary": "My Department does not hold data on trends in the level of charges for the completion of a deed of variation. Leaseholders who are dissatisfied with costs incurred as part of a deed of variation can challenge the reasonableness of those costs through the First-Tier Tribunal (Property Chamber).",
       "emailed": true,
-      "dateForAnswerRaw": "2026-09-02"
+      "dateForAnswerRaw": "2026-09-02",
+      "summaryVersion": 2
     },
     {
       "id": 1936265,
@@ -3964,14 +3988,15 @@
       "dateForAnswer": "Due 2nd September",
       "weekCommencing": "2026-08-24",
       "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-08-28/24458",
-      "answered": false,
+      "answered": true,
       "isHolding": false,
-      "dateAnswered": null,
-      "answeringMember": "",
-      "answeringParty": "",
-      "answerSummary": null,
+      "dateAnswered": "10th November",
+      "answeringMember": "Matthew Pennycook",
+      "answeringParty": "Lab",
+      "answerSummary": "The government remains committed to enacting remaining Law Commission recommendations relating to leasehold enfranchisement and right to manage during this Parliament.",
       "emailed": true,
-      "dateForAnswerRaw": "2026-09-02"
+      "dateForAnswerRaw": "2026-09-02",
+      "summaryVersion": 2
     },
     {
       "id": 1934838,
@@ -4049,14 +4074,15 @@
       "dateForAnswer": "Due 2nd September",
       "weekCommencing": "2026-08-24",
       "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-08-28/25358",
-      "answered": false,
+      "answered": true,
       "isHolding": false,
-      "dateAnswered": null,
-      "answeringMember": "",
-      "answeringParty": "",
-      "answerSummary": null,
+      "dateAnswered": "10th November",
+      "answeringMember": "Matthew Pennycook",
+      "answeringParty": "Lab",
+      "answerSummary": "In line with our manifesto commitment, the government intends to introduce a legislative cap on ground rents. This will apply to most long residential leases not already covered by existing legislation.",
       "emailed": true,
-      "dateForAnswerRaw": "2026-09-02"
+      "dateForAnswerRaw": "2026-09-02",
+      "summaryVersion": 2
     },
     {
       "id": 1933208,
@@ -4176,14 +4202,15 @@
       "dateForAnswer": "Due 2nd September",
       "weekCommencing": "2026-08-24",
       "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-08-28/25359",
-      "answered": false,
+      "answered": true,
       "isHolding": false,
-      "dateAnswered": null,
-      "answeringMember": "",
-      "answeringParty": "",
-      "answerSummary": null,
+      "dateAnswered": "10th November",
+      "answeringMember": "Matthew Pennycook",
+      "answeringParty": "Lab",
+      "answerSummary": "In line with our manifesto commitment, the government intends to introduce a legislative cap on ground rents. This will apply to most long residential leases not already covered by existing legislation.",
       "emailed": true,
-      "dateForAnswerRaw": "2026-09-02"
+      "dateForAnswerRaw": "2026-09-02",
+      "summaryVersion": 2
     },
     {
       "id": 1935732,
@@ -4197,14 +4224,15 @@
       "dateForAnswer": "Due 2nd September",
       "weekCommencing": "2026-08-24",
       "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-08-28/25357",
-      "answered": false,
+      "answered": true,
       "isHolding": false,
-      "dateAnswered": null,
-      "answeringMember": "",
-      "answeringParty": "",
-      "answerSummary": null,
+      "dateAnswered": "10th November",
+      "answeringMember": "Matthew Pennycook",
+      "answeringParty": "Lab",
+      "answerSummary": "In line with our manifesto commitment, the government intends to introduce a legislative cap on ground rents. This will apply to most long residential leases not already covered by existing legislation.",
       "emailed": true,
-      "dateForAnswerRaw": "2026-09-02"
+      "dateForAnswerRaw": "2026-09-02",
+      "summaryVersion": 2
     },
     {
       "id": 1935182,
@@ -4787,14 +4815,15 @@
       "dateForAnswer": "Due 1st September",
       "weekCommencing": "2026-07-13",
       "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-07-15/19183",
-      "answered": false,
+      "answered": true,
       "isHolding": false,
-      "dateAnswered": null,
-      "answeringMember": "",
-      "answeringParty": "",
-      "answerSummary": null,
+      "dateAnswered": "10th November",
+      "answeringMember": "Matthew Pennycook",
+      "answeringParty": "Lab",
+      "answerSummary": "The government expects landlords, and letting agents acting on their behalf, to let properties that are safe and meet appropriate standards. Where tenants experience issues after moving in, they should first raise them with their landlord or agent.",
       "emailed": true,
-      "dateForAnswerRaw": "2026-09-01"
+      "dateForAnswerRaw": "2026-09-01",
+      "summaryVersion": 2
     },
     {
       "id": 1928365,
@@ -4808,14 +4837,15 @@
       "dateForAnswer": "Due 1st September",
       "weekCommencing": "2026-07-13",
       "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-07-15/19046",
-      "answered": false,
+      "answered": true,
       "isHolding": false,
-      "dateAnswered": null,
-      "answeringMember": "",
-      "answeringParty": "",
-      "answerSummary": null,
+      "dateAnswered": "10th November",
+      "answeringMember": "Matthew Pennycook",
+      "answeringParty": "Lab",
+      "answerSummary": "I refer the hon. Member to the Written Ministerial Statement made on 15 July 2026 (HCWS270).",
       "emailed": true,
-      "dateForAnswerRaw": "2026-09-01"
+      "dateForAnswerRaw": "2026-09-01",
+      "summaryVersion": 2
     },
     {
       "id": 1927649,
@@ -14083,5 +14113,5 @@
     1956104,
     1956598
   ],
-  "lastEmailDate": "2026-11-09"
+  "lastEmailDate": "2026-11-10"
 }
