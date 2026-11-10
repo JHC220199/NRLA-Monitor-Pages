@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-10T15:55:48.141736Z",
+  "generated": "2026-11-10T16:18:34.202690Z",
   "senedd_start": "2026-05-12",
   "keywords_hash": "c2381451bcd0",
-  "total": 110,
+  "total": 107,
   "questions": [
     {
       "wq_ref": "WQ100402",
@@ -376,21 +376,6 @@
       "full_question": "Further to WQ100179, will the Cabinet Minister confirm whether the Welsh Government funds, or has funded, external bodies to provide housing-related support to refugees, newly recognised refugees or people seeking sanctuary, including support to access accommodation, move-on accommodation, homelessness prevention, private rented accommodation or longer-term accommodation in Wales?",
       "answered_by": "Deputy First Minister and Cabinet Minister for Social Justice and Equality",
       "answered_on": "16/09/2026",
-      "party": "Reform UK",
-      "emailed": true
-    },
-    {
-      "wq_ref": "WQ101205",
-      "url_path": "/WrittenQuestion/101205",
-      "tabled_str": "09/11/2026",
-      "answer_str": "16/11/2026",
-      "snippet": "What criteria and evidence informed the Welsh Government's decision to exclude commercially operated self-catering accommodation from the ...",
-      "member_name": "John Clark",
-      "member_area": "Bangor Conwy M\u00f4n",
-      "member_uid": "12169",
-      "full_question": "What criteria and evidence informed the Welsh Government's decision to exclude commercially operated self-catering accommodation from the lower non-domestic rates multiplier from April 2027, while including hotels, guest houses and hostels irrespective of whether they are located on high streets or in town centres?",
-      "answered_by": "",
-      "answered_on": "",
       "party": "Reform UK",
       "emailed": true
     },
@@ -1025,21 +1010,6 @@
       "emailed": true
     },
     {
-      "wq_ref": "WQ100631",
-      "url_path": "/WrittenQuestion/100631",
-      "tabled_str": "21/09/2026",
-      "answer_str": "28/09/2026",
-      "snippet": "Why is self-catering accommodation not included in the permanent 30 per cent reduction in business rates from ...",
-      "member_name": "Louise Emery",
-      "member_area": "Clwyd",
-      "member_uid": "12182",
-      "full_question": "Why is self-catering accommodation not included in the permanent 30 per cent reduction in business rates from April 2027?",
-      "answered_by": "Cabinet Minister for Finance",
-      "answered_on": "22/09/2026",
-      "party": "Reform UK",
-      "emailed": true
-    },
-    {
       "wq_ref": "WQ101059",
       "url_path": "/WrittenQuestion/101059",
       "tabled_str": "21/10/2026",
@@ -1366,21 +1336,6 @@
       "full_question": "What plans does the Welsh Government have to increase the supply of affordable housing without increasing council tax burdens on residents?",
       "answered_by": "Cabinet Minister for Local Government, Housing and Planning",
       "answered_on": "03/06/2026",
-      "party": "Reform UK",
-      "emailed": true
-    },
-    {
-      "wq_ref": "WQ100705",
-      "url_path": "/WrittenQuestion/100705",
-      "tabled_str": "28/09/2026",
-      "answer_str": "05/10/2026",
-      "snippet": "Why is commercially let self-catering accommodation excluded from the permanent lower non-domestic rates multiplier for visitor accommodation ...",
-      "member_name": "John Clark",
-      "member_area": "Bangor Conwy M\u00f4n",
-      "member_uid": "12169",
-      "full_question": "Why is commercially let self-catering accommodation excluded from the permanent lower non-domestic rates multiplier for visitor accommodation from April 2027, and will the Cabinet Minister include commercial holiday properties restricted by planning condition to holiday use before the regulations are laid?",
-      "answered_by": "Cabinet Minister for Finance",
-      "answered_on": "06/10/2026",
       "party": "Reform UK",
       "emailed": true
     },
@@ -3042,21 +2997,6 @@
     ],
     "2026-09-21": [
       {
-        "wq_ref": "WQ100631",
-        "url_path": "/WrittenQuestion/100631",
-        "tabled_str": "21/09/2026",
-        "answer_str": "28/09/2026",
-        "snippet": "Why is self-catering accommodation not included in the permanent 30 per cent reduction in business rates from ...",
-        "member_name": "Louise Emery",
-        "member_area": "Clwyd",
-        "member_uid": "12182",
-        "full_question": "Why is self-catering accommodation not included in the permanent 30 per cent reduction in business rates from April 2027?",
-        "answered_by": "Cabinet Minister for Finance",
-        "answered_on": "22/09/2026",
-        "party": "Reform UK",
-        "emailed": true
-      },
-      {
         "wq_ref": "WQ100671",
         "url_path": "/WrittenQuestion/100671",
         "tabled_str": "23/09/2026",
@@ -3073,21 +3013,6 @@
       }
     ],
     "2026-09-28": [
-      {
-        "wq_ref": "WQ100705",
-        "url_path": "/WrittenQuestion/100705",
-        "tabled_str": "28/09/2026",
-        "answer_str": "05/10/2026",
-        "snippet": "Why is commercially let self-catering accommodation excluded from the permanent lower non-domestic rates multiplier for visitor accommodation ...",
-        "member_name": "John Clark",
-        "member_area": "Bangor Conwy M\u00f4n",
-        "member_uid": "12169",
-        "full_question": "Why is commercially let self-catering accommodation excluded from the permanent lower non-domestic rates multiplier for visitor accommodation from April 2027, and will the Cabinet Minister include commercial holiday properties restricted by planning condition to holiday use before the regulations are laid?",
-        "answered_by": "Cabinet Minister for Finance",
-        "answered_on": "06/10/2026",
-        "party": "Reform UK",
-        "emailed": true
-      },
       {
         "wq_ref": "WQ100733",
         "url_path": "/WrittenQuestion/100733",
@@ -3331,23 +3256,6 @@
         "full_question": "What financial support has the Welsh Government provided to leaseholders who continue to incur costs associated with interim safety measures while awaiting remediation works?",
         "answered_by": "Cabinet Minister for Local Government, Housing and Planning",
         "answered_on": "03/11/2026",
-        "party": "Reform UK",
-        "emailed": true
-      }
-    ],
-    "2026-11-09": [
-      {
-        "wq_ref": "WQ101205",
-        "url_path": "/WrittenQuestion/101205",
-        "tabled_str": "09/11/2026",
-        "answer_str": "16/11/2026",
-        "snippet": "What criteria and evidence informed the Welsh Government's decision to exclude commercially operated self-catering accommodation from the ...",
-        "member_name": "John Clark",
-        "member_area": "Bangor Conwy M\u00f4n",
-        "member_uid": "12169",
-        "full_question": "What criteria and evidence informed the Welsh Government's decision to exclude commercially operated self-catering accommodation from the lower non-domestic rates multiplier from April 2027, while including hotels, guest houses and hostels irrespective of whether they are located on high streets or in town centres?",
-        "answered_by": "",
-        "answered_on": "",
         "party": "Reform UK",
         "emailed": true
       }
