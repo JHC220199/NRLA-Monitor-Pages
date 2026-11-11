@@ -250,7 +250,8 @@ tbody tr.detail:hover { background: var(--bg); }
       <li><strong>Case summaries.</strong> Select &ldquo;Summary&rdquo; on any row. Each summary is assembled from the figures and facts read from that decision, in fixed wording: the landlord&rsquo;s proposal, how the Tribunal handled the case, its view of the market rent and any deductions where the decision states them, and the result. It does not reproduce the Tribunal&rsquo;s reasoning, so read the decision for the full picture.</li>
       <li><strong>Monthly rents.</strong> Weekly, fortnightly and four-weekly rents are converted to a calendar month so cases can be compared. Hover over a rent to see the figure as stated.</li>
       <li><strong>Bills included.</strong> &ldquo;Yes&rdquo; means the decision records council tax, utilities, water or broadband as covered by the rent. &ldquo;No&rdquo; means it records the tenant as responsible. &ldquo;Not stated&rdquo; means the decision is silent.</li>
-      <li><strong>Which cases are included.</strong> Only cases the Tribunal decided under the Housing Act 1988 as amended by the Renters&rsquo; Rights Act, where it cannot set a rent above the landlord&rsquo;s proposal. Cases on notices served under the earlier rules are left out. A case is included where it carries one of the new case codes (MRA or MRB), cites the amended section 14, or concerns a notice served on or after 1 May 2026.</li>
+      <li><strong>Which cases are included.</strong> Cases decided under the Housing Act 1988 as amended by the Renters&rsquo; Rights Act. Under regulation 8 of S.I. 2026/421, a rent increase notice served before 1 May 2026 is still decided under the old rules, so the date the notice was served decides which cases are in. Where a decision gives no notice date, the Tribunal&rsquo;s new case codes (MRA, MRB) are used. Challenges to a new tenancy&rsquo;s starting rent under section 14(A1) are included too. Each case summary says why the case was included.</li>
+      <li><strong>Rent payable.</strong> Under section 14ZB(5) the tenant pays the Tribunal&rsquo;s open-market rent only if it is lower than the landlord&rsquo;s proposal. Where the Tribunal&rsquo;s figure is higher, the tracker shows the proposed rent as the rent set and gives the Tribunal&rsquo;s figure in the summary.</li>
       <li><strong>Landlord.</strong> &ldquo;Social&rdquo; marks cases where the decision points to a housing association, council or charity.</li>
       <li><strong>Personal data.</strong> This tracker does not hold the names of tenants, landlords or their representatives.</li>
     </ul>
@@ -327,10 +328,10 @@ tbody tr.detail:hover { background: var(--bg); }
   }
 
   function renderBars() {
-    var order = ["Proposed rent upheld", "Increase reduced", "No increase", "Set below current rent", "Set above proposed rent", "Rent determined", "No determination", "Rent not extracted"];
+    var order = ["Proposed rent upheld", "Increase reduced", "No increase", "Set below current rent", "Starting rent reduced", "Starting rent confirmed", "Set above proposed rent", "Rent determined", "No determination", "Rent not extracted"];
     var notes = { "Proposed rent upheld": "The landlord’s figure was confirmed", "Increase reduced": "Set between the current and proposed rent", "No increase": "Left at the current rent",
       "Set below current rent": "Market rent found to be lower than the tenant already pays", "Set above proposed rent": "Rent set above the proposal, which the amended rules do not allow. Check the decision",
-      "Rent determined": "Rent set, with no proposed figure to compare", "No determination": "Struck out, withdrawn, invalid notice or no jurisdiction", "Rent not extracted": "The parser could not read a figure" };
+      "Starting rent reduced": "Tenant challenged a new tenancy's starting rent and it was lowered", "Starting rent confirmed": "Tenant challenged a new tenancy's starting rent and it stands", "Rent determined": "Rent set, with no proposed figure to compare", "No determination": "Struck out, withdrawn, invalid notice or no jurisdiction", "Rent not extracted": "The parser could not read a figure" };
     var counts = {}; view.forEach(function (r) { var g = outcomeGroup(r); counts[g] = (counts[g] || 0) + 1; });
     var max = Math.max.apply(null, order.map(function (o) { return counts[o] || 0; }).concat([1]));
     $("bars").innerHTML = order.filter(function (o) { return counts[o]; }).map(function (o) {
@@ -349,7 +350,7 @@ tbody tr.detail:hover { background: var(--bg); }
     $("bedTable").querySelector("tbody").innerHTML = rows || '<tr><td colspan="7" class="empty">No cases with all three rents match these filters.</td></tr>';
   }
 
-  function pillClass(o) { return o === "Proposed rent upheld" || o === "Set above proposed rent" ? "up" : (o === "Increase reduced" || o === "No increase" || o === "Set below current rent") ? "down" : ""; }
+  function pillClass(o) { return o === "Proposed rent upheld" || o === "Set above proposed rent" || o === "Starting rent confirmed" ? "up" : (o === "Increase reduced" || o === "No increase" || o === "Set below current rent" || o === "Starting rent reduced") ? "down" : ""; }
 
   var openRows = {};
   function rowKey(r) { return r.case_ref || r.url; }
@@ -363,6 +364,8 @@ tbody tr.detail:hover { background: var(--bg); }
     if (r.market_rent != null) facts.push(["Tribunal\u2019s market rent", gbpExact(r.market_rent) + " " + per]);
     facts.push(["Bills included", r.bills_included + (r.bills_detail ? " (" + r.bills_detail + ")" : "")]);
     if (r.landlord_type) facts.push(["Landlord", r.landlord_type]);
+    facts.push(["Type of case", r.application_type === "Starting rent" ? "Challenge to a new tenancy's starting rent" : "Challenge to a proposed rent increase"]);
+    if (r.regime_basis) facts.push(["Included because", r.regime_basis.charAt(0).toUpperCase() + r.regime_basis.slice(1)]);
     if (r.case_ref) facts.push(["Case reference", r.case_ref]);
     if ((r.flags || []).length) facts.push(["Check", r.flags.join(". ")]);
     return '<tr class="detail"' + (openRows[rowKey(r)] ? "" : " hidden") + '><td colspan="9"><div class="detail-in"><p class="summary">' + esc(r.summary || "No summary is available for this case.") +
