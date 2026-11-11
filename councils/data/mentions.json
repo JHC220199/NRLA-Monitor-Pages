@@ -1,7 +1,84 @@
 {
- "generated": "2026-11-10T16:37:43+00:00",
- "count": 125,
+ "generated": "2026-11-11T17:03:01+00:00",
+ "count": 128,
  "mentions": [
+  {
+   "id": "https://moderngov.kingston.gov.uk|10361|Article 4 Direction on Houses in Multiple Occupation (HMOs)|116523",
+   "councils": [
+    {
+     "name": "Kingston upon Thames",
+     "gss": "E09000021"
+    }
+   ],
+   "committee": "Place Committee",
+   "meeting_date": "2026-11-18",
+   "meeting_url": "https://moderngov.kingston.gov.uk/ieListDocuments.aspx?MId=10361",
+   "item_number": "6.",
+   "item_title": "Article 4 Direction on Houses in Multiple Occupation (HMOs)",
+   "doc_title": "Annex 1 - Evidence Paper for HMOs - FINAL",
+   "doc_url": "https://Kingston.moderngov.co.uk/mgConvert2PDF.aspx?ID=116523",
+   "source": "report",
+   "tier": "strong",
+   "hit_count": 14,
+   "terms": [
+    "additional licencing",
+    "additional licensing"
+   ],
+   "stage": "Designation decision",
+   "snippet": "…s 26 Legislative Reform 26 New Kingston Local Plan 26 Summary of Evidence Base 27 Next Steps 28 Gap Analysis 28 Option One: Do Nothing 30 Option Two: Implement Additional Licensing Requirements 30 Option Three: Implement a Targeted Article 4 Direction 31 Option Four: Implement an Immediate Borough-wide Article 4 Direction 32 2 of 38 Appendix One: Assessment Against the Article 4 Policy Requirement…",
+   "first_seen": "2026-11-11T15:50:47+00:00"
+  },
+  {
+   "id": "https://burnley.moderngov.co.uk|4420|Additional HMO Licensing - Consultation on Future Proposals|agenda",
+   "councils": [
+    {
+     "name": "Burnley",
+     "gss": "E07000117"
+    }
+   ],
+   "committee": "Scrutiny Committee",
+   "meeting_date": "2026-11-18",
+   "meeting_url": "https://burnley.moderngov.co.uk/ieListDocuments.aspx?MId=4420",
+   "item_number": "15d",
+   "item_title": "Additional HMO Licensing - Consultation on Future Proposals",
+   "doc_title": null,
+   "doc_url": null,
+   "source": "agenda",
+   "tier": "strong",
+   "hit_count": 5,
+   "terms": [
+    "additional hmo licensing",
+    "additional licensing"
+   ],
+   "stage": "Consultation",
+   "snippet": "Additional HMO Licensing - Consultation on Future Proposals | 1. Too approve the consultation and evidence gathering for the proposal to designate a Borough Wide Additional HMO Licensing scheme. The draft case proposal document (as attached…",
+   "first_seen": "2026-11-11T15:44:38+00:00"
+  },
+  {
+   "id": "https://burnley.moderngov.co.uk|4420|Notice of Key Decisions and Private Meetings|agenda",
+   "councils": [
+    {
+     "name": "Burnley",
+     "gss": "E07000117"
+    }
+   ],
+   "committee": "Scrutiny Committee",
+   "meeting_date": "2026-11-18",
+   "meeting_url": "https://burnley.moderngov.co.uk/ieListDocuments.aspx?MId=4420",
+   "item_number": "6.",
+   "item_title": "Notice of Key Decisions and Private Meetings",
+   "doc_title": null,
+   "doc_url": null,
+   "source": "agenda",
+   "tier": "strong",
+   "hit_count": 1,
+   "terms": [
+    "additional hmo licensing"
+   ],
+   "stage": "Early proposal",
+   "snippet": "…Decisions Private Meetings October 2026 November onwards | Approval to tender and delegated authority to accept tenders for a contract exceeding 125000 for t | Additional HMO Licensing - Future Proposals and Housing Enforcement Policy",
+   "first_seen": "2026-11-11T15:44:37+00:00"
+  },
   {
    "id": "https://mycouncil.oxford.gov.uk|8388|Review of the Selective Licensing Scheme|93288",
    "councils": [

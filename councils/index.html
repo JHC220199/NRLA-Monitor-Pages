@@ -237,7 +237,7 @@ footer { color: var(--muted); font-size: 12px; border-top: 1px solid var(--line)
 <section id="v-schemes" class="view" data-view="schemes" hidden>
   <div style="display:grid;gap:4px">
     <h2>Selective and additional licensing schemes</h2>
-    <p class="lede">Each council's property licensing pages are found from its sitemap and re-read daily. Scheme type, status, fees and dates are read from the page text, so treat them as leads to verify. Verified entries come from <code>config/schemes_manual.csv</code> and always take priority.</p>
+    <p class="lede">Each council's property licensing pages are found from its sitemap and re-read daily. Status is read sentence by sentence and shown for each scheme type, with the sentence it came from underneath, so you can see why a council has the label it has. Status, fees and dates are still leads to verify. Verified entries come from <code>config/schemes_manual.csv</code> and always take priority.</p>
     <span class="stamp" id="stamp-schemes"></span>
   </div>
   <div class="summary" id="schemes-summary"></div>
@@ -319,7 +319,9 @@ footer { color: var(--muted); font-size: 12px; border-top: 1px solid var(--line)
   const STAGE_CLASS = { "Designation decision": "designation", "Consultation": "consultation", "Early proposal": "proposal", "Renewal / review": "review", "Mention": "" };
   const STAGE_CHIP = { "Designation decision": "bad", "Consultation": "warn", "Early proposal": "warn", "Renewal / review": "info", "Mention": "" };
   const STATUS_CHIP = { "Majority": "good", "Minority administration": "warn", "Coalition": "info", "Coalition (minority)": "warn", "Directly elected mayor": "info", "Leadership to be confirmed": "bad" };
-  const SCHEME_CHIP = { "Live": "good", "Consultation open": "warn", "Consultation (check)": "warn", "Proposed": "warn", "Ended": "", "Pages found": "info", "None found": "" };
+  const SCHEME_CHIP = { "Live": "good", "Coming into force": "warn", "Consultation open": "warn", "Consultation (check)": "warn", "Proposed": "warn", "Ended": "", "No scheme": "", "Pages found": "info", "None found": "" };
+  // what each kind of statement found on a page means, for the page list
+  const SCHEME_SIGNAL = { consultation_open: "consultation open", consultation_closed: "consultation closed", consultation: "consultation mentioned", live: "in force", started: "start stated", coming: "starts later", ended: "ended", proposed: "proposed", proposal: "proposal mentioned", none: "says no scheme" };
 
   const $ = (s) => document.querySelector(s);
   const deco = (s) => { const t = document.createElement("textarea"); let v = String(s ?? ""); for (let i = 0; i < 2 && /&(#\d+|[a-z]+);/i.test(v); i++) { t.innerHTML = v; v = t.value; } return v; };
@@ -530,6 +532,19 @@ footer { color: var(--muted); font-size: 12px; border-top: 1px solid var(--line)
     });
     $("#s-count").textContent = `${SHOWN.length} councils`;
     const tick = (b) => b ? `<span class="chip good">Yes</span>` : `<span class="muted">—</span>`;
+    const when = (r) => r.until ? `until ${fmtDate(r.until)}` : r.from ? `from ${fmtDate(r.from)}` : r.ended ? `ended ${fmtDate(r.ended)}` : r.closes ? `closes ${fmtDate(r.closes)}` : r.consultation_closed ? `consultation closed ${fmtDate(r.consultation_closed)}` : "";
+    // one scheme type: its own status and date, with the sentence it was read from as a tooltip
+    const typeCell = (a, t) => {
+      if (!a.types) return tick(a[t]);   // data written before statuses were kept per scheme type
+      const r = a.types[t];
+      if (!r) return `<span class="muted">—</span>`;
+      return `<span class="chip ${SCHEME_CHIP[r.status] || ""}" title="${esc(r.evidence || "")}">${esc(r.status)}</span>${when(r) ? `<div class="small muted">${when(r)}</div>` : ""}`;
+    };
+    // the sentence behind the overall status, linked to the page it is on
+    const why = (a) => {
+      const r = Object.values(a.types || {}).find((x) => x.status === a.status && x.evidence);
+      return r ? `<div class="small muted" title="${esc(r.evidence)}">“${esc(r.evidence.length > 130 ? r.evidence.slice(0, 130) + "…" : r.evidence)}” <a href="${esc(r.url)}" target="_blank" rel="noopener">source</a></div>` : "";
+    };
     $("#schemes-table").innerHTML = `<thead><tr><th>Council</th><th>Selective</th><th>Additional</th><th>Read from pages</th><th>Verified</th><th>Fees mentioned</th><th>Designation notices</th><th>Pages</th></tr></thead><tbody>` +
       SHOWN.map((c) => {
         const a = c.auto, ctl = byGss[c.gss];
@@ -537,13 +552,13 @@ footer { color: var(--muted); font-size: 12px; border-top: 1px solid var(--line)
         const des = a.designation_links.slice(0, 3).map((l) => `<div class="small"><a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.text || "Notice")}</a></div>`).join("") + (a.designation_links.length > 3 ? `<div class="small muted">+${a.designation_links.length - 3} more</div>` : "") || `<span class="muted">—</span>`;
         const good = c.pages.filter((p) => !p.error);
         const pages = c.pages.map((p) => `<div class="pg"><a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.title || p.url)}</a>
-            ${p.error ? `<span class="chip bad">${esc(p.error)}</span>` : `<span class="muted">${[p.selective && "selective", p.additional && "additional", ...(p.signals || [])].filter(Boolean).join(" · ") || "no licensing terms"}${p.changed ? ` · <b>changed ${fmtDate(p.changed)}</b>` : ""}</span>`}
+            ${p.error ? `<span class="chip bad">${esc(p.error)}</span>` : `<span class="muted">${[p.selective && "selective", p.additional && "additional", ...(p.signals || []).map((x) => SCHEME_SIGNAL[x] || x)].filter(Boolean).join(" · ") || "no licensing terms"}${p.changed ? ` · <b>changed ${fmtDate(p.changed)}</b>` : ""}</span>`}
             ${(p.dates || []).filter((d) => d.kind !== "other").slice(0, 3).map((d) => `<span class="muted">${d.kind === "start" ? "Start" : "End"}: ${esc(d.date)}</span>`).join("")}
             ${(p.fees || []).slice(0, 3).map((f) => `<span class="muted" title="${esc(f.context)}">${esc(f.amount)}: …${esc(f.context.slice(40, 140))}…</span>`).join("")}</div>`).join("");
         return `<tr>
           <td><a href="${esc(c.website)}" target="_blank" rel="noopener"><b>${esc(c.name)}</b></a>${memChip(c.gss)}<div>${ctl ? controlChip(ctl) : ""}</div></td>
-          <td>${tick(a.selective)}</td><td>${tick(a.additional)}</td>
-          <td><span class="chip ${SCHEME_CHIP[a.status] || ""}">${esc(a.status)}</span>${a.last_changed ? `<div class="small muted">Changed ${fmtDate(a.last_changed)}</div>` : ""}</td>
+          <td>${typeCell(a, "selective")}</td><td>${typeCell(a, "additional")}</td>
+          <td><span class="chip ${SCHEME_CHIP[a.status] || ""}">${esc(a.status)}</span>${why(a)}${a.last_changed ? `<div class="small muted">Changed ${fmtDate(a.last_changed)}</div>` : ""}</td>
           <td>${man}</td>
           <td class="small">${a.fees.slice(0, 5).map(esc).join(", ") || '<span class="muted">—</span>'}</td>
           <td>${des}</td>
@@ -560,7 +575,8 @@ footer { color: var(--muted); font-size: 12px; border-top: 1px solid var(--line)
       const page = (c.pages.filter((p) => !p.error).sort((x, y) => (y.score || 0) - (x.score || 0))[0] || {}).url || "";
       const dates = c.pages.flatMap((p) => p.dates || []);
       for (const t of types.length ? types : [""]) {
-        rows.push([c.gss, c.name, t, "", a.status, "", (dates.find((d) => d.kind === "start") || {}).date || "", (dates.find((d) => d.kind === "end") || {}).date || "",
+        const r = (a.types || {})[t.toLowerCase()];
+        rows.push([c.gss, c.name, t, "", r ? r.status : a.status, "", r ? r.from || "" : (dates.find((d) => d.kind === "start") || {}).date || "", r ? r.until || r.ended || "" : (dates.find((d) => d.kind === "end") || {}).date || "",
           a.fees[0] || "", "", page, (a.designation_links[0] || {}).url || "", "", "", "auto: check before saving"].map(csvCell).join(","));
       }
     }
@@ -572,6 +588,7 @@ footer { color: var(--muted); font-size: 12px; border-top: 1px solid var(--line)
 
   /* ---------- article 4 ---------- */
   const A4_CHIP = { "In force": "good", "Coming into force": "warn", "Proposed": "warn", "Ended": "", "Pages found": "info", "Not found": "" };
+  const A4_SIGNAL = { in_force: "in force", coming: "starts later", made: "made", confirmed: "confirmed", immediate: "immediate", non_immediate: "non-immediate", proposed: "proposed", proposal: "proposal mentioned", consultation_closed: "consultation closed", ended: "ended", listed: "listed" };
   const A4_SOURCE = { verified: "Verified", manual: "Seeded, not yet verified", national: "National planning data", website: "Council website" };
   const a4Found = (c) => c.summary.status !== "Not found";
   function renderA4() {
@@ -613,11 +630,11 @@ footer { color: var(--muted); font-size: 12px; border-top: 1px solid var(--line)
         const man = c.manual.filter((m) => m.verified_on).map((m) => `<div class="small"><b>${esc(m.hmo_direction)}</b>${m.coverage ? ` · ${esc(m.coverage)}` : ""}${m.direction_type ? ` · ${esc(m.direction_type)}` : ""}<span class="muted"> (checked ${esc(m.verified_on)})</span>${m.notes ? `<div class="muted">${esc(m.notes)}</div>` : ""}</div>`).join("") || `<span class="muted small">Not yet</span>`;
         const good = c.pages.filter((p) => !p.error);
         const pages = c.pages.map((p) => `<div class="pg"><a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.title || p.url)}</a>
-            ${p.error ? `<span class="chip bad">${esc(p.error)}</span>` : `<span class="muted">${p.hmo ? ["HMO Article 4", ...(p.signals || []).map((x) => x.replace("_", "-"))].join(" · ") : "no HMO Article 4 wording"}${p.changed ? ` · <b>changed ${fmtDate(p.changed)}</b>` : ""}</span>`}
+            ${p.error ? `<span class="chip bad">${esc(p.error)}</span>` : `<span class="muted">${p.hmo ? ["HMO Article 4", ...(p.signals || []).map((x) => A4_SIGNAL[x] || x.replace("_", "-"))].join(" · ") : "no HMO Article 4 wording"}${p.changed ? ` · <b>changed ${fmtDate(p.changed)}</b>` : ""}</span>`}
             ${(p.dates || []).slice(0, 2).map((d) => `<span class="muted" title="${esc(d.context)}">In force: ${fmtDate(d.date)}</span>`).join("")}</div>`).join("");
         return `<tr>
           <td><a href="${esc(c.website || "#")}" target="_blank" rel="noopener"><b>${esc(c.name)}</b></a>${memChip(c.gss)}<div>${ctl ? controlChip(ctl) : ""}</div></td>
-          <td><span class="chip ${A4_CHIP[s.status] || ""}">${esc(s.status)}</span>${s.source ? `<div class="small muted">${A4_SOURCE[s.source]}</div>` : ""}${s.proposal_on_pages ? `<div><span class="chip warn">Pages mention a proposal</span></div>` : ""}${s.direction_type ? `<div class="small muted">${esc(s.direction_type)}</div>` : ""}</td>
+          <td><span class="chip ${A4_CHIP[s.status] || ""}" title="${esc(s.evidence?.text || "")}">${esc(s.status)}</span>${s.source ? `<div class="small muted">${A4_SOURCE[s.source]}</div>` : ""}${s.evidence ? `<div class="small muted" title="${esc(s.evidence.text)}">“${esc(s.evidence.text.length > 130 ? s.evidence.text.slice(0, 130) + "…" : s.evidence.text)}” <a href="${esc(s.evidence.url)}" target="_blank" rel="noopener">source</a></div>` : ""}${s.proposal_on_pages ? `<div><span class="chip warn">Pages mention a proposal</span></div>` : ""}${s.direction_type ? `<div class="small muted">${esc(s.direction_type)}</div>` : ""}</td>
           <td>${s.scope ? `<b class="small">${esc(s.scope)}</b>` : `<span class="muted">—</span>`}${pct}</td>
           <td class="small">${s.in_force_from ? fmtDate(s.in_force_from) : '<span class="muted">—</span>'}</td>
           <td>${dirs}${areas}${!dirs && !areas ? '<span class="muted">—</span>' : ""}</td>
