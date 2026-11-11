@@ -1,6 +1,29 @@
 {
-  "lastUpdated": "2026-11-10T16:20:33.142915",
+  "lastUpdated": "2026-11-11T16:05:23.155921",
   "questions": [
+    {
+      "id": 1957951,
+      "uin": "41569",
+      "memberName": "Ruth Jones",
+      "party": "Lab",
+      "house": "Commons",
+      "question": "To ask the Secretary of State for Housing, Communities and Local Government, whether her Department plans to include provisions in the Commonhold and Leasehold Reform Bill to agree the rights of homeowners and occupiers to request permission to keep pets ",
+      "dateTabled": "10th November",
+      "dateTabledRaw": "2026-11-10",
+      "dateForAnswer": "Due 12th November",
+      "dateForAnswerRaw": "2026-11-12",
+      "followUp": false,
+      "weekCommencing": "2026-11-09",
+      "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-11-10/41569",
+      "answered": false,
+      "isHolding": false,
+      "dateAnswered": null,
+      "answeringMember": "",
+      "answeringParty": "",
+      "answerSummary": null,
+      "summaryVersion": 2,
+      "emailed": true
+    },
     {
       "id": 1956598,
       "uin": "40711",
@@ -14111,7 +14134,9 @@
     1955962,
     1956103,
     1956104,
-    1956598
+    1956321,
+    1956598,
+    1956732
   ],
-  "lastEmailDate": "2026-11-10"
+  "lastEmailDate": "2026-11-11"
 }
