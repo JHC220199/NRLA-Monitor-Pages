@@ -1,7 +1,7 @@
 {
   "category": "Claims & Bailiffs",
   "description": "Landlord possession court action statistics from HM Courts & Tribunals Service (MoJ), updated quarterly.",
-  "last_fetched": "2026-08-15T07:20:53Z",
+  "last_fetched": "2026-11-12T15:39:22Z",
   "datasets": [
     {
       "id": "mlp_claims_issued",
@@ -16,12 +16,12 @@
       "unit": "claims",
       "status": "active",
       "latest": {
-        "value": "23635",
-        "period": "2026 Q2",
-        "fetched_at": "2026-08-15T07:20:53Z",
+        "value": "28249",
+        "period": "2026 Q3",
+        "fetched_at": "2026-11-12T15:39:22Z",
         "prev": {
-          "value": "22720",
-          "period": "2026 Q1"
+          "value": "23635",
+          "period": "2026 Q2"
         },
         "trend": "up"
       },
@@ -40,14 +40,14 @@
       "unit": "repossessions",
       "status": "active",
       "latest": {
-        "value": "6560",
-        "period": "2026 Q2",
-        "fetched_at": "2026-08-15T07:20:53Z",
+        "value": "6886",
+        "period": "2026 Q3",
+        "fetched_at": "2026-11-12T15:39:22Z",
         "prev": {
-          "value": "6925",
-          "period": "2026 Q1"
+          "value": "6583",
+          "period": "2026 Q2"
         },
-        "trend": "down"
+        "trend": "up"
       },
       "notes": ""
     },
@@ -64,12 +64,12 @@
       "unit": "claims",
       "status": "active",
       "latest": {
-        "value": "16186",
-        "period": "2026 Q2",
-        "fetched_at": "2026-08-15T07:20:53Z",
+        "value": "19447",
+        "period": "2026 Q3",
+        "fetched_at": "2026-11-12T15:39:22Z",
         "prev": {
-          "value": "14216",
-          "period": "2026 Q1"
+          "value": "16183",
+          "period": "2026 Q2"
         },
         "trend": "up"
       },
@@ -88,12 +88,12 @@
       "unit": "claims",
       "status": "active",
       "latest": {
-        "value": "8569",
-        "period": "2026 Q2",
-        "fetched_at": "2026-08-15T07:20:53Z",
+        "value": "12156",
+        "period": "2026 Q3",
+        "fetched_at": "2026-11-12T15:39:22Z",
         "prev": {
-          "value": "6597",
-          "period": "2026 Q1"
+          "value": "8567",
+          "period": "2026 Q2"
         },
         "trend": "up"
       },
@@ -112,12 +112,12 @@
       "unit": "weeks",
       "status": "active",
       "latest": {
-        "value": "11.5",
-        "period": "2026 Q2",
-        "fetched_at": "2026-08-15T07:20:53Z",
+        "value": "11.2",
+        "period": "2026 Q3",
+        "fetched_at": "2026-11-12T15:39:22Z",
         "prev": {
-          "value": "12.5",
-          "period": "2026 Q1"
+          "value": "11.5",
+          "period": "2026 Q2"
         },
         "trend": "down"
       },
@@ -136,14 +136,14 @@
       "unit": "weeks",
       "status": "active",
       "latest": {
-        "value": "11.1",
-        "period": "2026 Q2",
-        "fetched_at": "2026-08-15T07:20:53Z",
+        "value": "12",
+        "period": "2026 Q3",
+        "fetched_at": "2026-11-12T15:39:22Z",
         "prev": {
-          "value": "12.8",
-          "period": "2026 Q1"
+          "value": "11.1",
+          "period": "2026 Q2"
         },
-        "trend": "down"
+        "trend": "up"
       },
       "notes": "Private landlord claims only. Source: MoJ Tables ODS, Data_6 breakdown."
     },
@@ -160,14 +160,14 @@
       "unit": "weeks",
       "status": "active",
       "latest": {
-        "value": "7.6",
-        "period": "2026 Q2",
-        "fetched_at": "2026-08-15T07:20:53Z",
+        "value": "7.7",
+        "period": "2026 Q3",
+        "fetched_at": "2026-11-12T15:39:22Z",
         "prev": {
-          "value": "8",
-          "period": "2026 Q1"
+          "value": "7.6",
+          "period": "2026 Q2"
         },
-        "trend": "down"
+        "trend": "up"
       },
       "notes": "Median weeks from landlord possession claim to order. Source: MoJ Tables ODS, Table 6."
     }
