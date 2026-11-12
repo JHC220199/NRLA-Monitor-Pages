@@ -1,7 +1,32 @@
 {
- "generated": "2026-11-11T17:03:01+00:00",
- "count": 128,
+ "generated": "2026-11-12T16:42:13+00:00",
+ "count": 129,
  "mentions": [
+  {
+   "id": "https://committees.oldham.gov.uk|10135|Acceptance of GMCA Housing Enforcement Grants|agenda",
+   "councils": [
+    {
+     "name": "Oldham",
+     "gss": "E08000004"
+    }
+   ],
+   "committee": "Governance, Strategy and Resources Scrutiny Board",
+   "meeting_date": "2026-11-19",
+   "meeting_url": "https://committees.oldham.gov.uk/ieListDocuments.aspx?MId=10135",
+   "item_number": "22.",
+   "item_title": "Acceptance of GMCA Housing Enforcement Grants",
+   "doc_title": null,
+   "doc_url": null,
+   "source": "agenda",
+   "tier": "strong",
+   "hit_count": 1,
+   "terms": [
+    "selective licens"
+   ],
+   "stage": "Mention",
+   "snippet": "…eptance is sought for an additional £185,000 in grant funding from the GMCA in relation to enhancing enforcement of housing standards and to utilise £35,000 of Selective Licensing reserves for match funding. | 017 - Emergency Powers Covering Report GMCA Housing Enforcement Grant | 017 - Principal Decision Report - GMCA Housing Enforcement Grants",
+   "first_seen": "2026-11-12T16:28:45+00:00"
+  },
   {
    "id": "https://moderngov.kingston.gov.uk|10361|Article 4 Direction on Houses in Multiple Occupation (HMOs)|116523",
    "councils": [

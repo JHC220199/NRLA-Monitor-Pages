@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T15:31:00+00:00",
+ "generated": "2026-11-12T16:07:30+00:00",
  "source": "Open Council Data UK (opencouncildata.co.uk), CC BY-SA 4.0",
  "count": 318,
  "councils": [
@@ -139,9 +139,9 @@
     "LD": 0,
     "Grn": 0,
     "Ref": 3,
-    "Oth": 31
+    "Oth": 30
    },
-   "vacant": 0,
+   "vacant": 1,
    "total": 35,
    "control_description": "IND Majority",
    "majority_required": 18,
@@ -159,9 +159,9 @@
    "lead_party": "Oth",
    "status": "Majority",
    "overall_control": "Independent majority",
-   "control_seats": 31,
+   "control_seats": 30,
    "control_seats_approx": true,
-   "working_majority": 27,
+   "working_majority": 26,
    "largest_party": "Oth",
    "opposition": {
     "Ref": 3,
@@ -2924,18 +2924,18 @@
   {
    "ocd_id": 408,
    "name": "Dorset",
-   "control_label": "LD",
+   "control_label": "LD min",
    "seats": {
     "Lab": 2,
     "Con": 30,
-    "LD": 42,
+    "LD": 41,
     "Grn": 4,
     "Ref": 0,
     "Oth": 4
    },
-   "vacant": 0,
+   "vacant": 1,
    "total": 82,
-   "control_description": "Lib Dem Majority",
+   "control_description": "LD Minority",
    "majority_required": 42,
    "region": "South West",
    "type": "Unitary",
@@ -2947,11 +2947,11 @@
     "LD"
    ],
    "lead_party": "LD",
-   "status": "Majority",
-   "overall_control": "Liberal Democrat majority",
-   "control_seats": 42,
+   "status": "Minority administration",
+   "overall_control": "No overall control",
+   "control_seats": 41,
    "control_seats_approx": false,
-   "working_majority": 2,
+   "working_majority": 1,
    "largest_party": "LD",
    "opposition": {
     "Con": 30,
@@ -12058,7 +12058,7 @@
   {
    "ocd_id": 410,
    "name": "West Suffolk",
-   "control_label": "LAB/IND/GRN/LD",
+   "control_label": "LAB/IND min",
    "seats": {
     "Lab": 15,
     "Con": 24,
@@ -12069,7 +12069,7 @@
    },
    "vacant": 0,
    "total": 64,
-   "control_description": "LAB/IND/GRN/LD Majority Coalition",
+   "control_description": "LAB/IND Minority Coalition",
    "majority_required": 33,
    "region": "East of England",
    "county": "Suffolk County",
@@ -12081,22 +12081,22 @@
    "ocd_url": "https://opencouncildata.co.uk/council.php?c=410&y=0",
    "control_parties": [
     "Lab",
-    "Oth",
-    "Grn",
-    "LD"
+    "Oth"
    ],
    "lead_party": "Lab",
-   "status": "Coalition",
+   "status": "Coalition (minority)",
    "overall_control": "No overall control",
-   "control_seats": 37,
+   "control_seats": 34,
    "control_seats_approx": true,
-   "working_majority": 10,
+   "working_majority": 4,
    "largest_party": "Con",
    "opposition": {
     "Con": 24,
-    "Ref": 3
+    "Ref": 3,
+    "Grn": 2,
+    "LD": 1
    },
-   "opposition_total": 27
+   "opposition_total": 30
   },
   {
    "ocd_id": 420,

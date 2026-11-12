@@ -1,123 +1,123 @@
 {
- "generated": "2026-11-11T17:03:01+00:00",
+ "generated": "2026-11-12T16:42:13+00:00",
  "sites": {
   "https://democracy.leeds.gov.uk": {
    "councils": [
     "Leeds"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:52:41+00:00",
+   "last_run": "2026-11-12T16:26:46+00:00",
    "meetings_listed": 31,
    "meetings_read": 30,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:53:17+00:00",
-   "seconds": 36
+   "last_ok": "2026-11-12T16:27:21+00:00",
+   "seconds": 35
   },
   "https://mgov.newham.gov.uk": {
    "councils": [
     "Newham"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:54:48+00:00",
+   "last_run": "2026-11-12T16:28:07+00:00",
    "meetings_listed": 25,
    "meetings_read": 24,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:55:30+00:00",
-   "seconds": 42
+   "last_ok": "2026-11-12T16:28:51+00:00",
+   "seconds": 44
   },
   "https://democracy.croydon.gov.uk": {
    "councils": [
     "Croydon"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:44:56+00:00",
+   "last_run": "2026-11-12T16:21:08+00:00",
    "meetings_listed": 10,
    "meetings_read": 10,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:45:17+00:00",
-   "seconds": 21
+   "last_ok": "2026-11-12T16:21:27+00:00",
+   "seconds": 19
   },
   "https://democracy.peterborough.gov.uk": {
    "councils": [
     "Peterborough"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:45:02+00:00",
+   "last_run": "2026-11-12T16:21:20+00:00",
    "meetings_listed": 17,
    "meetings_read": 16,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:45:35+00:00",
-   "seconds": 33
+   "last_ok": "2026-11-12T16:21:42+00:00",
+   "seconds": 22
   },
   "https://burnley.moderngov.co.uk": {
    "councils": [
     "Burnley"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:44:14+00:00",
+   "last_run": "2026-11-12T16:20:44+00:00",
    "meetings_listed": 10,
    "meetings_read": 10,
    "docs_read": 0,
-   "new_mentions": 2,
+   "new_mentions": 0,
    "docs_blocked": 3,
-   "last_ok": "2026-11-11T15:44:38+00:00",
-   "seconds": 25
+   "last_ok": "2026-11-12T16:21:03+00:00",
+   "seconds": 19
   },
   "https://sccdemocracy.salford.gov.uk": {
    "councils": [
     "Salford"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:47:09+00:00",
+   "last_run": "2026-11-12T16:23:21+00:00",
    "meetings_listed": 26,
    "meetings_read": 26,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:48:23+00:00",
-   "seconds": 74
+   "last_ok": "2026-11-12T16:24:05+00:00",
+   "seconds": 43
   },
   "https://ashford.moderngov.co.uk": {
    "councils": [
     "Ashford"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:44:29+00:00",
+   "last_run": "2026-11-12T16:20:44+00:00",
    "meetings_listed": 6,
    "meetings_read": 6,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:44:38+00:00",
-   "seconds": 9
+   "last_ok": "2026-11-12T16:20:51+00:00",
+   "seconds": 8
   },
   "https://democracy.ashfield.gov.uk": {
    "councils": [
     "Ashfield"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:44:24+00:00",
+   "last_run": "2026-11-12T16:20:37+00:00",
    "meetings_listed": 7,
    "meetings_read": 7,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:44:32+00:00",
-   "seconds": 8
+   "last_ok": "2026-11-12T16:20:44+00:00",
+   "seconds": 7
   },
   "https://democracy.arun.gov.uk": {
    "councils": [
     "Arun"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:44:28+00:00",
+   "last_run": "2026-11-12T16:20:50+00:00",
    "meetings_listed": 8,
    "meetings_read": 8,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:44:47+00:00",
-   "seconds": 19
+   "last_ok": "2026-11-12T16:21:02+00:00",
+   "seconds": 12
   },
   "https://democracy.adur-worthing.gov.uk": {
    "councils": [
@@ -125,59 +125,59 @@
     "Worthing"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:44:22+00:00",
+   "last_run": "2026-11-12T16:20:39+00:00",
    "meetings_listed": 9,
    "meetings_read": 9,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:44:34+00:00",
-   "seconds": 12
+   "last_ok": "2026-11-12T16:20:50+00:00",
+   "seconds": 11
   },
   "https://democracy.basingstoke.gov.uk": {
    "councils": [
     "Basingstoke and Deane"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:44:38+00:00",
+   "last_run": "2026-11-12T16:20:51+00:00",
    "meetings_listed": 8,
    "meetings_read": 8,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:44:51+00:00",
-   "seconds": 13
+   "last_ok": "2026-11-12T16:21:03+00:00",
+   "seconds": 11
   },
   "https://bassetlaw.moderngov.co.uk": {
    "councils": [
     "Bassetlaw"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:44:36+00:00",
+   "last_run": "2026-11-12T16:20:51+00:00",
    "meetings_listed": 6,
    "meetings_read": 6,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:44:48+00:00",
-   "seconds": 11
+   "last_ok": "2026-11-12T16:21:03+00:00",
+   "seconds": 12
   },
   "https://baberghmidsuffolk.moderngov.co.uk": {
    "councils": [
     "Babergh"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:44:51+00:00",
+   "last_run": "2026-11-12T16:21:08+00:00",
    "meetings_listed": 17,
    "meetings_read": 16,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:45:15+00:00",
-   "seconds": 24
+   "last_ok": "2026-11-12T16:21:35+00:00",
+   "seconds": 27
   },
   "https://democracy.blaby.gov.uk": {
    "councils": [
     "Blaby"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:31:00+00:00",
+   "last_run": "2026-11-12T16:07:30+00:00",
    "meetings_listed": 0,
    "meetings_read": 0,
    "docs_read": 0,
@@ -191,7 +191,7 @@
     "Bath and North East Somerset"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:31:00+00:00",
+   "last_run": "2026-11-12T16:07:30+00:00",
    "meetings_listed": 0,
    "meetings_read": 0,
    "docs_read": 0,
@@ -205,39 +205,39 @@
     "Barking and Dagenham"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:45:20+00:00",
+   "last_run": "2026-11-12T16:21:44+00:00",
    "meetings_listed": 14,
    "meetings_read": 14,
    "docs_read": 0,
    "new_mentions": 0,
    "docs_blocked": 3,
-   "last_ok": "2026-11-11T15:46:10+00:00",
-   "seconds": 50
+   "last_ok": "2026-11-12T16:22:17+00:00",
+   "seconds": 33
   },
   "https://barnet.moderngov.co.uk": {
    "councils": [
     "Barnet"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:45:17+00:00",
+   "last_run": "2026-11-12T16:21:45+00:00",
    "meetings_listed": 20,
    "meetings_read": 20,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:46:11+00:00",
-   "seconds": 54
+   "last_ok": "2026-11-12T16:22:12+00:00",
+   "seconds": 27
   },
   "http://democracy.bexley.gov.uk": {
    "councils": [
     "Bexley"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:44:39+00:00",
+   "last_run": "2026-11-12T16:20:56+00:00",
    "meetings_listed": 5,
    "meetings_read": 5,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:44:51+00:00",
+   "last_ok": "2026-11-12T16:21:08+00:00",
    "seconds": 12
   },
   "https://barnsleymbc.moderngov.co.uk": {
@@ -245,20 +245,20 @@
     "Barnsley"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:45:04+00:00",
+   "last_run": "2026-11-12T16:21:25+00:00",
    "meetings_listed": 19,
    "meetings_read": 19,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:45:52+00:00",
-   "seconds": 48
+   "last_ok": "2026-11-12T16:21:56+00:00",
+   "seconds": 31
   },
   "https://www.basildonmeetings.info": {
    "councils": [
     "Basildon"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:40:29+00:00",
+   "last_run": "2026-11-12T16:17:00+00:00",
    "meetings_listed": 0,
    "meetings_read": 0,
    "docs_read": 0,
@@ -272,38 +272,38 @@
     "Bolsover"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:44:48+00:00",
+   "last_run": "2026-11-12T16:21:03+00:00",
    "meetings_listed": 9,
    "meetings_read": 9,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:44:58+00:00",
-   "seconds": 10
+   "last_ok": "2026-11-12T16:21:14+00:00",
+   "seconds": 11
   },
   "https://democracy.boston.gov.uk": {
    "councils": [
     "Boston"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:54:34+00:00",
+   "last_run": "2026-11-12T16:27:44+00:00",
    "meetings_listed": 5,
    "meetings_read": 5,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:55:00+00:00",
-   "seconds": 26
+   "last_ok": "2026-11-12T16:28:07+00:00",
+   "seconds": 23
   },
   "https://democracy.blackpool.gov.uk": {
    "councils": [
     "Blackpool"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:46:09+00:00",
+   "last_run": "2026-11-12T16:22:04+00:00",
    "meetings_listed": 14,
    "meetings_read": 14,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:46:31+00:00",
+   "last_ok": "2026-11-12T16:22:26+00:00",
    "seconds": 22
   },
   "https://councillorsupport.bedford.gov.uk": {
@@ -311,52 +311,52 @@
     "Bedford"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:45:56+00:00",
+   "last_run": "2026-11-12T16:21:51+00:00",
    "meetings_listed": 26,
    "meetings_read": 26,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:46:24+00:00",
-   "seconds": 28
+   "last_ok": "2026-11-12T16:22:21+00:00",
+   "seconds": 30
   },
   "https://democracy.breckland.gov.uk": {
    "councils": [
     "Breckland"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:31:00+00:00",
+   "last_run": "2026-11-12T16:07:30+00:00",
    "meetings_listed": 0,
    "meetings_read": 0,
    "docs_read": 0,
    "new_mentions": 0,
    "error": "ConnectTimeout: HTTPSConnectionPool(host='democracy.breckland.gov.uk', port=443): Max retries exceeded with url: /mgWebService.asmx/GetM",
    "last_ok": null,
-   "seconds": 189
+   "seconds": 190
   },
   "https://democracy.bcpcouncil.gov.uk": {
    "councils": [
     "Bournemouth, Christchurch and Poole"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:45:04+00:00",
-   "meetings_listed": 13,
+   "last_run": "2026-11-12T16:21:14+00:00",
+   "meetings_listed": 12,
    "meetings_read": 12,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:45:18+00:00",
-   "seconds": 14
+   "last_ok": "2026-11-12T16:21:29+00:00",
+   "seconds": 15
   },
   "https://brentwood.moderngov.co.uk": {
    "councils": [
     "Brentwood"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:44:51+00:00",
+   "last_run": "2026-11-12T16:21:07+00:00",
    "meetings_listed": 8,
    "meetings_read": 8,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:45:04+00:00",
+   "last_ok": "2026-11-12T16:21:19+00:00",
    "seconds": 13
   },
   "https://democracy.blackburn.gov.uk": {
@@ -364,66 +364,66 @@
     "Blackburn with Darwen"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:46:49+00:00",
+   "last_run": "2026-11-12T16:22:43+00:00",
    "meetings_listed": 27,
    "meetings_read": 24,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:47:24+00:00",
-   "seconds": 35
+   "last_ok": "2026-11-12T16:23:10+00:00",
+   "seconds": 27
   },
   "https://democratic.bracknell-forest.gov.uk": {
    "councils": [
     "Bracknell Forest"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:45:03+00:00",
+   "last_run": "2026-11-12T16:21:19+00:00",
    "meetings_listed": 11,
    "meetings_read": 11,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:45:29+00:00",
-   "seconds": 26
+   "last_ok": "2026-11-12T16:21:45+00:00",
+   "seconds": 25
   },
   "https://democracy.brent.gov.uk": {
    "councils": [
     "Brent"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:46:44+00:00",
-   "meetings_listed": 11,
+   "last_run": "2026-11-12T16:22:30+00:00",
+   "meetings_listed": 10,
    "meetings_read": 10,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:47:09+00:00",
-   "seconds": 25
+   "last_ok": "2026-11-12T16:22:51+00:00",
+   "seconds": 20
   },
   "https://broxbourne.moderngov.co.uk": {
    "councils": [
     "Broxbourne"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:44:56+00:00",
+   "last_run": "2026-11-12T16:21:03+00:00",
    "meetings_listed": 2,
    "meetings_read": 2,
    "docs_read": 0,
    "new_mentions": 0,
    "docs_blocked": 1,
-   "last_ok": "2026-11-11T15:45:03+00:00",
-   "seconds": 7
+   "last_ok": "2026-11-12T16:21:08+00:00",
+   "seconds": 5
   },
   "https://bradford.moderngov.co.uk": {
    "councils": [
     "Bradford"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:46:31+00:00",
-   "meetings_listed": 22,
+   "last_run": "2026-11-12T16:22:22+00:00",
+   "meetings_listed": 21,
    "meetings_read": 20,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:47:02+00:00",
-   "seconds": 31
+   "last_ok": "2026-11-12T16:22:44+00:00",
+   "seconds": 22
   },
   "https://democracy.southnorfolkandbroadland.gov.uk": {
    "councils": [
@@ -431,25 +431,25 @@
     "South Norfolk"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:45:35+00:00",
+   "last_run": "2026-11-12T16:21:29+00:00",
    "meetings_listed": 15,
    "meetings_read": 15,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:45:56+00:00",
-   "seconds": 20
+   "last_ok": "2026-11-12T16:21:44+00:00",
+   "seconds": 16
   },
   "https://democracy.broxtowe.gov.uk": {
    "councils": [
     "Broxtowe"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:45:15+00:00",
+   "last_run": "2026-11-12T16:21:17+00:00",
    "meetings_listed": 4,
    "meetings_read": 4,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:45:20+00:00",
+   "last_ok": "2026-11-12T16:21:22+00:00",
    "seconds": 5
   },
   "https://moderngovwebpublic.bromsgrove.gov.uk": {
@@ -457,20 +457,20 @@
     "Bromsgrove"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:45:52+00:00",
+   "last_run": "2026-11-12T16:21:35+00:00",
    "meetings_listed": 10,
    "meetings_read": 9,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:46:03+00:00",
-   "seconds": 11
+   "last_ok": "2026-11-12T16:21:48+00:00",
+   "seconds": 13
   },
   "https://democracy.camden.gov.uk": {
    "councils": [
     "Camden"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:31:00+00:00",
+   "last_run": "2026-11-12T16:07:30+00:00",
    "meetings_listed": 0,
    "meetings_read": 0,
    "docs_read": 0,
@@ -484,33 +484,33 @@
     "Bury"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:46:51+00:00",
+   "last_run": "2026-11-12T16:22:32+00:00",
    "meetings_listed": 17,
    "meetings_read": 17,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:47:09+00:00",
-   "seconds": 18
+   "last_ok": "2026-11-12T16:22:51+00:00",
+   "seconds": 19
   },
   "https://calderdale.moderngov.co.uk": {
    "councils": [
     "Calderdale"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:45:38+00:00",
+   "last_run": "2026-11-12T16:21:27+00:00",
    "meetings_listed": 11,
    "meetings_read": 11,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:45:54+00:00",
-   "seconds": 16
+   "last_ok": "2026-11-12T16:21:41+00:00",
+   "seconds": 14
   },
   "https://democracy.canterbury.gov.uk": {
    "councils": [
     "Canterbury"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:31:00+00:00",
+   "last_run": "2026-11-12T16:07:30+00:00",
    "meetings_listed": 0,
    "meetings_read": 0,
    "docs_read": 0,
@@ -524,7 +524,7 @@
     "Cheltenham"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:31:00+00:00",
+   "last_run": "2026-11-12T16:07:30+00:00",
    "meetings_listed": 0,
    "meetings_read": 0,
    "docs_read": 0,
@@ -538,7 +538,7 @@
     "Cherwell"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:31:00+00:00",
+   "last_run": "2026-11-12T16:07:30+00:00",
    "meetings_listed": 0,
    "meetings_read": 0,
    "docs_read": 0,
@@ -552,7 +552,7 @@
     "Cheshire East"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:31:00+00:00",
+   "last_run": "2026-11-12T16:07:30+00:00",
    "meetings_listed": 0,
    "meetings_read": 0,
    "docs_read": 0,
@@ -566,7 +566,7 @@
     "Cheshire West and Chester"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:31:00+00:00",
+   "last_run": "2026-11-12T16:07:31+00:00",
    "meetings_listed": 0,
    "meetings_read": 0,
    "docs_read": 0,
@@ -580,74 +580,74 @@
     "Cambridge"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:46:52+00:00",
+   "last_run": "2026-11-12T16:22:51+00:00",
    "meetings_listed": 7,
    "meetings_read": 7,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:47:50+00:00",
-   "seconds": 57
+   "last_ok": "2026-11-12T16:23:21+00:00",
+   "seconds": 30
   },
   "https://chesterfield.moderngov.co.uk": {
    "councils": [
     "Chesterfield"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:46:03+00:00",
+   "last_run": "2026-11-12T16:22:04+00:00",
    "meetings_listed": 10,
    "meetings_read": 10,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:46:33+00:00",
-   "seconds": 30
+   "last_ok": "2026-11-12T16:22:17+00:00",
+   "seconds": 14
   },
   "https://chichester.moderngov.co.uk": {
    "councils": [
     "Chichester"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:46:10+00:00",
+   "last_run": "2026-11-12T16:22:09+00:00",
    "meetings_listed": 9,
    "meetings_read": 9,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:46:44+00:00",
-   "seconds": 34
+   "last_ok": "2026-11-12T16:22:22+00:00",
+   "seconds": 13
   },
   "https://charnwood.moderngov.co.uk": {
    "councils": [
     "Charnwood"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:47:14+00:00",
+   "last_run": "2026-11-12T16:22:59+00:00",
    "meetings_listed": 15,
    "meetings_read": 15,
    "docs_read": 0,
    "new_mentions": 0,
    "docs_blocked": 3,
-   "last_ok": "2026-11-11T15:47:55+00:00",
-   "seconds": 41
+   "last_ok": "2026-11-12T16:23:29+00:00",
+   "seconds": 30
   },
   "https://buckinghamshire.moderngov.co.uk": {
    "councils": [
     "Buckinghamshire"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:48:12+00:00",
+   "last_run": "2026-11-12T16:23:45+00:00",
    "meetings_listed": 26,
    "meetings_read": 26,
    "docs_read": 0,
    "new_mentions": 0,
    "docs_blocked": 3,
-   "last_ok": "2026-11-11T15:49:15+00:00",
-   "seconds": 63
+   "last_ok": "2026-11-12T16:24:24+00:00",
+   "seconds": 39
   },
   "https://meetings.cotswold.gov.uk": {
    "councils": [
     "Cotswold"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:31:00+00:00",
+   "last_run": "2026-11-12T16:07:31+00:00",
    "meetings_listed": 0,
    "meetings_read": 0,
    "docs_read": 0,
@@ -661,46 +661,46 @@
     "Central Bedfordshire"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:47:10+00:00",
+   "last_run": "2026-11-12T16:22:57+00:00",
    "meetings_listed": 17,
    "meetings_read": 17,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:47:53+00:00",
-   "seconds": 43
+   "last_ok": "2026-11-12T16:23:29+00:00",
+   "seconds": 32
   },
   "https://cds.bromley.gov.uk": {
    "councils": [
     "Bromley"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:47:40+00:00",
-   "meetings_listed": 18,
+   "last_run": "2026-11-12T16:23:11+00:00",
+   "meetings_listed": 17,
    "meetings_read": 17,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:48:12+00:00",
-   "seconds": 31
+   "last_ok": "2026-11-12T16:23:45+00:00",
+   "seconds": 34
   },
   "https://democracy.bristol.gov.uk": {
    "councils": [
     "Bristol"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:49:34+00:00",
+   "last_run": "2026-11-12T16:25:03+00:00",
    "meetings_listed": 35,
    "meetings_read": 34,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:51:03+00:00",
-   "seconds": 89
+   "last_ok": "2026-11-12T16:26:00+00:00",
+   "seconds": 57
   },
   "https://democracy.dacorum.gov.uk": {
    "councils": [
     "Dacorum"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:31:01+00:00",
+   "last_run": "2026-11-12T16:07:31+00:00",
    "meetings_listed": 0,
    "meetings_read": 0,
    "docs_read": 0,
@@ -714,7 +714,7 @@
     "Coventry"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:31:00+00:00",
+   "last_run": "2026-11-12T16:07:31+00:00",
    "meetings_listed": 0,
    "meetings_read": 0,
    "docs_read": 0,
@@ -728,51 +728,51 @@
     "Chorley"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:46:11+00:00",
+   "last_run": "2026-11-12T16:22:25+00:00",
    "meetings_listed": 6,
    "meetings_read": 6,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:47:06+00:00",
-   "seconds": 55
+   "last_ok": "2026-11-12T16:22:48+00:00",
+   "seconds": 23
   },
   "https://democracy.crawley.gov.uk": {
    "councils": [
     "Crawley"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:46:24+00:00",
-   "meetings_listed": 14,
-   "meetings_read": 13,
+   "last_run": "2026-11-12T16:22:17+00:00",
+   "meetings_listed": 15,
+   "meetings_read": 14,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:46:52+00:00",
-   "seconds": 28
+   "last_ok": "2026-11-12T16:22:33+00:00",
+   "seconds": 15
   },
   "https://democracy.derbyshiredales.gov.uk": {
    "councils": [
     "Derbyshire Dales"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:46:33+00:00",
+   "last_run": "2026-11-12T16:22:12+00:00",
    "meetings_listed": 6,
    "meetings_read": 6,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:46:49+00:00",
-   "seconds": 16
+   "last_ok": "2026-11-12T16:22:22+00:00",
+   "seconds": 10
   },
   "https://democracy.darlington.gov.uk": {
    "councils": [
     "Darlington"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:46:17+00:00",
-   "meetings_listed": 8,
+   "last_run": "2026-11-12T16:21:56+00:00",
+   "meetings_listed": 7,
    "meetings_read": 6,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:46:25+00:00",
+   "last_ok": "2026-11-12T16:22:04+00:00",
    "seconds": 8
   },
   "https://dartford.moderngov.co.uk": {
@@ -780,73 +780,73 @@
     "Dartford"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:46:47+00:00",
+   "last_run": "2026-11-12T16:22:22+00:00",
    "meetings_listed": 7,
    "meetings_read": 6,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:46:57+00:00",
-   "seconds": 10
+   "last_ok": "2026-11-12T16:22:30+00:00",
+   "seconds": 8
   },
   "https://moderngov.dorsetcouncil.gov.uk": {
    "councils": [
     "Dorset"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:31:01+00:00",
+   "last_run": "2026-11-12T16:07:31+00:00",
    "meetings_listed": 0,
    "meetings_read": 0,
    "docs_read": 0,
    "new_mentions": 0,
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://moderngov.dorsetcouncil.gov.uk/mgWebService.asmx/GetMeetings?lCommitteeId=-",
    "last_ok": null,
-   "seconds": 0
+   "seconds": 1
   },
   "https://democracy.derbyshire.gov.uk": {
    "councils": [
     "Derbyshire"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:46:54+00:00",
+   "last_run": "2026-11-12T16:22:33+00:00",
    "meetings_listed": 9,
    "meetings_read": 9,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:47:14+00:00",
-   "seconds": 20
+   "last_ok": "2026-11-12T16:22:43+00:00",
+   "seconds": 10
   },
   "https://cumberland.moderngov.co.uk": {
    "councils": [
     "Cumberland"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:48:28+00:00",
+   "last_run": "2026-11-12T16:23:33+00:00",
    "meetings_listed": 27,
    "meetings_read": 22,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:48:55+00:00",
-   "seconds": 27
+   "last_ok": "2026-11-12T16:23:57+00:00",
+   "seconds": 24
   },
   "https://doncaster.moderngov.co.uk": {
    "councils": [
     "Doncaster"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:47:09+00:00",
-   "meetings_listed": 13,
+   "last_run": "2026-11-12T16:22:44+00:00",
+   "meetings_listed": 12,
    "meetings_read": 12,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:47:37+00:00",
-   "seconds": 28
+   "last_ok": "2026-11-12T16:23:00+00:00",
+   "seconds": 16
   },
   "https://democracy.eastdevon.gov.uk": {
    "councils": [
     "East Devon"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:31:01+00:00",
+   "last_run": "2026-11-12T16:07:31+00:00",
    "meetings_listed": 0,
    "meetings_read": 0,
    "docs_read": 0,
@@ -860,7 +860,7 @@
     "Durham"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:31:01+00:00",
+   "last_run": "2026-11-12T16:07:31+00:00",
    "meetings_listed": 0,
    "meetings_read": 0,
    "docs_read": 0,
@@ -874,59 +874,59 @@
     "Ealing"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:47:06+00:00",
+   "last_run": "2026-11-12T16:22:34+00:00",
    "meetings_listed": 11,
    "meetings_read": 11,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:47:23+00:00",
-   "seconds": 16
+   "last_ok": "2026-11-12T16:22:47+00:00",
+   "seconds": 13
   },
   "https://democracy.devon.gov.uk": {
    "councils": [
     "Devon"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:47:24+00:00",
+   "last_run": "2026-11-12T16:22:51+00:00",
    "meetings_listed": 14,
    "meetings_read": 14,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:47:49+00:00",
-   "seconds": 25
+   "last_ok": "2026-11-12T16:23:14+00:00",
+   "seconds": 23
   },
   "https://easthants.moderngov.co.uk": {
    "councils": [
     "East Hampshire"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:46:57+00:00",
+   "last_run": "2026-11-12T16:22:26+00:00",
    "meetings_listed": 6,
    "meetings_read": 6,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:47:08+00:00",
-   "seconds": 10
+   "last_ok": "2026-11-12T16:22:34+00:00",
+   "seconds": 8
   },
   "https://moderngov.dover.gov.uk": {
    "councils": [
     "Dover"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:47:59+00:00",
+   "last_run": "2026-11-12T16:23:21+00:00",
    "meetings_listed": 17,
-   "meetings_read": 16,
+   "meetings_read": 17,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:48:27+00:00",
-   "seconds": 28
+   "last_ok": "2026-11-12T16:23:42+00:00",
+   "seconds": 20
   },
   "https://meetings.eastleigh.gov.uk": {
    "councils": [
     "Eastleigh"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:31:01+00:00",
+   "last_run": "2026-11-12T16:07:32+00:00",
    "meetings_listed": 0,
    "meetings_read": 0,
    "docs_read": 0,
@@ -940,62 +940,62 @@
     "East Lindsey"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:54:27+00:00",
+   "last_run": "2026-11-12T16:28:11+00:00",
    "meetings_listed": 4,
    "meetings_read": 4,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:55:46+00:00",
-   "seconds": 79
+   "last_ok": "2026-11-12T16:29:13+00:00",
+   "seconds": 62
   },
   "https://democracy.eastherts.gov.uk": {
    "councils": [
     "East Hertfordshire"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:40:29+00:00",
+   "last_run": "2026-11-12T16:17:00+00:00",
    "meetings_listed": 0,
    "meetings_read": 0,
    "docs_read": 0,
    "new_mentions": 0,
    "error": "ConnectionError: HTTPSConnectionPool(host='democracy.eastherts.gov.uk', port=443): Max retries exceeded with url: /mgWebService.asmx/GetM",
    "last_ok": "2026-11-05T20:24:32+00:00",
-   "seconds": 44
+   "seconds": 42
   },
   "https://democracy.cornwall.gov.uk": {
    "councils": [
     "Cornwall"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:55:09+00:00",
+   "last_run": "2026-11-12T16:28:29+00:00",
    "meetings_listed": 19,
-   "meetings_read": 2,
+   "meetings_read": 17,
    "docs_read": 0,
    "new_mentions": 0,
-   "meeting_errors": 16,
+   "meeting_errors": 1,
    "last_meeting_error": "ConnectionError: HTTPSConnectionPool(host='democracy.cornwall.gov.uk', port=443): Max retries exceeded with url: /mgWebService.asmx/GetMe",
-   "last_ok": "2026-11-11T17:03:00+00:00",
-   "seconds": 4072
+   "last_ok": "2026-11-12T16:42:13+00:00",
+   "seconds": 824
   },
   "https://democracy.lewes-eastbourne.gov.uk": {
    "councils": [
     "Eastbourne"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:47:45+00:00",
+   "last_run": "2026-11-12T16:23:10+00:00",
    "meetings_listed": 13,
    "meetings_read": 13,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:48:11+00:00",
-   "seconds": 26
+   "last_ok": "2026-11-12T16:23:30+00:00",
+   "seconds": 20
   },
   "https://mygov.elmbridge.gov.uk": {
    "councils": [
     "Elmbridge"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:31:01+00:00",
+   "last_run": "2026-11-12T16:07:32+00:00",
    "meetings_listed": 0,
    "meetings_read": 0,
    "docs_read": 0,
@@ -1009,7 +1009,7 @@
     "Exeter"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:31:01+00:00",
+   "last_run": "2026-11-12T16:07:32+00:00",
    "meetings_listed": 0,
    "meetings_read": 0,
    "docs_read": 0,
@@ -1023,12 +1023,12 @@
     "Epsom and Ewell"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:47:02+00:00",
+   "last_run": "2026-11-12T16:22:33+00:00",
    "meetings_listed": 6,
    "meetings_read": 6,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:47:10+00:00",
+   "last_ok": "2026-11-12T16:22:41+00:00",
    "seconds": 8
   },
   "https://www.fenland.gov.uk/localgov": {
@@ -1036,34 +1036,34 @@
     "Fenland"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:31:02+00:00",
+   "last_run": "2026-11-12T16:07:33+00:00",
    "meetings_listed": 0,
    "meetings_read": 0,
    "docs_read": 0,
    "new_mentions": 0,
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.fenland.gov.uk/localgov/mgWebService.asmx/GetMeetings?lCommitteeId=-1&s",
    "last_ok": null,
-   "seconds": 0
+   "seconds": 1
   },
   "https://democracy.eastsussex.gov.uk": {
    "councils": [
     "East Sussex"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:48:47+00:00",
+   "last_run": "2026-11-12T16:23:44+00:00",
    "meetings_listed": 26,
    "meetings_read": 26,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:49:14+00:00",
-   "seconds": 27
+   "last_ok": "2026-11-12T16:24:11+00:00",
+   "seconds": 26
   },
   "https://meetings.fdean.gov.uk": {
    "councils": [
     "Forest of Dean"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:31:03+00:00",
+   "last_run": "2026-11-12T16:07:33+00:00",
    "meetings_listed": 0,
    "meetings_read": 0,
    "docs_read": 0,
@@ -1077,194 +1077,194 @@
     "Erewash"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:47:08+00:00",
+   "last_run": "2026-11-12T16:22:41+00:00",
    "meetings_listed": 9,
    "meetings_read": 9,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:47:23+00:00",
-   "seconds": 15
+   "last_ok": "2026-11-12T16:22:51+00:00",
+   "seconds": 10
   },
   "https://folkestone-hythe.moderngov.co.uk": {
    "councils": [
     "Folkestone and Hythe"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:47:23+00:00",
+   "last_run": "2026-11-12T16:22:47+00:00",
    "meetings_listed": 10,
    "meetings_read": 10,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:47:40+00:00",
-   "seconds": 18
+   "last_ok": "2026-11-12T16:22:59+00:00",
+   "seconds": 12
   },
   "https://governance.enfield.gov.uk": {
    "councils": [
     "Enfield"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:49:14+00:00",
+   "last_run": "2026-11-12T16:24:30+00:00",
    "meetings_listed": 27,
-   "meetings_read": 26,
+   "meetings_read": 27,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:50:05+00:00",
-   "seconds": 51
+   "last_ok": "2026-11-12T16:25:02+00:00",
+   "seconds": 32
   },
   "https://moderngov.fareham.gov.uk": {
    "councils": [
     "Fareham"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:47:23+00:00",
+   "last_run": "2026-11-12T16:22:48+00:00",
    "meetings_listed": 12,
    "meetings_read": 12,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:47:41+00:00",
-   "seconds": 18
+   "last_ok": "2026-11-12T16:23:02+00:00",
+   "seconds": 14
   },
   "https://gateshead.moderngov.co.uk": {
    "councils": [
     "Gateshead"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:48:14+00:00",
+   "last_run": "2026-11-12T16:23:29+00:00",
    "meetings_listed": 18,
    "meetings_read": 18,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:48:37+00:00",
-   "seconds": 23
+   "last_ok": "2026-11-12T16:23:48+00:00",
+   "seconds": 20
   },
   "https://democracy.gedling.gov.uk": {
    "councils": [
     "Gedling"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:47:49+00:00",
+   "last_run": "2026-11-12T16:23:00+00:00",
    "meetings_listed": 8,
    "meetings_read": 8,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:47:59+00:00",
-   "seconds": 10
+   "last_ok": "2026-11-12T16:23:11+00:00",
+   "seconds": 11
   },
   "https://democracy.gosport.gov.uk": {
    "councils": [
     "Gosport"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:47:37+00:00",
-   "meetings_listed": 7,
-   "meetings_read": 7,
+   "last_run": "2026-11-12T16:22:51+00:00",
+   "meetings_listed": 6,
+   "meetings_read": 6,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:47:45+00:00",
-   "seconds": 8
+   "last_ok": "2026-11-12T16:22:57+00:00",
+   "seconds": 6
   },
   "https://democracy.cityoflondon.gov.uk": {
    "councils": [
     "City of London"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:54:09+00:00",
-   "meetings_listed": 52,
+   "last_run": "2026-11-12T16:27:59+00:00",
+   "meetings_listed": 49,
    "meetings_read": 48,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:55:25+00:00",
-   "seconds": 76
+   "last_ok": "2026-11-12T16:29:30+00:00",
+   "seconds": 91
   },
   "https://democracy.gravesham.gov.uk": {
    "councils": [
     "Gravesham"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:48:01+00:00",
+   "last_run": "2026-11-12T16:23:11+00:00",
    "meetings_listed": 12,
    "meetings_read": 12,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:48:14+00:00",
-   "seconds": 14
+   "last_ok": "2026-11-12T16:23:24+00:00",
+   "seconds": 13
   },
   "http://democracy.gloucester.gov.uk": {
    "councils": [
     "Gloucester"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:47:50+00:00",
+   "last_run": "2026-11-12T16:23:02+00:00",
    "meetings_listed": 9,
    "meetings_read": 7,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:48:02+00:00",
-   "seconds": 12
+   "last_ok": "2026-11-12T16:23:11+00:00",
+   "seconds": 9
   },
   "https://committees.royalgreenwich.gov.uk": {
    "councils": [
     "Greenwich"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:48:11+00:00",
+   "last_run": "2026-11-12T16:23:29+00:00",
    "meetings_listed": 15,
    "meetings_read": 14,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:48:35+00:00",
-   "seconds": 24
+   "last_ok": "2026-11-12T16:23:44+00:00",
+   "seconds": 16
   },
   "https://democracy.lbhf.gov.uk": {
    "councils": [
     "Hammersmith and Fulham"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:48:39+00:00",
+   "last_run": "2026-11-12T16:23:34+00:00",
    "meetings_listed": 13,
    "meetings_read": 13,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:48:56+00:00",
-   "seconds": 16
+   "last_ok": "2026-11-12T16:23:49+00:00",
+   "seconds": 14
   },
   "https://democracy.guildford.gov.uk": {
    "councils": [
     "Guildford"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:49:08+00:00",
+   "last_run": "2026-11-12T16:24:09+00:00",
    "meetings_listed": 14,
    "meetings_read": 13,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:49:39+00:00",
-   "seconds": 31
+   "last_ok": "2026-11-12T16:24:30+00:00",
+   "seconds": 21
   },
   "https://glostext.gloucestershire.gov.uk": {
    "councils": [
     "Gloucestershire"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:48:37+00:00",
+   "last_run": "2026-11-12T16:23:43+00:00",
    "meetings_listed": 14,
    "meetings_read": 14,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:49:12+00:00",
-   "seconds": 35
+   "last_ok": "2026-11-12T16:24:09+00:00",
+   "seconds": 25
   },
   "https://harlow.moderngov.co.uk": {
    "councils": [
     "Harlow"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:47:55+00:00",
+   "last_run": "2026-11-12T16:23:09+00:00",
    "meetings_listed": 7,
    "meetings_read": 7,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:48:08+00:00",
+   "last_ok": "2026-11-12T16:23:21+00:00",
    "seconds": 13
   },
   "https://hackney.moderngov.co.uk": {
@@ -1272,25 +1272,25 @@
     "Hackney"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:48:55+00:00",
+   "last_run": "2026-11-12T16:24:06+00:00",
    "meetings_listed": 17,
    "meetings_read": 16,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:49:36+00:00",
-   "seconds": 41
+   "last_ok": "2026-11-12T16:24:32+00:00",
+   "seconds": 25
   },
   "https://hart.moderngov.co.uk": {
    "councils": [
     "Hart"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:47:53+00:00",
+   "last_run": "2026-11-12T16:23:00+00:00",
    "meetings_listed": 5,
    "meetings_read": 5,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:48:01+00:00",
+   "last_ok": "2026-11-12T16:23:09+00:00",
    "seconds": 8
   },
   "https://www.minutes.haringey.gov.uk": {
@@ -1298,20 +1298,20 @@
     "Haringey"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:49:57+00:00",
+   "last_run": "2026-11-12T16:24:41+00:00",
    "meetings_listed": 20,
-   "meetings_read": 18,
+   "meetings_read": 19,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:50:31+00:00",
-   "seconds": 33
+   "last_ok": "2026-11-12T16:25:05+00:00",
+   "seconds": 24
   },
   "https://democracy.havering.gov.uk": {
    "councils": [
     "Havering"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:31:03+00:00",
+   "last_run": "2026-11-12T16:07:33+00:00",
    "meetings_listed": 0,
    "meetings_read": 0,
    "docs_read": 0,
@@ -1325,64 +1325,64 @@
     "Hastings"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:48:02+00:00",
+   "last_run": "2026-11-12T16:23:14+00:00",
    "meetings_listed": 9,
    "meetings_read": 9,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:48:18+00:00",
-   "seconds": 16
+   "last_ok": "2026-11-12T16:23:25+00:00",
+   "seconds": 11
   },
   "https://havant.moderngov.co.uk": {
    "councils": [
     "Havant"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:48:18+00:00",
+   "last_run": "2026-11-12T16:23:25+00:00",
    "meetings_listed": 8,
    "meetings_read": 8,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:48:30+00:00",
-   "seconds": 11
+   "last_ok": "2026-11-12T16:23:34+00:00",
+   "seconds": 10
   },
   "https://democracy.hants.gov.uk": {
    "councils": [
     "Hampshire"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:49:43+00:00",
+   "last_run": "2026-11-12T16:25:11+00:00",
    "meetings_listed": 18,
    "meetings_read": 18,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:51:17+00:00",
-   "seconds": 93
+   "last_ok": "2026-11-12T16:25:51+00:00",
+   "seconds": 40
   },
   "https://councillors.herefordshire.gov.uk": {
    "councils": [
     "Herefordshire"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:48:35+00:00",
-   "meetings_listed": 12,
-   "meetings_read": 12,
+   "last_run": "2026-11-12T16:23:30+00:00",
+   "meetings_listed": 13,
+   "meetings_read": 13,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:48:47+00:00",
-   "seconds": 13
+   "last_ok": "2026-11-12T16:23:43+00:00",
+   "seconds": 14
   },
   "https://moderngov.harrow.gov.uk": {
    "councils": [
     "Harrow"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:49:12+00:00",
+   "last_run": "2026-11-12T16:24:05+00:00",
    "meetings_listed": 12,
    "meetings_read": 12,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:49:34+00:00",
+   "last_ok": "2026-11-12T16:24:27+00:00",
    "seconds": 22
   },
   "https://democracy.hertfordshire.gov.uk": {
@@ -1390,26 +1390,26 @@
     "Hertfordshire"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:49:24+00:00",
+   "last_run": "2026-11-12T16:24:25+00:00",
    "meetings_listed": 14,
    "meetings_read": 14,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:49:59+00:00",
-   "seconds": 35
+   "last_ok": "2026-11-12T16:24:41+00:00",
+   "seconds": 16
   },
   "https://moderngov.hinckley-bosworth.gov.uk": {
    "councils": [
     "Hinckley and Bosworth"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:48:23+00:00",
+   "last_run": "2026-11-12T16:23:25+00:00",
    "meetings_listed": 7,
    "meetings_read": 7,
    "docs_read": 0,
    "new_mentions": 0,
    "docs_blocked": 1,
-   "last_ok": "2026-11-11T15:48:31+00:00",
+   "last_ok": "2026-11-12T16:23:33+00:00",
    "seconds": 8
   },
   "https://horsham.moderngov.co.uk": {
@@ -1417,52 +1417,52 @@
     "Horsham"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:49:17+00:00",
+   "last_run": "2026-11-12T16:24:11+00:00",
    "meetings_listed": 8,
    "meetings_read": 8,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:49:42+00:00",
-   "seconds": 25
+   "last_ok": "2026-11-12T16:24:23+00:00",
+   "seconds": 12
   },
   "https://hertsmere.moderngov.co.uk": {
    "councils": [
     "Hertsmere"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:49:36+00:00",
+   "last_run": "2026-11-12T16:24:42+00:00",
    "meetings_listed": 12,
    "meetings_read": 12,
    "docs_read": 0,
    "new_mentions": 0,
    "docs_blocked": 3,
-   "last_ok": "2026-11-11T15:50:32+00:00",
-   "seconds": 56
+   "last_ok": "2026-11-12T16:25:03+00:00",
+   "seconds": 21
   },
   "https://modgov.hillingdon.gov.uk": {
    "councils": [
     "Hillingdon"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:48:56+00:00",
+   "last_run": "2026-11-12T16:23:42+00:00",
    "meetings_listed": 8,
    "meetings_read": 8,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:49:08+00:00",
-   "seconds": 12
+   "last_ok": "2026-11-12T16:23:59+00:00",
+   "seconds": 18
   },
   "https://democracy.ipswich.gov.uk": {
    "councils": [
     "Ipswich"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:48:27+00:00",
+   "last_run": "2026-11-12T16:23:24+00:00",
    "meetings_listed": 0,
    "meetings_read": 0,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:48:28+00:00",
+   "last_ok": "2026-11-12T16:23:25+00:00",
    "seconds": 1
   },
   "https://democracy.hyndburnbc.gov.uk": {
@@ -1470,12 +1470,12 @@
     "Hyndburn"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:49:15+00:00",
-   "meetings_listed": 7,
-   "meetings_read": 7,
+   "last_run": "2026-11-12T16:23:57+00:00",
+   "meetings_listed": 8,
+   "meetings_read": 8,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:49:24+00:00",
+   "last_ok": "2026-11-12T16:24:06+00:00",
    "seconds": 9
   },
   "https://democraticservices.hounslow.gov.uk": {
@@ -1483,12 +1483,12 @@
     "Hounslow"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:50:10+00:00",
+   "last_run": "2026-11-12T16:24:48+00:00",
    "meetings_listed": 18,
    "meetings_read": 17,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:50:33+00:00",
+   "last_ok": "2026-11-12T16:25:11+00:00",
    "seconds": 23
   },
   "https://democracy.highpeak.gov.uk": {
@@ -1496,138 +1496,138 @@
     "High Peak"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:50:15+00:00",
+   "last_run": "2026-11-12T16:24:51+00:00",
    "meetings_listed": 20,
    "meetings_read": 19,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:50:51+00:00",
-   "seconds": 36
+   "last_ok": "2026-11-12T16:25:17+00:00",
+   "seconds": 26
   },
   "https://iow.moderngov.co.uk": {
    "councils": [
     "Isle of Wight"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:49:25+00:00",
+   "last_run": "2026-11-12T16:24:23+00:00",
    "meetings_listed": 9,
-   "meetings_read": 7,
+   "meetings_read": 8,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:49:43+00:00",
-   "seconds": 18
+   "last_ok": "2026-11-12T16:24:35+00:00",
+   "seconds": 12
   },
   "https://democracy.islington.gov.uk": {
    "councils": [
     "Islington"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:49:39+00:00",
+   "last_run": "2026-11-12T16:24:27+00:00",
    "meetings_listed": 13,
    "meetings_read": 13,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:50:04+00:00",
-   "seconds": 25
+   "last_ok": "2026-11-12T16:24:42+00:00",
+   "seconds": 15
   },
   "https://www.rbkc.gov.uk/Committees": {
    "councils": [
     "Kensington and Chelsea"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:49:42+00:00",
+   "last_run": "2026-11-12T16:24:32+00:00",
    "meetings_listed": 13,
    "meetings_read": 13,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:50:07+00:00",
-   "seconds": 24
+   "last_ok": "2026-11-12T16:24:48+00:00",
+   "seconds": 16
   },
   "https://moderngov.halton.gov.uk": {
    "councils": [
     "Halton"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:46:25+00:00",
+   "last_run": "2026-11-12T16:22:17+00:00",
    "meetings_listed": 12,
    "meetings_read": 11,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:46:51+00:00",
-   "seconds": 26
+   "last_ok": "2026-11-12T16:22:32+00:00",
+   "seconds": 15
   },
   "https://councillors.knowsley.gov.uk": {
    "councils": [
     "Knowsley"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:31:03+00:00",
+   "last_run": "2026-11-12T16:07:34+00:00",
    "meetings_listed": 0,
    "meetings_read": 0,
    "docs_read": 0,
    "new_mentions": 0,
    "error": "ConnectionError: HTTPSConnectionPool(host='councillors.knowsley.gov.uk', port=443): Max retries exceeded with url: /mgWebService.asmx/Get",
    "last_ok": null,
-   "seconds": 11
+   "seconds": 12
   },
   "https://democracy.kent.gov.uk": {
    "councils": [
     "Kent"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:50:32+00:00",
+   "last_run": "2026-11-12T16:25:02+00:00",
    "meetings_listed": 16,
    "meetings_read": 16,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:50:58+00:00",
-   "seconds": 26
+   "last_ok": "2026-11-12T16:25:26+00:00",
+   "seconds": 24
   },
   "https://moderngov.kingston.gov.uk": {
    "councils": [
     "Kingston upon Thames"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:49:59+00:00",
+   "last_run": "2026-11-12T16:25:00+00:00",
    "meetings_listed": 10,
    "meetings_read": 10,
-   "docs_read": 2,
-   "new_mentions": 1,
-   "last_ok": "2026-11-11T15:50:56+00:00",
-   "seconds": 58
+   "docs_read": 0,
+   "new_mentions": 0,
+   "last_ok": "2026-11-12T16:25:16+00:00",
+   "seconds": 17
   },
   "https://rds.eppingforestdc.gov.uk": {
    "councils": [
     "Epping Forest"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:49:15+00:00",
+   "last_run": "2026-11-12T16:24:24+00:00",
    "meetings_listed": 8,
    "meetings_read": 8,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:49:57+00:00",
-   "seconds": 42
+   "last_ok": "2026-11-12T16:24:39+00:00",
+   "seconds": 15
   },
   "https://democracy.kirklees.gov.uk": {
    "councils": [
     "Kirklees"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:50:18+00:00",
-   "meetings_listed": 16,
-   "meetings_read": 15,
+   "last_run": "2026-11-12T16:24:48+00:00",
+   "meetings_listed": 17,
+   "meetings_read": 17,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:50:35+00:00",
-   "seconds": 17
+   "last_ok": "2026-11-12T16:25:09+00:00",
+   "seconds": 21
   },
   "https://moderngov.lambeth.gov.uk": {
    "councils": [
     "Lambeth"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:31:12+00:00",
+   "last_run": "2026-11-12T16:07:42+00:00",
    "meetings_listed": 0,
    "meetings_read": 0,
    "docs_read": 0,
@@ -1641,20 +1641,20 @@
     "King's Lynn and West Norfolk"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:51:37+00:00",
+   "last_run": "2026-11-12T16:25:57+00:00",
    "meetings_listed": 15,
    "meetings_read": 13,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:52:24+00:00",
-   "seconds": 47
+   "last_ok": "2026-11-12T16:26:23+00:00",
+   "seconds": 26
   },
   "https://democracy.leics.gov.uk": {
    "councils": [
     "Leicestershire"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:31:14+00:00",
+   "last_run": "2026-11-12T16:07:46+00:00",
    "meetings_listed": 0,
    "meetings_read": 0,
    "docs_read": 0,
@@ -1668,38 +1668,38 @@
     "Huntingdonshire"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:54:04+00:00",
-   "meetings_listed": 16,
-   "meetings_read": 16,
+   "last_run": "2026-11-12T16:27:44+00:00",
+   "meetings_listed": 17,
+   "meetings_read": 17,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:54:48+00:00",
-   "seconds": 44
+   "last_ok": "2026-11-12T16:28:29+00:00",
+   "seconds": 46
   },
   "http://democracy.lewes-eastbourne.gov.uk": {
    "councils": [
     "Lewes"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:50:31+00:00",
+   "last_run": "2026-11-12T16:24:58+00:00",
    "meetings_listed": 13,
    "meetings_read": 13,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:50:55+00:00",
-   "seconds": 25
+   "last_ok": "2026-11-12T16:25:17+00:00",
+   "seconds": 19
   },
   "https://committeeadmin.lancaster.gov.uk": {
    "councils": [
     "Lancaster"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:50:05+00:00",
-   "meetings_listed": 11,
+   "last_run": "2026-11-12T16:24:39+00:00",
+   "meetings_listed": 10,
    "meetings_read": 8,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:50:15+00:00",
+   "last_ok": "2026-11-12T16:24:49+00:00",
    "seconds": 10
   },
   "https://council.lancashire.gov.uk": {
@@ -1707,236 +1707,236 @@
     "Lancashire"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:51:21+00:00",
+   "last_run": "2026-11-12T16:26:00+00:00",
    "meetings_listed": 16,
    "meetings_read": 16,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:52:26+00:00",
-   "seconds": 64
+   "last_ok": "2026-11-12T16:26:34+00:00",
+   "seconds": 34
   },
   "https://democracy.lichfielddc.gov.uk": {
    "councils": [
     "Lichfield"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:50:07+00:00",
+   "last_run": "2026-11-12T16:24:40+00:00",
    "meetings_listed": 7,
    "meetings_read": 7,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:50:18+00:00",
-   "seconds": 11
+   "last_ok": "2026-11-12T16:24:48+00:00",
+   "seconds": 8
   },
   "https://councilmeetings.lewisham.gov.uk": {
    "councils": [
     "Lewisham"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:51:24+00:00",
+   "last_run": "2026-11-12T16:25:47+00:00",
    "meetings_listed": 17,
    "meetings_read": 17,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:52:17+00:00",
-   "seconds": 53
+   "last_ok": "2026-11-12T16:26:13+00:00",
+   "seconds": 27
   },
   "https://cabinet.leicester.gov.uk": {
    "councils": [
     "Leicester"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:52:04+00:00",
+   "last_run": "2026-11-12T16:26:10+00:00",
    "meetings_listed": 28,
    "meetings_read": 27,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:52:36+00:00",
-   "seconds": 32
+   "last_ok": "2026-11-12T16:26:46+00:00",
+   "seconds": 35
   },
   "https://moderngov.malvernhills.gov.uk": {
    "councils": [
     "Malvern Hills"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:50:33+00:00",
+   "last_run": "2026-11-12T16:24:49+00:00",
    "meetings_listed": 3,
    "meetings_read": 3,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:50:37+00:00",
-   "seconds": 5
+   "last_ok": "2026-11-12T16:24:53+00:00",
+   "seconds": 4
   },
   "https://democracy.maldon.gov.uk": {
    "councils": [
     "Maldon"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:50:04+00:00",
+   "last_run": "2026-11-12T16:24:35+00:00",
    "meetings_listed": 5,
    "meetings_read": 5,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:50:10+00:00",
-   "seconds": 6
+   "last_ok": "2026-11-12T16:24:40+00:00",
+   "seconds": 5
   },
   "https://democratic.lincoln.gov.uk": {
    "councils": [
     "Lincoln"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:50:37+00:00",
+   "last_run": "2026-11-12T16:25:05+00:00",
    "meetings_listed": 12,
    "meetings_read": 12,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:51:04+00:00",
-   "seconds": 27
+   "last_ok": "2026-11-12T16:25:21+00:00",
+   "seconds": 16
   },
   "https://democracy.medway.gov.uk": {
    "councils": [
     "Medway"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:40:30+00:00",
+   "last_run": "2026-11-12T16:17:01+00:00",
    "meetings_listed": 0,
    "meetings_read": 0,
    "docs_read": 0,
    "new_mentions": 0,
    "error": "ConnectionError: HTTPSConnectionPool(host='democracy.medway.gov.uk', port=443): Max retries exceeded with url: /mgWebService.asmx/GetMeet",
    "last_ok": "2026-11-05T21:11:38+00:00",
-   "seconds": 18
+   "seconds": 15
   },
   "https://democracy.melton.gov.uk": {
    "councils": [
     "Melton"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:50:35+00:00",
-   "meetings_listed": 4,
-   "meetings_read": 4,
+   "last_run": "2026-11-12T16:24:51+00:00",
+   "meetings_listed": 5,
+   "meetings_read": 5,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:50:42+00:00",
-   "seconds": 8
+   "last_ok": "2026-11-12T16:24:58+00:00",
+   "seconds": 7
   },
   "https://mansfield.moderngov.co.uk": {
    "councils": [
     "Mansfield"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:50:54+00:00",
-   "meetings_listed": 19,
-   "meetings_read": 19,
+   "last_run": "2026-11-12T16:25:15+00:00",
+   "meetings_listed": 20,
+   "meetings_read": 20,
    "docs_read": 0,
    "new_mentions": 0,
    "docs_blocked": 3,
-   "last_ok": "2026-11-11T15:51:21+00:00",
-   "seconds": 27
+   "last_ok": "2026-11-12T16:25:37+00:00",
+   "seconds": 22
   },
   "https://lincolnshire.moderngov.co.uk": {
    "councils": [
     "Lincolnshire"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:51:41+00:00",
+   "last_run": "2026-11-12T16:25:50+00:00",
    "meetings_listed": 20,
    "meetings_read": 20,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:52:20+00:00",
-   "seconds": 39
+   "last_ok": "2026-11-12T16:26:16+00:00",
+   "seconds": 27
   },
   "https://midsussex.moderngov.co.uk": {
    "councils": [
     "Mid Sussex"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:50:43+00:00",
+   "last_run": "2026-11-12T16:24:53+00:00",
    "meetings_listed": 5,
    "meetings_read": 5,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:50:54+00:00",
-   "seconds": 12
+   "last_ok": "2026-11-12T16:25:00+00:00",
+   "seconds": 7
   },
   "https://democracy.merton.gov.uk": {
    "councils": [
     "Merton"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:51:05+00:00",
+   "last_run": "2026-11-12T16:25:24+00:00",
    "meetings_listed": 15,
    "meetings_read": 15,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:51:39+00:00",
-   "seconds": 34
+   "last_ok": "2026-11-12T16:25:43+00:00",
+   "seconds": 19
   },
   "https://democracy.manchester.gov.uk": {
    "councils": [
     "Manchester"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:52:31+00:00",
-   "meetings_listed": 22,
-   "meetings_read": 22,
+   "last_run": "2026-11-12T16:26:46+00:00",
+   "meetings_listed": 23,
+   "meetings_read": 23,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:53:13+00:00",
-   "seconds": 42
+   "last_ok": "2026-11-12T16:27:14+00:00",
+   "seconds": 28
   },
   "https://democracy.middevon.gov.uk": {
    "councils": [
     "Mid Devon"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:34:09+00:00",
+   "last_run": "2026-11-12T16:10:40+00:00",
    "meetings_listed": 0,
    "meetings_read": 0,
    "docs_read": 0,
    "new_mentions": 0,
    "error": "ConnectTimeout: HTTPSConnectionPool(host='democracy.middevon.gov.uk', port=443): Max retries exceeded with url: /mgWebService.asmx/GetMe",
    "last_ok": null,
-   "seconds": 189
+   "seconds": 190
   },
   "https://meetings.maidstone.gov.uk": {
    "councils": [
     "Maidstone"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:51:03+00:00",
+   "last_run": "2026-11-12T16:25:17+00:00",
    "meetings_listed": 13,
    "meetings_read": 13,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:51:34+00:00",
-   "seconds": 31
+   "last_ok": "2026-11-12T16:25:40+00:00",
+   "seconds": 23
   },
   "http://baberghmidsuffolk.moderngov.co.uk": {
    "councils": [
     "Mid Suffolk"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:51:39+00:00",
+   "last_run": "2026-11-12T16:25:37+00:00",
    "meetings_listed": 17,
    "meetings_read": 16,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:52:04+00:00",
-   "seconds": 25
+   "last_ok": "2026-11-12T16:25:57+00:00",
+   "seconds": 20
   },
   "https://moderngov.middlesbrough.gov.uk": {
    "councils": [
     "Middlesbrough"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:52:30+00:00",
+   "last_run": "2026-11-12T16:26:30+00:00",
    "meetings_listed": 23,
    "meetings_read": 22,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:52:55+00:00",
+   "last_ok": "2026-11-12T16:26:55+00:00",
    "seconds": 25
   },
   "https://democracy.newforest.gov.uk": {
@@ -1944,7 +1944,7 @@
     "New Forest"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:34:09+00:00",
+   "last_run": "2026-11-12T16:10:40+00:00",
    "meetings_listed": 0,
    "meetings_read": 0,
    "docs_read": 0,
@@ -1958,7 +1958,7 @@
     "Newark and Sherwood"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:34:10+00:00",
+   "last_run": "2026-11-12T16:10:40+00:00",
    "meetings_listed": 0,
    "meetings_read": 0,
    "docs_read": 0,
@@ -1972,7 +1972,7 @@
     "North East Derbyshire"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:34:10+00:00",
+   "last_run": "2026-11-12T16:10:41+00:00",
    "meetings_listed": 0,
    "meetings_read": 0,
    "docs_read": 0,
@@ -1986,20 +1986,20 @@
     "Milton Keynes"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:51:40+00:00",
+   "last_run": "2026-11-12T16:25:40+00:00",
    "meetings_listed": 18,
    "meetings_read": 18,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:52:06+00:00",
-   "seconds": 26
+   "last_ok": "2026-11-12T16:26:00+00:00",
+   "seconds": 21
   },
   "https://democracy.n-kesteven.gov.uk": {
    "councils": [
     "North Kesteven"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:40:33+00:00",
+   "last_run": "2026-11-12T16:17:04+00:00",
    "meetings_listed": 0,
    "meetings_read": 0,
    "docs_read": 0,
@@ -2013,7 +2013,7 @@
     "Newcastle upon Tyne"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:34:10+00:00",
+   "last_run": "2026-11-12T16:10:41+00:00",
    "meetings_listed": 0,
    "meetings_read": 0,
    "docs_read": 0,
@@ -2027,119 +2027,119 @@
     "Newcastle-under-Lyme"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:40:47+00:00",
+   "last_run": "2026-11-12T16:17:16+00:00",
    "meetings_listed": 0,
    "meetings_read": 0,
    "docs_read": 0,
    "new_mentions": 0,
    "error": "ConnectionError: HTTPSConnectionPool(host='moderngov.newcastle-staffs.gov.uk', port=443): Max retries exceeded with url: /mgWebService.as",
    "last_ok": "2026-11-10T15:53:30+00:00",
-   "seconds": 100
+   "seconds": 137
   },
   "https://democracy.northdevon.gov.uk": {
    "councils": [
     "North Devon"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:34:10+00:00",
+   "last_run": "2026-11-12T16:10:41+00:00",
    "meetings_listed": 0,
    "meetings_read": 0,
    "docs_read": 0,
    "new_mentions": 0,
    "error": "ConnectTimeout: HTTPSConnectionPool(host='democracy.northdevon.gov.uk', port=443): Max retries exceeded with url: /mgWebService.asmx/Get",
    "last_ok": null,
-   "seconds": 189
+   "seconds": 190
   },
   "https://democracy.north-herts.gov.uk": {
    "councils": [
     "North Hertfordshire"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:51:15+00:00",
+   "last_run": "2026-11-12T16:25:17+00:00",
    "meetings_listed": 11,
    "meetings_read": 11,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:51:27+00:00",
-   "seconds": 12
+   "last_ok": "2026-11-12T16:25:30+00:00",
+   "seconds": 13
   },
   "https://modgov.north-norfolk.gov.uk": {
    "councils": [
     "North Norfolk"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:34:11+00:00",
+   "last_run": "2026-11-12T16:10:42+00:00",
    "meetings_listed": 0,
    "meetings_read": 0,
    "docs_read": 0,
    "new_mentions": 0,
    "error": "ConnectTimeout: HTTPSConnectionPool(host='modgov.north-norfolk.gov.uk', port=443): Max retries exceeded with url: /mgWebService.asmx/Get",
    "last_ok": null,
-   "seconds": 194
+   "seconds": 193
   },
   "https://n-somerset.moderngov.co.uk": {
    "councils": [
     "North Somerset"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:50:58+00:00",
+   "last_run": "2026-11-12T16:25:09+00:00",
    "meetings_listed": 4,
    "meetings_read": 3,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:51:15+00:00",
-   "seconds": 17
+   "last_ok": "2026-11-12T16:25:15+00:00",
+   "seconds": 5
   },
   "https://councillors.liverpool.gov.uk": {
    "councils": [
     "Liverpool"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:53:16+00:00",
+   "last_run": "2026-11-12T16:27:15+00:00",
    "meetings_listed": 19,
    "meetings_read": 18,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:53:52+00:00",
-   "seconds": 36
+   "last_ok": "2026-11-12T16:27:49+00:00",
+   "seconds": 34
   },
   "https://northlincolnshire.moderngov.co.uk": {
    "councils": [
     "North Lincolnshire"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:51:34+00:00",
-   "meetings_listed": 15,
-   "meetings_read": 15,
+   "last_run": "2026-11-12T16:25:30+00:00",
+   "meetings_listed": 16,
+   "meetings_read": 16,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:51:57+00:00",
-   "seconds": 23
+   "last_ok": "2026-11-12T16:25:46+00:00",
+   "seconds": 16
   },
   "https://northnorthants.moderngov.co.uk": {
    "councils": [
     "North Northamptonshire"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:52:06+00:00",
+   "last_run": "2026-11-12T16:26:00+00:00",
    "meetings_listed": 12,
    "meetings_read": 12,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:52:30+00:00",
-   "seconds": 24
+   "last_ok": "2026-11-12T16:26:16+00:00",
+   "seconds": 16
   },
   "https://northwarwickshire.moderngov.co.uk": {
    "councils": [
     "North Warwickshire"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:51:17+00:00",
+   "last_run": "2026-11-12T16:25:16+00:00",
    "meetings_listed": 7,
    "meetings_read": 7,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:51:24+00:00",
+   "last_ok": "2026-11-12T16:25:24+00:00",
    "seconds": 8
   },
   "https://democracy.northtyneside.gov.uk": {
@@ -2147,25 +2147,25 @@
     "North Tyneside"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:52:13+00:00",
+   "last_run": "2026-11-12T16:26:18+00:00",
    "meetings_listed": 12,
    "meetings_read": 12,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:52:44+00:00",
-   "seconds": 31
+   "last_ok": "2026-11-12T16:26:33+00:00",
+   "seconds": 15
   },
   "https://minutes-1.nwleics.gov.uk": {
    "councils": [
     "North West Leicestershire"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:52:23+00:00",
+   "last_run": "2026-11-12T16:26:13+00:00",
    "meetings_listed": 11,
    "meetings_read": 11,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:52:38+00:00",
+   "last_ok": "2026-11-12T16:26:28+00:00",
    "seconds": 15
   },
   "https://edemocracy.northyorks.gov.uk": {
@@ -2173,7 +2173,7 @@
     "North Yorkshire"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:34:24+00:00",
+   "last_run": "2026-11-12T16:10:55+00:00",
    "meetings_listed": 0,
    "meetings_read": 0,
    "docs_read": 0,
@@ -2187,7 +2187,7 @@
     "Nottingham"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:37:19+00:00",
+   "last_run": "2026-11-12T16:13:49+00:00",
    "meetings_listed": 0,
    "meetings_read": 0,
    "docs_read": 0,
@@ -2201,7 +2201,7 @@
     "Oadby and Wigston"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:37:19+00:00",
+   "last_run": "2026-11-12T16:13:50+00:00",
    "meetings_listed": 0,
    "meetings_read": 0,
    "docs_read": 0,
@@ -2215,21 +2215,21 @@
     "Northumberland"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:53:07+00:00",
+   "last_run": "2026-11-12T16:27:14+00:00",
    "meetings_listed": 20,
    "meetings_read": 20,
    "docs_read": 0,
    "new_mentions": 0,
    "docs_blocked": 3,
-   "last_ok": "2026-11-11T15:53:51+00:00",
-   "seconds": 44
+   "last_ok": "2026-11-12T16:27:43+00:00",
+   "seconds": 29
   },
   "https://mycouncil.oxfordshire.gov.uk": {
    "councils": [
     "Oxfordshire"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:37:19+00:00",
+   "last_run": "2026-11-12T16:13:50+00:00",
    "meetings_listed": 0,
    "meetings_read": 0,
    "docs_read": 0,
@@ -2243,7 +2243,7 @@
     "Plymouth"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:37:20+00:00",
+   "last_run": "2026-11-12T16:13:50+00:00",
    "meetings_listed": 0,
    "meetings_read": 0,
    "docs_read": 0,
@@ -2257,155 +2257,155 @@
     "Reading"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:51:27+00:00",
+   "last_run": "2026-11-12T16:25:21+00:00",
    "meetings_listed": 6,
    "meetings_read": 6,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:51:37+00:00",
-   "seconds": 10
+   "last_ok": "2026-11-12T16:25:29+00:00",
+   "seconds": 8
   },
   "https://preston.moderngov.co.uk": {
    "councils": [
     "Preston"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:52:24+00:00",
+   "last_run": "2026-11-12T16:26:34+00:00",
    "meetings_listed": 10,
    "meetings_read": 10,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:53:06+00:00",
-   "seconds": 42
+   "last_ok": "2026-11-12T16:26:59+00:00",
+   "seconds": 26
   },
   "https://mycouncil.oxford.gov.uk": {
    "councils": [
     "Oxford"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:52:20+00:00",
+   "last_run": "2026-11-12T16:26:16+00:00",
    "meetings_listed": 12,
    "meetings_read": 12,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:52:38+00:00",
-   "seconds": 19
+   "last_ok": "2026-11-12T16:26:33+00:00",
+   "seconds": 18
   },
   "https://rcbc.moderngov.co.uk": {
    "councils": [
     "Redcar and Cleveland"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:52:36+00:00",
-   "meetings_listed": 18,
+   "last_run": "2026-11-12T16:26:28+00:00",
+   "meetings_listed": 17,
    "meetings_read": 14,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:52:53+00:00",
-   "seconds": 17
+   "last_ok": "2026-11-12T16:26:44+00:00",
+   "seconds": 16
   },
   "https://moderngovwebpublic.redditchbc.gov.uk": {
    "councils": [
     "Redditch"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:52:17+00:00",
+   "last_run": "2026-11-12T16:26:01+00:00",
    "meetings_listed": 10,
    "meetings_read": 10,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:52:31+00:00",
-   "seconds": 13
+   "last_ok": "2026-11-12T16:26:18+00:00",
+   "seconds": 17
   },
   "https://democracy.ribblevalley.gov.uk": {
    "councils": [
     "Ribble Valley"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:52:26+00:00",
-   "meetings_listed": 6,
+   "last_run": "2026-11-12T16:26:16+00:00",
+   "meetings_listed": 5,
    "meetings_read": 4,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:52:41+00:00",
-   "seconds": 16
+   "last_ok": "2026-11-12T16:26:24+00:00",
+   "seconds": 8
   },
   "https://democracy.portsmouth.gov.uk": {
    "councils": [
     "Portsmouth"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:52:45+00:00",
-   "meetings_listed": 20,
-   "meetings_read": 20,
+   "last_run": "2026-11-12T16:26:55+00:00",
+   "meetings_listed": 21,
+   "meetings_read": 21,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:53:27+00:00",
-   "seconds": 42
+   "last_ok": "2026-11-12T16:27:24+00:00",
+   "seconds": 28
   },
   "https://moderngov.redbridge.gov.uk": {
    "councils": [
     "Redbridge"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:53:57+00:00",
+   "last_run": "2026-11-12T16:27:24+00:00",
    "meetings_listed": 18,
    "meetings_read": 18,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:54:17+00:00",
-   "seconds": 20
+   "last_ok": "2026-11-12T16:27:45+00:00",
+   "seconds": 22
   },
   "https://reigate-banstead.moderngov.co.uk": {
    "councils": [
     "Reigate and Banstead"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:52:06+00:00",
+   "last_run": "2026-11-12T16:25:51+00:00",
    "meetings_listed": 7,
    "meetings_read": 7,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:52:23+00:00",
-   "seconds": 17
+   "last_ok": "2026-11-12T16:26:01+00:00",
+   "seconds": 10
   },
   "https://rother.moderngov.co.uk": {
    "councils": [
     "Rother"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:51:57+00:00",
+   "last_run": "2026-11-12T16:25:43+00:00",
    "meetings_listed": 5,
    "meetings_read": 5,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:52:06+00:00",
-   "seconds": 9
+   "last_ok": "2026-11-12T16:25:50+00:00",
+   "seconds": 6
   },
   "https://rochford.moderngov.co.uk": {
    "councils": [
     "Rochford"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:52:38+00:00",
+   "last_run": "2026-11-12T16:26:24+00:00",
    "meetings_listed": 8,
    "meetings_read": 8,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:52:48+00:00",
-   "seconds": 10
+   "last_ok": "2026-11-12T16:26:33+00:00",
+   "seconds": 9
   },
   "https://democracy.rushcliffe.gov.uk": {
    "councils": [
     "Rushcliffe"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:53:04+00:00",
+   "last_run": "2026-11-12T16:26:45+00:00",
    "meetings_listed": 5,
    "meetings_read": 5,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:53:09+00:00",
+   "last_ok": "2026-11-12T16:26:50+00:00",
    "seconds": 5
   },
   "https://cabnet.richmond.gov.uk": {
@@ -2413,35 +2413,35 @@
     "Richmond upon Thames"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:54:17+00:00",
+   "last_run": "2026-11-12T16:27:41+00:00",
    "meetings_listed": 13,
    "meetings_read": 7,
    "docs_read": 0,
    "new_mentions": 0,
    "meeting_errors": 6,
    "last_meeting_error": "HTTPError: 403 Client Error: Forbidden for url: https://cabnet.richmond.gov.uk/mgWebService.asmx/GetMeeting?lMeetingId=500000767",
-   "last_ok": "2026-11-11T15:54:34+00:00",
-   "seconds": 16
+   "last_ok": "2026-11-12T16:27:59+00:00",
+   "seconds": 18
   },
   "https://democracy.runnymede.gov.uk": {
    "councils": [
     "Runnymede"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:52:56+00:00",
+   "last_run": "2026-11-12T16:26:50+00:00",
    "meetings_listed": 13,
    "meetings_read": 13,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:53:18+00:00",
-   "seconds": 22
+   "last_ok": "2026-11-12T16:27:09+00:00",
+   "seconds": 19
   },
   "https://modgov.sefton.gov.uk": {
    "councils": [
     "Sefton"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:37:22+00:00",
+   "last_run": "2026-11-12T16:13:53+00:00",
    "meetings_listed": 0,
    "meetings_read": 0,
    "docs_read": 0,
@@ -2455,12 +2455,12 @@
     "Rushmoor"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:52:38+00:00",
+   "last_run": "2026-11-12T16:26:23+00:00",
    "meetings_listed": 6,
    "meetings_read": 6,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:52:45+00:00",
+   "last_ok": "2026-11-12T16:26:30+00:00",
    "seconds": 7
   },
   "https://cds.sevenoaks.gov.uk": {
@@ -2468,72 +2468,72 @@
     "Sevenoaks"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:52:48+00:00",
+   "last_run": "2026-11-12T16:26:33+00:00",
    "meetings_listed": 9,
    "meetings_read": 9,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:53:04+00:00",
-   "seconds": 16
+   "last_ok": "2026-11-12T16:26:46+00:00",
+   "seconds": 13
   },
   "https://rutlandcounty.moderngov.co.uk": {
    "councils": [
     "Rutland"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:52:44+00:00",
+   "last_run": "2026-11-12T16:26:33+00:00",
    "meetings_listed": 9,
    "meetings_read": 8,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:52:56+00:00",
-   "seconds": 12
+   "last_ok": "2026-11-12T16:26:46+00:00",
+   "seconds": 13
   },
   "https://shropshire.gov.uk/committee-services": {
    "councils": [
     "Shropshire"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:53:06+00:00",
+   "last_run": "2026-11-12T16:26:54+00:00",
    "meetings_listed": 10,
    "meetings_read": 10,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:53:18+00:00",
-   "seconds": 12
+   "last_ok": "2026-11-12T16:27:05+00:00",
+   "seconds": 11
   },
   "https://sandwell.moderngov.co.uk": {
    "councils": [
     "Sandwell"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:53:40+00:00",
+   "last_run": "2026-11-12T16:27:40+00:00",
    "meetings_listed": 26,
    "meetings_read": 25,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:54:27+00:00",
-   "seconds": 47
+   "last_ok": "2026-11-12T16:28:10+00:00",
+   "seconds": 31
   },
   "http://democracy.slough.gov.uk": {
    "councils": [
     "Slough"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:53:13+00:00",
+   "last_run": "2026-11-12T16:27:05+00:00",
    "meetings_listed": 13,
    "meetings_read": 13,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:53:37+00:00",
-   "seconds": 24
+   "last_ok": "2026-11-12T16:27:23+00:00",
+   "seconds": 18
   },
   "https://democracy.solihull.gov.uk": {
    "councils": [
     "Solihull"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:41:13+00:00",
+   "last_run": "2026-11-12T16:17:25+00:00",
    "meetings_listed": 0,
    "meetings_read": 0,
    "docs_read": 0,
@@ -2547,13 +2547,13 @@
     "Rochdale"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:53:41+00:00",
+   "last_run": "2026-11-12T16:27:49+00:00",
    "meetings_listed": 19,
    "meetings_read": 19,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:55:09+00:00",
-   "seconds": 88
+   "last_ok": "2026-11-12T16:28:29+00:00",
+   "seconds": 39
   },
   "https://democracy.swdevon.gov.uk": {
    "councils": [
@@ -2561,204 +2561,204 @@
     "West Devon"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:40:34+00:00",
+   "last_run": "2026-11-12T16:17:05+00:00",
    "meetings_listed": 0,
    "meetings_read": 0,
    "docs_read": 0,
    "new_mentions": 0,
    "error": "HTTPError: 522 Server Error: <none> for url: https://democracy.swdevon.gov.uk/mgWebService.asmx/GetMeetings?lCommitteeId=-1&sFromDa",
    "last_ok": "2026-11-05T21:17:22+00:00",
-   "seconds": 19
+   "seconds": 20
   },
   "https://council.southglos.gov.uk": {
    "councils": [
     "South Gloucestershire"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:52:53+00:00",
+   "last_run": "2026-11-12T16:26:33+00:00",
    "meetings_listed": 7,
    "meetings_read": 6,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:53:05+00:00",
-   "seconds": 11
+   "last_ok": "2026-11-12T16:26:45+00:00",
+   "seconds": 12
   },
   "https://democracy.sheffield.gov.uk": {
    "councils": [
     "Sheffield"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:53:51+00:00",
+   "last_run": "2026-11-12T16:27:54+00:00",
    "meetings_listed": 30,
    "meetings_read": 30,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:55:09+00:00",
-   "seconds": 78
+   "last_ok": "2026-11-12T16:28:36+00:00",
+   "seconds": 42
   },
   "https://moderngov.rotherham.gov.uk": {
    "councils": [
     "Rotherham"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:53:37+00:00",
+   "last_run": "2026-11-12T16:27:23+00:00",
    "meetings_listed": 15,
    "meetings_read": 15,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:54:04+00:00",
-   "seconds": 28
+   "last_ok": "2026-11-12T16:27:54+00:00",
+   "seconds": 31
   },
   "https://democracy.somerset.gov.uk": {
    "councils": [
     "Somerset"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:53:17+00:00",
-   "meetings_listed": 17,
+   "last_run": "2026-11-12T16:27:21+00:00",
+   "meetings_listed": 16,
    "meetings_read": 16,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:53:57+00:00",
-   "seconds": 40
+   "last_ok": "2026-11-12T16:27:41+00:00",
+   "seconds": 20
   },
   "https://www.southampton.gov.uk/modernGov": {
    "councils": [
     "Southampton"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:44:01+00:00",
-   "meetings_listed": 23,
+   "last_run": "2026-11-12T16:20:33+00:00",
+   "meetings_listed": 21,
    "meetings_read": 21,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:44:24+00:00",
-   "seconds": 22
+   "last_ok": "2026-11-12T16:20:56+00:00",
+   "seconds": 23
   },
   "https://democracy.sholland.gov.uk": {
    "councils": [
     "South Holland"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:41:43+00:00",
+   "last_run": "2026-11-12T16:18:34+00:00",
    "meetings_listed": 4,
    "meetings_read": 4,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:42:18+00:00",
-   "seconds": 34
+   "last_ok": "2026-11-12T16:19:14+00:00",
+   "seconds": 40
   },
   "https://democratic.southoxon.gov.uk": {
    "councils": [
     "South Oxfordshire"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:52:55+00:00",
+   "last_run": "2026-11-12T16:26:44+00:00",
    "meetings_listed": 9,
    "meetings_read": 8,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:53:07+00:00",
-   "seconds": 12
+   "last_ok": "2026-11-12T16:26:54+00:00",
+   "seconds": 10
   },
   "https://southribble.moderngov.co.uk": {
    "councils": [
     "South Ribble"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:53:09+00:00",
+   "last_run": "2026-11-12T16:27:09+00:00",
    "meetings_listed": 7,
    "meetings_read": 7,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:53:41+00:00",
-   "seconds": 32
+   "last_ok": "2026-11-12T16:27:23+00:00",
+   "seconds": 14
   },
   "https://moderngov.southwark.gov.uk": {
    "councils": [
     "Southwark"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:53:18+00:00",
+   "last_run": "2026-11-12T16:26:59+00:00",
    "meetings_listed": 11,
    "meetings_read": 11,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:53:33+00:00",
-   "seconds": 15
+   "last_ok": "2026-11-12T16:27:15+00:00",
+   "seconds": 16
   },
   "https://democracy.southend.gov.uk": {
    "councils": [
     "Southend-on-Sea"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:53:33+00:00",
+   "last_run": "2026-11-12T16:27:23+00:00",
    "meetings_listed": 17,
    "meetings_read": 17,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:54:09+00:00",
-   "seconds": 36
+   "last_ok": "2026-11-12T16:27:44+00:00",
+   "seconds": 21
   },
   "https://stalbans.moderngov.co.uk": {
    "councils": [
     "St Albans"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:53:18+00:00",
+   "last_run": "2026-11-12T16:27:23+00:00",
    "meetings_listed": 10,
    "meetings_read": 10,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:54:01+00:00",
-   "seconds": 43
+   "last_ok": "2026-11-12T16:27:40+00:00",
+   "seconds": 17
   },
   "https://democracy.spelthorne.gov.uk": {
    "councils": [
     "Spelthorne"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:53:05+00:00",
+   "last_run": "2026-11-12T16:26:46+00:00",
    "meetings_listed": 11,
    "meetings_read": 11,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:53:16+00:00",
-   "seconds": 12
+   "last_ok": "2026-11-12T16:27:23+00:00",
+   "seconds": 37
   },
   "https://democracy.stevenage.gov.uk": {
    "councils": [
     "Stevenage"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:40:35+00:00",
-   "meetings_listed": 0,
-   "meetings_read": 0,
+   "last_run": "2026-11-12T16:17:07+00:00",
+   "meetings_listed": 13,
+   "meetings_read": 13,
    "docs_read": 0,
    "new_mentions": 0,
-   "error": "ConnectionError: HTTPSConnectionPool(host='democracy.stevenage.gov.uk', port=443): Max retries exceeded with url: /mgWebService.asmx/GetM",
-   "last_ok": "2026-11-06T15:34:14+00:00",
-   "seconds": 42
+   "last_ok": "2026-11-12T16:17:58+00:00",
+   "seconds": 51
   },
   "https://committees.oldham.gov.uk": {
    "councils": [
     "Oldham"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:55:02+00:00",
+   "last_run": "2026-11-12T16:28:11+00:00",
    "meetings_listed": 19,
    "meetings_read": 19,
    "docs_read": 0,
-   "new_mentions": 0,
-   "last_ok": "2026-11-11T15:55:47+00:00",
-   "seconds": 45
+   "new_mentions": 1,
+   "docs_blocked": 2,
+   "last_ok": "2026-11-12T16:41:28+00:00",
+   "seconds": 797
   },
   "https://democracy.stockport.gov.uk": {
    "councils": [
     "Stockport"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:37:22+00:00",
+   "last_run": "2026-11-12T16:13:54+00:00",
    "meetings_listed": 0,
    "meetings_read": 0,
    "docs_read": 0,
@@ -2772,78 +2772,79 @@
     "Bolton"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:43:41+00:00",
+   "last_run": "2026-11-12T16:20:19+00:00",
    "meetings_listed": 26,
    "meetings_read": 26,
    "docs_read": 0,
    "new_mentions": 0,
    "docs_blocked": 3,
-   "last_ok": "2026-11-11T15:44:13+00:00",
-   "seconds": 33
+   "last_ok": "2026-11-12T16:20:49+00:00",
+   "seconds": 30
   },
   "https://moderngov.southkesteven.gov.uk": {
    "councils": [
     "South Kesteven"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:42:18+00:00",
+   "last_run": "2026-11-12T16:18:58+00:00",
    "meetings_listed": 12,
    "meetings_read": 12,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:42:37+00:00",
-   "seconds": 19
+   "docs_blocked": 3,
+   "last_ok": "2026-11-12T16:19:19+00:00",
+   "seconds": 21
   },
   "https://sthelens.moderngov.co.uk": {
    "councils": [
     "St. Helens"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:42:20+00:00",
+   "last_run": "2026-11-12T16:19:03+00:00",
    "meetings_listed": 11,
    "meetings_read": 11,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:42:41+00:00",
-   "seconds": 21
+   "last_ok": "2026-11-12T16:19:22+00:00",
+   "seconds": 19
   },
   "https://scambs.moderngov.co.uk": {
    "councils": [
     "South Cambridgeshire"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:42:37+00:00",
+   "last_run": "2026-11-12T16:19:47+00:00",
    "meetings_listed": 9,
    "meetings_read": 8,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:43:41+00:00",
-   "seconds": 64
+   "last_ok": "2026-11-12T16:20:19+00:00",
+   "seconds": 33
   },
   "https://democracy.staffsmoorlands.gov.uk": {
    "councils": [
     "Staffordshire Moorlands"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:43:13+00:00",
+   "last_run": "2026-11-12T16:19:51+00:00",
    "meetings_listed": 20,
    "meetings_read": 19,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:43:45+00:00",
-   "seconds": 31
+   "last_ok": "2026-11-12T16:20:16+00:00",
+   "seconds": 25
   },
   "https://moderngov.stockton.gov.uk": {
    "councils": [
     "Stockton-on-Tees"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:42:36+00:00",
-   "meetings_listed": 20,
+   "last_run": "2026-11-12T16:19:14+00:00",
+   "meetings_listed": 19,
    "meetings_read": 18,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:42:54+00:00",
+   "last_ok": "2026-11-12T16:19:32+00:00",
    "seconds": 18
   },
   "https://mycouncil.surreycc.gov.uk": {
@@ -2851,7 +2852,7 @@
     "Surrey"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:37:24+00:00",
+   "last_run": "2026-11-12T16:13:54+00:00",
    "meetings_listed": 0,
    "meetings_read": 0,
    "docs_read": 0,
@@ -2865,25 +2866,25 @@
     "Stratford-on-Avon"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:42:44+00:00",
-   "meetings_listed": 8,
+   "last_run": "2026-11-12T16:19:19+00:00",
+   "meetings_listed": 7,
    "meetings_read": 7,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:42:55+00:00",
-   "seconds": 11
+   "last_ok": "2026-11-12T16:19:28+00:00",
+   "seconds": 8
   },
   "https://stroud.moderngov.co.uk": {
    "councils": [
     "Stroud"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:42:27+00:00",
+   "last_run": "2026-11-12T16:18:52+00:00",
    "meetings_listed": 6,
    "meetings_read": 6,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:42:34+00:00",
+   "last_ok": "2026-11-12T16:18:58+00:00",
    "seconds": 7
   },
   "https://moderngov.staffordshire.gov.uk": {
@@ -2891,51 +2892,51 @@
     "Staffordshire"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:44:58+00:00",
+   "last_run": "2026-11-12T16:21:41+00:00",
    "meetings_listed": 18,
    "meetings_read": 17,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:46:03+00:00",
-   "seconds": 66
+   "last_ok": "2026-11-12T16:22:25+00:00",
+   "seconds": 45
   },
   "https://surreyheath.moderngov.co.uk": {
    "councils": [
     "Surrey Heath"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:43:04+00:00",
+   "last_run": "2026-11-12T16:19:32+00:00",
    "meetings_listed": 8,
    "meetings_read": 8,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:43:26+00:00",
-   "seconds": 21
+   "last_ok": "2026-11-12T16:19:44+00:00",
+   "seconds": 12
   },
   "https://services.swale.gov.uk/meetings": {
    "councils": [
     "Swale"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:43:36+00:00",
+   "last_run": "2026-11-12T16:19:53+00:00",
    "meetings_listed": 9,
    "meetings_read": 9,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:43:48+00:00",
-   "seconds": 12
+   "last_ok": "2026-11-12T16:20:06+00:00",
+   "seconds": 13
   },
   "https://ww5.swindon.gov.uk/moderngov": {
    "councils": [
     "Swindon"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:43:32+00:00",
+   "last_run": "2026-11-12T16:19:49+00:00",
    "meetings_listed": 11,
    "meetings_read": 11,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:43:44+00:00",
+   "last_ok": "2026-11-12T16:20:01+00:00",
    "seconds": 12
   },
   "https://moderngov.sutton.gov.uk": {
@@ -2943,20 +2944,20 @@
     "Sutton"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:43:06+00:00",
+   "last_run": "2026-11-12T16:19:33+00:00",
    "meetings_listed": 9,
    "meetings_read": 9,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:43:33+00:00",
-   "seconds": 27
+   "last_ok": "2026-11-12T16:19:47+00:00",
+   "seconds": 14
   },
   "https://democracy.teignbridge.gov.uk": {
    "councils": [
     "Teignbridge"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:37:24+00:00",
+   "last_run": "2026-11-12T16:13:55+00:00",
    "meetings_listed": 0,
    "meetings_read": 0,
    "docs_read": 0,
@@ -2970,25 +2971,25 @@
     "Tandridge"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:42:55+00:00",
+   "last_run": "2026-11-12T16:19:22+00:00",
    "meetings_listed": 5,
    "meetings_read": 5,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:43:04+00:00",
-   "seconds": 10
+   "last_ok": "2026-11-12T16:19:30+00:00",
+   "seconds": 7
   },
   "https://democracy.telford.gov.uk": {
    "councils": [
     "Telford and Wrekin"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:43:39+00:00",
+   "last_run": "2026-11-12T16:20:02+00:00",
    "meetings_listed": 11,
    "meetings_read": 11,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:43:51+00:00",
+   "last_ok": "2026-11-12T16:20:13+00:00",
    "seconds": 12
   },
   "https://moderngov.stoke.gov.uk": {
@@ -2996,20 +2997,20 @@
     "Stoke-on-Trent"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:45:18+00:00",
+   "last_run": "2026-11-12T16:21:25+00:00",
    "meetings_listed": 19,
    "meetings_read": 19,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:45:48+00:00",
-   "seconds": 30
+   "last_ok": "2026-11-12T16:21:51+00:00",
+   "seconds": 26
   },
   "https://minutes.tewkesbury.gov.uk": {
    "councils": [
     "Tewkesbury"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:37:25+00:00",
+   "last_run": "2026-11-12T16:13:55+00:00",
    "meetings_listed": 0,
    "meetings_read": 0,
    "docs_read": 0,
@@ -3023,117 +3024,117 @@
     "Tamworth"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:43:33+00:00",
+   "last_run": "2026-11-12T16:20:04+00:00",
    "meetings_listed": 7,
    "meetings_read": 7,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:43:52+00:00",
-   "seconds": 19
+   "last_ok": "2026-11-12T16:20:19+00:00",
+   "seconds": 16
   },
   "https://democracy.testvalley.gov.uk": {
    "councils": [
     "Test Valley"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:43:26+00:00",
+   "last_run": "2026-11-12T16:19:44+00:00",
    "meetings_listed": 8,
    "meetings_read": 8,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:43:36+00:00",
-   "seconds": 10
+   "last_ok": "2026-11-12T16:19:53+00:00",
+   "seconds": 9
   },
   "https://moderngov.threerivers.gov.uk": {
    "councils": [
     "Three Rivers"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:43:39+00:00",
+   "last_run": "2026-11-12T16:20:01+00:00",
    "meetings_listed": 8,
    "meetings_read": 8,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:43:48+00:00",
-   "seconds": 9
+   "last_ok": "2026-11-12T16:20:11+00:00",
+   "seconds": 10
   },
   "https://democracy.thanet.gov.uk": {
    "councils": [
     "Thanet"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:43:52+00:00",
+   "last_run": "2026-11-12T16:20:19+00:00",
    "meetings_listed": 11,
    "meetings_read": 11,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:44:12+00:00",
-   "seconds": 20
+   "last_ok": "2026-11-12T16:20:34+00:00",
+   "seconds": 15
   },
   "https://democracy.thurrock.gov.uk": {
    "councils": [
     "Thurrock"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:43:53+00:00",
+   "last_run": "2026-11-12T16:20:16+00:00",
    "meetings_listed": 13,
    "meetings_read": 13,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:44:11+00:00",
-   "seconds": 18
+   "last_ok": "2026-11-12T16:20:33+00:00",
+   "seconds": 17
   },
   "https://democracy.tmbc.gov.uk": {
    "councils": [
     "Tonbridge and Malling"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:37:25+00:00",
+   "last_run": "2026-11-12T16:13:55+00:00",
    "meetings_listed": 0,
    "meetings_read": 0,
    "docs_read": 0,
    "new_mentions": 0,
    "error": "ConnectTimeout: HTTPSConnectionPool(host='democracy.tmbc.gov.uk', port=443): Max retries exceeded with url: /mgWebService.asmx/GetMeetin",
    "last_ok": null,
-   "seconds": 56
+   "seconds": 57
   },
   "https://tameside.moderngov.co.uk": {
    "councils": [
     "Tameside"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:45:29+00:00",
-   "meetings_listed": 21,
+   "last_run": "2026-11-12T16:22:21+00:00",
+   "meetings_listed": 20,
    "meetings_read": 20,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:46:54+00:00",
-   "seconds": 85
+   "last_ok": "2026-11-12T16:23:00+00:00",
+   "seconds": 39
   },
   "https://democracy.torridge.gov.uk": {
    "councils": [
     "Torridge"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:45:48+00:00",
+   "last_run": "2026-11-12T16:21:42+00:00",
    "meetings_listed": 8,
    "meetings_read": 8,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:46:09+00:00",
-   "seconds": 21
+   "last_ok": "2026-11-12T16:22:04+00:00",
+   "seconds": 22
   },
   "https://democracy.tunbridgewells.gov.uk": {
    "councils": [
     "Tunbridge Wells"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:43:48+00:00",
+   "last_run": "2026-11-12T16:20:11+00:00",
    "meetings_listed": 7,
    "meetings_read": 7,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:43:59+00:00",
+   "last_ok": "2026-11-12T16:20:22+00:00",
    "seconds": 11
   },
   "https://democratic.whitehorsedc.gov.uk": {
@@ -3141,12 +3142,12 @@
     "Vale of White Horse"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:43:45+00:00",
+   "last_run": "2026-11-12T16:20:06+00:00",
    "meetings_listed": 8,
    "meetings_read": 7,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:43:53+00:00",
+   "last_ok": "2026-11-12T16:20:15+00:00",
    "seconds": 8
   },
   "https://uttlesford.moderngov.co.uk": {
@@ -3154,33 +3155,33 @@
     "Uttlesford"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:43:44+00:00",
+   "last_run": "2026-11-12T16:20:10+00:00",
    "meetings_listed": 8,
    "meetings_read": 8,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:43:57+00:00",
-   "seconds": 12
+   "last_ok": "2026-11-12T16:20:21+00:00",
+   "seconds": 11
   },
   "http://www.torbay.gov.uk/DemocraticServices": {
    "councils": [
     "Torbay"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:41:23+00:00",
+   "last_run": "2026-11-12T16:18:10+00:00",
    "meetings_listed": 18,
    "meetings_read": 18,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:41:51+00:00",
-   "seconds": 28
+   "last_ok": "2026-11-12T16:18:40+00:00",
+   "seconds": 30
   },
   "https://democratic.trafford.gov.uk": {
    "councils": [
     "Trafford"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:37:25+00:00",
+   "last_run": "2026-11-12T16:13:55+00:00",
    "meetings_listed": 0,
    "meetings_read": 0,
    "docs_read": 0,
@@ -3194,20 +3195,20 @@
     "Wakefield"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:43:57+00:00",
+   "last_run": "2026-11-12T16:20:21+00:00",
    "meetings_listed": 13,
    "meetings_read": 13,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:44:13+00:00",
-   "seconds": 16
+   "last_ok": "2026-11-12T16:20:40+00:00",
+   "seconds": 19
   },
   "https://modgov.waverley.gov.uk": {
    "councils": [
     "Waverley"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:39:10+00:00",
+   "last_run": "2026-11-12T16:15:41+00:00",
    "meetings_listed": 0,
    "meetings_read": 0,
    "docs_read": 0,
@@ -3221,88 +3222,87 @@
     "Wandsworth"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:45:54+00:00",
-   "meetings_listed": 22,
-   "meetings_read": 14,
+   "last_run": "2026-11-12T16:21:48+00:00",
+   "meetings_listed": 21,
+   "meetings_read": 13,
    "docs_read": 0,
    "new_mentions": 0,
-   "meeting_errors": 7,
-   "last_meeting_error": "HTTPError: 403 Client Error: Forbidden for url: https://democracy.wandsworth.gov.uk/mgWebService.asmx/GetMeeting?lMeetingId=10441",
-   "last_ok": "2026-11-11T15:46:17+00:00",
-   "seconds": 23
+   "meeting_errors": 8,
+   "last_meeting_error": "HTTPError: 403 Client Error: Forbidden for url: https://democracy.wandsworth.gov.uk/mgWebService.asmx/GetMeeting?lMeetingId=10488",
+   "last_ok": "2026-11-12T16:22:12+00:00",
+   "seconds": 25
   },
   "https://tdcdemocracy.tendringdc.gov.uk": {
    "councils": [
     "Tendring"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:48:30+00:00",
-   "meetings_listed": 0,
-   "meetings_read": 0,
+   "last_run": "2026-11-12T16:17:35+00:00",
+   "meetings_listed": 7,
+   "meetings_read": 7,
    "docs_read": 0,
    "new_mentions": 0,
-   "error": "RetryError: HTTPSConnectionPool(host='tdcdemocracy.tendringdc.gov.uk', port=443): Max retries exceeded with url: /mgWebService.asmx/",
-   "last_ok": "2026-11-10T16:00:01+00:00",
-   "seconds": 10
+   "last_ok": "2026-11-12T16:17:44+00:00",
+   "seconds": 9
   },
   "https://democracy.brighton-hove.gov.uk": {
    "councils": [
     "Brighton and Hove"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:54:25+00:00",
+   "last_run": "2026-11-12T16:27:46+00:00",
    "meetings_listed": 14,
    "meetings_read": 14,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:55:02+00:00",
-   "seconds": 36
+   "last_ok": "2026-11-12T16:28:27+00:00",
+   "seconds": 41
   },
   "https://democracy.walthamforest.gov.uk": {
    "councils": [
     "Waltham Forest"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:43:54+00:00",
+   "last_run": "2026-11-12T16:20:21+00:00",
    "meetings_listed": 10,
    "meetings_read": 10,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:44:16+00:00",
-   "seconds": 21
+   "last_ok": "2026-11-12T16:20:37+00:00",
+   "seconds": 16
   },
   "https://watford.moderngov.co.uk": {
    "councils": [
     "Watford"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:43:51+00:00",
-   "meetings_listed": 8,
+   "last_run": "2026-11-12T16:20:15+00:00",
+   "meetings_listed": 7,
    "meetings_read": 7,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:44:02+00:00",
-   "seconds": 11
+   "last_ok": "2026-11-12T16:20:24+00:00",
+   "seconds": 9
   },
   "https://democracy.warwickshire.gov.uk": {
    "councils": [
     "Warwickshire"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:44:02+00:00",
+   "last_run": "2026-11-12T16:20:40+00:00",
    "meetings_listed": 15,
    "meetings_read": 15,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:44:35+00:00",
-   "seconds": 33
+   "last_ok": "2026-11-12T16:21:07+00:00",
+   "seconds": 27
   },
   "https://meetings.westoxon.gov.uk": {
    "councils": [
     "West Oxfordshire"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:40:29+00:00",
+   "last_run": "2026-11-12T16:17:00+00:00",
    "meetings_listed": 0,
    "meetings_read": 0,
    "docs_read": 0,
@@ -3316,20 +3316,20 @@
     "West Lancashire"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:43:48+00:00",
+   "last_run": "2026-11-12T16:20:13+00:00",
    "meetings_listed": 5,
    "meetings_read": 4,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:44:01+00:00",
-   "seconds": 14
+   "last_ok": "2026-11-12T16:20:21+00:00",
+   "seconds": 8
   },
   "https://democracy.west-lindsey.gov.uk": {
    "councils": [
     "West Lindsey"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:40:34+00:00",
+   "last_run": "2026-11-12T16:17:06+00:00",
    "meetings_listed": 0,
    "meetings_read": 0,
    "docs_read": 0,
@@ -3343,66 +3343,66 @@
     "West Northamptonshire"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:44:13+00:00",
+   "last_run": "2026-11-12T16:20:36+00:00",
    "meetings_listed": 10,
    "meetings_read": 10,
    "docs_read": 0,
    "new_mentions": 0,
    "docs_blocked": 3,
-   "last_ok": "2026-11-11T15:44:29+00:00",
-   "seconds": 16
+   "last_ok": "2026-11-12T16:20:51+00:00",
+   "seconds": 15
   },
   "https://committees.westminster.gov.uk": {
    "councils": [
     "Westminster"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:44:32+00:00",
-   "meetings_listed": 16,
-   "meetings_read": 16,
+   "last_run": "2026-11-12T16:20:59+00:00",
+   "meetings_listed": 15,
+   "meetings_read": 15,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:44:56+00:00",
-   "seconds": 24
+   "last_ok": "2026-11-12T16:21:20+00:00",
+   "seconds": 21
   },
   "https://westsussex.moderngov.co.uk": {
    "councils": [
     "West Sussex"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:43:59+00:00",
+   "last_run": "2026-11-12T16:20:22+00:00",
    "meetings_listed": 11,
    "meetings_read": 11,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:44:22+00:00",
-   "seconds": 23
+   "last_ok": "2026-11-12T16:20:39+00:00",
+   "seconds": 17
   },
   "https://democracy.towerhamlets.gov.uk": {
    "councils": [
     "Tower Hamlets"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:47:41+00:00",
-   "meetings_listed": 20,
+   "last_run": "2026-11-12T16:23:59+00:00",
+   "meetings_listed": 19,
    "meetings_read": 19,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:49:25+00:00",
-   "seconds": 105
+   "last_ok": "2026-11-12T16:24:51+00:00",
+   "seconds": 51
   },
   "https://democracy.winchester.gov.uk": {
    "councils": [
     "Winchester"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:44:11+00:00",
+   "last_run": "2026-11-12T16:20:24+00:00",
    "meetings_listed": 11,
    "meetings_read": 10,
    "docs_read": 0,
    "new_mentions": 0,
    "docs_blocked": 1,
-   "last_ok": "2026-11-11T15:44:23+00:00",
+   "last_ok": "2026-11-12T16:20:36+00:00",
    "seconds": 12
   },
   "http://democracy.wigan.gov.uk": {
@@ -3410,33 +3410,33 @@
     "Wigan"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:44:16+00:00",
+   "last_run": "2026-11-12T16:20:42+00:00",
    "meetings_listed": 11,
    "meetings_read": 11,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:44:36+00:00",
-   "seconds": 21
+   "last_ok": "2026-11-12T16:20:59+00:00",
+   "seconds": 17
   },
   "https://westmorlandandfurness.moderngov.co.uk": {
    "councils": [
     "Westmorland and Furness"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:44:34+00:00",
+   "last_run": "2026-11-12T16:21:02+00:00",
    "meetings_listed": 15,
    "meetings_read": 15,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:44:56+00:00",
-   "seconds": 22
+   "last_ok": "2026-11-12T16:21:25+00:00",
+   "seconds": 23
   },
   "https://council.wealden.gov.uk": {
    "councils": [
     "Wealden"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:39:10+00:00",
+   "last_run": "2026-11-12T16:15:42+00:00",
    "meetings_listed": 0,
    "meetings_read": 0,
    "docs_read": 0,
@@ -3450,7 +3450,7 @@
     "Welwyn Hatfield"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:40:22+00:00",
+   "last_run": "2026-11-12T16:16:54+00:00",
    "meetings_listed": 0,
    "meetings_read": 0,
    "docs_read": 0,
@@ -3464,60 +3464,60 @@
     "West Berkshire"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:40:29+00:00",
+   "last_run": "2026-11-12T16:17:00+00:00",
    "meetings_listed": 0,
    "meetings_read": 0,
    "docs_read": 0,
    "new_mentions": 0,
    "error": "ConnectTimeout: HTTPSConnectionPool(host='decisionmaking.westberks.gov.uk', port=443): Max retries exceeded with url: /mgWebService.asmx",
    "last_ok": null,
-   "seconds": 190
+   "seconds": 191
   },
   "https://moderngov.woking.gov.uk": {
    "councils": [
     "Woking"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:44:23+00:00",
+   "last_run": "2026-11-12T16:20:49+00:00",
    "meetings_listed": 9,
    "meetings_read": 9,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:44:43+00:00",
-   "seconds": 20
+   "last_ok": "2026-11-12T16:21:07+00:00",
+   "seconds": 17
   },
   "https://rbwm.moderngov.co.uk": {
    "councils": [
     "Windsor and Maidenhead"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:44:43+00:00",
+   "last_run": "2026-11-12T16:21:07+00:00",
    "meetings_listed": 14,
    "meetings_read": 14,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:45:04+00:00",
-   "seconds": 21
+   "last_ok": "2026-11-12T16:21:25+00:00",
+   "seconds": 19
   },
   "https://committee.worcester.gov.uk": {
    "councils": [
     "Worcester"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:44:47+00:00",
+   "last_run": "2026-11-12T16:21:03+00:00",
    "meetings_listed": 10,
    "meetings_read": 10,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:45:02+00:00",
-   "seconds": 15
+   "last_ok": "2026-11-12T16:21:17+00:00",
+   "seconds": 14
   },
   "https://democracy.westsuffolk.gov.uk": {
    "councils": [
     "West Suffolk"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:40:29+00:00",
+   "last_run": "2026-11-12T16:17:00+00:00",
    "meetings_listed": 0,
    "meetings_read": 0,
    "docs_read": 0,
@@ -3531,168 +3531,168 @@
     "Wyre"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:44:12+00:00",
+   "last_run": "2026-11-12T16:20:34+00:00",
    "meetings_listed": 8,
    "meetings_read": 8,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:44:28+00:00",
-   "seconds": 15
+   "last_ok": "2026-11-12T16:20:44+00:00",
+   "seconds": 9
   },
   "https://worcestershire.moderngov.co.uk": {
    "councils": [
     "Worcestershire"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:46:03+00:00",
+   "last_run": "2026-11-12T16:22:12+00:00",
    "meetings_listed": 18,
    "meetings_read": 18,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:46:47+00:00",
-   "seconds": 44
+   "last_ok": "2026-11-12T16:22:33+00:00",
+   "seconds": 21
   },
   "https://wokingham.moderngov.co.uk": {
    "councils": [
     "Wokingham"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:48:31+00:00",
+   "last_run": "2026-11-12T16:23:48+00:00",
    "meetings_listed": 18,
    "meetings_read": 17,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:49:15+00:00",
-   "seconds": 44
+   "last_ok": "2026-11-12T16:24:25+00:00",
+   "seconds": 37
   },
   "https://democracy.wirral.gov.uk": {
    "councils": [
     "Wirral"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:50:51+00:00",
-   "meetings_listed": 11,
+   "last_run": "2026-11-12T16:25:29+00:00",
+   "meetings_listed": 10,
    "meetings_read": 10,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:51:41+00:00",
-   "seconds": 50
+   "last_ok": "2026-11-12T16:25:47+00:00",
+   "seconds": 18
   },
   "http://democracy.york.gov.uk": {
    "councils": [
     "York"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:53:52+00:00",
+   "last_run": "2026-11-12T16:27:36+00:00",
    "meetings_listed": 31,
    "meetings_read": 30,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:54:25+00:00",
-   "seconds": 33
+   "last_ok": "2026-11-12T16:28:11+00:00",
+   "seconds": 35
   },
   "https://mgov.wychavon.gov.uk": {
    "councils": [
     "Wychavon"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:53:27+00:00",
+   "last_run": "2026-11-12T16:27:09+00:00",
    "meetings_listed": 8,
    "meetings_read": 8,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:53:40+00:00",
-   "seconds": 13
+   "last_ok": "2026-11-12T16:27:36+00:00",
+   "seconds": 27
   },
   "https://wolverhampton.moderngov.co.uk": {
    "councils": [
     "Wolverhampton"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:54:01+00:00",
+   "last_run": "2026-11-12T16:28:29+00:00",
    "meetings_listed": 27,
    "meetings_read": 27,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:56:22+00:00",
-   "seconds": 141
+   "last_ok": "2026-11-12T16:29:24+00:00",
+   "seconds": 56
   },
   "https://cms.wiltshire.gov.uk": {
    "councils": [
     "Wiltshire"
    ],
    "system": "ModernGov",
-   "last_run": "2026-11-11T15:55:00+00:00",
-   "meetings_listed": 23,
+   "last_run": "2026-11-12T16:28:27+00:00",
+   "meetings_listed": 22,
    "meetings_read": 22,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:55:59+00:00",
-   "seconds": 59
+   "last_ok": "2026-11-12T16:29:35+00:00",
+   "seconds": 68
   },
   "https://castlepoint.cmis.uk.com/castlepoint": {
    "councils": [
     "Castle Point"
    ],
    "system": "CMIS",
-   "last_run": "2026-11-11T15:40:53+00:00",
+   "last_run": "2026-11-12T16:17:42+00:00",
    "meetings_listed": 7,
    "meetings_read": 7,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:41:03+00:00",
-   "seconds": 11
+   "last_ok": "2026-11-12T16:17:54+00:00",
+   "seconds": 12
   },
   "http://braintree.cmis.uk.com/braintree": {
    "councils": [
     "Braintree"
    ],
    "system": "CMIS",
-   "last_run": "2026-11-11T15:41:03+00:00",
-   "meetings_listed": 9,
-   "meetings_read": 8,
+   "last_run": "2026-11-12T16:17:44+00:00",
+   "meetings_listed": 10,
+   "meetings_read": 9,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:41:15+00:00",
-   "seconds": 12
+   "last_ok": "2026-11-12T16:17:58+00:00",
+   "seconds": 14
   },
   "http://colchester.cmis.uk.com/colchester": {
    "councils": [
     "Colchester"
    ],
    "system": "CMIS",
-   "last_run": "2026-11-11T15:41:17+00:00",
+   "last_run": "2026-11-12T16:17:54+00:00",
    "meetings_listed": 9,
    "meetings_read": 8,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:41:32+00:00",
-   "seconds": 15
+   "last_ok": "2026-11-12T16:18:10+00:00",
+   "seconds": 16
   },
   "http://cmis.dudley.gov.uk/cmis5": {
    "councils": [
     "Dudley"
    ],
    "system": "CMIS",
-   "last_run": "2026-11-11T15:41:15+00:00",
-   "meetings_listed": 13,
-   "meetings_read": 13,
+   "last_run": "2026-11-12T16:17:58+00:00",
+   "meetings_listed": 14,
+   "meetings_read": 14,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:41:32+00:00",
-   "seconds": 17
+   "last_ok": "2026-11-12T16:18:16+00:00",
+   "seconds": 18
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live": {
    "councils": [
     "Cambridgeshire"
    ],
    "system": "CMIS",
-   "last_run": "2026-11-11T15:41:45+00:00",
+   "last_run": "2026-11-12T16:18:16+00:00",
    "meetings_listed": 12,
    "meetings_read": 12,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:42:03+00:00",
+   "last_ok": "2026-11-12T16:18:34+00:00",
    "seconds": 18
   },
   "https://fylde.cmis.uk.com/fylde": {
@@ -3700,12 +3700,12 @@
     "Fylde"
    ],
    "system": "CMIS",
-   "last_run": "2026-11-11T15:42:54+00:00",
+   "last_run": "2026-11-12T16:19:30+00:00",
    "meetings_listed": 4,
    "meetings_read": 4,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:43:13+00:00",
+   "last_ok": "2026-11-12T16:19:49+00:00",
    "seconds": 19
   },
   "https://democracy.derby.gov.uk": {
@@ -3713,25 +3713,25 @@
     "Derby"
    ],
    "system": "CMIS",
-   "last_run": "2026-11-11T15:42:34+00:00",
+   "last_run": "2026-11-12T16:19:28+00:00",
    "meetings_listed": 29,
    "meetings_read": 29,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:43:09+00:00",
-   "seconds": 35
+   "last_ok": "2026-11-12T16:20:02+00:00",
+   "seconds": 34
   },
   "https://eastsuffolk.cmis.uk.com/eastsuffolk": {
    "councils": [
     "East Suffolk"
    ],
    "system": "CMIS",
-   "last_run": "2026-11-11T15:42:03+00:00",
+   "last_run": "2026-11-12T16:18:40+00:00",
    "meetings_listed": 18,
    "meetings_read": 18,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:42:27+00:00",
+   "last_ok": "2026-11-12T16:19:03+00:00",
    "seconds": 24
   },
   "https://great-yarmouth.cmis.uk.com/great-yarmouth": {
@@ -3739,12 +3739,12 @@
     "Great Yarmouth"
    ],
    "system": "CMIS",
-   "last_run": "2026-11-11T15:41:32+00:00",
+   "last_run": "2026-11-12T16:17:58+00:00",
    "meetings_listed": 6,
    "meetings_read": 6,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:41:43+00:00",
+   "last_ok": "2026-11-12T16:18:10+00:00",
    "seconds": 12
   },
   "https://cmis.harborough.gov.uk/cmis5": {
@@ -3752,12 +3752,12 @@
     "Harborough"
    ],
    "system": "CMIS",
-   "last_run": "2026-11-11T15:41:32+00:00",
+   "last_run": "2026-11-12T16:18:10+00:00",
    "meetings_listed": 8,
    "meetings_read": 7,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:41:45+00:00",
+   "last_ok": "2026-11-12T16:18:21+00:00",
    "seconds": 12
   },
   "https://birmingham.cmis.uk.com/birmingham": {
@@ -3765,51 +3765,51 @@
     "Birmingham"
    ],
    "system": "CMIS",
-   "last_run": "2026-11-11T15:44:35+00:00",
+   "last_run": "2026-11-12T16:21:22+00:00",
    "meetings_listed": 33,
    "meetings_read": 31,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:45:38+00:00",
-   "seconds": 64
+   "last_ok": "2026-11-12T16:22:09+00:00",
+   "seconds": 47
   },
   "http://democracy.luton.gov.uk/cmis5public": {
    "councils": [
     "Luton"
    ],
    "system": "CMIS",
-   "last_run": "2026-11-11T15:42:03+00:00",
+   "last_run": "2026-11-12T16:18:33+00:00",
    "meetings_listed": 12,
    "meetings_read": 10,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:42:17+00:00",
-   "seconds": 14
+   "last_ok": "2026-11-12T16:18:52+00:00",
+   "seconds": 19
   },
   "http://cmis.essex.gov.uk/EssexCmis5": {
    "councils": [
     "Essex"
    ],
    "system": "CMIS",
-   "last_run": "2026-11-11T15:48:08+00:00",
-   "meetings_listed": 18,
-   "meetings_read": 18,
+   "last_run": "2026-11-12T16:23:49+00:00",
+   "meetings_listed": 17,
+   "meetings_read": 17,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:49:17+00:00",
-   "seconds": 70
+   "last_ok": "2026-11-12T16:24:51+00:00",
+   "seconds": 62
   },
   "https://norfolkcc.cmis.uk.com/norfolkcc": {
    "councils": [
     "Norfolk"
    ],
    "system": "CMIS",
-   "last_run": "2026-11-11T15:50:55+00:00",
+   "last_run": "2026-11-12T16:25:26+00:00",
    "meetings_listed": 13,
    "meetings_read": 11,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:51:40+00:00",
+   "last_ok": "2026-11-12T16:26:10+00:00",
    "seconds": 45
   },
   "https://www.nottinghamshire.gov.uk/dms": {
@@ -3817,39 +3817,39 @@
     "Nottinghamshire"
    ],
    "system": "CMIS",
-   "last_run": "2026-11-11T15:37:19+00:00",
+   "last_run": "2026-11-12T16:13:50+00:00",
    "meetings_listed": 0,
    "meetings_read": 0,
    "docs_read": 0,
    "new_mentions": 0,
    "error": "CmisError: no meetings calendar found (last HTTP 404)",
    "last_ok": null,
-   "seconds": 4
+   "seconds": 5
   },
   "https://cmis.norwich.gov.uk/live": {
    "councils": [
     "Norwich"
    ],
    "system": "CMIS",
-   "last_run": "2026-11-11T15:42:41+00:00",
+   "last_run": "2026-11-12T16:19:25+00:00",
    "meetings_listed": 18,
    "meetings_read": 18,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:43:06+00:00",
-   "seconds": 25
+   "last_ok": "2026-11-12T16:19:51+00:00",
+   "seconds": 26
   },
   "https://southstaffs.cmis.uk.com": {
    "councils": [
     "South Staffordshire"
    ],
    "system": "CMIS",
-   "last_run": "2026-11-11T15:41:51+00:00",
+   "last_run": "2026-11-12T16:18:21+00:00",
    "meetings_listed": 8,
    "meetings_read": 8,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:42:03+00:00",
+   "last_ok": "2026-11-12T16:18:33+00:00",
    "seconds": 12
   },
   "https://cmis.hullcc.gov.uk/cmis": {
@@ -3857,33 +3857,33 @@
     "Kingston upon Hull"
    ],
    "system": "CMIS",
-   "last_run": "2026-11-11T15:50:56+00:00",
+   "last_run": "2026-11-12T16:25:46+00:00",
    "meetings_listed": 31,
    "meetings_read": 31,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:52:13+00:00",
-   "seconds": 77
+   "last_ok": "2026-11-12T16:27:09+00:00",
+   "seconds": 83
   },
   "http://south-derbys.cmis.uk.com/south-derbys": {
    "councils": [
     "South Derbyshire"
    ],
    "system": "CMIS",
-   "last_run": "2026-11-11T15:42:28+00:00",
+   "last_run": "2026-11-12T16:19:10+00:00",
    "meetings_listed": 9,
    "meetings_read": 8,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:42:44+00:00",
-   "seconds": 16
+   "last_ok": "2026-11-12T16:19:25+00:00",
+   "seconds": 15
   },
   "https://estates10.warwickdc.gov.uk/cmis": {
    "councils": [
     "Warwick"
    ],
    "system": "CMIS",
-   "last_run": "2026-11-11T15:38:21+00:00",
+   "last_run": "2026-11-12T16:14:52+00:00",
    "meetings_listed": 0,
    "meetings_read": 0,
    "docs_read": 0,
@@ -3897,12 +3897,12 @@
     "Walsall"
    ],
    "system": "CMIS",
-   "last_run": "2026-11-11T15:42:17+00:00",
-   "meetings_listed": 15,
+   "last_run": "2026-11-12T16:18:52+00:00",
+   "meetings_listed": 14,
    "meetings_read": 14,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:42:36+00:00",
+   "last_ok": "2026-11-12T16:19:10+00:00",
    "seconds": 18
   },
   "https://committees.sunderland.gov.uk/committees/cmis5": {
@@ -3910,20 +3910,20 @@
     "Sunderland"
    ],
    "system": "CMIS",
-   "last_run": "2026-11-11T15:43:09+00:00",
+   "last_run": "2026-11-12T16:20:10+00:00",
    "meetings_listed": 24,
    "meetings_read": 24,
    "docs_read": 0,
    "new_mentions": 0,
-   "last_ok": "2026-11-11T15:43:54+00:00",
-   "seconds": 45
+   "last_ok": "2026-11-12T16:20:42+00:00",
+   "seconds": 32
   },
   "https://cmis.warrington.gov.uk/cmis5": {
    "councils": [
     "Warrington"
    ],
    "system": "CMIS",
-   "last_run": "2026-11-11T15:37:33+00:00",
+   "last_run": "2026-11-12T16:14:04+00:00",
    "meetings_listed": 0,
    "meetings_read": 0,
    "docs_read": 0,

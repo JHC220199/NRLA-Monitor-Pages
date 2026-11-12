@@ -1,5 +1,29 @@
 [
  {
+  "date": "2026-11-12T16:07:30+00:00",
+  "ocd_id": 410,
+  "gss": "E07000245",
+  "council": "West Suffolk",
+  "control_changed": true,
+  "summary": "Control: LAB/IND/GRN/LD → LAB/IND min"
+ },
+ {
+  "date": "2026-11-12T16:07:30+00:00",
+  "ocd_id": 408,
+  "gss": "E06000059",
+  "council": "Dorset",
+  "control_changed": true,
+  "summary": "Control: LD → LD min; Seats: LD 42→41, Vacant 0→1"
+ },
+ {
+  "date": "2026-11-12T16:07:30+00:00",
+  "ocd_id": 30,
+  "gss": "E07000170",
+  "council": "Ashfield",
+  "control_changed": false,
+  "summary": "Seats: Oth 31→30, Vacant 0→1"
+ },
+ {
   "date": "2026-11-10T15:43:32+00:00",
   "ocd_id": 27,
   "gss": "E10000034",
