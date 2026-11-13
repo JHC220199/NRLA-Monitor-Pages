@@ -1,5 +1,29 @@
 [
  {
+  "date": "2026-11-13T15:42:22+00:00",
+  "ocd_id": 127,
+  "gss": "E07000044",
+  "council": "South Hams",
+  "control_changed": false,
+  "summary": "Seats: LD 19→18, Vacant 0→1"
+ },
+ {
+  "date": "2026-11-13T15:42:22+00:00",
+  "ocd_id": 349,
+  "gss": "E06000057",
+  "council": "Northumberland",
+  "control_changed": false,
+  "summary": "Seats: Ref 18→17, Oth 8→9"
+ },
+ {
+  "date": "2026-11-13T15:42:22+00:00",
+  "ocd_id": 59,
+  "gss": "E07000040",
+  "council": "East Devon",
+  "control_changed": false,
+  "summary": "Seats: LD 22→21, Vacant 0→1"
+ },
+ {
   "date": "2026-11-12T16:07:30+00:00",
   "ocd_id": 410,
   "gss": "E07000245",

@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T16:07:30+00:00",
+ "generated": "2026-11-13T15:42:22+00:00",
  "source": "Open Council Data UK (opencouncildata.co.uk), CC BY-SA 4.0",
  "count": 318,
  "councils": [
@@ -3168,12 +3168,12 @@
    "seats": {
     "Lab": 0,
     "Con": 12,
-    "LD": 22,
+    "LD": 21,
     "Grn": 3,
     "Ref": 0,
     "Oth": 23
    },
-   "vacant": 0,
+   "vacant": 1,
    "total": 60,
    "control_description": "LD/GRN/IND Majority Coalition",
    "majority_required": 31,
@@ -3193,9 +3193,9 @@
    "lead_party": "LD",
    "status": "Coalition",
    "overall_control": "No overall control",
-   "control_seats": 48,
+   "control_seats": 47,
    "control_seats_approx": true,
-   "working_majority": 36,
+   "working_majority": 35,
    "largest_party": "Oth",
    "opposition": {
     "Con": 12
@@ -7664,8 +7664,8 @@
     "Con": 28,
     "LD": 3,
     "Grn": 2,
-    "Ref": 18,
-    "Oth": 8
+    "Ref": 17,
+    "Oth": 9
    },
    "vacant": 0,
    "total": 69,
@@ -7688,9 +7688,9 @@
    "working_majority": -13,
    "largest_party": "Con",
    "opposition": {
-    "Ref": 18,
+    "Ref": 17,
     "Lab": 10,
-    "Oth": 8,
+    "Oth": 9,
     "LD": 3,
     "Grn": 2
    },
@@ -9388,12 +9388,12 @@
    "seats": {
     "Lab": 1,
     "Con": 7,
-    "LD": 19,
+    "LD": 18,
     "Grn": 3,
     "Ref": 0,
     "Oth": 1
    },
-   "vacant": 0,
+   "vacant": 1,
    "total": 31,
    "control_description": "Lib Dem Majority",
    "majority_required": 16,
@@ -9411,9 +9411,9 @@
    "lead_party": "LD",
    "status": "Majority",
    "overall_control": "Liberal Democrat majority",
-   "control_seats": 19,
+   "control_seats": 18,
    "control_seats_approx": false,
-   "working_majority": 7,
+   "working_majority": 6,
    "largest_party": "LD",
    "opposition": {
     "Con": 7,
