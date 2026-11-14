@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T15:42:22+00:00",
+ "generated": "2026-11-14T14:24:22+00:00",
  "source": "Open Council Data UK (opencouncildata.co.uk), CC BY-SA 4.0",
  "count": 318,
  "councils": [
@@ -89,7 +89,7 @@
   {
    "ocd_id": 29,
    "name": "Arun",
-   "control_label": "LD/LAB/GRN/IND",
+   "control_label": "LD/LAB/IND min",
    "seats": {
     "Lab": 8,
     "Con": 19,
@@ -100,7 +100,7 @@
    },
    "vacant": 0,
    "total": 54,
-   "control_description": "LD/LAB/GRN/IND Majority Coalition",
+   "control_description": "LD/LAB/IND Minority Coalition",
    "majority_required": 28,
    "region": "South East",
    "county": "West Sussex County",
@@ -113,21 +113,21 @@
    "control_parties": [
     "LD",
     "Lab",
-    "Grn",
     "Oth"
    ],
    "lead_party": "LD",
-   "status": "Coalition",
+   "status": "Coalition (minority)",
    "overall_control": "No overall control",
-   "control_seats": 34,
+   "control_seats": 29,
    "control_seats_approx": true,
-   "working_majority": 14,
+   "working_majority": 4,
    "largest_party": "Con",
    "opposition": {
     "Con": 19,
+    "Grn": 5,
     "Ref": 1
    },
-   "opposition_total": 20
+   "opposition_total": 25
   },
   {
    "ocd_id": 30,
@@ -941,10 +941,10 @@
    "seats": {
     "Lab": 20,
     "Con": 10,
-    "LD": 7,
+    "LD": 8,
     "Grn": 3,
     "Ref": 0,
-    "Oth": 1
+    "Oth": 0
    },
    "vacant": 0,
    "total": 41,
@@ -968,9 +968,8 @@
    "largest_party": "Lab",
    "opposition": {
     "Con": 10,
-    "LD": 7,
-    "Grn": 3,
-    "Oth": 1
+    "LD": 8,
+    "Grn": 3
    },
    "opposition_total": 21
   },
@@ -3499,10 +3498,10 @@
    "control_label": "REF min",
    "seats": {
     "Lab": 0,
-    "Con": 3,
+    "Con": 4,
     "LD": 14,
     "Grn": 10,
-    "Ref": 21,
+    "Ref": 20,
     "Oth": 2
    },
    "vacant": 0,
@@ -3522,17 +3521,17 @@
    "lead_party": "Ref",
    "status": "Minority administration",
    "overall_control": "No overall control",
-   "control_seats": 21,
+   "control_seats": 20,
    "control_seats_approx": false,
-   "working_majority": -8,
+   "working_majority": -10,
    "largest_party": "Ref",
    "opposition": {
     "LD": 14,
     "Grn": 10,
-    "Con": 3,
+    "Con": 4,
     "Oth": 2
    },
-   "opposition_total": 29
+   "opposition_total": 30
   },
   {
    "ocd_id": 66,
@@ -5360,9 +5359,9 @@
     "LD": 0,
     "Grn": 0,
     "Ref": 8,
-    "Oth": 2
+    "Oth": 3
    },
-   "vacant": 1,
+   "vacant": 0,
    "total": 35,
    "control_description": "LAB Minority",
    "majority_required": 18,
@@ -5381,14 +5380,14 @@
    "overall_control": "No overall control",
    "control_seats": 16,
    "control_seats_approx": false,
-   "working_majority": -2,
+   "working_majority": -3,
    "largest_party": "Lab",
    "opposition": {
     "Con": 8,
     "Ref": 8,
-    "Oth": 2
+    "Oth": 3
    },
-   "opposition_total": 18
+   "opposition_total": 19
   },
   {
    "ocd_id": 195,
@@ -5957,9 +5956,9 @@
     "Lab": 32,
     "Con": 15,
     "LD": 3,
-    "Grn": 3,
+    "Grn": 4,
     "Ref": 0,
-    "Oth": 1
+    "Oth": 0
    },
    "vacant": 0,
    "total": 54,
@@ -5984,9 +5983,8 @@
    "largest_party": "Lab",
    "opposition": {
     "Con": 15,
-    "LD": 3,
-    "Grn": 3,
-    "Oth": 1
+    "Grn": 4,
+    "LD": 3
    },
    "opposition_total": 22
   },
@@ -7219,10 +7217,10 @@
     "Con": 10,
     "LD": 3,
     "Grn": 0,
-    "Ref": 13,
+    "Ref": 14,
     "Oth": 4
    },
-   "vacant": 2,
+   "vacant": 1,
    "total": 42,
    "control_description": "REF Minority",
    "majority_required": 22,
@@ -7238,9 +7236,9 @@
    "lead_party": "Ref",
    "status": "Minority administration",
    "overall_control": "No overall control",
-   "control_seats": 13,
+   "control_seats": 14,
    "control_seats_approx": false,
-   "working_majority": -14,
+   "working_majority": -13,
    "largest_party": "Ref",
    "opposition": {
     "Lab": 10,
@@ -7904,10 +7902,10 @@
     "Con": 4,
     "LD": 6,
     "Grn": 0,
-    "Ref": 13,
+    "Ref": 14,
     "Oth": 17
    },
-   "vacant": 2,
+   "vacant": 1,
    "total": 60,
    "control_description": "TBC Majority",
    "majority_required": 31,
@@ -7924,15 +7922,15 @@
    "overall_control": "No overall control",
    "control_seats": 17,
    "control_seats_approx": true,
-   "working_majority": -24,
+   "working_majority": -25,
    "largest_party": "Lab",
    "opposition": {
     "Lab": 18,
-    "Ref": 13,
+    "Ref": 14,
     "LD": 6,
     "Con": 4
    },
-   "opposition_total": 41
+   "opposition_total": 42
   },
   {
    "ocd_id": 169,
@@ -9064,7 +9062,7 @@
   {
    "ocd_id": 282,
    "name": "Sheffield",
-   "control_label": "LAB/GRN",
+   "control_label": "LAB min",
    "seats": {
     "Lab": 26,
     "Con": 0,
@@ -9075,7 +9073,7 @@
    },
    "vacant": 0,
    "total": 84,
-   "control_description": "LAB/GRN Majority Coalition",
+   "control_description": "LAB Minority",
    "majority_required": 43,
    "region": "Yorkshire and the Humber",
    "type": "Metropolitan",
@@ -9083,22 +9081,22 @@
    "gss": "E08000039",
    "ocd_url": "https://opencouncildata.co.uk/council.php?c=282&y=0",
    "control_parties": [
-    "Lab",
-    "Grn"
+    "Lab"
    ],
    "lead_party": "Lab",
-   "status": "Coalition",
+   "status": "Minority administration",
    "overall_control": "No overall control",
-   "control_seats": 45,
+   "control_seats": 26,
    "control_seats_approx": false,
-   "working_majority": 6,
+   "working_majority": -32,
    "largest_party": "Lab",
    "opposition": {
     "LD": 22,
+    "Grn": 19,
     "Ref": 11,
     "Oth": 6
    },
-   "opposition_total": 39
+   "opposition_total": 58
   },
   {
    "ocd_id": 354,
@@ -10045,10 +10043,10 @@
     "Con": 21,
     "LD": 1,
     "Grn": 2,
-    "Ref": 1,
+    "Ref": 2,
     "Oth": 11
    },
-   "vacant": 1,
+   "vacant": 0,
    "total": 56,
    "control_description": "LAB Minority",
    "majority_required": 29,
@@ -10068,16 +10066,16 @@
    "overall_control": "No overall control",
    "control_seats": 19,
    "control_seats_approx": false,
-   "working_majority": -17,
+   "working_majority": -18,
    "largest_party": "Con",
    "opposition": {
     "Con": 21,
     "Oth": 11,
     "Grn": 2,
-    "LD": 1,
-    "Ref": 1
+    "Ref": 2,
+    "LD": 1
    },
-   "opposition_total": 36
+   "opposition_total": 37
   },
   {
    "ocd_id": 211,
@@ -10328,13 +10326,13 @@
    "control_label": "REF",
    "seats": {
     "Lab": 3,
-    "Con": 9,
+    "Con": 10,
     "LD": 2,
     "Grn": 13,
     "Ref": 40,
     "Oth": 2
    },
-   "vacant": 1,
+   "vacant": 0,
    "total": 70,
    "control_description": "Reform Majority",
    "majority_required": 36,
@@ -10353,16 +10351,16 @@
    "overall_control": "Reform UK majority",
    "control_seats": 40,
    "control_seats_approx": false,
-   "working_majority": 11,
+   "working_majority": 10,
    "largest_party": "Ref",
    "opposition": {
     "Grn": 13,
-    "Con": 9,
+    "Con": 10,
     "Lab": 3,
     "LD": 2,
     "Oth": 2
    },
-   "opposition_total": 29
+   "opposition_total": 30
   },
   {
    "ocd_id": 287,
@@ -11943,12 +11941,12 @@
    "seats": {
     "Lab": 0,
     "Con": 13,
-    "LD": 14,
+    "LD": 13,
     "Grn": 0,
     "Ref": 0,
     "Oth": 9
    },
-   "vacant": 0,
+   "vacant": 1,
    "total": 36,
    "control_description": "CON/LD/IND Majority Coalition",
    "majority_required": 19,
@@ -11967,10 +11965,10 @@
    "lead_party": "Con",
    "status": "Coalition",
    "overall_control": "No overall control",
-   "control_seats": 36,
+   "control_seats": 35,
    "control_seats_approx": true,
-   "working_majority": 36,
-   "largest_party": "LD",
+   "working_majority": 35,
+   "largest_party": "Con",
    "opposition": {},
    "opposition_total": 0
   },
@@ -12262,14 +12260,14 @@
    "name": "Wigan",
    "control_label": "LAB",
    "seats": {
-    "Lab": 42,
+    "Lab": 43,
     "Con": 0,
     "LD": 0,
     "Grn": 0,
     "Ref": 25,
     "Oth": 7
    },
-   "vacant": 1,
+   "vacant": 0,
    "total": 75,
    "control_description": "Labour Majority",
    "majority_required": 38,
@@ -12284,9 +12282,9 @@
    "lead_party": "Lab",
    "status": "Majority",
    "overall_control": "Labour majority",
-   "control_seats": 42,
+   "control_seats": 43,
    "control_seats_approx": false,
-   "working_majority": 10,
+   "working_majority": 11,
    "largest_party": "Lab",
    "opposition": {
     "Ref": 25,

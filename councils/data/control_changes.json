@@ -1,5 +1,101 @@
 [
  {
+  "date": "2026-11-14T14:24:22+00:00",
+  "ocd_id": 292,
+  "gss": "E08000010",
+  "council": "Wigan",
+  "control_changed": false,
+  "summary": "Seats: Lab 42→43, Vacant 1→0"
+ },
+ {
+  "date": "2026-11-14T14:24:22+00:00",
+  "ocd_id": 160,
+  "gss": "E07000142",
+  "council": "West Lindsey",
+  "control_changed": false,
+  "summary": "Seats: LD 14→13, Vacant 0→1"
+ },
+ {
+  "date": "2026-11-14T14:24:22+00:00",
+  "ocd_id": 23,
+  "gss": "E10000029",
+  "council": "Suffolk",
+  "control_changed": false,
+  "summary": "Seats: Con 9→10, Vacant 1→0"
+ },
+ {
+  "date": "2026-11-14T14:24:22+00:00",
+  "ocd_id": 139,
+  "gss": "E07000198",
+  "council": "Staffordshire Moorlands",
+  "control_changed": false,
+  "summary": "Seats: Ref 1→2, Vacant 1→0"
+ },
+ {
+  "date": "2026-11-14T14:24:22+00:00",
+  "ocd_id": 282,
+  "gss": "E08000039",
+  "council": "Sheffield",
+  "control_changed": true,
+  "summary": "Control: LAB/GRN → LAB min"
+ },
+ {
+  "date": "2026-11-14T14:24:22+00:00",
+  "ocd_id": 276,
+  "gss": "E08000004",
+  "council": "Oldham",
+  "control_changed": false,
+  "summary": "Seats: Ref 13→14, Vacant 2→1"
+ },
+ {
+  "date": "2026-11-14T14:24:22+00:00",
+  "ocd_id": 371,
+  "gss": "E06000012",
+  "council": "North East Lincolnshire",
+  "control_changed": false,
+  "summary": "Seats: Ref 13→14, Vacant 2→1"
+ },
+ {
+  "date": "2026-11-14T14:24:22+00:00",
+  "ocd_id": 343,
+  "gss": "E06000016",
+  "council": "Leicester",
+  "control_changed": false,
+  "summary": "Seats: Grn 3→4, Oth 1→0"
+ },
+ {
+  "date": "2026-11-14T14:24:22+00:00",
+  "ocd_id": 194,
+  "gss": "E07000120",
+  "council": "Hyndburn",
+  "control_changed": false,
+  "summary": "Seats: Oth 2→3, Vacant 1→0"
+ },
+ {
+  "date": "2026-11-14T14:24:22+00:00",
+  "ocd_id": 7,
+  "gss": "E10000011",
+  "council": "East Sussex",
+  "control_changed": false,
+  "summary": "Seats: Con 3→4, Ref 21→20"
+ },
+ {
+  "date": "2026-11-14T14:24:22+00:00",
+  "ocd_id": 331,
+  "gss": "E06000036",
+  "council": "Bracknell Forest",
+  "control_changed": false,
+  "summary": "Seats: LD 7→8, Oth 1→0"
+ },
+ {
+  "date": "2026-11-14T14:24:22+00:00",
+  "ocd_id": 29,
+  "gss": "E07000224",
+  "council": "Arun",
+  "control_changed": true,
+  "summary": "Control: LD/LAB/GRN/IND → LD/LAB/IND min"
+ },
+ {
   "date": "2026-11-13T15:42:22+00:00",
   "ocd_id": 127,
   "gss": "E07000044",

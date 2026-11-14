@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-13T16:17:12+00:00",
- "count": 129,
+ "generated": "2026-11-14T14:57:40+00:00",
+ "count": 133,
  "mentions": [
   {
    "id": "https://committees.oldham.gov.uk|10135|Acceptance of GMCA Housing Enforcement Grants|agenda",
@@ -615,6 +615,56 @@
    "first_seen": "2026-11-05T20:41:25+00:00"
   },
   {
+   "id": "https://democratic.trafford.gov.uk|4229|Renters Rights Act and other related responsibilities|55503",
+   "councils": [
+    {
+     "name": "Trafford",
+     "gss": "E08000009"
+    }
+   ],
+   "committee": "Council",
+   "meeting_date": "2026-10-14",
+   "meeting_url": "https://democratic.trafford.gov.uk/ieListDocuments.aspx?MId=4229",
+   "item_number": "26.",
+   "item_title": "Renters Rights Act and other related responsibilities",
+   "doc_title": "Appendix 2 - Trafford Council Policy on Civil Penalties under the Renters’ Rights Act 2025 et al",
+   "doc_url": "https://democratic.trafford.gov.uk/mgConvert2PDF.aspx?ID=55503",
+   "source": "report",
+   "tier": "strong",
+   "hit_count": 2,
+   "terms": [
+    "selective licenc"
+   ],
+   "stage": "Mention",
+   "snippet": "…ent Notice under section 30 of the Housing Act 2004; • Contravention of an overcrowding notice under section 139 of the Housing Act 2004; • Failure to obtain a selective licence under section 95 of the Housing Act 2004; • Failure to obtain an HMO licence under section 72 of the Housing Act 2004; • Knowingly permitting over-occupation of an HMO under section 72 of the Housing Act 2004; • Failure to…",
+   "first_seen": "2026-11-14T14:31:02+00:00"
+  },
+  {
+   "id": "https://democratic.trafford.gov.uk|4229|Renters Rights Act and other related responsibilities|55502",
+   "councils": [
+    {
+     "name": "Trafford",
+     "gss": "E08000009"
+    }
+   ],
+   "committee": "Council",
+   "meeting_date": "2026-10-14",
+   "meeting_url": "https://democratic.trafford.gov.uk/ieListDocuments.aspx?MId=4229",
+   "item_number": "26.",
+   "item_title": "Renters Rights Act and other related responsibilities",
+   "doc_title": "Appendix 1 - Renters' Rights Enforcement Policy",
+   "doc_url": "https://democratic.trafford.gov.uk/mgConvert2PDF.aspx?ID=55502",
+   "source": "report",
+   "tier": "strong",
+   "hit_count": 1,
+   "terms": [
+    "selective licens"
+   ],
+   "stage": "Mention",
+   "snippet": "…Notice [s30 Housing Act 2004] • Offences in relation to licensing of Houses in Multiple Occupation (HMOs) [s72 Housing Act 2004] • Offences in relation to the Selective Licensing of ‘houses’ [s95 Housing Act 2004] • Failure to comply with an Overcrowding Notice [s139 Housing Act 2004] • Failure to comply with a management regulation in respect of an HMO [s234 Housing Act 2004] • Offences in relat…",
+   "first_seen": "2026-11-14T14:31:00+00:00"
+  },
+  {
    "id": "https://democracy.melton.gov.uk|2788|Houses in Multiple Occupation update|32913",
    "councils": [
     {
@@ -1122,6 +1172,56 @@
    "stage": "Mention",
    "snippet": "Private Sector Licensing (Additional & Selective Licensing Schemes) | Report | Appendix A | Appendix B | Appendix C | Appendix D | Appendix E | Appendix F | Appendix G | Addendum Report",
    "first_seen": "2026-11-05T21:10:23+00:00"
+  },
+  {
+   "id": "https://democratic.trafford.gov.uk|4158|Renters Rights Act and other related responsibilities|55335",
+   "councils": [
+    {
+     "name": "Trafford",
+     "gss": "E08000009"
+    }
+   ],
+   "committee": "Executive",
+   "meeting_date": "2026-09-21",
+   "meeting_url": "https://democratic.trafford.gov.uk/ieListDocuments.aspx?MId=4158",
+   "item_number": "11.",
+   "item_title": "Renters Rights Act and other related responsibilities",
+   "doc_title": "Policy on Civil Penalties under the Renters’ Rights Act 2025 & other housing legislation",
+   "doc_url": "https://democratic.trafford.gov.uk/mgConvert2PDF.aspx?ID=55335",
+   "source": "report",
+   "tier": "strong",
+   "hit_count": 2,
+   "terms": [
+    "selective licenc"
+   ],
+   "stage": "Mention",
+   "snippet": "…ent Notice under section 30 of the Housing Act 2004; • Contravention of an overcrowding notice under section 139 of the Housing Act 2004; • Failure to obtain a selective licence under section 95 of the Housing Act 2004; • Failure to obtain an HMO licence under section 72 of the Housing Act 2004; • Knowingly permitting over-occupation of an HMO under section 72 of the Housing Act 2004; • Failure to…",
+   "first_seen": "2026-11-14T14:31:15+00:00"
+  },
+  {
+   "id": "https://democratic.trafford.gov.uk|4158|Renters Rights Act and other related responsibilities|55334",
+   "councils": [
+    {
+     "name": "Trafford",
+     "gss": "E08000009"
+    }
+   ],
+   "committee": "Executive",
+   "meeting_date": "2026-09-21",
+   "meeting_url": "https://democratic.trafford.gov.uk/ieListDocuments.aspx?MId=4158",
+   "item_number": "11.",
+   "item_title": "Renters Rights Act and other related responsibilities",
+   "doc_title": "Renters' Rights Enforcement Policy",
+   "doc_url": "https://democratic.trafford.gov.uk/mgConvert2PDF.aspx?ID=55334",
+   "source": "report",
+   "tier": "strong",
+   "hit_count": 1,
+   "terms": [
+    "selective licens"
+   ],
+   "stage": "Mention",
+   "snippet": "…Notice [s30 Housing Act 2004] • Offences in relation to licensing of Houses in Multiple Occupation (HMOs) [s72 Housing Act 2004] • Offences in relation to the Selective Licensing of ‘houses’ [s95 Housing Act 2004] • Failure to comply with an Overcrowding Notice [s139 Housing Act 2004] • Failure to comply with a management regulation in respect of an HMO [s234 Housing Act 2004] • Offences in relat…",
+   "first_seen": "2026-11-14T14:31:13+00:00"
   },
   {
    "id": "https://cmis.norwich.gov.uk/live|1731|REG/26/001 - Consultation on Discretionary Property Licensing of Private Rented |cmis:49888994fe69dafe",
