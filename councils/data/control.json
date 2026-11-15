@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-14T14:24:22+00:00",
+ "generated": "2026-11-15T14:54:42+00:00",
  "source": "Open Council Data UK (opencouncildata.co.uk), CC BY-SA 4.0",
  "count": 318,
  "councils": [
@@ -11694,11 +11694,11 @@
    "control_label": "LD/IND/GRN",
    "seats": {
     "Lab": 0,
-    "Con": 10,
+    "Con": 9,
     "LD": 24,
     "Grn": 1,
     "Ref": 0,
-    "Oth": 14
+    "Oth": 15
    },
    "vacant": 1,
    "total": 50,
@@ -11720,14 +11720,14 @@
    "lead_party": "LD",
    "status": "Coalition",
    "overall_control": "No overall control",
-   "control_seats": 39,
+   "control_seats": 40,
    "control_seats_approx": true,
-   "working_majority": 29,
+   "working_majority": 31,
    "largest_party": "LD",
    "opposition": {
-    "Con": 10
+    "Con": 9
    },
-   "opposition_total": 10
+   "opposition_total": 9
   },
   {
    "ocd_id": 157,

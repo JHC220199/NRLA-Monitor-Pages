@@ -1,5 +1,13 @@
 [
  {
+  "date": "2026-11-15T14:54:42+00:00",
+  "ocd_id": 156,
+  "gss": "E07000216",
+  "council": "Waverley",
+  "control_changed": false,
+  "summary": "Seats: Con 10→9, Oth 14→15"
+ },
+ {
   "date": "2026-11-14T14:24:22+00:00",
   "ocd_id": 292,
   "gss": "E08000010",
