@@ -1,7 +1,92 @@
 {
- "generated": "2026-11-15T15:28:03+00:00",
- "count": 133,
+ "generated": "2026-11-16T17:49:36+00:00",
+ "count": 136,
  "mentions": [
+  {
+   "id": "https://democracy.brent.gov.uk|8843|Private Rented Sector (PRS)|161963",
+   "councils": [
+    {
+     "name": "Brent",
+     "gss": "E09000005"
+    }
+   ],
+   "committee": "Brent Housing Scrutiny Committee",
+   "meeting_date": "2026-11-24",
+   "meeting_url": "https://democracy.brent.gov.uk/ieListDocuments.aspx?MId=8843",
+   "item_number": "7.",
+   "item_title": "Private Rented Sector (PRS)",
+   "doc_title": "7e. Appendix 5- Licensing Communication Operational plan",
+   "doc_url": "http://democracy.brent.gov.uk/mgConvert2PDF.aspx?ID=161963",
+   "source": "report",
+   "tier": "strong",
+   "hit_count": 6,
+   "terms": [
+    "additional hmo licensing",
+    "landlord licensing",
+    "selective licenc"
+   ],
+   "stage": "Early proposal",
+   "snippet": "Campaign business case (2026/27): Landlord licensing Cabinet Member sponsor Cllr Robert Johnson Corporate Director sponsor Tom Cattermole Service area and lead Private Housing Services Triza Handa Spencer Randolph Purpose and background All rented properties in Brent must n…",
+   "first_seen": "2026-11-16T17:31:03+00:00"
+  },
+  {
+   "id": "https://democracy.brent.gov.uk|8843|Private Rented Sector (PRS)|161962",
+   "councils": [
+    {
+     "name": "Brent",
+     "gss": "E09000005"
+    }
+   ],
+   "committee": "Brent Housing Scrutiny Committee",
+   "meeting_date": "2026-11-24",
+   "meeting_url": "https://democracy.brent.gov.uk/ieListDocuments.aspx?MId=8843",
+   "item_number": "7.",
+   "item_title": "Private Rented Sector (PRS)",
+   "doc_title": "7d. Appendix 4 - Licensing Communication Engagement Strategy",
+   "doc_url": "http://democracy.brent.gov.uk/mgConvert2PDF.aspx?ID=161962",
+   "source": "report",
+   "tier": "strong",
+   "hit_count": 6,
+   "terms": [
+    "property licensing",
+    "selective licenc",
+    "selective licens"
+   ],
+   "stage": "Mention",
+   "snippet": "Communications Plan Borough-wide selective licensing in Brent 2024 COMMUNICATIONS COMMUNICATIONS – OFFICIAL SENSITIVE UNCLASSIFIED 2 Campaign objectives To generate 20,000 selective licensing applications between 1 April 2024 and 31 March 2025 To generate 40,000 selective…",
+   "first_seen": "2026-11-16T17:31:02+00:00"
+  },
+  {
+   "id": "https://democracy.brent.gov.uk|8843|Private Rented Sector (PRS)|161958",
+   "councils": [
+    {
+     "name": "Brent",
+     "gss": "E09000005"
+    }
+   ],
+   "committee": "Brent Housing Scrutiny Committee",
+   "meeting_date": "2026-11-24",
+   "meeting_url": "https://democracy.brent.gov.uk/ieListDocuments.aspx?MId=8843",
+   "item_number": "7.",
+   "item_title": "Private Rented Sector (PRS)",
+   "doc_title": "7. Private Rented Sector Report",
+   "doc_url": "http://democracy.brent.gov.uk/mgConvert2PDF.aspx?ID=161958",
+   "source": "report",
+   "tier": "strong",
+   "hit_count": 15,
+   "terms": [
+    "additional hmo licensing",
+    "discretionary licensing",
+    "landlord licensing",
+    "licensing designation",
+    "property licensing",
+    "property licensing scheme",
+    "selective licens"
+   ],
+   "stage": "Early proposal",
+   "snippet": "…legislation provides councils with powers to identify and address poor housing conditions, overcrowding and non-compliant landlords. 5.3 Brent first introduced discretionary licensing schemes in 2015 and in April 2024, introduced a new borough-wide licensing framework in response to concerns about poor housing standards, overcrowding, unsafe Houses in Multiple Occupation (HMOs) and poor property m…",
+   "first_seen": "2026-11-16T17:30:53+00:00"
+  },
   {
    "id": "https://committees.oldham.gov.uk|10135|Acceptance of GMCA Housing Enforcement Grants|agenda",
    "councils": [

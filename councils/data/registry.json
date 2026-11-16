@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T17:44:08+00:00",
+ "generated": "2026-11-16T17:16:43+00:00",
  "count": 318,
  "sources": {
   "open_council_data": "https://opencouncildata.co.uk/councils.php?model=E&y=0",
@@ -1785,7 +1785,7 @@
    "ocd_id": 106,
    "ocd_name": "North East Derbyshire",
    "system": "ModernGov",
-   "democracy_url": "https://democracy.ne-derbyshire.gov.uk"
+   "democracy_url": "https://ne-derbyshire.moderngov.co.uk"
   },
   "E06000012": {
    "gss": "E06000012",
